@@ -19,7 +19,6 @@ meta:
 .index-page {
   width: 100%;
   min-height: 100vh;
-  background-image: url('../assets/images/pic_banner.png');
   background-size: cover;
   background-position: center center;
 }
