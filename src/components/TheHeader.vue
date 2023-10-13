@@ -15,7 +15,7 @@
             :key="item.id"
             class="nav-link-title"
             @mouseover="iSCheck(index)"
-            @mouseout="UnCheck()"
+            @mouseout="UnCheck(index)"
           >
             <router-link
               class="router_link"
@@ -32,6 +32,12 @@
         </div>
       </div>
     </div>
+    <TheHeaderInfo
+      v-if="MenuFlag"
+      :menudata="MenuData"
+      @mouseover="BlockMenu(true, 0)"
+      @mouseleave="BlockMenu(false, 0)"
+    />
   </nav>
 </template>
 
@@ -42,6 +48,13 @@ interface NavLink {
   id: number
   title: string
   href: string
+}
+
+interface MenuItems {
+  id: number
+  title: string
+  href: string
+  align: string
 }
 
 const props = defineProps<{
@@ -57,15 +70,61 @@ const NavLinkArray = ref<NavLink[]>([
   { id: 4, title: '採用情報', href: '/' },
   { id: 5, title: 'アクセス', href: '/' }
 ])
+const MenuData = ref<MenuItems[]>()
+const MenuDataInformation = ref<MenuItems[]>([
+  { id: 1, title: '企業理念経営方針', href: '/', align: 'left' },
+  { id: 2, title: '社長挨拶', href: '/', align: 'center' },
+  { id: 3, title: '会社概要', href: '/', align: 'right' },
+  { id: 4, title: 'イベント情報', href: '/', align: 'left' }
+])
+
+const MenuDataOutline = ref<MenuItems[]>([
+  { id: 1, title: 'Siサービス事業', href: '/', align: 'left' },
+  { id: 2, title: 'データソリューション', href: '/', align: 'center' },
+  { id: 3, title: 'インフラ事業', href: '/', align: 'right' },
+  { id: 4, title: 'ヘルスケア事業', href: '/', align: 'left' }
+])
+const MenuDataRecruit = ref<MenuItems[]>([
+  { id: 1, title: 'MOVIE', href: '/', align: 'left' },
+  { id: 2, title: '新卒採用', href: '/', align: 'center' },
+  { id: 3, title: 'キャリア採用', href: '/', align: 'right' },
+  { id: 4, title: '採用の流れ', href: '/', align: 'left' },
+  { id: 5, title: 'FAQよくあるご質問', href: '/', align: 'center' },
+  { id: 6, title: 'キャリア採社員インタビュー用', href: '/', align: 'right' }
+])
+
+const MenuFlag = ref<boolean>(false)
 
 const NavLine = ref<HTMLElement>()
 const NavLineLeft = ref<number>(98)
+function BlockMenu(flag: boolean, index: number) {
+  MenuFlag.value = flag
+  if (!(index === 1 || index === 2 || index === 3)) {
+    NavLine.value!.style.left = `${NavLineLeft.value * index}px`
+  }
+}
 function iSCheck(index: number) {
   NavLine.value!.style.left = `${NavLineLeft.value * index}px`
+  if (index === 1 || index === 2 || index === 3) {
+    BlockMenu(true, index)
+    if (index === 1) {
+      MenuData.value = MenuDataInformation.value
+    } else if (index === 2) {
+      MenuData.value = MenuDataOutline.value
+    } else if (index === 3) {
+      MenuData.value = MenuDataRecruit.value
+    }
+  } else {
+    BlockMenu(false, index)
+  }
 }
-function UnCheck() {
-  // console.log(false)
-  NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
+function UnCheck(index: number) {
+  if (index === 1 || index === 2 || index === 3) {
+    BlockMenu(true, index)
+  } else {
+    BlockMenu(false, index)
+    NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
+  }
 }
 </script>
 
