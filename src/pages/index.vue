@@ -6,8 +6,7 @@ defineOptions({
 
 <template>
   <div class="index-page">
-    <TheCounter :initial="123"></TheCounter>
-    IndexPage
+    <TheHeader :checked="0" />
   </div>
 </template>
 
@@ -15,3 +14,13 @@ defineOptions({
 meta:
   layout: home
 </route>
+
+<style scoped>
+.index-page {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../assets/images/pic_banner.png');
+  background-size: cover;
+  background-position: center center;
+}
+</style>

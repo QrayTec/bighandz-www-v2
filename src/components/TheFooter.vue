@@ -1,59 +1,106 @@
+<template>
+  <div class="footer-main">
+    <div class="footer-content">
+      <div class="footer_logo">
+        <router-link to="/">
+          <img
+            src="../assets/images/logo.svg"
+            alt="logo"
+        /></router-link>
+      </div>
+      <div class="footer_nav">
+        <div
+          v-for="item in NavData"
+          :key="item.id"
+          class="footer_NavLink"
+        >
+          <div class="footer_NavLink_line"></div>
+          <div class="footer_Link">
+            <router-link :to="item.href">{{ item.title }}</router-link>
+          </div>
+        </div>
+        <div class="footer_NavLink_line"></div>
+      </div>
+      <div class="footer_title">
+        Copyright © BigHandz Co.Ltd. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</template>
+
 <script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-import { availableLocales, loadLanguageAsync } from '~/modules/i18n'
+import { ref } from 'vue'
 
-const { t, locale } = useI18n()
-
-async function toggleLocales() {
-  // change to some real logic
-  const locales = availableLocales
-  const newLocale =
-    locales[(locales.indexOf(locale.value) + 1) % locales.length]
-  await loadLanguageAsync(newLocale)
-  locale.value = newLocale
+interface FooterNavData {
+  id: number
+  title: string
+  href: string
 }
+
+const NavData = ref<FooterNavData[]>([
+  { id: 1, title: 'ホーム', href: '/' },
+  { id: 1, title: 'プライバシーポリシー', href: '/' },
+  { id: 1, title: '個人情報の取扱いについて', href: '/' }
+])
 </script>
 
-<template>
-  <nav
-    flex="~ gap-4"
-    mt-6
-    justify-center
-    text-xl
-  >
-    <RouterLink
-      icon-btn
-      to="/"
-      :title="t('button.home')"
-    >
-      <div i-carbon-campsite />
-    </RouterLink>
-
-    <a
-      icon-btn
-      :title="t('button.toggle_langs')"
-      @click="toggleLocales()"
-    >
-      <div i-carbon-language />
-    </a>
-
-    <RouterLink
-      icon-btn
-      to="/about"
-      :title="t('button.about')"
-      data-test-id="about"
-    >
-      <div i-carbon-dicom-overlay />
-    </RouterLink>
-
-    <a
-      icon-btn
-      rel="noreferrer"
-      href="https://github.com/antfu/vitesse"
-      target="_blank"
-      title="GitHub"
-    >
-      <div i-carbon-logo-github />
-    </a>
-  </nav>
-</template>
+<style>
+.footer-main {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #09122e;
+  color: #fff;
+}
+.footer-content {
+  width: 1200px;
+  height: 100%;
+  padding: 41px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_logo {
+  widows: 68px;
+  height: 68px;
+}
+.footer_title {
+  width: 350px;
+  height: 22px;
+  color: #fff;
+  text-align: right;
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* 导航栏文字 */
+  font-family: Noto Sans JP;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer_nav {
+  width: 500px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 120px;
+}
+.footer_NavLink_line {
+  width: 1px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.footer_Link {
+  color: #fff;
+  font-size: 15px;
+  margin: 0px 20px;
+}
+.footer_NavLink {
+  min-width: 86px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+</style>
