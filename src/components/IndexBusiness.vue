@@ -150,10 +150,10 @@
 <style scoped>
 .index_Business {
   width: 100%;
-  height: 1260px;
+  height: 1030px;
   display: flex;
   justify-content: center;
-  background: linear-gradient(0deg, #0e1b47 0%, #2e4a9e 100%);
+  background: linear-gradient(0deg, #111f4e 0%, #2e4a9e 100%);
 }
 .Business_Content {
   width: 1200px;
@@ -315,14 +315,14 @@
   padding: 40px;
   display: block;
   position: relative;
-  transition: padding 0.5s, opacity 0.5s; /* 添加过渡效果 */
+  transition: padding 0.8s, opacity 0.8s; /* 添加过渡效果 */
 }
 
 .Business_Items_vertical:hover .Business_Items_Hover,
 .Business_Items_square:hover .Business_Items_Hover,
 .Business_Items_horizontal:hover .Business_Items_Hover {
   opacity: 0.8;
-  transition: opacity 0.5s; /* 添加透明度过渡 */
+  transition: opacity 0.8s; /* 添加透明度过渡 */
 }
 
 .Business_Items_vertical:hover .Business_Items_1,
@@ -332,7 +332,7 @@
   display: flex;
   flex-wrap: nowrap;
   text-align: left;
-  transition: all 0.5s; /* 添加所有属性的过渡效果 */
+  transition: all 0.8s; /* 添加所有属性的过渡效果 */
 }
 
 .Business_Items_vertical:hover .Business_Items_title,
@@ -340,7 +340,7 @@
 .Business_Items_horizontal:hover .Business_Items_title {
   margin-top: 0px;
   margin-left: 10px;
-  transition: all 0.5s; /* 添加所有属性的过渡效果 */
+  transition: all 0.8s; /* 添加所有属性的过渡效果 */
 }
 
 /* 悬停时的通用样式 */

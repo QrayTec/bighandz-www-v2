@@ -9,6 +9,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     IndexBusiness: typeof import('./components/IndexBusiness.vue')['default']
     IndexCustomers: typeof import('./components/IndexCustomers.vue')['default']
+    IndexField: typeof import('./components/IndexField.vue')['default']
     IndexFirst: typeof import('./components/IndexFirst.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

@@ -169,7 +169,7 @@ function UnCheck(index: number) {
   background-color: #597be5;
   position: absolute;
   bottom: 0px;
-  transition: left 0.5s;
+  transition: left 0.8s;
 }
 .router_link {
   width: 100%;
