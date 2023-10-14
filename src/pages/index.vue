@@ -14,6 +14,7 @@ defineOptions({
     <main>
       <div class="index_main">
         <IndexFirst />
+        <IndexBusiness />
         <IndexCustomers />
       </div>
     </main>
