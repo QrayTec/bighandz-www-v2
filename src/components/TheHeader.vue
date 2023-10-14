@@ -7,7 +7,8 @@
             <img
               src="../assets/images/logo.svg"
               alt="logo"
-          /></router-link>
+            />
+          </router-link>
         </div>
         <div class="nav-link">
           <div
@@ -20,11 +21,9 @@
             <router-link
               class="router_link"
               to="/"
+              >{{ item.title }}</router-link
             >
-              {{ item.title }}
-            </router-link>
           </div>
-
           <div
             ref="NavLine"
             class="nav-link-line"
@@ -35,8 +34,9 @@
     <TheHeaderInfo
       v-if="MenuFlag"
       :menudata="MenuData"
-      @mouseover="BlockMenu(true, 0)"
-      @mouseleave="BlockMenu(false, 0)"
+      :menuindex="MenuIndex"
+      @mouseenter="BlockMenu(true, LineIndex)"
+      @mouseleave="BlockMenu(false, LineIndex)"
     />
   </nav>
 </template>
@@ -57,9 +57,7 @@ interface MenuItems {
   align: string
 }
 
-const props = defineProps<{
-  checked: number
-}>()
+const props = defineProps<{ checked: number }>()
 
 const checked = ref<number>(props.checked)
 
@@ -70,59 +68,64 @@ const NavLinkArray = ref<NavLink[]>([
   { id: 4, title: '採用情報', href: '/' },
   { id: 5, title: 'アクセス', href: '/' }
 ])
-const MenuData = ref<MenuItems[]>()
-const MenuDataInformation = ref<MenuItems[]>([
-  { id: 1, title: '企業理念経営方針', href: '/', align: 'left' },
-  { id: 2, title: '社長挨拶', href: '/', align: 'center' },
-  { id: 3, title: '会社概要', href: '/', align: 'right' },
-  { id: 4, title: 'イベント情報', href: '/', align: 'left' }
-])
+const MenuData = ref<MenuItems[]>([])
 
-const MenuDataOutline = ref<MenuItems[]>([
-  { id: 1, title: 'Siサービス事業', href: '/', align: 'left' },
-  { id: 2, title: 'データソリューション', href: '/', align: 'center' },
-  { id: 3, title: 'インフラ事業', href: '/', align: 'right' },
-  { id: 4, title: 'ヘルスケア事業', href: '/', align: 'left' }
-])
-const MenuDataRecruit = ref<MenuItems[]>([
-  { id: 1, title: 'MOVIE', href: '/', align: 'left' },
-  { id: 2, title: '新卒採用', href: '/', align: 'center' },
-  { id: 3, title: 'キャリア採用', href: '/', align: 'right' },
-  { id: 4, title: '採用の流れ', href: '/', align: 'left' },
-  { id: 5, title: 'FAQよくあるご質問', href: '/', align: 'center' },
-  { id: 6, title: 'キャリア採社員インタビュー用', href: '/', align: 'right' }
-])
+const menus = [
+  [
+    { id: 1, title: '企業理念経営方針', href: '/', align: 'left' },
+    { id: 2, title: '社長挨拶', href: '/', align: 'center' },
+    { id: 3, title: '会社概要', href: '/', align: 'right' },
+    { id: 4, title: 'イベント情報', href: '/', align: 'left' }
+  ],
+  [
+    { id: 1, title: 'Siサービス事業', href: '/', align: 'left' },
+    { id: 2, title: 'データソリューション', href: '/', align: 'center' },
+    { id: 3, title: 'インフラ事業', href: '/', align: 'right' },
+    { id: 4, title: 'ヘルスケア事業', href: '/', align: 'left' }
+  ],
+  [
+    { id: 1, title: 'MOVIE', href: '/', align: 'left' },
+    { id: 2, title: '新卒採用', href: '/', align: 'center' },
+    { id: 3, title: 'キャリア採用', href: '/', align: 'right' },
+    { id: 4, title: '採用の流れ', href: '/', align: 'left' },
+    { id: 5, title: 'FAQよくあるご質問', href: '/', align: 'center' },
+    { id: 6, title: 'キャリア採社員インタビュー用', href: '/', align: 'right' }
+  ]
+]
 
 const MenuFlag = ref<boolean>(false)
-
+const MenuIndex = ref<number>(0)
 const NavLine = ref<HTMLElement>()
 const NavLineLeft = ref<number>(98)
+const LineIndex = ref<number>()
+
 function BlockMenu(flag: boolean, index: number) {
   MenuFlag.value = flag
-  if (!(index === 1 || index === 2 || index === 3)) {
+  if (flag) {
     NavLine.value!.style.left = `${NavLineLeft.value * index}px`
   }
+  if (!flag && (index === 1 || index === 2 || index === 3)) {
+    NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
+  }
 }
+
 function iSCheck(index: number) {
   NavLine.value!.style.left = `${NavLineLeft.value * index}px`
   if (index === 1 || index === 2 || index === 3) {
     BlockMenu(true, index)
-    if (index === 1) {
-      MenuData.value = MenuDataInformation.value
-    } else if (index === 2) {
-      MenuData.value = MenuDataOutline.value
-    } else if (index === 3) {
-      MenuData.value = MenuDataRecruit.value
-    }
-  } else {
+    MenuData.value = menus[index - 1]
+    MenuIndex.value = index - 1
+  } else if (index === 4) {
     BlockMenu(false, index)
   }
 }
+
 function UnCheck(index: number) {
+  LineIndex.value = index
+
   if (index === 1 || index === 2 || index === 3) {
     BlockMenu(true, index)
   } else {
-    BlockMenu(false, index)
     NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
   }
 }
@@ -155,10 +158,8 @@ function UnCheck(index: number) {
   justify-content: center;
   color: #fff;
   text-align: center;
-  /* 导航栏文字 */
   font-family: Noto Sans JP;
   font-size: 15px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }

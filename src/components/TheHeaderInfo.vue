@@ -3,10 +3,12 @@
     <div class="Menu_Content">
       <div class="Menu_title_Main">
         <img
-          src="../assets/images/menu/information.svg"
+          :src="
+            'src/assets/images/menu/' + MenuDataTitle[MenuIndex].src + '.svg'
+          "
           alt=""
         />
-        <div class="Menu_title">企業情報</div>
+        <div class="Menu_title">{{ MenuDataTitle[MenuIndex].title }}</div>
       </div>
       <div class="Menu_Items">
         <div
@@ -31,12 +33,25 @@ interface Menu_Items {
   href: string
   align: string
 }
+interface MenuTitle {
+  id: number
+  title: string
+  src: string
+}
 
 const props = defineProps<{
   menudata: Menu_Items
+  menuindex: number
 }>()
 
-const { menudata } = toRefs(props)
+const { menudata, menuindex } = toRefs(props)
+
+const MenuDataTitle = ref<MenuTitle[]>([
+  { id: 1, title: '企業情報', src: 'information' },
+  { id: 2, title: '事業概要', src: 'outline' },
+  { id: 3, title: '採用情報', src: 'recruit' }
+])
+const MenuIndex = menuindex
 </script>
 
 <style>
