@@ -6,10 +6,16 @@ defineOptions({
 
 <template>
   <div class="index-page">
+    <div class="index-bg"></div>
     <TheHeader
       class="Header"
       :checked="0"
     />
+    <main>
+      <div class="index_main">
+        <IndexFirst />
+      </div>
+    </main>
   </div>
 </template>
 
@@ -25,11 +31,29 @@ meta:
   background-size: cover;
   background-position: center center;
 }
+.index-bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../assets/images/pic_banner.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1; /* 将z-index调整为较低值，使其在index_main的下面 */
+  position: fixed;
+  fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-blend-mode: luminosity;
+}
 .Header {
   width: 100%;
   position: fixed;
   left: 0;
   top: 0;
   z-index: 9;
+}
+.index_main {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
 }
 </style>
