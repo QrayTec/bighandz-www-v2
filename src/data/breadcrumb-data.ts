@@ -13,14 +13,9 @@ export const json: {
     Parent_title: '企業情報',
     name: '社長挨拶'
   },
-  '/Related_Company': {
-    path: '/Related_Company',
-    Parent_title: 'About Us',
-    name: 'Related Company'
-  },
-  '/Company_Introduction_Development_Process': {
-    path: '/Company_Introduction_Development_Process',
-    Parent_title: 'About Us',
-    name: 'Company Introduction and Development Process'
+  '/company-profile': {
+    path: '/company-profile',
+    Parent_title: '企業情報',
+    name: '会社概要'
   }
 }

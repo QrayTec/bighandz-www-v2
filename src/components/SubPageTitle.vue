@@ -7,7 +7,7 @@
       <div class="sub_page_Content_title">
         <div class="title_cn">{{ SubPageTitleData.TitleCn }}</div>
         <div class="title_en">{{ SubPageTitleData.TitleEn }}</div>
-        <dir class="title_line"></dir>
+        <div class="title_line"></div>
       </div>
       <div class="sub_page_Content_image">
         <img

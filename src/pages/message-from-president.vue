@@ -63,6 +63,7 @@
         </div>
       </div>
     </div>
+    <the-back-top />
   </div>
 </template>
 

@@ -83,7 +83,7 @@ const menus = [
       href: '/message-from-president',
       align: 'center'
     },
-    { id: 3, title: '会社概要', href: '/', align: 'right' },
+    { id: 3, title: '会社概要', href: '/company-profile', align: 'right' },
     { id: 4, title: 'イベント情報', href: '/', align: 'left' }
   ],
   [
