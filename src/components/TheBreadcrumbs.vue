@@ -45,6 +45,7 @@ onMounted(() => {
 .Route_Breadcrumbs_main {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .Parent_title {
   height: 16px;

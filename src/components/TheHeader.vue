@@ -77,7 +77,12 @@ const MenuData = ref<MenuItems[]>([])
 const menus = [
   [
     { id: 1, title: '企業理念経営方針', href: '/', align: 'left' },
-    { id: 2, title: '社長挨拶', href: '/', align: 'center' },
+    {
+      id: 2,
+      title: '社長挨拶',
+      href: '/message-from-president',
+      align: 'center'
+    },
     { id: 3, title: '会社概要', href: '/', align: 'right' },
     { id: 4, title: 'イベント情報', href: '/', align: 'left' }
   ],
