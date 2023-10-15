@@ -76,7 +76,12 @@ const MenuData = ref<MenuItems[]>([])
 
 const menus = [
   [
-    { id: 1, title: '企業理念経営方針', href: '/', align: 'left' },
+    {
+      id: 1,
+      title: '企業理念経営方針',
+      href: '/corporate-philosophy-management-policy',
+      align: 'left'
+    },
     {
       id: 2,
       title: '社長挨拶',

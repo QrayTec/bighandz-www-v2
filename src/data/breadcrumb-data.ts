@@ -17,5 +17,10 @@ export const json: {
     path: '/company-profile',
     Parent_title: '企業情報',
     name: '会社概要'
+  },
+  '/corporate-philosophy-management-policy': {
+    path: '/corporate-philosophy-management-policy',
+    Parent_title: '企業情報',
+    name: '企業理念経営方針'
   }
 }

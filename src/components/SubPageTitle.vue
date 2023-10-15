@@ -1,24 +1,26 @@
 <template>
-  <div class="sub_page_main">
-    <div class="Bread_Crumbs">
-      <the-breadcrumbs />
-    </div>
-    <div class="sub_page_Content">
-      <div class="sub_page_Content_title">
-        <div class="title_cn">{{ SubPageTitleData.TitleCn }}</div>
-        <div class="title_en">{{ SubPageTitleData.TitleEn }}</div>
-        <div class="title_line"></div>
+  <div class="sub_page_main_box">
+    <div class="sub_page_main">
+      <div class="Bread_Crumbs">
+        <the-breadcrumbs />
       </div>
-      <div class="sub_page_Content_image">
-        <img
-          :src="
-            'src/assets/images/sub_page_title/' +
-            SubPageTitleData.ImgSrc +
-            '.png'
-          "
-          alt=""
-        />
-        <div class="Image_line"></div>
+      <div class="sub_page_Content">
+        <div class="sub_page_Content_title">
+          <div class="title_cn">{{ SubPageTitleData.TitleCn }}</div>
+          <div class="title_en">{{ SubPageTitleData.TitleEn }}</div>
+          <div class="title_line"></div>
+        </div>
+        <div class="sub_page_Content_image">
+          <img
+            :src="
+              'src/assets/images/sub_page_title/' +
+              SubPageTitleData.ImgSrc +
+              '.png'
+            "
+            alt=""
+          />
+          <div class="Image_line"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -38,10 +40,15 @@ const SubPageTitleData = ref<SubPageTitleType>(props.data)
 </script>
 
 <style scoped>
+.sub_page_main_box {
+  background-color: #0e1b47;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .sub_page_main {
   width: 1200px;
   height: auto;
-  background-color: #0e1b47;
   position: relative;
 }
 .Bread_Crumbs {
@@ -68,9 +75,9 @@ const SubPageTitleData = ref<SubPageTitleType>(props.data)
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 12px;
+  letter-spacing: 8px;
   text-transform: uppercase;
-  opacity: 0.8;
+  opacity: 0.4;
 }
 .title_line {
   width: 60px;
