@@ -119,7 +119,7 @@ function iSCheck(index: number) {
     BlockMenu(true, index)
     MenuData.value = menus[index - 1]
     MenuIndex.value = index - 1
-  } else if (index === 4) {
+  } else if (!(index === 1 || index === 2 || index === 3)) {
     BlockMenu(false, index)
   }
 }
@@ -129,9 +129,8 @@ function UnCheck(index: number) {
 
   if (index === 1 || index === 2 || index === 3) {
     BlockMenu(true, index)
-  } else {
-    NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
   }
+  NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
 }
 const isScrolled = ref(false)
 
@@ -140,6 +139,7 @@ function handleScroll() {
 }
 onMounted(() => {
   window.addEventListener('scroll', handleScroll)
+  NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
 })
 
 onBeforeUnmount(() => {
