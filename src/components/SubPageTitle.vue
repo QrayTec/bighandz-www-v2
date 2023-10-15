@@ -5,13 +5,17 @@
     </div>
     <div class="sub_page_Content">
       <div class="sub_page_Content_title">
-        <div class="title_cn">社長 · 挨拶</div>
-        <div class="title_en">MESSAGE FROM THE PRESIDENT</div>
+        <div class="title_cn">{{ SubPageTitleData.TitleCn }}</div>
+        <div class="title_en">{{ SubPageTitleData.TitleEn }}</div>
         <dir class="title_line"></dir>
       </div>
       <div class="sub_page_Content_image">
         <img
-          src="../assets/images/sub_page_title/MESSAGE_FROM_THE_PRESIDENT_banner.png"
+          :src="
+            'src/assets/images/sub_page_title/' +
+            SubPageTitleData.ImgSrc +
+            '.png'
+          "
           alt=""
         />
         <div class="Image_line"></div>
@@ -20,7 +24,18 @@
   </div>
 </template>
 
-<script setup lang=""></script>
+<script setup lang="ts">
+import { ref, defineProps } from 'vue'
+
+interface SubPageTitleType {
+  TitleCn: string
+  TitleEn: string
+  ImgSrc: string
+}
+const props = defineProps<{ data: SubPageTitleType }>()
+
+const SubPageTitleData = ref<SubPageTitleType>(props.data)
+</script>
 
 <style scoped>
 .sub_page_main {

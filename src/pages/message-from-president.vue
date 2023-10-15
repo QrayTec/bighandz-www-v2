@@ -4,9 +4,8 @@
       class="Header"
       :checked="1"
     />
-
     <div class="message_from_president_main">
-      <sub-page-title />
+      <sub-page-title :data="SubPageTitleData" />
     </div>
     <div class="message_content">
       <div class="message_content_main">
@@ -67,7 +66,21 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from 'vue'
+
+interface SubPageTitleType {
+  TitleCn: string
+  TitleEn: string
+  ImgSrc: string
+}
+
+const SubPageTitleData = ref<SubPageTitleType>({
+  TitleCn: '社長 · 挨拶',
+  TitleEn: 'MESSAGE FROM THE PRESIDENT',
+  ImgSrc: 'MESSAGE_FROM_THE_PRESIDENT_banner'
+})
+</script>
 
 <style scoped>
 .page {
