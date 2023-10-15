@@ -1,5 +1,9 @@
 <template>
-  <nav>
+  <nav
+    :class="
+      isScrolled ? 'scroll-background' : 'scroll-background-to-transparent'
+    "
+  >
     <div class="Main-Header">
       <div class="Header_content">
         <div class="logo-images">
@@ -42,7 +46,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref } from 'vue'
+import { defineProps, onBeforeUnmount, onMounted, ref } from 'vue'
 
 interface NavLink {
   id: number
@@ -129,9 +133,37 @@ function UnCheck(index: number) {
     NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
   }
 }
+const isScrolled = ref(false)
+
+function handleScroll() {
+  isScrolled.value = window.scrollY > 0
+}
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
 
 <style>
+@keyframes backgroundColorTransition {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #0e1b47;
+  }
+}
+@keyframes backgroundColorTransitionToTransparent {
+  0% {
+    background-color: #0e1b47;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
 .Main-Header {
   width: 100%;
   height: 80px;
@@ -139,6 +171,14 @@ function UnCheck(index: number) {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.scroll-background {
+  animation: backgroundColorTransition 0.8s linear; /* 2秒的动画，可以根据需要进行调整 */
+  background-color: #0e1b47; /* 初始背景色为透明 */
+}
+.scroll-background-to-transparent {
+  animation: backgroundColorTransitionToTransparent 0.8s linear; /* 2秒的动画，可以根据需要进行调整 */
+  background-color: transparent; /* 初始背景颜色为 #0e1b47 */
 }
 .logo-images {
   width: 68px;

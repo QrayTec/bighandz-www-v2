@@ -19,6 +19,7 @@ defineOptions({
         <IndexCustomers />
       </div>
     </main>
+    <TheBackTop />
   </div>
 </template>
 
@@ -33,6 +34,7 @@ meta:
   min-height: 100vh;
   background-size: cover;
   background-position: center center;
+  position: relative;
 }
 .index-bg {
   width: 100%;
