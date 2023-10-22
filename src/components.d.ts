@@ -11,6 +11,9 @@ declare module 'vue' {
     IndexCustomers: typeof import('./components/IndexCustomers.vue')['default']
     IndexField: typeof import('./components/IndexField.vue')['default']
     IndexFirst: typeof import('./components/IndexFirst.vue')['default']
+    Innovation: typeof import('./components/corporate-philosophy-management-policy/Innovation.vue')['default']
+    Mission: typeof import('./components/corporate-philosophy-management-policy/Mission.vue')['default']
+    PracticesGuidelines: typeof import('./components/corporate-philosophy-management-policy/PracticesGuidelines.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
@@ -20,5 +23,7 @@ declare module 'vue' {
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheHeader: typeof import('./components/TheHeader.vue')['default']
     TheHeaderInfo: typeof import('./components/TheHeaderInfo.vue')['default']
+    Values: typeof import('./components/corporate-philosophy-management-policy/Values.vue')['default']
+    Vision: typeof import('./components/corporate-philosophy-management-policy/Vision.vue')['default']
   }
 }

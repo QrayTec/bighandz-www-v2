@@ -6,8 +6,12 @@
     />
     <sub-page-title :data="SubPageTitleData" />
     <div class="philosophy_policy_box">
-      <div class="philosophy_policy_content">111</div>
+      <practices-guidelines />
+      <mission />
+      <vision />
+      <values />
     </div>
+    <innovation />
   </div>
 </template>
 
@@ -27,7 +31,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 </script>
 
-<style scoped>
+<style>
 .page {
   width: 100%;
   background-size: cover;
@@ -41,14 +45,49 @@ const SubPageTitleData = ref<SubPageTitleType>({
   top: 0;
   z-index: 9;
 }
+
 .philosophy_policy_box {
   width: 100%;
   margin-top: 120px;
   margin-bottom: 120px;
+}
+.m_top_30 {
+  margin-top: 30px;
+}
+.m_top_60 {
+  margin-top: 60px;
+}
+
+.Realization_of_Corporate_Philosophy {
+  width: 1200px;
+}
+.Realization_title {
+  color: #071027;
+  /* 正文一级标题加粗 */
+  font-family: Noto Sans JP;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Realization_min_text {
+  color: #071027;
+  /* 正文一级标题加粗 */
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.vision {
+  margin-top: 120px;
+}
+.Practices_guidelines {
   display: flex;
   justify-content: center;
 }
-.philosophy_policy_content {
-  width: 1200px;
+
+.m_l_30 {
+  margin-left: 30px;
 }
 </style>
