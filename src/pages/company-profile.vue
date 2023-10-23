@@ -9,6 +9,7 @@
     </div>
     <div class="company_profile_main">
       <company-profile-content />
+      <company-history />
     </div>
   </div>
 </template>
@@ -66,7 +67,8 @@ hr {
   margin-top: 120px;
   margin-bottom: 240px;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .company_profile_content {
   width: 1200px;

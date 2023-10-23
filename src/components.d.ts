@@ -7,6 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    CompanyHistory: typeof import('./components/company-profile/CompanyHistory.vue')['default']
     CompanyProfileContent: typeof import('./components/company-profile/CompanyProfileContent.vue')['default']
     IndexBusiness: typeof import('./components/IndexBusiness.vue')['default']
     IndexCustomers: typeof import('./components/IndexCustomers.vue')['default']
