@@ -22,5 +22,10 @@ export const json: {
     path: '/corporate-philosophy-management-policy',
     Parent_title: '企業情報',
     name: '企業理念経営方針'
+  },
+  '/healthcare-business': {
+    path: '/corporate-philosophy-management-policy',
+    Parent_title: '事業概要',
+    name: 'ヘルスケア事業'
   }
 }

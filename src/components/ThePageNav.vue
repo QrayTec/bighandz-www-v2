@@ -1,0 +1,65 @@
+<template>
+  <div class="page_nav">
+    <div class="page_nav_main">
+      <router-link
+        v-for="item in PageNavData"
+        :key="item.id"
+        :to="item.anchor"
+        ><div class="page_nav_content">
+          <div>{{ item.anchor_title }}</div>
+          <div class="page_nav_image">
+            <img
+              src="src/assets/images/page_nav.svg"
+              alt=""
+            />
+          </div></div
+      ></router-link>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { ref, defineProps } from 'vue'
+
+interface PageNavType {
+  id: number
+  anchor: string
+  anchor_title: string
+}
+
+const props = defineProps<{ pagenavdata: PageNavType }>()
+
+const PageNavData = ref(props.pagenavdata)
+</script>
+
+<style scoped>
+.page_nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #0e1b47;
+}
+.page_nav_main {
+  width: 1200px;
+  padding: 60px 0px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+.page_nav_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* 正文加粗 */
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.page_nav_image {
+  margin-left: 16px;
+}
+</style>

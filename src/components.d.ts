@@ -25,6 +25,7 @@ declare module 'vue' {
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheHeader: typeof import('./components/TheHeader.vue')['default']
     TheHeaderInfo: typeof import('./components/TheHeaderInfo.vue')['default']
+    ThePageNav: typeof import('./components/ThePageNav.vue')['default']
     Values: typeof import('./components/corporate-philosophy-management-policy/Values.vue')['default']
     Vision: typeof import('./components/corporate-philosophy-management-policy/Vision.vue')['default']
   }

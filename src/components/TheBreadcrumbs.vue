@@ -25,7 +25,7 @@ const $route = useRoute()
 
 const getPageTitle = () => {
   const routePath = $route.path
-  const pageData = json[routePath]
+  const pageData = json[routePath.toLowerCase()] // 将路由路径转换为小写
   if (typeof pageData === 'string') {
     return pageData
   }
