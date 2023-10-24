@@ -1,10 +1,10 @@
 <template>
   <div class="page_nav">
     <div class="page_nav_main">
-      <router-link
+      <a
         v-for="item in PageNavData"
         :key="item.id"
-        :to="item.anchor"
+        :href="item.anchor"
         ><div class="page_nav_content">
           <div>{{ item.anchor_title }}</div>
           <div class="page_nav_image">
@@ -13,13 +13,13 @@
               alt=""
             />
           </div></div
-      ></router-link>
+      ></a>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps } from 'vue'
+import { ref } from 'vue'
 
 interface PageNavType {
   id: number
