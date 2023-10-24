@@ -1,8 +1,11 @@
 <template>
   <div
     v-show="BtnFlag"
+    v-smooth-scroll="{
+      duration: 1000
+    }"
+    href="#app"
     class="back_main"
-    @click="scrollToTop"
   >
     <img
       src="../assets/images/back_top.svg"
@@ -32,19 +35,6 @@ onMounted(() => {
 onBeforeUnmount(() => {
   window.removeEventListener('scroll', handleScroll)
 })
-
-const scrollToTop = () => {
-  const scrollDuration = 300 // 滚动动画的持续时间（毫秒）
-  const scrollStep = -document.documentElement.scrollTop / (scrollDuration / 15)
-
-  const scrollInterval = setInterval(() => {
-    if (document.documentElement.scrollTop > 0) {
-      window.scrollBy(0, scrollStep)
-    } else {
-      clearInterval(scrollInterval)
-    }
-  }, 15)
-}
 </script>
 
 <style scoped>

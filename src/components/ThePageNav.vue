@@ -4,6 +4,9 @@
       <a
         v-for="item in PageNavData"
         :key="item.id"
+        v-smooth-scroll="{
+          duration: 1000
+        }"
         :href="item.anchor"
         ><div class="page_nav_content">
           <div>{{ item.anchor_title }}</div>

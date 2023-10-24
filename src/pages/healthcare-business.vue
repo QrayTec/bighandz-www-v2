@@ -9,20 +9,7 @@
       <the-page-nav :pagenavdata="PageNavData" />
     </div>
     <div class="healthcare_business">
-      <div class="healthcare_business_box">
-        <div
-          id="d1"
-          class="test"
-        >
-          123
-        </div>
-        <div
-          id="d2"
-          class="test"
-        >
-          234
-        </div>
-      </div>
+      <div class="healthcare_business_box">shouzi</div>
     </div>
   </div>
 </template>
@@ -47,8 +34,8 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#d1', anchor_title: 'リハビリテーション技術' },
-  { id: 2, anchor: '#d2', anchor_title: 'リハビリテーション管理' },
+  { id: 1, anchor: '#', anchor_title: 'リハビリテーション技術' },
+  { id: 2, anchor: '#', anchor_title: 'リハビリテーション管理' },
   { id: 3, anchor: '#', anchor_title: 'リハビリプランと器具' },
   { id: 4, anchor: '#', anchor_title: 'リハビリテーション看護' },
   { id: 5, anchor: '#', anchor_title: 'ブランドの紹介' }
