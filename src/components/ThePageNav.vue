@@ -5,8 +5,10 @@
         v-for="item in PageNavData"
         :key="item.id"
         v-smooth-scroll="{
-          duration: 1000
+          duration: 1000,
+          offset: -120
         }"
+        class="page_nav_main_link"
         :href="item.anchor"
         ><div class="page_nav_content">
           <div>{{ item.anchor_title }}</div>
@@ -64,5 +66,32 @@ const PageNavData = ref(props.pagenavdata)
 }
 .page_nav_image {
   margin-left: 16px;
+}
+@media screen and (max-width: 1299px) and (min-width: 768px) {
+  .page_nav_main {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+  .page_nav_main_link {
+    margin-top: 60px;
+    width: 50%;
+  }
+
+  .page_nav_main_link:last-child {
+    width: 100%;
+  }
+  .page_nav_content {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page_nav_main {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+  .page_nav_main_link {
+    margin-top: 60px;
+    width: 100%;
+  }
 }
 </style>

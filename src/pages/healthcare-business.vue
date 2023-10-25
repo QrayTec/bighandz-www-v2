@@ -8,8 +8,11 @@
       <sub-page-title :data="SubPageTitleData" />
       <the-page-nav :pagenavdata="PageNavData" />
     </div>
-    <div class="healthcare_business">
-      <div class="healthcare_business_box">shouzi</div>
+    <div class="healthcare_business m_b_240">
+      <div class="healthcare_business_box">
+        <healthcare-business-item />
+        <Brand />
+      </div>
     </div>
   </div>
 </template>
@@ -34,11 +37,11 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#', anchor_title: 'リハビリテーション技術' },
-  { id: 2, anchor: '#', anchor_title: 'リハビリテーション管理' },
-  { id: 3, anchor: '#', anchor_title: 'リハビリプランと器具' },
-  { id: 4, anchor: '#', anchor_title: 'リハビリテーション看護' },
-  { id: 5, anchor: '#', anchor_title: 'ブランドの紹介' }
+  { id: 1, anchor: '#Technology', anchor_title: 'リハビリテーション技術' },
+  { id: 2, anchor: '#Management', anchor_title: 'リハビリテーション管理' },
+  { id: 3, anchor: '#Plans&Equipment', anchor_title: 'リハビリプランと器具' },
+  { id: 4, anchor: '#Nursing', anchor_title: 'リハビリテーション看護' },
+  { id: 5, anchor: '#Brand', anchor_title: 'ブランドの紹介' }
 ])
 </script>
 
@@ -56,6 +59,9 @@ const PageNavData = ref<PageNavType[]>([
   top: 0;
   z-index: 9;
 }
+.message_from_president_main {
+  flex-direction: column;
+}
 .healthcare_business {
   width: 100%;
   display: flex;
@@ -64,7 +70,12 @@ const PageNavData = ref<PageNavType[]>([
 .healthcare_business_box {
   width: 1200px;
 }
-.test {
-  height: 100vh;
+.m_b_240 {
+  margin-bottom: 240px;
+}
+@media screen and (max-width: 1299px) {
+  .healthcare_business_box {
+    width: 80%;
+  }
 }
 </style>
