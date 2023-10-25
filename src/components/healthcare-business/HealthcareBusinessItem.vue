@@ -156,13 +156,8 @@ const ItemsData = ref<ItemsType[]>([
     line-height: 24px;
   }
 }
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-  .healthcare_business_item_title {
-    width: 100%;
-    font-size: 36px;
-  }
-}
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1023px) {
   .order_-1 {
     order: 0;
   }
