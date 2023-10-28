@@ -10,6 +10,7 @@ declare module 'vue' {
     Brand: typeof import('./components/healthcare-business/Brand.vue')['default']
     CompanyHistory: typeof import('./components/company-profile/CompanyHistory.vue')['default']
     CompanyProfileContent: typeof import('./components/company-profile/CompanyProfileContent.vue')['default']
+    EventInformationItem: typeof import('./components/event-information/EventInformationItem.vue')['default']
     HealthcareBusinessItem: typeof import('./components/healthcare-business/HealthcareBusinessItem.vue')['default']
     IndexBusiness: typeof import('./components/IndexBusiness.vue')['default']
     IndexCustomers: typeof import('./components/IndexCustomers.vue')['default']

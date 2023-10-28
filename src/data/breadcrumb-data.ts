@@ -23,6 +23,11 @@ export const json: {
     Parent_title: '企業情報',
     name: '企業理念経営方針'
   },
+  '/event-information': {
+    path: '/event-information',
+    Parent_title: '企業情報',
+    name: 'イベント情報'
+  },
   '/healthcare-business': {
     path: '/corporate-philosophy-management-policy',
     Parent_title: '事業概要',

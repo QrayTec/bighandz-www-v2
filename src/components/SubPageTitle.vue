@@ -11,14 +11,16 @@
           <div class="title_line"></div>
         </div>
         <div class="sub_page_Content_image">
-          <img
-            :src="
-              'src/assets/images/sub_page_title/' +
-              SubPageTitleData.ImgSrc +
-              '.png'
-            "
-            alt=""
-          />
+          <div class="sub_page_Content_image_bg">
+            <img
+              :src="
+                'src/assets/images/sub_page_title/' +
+                SubPageTitleData.ImgSrc +
+                '.png'
+              "
+              alt=""
+            />
+          </div>
           <div class="Image_line"></div>
         </div>
       </div>
@@ -89,6 +91,12 @@ const SubPageTitleData = ref<SubPageTitleType>(props.data)
   position: absolute;
   top: 0;
   right: -10%;
+  height: 390px;
+}
+.sub_page_Content_image_bg {
+  width: 390px;
+  height: 390px;
+  background: #000;
 }
 .Image_line {
   width: 379px;
@@ -181,9 +189,13 @@ const SubPageTitleData = ref<SubPageTitleType>(props.data)
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  .sub_page_Content_image_bg {
+    width: auto;
+    aspect-ratio: 1 / 1; /* 设置宽高比为1:1，高度将等于宽度 */
+    height: auto;
+  }
   .Image_line {
     width: 75%;
-
     position: absolute;
     right: -5%;
   }

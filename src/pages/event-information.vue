@@ -2,16 +2,14 @@
   <div class="page">
     <TheHeader
       class="Header"
-      :checked="2"
+      :checked="1"
     />
     <div class="message_from_president_main">
       <sub-page-title :data="SubPageTitleData" />
-      <the-page-nav :pagenavdata="PageNavData" />
     </div>
     <div class="healthcare_business m_b_240">
       <div class="healthcare_business_box">
-        <healthcare-business-item />
-        <Brand />
+        <event-information-item />
       </div>
     </div>
   </div>
@@ -25,24 +23,12 @@ interface SubPageTitleType {
   TitleEn: string
   ImgSrc: string
 }
-interface PageNavType {
-  id: number
-  anchor: string
-  anchor_title: string
-}
-const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn: 'ヘルスケア · 事業',
-  TitleEn: 'Healthcare business',
-  ImgSrc: 'Healthcare_Business'
-})
 
-const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#Technology', anchor_title: 'リハビリテーション技術' },
-  { id: 2, anchor: '#Management', anchor_title: 'リハビリテーション管理' },
-  { id: 3, anchor: '#Plans&Equipment', anchor_title: 'リハビリプランと器具' },
-  { id: 4, anchor: '#Nursing', anchor_title: 'リハビリテーション看護' },
-  { id: 5, anchor: '#Brand', anchor_title: 'ブランドの紹介' }
-])
+const SubPageTitleData = ref<SubPageTitleType>({
+  TitleCn: 'イベント · 情報',
+  TitleEn: 'event information',
+  ImgSrc: 'event_information'
+})
 </script>
 
 <style scoped>
@@ -73,8 +59,22 @@ const PageNavData = ref<PageNavType[]>([
 .healthcare_business_box {
   width: 1200px;
 }
+/* 大于等于1024px宽度的屏幕 */
+@media (min-width: 1024px) and (max-width: 1299px) {
+  .healthcare_business_box {
+    width: 80%;
+  }
+}
 
-@media screen and (max-width: 1299px) {
+/* 大于等于768px宽度，小于1024px宽度的屏幕 */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .healthcare_business_box {
+    width: 80%;
+  }
+}
+
+/* 小于768px宽度的屏幕 */
+@media (max-width: 767px) {
   .healthcare_business_box {
     width: 80%;
   }

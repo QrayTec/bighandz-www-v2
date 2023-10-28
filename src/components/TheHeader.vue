@@ -89,7 +89,7 @@ const menus = [
       align: 'center'
     },
     { id: 3, title: '会社概要', href: '/company-profile', align: 'right' },
-    { id: 4, title: 'イベント情報', href: '/', align: 'left' }
+    { id: 4, title: 'イベント情報', href: '/event-information', align: 'left' }
   ],
   [
     { id: 1, title: 'Siサービス事業', href: '/', align: 'left' },
