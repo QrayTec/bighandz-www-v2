@@ -227,9 +227,18 @@ const MovieData = ref<MovieType[]>([
   }
   .Movie_item_box {
     margin-top: 60px;
+    width: 100%;
   }
   .Movie_item_box:first-child {
     margin-top: 0;
+  }
+  .play_img {
+    width: 75px;
+    height: 75px;
+  }
+  .Video_Box_text {
+    margin-top: 15px;
+    letter-spacing: 6px;
   }
 }
 </style>
