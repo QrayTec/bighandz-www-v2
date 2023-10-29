@@ -18,6 +18,7 @@ declare module 'vue' {
     IndexFirst: typeof import('./components/IndexFirst.vue')['default']
     Innovation: typeof import('./components/corporate-philosophy-management-policy/Innovation.vue')['default']
     Mission: typeof import('./components/corporate-philosophy-management-policy/Mission.vue')['default']
+    MovieItem: typeof import('./components/company-staff-observation/MovieItem.vue')['default']
     PracticesGuidelines: typeof import('./components/corporate-philosophy-management-policy/PracticesGuidelines.vue')['default']
     README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

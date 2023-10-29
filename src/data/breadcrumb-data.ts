@@ -29,8 +29,13 @@ export const json: {
     name: 'イベント情報'
   },
   '/healthcare-business': {
-    path: '/corporate-philosophy-management-policy',
+    path: '/healthcare-business',
     Parent_title: '事業概要',
     name: 'ヘルスケア事業'
+  },
+  '/company-staff-observation': {
+    path: '/company-staff-observation',
+    Parent_title: '採用情報',
+    name: 'MOVIE'
   }
 }
