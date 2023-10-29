@@ -113,13 +113,16 @@
             </div>
 
             <div class="Business_Items_square Business_bg Business_bg_5">
-              <div class="Business_Items_Hover"></div>
+              <div
+                class="Business_Items_Hover"
+                style="opacity: 0.5"
+              ></div>
               <div class="Business_Items_1">
                 <img
                   src="../assets/images/index_Business/title_icon_5.svg"
                   alt=""
                 />
-                <div class="Business_Items_title">ヘルスケア事業</div>
+                <div class="Business_Items_title">物流事業</div>
               </div>
               <div class="Business_Items_content_Hover_2">
                 <div class="Business_Items_content_2">
@@ -232,6 +235,7 @@
   line-height: 30px; /* 125% */
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .Business_bg {
   background-repeat: no-repeat;
@@ -340,6 +344,7 @@
 .Business_Items_horizontal:hover .Business_Items_title {
   margin-top: 0px;
   margin-left: 10px;
+  justify-content: start;
   transition: all 0.8s; /* 添加所有属性的过渡效果 */
 }
 
@@ -352,5 +357,23 @@
 .Business_Items_horizontal:hover .Business_Items_content_Hover_2 {
   display: block;
   transition: all 0.8s; /* 添加所有属性的过渡效果 */
+}
+@media (min-width: 1024px) and (max-width: 1299px) {
+  .index_Business {
+    height: auto;
+  }
+  .Business_Content {
+    width: 80%;
+  }
+}
+
+/* 大于等于768px宽度，小于1024px宽度的屏幕 */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* 在这里添加你想应用的样式 */
+}
+
+/* 小于768px宽度的屏幕 */
+@media (max-width: 767px) {
+  /* 在这里添加你想应用的样式 */
 }
 </style>
