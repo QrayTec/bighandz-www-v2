@@ -16,7 +16,7 @@ jobs:
     # checkout@ 这里写你的分支名称
     steps:
       - name: Checkout
-        uses: actions/checkout@shouzi
+        uses: actions/checkout@v2
 
       - name: Setup node env
         uses: actions/setup-node@v2.1.2
