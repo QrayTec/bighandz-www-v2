@@ -18,7 +18,7 @@
                 v-if="contentItem.list_icon"
                 class="company_profile_icon"
                 :src="
-                  'src/assets/images/company_profile/' +
+                  '/src/assets/images/company_profile/' +
                   contentItem.list_icon +
                   '.svg'
                 "

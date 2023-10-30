@@ -5,7 +5,7 @@
 
       <div class="Route_Breadcrumbs_to">
         <img
-          src="../assets/images/bread_icon.svg"
+          src="/src/assets/images/bread_icon.svg"
           alt=""
         />
       </div>

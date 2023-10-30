@@ -19,6 +19,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import HealthcareBusiness from '@/assets/images/sub_page_title/Healthcare_Business.png'
 
 interface SubPageTitleType {
   TitleCn: string
@@ -33,7 +34,7 @@ interface PageNavType {
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn: 'ヘルスケア · 事業',
   TitleEn: 'Healthcare business',
-  ImgSrc: 'Healthcare_Business'
+  ImgSrc: HealthcareBusiness
 })
 
 const PageNavData = ref<PageNavType[]>([

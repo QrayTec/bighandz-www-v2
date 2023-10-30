@@ -17,6 +17,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import CorporatePhilosophy from '@/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner.png'
 
 interface SubPageTitleType {
   TitleCn: string
@@ -27,7 +28,7 @@ interface SubPageTitleType {
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn: '企業理念 · 経営方針',
   TitleEn: 'Corporate Philosophy Management Policy',
-  ImgSrc: 'Corporate_Philosophy_Management_Policy_banner'
+  ImgSrc: CorporatePhilosophy
 })
 </script>
 

@@ -14,11 +14,7 @@
         >
           <div class="m_top_30 values_Items_Image">
             <img
-              :src="
-                'src/assets/images/corporate-philosophy-management-policy/' +
-                item.ImgSrc +
-                '.svg'
-              "
+              :src="item.ImgSrc"
               alt=""
             />
           </div>
@@ -31,6 +27,11 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import PicIcon1 from '@/assets/images/corporate-philosophy-management-policy/pic_icon_1.svg'
+import PicIcon2 from '@/assets/images/corporate-philosophy-management-policy/pic_icon_2.svg'
+import PicIcon3 from '@/assets/images/corporate-philosophy-management-policy/pic_icon_3.svg'
+import PicIcon4 from '@/assets/images/corporate-philosophy-management-policy/pic_icon_4.svg'
+import PicIcon5 from '@/assets/images/corporate-philosophy-management-policy/pic_icon_5.svg'
 
 interface ValuesType {
   id: number
@@ -38,11 +39,11 @@ interface ValuesType {
   title: string
 }
 const ValuesData = ref<ValuesType[]>([
-  { id: 1, ImgSrc: 'pic_icon_1', title: 'イノベーション' },
-  { id: 2, ImgSrc: 'pic_icon_2', title: '顧客志向' },
-  { id: 3, ImgSrc: 'pic_icon_3', title: '責任' },
-  { id: 4, ImgSrc: 'pic_icon_4', title: 'チームワーク' },
-  { id: 5, ImgSrc: 'pic_icon_5', title: '成長です' }
+  { id: 1, ImgSrc: PicIcon1, title: 'イノベーション' },
+  { id: 2, ImgSrc: PicIcon2, title: '顧客志向' },
+  { id: 3, ImgSrc: PicIcon3, title: '責任' },
+  { id: 4, ImgSrc: PicIcon4, title: 'チームワーク' },
+  { id: 5, ImgSrc: PicIcon5, title: '成長です' }
 ])
 </script>
 

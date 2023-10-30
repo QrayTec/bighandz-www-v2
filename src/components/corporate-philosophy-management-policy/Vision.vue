@@ -8,7 +8,7 @@
       <div class="m_top_60">
         <img
           class="Vision_Images"
-          src="src/assets/images/corporate-philosophy-management-policy/pic_vision.png"
+          src="/src/assets/images/corporate-philosophy-management-policy/pic_vision.png"
           alt=""
         />
       </div>

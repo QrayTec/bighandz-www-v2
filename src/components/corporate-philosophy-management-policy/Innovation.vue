@@ -17,7 +17,7 @@
   background-color: #0e1b47;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('src/assets/images/corporate-philosophy-management-policy/pic_innovation_bg.png');
+  background-image: url('/src/assets/images/corporate-philosophy-management-policy/pic_innovation_bg.png');
   background-position: center 35px; /* 将背景图片向下移动 35px */
 }
 .innovation_Title {

@@ -8,7 +8,7 @@
     class="back_main"
   >
     <img
-      src="../assets/images/back_top.svg"
+      src="/src/assets/images/back_top.svg"
       alt=""
     />
   </div>

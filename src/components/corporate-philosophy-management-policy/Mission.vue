@@ -10,7 +10,7 @@
         </div>
         <div class="Mission_image">
           <img
-            src="src/assets/images/corporate-philosophy-management-policy/pic-Misson.png"
+            src="/src/assets/images/corporate-philosophy-management-policy/pic-Misson.png"
             alt=""
           />
         </div>

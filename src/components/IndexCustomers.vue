@@ -12,7 +12,7 @@
           "
         >
           <img
-            :src="'src/assets/images/index_customers/' + items.src + '.svg'"
+            :src="items.src"
             alt="Customers_Items1"
           />
         </div>
@@ -24,18 +24,25 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
+import Customers1 from '@/assets/images/index_customers/customers1.svg'
+import Customers2 from '@/assets/images/index_customers/customers2.svg'
+import Customers3 from '@/assets/images/index_customers/customers3.svg'
+import Customers4 from '@/assets/images/index_customers/customers4.svg'
+import Customers5 from '@/assets/images/index_customers/customers5.svg'
+import Customers6 from '@/assets/images/index_customers/customers6.svg'
+
 interface Customers_Items {
   id: number
   src: string
 }
 
 const CustomersData = ref<Customers_Items[]>([
-  { id: 1, src: 'customers1' },
-  { id: 2, src: 'customers2' },
-  { id: 3, src: 'customers3' },
-  { id: 4, src: 'customers4' },
-  { id: 5, src: 'customers5' },
-  { id: 6, src: 'customers6' }
+  { id: 1, src: Customers1 },
+  { id: 2, src: Customers2 },
+  { id: 3, src: Customers3 },
+  { id: 4, src: Customers4 },
+  { id: 5, src: Customers5 },
+  { id: 6, src: Customers6 }
 ])
 </script>
 

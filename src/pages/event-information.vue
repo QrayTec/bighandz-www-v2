@@ -17,6 +17,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import EventInformation from '@/assets/images/sub_page_title/event_information.png'
 
 interface SubPageTitleType {
   TitleCn: string
@@ -27,7 +28,7 @@ interface SubPageTitleType {
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn: 'イベント · 情報',
   TitleEn: 'event information',
-  ImgSrc: 'event_information'
+  ImgSrc: EventInformation
 })
 </script>
 

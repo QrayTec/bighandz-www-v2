@@ -23,7 +23,7 @@
           >
             <div class="index_items_icon">
               <img
-                :src="'src/assets/images/index_field/' + item.src + '.svg'"
+                :src="item.src"
                 alt=""
               />
             </div>
@@ -39,7 +39,7 @@
             >
               <img
                 class="arrow_icon_l"
-                src="../assets/images/index_field/arrow.svg"
+                src="/src/assets/images/index_field/arrow.svg"
                 alt=""
               />
               <div class="shields"></div>
@@ -49,7 +49,7 @@
               @click="shields(true)"
             >
               <img
-                src="../assets/images/index_field/arrow.svg"
+                src="/src/assets/images/index_field/arrow.svg"
                 alt=""
               />
               <div class="shields"></div>
@@ -70,7 +70,7 @@
       >
         <div class="index_field_content_title">
           <img
-            :src="'src/assets/images/index_field/' + item.src + '.svg'"
+            :src="item.src"
             alt=""
           />
           <div class="content_title">{{ item.title_cn }}</div>
@@ -92,6 +92,10 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import Icon1 from '@/assets/images/index_field/icon_1.svg'
+import Icon2 from '@/assets/images/index_field/icon_2.svg'
+import Icon3 from '@/assets/images/index_field/icon_3.svg'
+import Icon4 from '@/assets/images/index_field/icon_4.svg'
 
 interface NavDataType {
   id: number
@@ -112,16 +116,16 @@ interface COntentDataType {
 const selectedIndex = ref(0)
 const NavLine = ref<HTMLElement>()
 const NavData = ref<NavDataType[]>([
-  { id: 0, src: 'icon_1', title_cn: '金融', title_en: 'FINANCE' },
-  { id: 1, src: 'icon_2', title_cn: '政府', title_en: 'government' },
-  { id: 2, src: 'icon_3', title_cn: '医疗', title_en: 'MEDICAL TREATMENT' },
-  { id: 3, src: 'icon_4', title_cn: '制造业', title_en: 'MANUFACTURE' }
+  { id: 0, src: Icon1, title_cn: '金融', title_en: 'FINANCE' },
+  { id: 1, src: Icon2, title_cn: '政府', title_en: 'government' },
+  { id: 2, src: Icon3, title_cn: '医疗', title_en: 'MEDICAL TREATMENT' },
+  { id: 3, src: Icon4, title_cn: '制造业', title_en: 'MANUFACTURE' }
 ])
 
 const ContentData = ref<COntentDataType[]>([
   {
     id: 0,
-    src: 'icon_1',
+    src: Icon1,
     title_cn: '金融',
     title_1: '主な業務経験は製造、流通関係です。',
     title_2:
@@ -131,7 +135,7 @@ const ContentData = ref<COntentDataType[]>([
   },
   {
     id: 1,
-    src: 'icon_2',
+    src: Icon2,
     title_cn: '政府',
     title_1: '主な業務経験は製造、流通関係です。',
     title_2:
@@ -141,7 +145,7 @@ const ContentData = ref<COntentDataType[]>([
   },
   {
     id: 2,
-    src: 'icon_3',
+    src: Icon3,
     title_cn: '医疗',
     title_1: '主な業務経験は製造、流通関係です。',
     title_2:
@@ -151,7 +155,7 @@ const ContentData = ref<COntentDataType[]>([
   },
   {
     id: 3,
-    src: 'icon_4',
+    src: Icon4,
     title_cn: '制造业',
     title_1: '主な業務経験は製造、流通関係です。',
     title_2:
@@ -296,16 +300,16 @@ const shields = (flag: boolean) => {
   justify-content: center;
 }
 .main_bg_0 {
-  background-image: url('../assets/images/index_field/bg1.png');
+  background-image: url('/src/assets/images/index_field/bg1.png');
 }
 .main_bg_1 {
-  background-image: url('../assets/images/index_field/bg2.png');
+  background-image: url('/src/assets/images/index_field/bg2.png');
 }
 .main_bg_2 {
-  background-image: url('../assets/images/index_field/bg3.png');
+  background-image: url('/src/assets/images/index_field/bg3.png');
 }
 .main_bg_3 {
-  background-image: url('../assets/images/index_field/bg4.png');
+  background-image: url('/src/assets/images/index_field/bg4.png');
 }
 
 .index_field_content_main {

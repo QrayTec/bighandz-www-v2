@@ -3,7 +3,7 @@
     <div class="Index_First_Content">
       <div class="Index_First_Filters">
         <img
-          src="../assets/images/index_main/filters.svg"
+          src="/src/assets/images/index_main/filters.svg"
           alt=""
         />
       </div>
@@ -13,7 +13,7 @@
       </div>
       <div class="Index_Image_title">
         <img
-          src="../assets/images/index_main/pic_Speed is the Power.png"
+          src="/src/assets/images/index_main/pic_Speed_is_the_Power.png"
           alt=""
         />
       </div>

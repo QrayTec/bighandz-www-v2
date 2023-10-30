@@ -26,7 +26,7 @@
       class="Image_box"
     >
       <img
-        :src="'src/assets/images/healthcare-business/' + item.ImgSrc + '.png'"
+        :src="item.ImgSrc"
         alt=""
       />
     </div>
@@ -35,6 +35,10 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import Image1 from '@/assets/images/healthcare-business/image_1.png'
+import Image2 from '@/assets/images/healthcare-business/image_2.png'
+import Image3 from '@/assets/images/healthcare-business/image_3.png'
+import Image4 from '@/assets/images/healthcare-business/image_4.png'
 
 interface ItemsType {
   id: string
@@ -49,28 +53,28 @@ const ItemsData = ref<ItemsType[]>([
     title: 'リハビリテーション技術',
     content:
       '高度な日本のリハビリ技術を国内に紹介し、経験豊かな日本のリハビリ師を雇い治療させる。日本のリハビリテーションの技術を掌握したサービスチームを育成する。',
-    ImgSrc: 'image_1'
+    ImgSrc: Image1
   },
   {
     id: 'Management',
     title: 'リハビリテーション管理',
     content:
       '日本の成功した管理モデルとビジネスプロセスを参考にリハビリ管理モジュールと介護管理モジュールを独自に開発、規模を拡大する際や管理業務を輸出する際に使用される。',
-    ImgSrc: 'image_2'
+    ImgSrc: Image2
   },
   {
     id: 'Plans&Equipment',
     title: 'リハビリプランと器具',
     content:
       'さまざまな病気に対して、BOBATH等の技術に加えそれに対応するリハビリ機器とIT技術を組み合わせた仙手の一連の独自な解決案を形成、リハビリテーション治療製品を開発する。リハビリ設備を開発する能力としてFreegaitという製品を既に開発。トレーニング効果を80％向上させることができ、他の製品も次々に出品される予定。',
-    ImgSrc: 'image_3'
+    ImgSrc: Image3
   },
   {
     id: 'Nursing',
     title: 'リハビリテーション看護',
     content:
       '看護は青島の高齢者に最先端のケアを提供するために、日本の国家の医療政策に含まれた自立支援介護の概念の導入',
-    ImgSrc: 'image_4'
+    ImgSrc: Image4
   }
 ])
 </script>

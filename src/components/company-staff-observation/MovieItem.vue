@@ -10,20 +10,16 @@
         <div class="Video_Box">
           <img
             class="Video_Box_bg"
-            :src="
-              'src/assets/images/company-staff-observation/' +
-              item.BgImgSrc +
-              '.png'
-            "
+            :src="item.BgImgSrc"
             alt=""
           />
           <div class="Video_Box_play">
             <img
               class="play_img"
-              src="src/assets/images/company-staff-observation/play.svg"
+              src="/src/assets/images/company-staff-observation/play.svg"
               alt=""
             />
-            <p class="Video_Box_text m_t_30">Play Movie</p>
+            <p class="m_t_30 Video_Box_text">Play Movie</p>
           </div>
         </div>
         <div class="m_t_20">
@@ -40,6 +36,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import Video from '@/assets/images/company-staff-observation/video.png'
 
 interface MovieType {
   id: number
@@ -52,7 +49,7 @@ interface MovieType {
 const MovieData = ref<MovieType[]>([
   {
     id: 1,
-    BgImgSrc: 'video',
+    BgImgSrc: Video,
     talk: 'Cross Talk',
     title: '「女性エンジニア対談」',
     content:
@@ -60,7 +57,7 @@ const MovieData = ref<MovieType[]>([
   },
   {
     id: 2,
-    BgImgSrc: 'video',
+    BgImgSrc: Video,
     talk: 'Cross Talk',
     title: '「女性エンジニア対談」',
     content:
@@ -68,7 +65,7 @@ const MovieData = ref<MovieType[]>([
   },
   {
     id: 3,
-    BgImgSrc: 'video',
+    BgImgSrc: Video,
     talk: 'Cross Talk',
     title: '「女性エンジニア対談」',
     content:
@@ -76,7 +73,7 @@ const MovieData = ref<MovieType[]>([
   },
   {
     id: 4,
-    BgImgSrc: 'video',
+    BgImgSrc: Video,
     talk: 'Cross Talk',
     title: '「女性エンジニア対談」',
     content:
@@ -84,7 +81,7 @@ const MovieData = ref<MovieType[]>([
   },
   {
     id: 5,
-    BgImgSrc: 'video',
+    BgImgSrc: Video,
     talk: 'Cross Talk',
     title: '「女性エンジニア対談」',
     content:
@@ -92,7 +89,7 @@ const MovieData = ref<MovieType[]>([
   },
   {
     id: 6,
-    BgImgSrc: 'video',
+    BgImgSrc: Video,
     talk: 'Cross Talk',
     title: '「女性エンジニア対談」',
     content:

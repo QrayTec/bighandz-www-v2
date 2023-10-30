@@ -7,7 +7,7 @@
           <div class="Business_Items_Hover"></div>
           <div class="Business_Items_1">
             <img
-              src="../assets/images/index_Business/title_icon_1.svg"
+              src="/src/assets/images/index_Business/title_icon_1.svg"
               alt=""
             />
             <div class="Business_Items_title">システム開発事業</div>
@@ -23,7 +23,7 @@
                 to="/"
                 >詳細はこちら
                 <img
-                  src="../assets/images/index_Business/link.svg"
+                  src="/src/assets/images/index_Business/link.svg"
                   alt=""
               /></router-link>
             </div>
@@ -35,7 +35,7 @@
               <div class="Business_Items_Hover"></div>
               <div class="Business_Items_1">
                 <img
-                  src="../assets/images/index_Business/title_icon_2.svg"
+                  src="/src/assets/images/index_Business/title_icon_2.svg"
                   alt=""
                 />
                 <div class="Business_Items_title">インフラ基盤事業</div>
@@ -51,7 +51,7 @@
                     to="/"
                     >詳細はこちら
                     <img
-                      src="../assets/images/index_Business/link.svg"
+                      src="/src/assets/images/index_Business/link.svg"
                       alt=""
                   /></router-link>
                 </div>
@@ -61,7 +61,7 @@
               <div class="Business_Items_Hover"></div>
               <div class="Business_Items_1">
                 <img
-                  src="../assets/images/index_Business/title_icon_3.svg"
+                  src="/src/assets/images/index_Business/title_icon_3.svg"
                   alt=""
                 />
                 <div class="Business_Items_title">オフショア事業</div>
@@ -77,7 +77,7 @@
                     to="/"
                     >詳細はこちら
                     <img
-                      src="../assets/images/index_Business/link.svg"
+                      src="/src/assets/images/index_Business/link.svg"
                       alt=""
                   /></router-link>
                 </div>
@@ -89,7 +89,7 @@
               <div class="Business_Items_Hover"></div>
               <div class="Business_Items_1">
                 <img
-                  src="../assets/images/index_Business/title_icon_4.svg"
+                  src="/src/assets/images/index_Business/title_icon_4.svg"
                   alt=""
                 />
                 <div class="Business_Items_title">コンサルテイング事業</div>
@@ -105,7 +105,7 @@
                     to="/"
                     >詳細はこちら
                     <img
-                      src="../assets/images/index_Business/link.svg"
+                      src="/src/assets/images/index_Business/link.svg"
                       alt=""
                   /></router-link>
                 </div>
@@ -119,7 +119,7 @@
               ></div>
               <div class="Business_Items_1">
                 <img
-                  src="../assets/images/index_Business/title_icon_5.svg"
+                  src="/src/assets/images/index_Business/title_icon_5.svg"
                   alt=""
                 />
                 <div class="Business_Items_title">物流事業</div>
@@ -135,7 +135,7 @@
                     to="/"
                     >詳細はこちら
                     <img
-                      src="../assets/images/index_Business/link.svg"
+                      src="/src/assets/images/index_Business/link.svg"
                       alt=""
                   /></router-link>
                 </div>
@@ -256,19 +256,19 @@
 }
 
 .Business_bg_1 {
-  background-image: url('../assets/images/index_Business/bg-1.png');
+  background-image: url('/src/assets/images/index_Business/bg-1.png');
 }
 .Business_bg_2 {
-  background-image: url('../assets/images/index_Business/bg-2.png');
+  background-image: url('/src/assets/images/index_Business/bg-2.png');
 }
 .Business_bg_3 {
-  background-image: url('../assets/images/index_Business/bg-3.png');
+  background-image: url('/src/assets/images/index_Business/bg-3.png');
 }
 .Business_bg_4 {
-  background-image: url('../assets/images/index_Business/bg-4.png');
+  background-image: url('/src/assets/images/index_Business/bg-4.png');
 }
 .Business_bg_5 {
-  background-image: url('../assets/images/index_Business/bg-5.png');
+  background-image: url('/src/assets/images/index_Business/bg-5.png');
 }
 .Business_Items_content_Hover {
   color: #fff;

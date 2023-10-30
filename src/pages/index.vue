@@ -39,7 +39,7 @@ meta:
 .index-bg {
   width: 100%;
   height: 100vh;
-  background-image: url('../assets/images/pic_banner.png');
+  background-image: url('/src/assets/images/pic_banner.png');
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;

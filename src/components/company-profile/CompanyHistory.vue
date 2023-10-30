@@ -449,7 +449,7 @@ const CompanyHistoryData = ref<CompanyHistoryType[]>([
   line-height: 30px; /* 125% */
 }
 .company_history_data {
-  background-image: url('src/assets/images/company_profile/history_line.svg');
+  background-image: url('/src/assets/images/company_profile/history_line.svg');
   background-repeat: repeat-y;
   background-position: top -28px left 284px;
   background-size: auto 120%; /* 自动宽度，100% 高度，以确保垂直无缝重复 */

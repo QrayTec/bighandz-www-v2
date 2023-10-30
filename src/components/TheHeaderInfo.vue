@@ -4,7 +4,7 @@
       <div class="Menu_title_Main">
         <img
           :src="
-            'src/assets/images/menu/' + MenuDataTitle[MenuIndex].src + '.svg'
+            '/src/assets/images/menu/' + MenuDataTitle[MenuIndex].src + '.svg'
           "
           alt=""
         />

@@ -14,7 +14,7 @@
           <div>{{ item.anchor_title }}</div>
           <div class="page_nav_image">
             <img
-              src="src/assets/images/page_nav.svg"
+              src="/src/assets/images/page_nav.svg"
               alt=""
             />
           </div></div

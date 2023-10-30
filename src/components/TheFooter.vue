@@ -4,7 +4,7 @@
       <div class="footer_logo">
         <router-link to="/">
           <img
-            src="../assets/images/logo.svg"
+            src="/src/assets/images/logo.svg"
             alt="logo"
         /></router-link>
       </div>

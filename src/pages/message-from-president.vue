@@ -44,19 +44,19 @@
         <div class="message_content_images">
           <div class="pic_president">
             <img
-              src="../assets/images/MessageFromPresident/pic_president.png"
+              src="/src/assets/images/MessageFromPresident/pic_president.png"
               alt="pic_president"
             />
           </div>
           <div class="m_top_30 pic_Representative">
             <img
-              src="../assets/images/MessageFromPresident/pic_Representative.png"
+              src="/src/assets/images/MessageFromPresident/pic_Representative.png"
               alt="pic_president"
             />
           </div>
           <div class="pic_president_sign">
             <img
-              src="../assets/images/MessageFromPresident/pic_president_sign.png"
+              src="/src/assets/images/MessageFromPresident/pic_president_sign.png"
               alt="pic_president"
             />
           </div>
@@ -68,6 +68,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import MessagePresident from '@/assets/images/sub_page_title/MESSAGE_FROM_THE_PRESIDENT_banner.png'
 
 interface SubPageTitleType {
   TitleCn: string
@@ -78,7 +79,7 @@ interface SubPageTitleType {
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn: '社長 · 挨拶',
   TitleEn: 'MESSAGE FROM THE PRESIDENT',
-  ImgSrc: 'MESSAGE_FROM_THE_PRESIDENT_banner'
+  ImgSrc: MessagePresident
 })
 </script>
 

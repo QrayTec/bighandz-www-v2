@@ -13,11 +13,7 @@
         <div class="sub_page_Content_image">
           <div class="sub_page_Content_image_bg">
             <img
-              :src="
-                'src/assets/images/sub_page_title/' +
-                SubPageTitleData.ImgSrc +
-                '.png'
-              "
+              :src="SubPageTitleData.ImgSrc"
               alt=""
             />
           </div>

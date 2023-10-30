@@ -16,6 +16,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import CompanyProfile from '@/assets/images/sub_page_title/Company_Profile.png'
 
 interface SubPageTitleType {
   TitleCn: string
@@ -26,7 +27,7 @@ interface SubPageTitleType {
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn: '会社 · 概要',
   TitleEn: 'Company Profile',
-  ImgSrc: 'Company_Profile'
+  ImgSrc: CompanyProfile
 })
 </script>
 

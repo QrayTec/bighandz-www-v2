@@ -194,23 +194,23 @@ hr {
 }
 .Our_Way_items_bg_1 {
   width: 156.03px;
-  background-image: url('src/assets/images/corporate-philosophy-management-policy/pic_way_bg_1.svg');
+  background-image: url('/src/assets/images/corporate-philosophy-management-policy/pic_way_bg_1.svg');
 }
 .Our_Way_items_bg_2 {
   width: 237.022px;
-  background-image: url('src/assets/images/corporate-philosophy-management-policy/pic_way_bg_2.svg');
+  background-image: url('/src/assets/images/corporate-philosophy-management-policy/pic_way_bg_2.svg');
 }
 .Our_Way_items_bg_3 {
   width: 318.015px;
-  background-image: url('src/assets/images/corporate-philosophy-management-policy/pic_way_bg_3.svg');
+  background-image: url('/src/assets/images/corporate-philosophy-management-policy/pic_way_bg_3.svg');
 }
 .Our_Way_items_bg_4 {
   width: 399.007px;
-  background-image: url('src/assets/images/corporate-philosophy-management-policy/pic_way_bg_4.svg');
+  background-image: url('/src/assets/images/corporate-philosophy-management-policy/pic_way_bg_4.svg');
 }
 .Our_Way_items_bg_5 {
   width: 480px;
-  background-image: url('src/assets/images/corporate-philosophy-management-policy/pic_way_bg_5.svg');
+  background-image: url('/src/assets/images/corporate-philosophy-management-policy/pic_way_bg_5.svg');
 }
 .Our_Way_items_bg {
   margin: auto;
