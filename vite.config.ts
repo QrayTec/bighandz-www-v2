@@ -22,7 +22,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src')
     }
   },
-
+  base: './', // 设置 base 为相对路径
   plugins: [
     VueMacros({
       plugins: {
