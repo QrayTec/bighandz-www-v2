@@ -82,7 +82,7 @@ const PageNavData = ref<PageNavType[]>([
 }
 .page_nav_sticky {
   position: sticky;
-  top: 80px;
+  top: 76px;
   left: 0;
   z-index: 9;
 }
