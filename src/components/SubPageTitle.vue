@@ -6,7 +6,14 @@
       </div>
       <div class="sub_page_Content">
         <div class="sub_page_Content_title">
-          <div class="title_cn">{{ SubPageTitleData.TitleCn }}</div>
+          <div class="title_cn">
+            <span :class="{ title_bold: SubPageTitleData.bold == 1 }">{{
+              SubPageTitleData.TitleCn_1
+            }}</span>
+            <span :class="{ title_bold: SubPageTitleData.bold == 2 }">{{
+              SubPageTitleData.TitleCn_2
+            }}</span>
+          </div>
           <div class="title_en">{{ SubPageTitleData.TitleEn }}</div>
           <div class="title_line"></div>
         </div>
@@ -28,9 +35,11 @@
 import { ref } from 'vue'
 
 interface SubPageTitleType {
-  TitleCn: string
+  TitleCn_1: string
+  TitleCn_2: string
   TitleEn: string
   ImgSrc: string
+  bold: number
 }
 const props = defineProps<{ data: SubPageTitleType }>()
 
@@ -101,6 +110,9 @@ const SubPageTitleData = ref<SubPageTitleType>(props.data)
   position: absolute;
   bottom: 14px;
   right: -33.8%;
+}
+.title_bold {
+  font-weight: 700;
 }
 @media screen and (min-width: 1200px) {
   .sub_page_main {

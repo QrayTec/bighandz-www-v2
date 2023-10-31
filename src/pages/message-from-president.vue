@@ -71,15 +71,19 @@ import { ref } from 'vue'
 import MessagePresident from '@/assets/images/sub_page_title/MESSAGE_FROM_THE_PRESIDENT_banner.png'
 
 interface SubPageTitleType {
-  TitleCn: string
+  TitleCn_1: string
+  TitleCn_2: string
   TitleEn: string
   ImgSrc: string
+  bold: number
 }
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn: '社長 · 挨拶',
+  TitleCn_1: '社長',
+  TitleCn_2: ' · 挨拶',
   TitleEn: 'MESSAGE FROM THE PRESIDENT',
-  ImgSrc: MessagePresident
+  ImgSrc: MessagePresident,
+  bold: 1
 })
 </script>
 

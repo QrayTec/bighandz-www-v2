@@ -20,15 +20,19 @@ import { ref } from 'vue'
 import CompanyStaffObservation from '@/assets/images/sub_page_title/Company_staff_observation.png'
 
 interface SubPageTitleType {
-  TitleCn: string
+  TitleCn_1: string
+  TitleCn_2: string
   TitleEn: string
   ImgSrc: string
+  bold: number
 }
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn: 'MOVIE',
+  TitleCn_1: 'MOVIE',
+  TitleCn_2: '',
   TitleEn: 'Company staff observation',
-  ImgSrc: CompanyStaffObservation
+  ImgSrc: CompanyStaffObservation,
+  bold: 1
 })
 </script>
 

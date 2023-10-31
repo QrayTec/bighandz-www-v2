@@ -20,15 +20,19 @@ import { ref } from 'vue'
 import CorporatePhilosophy from '@/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner.png'
 
 interface SubPageTitleType {
-  TitleCn: string
+  TitleCn_1: string
+  TitleCn_2: string
   TitleEn: string
   ImgSrc: string
+  bold: number
 }
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn: '企業理念 · 経営方針',
+  TitleCn_1: '企業理念 ',
+  TitleCn_2: '· 経営方針',
   TitleEn: 'Corporate Philosophy Management Policy',
-  ImgSrc: CorporatePhilosophy
+  ImgSrc: CorporatePhilosophy,
+  bold: 1
 })
 </script>
 

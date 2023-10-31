@@ -22,9 +22,11 @@ import { ref } from 'vue'
 import HealthcareBusiness from '@/assets/images/sub_page_title/Healthcare_Business.png'
 
 interface SubPageTitleType {
-  TitleCn: string
+  TitleCn_1: string
+  TitleCn_2: string
   TitleEn: string
   ImgSrc: string
+  bold: number
 }
 interface PageNavType {
   id: number
@@ -32,9 +34,11 @@ interface PageNavType {
   anchor_title: string
 }
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn: 'ヘルスケア · 事業',
+  TitleCn_1: 'ヘルスケア',
+  TitleCn_2: ' · 事業',
   TitleEn: 'Healthcare business',
-  ImgSrc: HealthcareBusiness
+  ImgSrc: HealthcareBusiness,
+  bold: 1
 })
 
 const PageNavData = ref<PageNavType[]>([
