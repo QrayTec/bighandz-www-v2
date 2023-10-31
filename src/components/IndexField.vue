@@ -55,15 +55,19 @@
       </div>
     </div>
     <div
-      class="index_field_content"
-      :class="'main_bg_' + selectedIndex"
+      v-for="(item, index) in ContentData"
+      v-show="selectedIndex === index"
+      :key="index"
+      class="index_field_content animate__fadeIn animate__animated"
     >
-      <div
-        v-for="(item, index) in ContentData"
-        v-show="selectedIndex === index"
-        :key="index"
-        class="index_field_content_main animate__animated animate__fadeIn"
-      >
+      <div class="index_field_images">
+        <img
+          :src="item.BgSrc"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="index_field_content_main">
         <div class="index_field_content_title">
           <img
             :src="item.src"
@@ -92,6 +96,10 @@ import Icon1 from '@/assets/images/index_field/icon_1.svg'
 import Icon2 from '@/assets/images/index_field/icon_2.svg'
 import Icon3 from '@/assets/images/index_field/icon_3.svg'
 import Icon4 from '@/assets/images/index_field/icon_4.svg'
+import bg1 from '@//assets/images/index_field/bg1.png'
+import bg2 from '@//assets/images/index_field/bg2.png'
+import bg3 from '@//assets/images/index_field/bg3.png'
+import bg4 from '@//assets/images/index_field/bg4.png'
 
 interface NavDataType {
   id: number
@@ -102,6 +110,7 @@ interface NavDataType {
 
 interface COntentDataType {
   id: number
+  BgSrc?: undefined | string
   src: string
   title_cn: string
   title_1: string
@@ -122,6 +131,7 @@ const ContentData = ref<COntentDataType[]>([
   {
     id: 0,
     src: Icon1,
+    BgSrc: bg1,
     title_cn: '金融',
     title_1: '主な業務経験は製造、流通関係です。',
     title_2:
@@ -132,6 +142,7 @@ const ContentData = ref<COntentDataType[]>([
   {
     id: 1,
     src: Icon2,
+    BgSrc: bg2,
     title_cn: '政府',
     title_1: '主な業務経験は製造、流通関係です。',
     title_2:
@@ -142,6 +153,7 @@ const ContentData = ref<COntentDataType[]>([
   {
     id: 2,
     src: Icon3,
+    BgSrc: bg3,
     title_cn: '医疗',
     title_1: '主な業務経験は製造、流通関係です。',
     title_2:
@@ -152,6 +164,7 @@ const ContentData = ref<COntentDataType[]>([
   {
     id: 3,
     src: Icon4,
+    BgSrc: bg4,
     title_cn: '制造业',
     title_1: '主な業務経験は製造、流通関係です。',
     title_2:
@@ -298,23 +311,18 @@ const shields = (flag: boolean) => {
   background-size: cover;
   display: flex;
   justify-content: center;
+  animation-duration: 2.5s;
 }
-.main_bg_0 {
-  background-image: url('/src/assets/images/index_field/bg1.png');
-}
-.main_bg_1 {
-  background-image: url('/src/assets/images/index_field/bg2.png');
-}
-.main_bg_2 {
-  background-image: url('/src/assets/images/index_field/bg3.png');
-}
-.main_bg_3 {
-  background-image: url('/src/assets/images/index_field/bg4.png');
+.index_field_images {
+  width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .index_field_content_main {
   width: 1200px;
-  animation-duration: 2.5s; /* 设置动画持续时间为 4 秒 */
+  z-index: 2;
+  position: absolute;
 }
 .index_field_content_title {
   margin-top: 90px;
