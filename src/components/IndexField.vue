@@ -6,19 +6,15 @@
         <div class="index_field_Nav">
           <div
             ref="NavLine"
-            class="Nav_Line"
-          ></div>
+            class="Nav_Box"
+          >
+            <div class="Nav_Line"></div>
+            <div class="items_checked"></div>
+          </div>
           <div
             v-for="(item, index) in NavData"
             :key="index"
             class="index_items items_uncheck"
-            :class="[
-              'index_items',
-              {
-                items_checked: selectedIndex === index,
-                items_uncheck: selectedIndex !== index
-              }
-            ]"
             @click="selectNavItem(index)"
           >
             <div class="index_items_icon">
@@ -242,16 +238,20 @@ const shields = (flag: boolean) => {
   background-color: #0e1b47;
 }
 .items_checked {
+  width: 250px;
+  height: 104px;
   background-color: rgba(255, 255, 255, 0.0588);
+}
+.Nav_Box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.8s;
 }
 .Nav_Line {
   width: 250px;
   height: 4px;
   background-color: #597be5;
-  position: absolute;
-  left: 0;
-  top: 0;
-  transition: all 0.8s;
 }
 .index_field_flip {
   margin-left: 72px;
