@@ -3,9 +3,7 @@
     <div class="Menu_Content">
       <div class="Menu_title_Main">
         <img
-          :src="
-            '/src/assets/images/menu/' + MenuDataTitle[MenuIndex].src + '.svg'
-          "
+          :src="MenuDataTitle[MenuIndex].src"
           alt=""
         />
         <div class="Menu_title">{{ MenuDataTitle[MenuIndex].title }}</div>
@@ -26,6 +24,9 @@
 
 <script setup lang="ts">
 import { defineProps, ref, toRefs } from 'vue'
+import Information from '@/assets/images/menu/information.svg'
+import Outline from '@/assets/images/menu/outline.svg'
+import Recruit from '@/assets/images/menu/recruit.svg'
 
 interface Menu_Items {
   id: number
@@ -47,9 +48,9 @@ const props = defineProps<{
 const { menudata, menuindex } = toRefs(props)
 
 const MenuDataTitle = ref<MenuTitle[]>([
-  { id: 1, title: '企業情報', src: 'information' },
-  { id: 2, title: '事業概要', src: 'outline' },
-  { id: 3, title: '採用情報', src: 'recruit' }
+  { id: 1, title: '企業情報', src: Information },
+  { id: 2, title: '事業概要', src: Outline },
+  { id: 3, title: '採用情報', src: Recruit }
 ])
 const MenuIndex = menuindex
 </script>
