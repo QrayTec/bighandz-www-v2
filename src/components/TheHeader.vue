@@ -37,7 +37,7 @@
       </div>
     </div>
     <TheHeaderInfo
-      v-if="MenuFlag"
+      v-show="MenuFlag"
       :menudata="MenuData"
       :menuindex="MenuIndex"
       @mouseenter="BlockMenu(true, LineIndex)"
