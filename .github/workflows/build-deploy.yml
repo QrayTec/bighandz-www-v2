@@ -42,3 +42,14 @@ jobs:
           destination-repository-name: "bighandz-www-v2"
           user-email: saopipizhu@163.com
           target-branch: "gh-page"
+
+      - name: Clear Target Branch
+        run: |
+          git clone https://github.com/QrayTec/bighandz-www-v2.git
+          cd bighandz-www-v2
+          git checkout --orphan new-branch
+          git add .
+          git commit -m "Clean branch"
+          git branch -D gh-page  # 删除远程仓库的 gh-page 分支
+          git branch -m gh-page
+          git push origin gh-page -f
