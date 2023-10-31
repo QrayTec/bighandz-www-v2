@@ -94,13 +94,25 @@ export default {}
   top: 338px;
   width: 52px;
   height: 152px;
+  animation: moveContainer 3s infinite alternate;
 }
+
+@keyframes moveContainer {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30%); /* 根据需要调整移动距离 */
+  }
+}
+
 .Scroll_Text {
   color: #fff;
   width: 52px;
   height: 21px;
   transform: rotate(-90deg) translateX(-50%);
 }
+
 .Scroll_Line {
   width: 1px;
   height: 80px;
@@ -110,7 +122,7 @@ export default {}
     rgba(255, 255, 255, 0) -33.34%,
     #fff 133.34%
   );
-  margin: 20px auto 0px;
+  margin: 20px auto 0;
   transform: translateY(50%);
 }
 </style>

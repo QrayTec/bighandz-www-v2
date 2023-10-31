@@ -24,7 +24,7 @@
           >
             <router-link
               class="router_link"
-              to="/"
+              :to="item.href"
               >{{ item.title }}</router-link
             >
           </div>
@@ -67,10 +67,10 @@ const checked = ref<number>(props.checked)
 
 const NavLinkArray = ref<NavLink[]>([
   { id: 1, title: 'ホーム', href: '/' },
-  { id: 2, title: '企業情報', href: '/' },
-  { id: 3, title: '事業概要', href: '/' },
-  { id: 4, title: '採用情報', href: '/' },
-  { id: 5, title: 'アクセス', href: '/' }
+  { id: 2, title: '企業情報', href: '' },
+  { id: 3, title: '事業概要', href: '' },
+  { id: 4, title: '採用情報', href: '' },
+  { id: 5, title: 'アクセス', href: '' }
 ])
 const MenuData = ref<MenuItems[]>([])
 
