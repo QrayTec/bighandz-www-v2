@@ -19,6 +19,7 @@
             v-for="(item, index) in NavLinkArray"
             :key="item.id"
             class="nav-link-title"
+            @click="ClickTitle(index)"
             @mouseover="iSCheck(index)"
             @mouseout="UnCheck(index)"
           >
@@ -148,9 +149,15 @@ function UnCheck(index: number) {
   LineIndex.value = index
 
   if (index === 1 || index === 2 || index === 3) {
-    BlockMenu(true, index)
+    BlockMenu(MenuFlag.value, index)
   }
   NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
+}
+function ClickTitle(index: number) {
+  if (!(index === 0 || index === 3)) {
+    MenuFlag.value = !MenuFlag.value
+    BlockMenu(MenuFlag.value, index)
+  }
 }
 const isScrolled = ref(false)
 
