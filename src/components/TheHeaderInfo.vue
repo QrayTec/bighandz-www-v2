@@ -69,6 +69,7 @@ const MenuIndex = menuindex
   backdrop-filter: blur(2px);
   display: flex;
   justify-content: center;
+  z-index: 8;
 }
 .Menu_Content {
   width: 1200px;

@@ -84,7 +84,7 @@ const PageNavData = ref<PageNavType[]>([
   position: sticky;
   top: 76px;
   left: 0;
-  z-index: 9;
+  z-index: 5;
 }
 @media screen and (max-width: 1299px) {
   .healthcare_business_box {
