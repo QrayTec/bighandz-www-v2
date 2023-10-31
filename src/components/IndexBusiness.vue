@@ -10,7 +10,7 @@
               src="/src/assets/images/index_Business/title_icon_1.svg"
               alt=""
             />
-            <div class="Business_Items_title">システム開発事業</div>
+            <div class="Business_Items_title">Siサービス事業</div>
           </div>
           <div class="Business_Items_content_Hover">
             <div class="Business_Items_content">
@@ -64,7 +64,7 @@
                   src="/src/assets/images/index_Business/title_icon_3.svg"
                   alt=""
                 />
-                <div class="Business_Items_title">オフショア事業</div>
+                <div class="Business_Items_title">インフラ事業</div>
               </div>
               <div class="Business_Items_content_Hover">
                 <div class="Business_Items_content">
@@ -92,7 +92,7 @@
                   src="/src/assets/images/index_Business/title_icon_4.svg"
                   alt=""
                 />
-                <div class="Business_Items_title">コンサルテイング事業</div>
+                <div class="Business_Items_title">ヘルスケア事業</div>
               </div>
               <div class="Business_Items_content_Hover">
                 <div class="Business_Items_content">
@@ -102,7 +102,7 @@
                 <div class="Business_Items_link_Hover">
                   <router-link
                     class="Business_Items_link"
-                    to="/"
+                    to="/healthcare-business"
                     >詳細はこちら
                     <img
                       src="/src/assets/images/index_Business/link.svg"
