@@ -319,7 +319,7 @@
   padding: 40px;
   display: block;
   position: relative;
-  transition: padding 0.8s, opacity 0.8s; /* 添加过渡效果 */
+  transition: opacity 0.8s; /* 添加过渡效果 */
 }
 
 .Business_Items_vertical:hover .Business_Items_Hover,
@@ -336,7 +336,7 @@
   display: flex;
   flex-wrap: nowrap;
   text-align: left;
-  transition: all 0.8s; /* 添加所有属性的过渡效果 */
+  animation: fadeIn 0.8s ease-in-out;
 }
 
 .Business_Items_vertical:hover .Business_Items_title,
@@ -345,7 +345,7 @@
   margin-top: 0px;
   margin-left: 10px;
   justify-content: start;
-  transition: all 0.8s; /* 添加所有属性的过渡效果 */
+  animation: fadeIn 0.8s ease-in-out;
 }
 
 /* 悬停时的通用样式 */
@@ -356,7 +356,26 @@
 .Business_Items_square:hover .Business_Items_content_Hover_2,
 .Business_Items_horizontal:hover .Business_Items_content_Hover_2 {
   display: block;
+  animation: fadeIn 0.8s ease-in-out; /* 使用名为 fadeIn 的动画，持续 2 秒 */
   transition: all 0.8s; /* 添加所有属性的过渡效果 */
+}
+.Business_Items_vertical:hover img,
+.Business_Items_square:hover img,
+.Business_Items_horizontal:hover img,
+.Business_Items_vertical:hover img,
+.Business_Items_square:hover img,
+.Business_Items_horizontal:hover img {
+  display: block;
+  animation: fadeIn 0.8s ease-in-out; /* 使用名为 fadeIn 的动画，持续 2 秒 */
+  transition: all 0.8s; /* 添加所有属性的过渡效果 */
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 从完全透明开始 */
+  }
+  to {
+    opacity: 1; /* 渐变到完全不透明 */
+  }
 }
 @media (min-width: 1024px) and (max-width: 1299px) {
   .index_Business {

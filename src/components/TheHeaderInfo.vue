@@ -1,12 +1,17 @@
 <template>
   <div class="Nav_menu_info">
     <div class="Menu_Content">
-      <div class="Menu_title_Main">
+      <div
+        v-for="(item, index) in MenuDataTitle"
+        v-show="index === MenuIndex"
+        :key="item.title"
+        class="Menu_title_Main"
+      >
         <img
-          :src="MenuDataTitle[MenuIndex].src"
+          :src="item.src"
           alt=""
         />
-        <div class="Menu_title">{{ MenuDataTitle[MenuIndex].title }}</div>
+        <div class="Menu_title">{{ item.title }}</div>
       </div>
       <div class="Menu_Items">
         <div

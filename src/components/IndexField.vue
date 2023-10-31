@@ -1,26 +1,4 @@
 <template>
-  <!-- 预加载图片 -->
-  <link
-    rel="preload"
-    href="/src/assets/images/index_field/bg1.png"
-    as="image"
-  />
-  <link
-    rel="preload"
-    href="/src/assets/images/index_field/bg2.png"
-    as="image"
-  />
-  <link
-    rel="preload"
-    href="/src/assets/images/index_field/bg3.png"
-    as="image"
-  />
-  <link
-    rel="preload"
-    href="/src/assets/images/index_field/bg4.png"
-    as="image"
-  />
-
   <div class="index_field">
     <div class="index_field_main">
       <div class="index_field_main_Nav">
