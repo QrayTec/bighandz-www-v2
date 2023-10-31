@@ -314,6 +314,7 @@ const shields = (flag: boolean) => {
 
 .index_field_content_main {
   width: 1200px;
+  animation-duration: 2.5s; /* 设置动画持续时间为 4 秒 */
 }
 .index_field_content_title {
   margin-top: 90px;
