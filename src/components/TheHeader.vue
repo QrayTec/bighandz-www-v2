@@ -165,6 +165,7 @@ function handleScroll() {
   isScrolled.value = window.scrollY > 0
 }
 onMounted(() => {
+  handleScroll()
   window.addEventListener('scroll', handleScroll)
   NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
 })
@@ -200,12 +201,12 @@ onBeforeUnmount(() => {
   align-items: center;
 }
 .scroll-background {
-  animation: backgroundColorTransition 0.8s linear; /* 2秒的动画，可以根据需要进行调整 */
   background-color: #0e1b47; /* 初始背景色为透明 */
+  animation: backgroundColorTransition 0.5s linear; /* 2秒的动画，可以根据需要进行调整 */
 }
 .scroll-background-to-transparent {
-  animation: backgroundColorTransitionToTransparent 0.8s linear; /* 2秒的动画，可以根据需要进行调整 */
   background-color: transparent; /* 初始背景颜色为 #0e1b47 */
+  animation: backgroundColorTransitionToTransparent 0.5s linear; /* 2秒的动画，可以根据需要进行调整 */
 }
 .logo-images {
   width: 68px;
