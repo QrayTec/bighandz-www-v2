@@ -6,7 +6,9 @@
     />
     <div class="message_from_president_main">
       <sub-page-title :data="SubPageTitleData" />
-      <the-page-nav :pagenavdata="PageNavData" />
+      <div class="page_nav_sticky">
+        <the-page-nav :pagenavdata="PageNavData" />
+      </div>
     </div>
     <div class="healthcare_business m_b_240">
       <div class="healthcare_business_box">
@@ -78,7 +80,10 @@ const PageNavData = ref<PageNavType[]>([
 .healthcare_business_box {
   width: 1200px;
 }
-
+.page_nav_sticky {
+  position: sticky;
+  top: 80px;
+}
 @media screen and (max-width: 1299px) {
   .healthcare_business_box {
     width: 80%;
