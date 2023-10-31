@@ -288,7 +288,7 @@
     "./assets/pic_banner-ecf1d10c.png"
   ],
   "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "./assets/virtual_pwa-register-d630907f.js"
+    "./assets/virtual_pwa-register-653aa5a3.js"
   ],
   "../../../../../@vite-plugin-vue-layouts/generated-layouts": [
     "./assets/logo-8d685922.svg",
@@ -1308,21 +1308,21 @@
     "./assets/pic_banner-ecf1d10c.png"
   ],
   "src/assets/images/MessageFromPresident/pic_Representative.png": [
-    "./assets/message-from-president-28110437.js",
+    "./assets/message-from-president-5a7e031c.js",
     "./assets/message-from-president-1f14d3e7.css",
     "./assets/pic_president-c2092995.png",
     "./assets/pic_president_sign-2c1d3021.png",
     "./assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
   ],
   "src/assets/images/MessageFromPresident/pic_president.png": [
-    "./assets/message-from-president-28110437.js",
+    "./assets/message-from-president-5a7e031c.js",
     "./assets/message-from-president-1f14d3e7.css",
     "./assets/pic_president-c2092995.png",
     "./assets/pic_president_sign-2c1d3021.png",
     "./assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
   ],
   "src/assets/images/MessageFromPresident/pic_president_sign.png": [
-    "./assets/message-from-president-28110437.js",
+    "./assets/message-from-president-5a7e031c.js",
     "./assets/message-from-president-1f14d3e7.css",
     "./assets/pic_president-c2092995.png",
     "./assets/pic_president_sign-2c1d3021.png",
@@ -1365,26 +1365,26 @@
     "./assets/pic_banner-ecf1d10c.png"
   ],
   "src/assets/images/bread_icon.svg": [
-    "./assets/SubPageTitle-1924701d.js",
+    "./assets/SubPageTitle-314d03f1.js",
     "./assets/SubPageTitle-aabc4de3.css",
     "./assets/bread_icon-5c1858f4.svg"
   ],
   "src/assets/images/company-staff-observation/play.svg": [
-    "./assets/company-staff-observation-6d642651.js",
+    "./assets/company-staff-observation-dc3570af.js",
     "./assets/company-staff-observation-30759da7.css",
     "./assets/play-df0788ce.svg",
     "./assets/video-3538944c.png",
     "./assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/assets/images/company-staff-observation/video.png": [
-    "./assets/company-staff-observation-6d642651.js",
+    "./assets/company-staff-observation-dc3570af.js",
     "./assets/company-staff-observation-30759da7.css",
     "./assets/play-df0788ce.svg",
     "./assets/video-3538944c.png",
     "./assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/assets/images/company_profile/rhombic.svg": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -1397,7 +1397,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic-Misson.png": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -1415,7 +1415,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_1.svg": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -1433,7 +1433,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_2.svg": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -1451,7 +1451,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_3.svg": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -1469,7 +1469,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_4.svg": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -1487,7 +1487,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_5.svg": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -1505,7 +1505,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_vision.png": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -1523,7 +1523,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/healthcare-business/image_1.png": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -1536,7 +1536,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/assets/images/healthcare-business/image_2.png": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -1549,7 +1549,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/assets/images/healthcare-business/image_3.png": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -1562,7 +1562,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/assets/images/healthcare-business/image_4.png": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -1575,7 +1575,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/assets/images/healthcare-business/image_5.png": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -1588,7 +1588,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/assets/images/healthcare-business/logo_1.png": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -2429,7 +2429,7 @@
     "./assets/pic_banner-ecf1d10c.png"
   ],
   "src/assets/images/page_nav.svg": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -2442,20 +2442,20 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/assets/images/sub_page_title/Company_Profile.png": [
-    "./assets/company-profile-31a88b75.js",
+    "./assets/company-profile-d8982fbd.js",
     "./assets/company-profile-d717106a.css",
     "./assets/Company_Profile-32f1688b.png",
     "./assets/history_line-d35b45ca.svg"
   ],
   "src/assets/images/sub_page_title/Company_staff_observation.png": [
-    "./assets/company-staff-observation-6d642651.js",
+    "./assets/company-staff-observation-dc3570af.js",
     "./assets/company-staff-observation-30759da7.css",
     "./assets/play-df0788ce.svg",
     "./assets/video-3538944c.png",
     "./assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner.png": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -2473,7 +2473,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/sub_page_title/Healthcare_Business.png": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -2486,14 +2486,14 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/assets/images/sub_page_title/MESSAGE_FROM_THE_PRESIDENT_banner.png": [
-    "./assets/message-from-president-28110437.js",
+    "./assets/message-from-president-5a7e031c.js",
     "./assets/message-from-president-1f14d3e7.css",
     "./assets/pic_president-c2092995.png",
     "./assets/pic_president_sign-2c1d3021.png",
     "./assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
   ],
   "src/assets/images/sub_page_title/event_information.png": [
-    "./assets/event-information-5ac064a2.js",
+    "./assets/event-information-ee54aaad.js",
     "./assets/event-information-3d590a6e.css",
     "./assets/event_information-5ea6994c.png"
   ],
@@ -2533,7 +2533,7 @@
     "./assets/bg-5-9c557f33.png",
     "./assets/pic_banner-ecf1d10c.png"
   ],
-  "src/components/IndexBusiness.vue?vue&type=style&index=0&scoped=617483e2&lang.css": [
+  "src/components/IndexBusiness.vue?vue&type=style&index=0&scoped=78afcb41&lang.css": [
     "./assets/logo-8d685922.svg",
     "./assets/back_top-95380537.svg",
     "./assets/customers1-f8d634ff.svg",
@@ -2749,7 +2749,7 @@
     "./assets/bg-5-9c557f33.png",
     "./assets/pic_banner-ecf1d10c.png"
   ],
-  "src/components/IndexField.vue?vue&type=style&index=0&scoped=2a330d23&lang.css": [
+  "src/components/IndexField.vue?vue&type=style&index=0&scoped=e3a86341&lang.css": [
     "./assets/logo-8d685922.svg",
     "./assets/back_top-95380537.svg",
     "./assets/customers1-f8d634ff.svg",
@@ -2858,17 +2858,17 @@
     "./assets/pic_banner-ecf1d10c.png"
   ],
   "src/components/SubPageTitle.vue": [
-    "./assets/SubPageTitle-1924701d.js",
+    "./assets/SubPageTitle-314d03f1.js",
     "./assets/SubPageTitle-aabc4de3.css",
     "./assets/bread_icon-5c1858f4.svg"
   ],
   "src/components/SubPageTitle.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/SubPageTitle-1924701d.js",
+    "./assets/SubPageTitle-314d03f1.js",
     "./assets/SubPageTitle-aabc4de3.css",
     "./assets/bread_icon-5c1858f4.svg"
   ],
   "src/components/SubPageTitle.vue?vue&type=style&index=0&scoped=fc242934&lang.css": [
-    "./assets/SubPageTitle-1924701d.js",
+    "./assets/SubPageTitle-314d03f1.js",
     "./assets/SubPageTitle-aabc4de3.css",
     "./assets/bread_icon-5c1858f4.svg"
   ],
@@ -2981,12 +2981,12 @@
     "./assets/pic_banner-ecf1d10c.png"
   ],
   "src/components/TheBreadcrumbs.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/SubPageTitle-1924701d.js",
+    "./assets/SubPageTitle-314d03f1.js",
     "./assets/SubPageTitle-aabc4de3.css",
     "./assets/bread_icon-5c1858f4.svg"
   ],
   "src/components/TheBreadcrumbs.vue?vue&type=style&index=0&lang.css": [
-    "./assets/SubPageTitle-1924701d.js",
+    "./assets/SubPageTitle-314d03f1.js",
     "./assets/SubPageTitle-aabc4de3.css",
     "./assets/bread_icon-5c1858f4.svg"
   ],
@@ -3207,7 +3207,7 @@
     "./assets/pic_banner-ecf1d10c.png"
   ],
   "src/components/ThePageNav.vue": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -3220,7 +3220,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/components/ThePageNav.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -3233,7 +3233,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/components/ThePageNav.vue?vue&type=style&index=0&scoped=2b38b5e6&lang.css": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -3246,64 +3246,64 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/components/company-profile/CompanyHistory.vue": [
-    "./assets/company-profile-31a88b75.js",
+    "./assets/company-profile-d8982fbd.js",
     "./assets/company-profile-d717106a.css",
     "./assets/Company_Profile-32f1688b.png",
     "./assets/history_line-d35b45ca.svg"
   ],
   "src/components/company-profile/CompanyHistory.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/company-profile-31a88b75.js",
+    "./assets/company-profile-d8982fbd.js",
     "./assets/company-profile-d717106a.css",
     "./assets/Company_Profile-32f1688b.png",
     "./assets/history_line-d35b45ca.svg"
   ],
   "src/components/company-profile/CompanyHistory.vue?vue&type=style&index=0&scoped=4f55be7f&lang.css": [
-    "./assets/company-profile-31a88b75.js",
+    "./assets/company-profile-d8982fbd.js",
     "./assets/company-profile-d717106a.css",
     "./assets/Company_Profile-32f1688b.png",
     "./assets/history_line-d35b45ca.svg"
   ],
   "src/components/company-profile/CompanyProfileContent.vue": [
-    "./assets/company-profile-31a88b75.js",
+    "./assets/company-profile-d8982fbd.js",
     "./assets/company-profile-d717106a.css",
     "./assets/Company_Profile-32f1688b.png",
     "./assets/history_line-d35b45ca.svg"
   ],
   "src/components/company-profile/CompanyProfileContent.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/company-profile-31a88b75.js",
+    "./assets/company-profile-d8982fbd.js",
     "./assets/company-profile-d717106a.css",
     "./assets/Company_Profile-32f1688b.png",
     "./assets/history_line-d35b45ca.svg"
   ],
   "src/components/company-profile/CompanyProfileContent.vue?vue&type=style&index=0&scoped=11989adc&lang.css": [
-    "./assets/company-profile-31a88b75.js",
+    "./assets/company-profile-d8982fbd.js",
     "./assets/company-profile-d717106a.css",
     "./assets/Company_Profile-32f1688b.png",
     "./assets/history_line-d35b45ca.svg"
   ],
   "src/components/company-staff-observation/MovieItem.vue": [
-    "./assets/company-staff-observation-6d642651.js",
+    "./assets/company-staff-observation-dc3570af.js",
     "./assets/company-staff-observation-30759da7.css",
     "./assets/play-df0788ce.svg",
     "./assets/video-3538944c.png",
     "./assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/components/company-staff-observation/MovieItem.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/company-staff-observation-6d642651.js",
+    "./assets/company-staff-observation-dc3570af.js",
     "./assets/company-staff-observation-30759da7.css",
     "./assets/play-df0788ce.svg",
     "./assets/video-3538944c.png",
     "./assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/components/company-staff-observation/MovieItem.vue?vue&type=style&index=0&scoped=5362ac34&lang.css": [
-    "./assets/company-staff-observation-6d642651.js",
+    "./assets/company-staff-observation-dc3570af.js",
     "./assets/company-staff-observation-30759da7.css",
     "./assets/play-df0788ce.svg",
     "./assets/video-3538944c.png",
     "./assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/components/corporate-philosophy-management-policy/Innovation.vue": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3321,7 +3321,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/corporate-philosophy-management-policy/Innovation.vue?vue&type=style&index=0&scoped=b90bc98b&lang.css": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3339,7 +3339,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/corporate-philosophy-management-policy/Mission.vue": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3357,7 +3357,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/corporate-philosophy-management-policy/Mission.vue?vue&type=style&index=0&scoped=8fb0121b&lang.css": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3375,7 +3375,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/corporate-philosophy-management-policy/PracticesGuidelines.vue": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3393,7 +3393,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/corporate-philosophy-management-policy/PracticesGuidelines.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3411,7 +3411,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/corporate-philosophy-management-policy/PracticesGuidelines.vue?vue&type=style&index=0&scoped=fbd206f7&lang.css": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3429,7 +3429,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/corporate-philosophy-management-policy/Values.vue": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3447,7 +3447,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/corporate-philosophy-management-policy/Values.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3465,7 +3465,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/corporate-philosophy-management-policy/Values.vue?vue&type=style&index=0&scoped=f040ea30&lang.css": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3483,7 +3483,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/corporate-philosophy-management-policy/Vision.vue": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3501,7 +3501,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/corporate-philosophy-management-policy/Vision.vue?vue&type=style&index=0&scoped=477fecff&lang.css": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3519,22 +3519,22 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/components/event-information/EventInformationItem.vue": [
-    "./assets/event-information-5ac064a2.js",
+    "./assets/event-information-ee54aaad.js",
     "./assets/event-information-3d590a6e.css",
     "./assets/event_information-5ea6994c.png"
   ],
   "src/components/event-information/EventInformationItem.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/event-information-5ac064a2.js",
+    "./assets/event-information-ee54aaad.js",
     "./assets/event-information-3d590a6e.css",
     "./assets/event_information-5ea6994c.png"
   ],
   "src/components/event-information/EventInformationItem.vue?vue&type=style&index=0&scoped=ef75b1fa&lang.css": [
-    "./assets/event-information-5ac064a2.js",
+    "./assets/event-information-ee54aaad.js",
     "./assets/event-information-3d590a6e.css",
     "./assets/event_information-5ea6994c.png"
   ],
   "src/components/healthcare-business/Brand.vue": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -3547,7 +3547,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/components/healthcare-business/Brand.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -3560,7 +3560,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/components/healthcare-business/Brand.vue?vue&type=style&index=0&scoped=155c3df0&lang.css": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -3573,7 +3573,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/components/healthcare-business/HealthcareBusinessItem.vue": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -3586,7 +3586,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/components/healthcare-business/HealthcareBusinessItem.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -3599,7 +3599,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/components/healthcare-business/HealthcareBusinessItem.vue?vue&type=style&index=0&scoped=21ec5694&lang.css": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -3612,18 +3612,18 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/data/breadcrumb-data.ts": [
-    "./assets/SubPageTitle-1924701d.js",
+    "./assets/SubPageTitle-314d03f1.js",
     "./assets/SubPageTitle-aabc4de3.css",
     "./assets/bread_icon-5c1858f4.svg"
   ],
   "src/layouts/404.vue": [
-    "./assets/404-cedca973.js"
+    "./assets/404-53c639d5.js"
   ],
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/404-cedca973.js"
+    "./assets/404-53c639d5.js"
   ],
   "src/layouts/blank.vue": [
-    "./assets/blank-d38f7756.js"
+    "./assets/blank-cb7b0571.js"
   ],
   "src/layouts/default.vue": [
     "./assets/logo-8d685922.svg",
@@ -3662,7 +3662,7 @@
     "./assets/pic_banner-ecf1d10c.png"
   ],
   "src/layouts/home.vue": [
-    "./assets/home-90fdb0b6.js"
+    "./assets/home-b1ce9de3.js"
   ],
   "src/main.ts": [
     "./assets/logo-8d685922.svg",
@@ -3845,52 +3845,52 @@
     "./assets/pic_banner-ecf1d10c.png"
   ],
   "src/pages/[...all].vue": [
-    "./assets/_...all_-6985338c.js"
+    "./assets/_...all_-d1030468.js"
   ],
   "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/_...all_-6985338c.js"
+    "./assets/_...all_-d1030468.js"
   ],
   "src/pages/company-profile.vue": [
-    "./assets/company-profile-31a88b75.js",
+    "./assets/company-profile-d8982fbd.js",
     "./assets/company-profile-d717106a.css",
     "./assets/Company_Profile-32f1688b.png",
     "./assets/history_line-d35b45ca.svg"
   ],
   "src/pages/company-profile.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/company-profile-31a88b75.js",
+    "./assets/company-profile-d8982fbd.js",
     "./assets/company-profile-d717106a.css",
     "./assets/Company_Profile-32f1688b.png",
     "./assets/history_line-d35b45ca.svg"
   ],
   "src/pages/company-profile.vue?vue&type=style&index=0&lang.css": [
-    "./assets/company-profile-31a88b75.js",
+    "./assets/company-profile-d8982fbd.js",
     "./assets/company-profile-d717106a.css",
     "./assets/Company_Profile-32f1688b.png",
     "./assets/history_line-d35b45ca.svg"
   ],
   "src/pages/company-staff-observation.vue": [
-    "./assets/company-staff-observation-6d642651.js",
+    "./assets/company-staff-observation-dc3570af.js",
     "./assets/company-staff-observation-30759da7.css",
     "./assets/play-df0788ce.svg",
     "./assets/video-3538944c.png",
     "./assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/pages/company-staff-observation.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/company-staff-observation-6d642651.js",
+    "./assets/company-staff-observation-dc3570af.js",
     "./assets/company-staff-observation-30759da7.css",
     "./assets/play-df0788ce.svg",
     "./assets/video-3538944c.png",
     "./assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/pages/company-staff-observation.vue?vue&type=style&index=0&scoped=e9bd29cc&lang.css": [
-    "./assets/company-staff-observation-6d642651.js",
+    "./assets/company-staff-observation-dc3570af.js",
     "./assets/company-staff-observation-30759da7.css",
     "./assets/play-df0788ce.svg",
     "./assets/video-3538944c.png",
     "./assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/pages/corporate-philosophy-management-policy.vue": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3908,7 +3908,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/pages/corporate-philosophy-management-policy.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3926,7 +3926,7 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/pages/corporate-philosophy-management-policy.vue?vue&type=style&index=0&lang.css": [
-    "./assets/corporate-philosophy-management-policy-050db5a2.js",
+    "./assets/corporate-philosophy-management-policy-bd51c5f9.js",
     "./assets/corporate-philosophy-management-policy-56617c51.css",
     "./assets/pic_icon_1-b08ca6ae.svg",
     "./assets/pic_icon_2-11780678.svg",
@@ -3944,22 +3944,22 @@
     "./assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/pages/event-information.vue": [
-    "./assets/event-information-5ac064a2.js",
+    "./assets/event-information-ee54aaad.js",
     "./assets/event-information-3d590a6e.css",
     "./assets/event_information-5ea6994c.png"
   ],
   "src/pages/event-information.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/event-information-5ac064a2.js",
+    "./assets/event-information-ee54aaad.js",
     "./assets/event-information-3d590a6e.css",
     "./assets/event_information-5ea6994c.png"
   ],
   "src/pages/event-information.vue?vue&type=style&index=0&scoped=f52ceff1&lang.css": [
-    "./assets/event-information-5ac064a2.js",
+    "./assets/event-information-ee54aaad.js",
     "./assets/event-information-3d590a6e.css",
     "./assets/event_information-5ea6994c.png"
   ],
   "src/pages/healthcare-business.vue": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -3972,7 +3972,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/pages/healthcare-business.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -3985,7 +3985,7 @@
     "./assets/Healthcare_Business-741a6e10.png"
   ],
   "src/pages/healthcare-business.vue?vue&type=style&index=0&scoped=f785f1bc&lang.css": [
-    "./assets/healthcare-business-a1f3d2d5.js",
+    "./assets/healthcare-business-5dc99892.js",
     "./assets/healthcare-business-87ead287.css",
     "./assets/image_5-08d974ca.png",
     "./assets/logo_1-7333d4d5.png",
@@ -4106,21 +4106,21 @@
     "./assets/pic_banner-ecf1d10c.png"
   ],
   "src/pages/message-from-president.vue": [
-    "./assets/message-from-president-28110437.js",
+    "./assets/message-from-president-5a7e031c.js",
     "./assets/message-from-president-1f14d3e7.css",
     "./assets/pic_president-c2092995.png",
     "./assets/pic_president_sign-2c1d3021.png",
     "./assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
   ],
   "src/pages/message-from-president.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/message-from-president-28110437.js",
+    "./assets/message-from-president-5a7e031c.js",
     "./assets/message-from-president-1f14d3e7.css",
     "./assets/pic_president-c2092995.png",
     "./assets/pic_president_sign-2c1d3021.png",
     "./assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
   ],
   "src/pages/message-from-president.vue?vue&type=style&index=0&scoped=2dad76c7&lang.css": [
-    "./assets/message-from-president-28110437.js",
+    "./assets/message-from-president-5a7e031c.js",
     "./assets/message-from-president-1f14d3e7.css",
     "./assets/pic_president-c2092995.png",
     "./assets/pic_president_sign-2c1d3021.png",
