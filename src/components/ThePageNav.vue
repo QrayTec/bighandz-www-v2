@@ -6,7 +6,7 @@
         :key="item.id"
         v-smooth-scroll="{
           duration: 1000,
-          offset: -120
+          offset: -330
         }"
         class="page_nav_main_link"
         :href="item.anchor"
