@@ -38,7 +38,7 @@
                   src="/src/assets/images/index_Business/title_icon_2.svg"
                   alt=""
                 />
-                <div class="Business_Items_title">インフラ基盤事業</div>
+                <div class="Business_Items_title">データソリューション</div>
               </div>
               <div class="Business_Items_content_Hover_2">
                 <div class="Business_Items_content_2">
