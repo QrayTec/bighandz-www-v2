@@ -10,9 +10,11 @@
       :class="index % 2 != 0 ? 'p_l_30' : 'p_r_30'"
     >
       <div
-        class="title_box"
+        class="title_box animate__animated wow"
         :class="
-          index % 2 != 0 ? 'justify-content-start' : 'justify-content-end'
+          index % 2 != 0
+            ? 'justify-content-start animate__fadeInRightBig'
+            : 'justify-content-end animate__fadeInLeftBig'
         "
       >
         <div class="healthcare_business_item_title">{{ item.title }}</div>

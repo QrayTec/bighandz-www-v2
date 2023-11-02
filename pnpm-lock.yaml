@@ -50,6 +50,9 @@ importers:
       vue3-smooth-scroll:
         specifier: ^0.8.1
         version: 0.8.1
+      wow.js:
+        specifier: ^1.2.2
+        version: 1.2.2
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^1.0.0-beta.12
@@ -10943,6 +10946,11 @@ packages:
       '@types/trusted-types': 2.0.3
       workbox-core: 7.0.0
     dev: true
+
+  /wow.js@1.2.2:
+    resolution: {integrity: sha512-YTW9eiZimHCJDWofsiz2507txaPteUiQD461I/D8533AiRAn3+Y68/1LDuQ3OTgPjagGZLPYKrpoSgjzeQrO6A==}
+    deprecated: deprecated in favour of aos (Animate On Scroll)
+    dev: false
 
   /wrap-ansi@6.2.0:
     resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
