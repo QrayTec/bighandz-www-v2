@@ -64,8 +64,7 @@ const MenuIndex = menuindex
 .Nav_menu_info {
   width: 100%;
   height: 240px;
-  background-color: #071027;
-  opacity: 0.9;
+  background-color: rgba(7, 16, 39, 0.9);
   backdrop-filter: blur(2px);
   display: flex;
   justify-content: center;

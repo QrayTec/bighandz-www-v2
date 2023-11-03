@@ -120,19 +120,6 @@ onUnmounted(() => {
   height: 72px; /* 修改高度为 100px */
 }
 
-.image-container {
-  overflow: hidden;
-  position: relative;
-}
-
-.image-container img {
-  transition: transform 0.5s ease;
-}
-
-.image-container:hover img {
-  transform: scale(1.2); /* 调整放大倍数 */
-}
-
 @media screen and (max-width: 1299px) {
   .healthcare_business_box {
     width: 80%;

@@ -1,6 +1,9 @@
 <template>
-  <nav ref="TabBar">
-    <div class="Main-Header">
+  <nav>
+    <div
+      ref="TabBar"
+      class="Main-Header"
+    >
       <div class="Header_content">
         <div class="logo-images">
           <router-link to="/">
@@ -241,5 +244,9 @@ onBeforeUnmount(() => {
   display: flex;
   justify-content: space-between;
   background-color: transparent;
+}
+.animate__animated,
+.animate__fadeOut {
+  --animate-duration: 0.8s;
 }
 </style>
