@@ -62,6 +62,7 @@
     >
       <div class="index_field_images">
         <img
+          class="field_bg"
           :src="item.BgSrc"
           alt=""
           srcset=""
@@ -70,7 +71,6 @@
       <div class="index_field_content_main">
         <div class="index_field_content_title">
           <img
-            class="field_bg"
             :src="item.src"
             alt=""
           />
