@@ -5,4 +5,16 @@ body,
   margin: 0;
   padding: 0;
 }
+.image-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.2); /* 调整放大倍数 */
+}
 

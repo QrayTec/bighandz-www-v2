@@ -11,3 +11,4 @@ cypress/downloads
 images
 pnpm-lock.yaml
 package.json
+main.css
