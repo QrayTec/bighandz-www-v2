@@ -58,7 +58,7 @@
       v-for="(item, index) in ContentData"
       v-show="selectedIndex === index"
       :key="index"
-      class="index_field_content animate__fadeIn animate__animated"
+      class="index_field_content animate__fadeIn aos-animate"
     >
       <div class="index_field_images">
         <img
@@ -70,6 +70,7 @@
       <div class="index_field_content_main">
         <div class="index_field_content_title">
           <img
+            class="field_bg"
             :src="item.src"
             alt=""
           />
@@ -348,5 +349,9 @@ const shields = (flag: boolean) => {
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */
+}
+.field_bg {
+  width: 100%;
+  height: 100%;
 }
 </style>

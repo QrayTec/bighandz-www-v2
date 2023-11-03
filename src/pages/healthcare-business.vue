@@ -7,7 +7,11 @@
     <div class="message_from_president_main">
       <sub-page-title :data="SubPageTitleData" />
     </div>
-    <div class="page_nav_sticky">
+    <div
+      ref="navSticky"
+      class="page_nav_sticky"
+      :class="{ shrink: isSticky }"
+    >
       <the-page-nav :pagenavdata="PageNavData" />
     </div>
     <div class="healthcare_business m_b_240">
@@ -20,7 +24,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { onMounted, onUnmounted, ref } from 'vue'
 import HealthcareBusiness from '@/assets/images/sub_page_title/Healthcare_Business.png'
 
 interface SubPageTitleType {
@@ -50,9 +54,33 @@ const PageNavData = ref<PageNavType[]>([
   { id: 4, anchor: '#Nursing', anchor_title: 'リハビリテーション看護' },
   { id: 5, anchor: '#Brand', anchor_title: 'ブランドの紹介' }
 ])
+
+const isSticky = ref(false)
+const navSticky = ref<HTMLElement>()
+// Function to handle scroll event
+const handleScroll = () => {
+  const distanceFromTop = navSticky.value?.getBoundingClientRect().top
+
+  if (distanceFromTop !== undefined && distanceFromTop === 76) {
+    isSticky.value = true
+  } else {
+    isSticky.value = false
+  }
+}
+
+// Register scroll event listener when component is mounted
+onMounted(() => {
+  handleScroll()
+  window.addEventListener('scroll', handleScroll)
+})
+
+// Remove scroll event listener when component is unmounted
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
 
-<style scoped>
+<style>
 .m_b_240 {
   margin-bottom: 240px;
 }
@@ -82,13 +110,38 @@ const PageNavData = ref<PageNavType[]>([
 }
 .page_nav_sticky {
   position: sticky;
+  height: 140px;
   top: 76px;
   left: 0;
   z-index: 5;
+  transition: height 0.3s; /* 添加过渡效果 */
 }
+.shrink {
+  height: 72px; /* 修改高度为 100px */
+}
+
+.image-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.2); /* 调整放大倍数 */
+}
+
 @media screen and (max-width: 1299px) {
   .healthcare_business_box {
     width: 80%;
+  }
+  .page_nav_sticky {
+    height: auto;
+  }
+  .shrink {
+    height: auto;
   }
 }
 </style>

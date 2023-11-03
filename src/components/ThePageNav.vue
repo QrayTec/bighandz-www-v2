@@ -40,13 +40,13 @@ const PageNavData = ref(props.pagenavdata)
 <style scoped>
 .page_nav {
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   background-color: #0e1b47;
 }
 .page_nav_main {
   width: 1200px;
-  padding: 60px 0px;
   display: flex;
   align-items: center;
   color: #fff;

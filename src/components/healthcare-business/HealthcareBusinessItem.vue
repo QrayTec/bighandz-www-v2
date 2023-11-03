@@ -18,13 +18,18 @@
       >
         <div class="healthcare_business_item_title">{{ item.title }}</div>
       </div>
-      <div class="healthcare_business_item_text_main">
+      <div
+        class="healthcare_business_item_text_main"
+        :data-aos="index % 2 != 0 ? 'fade-left' : 'fade-right'"
+      >
         {{ item.content }}
       </div>
     </div>
     <div
+      class="image-container"
       :class="index % 2 != 0 ? 'order_-1' : ''"
-      class="Image_box"
+      data-aos="zoom-in"
+      data-aos-anchor-target="self"
     >
       <img
         :src="item.ImgSrc"
