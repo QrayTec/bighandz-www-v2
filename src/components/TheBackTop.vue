@@ -28,6 +28,7 @@ const handleScroll = () => {
 
 // 添加滚动事件监听器
 onMounted(() => {
+  handleScroll()
   window.addEventListener('scroll', handleScroll)
 })
 
