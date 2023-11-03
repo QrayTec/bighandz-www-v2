@@ -1,9 +1,5 @@
 <template>
-  <nav
-    :class="
-      isScrolled ? 'scroll-background' : 'scroll-background-to-transparent'
-    "
-  >
+  <nav ref="TabBar">
     <div class="Main-Header">
       <div class="Header_content">
         <div class="logo-images">
@@ -121,6 +117,7 @@ const menus = [
 const MenuFlag = ref<boolean>(false)
 const MenuIndex = ref<number>(0)
 const NavLine = ref<HTMLElement>()
+const TabBar = ref<HTMLElement>()
 const NavLineLeft = ref<number>(98)
 const LineIndex = ref<number>()
 
@@ -159,10 +156,15 @@ function ClickTitle(index: number) {
     BlockMenu(MenuFlag.value, index)
   }
 }
-const isScrolled = ref(false)
-
 function handleScroll() {
-  isScrolled.value = window.scrollY > 0
+  const scrollValue = window.scrollY
+  const opacity = scrollValue / 500 // 这里设置透明度值，根据滚动值变化
+
+  // 假设你想要修改背景颜色为蓝色，并根据滚动改变透明度
+  const backgroundColor = `rgba(14, 27, 71, ${opacity})`
+
+  // 将背景颜色应用到特定元素，这里假设是NavLine元素
+  TabBar.value!.style.backgroundColor = backgroundColor
 }
 onMounted(() => {
   handleScroll()
@@ -176,37 +178,12 @@ onBeforeUnmount(() => {
 </script>
 
 <style>
-@keyframes backgroundColorTransition {
-  0% {
-    background-color: transparent;
-  }
-  100% {
-    background-color: #0e1b47;
-  }
-}
-@keyframes backgroundColorTransitionToTransparent {
-  0% {
-    background-color: #0e1b47;
-  }
-  100% {
-    background-color: transparent;
-  }
-}
 .Main-Header {
   width: 100%;
   height: 80px;
-  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.scroll-background {
-  background-color: #0e1b47; /* 初始背景色为透明 */
-  animation: backgroundColorTransition 0.5s linear; /* 2秒的动画，可以根据需要进行调整 */
-}
-.scroll-background-to-transparent {
-  background-color: transparent; /* 初始背景颜色为 #0e1b47 */
-  animation: backgroundColorTransitionToTransparent 0.5s linear; /* 2秒的动画，可以根据需要进行调整 */
 }
 .logo-images {
   width: 68px;

@@ -50,6 +50,7 @@ onBeforeUnmount(() => {
   align-items: center;
   cursor: pointer;
   transition: background-color 0.3s; /* 添加背景颜色的渐变动画 */
+  z-index: 9;
 }
 
 .back_main:hover {
