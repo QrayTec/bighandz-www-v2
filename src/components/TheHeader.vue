@@ -32,13 +32,20 @@
         </div>
       </div>
     </div>
-    <TheHeaderInfo
-      v-show="MenuFlag"
-      :menudata="MenuData"
-      :menuindex="MenuIndex"
-      @mouseenter="BlockMenu(true, LineIndex)"
-      @mouseleave="BlockMenu(false, LineIndex)"
-    />
+    <transition
+      name="fade"
+      enter-active-class="animate__animated animate__fadeIn custom-enter"
+      leave-active-class="animate__animated animate__fadeOut custom-leave"
+    >
+      <TheHeaderInfo
+        v-show="MenuFlag"
+        class="animate__animated animated-element"
+        :menudata="MenuData"
+        :menuindex="MenuIndex"
+        @mouseenter="BlockMenu(true, LineIndex)"
+        @mouseleave="BlockMenu(false, LineIndex)"
+      />
+    </transition>
   </nav>
 </template>
 
@@ -151,7 +158,7 @@ function UnCheck(index: number) {
   NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
 }
 function ClickTitle(index: number) {
-  if (!(index === 0 || index === 3)) {
+  if (!(index === 0 || index === 4)) {
     MenuFlag.value = !MenuFlag.value
     BlockMenu(MenuFlag.value, index)
   }

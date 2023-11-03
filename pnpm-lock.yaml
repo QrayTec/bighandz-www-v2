@@ -63,6 +63,9 @@ importers:
       '@intlify/unplugin-vue-i18n':
         specifier: ^1.2.0
         version: 1.2.0(rollup@3.29.3)(vue-i18n@9.4.1)
+      '@types/aos':
+        specifier: ^3.0.6
+        version: 3.0.6
       '@types/markdown-it-link-attributes':
         specifier: ^3.0.2
         version: 3.0.2
@@ -2522,6 +2525,10 @@ packages:
     dependencies:
       '@tufjs/canonical-json': 2.0.0
       minimatch: 9.0.3
+    dev: true
+
+  /@types/aos@3.0.6:
+    resolution: {integrity: sha512-H6RbMQXco8pZWhh7Wjpqrd9ISVwH5EId0hM5vxebcDiK6HgIizbVj1718Q8PQLQ7cVBsxTK0rbVy0T3dR6eoow==}
     dev: true
 
   /@types/chai-subset@1.3.3:
