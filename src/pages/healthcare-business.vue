@@ -25,20 +25,9 @@
 
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue'
+import { SubPageTitleType, PageNavType } from '@/data/pages_interface'
 import HealthcareBusiness from '@/assets/images/sub_page_title/Healthcare_Business.png'
 
-interface SubPageTitleType {
-  TitleCn_1: string
-  TitleCn_2: string
-  TitleEn: string
-  ImgSrc: string
-  bold: number
-}
-interface PageNavType {
-  id: number
-  anchor: string
-  anchor_title: string
-}
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'ヘルスケア',
   TitleCn_2: ' · 事業',

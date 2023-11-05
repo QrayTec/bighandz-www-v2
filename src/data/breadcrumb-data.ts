@@ -33,6 +33,11 @@ export const json: {
     Parent_title: '事業概要',
     name: 'ヘルスケア事業'
   },
+  '/si-service-business': {
+    path: '/si-service-business',
+    Parent_title: '事業概要',
+    name: 'Siサービス事業'
+  },
   '/company-staff-observation': {
     path: '/company-staff-observation',
     Parent_title: '採用情報',

@@ -16,15 +16,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { SubPageTitleType } from '@/data/pages_interface'
 import CompanyProfile from '@/assets/images/sub_page_title/Company_Profile.png'
-
-interface SubPageTitleType {
-  TitleCn_1: string
-  TitleCn_2: string
-  TitleEn: string
-  ImgSrc: string
-  bold: number
-}
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '会社 · ',
@@ -48,19 +41,7 @@ hr {
 .m_b_30 {
   margin-bottom: 30px;
 }
-.page {
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-}
-.Header {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 9;
-}
+
 .message_from_president_main {
   width: 100%;
   height: auto;

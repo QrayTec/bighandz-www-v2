@@ -58,7 +58,7 @@
       v-for="(item, index) in ContentData"
       v-show="selectedIndex === index"
       :key="index"
-      class="index_field_content animate__fadeIn animate__animated"
+      class="animate__animated index_field_content animate__fadeIn"
     >
       <div class="index_field_images">
         <img

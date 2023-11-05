@@ -18,3 +18,17 @@ body,
   transform: scale(1.2); /* 调整放大倍数 */
 }
 
+/*每页的公共配置 */
+.page {
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.Header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}

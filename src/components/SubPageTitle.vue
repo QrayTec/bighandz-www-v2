@@ -33,14 +33,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { SubPageTitleType } from '@/data/pages_interface'
 
-interface SubPageTitleType {
-  TitleCn_1: string
-  TitleCn_2: string
-  TitleEn: string
-  ImgSrc: string
-  bold: number
-}
 const props = defineProps<{ data: SubPageTitleType }>()
 
 const SubPageTitleData = ref<SubPageTitleType>(props.data)

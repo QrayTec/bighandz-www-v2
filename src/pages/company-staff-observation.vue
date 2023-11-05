@@ -17,15 +17,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { SubPageTitleType } from '@/data/pages_interface'
 import CompanyStaffObservation from '@/assets/images/sub_page_title/Company_staff_observation.png'
-
-interface SubPageTitleType {
-  TitleCn_1: string
-  TitleCn_2: string
-  TitleEn: string
-  ImgSrc: string
-  bold: number
-}
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'MOVIE',

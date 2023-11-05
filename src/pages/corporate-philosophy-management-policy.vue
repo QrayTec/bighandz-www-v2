@@ -17,15 +17,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { SubPageTitleType } from '@/data/pages_interface'
 import CorporatePhilosophy from '@/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner.png'
-
-interface SubPageTitleType {
-  TitleCn_1: string
-  TitleCn_2: string
-  TitleEn: string
-  ImgSrc: string
-  bold: number
-}
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '企業理念 ',
@@ -37,20 +30,6 @@ const SubPageTitleData = ref<SubPageTitleType>({
 </script>
 
 <style>
-.page {
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-}
-.Header {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 9;
-}
-
 .philosophy_policy_box {
   width: 100%;
   margin-top: 120px;

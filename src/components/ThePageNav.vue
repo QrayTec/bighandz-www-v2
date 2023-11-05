@@ -25,12 +25,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-
-interface PageNavType {
-  id: number
-  anchor: string
-  anchor_title: string
-}
+import { PageNavType } from '@/data/pages_interface'
 
 const props = defineProps<{ pagenavdata: PageNavType }>()
 

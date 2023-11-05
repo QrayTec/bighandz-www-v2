@@ -99,7 +99,12 @@ const menus = [
     { id: 4, title: 'イベント情報', href: '/event-information', align: 'left' }
   ],
   [
-    { id: 1, title: 'Siサービス事業', href: '/', align: 'left' },
+    {
+      id: 1,
+      title: 'Siサービス事業',
+      href: '/si-service-business',
+      align: 'left'
+    },
     { id: 2, title: 'データソリューション', href: '/', align: 'center' },
     { id: 3, title: 'インフラ事業', href: '/', align: 'right' },
     {
