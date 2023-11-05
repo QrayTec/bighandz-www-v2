@@ -70,8 +70,4 @@ const SubPageTitleData = ref<SubPageTitleType>({
   display: flex;
   justify-content: center;
 }
-
-.m_l_30 {
-  margin-left: 30px;
-}
 </style>

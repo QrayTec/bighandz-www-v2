@@ -12,3 +12,4 @@ images
 pnpm-lock.yaml
 package.json
 main.css
+tsconfig.json

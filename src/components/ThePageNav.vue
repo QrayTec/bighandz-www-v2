@@ -6,9 +6,10 @@
         :key="item.id"
         v-smooth-scroll="{
           duration: 1000,
-          offset: -330
+          offset: -250
         }"
         class="page_nav_main_link"
+        :class="{ m_l_60: item.id != 1 }"
         :href="item.anchor"
         ><div class="page_nav_content">
           <div>{{ item.anchor_title }}</div>
@@ -45,7 +46,6 @@ const PageNavData = ref(props.pagenavdata)
   display: flex;
   align-items: center;
   color: #fff;
-  justify-content: space-between;
 }
 .page_nav_content {
   display: flex;

@@ -7,7 +7,7 @@
     >
       <div class="information_item_text">
         <div class="information_item_title">{{ item.title }}</div>
-        <div class="information_item_text_content m_t_30">
+        <div class="m_t_30 information_item_text_content">
           <p>{{ item.content_list_1 }}</p>
           <br /><br />
           <p>
@@ -84,15 +84,6 @@ const InformationData = ref<InformationType[]>([
 </script>
 
 <style scoped>
-.m_t_120 {
-  margin-top: 120px;
-}
-.m_t_60 {
-  margin-top: 60px;
-}
-.m_t_30 {
-  margin-top: 30px;
-}
 .information_main {
   width: 100%;
 }

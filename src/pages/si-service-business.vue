@@ -18,7 +18,8 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
+import handleScroll from '@/data/PageNav'
 import { SubPageTitleType, PageNavType } from '@/data/pages_interface'
 import SiServiceBusiness from '@/assets/images/sub_page_title/Si_Service_Business.png'
 
@@ -35,6 +36,21 @@ const PageNavData = ref<PageNavType[]>([
   { id: 2, anchor: '#Management', anchor_title: 'システム運用保守' },
   { id: 3, anchor: '#Plans&Equipment', anchor_title: '日中ソリューション' }
 ])
+
+// 检测是否吸顶 修改高度
+const isSticky = ref(false)
+const navSticky = ref<HTMLElement>()
+
+const localSticky = handleScroll({ isSticky, navSticky })
+
+onMounted(() => {
+  localSticky()
+  window.addEventListener('scroll', localSticky)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', localSticky)
+})
 </script>
 
 <style></style>

@@ -19,7 +19,7 @@
               src="/src/assets/images/company-staff-observation/play.svg"
               alt=""
             />
-            <p class="m_t_30 Video_Box_text">Play Movie</p>
+            <p class="Video_Box_text m_t_30">Play Movie</p>
           </div>
         </div>
         <div class="m_t_20">
@@ -99,15 +99,6 @@ const MovieData = ref<MovieType[]>([
 </script>
 
 <style scoped>
-.m_t_60 {
-  margin-top: 60px;
-}
-.m_t_30 {
-  margin-top: 30px;
-}
-.m_t_20 {
-  margin-top: 20px;
-}
 .Movie_item {
   width: 100%;
   display: flex;

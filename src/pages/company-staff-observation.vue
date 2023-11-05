@@ -30,12 +30,6 @@ const SubPageTitleData = ref<SubPageTitleType>({
 </script>
 
 <style scoped>
-.m_t_150 {
-  margin-top: 150px;
-}
-.m_b_150 {
-  margin-bottom: 240px;
-}
 .page {
   width: 100%;
   background-size: cover;

@@ -26,6 +26,7 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue'
 import { SubPageTitleType, PageNavType } from '@/data/pages_interface'
+import handleScroll from '@/data/PageNav'
 import HealthcareBusiness from '@/assets/images/sub_page_title/Healthcare_Business.png'
 
 const SubPageTitleData = ref<SubPageTitleType>({
@@ -44,28 +45,19 @@ const PageNavData = ref<PageNavType[]>([
   { id: 5, anchor: '#Brand', anchor_title: 'ブランドの紹介' }
 ])
 
+// 检测是否吸顶 修改高度
 const isSticky = ref(false)
 const navSticky = ref<HTMLElement>()
-// Function to handle scroll event
-const handleScroll = () => {
-  const distanceFromTop = navSticky.value?.getBoundingClientRect().top
 
-  if (distanceFromTop !== undefined && distanceFromTop === 76) {
-    isSticky.value = true
-  } else {
-    isSticky.value = false
-  }
-}
+const localSticky = handleScroll({ isSticky, navSticky })
 
-// Register scroll event listener when component is mounted
 onMounted(() => {
-  handleScroll()
-  window.addEventListener('scroll', handleScroll)
+  localSticky()
+  window.addEventListener('scroll', localSticky)
 })
 
-// Remove scroll event listener when component is unmounted
 onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll)
+  window.removeEventListener('scroll', localSticky)
 })
 </script>
 
