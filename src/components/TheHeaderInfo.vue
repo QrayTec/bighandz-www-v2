@@ -97,7 +97,6 @@ const MenuIndex = menuindex
   padding: 0px 50px;
   margin-top: 10px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 .Menu_Items_info {

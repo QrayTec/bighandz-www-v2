@@ -38,6 +38,21 @@ export const json: {
     Parent_title: '事業概要',
     name: 'Siサービス事業'
   },
+  '/data-solution': {
+    path: '/data-solution',
+    Parent_title: '事業概要',
+    name: 'データソリューション'
+  },
+  '/infrastructure-business': {
+    path: '/infrastructure-business',
+    Parent_title: '事業概要',
+    name: 'インフラ事業'
+  },
+  '/logistics-business': {
+    path: '/logistics-business',
+    Parent_title: '事業概要',
+    name: '物流事業'
+  },
   '/company-staff-observation': {
     path: '/company-staff-observation',
     Parent_title: '採用情報',

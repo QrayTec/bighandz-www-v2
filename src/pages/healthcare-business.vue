@@ -89,17 +89,6 @@ onUnmounted(() => {
 .healthcare_business_box {
   width: 1200px;
 }
-.page_nav_sticky {
-  position: sticky;
-  height: 140px;
-  top: 76px;
-  left: 0;
-  z-index: 5;
-  transition: height 0.3s; /* 添加过渡效果 */
-}
-.shrink {
-  height: 72px; /* 修改高度为 100px */
-}
 
 @media screen and (max-width: 1299px) {
   .healthcare_business_box {

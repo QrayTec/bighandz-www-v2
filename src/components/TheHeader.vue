@@ -105,13 +105,29 @@ const menus = [
       href: '/si-service-business',
       align: 'left'
     },
-    { id: 2, title: 'データソリューション', href: '/', align: 'center' },
-    { id: 3, title: 'インフラ事業', href: '/', align: 'right' },
+    {
+      id: 2,
+      title: 'データソリューション',
+      href: '/data-solution',
+      align: 'center'
+    },
+    {
+      id: 3,
+      title: 'インフラ事業',
+      href: '/infrastructure-business',
+      align: 'right'
+    },
     {
       id: 4,
       title: 'ヘルスケア事業',
       href: '/healthcare-business',
       align: 'left'
+    },
+    {
+      id: 5,
+      title: '物流事業',
+      href: '/logistics-business',
+      align: 'center'
     }
   ],
   [
