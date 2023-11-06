@@ -5,6 +5,14 @@ body,
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('/src/assets/font/NotoSansJP-Regular.otf')  format('opentype');
+}
+@font-face {
+  font-family: 'Shippori Mincho';
+  src: url('/src/assets/font/ShipporiMincho-Regular.ttf') format('truetype');
+}
 .m_l_60 {
   margin-left: 60px;
 }
@@ -30,9 +38,20 @@ body,
   margin-top: 20px;
 }
 
-.m_b_150 {
+.m_b_240 {
   margin-bottom: 240px;
 }
+
+.occupy {
+  width: 504px;
+  height: calc(100% + 141px);
+  background: var(---, #dfe4f2);
+  z-index: 7;
+  position: absolute;
+  left: 0px;
+  top: -141px;
+}
+
 .image-container {
   overflow: hidden;
   position: relative;
@@ -71,4 +90,14 @@ body,
 }
 .shrink {
   height: 72px; /* 修改高度为 100px */
+}
+.page_center{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  position: relative;
+}
+
+.page_center_items{
+  width:1200px;
 }

@@ -57,5 +57,10 @@ export const json: {
     path: '/company-staff-observation',
     Parent_title: '採用情報',
     name: 'MOVIE'
+  },
+  '/faq': {
+    path: '/FAQ',
+    Parent_title: '採用情報',
+    name: 'FAQよくあるご質問'
   }
 }

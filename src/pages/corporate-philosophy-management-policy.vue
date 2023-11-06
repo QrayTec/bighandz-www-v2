@@ -25,7 +25,8 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_2: '· 経営方針',
   TitleEn: 'Corporate Philosophy Management Policy',
   ImgSrc: CorporatePhilosophy,
-  bold: 1
+  bold: 1,
+  type: 1
 })
 </script>
 

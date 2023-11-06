@@ -24,7 +24,8 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_2: '概要',
   TitleEn: 'Company Profile',
   ImgSrc: CompanyProfile,
-  bold: 2
+  bold: 2,
+  type: 1
 })
 </script>
 

@@ -20,7 +20,7 @@
             <div class="Business_Items_link_Hover">
               <router-link
                 class="Business_Items_link"
-                to="/"
+                to="/si-service-business"
                 >詳細はこちら
                 <img
                   src="/src/assets/images/index_Business/link.svg"
@@ -48,7 +48,7 @@
                 <div class="Business_Items_link_Hover_2">
                   <router-link
                     class="Business_Items_link"
-                    to="/"
+                    to="/data-solution"
                     >詳細はこちら
                     <img
                       src="/src/assets/images/index_Business/link.svg"
@@ -74,7 +74,7 @@
                 <div class="Business_Items_link_Hover">
                   <router-link
                     class="Business_Items_link"
-                    to="/"
+                    to="/infrastructure-business"
                     >詳細はこちら
                     <img
                       src="/src/assets/images/index_Business/link.svg"
@@ -132,7 +132,7 @@
                 <div class="Business_Items_link_Hover_2">
                   <router-link
                     class="Business_Items_link"
-                    to="/"
+                    to="/logistics-business"
                     >詳細はこちら
                     <img
                       src="/src/assets/images/index_Business/link.svg"

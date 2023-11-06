@@ -7,7 +7,7 @@
     <div class="message_from_president_main">
       <sub-page-title :data="SubPageTitleData" />
     </div>
-    <div class="healthcare_business m_t_150 m_t_150 m_b_150">
+    <div class="m_b_240 healthcare_business m_t_150 m_t_150">
       <div class="healthcare_business_box">
         <Movie-item />
       </div>
@@ -25,7 +25,8 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_2: '',
   TitleEn: 'Company staff observation',
   ImgSrc: CompanyStaffObservation,
-  bold: 1
+  bold: 1,
+  type: 1
 })
 </script>
 

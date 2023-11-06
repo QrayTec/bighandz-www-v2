@@ -34,7 +34,8 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_2: ' · 事業',
   TitleEn: 'Healthcare business',
   ImgSrc: HealthcareBusiness,
-  bold: 1
+  bold: 1,
+  type: 1
 })
 
 const PageNavData = ref<PageNavType[]>([
@@ -62,9 +63,6 @@ onUnmounted(() => {
 </script>
 
 <style>
-.m_b_240 {
-  margin-bottom: 240px;
-}
 .page {
   width: 100%;
   background-size: cover;

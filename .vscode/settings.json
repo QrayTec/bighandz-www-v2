@@ -19,7 +19,7 @@
   "i18n-ally.localesPaths": "locales",
   "i18n-ally.sortKeys": true,
   "files.associations": {
-    "*.css": "postcss"
+    "*.css": "css"
   },
   // Enable the ESlint flat config support
   "eslint.experimental.useFlatConfig": false,

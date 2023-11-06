@@ -1,15 +1,23 @@
 // 子页标题的type
-
+// bold文字加粗
+// Type 样式1 样式2
 export interface SubPageTitleType {
   TitleCn_1: string
   TitleCn_2: string
   TitleEn: string
   ImgSrc: string
   bold: number
+  type: number
 }
 // 页内导航的type
 export interface PageNavType {
   id: number
   anchor: string
   anchor_title: string
+}
+
+export interface StepsType {
+  id: number
+  subheading: string
+  title_main: string
 }

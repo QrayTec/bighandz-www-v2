@@ -1,5 +1,8 @@
 <template>
-  <div class="sub_page_main_box">
+  <div
+    class="sub_page_main_box"
+    :style="TitleBg"
+  >
     <div class="sub_page_main">
       <div class="Bread_Crumbs">
         <the-breadcrumbs />
@@ -17,7 +20,10 @@
           <div class="title_en">{{ SubPageTitleData.TitleEn }}</div>
           <div class="title_line"></div>
         </div>
-        <div class="sub_page_Content_image">
+        <div
+          v-if="SubPageTitleData.type === 1"
+          class="sub_page_Content_image"
+        >
           <div class="sub_page_Content_image_bg">
             <img
               :src="SubPageTitleData.ImgSrc"
@@ -38,6 +44,14 @@ import { SubPageTitleType } from '@/data/pages_interface'
 const props = defineProps<{ data: SubPageTitleType }>()
 
 const SubPageTitleData = ref<SubPageTitleType>(props.data)
+
+// 背景style
+const TitleBg = {
+  backgroundImage:
+    SubPageTitleData.value.type === 2
+      ? `url('${SubPageTitleData.value.ImgSrc}')`
+      : 'none'
+}
 </script>
 
 <style scoped>
@@ -46,6 +60,9 @@ const SubPageTitleData = ref<SubPageTitleType>(props.data)
   width: 100%;
   display: flex;
   justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .sub_page_main {
   width: 1200px;
@@ -76,7 +93,7 @@ const SubPageTitleData = ref<SubPageTitleType>(props.data)
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
   text-transform: uppercase;
   opacity: 0.4;
 }
