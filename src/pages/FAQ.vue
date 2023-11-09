@@ -12,7 +12,10 @@
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <the-page-nav :pagenavdata="PageNavData" />
+      <the-page-nav
+        :pagenavdata="PageNavData"
+        :pagenavstyletype="pagetype"
+      />
     </div>
 
     <div class="page_center">
@@ -25,7 +28,11 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import handleScroll from '@/data/PageNav'
-import { SubPageTitleType, PageNavType } from '@/data/pages_interface'
+import {
+  SubPageTitleType,
+  PageNavType,
+  PageNavStyleType
+} from '@/data/pages_interface'
 import FAQ from '@/assets/images/sub_page_title/FAQ.png'
 
 const SubPageTitleData = ref<SubPageTitleType>({
@@ -38,8 +45,10 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#Technology', anchor_title: 'Part１' }
+  { id: 1, anchor: '#Part1', anchor_title: 'Part１' }
 ])
+
+const pagetype = ref<PageNavStyleType>({ type: 2 })
 
 // 检测是否吸顶 修改高度
 const isSticky = ref(false)

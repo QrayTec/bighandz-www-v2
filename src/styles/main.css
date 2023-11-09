@@ -44,14 +44,16 @@ body,
 
 .occupy {
   width: 504px;
-  height: calc(100% + 141px);
+  height: calc(100% );
   background: var(---, #dfe4f2);
-  z-index: 7;
+  z-index: 3;
   position: absolute;
   left: 0px;
-  top: -141px;
+  top: 0px;
 }
-
+.hr{
+  border-color: #0E1B47;
+}
 .image-container {
   overflow: hidden;
   position: relative;

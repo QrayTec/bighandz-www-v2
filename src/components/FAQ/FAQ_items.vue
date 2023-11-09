@@ -1,5 +1,8 @@
 <template>
-  <div class="page_center_items m_t_120 m_b_240">
+  <div
+    id="Part1"
+    class="page_center_items m_t_120 m_b_240"
+  >
     <steps :stepsdata="StepsData" />
     <div class="FAQ_content">
       <div
@@ -25,6 +28,7 @@
           </div>
         </div>
       </div>
+      <hr class="m_t_60 hr" />
     </div>
   </div>
 </template>

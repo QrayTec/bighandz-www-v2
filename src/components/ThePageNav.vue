@@ -1,6 +1,12 @@
 <template>
   <div class="page_nav">
-    <div class="page_nav_main">
+    <div
+      v-if="StyleType.type === 2"
+      class="occupy_nav"
+    ></div>
+    <div
+      :class="StyleType.type === 2 ? 'page_nav_main_type_2' : 'page_nav_main'"
+    >
       <a
         v-for="item in PageNavData"
         :key="item.id"
@@ -26,11 +32,15 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { PageNavType } from '@/data/pages_interface'
+import { PageNavType, PageNavStyleType } from '@/data/pages_interface'
 
-const props = defineProps<{ pagenavdata: PageNavType }>()
+const props = defineProps<{
+  pagenavdata: PageNavType
+  pagenavstyletype: PageNavStyleType
+}>()
 
 const PageNavData = ref(props.pagenavdata)
+const StyleType = ref(props.pagenavstyletype)
 </script>
 
 <style scoped>
@@ -41,11 +51,23 @@ const PageNavData = ref(props.pagenavdata)
   justify-content: center;
   background-color: #0e1b47;
 }
+.occupy_nav {
+  width: 504px;
+  height: 100%;
+  background: var(---, #dfe4f2);
+}
 .page_nav_main {
   width: 1200px;
   display: flex;
   align-items: center;
   color: #fff;
+}
+.page_nav_main_type_2 {
+  width: calc(100% - 504px);
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 0px 60px;
 }
 .page_nav_content {
   display: flex;

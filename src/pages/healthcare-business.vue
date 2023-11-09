@@ -12,9 +12,12 @@
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <the-page-nav :pagenavdata="PageNavData" />
+      <the-page-nav
+        :pagenavdata="PageNavData"
+        :pagenavstyletype="pagetype"
+      />
     </div>
-    <div class="healthcare_business m_b_240">
+    <div class="m_b_240 healthcare_business">
       <div class="healthcare_business_box">
         <healthcare-business-item />
         <Brand />
@@ -25,7 +28,11 @@
 
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue'
-import { SubPageTitleType, PageNavType } from '@/data/pages_interface'
+import {
+  SubPageTitleType,
+  PageNavType,
+  PageNavStyleType
+} from '@/data/pages_interface'
 import handleScroll from '@/data/PageNav'
 import HealthcareBusiness from '@/assets/images/sub_page_title/Healthcare_Business.png'
 
@@ -45,6 +52,7 @@ const PageNavData = ref<PageNavType[]>([
   { id: 4, anchor: '#Nursing', anchor_title: 'リハビリテーション看護' },
   { id: 5, anchor: '#Brand', anchor_title: 'ブランドの紹介' }
 ])
+const pagetype = ref<PageNavStyleType>({ type: 1 })
 
 // 检测是否吸顶 修改高度
 const isSticky = ref(false)

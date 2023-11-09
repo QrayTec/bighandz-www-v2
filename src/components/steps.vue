@@ -35,7 +35,7 @@ const StepsData = ref<StepsType>(props.stepsdata)
   justify-content: end;
   position: relative;
   background-color: #ffffff;
-  z-index: 6;
+  z-index: 4;
 }
 .steps_height_1 {
   height: 84px;

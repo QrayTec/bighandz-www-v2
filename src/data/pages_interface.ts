@@ -16,6 +16,10 @@ export interface PageNavType {
   anchor_title: string
 }
 
+export interface PageNavStyleType {
+  type: number
+}
+
 export interface StepsType {
   id: number
   subheading: string
