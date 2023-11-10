@@ -47,10 +47,15 @@ const SubPageTitleData = ref<SubPageTitleType>(props.data)
 
 // 背景style
 const TitleBg = {
-  backgroundImage:
+  background:
     SubPageTitleData.value.type === 2
-      ? `url('${SubPageTitleData.value.ImgSrc}')`
-      : 'none'
+      ? `linear-gradient(
+    90deg,
+    #0e1b47 0%,
+    rgba(14, 27, 71, 0.6) 58.33%,
+    rgba(14, 27, 71, 0.6) 100%
+  ),url('${SubPageTitleData.value.ImgSrc}') lightgray 50% / cover no-repeat `
+      : ''
 }
 </script>
 

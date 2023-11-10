@@ -8,6 +8,7 @@
       <div
         v-for="item in FAQData"
         :key="item.id"
+        data-aos="slide-right"
         class="FAQ_items m_t_60"
       >
         <div class="question qa_data">
@@ -28,7 +29,10 @@
           </div>
         </div>
       </div>
-      <hr class="m_t_60 hr" />
+      <hr
+        class="m_t_60 hr"
+        data-aos="slide-right"
+      />
     </div>
   </div>
 </template>
@@ -167,5 +171,38 @@ const FAQData = ref<FAQType[]>([
 }
 .assurance_bg {
   background-color: #2cc0cc;
+}
+
+/* 大于等于768px宽度，小于1024px宽度的屏幕 */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .FAQ_content {
+    padding-left: 0px;
+    width: 80%;
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+  }
+  .page_center_items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/* 小于768px宽度的屏幕 */
+@media (max-width: 767px) {
+  .FAQ_content {
+    padding-left: 0px;
+    width: 80%;
+  }
+  .page_center_items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 </style>

@@ -19,9 +19,13 @@ body,
 .m_l_30 {
   margin-left: 30px;
 }
+.m_l_16{
+  margin-left: 16px;
+}
 .m_l_10 {
   margin-left: 10px;
 }
+
 .m_t_150 {
   margin-top: 150px;
 }
@@ -43,7 +47,7 @@ body,
 }
 
 .occupy {
-  width: 504px;
+  width: calc((100% - 912px) / 2);
   height: calc(100% );
   background: var(---, #dfe4f2);
   z-index: 3;
@@ -103,3 +107,4 @@ body,
 .page_center_items{
   width:1200px;
 }
+

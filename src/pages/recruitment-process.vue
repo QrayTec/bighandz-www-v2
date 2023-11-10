@@ -20,7 +20,7 @@
 
     <div class="page_center">
       <div class="occupy"></div>
-      <FAQ-items />
+      <Recruitment-item />
     </div>
   </div>
 </template>
@@ -33,19 +33,22 @@ import {
   PageNavType,
   PageNavStyleType
 } from '@/data/pages_interface'
-import FAQ from '@/assets/images/sub_page_title/FAQ.png'
+import RecruitmentProcess from '@/assets/images/sub_page_title/recruitment-process.png'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: 'FAQ · ',
-  TitleCn_2: 'よくあるご質問',
-  TitleEn: 'FAQ Frequently Asked Questions',
-  ImgSrc: FAQ,
+  TitleCn_1: '採用の · ',
+  TitleCn_2: '流れ',
+  TitleEn: 'Recruitment process',
+  ImgSrc: RecruitmentProcess,
   bold: 1,
   type: 2
 })
 
 const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#Part1', anchor_title: 'Part１' }
+  { id: 1, anchor: '#STEP1', anchor_title: 'STEP1' },
+  { id: 2, anchor: '#STEP2', anchor_title: 'STEP2' },
+  { id: 3, anchor: '#STEP3', anchor_title: 'STEP3' },
+  { id: 4, anchor: '#STEP4', anchor_title: 'STEP4' }
 ])
 
 const pagetype = ref<PageNavStyleType>({ type: 2 })

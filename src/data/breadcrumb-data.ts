@@ -58,6 +58,11 @@ export const json: {
     Parent_title: '採用情報',
     name: 'MOVIE'
   },
+  '/recruitment-process': {
+    path: '/recruitment-process',
+    Parent_title: '採用情報',
+    name: '採用の流れ'
+  },
   '/faq': {
     path: '/FAQ',
     Parent_title: '採用情報',

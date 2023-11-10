@@ -47,13 +47,16 @@ const StyleType = ref(props.pagenavstyletype)
 .page_nav {
   width: 100%;
   height: 100%;
+  position: relative;
   display: flex;
   justify-content: center;
   background-color: #0e1b47;
 }
 .occupy_nav {
-  width: 504px;
+  width: calc((100% - 912px) / 2);
   height: 100%;
+  position: absolute;
+  left: 0;
   background: var(---, #dfe4f2);
 }
 .page_nav_main {
@@ -63,7 +66,7 @@ const StyleType = ref(props.pagenavstyletype)
   color: #fff;
 }
 .page_nav_main_type_2 {
-  width: calc(100% - 504px);
+  width: calc(912px);
   display: flex;
   align-items: center;
   color: #fff;
@@ -94,6 +97,9 @@ const StyleType = ref(props.pagenavstyletype)
     width: 50%;
   }
 
+  .page_nav_main_type_2 {
+    width: calc(912px);
+  }
   .page_nav_main_link:last-child {
     width: 100%;
   }
@@ -106,8 +112,15 @@ const StyleType = ref(props.pagenavstyletype)
     width: 80%;
     flex-wrap: wrap;
   }
+  .page_nav_main_link:first {
+    margin-top: 0px;
+    width: 100%;
+  }
   .page_nav_main_link {
-    margin-top: 60px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .page_nav_main_type_2 {
     width: 100%;
   }
 }

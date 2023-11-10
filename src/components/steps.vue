@@ -1,11 +1,12 @@
 <template>
   <div
+    data-aos="zoom-in-right"
     class="steps_main"
-    :class="StepsData.subheading !== null ? 'steps_height_1' : 'steps_height_2'"
+    :class="StepsData.subheading === '' ? 'steps_height_1' : 'steps_height_2'"
   >
     <div class="steps_data">
       <div
-        v-if="StepsData.subheading !== null"
+        v-if="StepsData.subheading !== ''"
         class="steps_subheading"
       >
         {{ StepsData.subheading }}
