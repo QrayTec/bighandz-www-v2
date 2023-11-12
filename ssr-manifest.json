@@ -2,6 +2,9 @@
   "\u0000/home/runner/work/bighandz-www-v2/bighandz-www-v2/node_modules/.pnpm/aos@2.3.4/node_modules/aos/dist/aos.js?commonjs-module": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -25,9 +28,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -38,6 +38,9 @@
   "\u0000/home/runner/work/bighandz-www-v2/bighandz-www-v2/node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js?commonjs-module": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -61,9 +64,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -74,6 +74,9 @@
   "\u0000/home/runner/work/bighandz-www-v2/bighandz-www-v2/node_modules/.pnpm/vue3-smooth-scroll@0.8.1/node_modules/vue3-smooth-scroll/dist/vue-smooth-scroll.min.js?commonjs-module": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -97,9 +100,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -110,6 +110,9 @@
   "\u0000commonjsHelpers.js": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -133,9 +136,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -146,6 +146,9 @@
   "\u0000plugin-vue:export-helper": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -169,9 +172,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -182,6 +182,9 @@
   "\u0000vite/modulepreload-polyfill": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -205,9 +208,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -218,6 +218,9 @@
   "\u0000vite/preload-helper": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -241,9 +244,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -254,6 +254,9 @@
   "../../../../../@vite-plugin-pages/generated-pages?id=~pages": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -277,9 +280,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -290,6 +290,9 @@
   "../../../../../@vite-plugin-pages/route-block": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -313,9 +316,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -324,11 +324,14 @@
     "/assets/pic_banner-ecf1d10c.png"
   ],
   "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-e0f05e94.js"
+    "/assets/virtual_pwa-register-5d225267.js"
   ],
   "../../../../../@vite-plugin-vue-layouts/generated-layouts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -352,9 +355,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -365,6 +365,9 @@
   "../../../../../__uno.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -388,9 +391,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -401,6 +401,9 @@
   "assets/app-!~{001}~.js-unocss-hash.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -424,9 +427,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -437,6 +437,9 @@
   "index.html": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -460,9 +463,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -479,6 +479,9 @@
   "node_modules/.pnpm/@intlify+core-base@9.4.1/node_modules/@intlify/core-base/dist/core-base.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -502,9 +505,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -515,6 +515,9 @@
   "node_modules/.pnpm/@intlify+message-compiler@9.4.1/node_modules/@intlify/message-compiler/dist/message-compiler.esm-browser.js": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -538,9 +541,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -551,6 +551,9 @@
   "node_modules/.pnpm/@intlify+shared@9.4.1/node_modules/@intlify/shared/dist/shared.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -574,9 +577,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -587,6 +587,9 @@
   "node_modules/.pnpm/@unhead+dom@1.7.4/node_modules/@unhead/dom/dist/index.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -610,9 +613,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -623,6 +623,9 @@
   "node_modules/.pnpm/@unhead+shared@1.7.4/node_modules/@unhead/shared/dist/index.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -646,9 +649,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -659,6 +659,9 @@
   "node_modules/.pnpm/@unhead+vue@1.7.4_vue@3.3.4/node_modules/@unhead/vue/dist/shared/vue.cf295fb1.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -682,9 +685,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -695,6 +695,9 @@
   "node_modules/.pnpm/@unhead+vue@1.7.4_vue@3.3.4/node_modules/@unhead/vue/dist/shared/vue.f36acd1f.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -718,9 +721,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -731,6 +731,9 @@
   "node_modules/.pnpm/@unocss+reset@0.56.4/node_modules/@unocss/reset/tailwind.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -754,9 +757,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -767,6 +767,9 @@
   "node_modules/.pnpm/@vue+reactivity@3.3.4/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -790,9 +793,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -803,6 +803,9 @@
   "node_modules/.pnpm/@vue+runtime-core@3.3.4/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -826,9 +829,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -839,6 +839,9 @@
   "node_modules/.pnpm/@vue+runtime-dom@3.3.4/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -862,9 +865,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -875,6 +875,9 @@
   "node_modules/.pnpm/@vue+shared@3.3.4/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -898,9 +901,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -911,6 +911,9 @@
   "node_modules/.pnpm/animate.css@4.1.1/node_modules/animate.css/animate.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -934,9 +937,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -947,6 +947,9 @@
   "node_modules/.pnpm/aos@2.3.4/node_modules/aos/dist/aos.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -970,9 +973,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -983,6 +983,9 @@
   "node_modules/.pnpm/aos@2.3.4/node_modules/aos/dist/aos.js": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1006,9 +1009,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1019,6 +1019,9 @@
   "node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1042,9 +1045,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1055,6 +1055,9 @@
   "node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1078,9 +1081,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1091,6 +1091,9 @@
   "node_modules/.pnpm/pinia@2.1.6_typescript@5.2.2_vue@3.3.4/node_modules/pinia/dist/pinia.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1114,9 +1117,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1127,6 +1127,9 @@
   "node_modules/.pnpm/tailwindcss@3.3.5/node_modules/tailwindcss/tailwind.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1150,9 +1153,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1163,6 +1163,9 @@
   "node_modules/.pnpm/unhead@1.7.4/node_modules/unhead/dist/index.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1186,9 +1189,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1199,6 +1199,9 @@
   "node_modules/.pnpm/vite-ssg@0.23.3_critters@0.0.20_vite@4.4.9_vue-router@4.2.5_vue@3.3.4/node_modules/vite-ssg/dist/index.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1222,9 +1225,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1235,6 +1235,9 @@
   "node_modules/.pnpm/vite-ssg@0.23.3_critters@0.0.20_vite@4.4.9_vue-router@4.2.5_vue@3.3.4/node_modules/vite-ssg/dist/shared/vite-ssg.5912142e.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1258,9 +1261,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1271,6 +1271,9 @@
   "node_modules/.pnpm/vite-ssg@0.23.3_critters@0.0.20_vite@4.4.9_vue-router@4.2.5_vue@3.3.4/node_modules/vite-ssg/dist/shared/vite-ssg.a009fbf1.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1294,9 +1297,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1307,6 +1307,9 @@
   "node_modules/.pnpm/vue-demi@0.14.6_vue@3.3.4/node_modules/vue-demi/lib/index.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1330,9 +1333,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1343,6 +1343,9 @@
   "node_modules/.pnpm/vue-i18n@9.4.1_vue@3.3.4/node_modules/vue-i18n/dist/vue-i18n.runtime.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1366,9 +1369,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1379,6 +1379,9 @@
   "node_modules/.pnpm/vue-router@4.2.5_vue@3.3.4/node_modules/vue-router/dist/vue-router.mjs": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1402,9 +1405,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1415,6 +1415,9 @@
   "node_modules/.pnpm/vue3-smooth-scroll@0.8.1/node_modules/vue3-smooth-scroll/dist/vue-smooth-scroll.min.js": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1438,9 +1441,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1454,6 +1454,9 @@
   "src/App.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1477,9 +1480,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1488,22 +1488,22 @@
     "/assets/pic_banner-ecf1d10c.png"
   ],
   "src/assets/images/MessageFromPresident/pic_Representative.png": [
-    "/assets/index-5233367b.js",
-    "/assets/index-171792a7.css",
+    "/assets/index-884d2a18.js",
+    "/assets/index-f4310908.css",
     "/assets/pic_president-c2092995.png",
     "/assets/pic_president_sign-2c1d3021.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
   ],
   "src/assets/images/MessageFromPresident/pic_president.png": [
-    "/assets/index-5233367b.js",
-    "/assets/index-171792a7.css",
+    "/assets/index-884d2a18.js",
+    "/assets/index-f4310908.css",
     "/assets/pic_president-c2092995.png",
     "/assets/pic_president_sign-2c1d3021.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
   ],
   "src/assets/images/MessageFromPresident/pic_president_sign.png": [
-    "/assets/index-5233367b.js",
-    "/assets/index-171792a7.css",
+    "/assets/index-884d2a18.js",
+    "/assets/index-f4310908.css",
     "/assets/pic_president-c2092995.png",
     "/assets/pic_president_sign-2c1d3021.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
@@ -1511,6 +1511,9 @@
   "src/assets/images/back_top.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1534,9 +1537,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1545,36 +1545,36 @@
     "/assets/pic_banner-ecf1d10c.png"
   ],
   "src/assets/images/bread_icon.svg": [
-    "/assets/SubPageTitle-bf18f4bd.js",
+    "/assets/SubPageTitle-6caeec76.js",
     "/assets/SubPageTitle-8796cbec.css",
     "/assets/bread_icon-5c1858f4.svg"
   ],
   "src/assets/images/company-staff-observation/play.svg": [
-    "/assets/MovieItem-4bc57f9c.js",
+    "/assets/MovieItem-10b4e02d.js",
     "/assets/MovieItem-572c5d69.css",
     "/assets/play-df0788ce.svg",
     "/assets/video-3538944c.png"
   ],
   "src/assets/images/company-staff-observation/video.png": [
-    "/assets/MovieItem-4bc57f9c.js",
+    "/assets/MovieItem-10b4e02d.js",
     "/assets/MovieItem-572c5d69.css",
     "/assets/play-df0788ce.svg",
     "/assets/video-3538944c.png"
   ],
   "src/assets/images/company_profile/rhombic.svg": [
-    "/assets/Brand-13d58b0f.js",
+    "/assets/Brand-485fa5b2.js",
     "/assets/Brand-aabb0491.css",
     "/assets/image_5-08d974ca.png",
     "/assets/logo_1-7333d4d5.png",
     "/assets/rhombic-25fa691c.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic-Misson.png": [
-    "/assets/Mission-d6f7282c.js",
+    "/assets/Mission-e0b9555b.js",
     "/assets/Mission-a99f6851.css",
     "/assets/pic-Misson-eece2139.png"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_1.svg": [
-    "/assets/Values-84383527.js",
+    "/assets/Values-585e55b6.js",
     "/assets/Values-e66e9964.css",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
@@ -1583,7 +1583,7 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_2.svg": [
-    "/assets/Values-84383527.js",
+    "/assets/Values-585e55b6.js",
     "/assets/Values-e66e9964.css",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
@@ -1592,7 +1592,7 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_3.svg": [
-    "/assets/Values-84383527.js",
+    "/assets/Values-585e55b6.js",
     "/assets/Values-e66e9964.css",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
@@ -1601,7 +1601,7 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_4.svg": [
-    "/assets/Values-84383527.js",
+    "/assets/Values-585e55b6.js",
     "/assets/Values-e66e9964.css",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
@@ -1610,7 +1610,7 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_5.svg": [
-    "/assets/Values-84383527.js",
+    "/assets/Values-585e55b6.js",
     "/assets/Values-e66e9964.css",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
@@ -1619,17 +1619,17 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_vision.png": [
-    "/assets/Vision-3290c9fc.js",
+    "/assets/Vision-64612553.js",
     "/assets/Vision-7e4e6dad.css",
     "/assets/pic_vision-5d58f4f2.png"
   ],
   "src/assets/images/download.svg": [
-    "/assets/recruitment-item-a38aa85c.js",
+    "/assets/recruitment-item-0cd573ef.js",
     "/assets/recruitment-item-a107516e.css",
     "/assets/download-31b6a16b.svg"
   ],
   "src/assets/images/healthcare-business/image_1.png": [
-    "/assets/HealthcareBusinessItem-fc078f42.js",
+    "/assets/HealthcareBusinessItem-ac11943c.js",
     "/assets/HealthcareBusinessItem-fa5cb3e0.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-a59386a0.png",
@@ -1637,7 +1637,7 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/assets/images/healthcare-business/image_2.png": [
-    "/assets/HealthcareBusinessItem-fc078f42.js",
+    "/assets/HealthcareBusinessItem-ac11943c.js",
     "/assets/HealthcareBusinessItem-fa5cb3e0.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-a59386a0.png",
@@ -1645,7 +1645,7 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/assets/images/healthcare-business/image_3.png": [
-    "/assets/HealthcareBusinessItem-fc078f42.js",
+    "/assets/HealthcareBusinessItem-ac11943c.js",
     "/assets/HealthcareBusinessItem-fa5cb3e0.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-a59386a0.png",
@@ -1653,7 +1653,7 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/assets/images/healthcare-business/image_4.png": [
-    "/assets/HealthcareBusinessItem-fc078f42.js",
+    "/assets/HealthcareBusinessItem-ac11943c.js",
     "/assets/HealthcareBusinessItem-fa5cb3e0.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-a59386a0.png",
@@ -1661,14 +1661,14 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/assets/images/healthcare-business/image_5.png": [
-    "/assets/Brand-13d58b0f.js",
+    "/assets/Brand-485fa5b2.js",
     "/assets/Brand-aabb0491.css",
     "/assets/image_5-08d974ca.png",
     "/assets/logo_1-7333d4d5.png",
     "/assets/rhombic-25fa691c.svg"
   ],
   "src/assets/images/healthcare-business/logo_1.png": [
-    "/assets/Brand-13d58b0f.js",
+    "/assets/Brand-485fa5b2.js",
     "/assets/Brand-aabb0491.css",
     "/assets/image_5-08d974ca.png",
     "/assets/logo_1-7333d4d5.png",
@@ -1677,6 +1677,9 @@
   "src/assets/images/index_Business/link.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1700,9 +1703,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1713,6 +1713,9 @@
   "src/assets/images/index_Business/title_icon_1.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1736,9 +1739,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1749,6 +1749,9 @@
   "src/assets/images/index_Business/title_icon_2.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1772,9 +1775,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1785,6 +1785,9 @@
   "src/assets/images/index_Business/title_icon_3.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1808,9 +1811,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1821,6 +1821,9 @@
   "src/assets/images/index_Business/title_icon_4.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1844,9 +1847,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1857,6 +1857,9 @@
   "src/assets/images/index_Business/title_icon_5.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1880,9 +1883,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1893,6 +1893,9 @@
   "src/assets/images/index_customers/customers1.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1916,9 +1919,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1929,6 +1929,9 @@
   "src/assets/images/index_customers/customers2.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1952,9 +1955,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -1965,6 +1965,9 @@
   "src/assets/images/index_customers/customers3.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -1988,9 +1991,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2001,6 +2001,9 @@
   "src/assets/images/index_customers/customers4.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2024,9 +2027,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2037,6 +2037,9 @@
   "src/assets/images/index_customers/customers5.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2060,9 +2063,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2073,6 +2073,9 @@
   "src/assets/images/index_customers/customers6.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2096,9 +2099,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2109,6 +2109,9 @@
   "src/assets/images/index_field/arrow.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2132,9 +2135,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2145,6 +2145,9 @@
   "src/assets/images/index_field/bg1.png": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2168,9 +2171,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2181,6 +2181,9 @@
   "src/assets/images/index_field/bg2.png": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2204,9 +2207,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2217,6 +2217,9 @@
   "src/assets/images/index_field/bg3.png": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2240,9 +2243,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2253,6 +2253,9 @@
   "src/assets/images/index_field/bg4.png": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2276,9 +2279,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2289,6 +2289,9 @@
   "src/assets/images/index_field/icon_1.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2312,9 +2315,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2325,6 +2325,9 @@
   "src/assets/images/index_field/icon_2.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2348,9 +2351,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2361,6 +2361,9 @@
   "src/assets/images/index_field/icon_3.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2384,9 +2387,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2397,6 +2397,9 @@
   "src/assets/images/index_field/icon_4.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2420,9 +2423,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2433,6 +2433,9 @@
   "src/assets/images/index_main/filters.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2456,9 +2459,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2469,6 +2469,9 @@
   "src/assets/images/index_main/pic_Speed_is_the_Power.png": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2492,9 +2495,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2505,6 +2505,9 @@
   "src/assets/images/logo.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2528,9 +2531,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2541,6 +2541,9 @@
   "src/assets/images/menu/information.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2564,9 +2567,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2577,6 +2577,9 @@
   "src/assets/images/menu/outline.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2600,9 +2603,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2613,6 +2613,9 @@
   "src/assets/images/menu/recruit.svg": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2636,9 +2639,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2647,22 +2647,22 @@
     "/assets/pic_banner-ecf1d10c.png"
   ],
   "src/assets/images/page_nav.svg": [
-    "/assets/PageNav-c2c564de.js",
-    "/assets/PageNav-fae5db76.css",
+    "/assets/ThePageNav-bb5b5a55.js",
+    "/assets/ThePageNav-fae5db76.css",
     "/assets/page_nav-b44cd7f3.svg"
   ],
   "src/assets/images/sub_page_title/Company_Profile.png": [
-    "/assets/index-6a73f60a.js",
+    "/assets/index-58839e08.js",
     "/assets/index-201b3101.css",
     "/assets/Company_Profile-32f1688b.png"
   ],
   "src/assets/images/sub_page_title/Company_staff_observation.png": [
-    "/assets/idnex-d816441a.js",
-    "/assets/idnex-c2f95ba0.css",
+    "/assets/index-da74c60c.js",
+    "/assets/index-db666781.css",
     "/assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner.png": [
-    "/assets/index-029303de.js",
+    "/assets/index-e63d5443.js",
     "/assets/index-3517df90.css",
     "/assets/Corporate_Philosophy_Management_Policy_banner-1739b399.png"
   ],
@@ -2671,56 +2671,59 @@
     "/assets/Data-Solution-7c0f7433.png"
   ],
   "src/assets/images/sub_page_title/FAQ.png": [
-    "/assets/index-6d74391c.js",
+    "/assets/index-22b757ea.js",
     "/assets/FAQ-4980e2be.png"
   ],
   "src/assets/images/sub_page_title/Healthcare_Business.png": [
-    "/assets/index-64c02f04.js",
+    "/assets/index-e86353e3.js",
     "/assets/index-470b2b28.css",
     "/assets/Healthcare_Business-741a6e10.png"
   ],
   "src/assets/images/sub_page_title/Logistics-Business.png": [
-    "/assets/index-b3bd54d5.js",
+    "/assets/index-d12f290f.js",
     "/assets/Logistics-Business-6232e00a.png"
   ],
   "src/assets/images/sub_page_title/MESSAGE_FROM_THE_PRESIDENT_banner.png": [
-    "/assets/index-5233367b.js",
-    "/assets/index-171792a7.css",
+    "/assets/index-884d2a18.js",
+    "/assets/index-f4310908.css",
     "/assets/pic_president-c2092995.png",
     "/assets/pic_president_sign-2c1d3021.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
   ],
   "src/assets/images/sub_page_title/Si_Service_Business.png": [
-    "/assets/si-service-business-b8e44554.js",
+    "/assets/index-b0afdc4d.js",
     "/assets/Si_Service_Business-2ffcd4ab.png"
   ],
   "src/assets/images/sub_page_title/event_information.png": [
-    "/assets/index-cc5fee8a.js",
-    "/assets/index-8311b2db.css",
+    "/assets/index-9cb39deb.js",
+    "/assets/index-cda84b33.css",
     "/assets/event_information-5ea6994c.png"
   ],
   "src/assets/images/sub_page_title/recruitment-process.png": [
-    "/assets/index-7e71d5d7.js",
+    "/assets/index-d97519c4.js",
     "/assets/recruitment-process-aa0f47d7.png"
   ],
   "src/components/SubPageTitle.vue": [
-    "/assets/SubPageTitle-bf18f4bd.js",
+    "/assets/SubPageTitle-6caeec76.js",
     "/assets/SubPageTitle-8796cbec.css",
     "/assets/bread_icon-5c1858f4.svg"
   ],
   "src/components/SubPageTitle.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/SubPageTitle-bf18f4bd.js",
+    "/assets/SubPageTitle-6caeec76.js",
     "/assets/SubPageTitle-8796cbec.css",
     "/assets/bread_icon-5c1858f4.svg"
   ],
   "src/components/SubPageTitle.vue?vue&type=style&index=0&scoped=40edee37&lang.css": [
-    "/assets/SubPageTitle-bf18f4bd.js",
+    "/assets/SubPageTitle-6caeec76.js",
     "/assets/SubPageTitle-8796cbec.css",
     "/assets/bread_icon-5c1858f4.svg"
   ],
   "src/components/TheBackTop.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2744,9 +2747,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2755,18 +2755,21 @@
     "/assets/pic_banner-ecf1d10c.png"
   ],
   "src/components/TheBreadcrumbs.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/SubPageTitle-bf18f4bd.js",
+    "/assets/SubPageTitle-6caeec76.js",
     "/assets/SubPageTitle-8796cbec.css",
     "/assets/bread_icon-5c1858f4.svg"
   ],
   "src/components/TheDownloadBtn.vue": [
-    "/assets/recruitment-item-a38aa85c.js",
+    "/assets/recruitment-item-0cd573ef.js",
     "/assets/recruitment-item-a107516e.css",
     "/assets/download-31b6a16b.svg"
   ],
   "src/components/TheFooter.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2790,9 +2793,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2803,6 +2803,9 @@
   "src/components/TheFooter.vue?vue&type=style&index=0&lang.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2826,9 +2829,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2839,6 +2839,9 @@
   "src/components/TheHeader.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2862,9 +2865,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2875,6 +2875,9 @@
   "src/components/TheHeader.vue?vue&type=style&index=0&lang.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2898,9 +2901,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2911,6 +2911,9 @@
   "src/components/TheHeaderInfo.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2934,9 +2937,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2945,26 +2945,29 @@
     "/assets/pic_banner-ecf1d10c.png"
   ],
   "src/components/ThePageNav.vue": [
-    "/assets/PageNav-c2c564de.js",
-    "/assets/PageNav-fae5db76.css",
+    "/assets/ThePageNav-bb5b5a55.js",
+    "/assets/ThePageNav-fae5db76.css",
     "/assets/page_nav-b44cd7f3.svg"
   ],
   "src/components/ThePageNav.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/PageNav-c2c564de.js",
-    "/assets/PageNav-fae5db76.css",
+    "/assets/ThePageNav-bb5b5a55.js",
+    "/assets/ThePageNav-fae5db76.css",
     "/assets/page_nav-b44cd7f3.svg"
   ],
   "src/components/ThePageNav.vue?vue&type=style&index=0&scoped=14750c0e&lang.css": [
-    "/assets/PageNav-c2c564de.js",
-    "/assets/PageNav-fae5db76.css",
+    "/assets/ThePageNav-bb5b5a55.js",
+    "/assets/ThePageNav-fae5db76.css",
     "/assets/page_nav-b44cd7f3.svg"
   ],
   "src/components/steps.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/steps.vue_vue_type_script_setup_true_lang-f9b6ade0.js"
+    "/assets/steps.vue_vue_type_script_setup_true_lang-1381f5ad.js"
   ],
   "src/config/UI.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -2988,9 +2991,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -2998,28 +2998,12 @@
     "/assets/bg-5-9c557f33.png",
     "/assets/pic_banner-ecf1d10c.png"
   ],
-  "src/data/PageNav.ts": [
-    "/assets/PageNav-c2c564de.js",
-    "/assets/PageNav-fae5db76.css",
-    "/assets/page_nav-b44cd7f3.svg"
-  ],
   "src/data/breadcrumb-data.ts": [
-    "/assets/SubPageTitle-bf18f4bd.js",
-    "/assets/SubPageTitle-8796cbec.css",
-    "/assets/bread_icon-5c1858f4.svg"
-  ],
-  "src/layouts/404.vue": [
-    "/assets/404-dd2a0828.js"
-  ],
-  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-dd2a0828.js"
-  ],
-  "src/layouts/blank.vue": [
-    "/assets/blank-ba1a373e.js"
-  ],
-  "src/layouts/default.vue": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3043,9 +3027,87 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
+    "/assets/bg-1-aae8dc8d.png",
+    "/assets/bg-2-e7c76923.png",
+    "/assets/bg-3-dd4fcdc9.png",
+    "/assets/bg-4-4db727e5.png",
+    "/assets/bg-5-9c557f33.png",
+    "/assets/pic_banner-ecf1d10c.png"
+  ],
+  "src/data/methods.ts": [
+    "/assets/logo-8d685922.svg",
+    "/assets/back_top-95380537.svg",
     "/assets/information-d7a9932e.svg",
     "/assets/outline-76d2a50d.svg",
     "/assets/recruit-ef9b9257.svg",
+    "/assets/filters-3381a820.svg",
+    "/assets/pic_Speed_is_the_Power-659645d1.png",
+    "/assets/arrow-468c283c.svg",
+    "/assets/icon_1-5cfced20.svg",
+    "/assets/icon_2-7b1bfe91.svg",
+    "/assets/icon_3-8296c117.svg",
+    "/assets/icon_4-6d4435b1.svg",
+    "/assets/bg1-9df7c855.png",
+    "/assets/bg2-98cb4ac4.png",
+    "/assets/bg3-fc2120e6.png",
+    "/assets/bg4-a57b1ed4.png",
+    "/assets/customers1-f8d634ff.svg",
+    "/assets/customers2-0d623f9a.svg",
+    "/assets/customers3-d1a96488.svg",
+    "/assets/customers4-e7fc384a.svg",
+    "/assets/customers5-4835cd9b.svg",
+    "/assets/customers6-d9f1073b.svg",
+    "/assets/title_icon_1-f0b635b0.svg",
+    "/assets/link-f2996439.svg",
+    "/assets/title_icon_2-50065210.svg",
+    "/assets/title_icon_3-dec21fac.svg",
+    "/assets/title_icon_4-320660f0.svg",
+    "/assets/title_icon_5-0950bf5e.svg",
+    "/assets/bg-1-aae8dc8d.png",
+    "/assets/bg-2-e7c76923.png",
+    "/assets/bg-3-dd4fcdc9.png",
+    "/assets/bg-4-4db727e5.png",
+    "/assets/bg-5-9c557f33.png",
+    "/assets/pic_banner-ecf1d10c.png"
+  ],
+  "src/layouts/404.vue": [
+    "/assets/404-8e4de280.js"
+  ],
+  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/404-8e4de280.js"
+  ],
+  "src/layouts/blank.vue": [
+    "/assets/blank-19641b39.js"
+  ],
+  "src/layouts/default.vue": [
+    "/assets/logo-8d685922.svg",
+    "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
+    "/assets/filters-3381a820.svg",
+    "/assets/pic_Speed_is_the_Power-659645d1.png",
+    "/assets/arrow-468c283c.svg",
+    "/assets/icon_1-5cfced20.svg",
+    "/assets/icon_2-7b1bfe91.svg",
+    "/assets/icon_3-8296c117.svg",
+    "/assets/icon_4-6d4435b1.svg",
+    "/assets/bg1-9df7c855.png",
+    "/assets/bg2-98cb4ac4.png",
+    "/assets/bg3-fc2120e6.png",
+    "/assets/bg4-a57b1ed4.png",
+    "/assets/customers1-f8d634ff.svg",
+    "/assets/customers2-0d623f9a.svg",
+    "/assets/customers3-d1a96488.svg",
+    "/assets/customers4-e7fc384a.svg",
+    "/assets/customers5-4835cd9b.svg",
+    "/assets/customers6-d9f1073b.svg",
+    "/assets/title_icon_1-f0b635b0.svg",
+    "/assets/link-f2996439.svg",
+    "/assets/title_icon_2-50065210.svg",
+    "/assets/title_icon_3-dec21fac.svg",
+    "/assets/title_icon_4-320660f0.svg",
+    "/assets/title_icon_5-0950bf5e.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3054,11 +3116,17 @@
     "/assets/pic_banner-ecf1d10c.png"
   ],
   "src/layouts/home.vue": [
-    "/assets/home-a9ea0eb1.js"
+    "/assets/home-07348390.js"
+  ],
+  "src/layouts/home.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/home-07348390.js"
   ],
   "src/main.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3082,9 +3150,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3095,6 +3160,9 @@
   "src/modules/i18n.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3118,9 +3186,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3131,6 +3196,9 @@
   "src/modules/nprogress.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3154,9 +3222,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3167,6 +3232,9 @@
   "src/modules/pinia.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3190,9 +3258,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3203,6 +3268,9 @@
   "src/modules/pwa.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3226,9 +3294,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3237,128 +3302,128 @@
     "/assets/pic_banner-ecf1d10c.png"
   ],
   "src/pages/FAQ/components/FAQ-items.vue": [
-    "/assets/FAQ-items-25c1b145.js",
+    "/assets/FAQ-items-15cff9ac.js",
     "/assets/FAQ-items-76593e0f.css"
   ],
   "src/pages/FAQ/components/FAQ-items.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/FAQ-items-25c1b145.js",
+    "/assets/FAQ-items-15cff9ac.js",
     "/assets/FAQ-items-76593e0f.css"
   ],
   "src/pages/FAQ/components/FAQ-items.vue?vue&type=style&index=0&scoped=f5c946ac&lang.css": [
-    "/assets/FAQ-items-25c1b145.js",
+    "/assets/FAQ-items-15cff9ac.js",
     "/assets/FAQ-items-76593e0f.css"
   ],
   "src/pages/FAQ/index.vue": [
-    "/assets/index-6d74391c.js",
+    "/assets/index-22b757ea.js",
     "/assets/FAQ-4980e2be.png"
   ],
   "src/pages/FAQ/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-6d74391c.js",
+    "/assets/index-22b757ea.js",
     "/assets/FAQ-4980e2be.png"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_-67a608d0.js"
+    "/assets/_...all_-d0aeb01c.js"
   ],
   "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-67a608d0.js"
+    "/assets/_...all_-d0aeb01c.js"
   ],
   "src/pages/company-profile/components/CompanyHistory.vue": [
-    "/assets/CompanyHistory-a976b321.js",
+    "/assets/CompanyHistory-b0b36633.js",
     "/assets/CompanyHistory-836adaa8.css",
     "/assets/history_line-d35b45ca.svg"
   ],
   "src/pages/company-profile/components/CompanyHistory.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/CompanyHistory-a976b321.js",
+    "/assets/CompanyHistory-b0b36633.js",
     "/assets/CompanyHistory-836adaa8.css",
     "/assets/history_line-d35b45ca.svg"
   ],
   "src/pages/company-profile/components/CompanyHistory.vue?vue&type=style&index=0&scoped=e41a79c2&lang.css": [
-    "/assets/CompanyHistory-a976b321.js",
+    "/assets/CompanyHistory-b0b36633.js",
     "/assets/CompanyHistory-836adaa8.css",
     "/assets/history_line-d35b45ca.svg"
   ],
   "src/pages/company-profile/components/CompanyProfileContent.vue": [
-    "/assets/CompanyProfileContent-f52d9cb6.js",
+    "/assets/CompanyProfileContent-20160bcb.js",
     "/assets/CompanyProfileContent-a8f396a6.css"
   ],
   "src/pages/company-profile/components/CompanyProfileContent.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/CompanyProfileContent-f52d9cb6.js",
+    "/assets/CompanyProfileContent-20160bcb.js",
     "/assets/CompanyProfileContent-a8f396a6.css"
   ],
   "src/pages/company-profile/components/CompanyProfileContent.vue?vue&type=style&index=0&scoped=7b2b07e2&lang.css": [
-    "/assets/CompanyProfileContent-f52d9cb6.js",
+    "/assets/CompanyProfileContent-20160bcb.js",
     "/assets/CompanyProfileContent-a8f396a6.css"
   ],
   "src/pages/company-profile/index.vue": [
-    "/assets/index-6a73f60a.js",
+    "/assets/index-58839e08.js",
     "/assets/index-201b3101.css",
     "/assets/Company_Profile-32f1688b.png"
   ],
   "src/pages/company-profile/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-6a73f60a.js",
+    "/assets/index-58839e08.js",
     "/assets/index-201b3101.css",
     "/assets/Company_Profile-32f1688b.png"
   ],
   "src/pages/company-profile/index.vue?vue&type=style&index=0&lang.css": [
-    "/assets/index-6a73f60a.js",
+    "/assets/index-58839e08.js",
     "/assets/index-201b3101.css",
     "/assets/Company_Profile-32f1688b.png"
   ],
   "src/pages/company-staff-observation/components/MovieItem.vue": [
-    "/assets/MovieItem-4bc57f9c.js",
+    "/assets/MovieItem-10b4e02d.js",
     "/assets/MovieItem-572c5d69.css",
     "/assets/play-df0788ce.svg",
     "/assets/video-3538944c.png"
   ],
   "src/pages/company-staff-observation/components/MovieItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/MovieItem-4bc57f9c.js",
+    "/assets/MovieItem-10b4e02d.js",
     "/assets/MovieItem-572c5d69.css",
     "/assets/play-df0788ce.svg",
     "/assets/video-3538944c.png"
   ],
   "src/pages/company-staff-observation/components/MovieItem.vue?vue&type=style&index=0&scoped=b403d08f&lang.css": [
-    "/assets/MovieItem-4bc57f9c.js",
+    "/assets/MovieItem-10b4e02d.js",
     "/assets/MovieItem-572c5d69.css",
     "/assets/play-df0788ce.svg",
     "/assets/video-3538944c.png"
   ],
-  "src/pages/company-staff-observation/idnex.vue": [
-    "/assets/idnex-d816441a.js",
-    "/assets/idnex-c2f95ba0.css",
+  "src/pages/company-staff-observation/index.vue": [
+    "/assets/index-da74c60c.js",
+    "/assets/index-db666781.css",
     "/assets/Company_staff_observation-b7c9e73b.png"
   ],
-  "src/pages/company-staff-observation/idnex.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/idnex-d816441a.js",
-    "/assets/idnex-c2f95ba0.css",
+  "src/pages/company-staff-observation/index.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/index-da74c60c.js",
+    "/assets/index-db666781.css",
     "/assets/Company_staff_observation-b7c9e73b.png"
   ],
-  "src/pages/company-staff-observation/idnex.vue?vue&type=style&index=0&scoped=3ef31691&lang.css": [
-    "/assets/idnex-d816441a.js",
-    "/assets/idnex-c2f95ba0.css",
+  "src/pages/company-staff-observation/index.vue?vue&type=style&index=0&scoped=29145932&lang.css": [
+    "/assets/index-da74c60c.js",
+    "/assets/index-db666781.css",
     "/assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Innovation.vue": [
-    "/assets/Innovation-bbf4bc8e.js",
+    "/assets/Innovation-0f5f7dd3.js",
     "/assets/Innovation-bdde9a90.css",
     "/assets/pic_innovation_bg-f2e6127d.png"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Innovation.vue?vue&type=style&index=0&scoped=a1c51b6e&lang.css": [
-    "/assets/Innovation-bbf4bc8e.js",
+    "/assets/Innovation-0f5f7dd3.js",
     "/assets/Innovation-bdde9a90.css",
     "/assets/pic_innovation_bg-f2e6127d.png"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Mission.vue": [
-    "/assets/Mission-d6f7282c.js",
+    "/assets/Mission-e0b9555b.js",
     "/assets/Mission-a99f6851.css",
     "/assets/pic-Misson-eece2139.png"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Mission.vue?vue&type=style&index=0&scoped=6d538e05&lang.css": [
-    "/assets/Mission-d6f7282c.js",
+    "/assets/Mission-e0b9555b.js",
     "/assets/Mission-a99f6851.css",
     "/assets/pic-Misson-eece2139.png"
   ],
   "src/pages/corporate-philosophy-management-policy/components/PracticesGuidelines.vue": [
-    "/assets/PracticesGuidelines-6e3d7074.js",
+    "/assets/PracticesGuidelines-cc422f23.js",
     "/assets/PracticesGuidelines-08439bac.css",
     "/assets/pic_way_bg_1-af197670.svg",
     "/assets/pic_way_bg_2-a0fecacb.svg",
@@ -3367,7 +3432,7 @@
     "/assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/pages/corporate-philosophy-management-policy/components/PracticesGuidelines.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/PracticesGuidelines-6e3d7074.js",
+    "/assets/PracticesGuidelines-cc422f23.js",
     "/assets/PracticesGuidelines-08439bac.css",
     "/assets/pic_way_bg_1-af197670.svg",
     "/assets/pic_way_bg_2-a0fecacb.svg",
@@ -3376,7 +3441,7 @@
     "/assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/pages/corporate-philosophy-management-policy/components/PracticesGuidelines.vue?vue&type=style&index=0&scoped=5b639fa6&lang.css": [
-    "/assets/PracticesGuidelines-6e3d7074.js",
+    "/assets/PracticesGuidelines-cc422f23.js",
     "/assets/PracticesGuidelines-08439bac.css",
     "/assets/pic_way_bg_1-af197670.svg",
     "/assets/pic_way_bg_2-a0fecacb.svg",
@@ -3385,7 +3450,7 @@
     "/assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Values.vue": [
-    "/assets/Values-84383527.js",
+    "/assets/Values-585e55b6.js",
     "/assets/Values-e66e9964.css",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
@@ -3394,7 +3459,7 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Values.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Values-84383527.js",
+    "/assets/Values-585e55b6.js",
     "/assets/Values-e66e9964.css",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
@@ -3403,7 +3468,7 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Values.vue?vue&type=style&index=0&scoped=1a482d2c&lang.css": [
-    "/assets/Values-84383527.js",
+    "/assets/Values-585e55b6.js",
     "/assets/Values-e66e9964.css",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
@@ -3412,86 +3477,86 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Vision.vue": [
-    "/assets/Vision-3290c9fc.js",
+    "/assets/Vision-64612553.js",
     "/assets/Vision-7e4e6dad.css",
     "/assets/pic_vision-5d58f4f2.png"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Vision.vue?vue&type=style&index=0&scoped=497a7b33&lang.css": [
-    "/assets/Vision-3290c9fc.js",
+    "/assets/Vision-64612553.js",
     "/assets/Vision-7e4e6dad.css",
     "/assets/pic_vision-5d58f4f2.png"
   ],
   "src/pages/corporate-philosophy-management-policy/index.vue": [
-    "/assets/index-029303de.js",
+    "/assets/index-e63d5443.js",
     "/assets/index-3517df90.css",
     "/assets/Corporate_Philosophy_Management_Policy_banner-1739b399.png"
   ],
   "src/pages/corporate-philosophy-management-policy/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-029303de.js",
+    "/assets/index-e63d5443.js",
     "/assets/index-3517df90.css",
     "/assets/Corporate_Philosophy_Management_Policy_banner-1739b399.png"
   ],
   "src/pages/corporate-philosophy-management-policy/index.vue?vue&type=style&index=0&lang.css": [
-    "/assets/index-029303de.js",
+    "/assets/index-e63d5443.js",
     "/assets/index-3517df90.css",
     "/assets/Corporate_Philosophy_Management_Policy_banner-1739b399.png"
   ],
   "src/pages/data-solution/index.vue": [
-    "/assets/index-97853a34.js"
+    "/assets/index-d79ce445.js"
   ],
   "src/pages/data-solution/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-97853a34.js"
+    "/assets/index-d79ce445.js"
   ],
   "src/pages/event-information/components/EventInformationItem.vue": [
-    "/assets/EventInformationItem-bc0be589.js",
+    "/assets/EventInformationItem-271026a5.js",
     "/assets/EventInformationItem-be1f658d.css"
   ],
   "src/pages/event-information/components/EventInformationItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/EventInformationItem-bc0be589.js",
+    "/assets/EventInformationItem-271026a5.js",
     "/assets/EventInformationItem-be1f658d.css"
   ],
   "src/pages/event-information/components/EventInformationItem.vue?vue&type=style&index=0&scoped=f23fbd8f&lang.css": [
-    "/assets/EventInformationItem-bc0be589.js",
+    "/assets/EventInformationItem-271026a5.js",
     "/assets/EventInformationItem-be1f658d.css"
   ],
   "src/pages/event-information/index.vue": [
-    "/assets/index-cc5fee8a.js",
-    "/assets/index-8311b2db.css",
+    "/assets/index-9cb39deb.js",
+    "/assets/index-cda84b33.css",
     "/assets/event_information-5ea6994c.png"
   ],
   "src/pages/event-information/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-cc5fee8a.js",
-    "/assets/index-8311b2db.css",
+    "/assets/index-9cb39deb.js",
+    "/assets/index-cda84b33.css",
     "/assets/event_information-5ea6994c.png"
   ],
-  "src/pages/event-information/index.vue?vue&type=style&index=0&scoped=0b64d1d8&lang.css": [
-    "/assets/index-cc5fee8a.js",
-    "/assets/index-8311b2db.css",
+  "src/pages/event-information/index.vue?vue&type=style&index=0&scoped=bcebe840&lang.css": [
+    "/assets/index-9cb39deb.js",
+    "/assets/index-cda84b33.css",
     "/assets/event_information-5ea6994c.png"
   ],
   "src/pages/healthcare-business/components/Brand.vue": [
-    "/assets/Brand-13d58b0f.js",
+    "/assets/Brand-485fa5b2.js",
     "/assets/Brand-aabb0491.css",
     "/assets/image_5-08d974ca.png",
     "/assets/logo_1-7333d4d5.png",
     "/assets/rhombic-25fa691c.svg"
   ],
   "src/pages/healthcare-business/components/Brand.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Brand-13d58b0f.js",
+    "/assets/Brand-485fa5b2.js",
     "/assets/Brand-aabb0491.css",
     "/assets/image_5-08d974ca.png",
     "/assets/logo_1-7333d4d5.png",
     "/assets/rhombic-25fa691c.svg"
   ],
   "src/pages/healthcare-business/components/Brand.vue?vue&type=style&index=0&scoped=c3c026e3&lang.css": [
-    "/assets/Brand-13d58b0f.js",
+    "/assets/Brand-485fa5b2.js",
     "/assets/Brand-aabb0491.css",
     "/assets/image_5-08d974ca.png",
     "/assets/logo_1-7333d4d5.png",
     "/assets/rhombic-25fa691c.svg"
   ],
   "src/pages/healthcare-business/components/HealthcareBusinessItem.vue": [
-    "/assets/HealthcareBusinessItem-fc078f42.js",
+    "/assets/HealthcareBusinessItem-ac11943c.js",
     "/assets/HealthcareBusinessItem-fa5cb3e0.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-a59386a0.png",
@@ -3499,7 +3564,7 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/pages/healthcare-business/components/HealthcareBusinessItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/HealthcareBusinessItem-fc078f42.js",
+    "/assets/HealthcareBusinessItem-ac11943c.js",
     "/assets/HealthcareBusinessItem-fa5cb3e0.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-a59386a0.png",
@@ -3507,7 +3572,7 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/pages/healthcare-business/components/HealthcareBusinessItem.vue?vue&type=style&index=0&scoped=8353be39&lang.css": [
-    "/assets/HealthcareBusinessItem-fc078f42.js",
+    "/assets/HealthcareBusinessItem-ac11943c.js",
     "/assets/HealthcareBusinessItem-fa5cb3e0.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-a59386a0.png",
@@ -3515,23 +3580,26 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/pages/healthcare-business/index.vue": [
-    "/assets/index-64c02f04.js",
+    "/assets/index-e86353e3.js",
     "/assets/index-470b2b28.css",
     "/assets/Healthcare_Business-741a6e10.png"
   ],
   "src/pages/healthcare-business/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-64c02f04.js",
+    "/assets/index-e86353e3.js",
     "/assets/index-470b2b28.css",
     "/assets/Healthcare_Business-741a6e10.png"
   ],
   "src/pages/healthcare-business/index.vue?vue&type=style&index=0&lang.css": [
-    "/assets/index-64c02f04.js",
+    "/assets/index-e86353e3.js",
     "/assets/index-470b2b28.css",
     "/assets/Healthcare_Business-741a6e10.png"
   ],
   "src/pages/index/components/Business.vue": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3555,9 +3623,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3568,6 +3633,9 @@
   "src/pages/index/components/Business.vue?vue&type=style&index=0&scoped=a1948eea&lang.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3591,9 +3659,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3604,6 +3669,9 @@
   "src/pages/index/components/Customers.vue": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3627,9 +3695,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3640,6 +3705,9 @@
   "src/pages/index/components/Customers.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3663,9 +3731,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3676,6 +3741,9 @@
   "src/pages/index/components/Customers.vue?vue&type=style&index=0&scoped=82837996&lang.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3699,9 +3767,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3712,6 +3777,9 @@
   "src/pages/index/components/Field.vue": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3735,9 +3803,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3748,6 +3813,9 @@
   "src/pages/index/components/Field.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3771,9 +3839,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3784,6 +3849,9 @@
   "src/pages/index/components/Field.vue?vue&type=style&index=0&scoped=12ecf4fa&lang.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3807,9 +3875,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3820,6 +3885,9 @@
   "src/pages/index/components/First.vue": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3843,9 +3911,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3856,6 +3921,9 @@
   "src/pages/index/components/First.vue?vue&type=style&index=0&scoped=372d000e&lang.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3879,9 +3947,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3892,6 +3957,9 @@
   "src/pages/index/index.vue": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3915,9 +3983,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3928,6 +3993,9 @@
   "src/pages/index/index.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3951,9 +4019,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3961,9 +4026,12 @@
     "/assets/bg-5-9c557f33.png",
     "/assets/pic_banner-ecf1d10c.png"
   ],
-  "src/pages/index/index.vue?vue&type=style&index=0&scoped=73979ec8&lang.css": [
+  "src/pages/index/index.vue?vue&type=style&index=0&scoped=c458ff56&lang.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -3987,9 +4055,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
@@ -3998,74 +4063,80 @@
     "/assets/pic_banner-ecf1d10c.png"
   ],
   "src/pages/infrastructure-business/index.vue": [
-    "/assets/index-01033603.js"
+    "/assets/index-9b4608a3.js"
   ],
   "src/pages/infrastructure-business/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-01033603.js"
+    "/assets/index-9b4608a3.js"
   ],
   "src/pages/logistics-business/index.vue": [
-    "/assets/index-b3bd54d5.js",
+    "/assets/index-d12f290f.js",
     "/assets/Logistics-Business-6232e00a.png"
   ],
   "src/pages/logistics-business/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-b3bd54d5.js",
+    "/assets/index-d12f290f.js",
     "/assets/Logistics-Business-6232e00a.png"
   ],
   "src/pages/message-from-president/index.vue": [
-    "/assets/index-5233367b.js",
-    "/assets/index-171792a7.css",
+    "/assets/index-884d2a18.js",
+    "/assets/index-f4310908.css",
     "/assets/pic_president-c2092995.png",
     "/assets/pic_president_sign-2c1d3021.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
   ],
   "src/pages/message-from-president/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-5233367b.js",
-    "/assets/index-171792a7.css",
+    "/assets/index-884d2a18.js",
+    "/assets/index-f4310908.css",
     "/assets/pic_president-c2092995.png",
     "/assets/pic_president_sign-2c1d3021.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
   ],
-  "src/pages/message-from-president/index.vue?vue&type=style&index=0&scoped=7b81c47c&lang.css": [
-    "/assets/index-5233367b.js",
-    "/assets/index-171792a7.css",
+  "src/pages/message-from-president/index.vue?vue&type=style&index=0&scoped=abca1bf0&lang.css": [
+    "/assets/index-884d2a18.js",
+    "/assets/index-f4310908.css",
     "/assets/pic_president-c2092995.png",
     "/assets/pic_president_sign-2c1d3021.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner-3e338bbf.png"
+  ],
+  "src/pages/recruitment-information/index.vue": [
+    "/assets/index-44e54aaa.js"
   ],
   "src/pages/recruitment-process/components/recruitment-item.vue": [
-    "/assets/recruitment-item-a38aa85c.js",
+    "/assets/recruitment-item-0cd573ef.js",
     "/assets/recruitment-item-a107516e.css",
     "/assets/download-31b6a16b.svg"
   ],
   "src/pages/recruitment-process/components/recruitment-item.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/recruitment-item-a38aa85c.js",
+    "/assets/recruitment-item-0cd573ef.js",
     "/assets/recruitment-item-a107516e.css",
     "/assets/download-31b6a16b.svg"
   ],
   "src/pages/recruitment-process/components/recruitment-item.vue?vue&type=style&index=0&scoped=a818a996&lang.css": [
-    "/assets/recruitment-item-a38aa85c.js",
+    "/assets/recruitment-item-0cd573ef.js",
     "/assets/recruitment-item-a107516e.css",
     "/assets/download-31b6a16b.svg"
   ],
   "src/pages/recruitment-process/index.vue": [
-    "/assets/index-7e71d5d7.js",
+    "/assets/index-d97519c4.js",
     "/assets/recruitment-process-aa0f47d7.png"
   ],
   "src/pages/recruitment-process/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-7e71d5d7.js",
+    "/assets/index-d97519c4.js",
     "/assets/recruitment-process-aa0f47d7.png"
   ],
-  "src/pages/si-service-business/si-service-business.vue": [
-    "/assets/si-service-business-b8e44554.js",
+  "src/pages/si-service-business/index.vue": [
+    "/assets/index-b0afdc4d.js",
     "/assets/Si_Service_Business-2ffcd4ab.png"
   ],
-  "src/pages/si-service-business/si-service-business.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/si-service-business-b8e44554.js",
+  "src/pages/si-service-business/index.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/index-b0afdc4d.js",
     "/assets/Si_Service_Business-2ffcd4ab.png"
   ],
   "src/styles/main.css": [
     "/assets/logo-8d685922.svg",
     "/assets/back_top-95380537.svg",
+    "/assets/information-d7a9932e.svg",
+    "/assets/outline-76d2a50d.svg",
+    "/assets/recruit-ef9b9257.svg",
     "/assets/filters-3381a820.svg",
     "/assets/pic_Speed_is_the_Power-659645d1.png",
     "/assets/arrow-468c283c.svg",
@@ -4089,9 +4160,6 @@
     "/assets/title_icon_3-dec21fac.svg",
     "/assets/title_icon_4-320660f0.svg",
     "/assets/title_icon_5-0950bf5e.svg",
-    "/assets/information-d7a9932e.svg",
-    "/assets/outline-76d2a50d.svg",
-    "/assets/recruit-ef9b9257.svg",
     "/assets/bg-1-aae8dc8d.png",
     "/assets/bg-2-e7c76923.png",
     "/assets/bg-3-dd4fcdc9.png",
