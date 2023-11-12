@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 html,
 body,
 #app {
@@ -6,12 +10,15 @@ body,
   padding: 0;
 }
 @font-face {
-  font-family: 'Noto Sans JP';
-  src: url('/src/assets/font/NotoSansJP-Regular.otf')  format('opentype');
+  font-family: 'Noto-Sans-JP';
+  src: url('/font/NotoSansJP-Regular.otf')  format('opentype');
 }
 @font-face {
-  font-family: 'Shippori Mincho';
-  src: url('/src/assets/font/ShipporiMincho-Regular.ttf') format('truetype');
+  font-family: 'Shippori-Mincho';
+  src: url('/font/ShipporiMincho-Regular.ttf') format('truetype');
+}
+.font-feature-settings-cilg-liga{
+  font-feature-settings: 'clig' off, 'liga' off;
 }
 .m_l_60 {
   margin-left: 60px;

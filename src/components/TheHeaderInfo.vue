@@ -1,23 +1,32 @@
 <template>
-  <div class="Nav_menu_info">
-    <div class="Menu_Content">
+  <div
+    class="z-8 h-[240px] w-full flex justify-center bg-[#071027] bg-opacity-90 backdrop-blur-[2px]"
+  >
+    <div
+      class="h-full text-[#ffffff]"
+      :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+    >
       <div
         v-for="(item, index) in MenuDataTitle"
         v-show="index === MenuIndex"
         :key="item.title"
-        class="Menu_title_Main"
+        class="mt-[40px] h-[40px] w-[146px] flex items-center"
       >
         <img
           :src="item.src"
           alt=""
         />
-        <div class="Menu_title">{{ item.title }}</div>
+        <div
+          class="font-NotoSansJP ml-[10px] text-[24px] leading-[30px] font-[500] text-[#fff]"
+        >
+          {{ item.title }}
+        </div>
       </div>
-      <div class="Menu_Items">
+      <div class="mt-[10px] flex flex-wrap px-[50px]">
         <div
           v-for="item in menudata"
           :key="item.id"
-          class="Menu_Items_info"
+          class="mt-[20px] h-[32px] w-[33.33%]"
           :style="'  text-align: ' + item.align"
         >
           <router-link :to="item.href">{{ item.title }}</router-link>
@@ -32,6 +41,7 @@ import { defineProps, ref, toRefs } from 'vue'
 import Information from '@/assets/images/menu/information.svg'
 import Outline from '@/assets/images/menu/outline.svg'
 import Recruit from '@/assets/images/menu/recruit.svg'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 interface Menu_Items {
   id: number
@@ -59,49 +69,3 @@ const MenuDataTitle = ref<MenuTitle[]>([
 ])
 const MenuIndex = menuindex
 </script>
-
-<style>
-.Nav_menu_info {
-  width: 100%;
-  height: 240px;
-  background-color: rgba(7, 16, 39, 0.9);
-  backdrop-filter: blur(2px);
-  display: flex;
-  justify-content: center;
-  z-index: 8;
-}
-.Menu_Content {
-  width: 1200px;
-  height: 100%;
-  color: #fff;
-}
-.Menu_title_Main {
-  width: 146px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-}
-.Menu_title {
-  color: #fff;
-  margin-left: 10px;
-  /* 正文二级标题medium */
-  font-family: Noto Sans JP;
-
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 30px; /* 125% */
-}
-.Menu_Items {
-  padding: 0px 50px;
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.Menu_Items_info {
-  width: 33.3%;
-  height: 32px;
-  margin-top: 20px;
-}
-</style>

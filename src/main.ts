@@ -12,6 +12,7 @@ import '@unocss/reset/tailwind.css'
 import './styles/main.css'
 import 'uno.css'
 import 'animate.css'
+import 'tailwindcss/tailwind.css'
 
 const routes = setupLayouts(generatedRoutes)
 

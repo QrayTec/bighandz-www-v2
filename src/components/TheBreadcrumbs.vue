@@ -1,15 +1,23 @@
 <template>
   <div class="Route_Breadcrumbs">
-    <div class="Route_Breadcrumbs_main">
-      <div class="Parent_title">{{ ParentTitle }}</div>
+    <div class="flex cursor-pointer items-center">
+      <div
+        class="font-NotoSansJP h-[16px] text-[16px] leading-[16px] font-[400] text-[#fff] opacity-40"
+      >
+        {{ ParentTitle }}
+      </div>
 
-      <div class="Route_Breadcrumbs_to">
+      <div class="mx-[20px] flex items-center justify-center">
         <img
           src="/src/assets/images/bread_icon.svg"
           alt=""
         />
       </div>
-      <div class="Route_Breadcrumbs_Index_title">{{ IndexTitle }}</div>
+      <div
+        class="font-NotoSansJP h-[16px] text-[16px] leading-[16px] font-[400] text-[#fff]"
+      >
+        {{ IndexTitle }}
+      </div>
     </div>
   </div>
 </template>
@@ -41,33 +49,4 @@ onMounted(() => {
   getPageTitle()
 })
 </script>
-<style>
-.Route_Breadcrumbs_main {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-.Parent_title {
-  height: 16px;
-  font-size: 16px;
-  font-family: Noto Sans JP;
-  font-weight: 400;
-  color: #ffffff;
-  line-height: 16px;
-  opacity: 0.4;
-}
-.Route_Breadcrumbs_to {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 20px;
-}
-.Route_Breadcrumbs_Index_title {
-  height: 16px;
-  font-size: 16px;
-  font-family: Noto Sans JP;
-  font-weight: 400;
-  color: #ffffff;
-  line-height: 16px;
-}
-</style>
+<style></style>

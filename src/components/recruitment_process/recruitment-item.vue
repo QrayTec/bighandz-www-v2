@@ -1,44 +1,51 @@
 <template>
-  <div class="page_center_items m_t_120 m_b_240">
+  <div
+    class="page_center_items m-t[120px] mb-[240px]"
+    :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+  >
     <div
-      class="p_l_204"
+      class="pl-0 md:pl-[204px]"
       data-aos="slide-right"
     >
-      <div class="page_center_text">
+      <div
+        class="font-NotoSansJP font-feature-settings-cilg-liga text-[16px] leading-none font-[400] not-italic text-[#0e1b47]"
+      >
         応募から採用までの流れをご説明しています。
       </div>
-      <hr class="hr m_t_60" />
+      <hr class="hr mt-[60px]" />
     </div>
     <div
       v-for="(item, index) in RecruitmentData"
       :id="item.anchor"
       :key="item.id"
-      class="m_t_60 page_center_text"
+      class="font-NotoSansJP font-feature-settings-cilg-liga mt-[60px] text-[16px] leading-none font-[400] not-italic text-[#0e1b47]"
     >
       <steps :stepsdata="StepsData[index++]" />
       <div
-        class="p_l_204"
+        class="pl-0 md:pl-[204px]"
         data-aos="slide-right"
       >
-        <p class="m_t_30">{{ item.list_data_1 }}</p>
+        <p class="mt-[30px]">{{ item.list_data_1 }}</p>
         <the-download-btn
           v-if="item.id === 1"
-          class="m_t_30"
+          class="mt-[30px]"
         />
-        <p class="m_t_30">
+        <p class="mt-[30px]">
           {{ item.list_data_2 }}
         </p>
-        <p class="m_t_30">{{ item.list_data_3 }}</p>
+        <p class="mt-[30px]">{{ item.list_data_3 }}</p>
       </div>
     </div>
     <div
-      class="p_l_204"
+      class="pl-0 md:pl-[204px]"
       data-aos="slide-right"
     >
-      <hr class="hr m_t_60" />
-      <div class="m_t_60 instructions">
+      <hr class="hr mt-[30px]" />
+      <div
+        class="font-NotoSansJP .font-feature-settings-cilg-liga mt-[60px] text-[16px] leading-[32px] font-[400] not-italic text-[#6785c1]"
+      >
         <p>※応募から内定までの間、1～2か月程度のお時間をいただきます。</p>
-        <p class="m_t_30">
+        <p class="mt-[30px]">
           ※選考結果は、合否にかかわらずメールでお知らせいたします。
         </p>
       </div>
@@ -49,6 +56,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { StepsType } from '@/data/pages_interface'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 interface RecruitmentType {
   id: number
@@ -109,31 +117,6 @@ const RecruitmentData = ref<RecruitmentType[]>([
 </script>
 
 <style scoped>
-.p_l_204 {
-  padding-left: 204px;
-}
-.page_center_text {
-  color: var(---, #0e1b47);
-  font-feature-settings: 'clig' off, 'liga' off;
-
-  /* 正文 */
-  font-family: Noto Sans JP;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.instructions {
-  color: var(---, #6785c1);
-  font-feature-settings: 'clig' off, 'liga' off;
-
-  /* 正文段落 */
-  font-family: Noto Sans JP;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 200% */
-}
 @media (min-width: 768px) and (max-width: 1023px) {
   .page_center_items {
     width: 80%;

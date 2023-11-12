@@ -1,5 +1,5 @@
 <template>
-  <div class="page_nav">
+  <div class="relative h-full w-full flex justify-center bg-[#0e1b47]">
     <div
       v-if="StyleType.type === 2"
       class="occupy_nav"

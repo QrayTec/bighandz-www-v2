@@ -1,16 +1,21 @@
 <template>
-  <div class="Download_btn">
+  <div class="w-[300px] flex items-center bg-[#597be5] px-[30px] py-[20px]">
     <a
       href="#"
       target="_blank"
       rel="noopener noreferrer"
+      class="w-full flex justify-between decoration-none"
     >
       <img
         src="@/assets/images/download.svg"
         alt=""
         srcset=""
       />
-      <p class="download_text m_l_16">テンプレートのダウンロード</p>
+      <p
+        class="font-NotoSansJP ml-[16px] text-[16px] leading-none font-[400] not-italic text-[#fff]"
+      >
+        テンプレートのダウンロード
+      </p>
     </a>
   </div>
 </template>
@@ -19,29 +24,4 @@
 export default {}
 </script>
 
-<style scoped>
-a {
-  text-decoration: none;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.Download_btn {
-  width: calc(240px + 60px);
-  display: flex;
-  padding: 20px 30px;
-  align-items: center;
-  background: var(---, #597be5);
-}
-.download_text {
-  color: #fff;
-  font-feature-settings: 'clig' off, 'liga' off;
-
-  /* 正文 */
-  font-family: Noto Sans JP;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-</style>
+<style scoped></style>

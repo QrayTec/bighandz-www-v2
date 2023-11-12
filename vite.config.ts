@@ -14,8 +14,14 @@ import LinkAttributes from 'markdown-it-link-attributes'
 import Unocss from 'unocss/vite'
 import Shiki from 'markdown-it-shiki'
 import WebfontDownload from 'vite-plugin-webfont-dl'
+import tailwindcss from 'tailwindcss'
 
 export default defineConfig({
+  css: {
+    postcss: {
+      plugins: [tailwindcss]
+    }
+  },
   resolve: {
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,

@@ -1,7 +1,8 @@
 <template>
   <div
     id="Part1"
-    class="page_center_items m_t_120 m_b_240"
+    class="relative mb-[240px] mt-[120px]"
+    :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <steps :stepsdata="StepsData" />
     <div class="FAQ_content">
@@ -40,6 +41,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { StepsType } from '@/data/pages_interface'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 interface AssuranceListType {
   list: string

@@ -1,27 +1,36 @@
 <template>
-  <div class="footer-main">
-    <div class="footer-content">
-      <div class="footer_logo">
+  <div
+    class="h-[150px] w-full flex items-center justify-center bg-[#09122e] text-[#fff]"
+  >
+    <div
+      class="h-full flex items-center justify-between py-[41px]"
+      :style="{ width: MAIN_CONTENT_WIDTH + px }"
+    >
+      <div class="h-[68px] w-[68px]">
         <router-link to="/">
           <img
             src="/src/assets/images/logo.svg"
             alt="logo"
         /></router-link>
       </div>
-      <div class="footer_nav">
+      <div
+        class="ml-[120px] h-[22px] w-[500px] flex items-center justify-between"
+      >
         <div
           v-for="item in NavData"
           :key="item.id"
-          class="footer_NavLink"
+          class="h-[22px] min-w-[86px] flex items-center"
         >
-          <div class="footer_NavLink_line"></div>
-          <div class="footer_Link">
+          <div class="h-[12px] w-[1px] bg-[#fff] bg-opacity-20"></div>
+          <div class="mx-[20px] text-[15px] text-[#fff]">
             <router-link :to="item.href">{{ item.title }}</router-link>
           </div>
         </div>
-        <div class="footer_NavLink_line"></div>
+        <div class="h-[12px] w-[1px] bg-[#fff] bg-opacity-20"></div>
       </div>
-      <div class="footer_title">
+      <div
+        class="font-NotoSansJP font-feature-settings-cilg-liga h-[22px] w-[350px] text-right text-[14.4px] font-[400] not-italic text-[#fff]"
+      >
         Copyright © BigHandz Co.Ltd. All Rights Reserved.
       </div>
     </div>
@@ -30,6 +39,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 interface FooterNavData {
   id: number

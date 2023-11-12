@@ -5,7 +5,7 @@
       duration: 1000
     }"
     href="#app"
-    class="back_main"
+    class="fixed bottom-[150px] right-[0px] z-9 h-[64px] w-[64px] flex cursor-pointer items-center justify-center bg-[#597be5] transition-all duration-300 hover:bg-[#31437c]"
   >
     <img
       src="/src/assets/images/back_top.svg"
@@ -38,23 +38,4 @@ onBeforeUnmount(() => {
 })
 </script>
 
-<style scoped>
-.back_main {
-  width: 64px;
-  height: 64px;
-  background-color: #597be5;
-  position: fixed;
-  bottom: 150px;
-  right: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: background-color 0.3s; /* 添加背景颜色的渐变动画 */
-  z-index: 9;
-}
-
-.back_main:hover {
-  background-color: #31437c; /* 鼠标悬停时的背景颜色 */
-}
-</style>
+<style scoped></style>

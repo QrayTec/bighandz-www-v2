@@ -2,10 +2,10 @@
   <nav>
     <div
       ref="TabBar"
-      class="Main-Header"
+      class="h-[80px] w-full flex items-center justify-center"
     >
-      <div class="Header_content">
-        <div class="logo-images">
+      <div class="w-[1780px] flex justify-between bg-transparent">
+        <div class="h-[68px] w-[68px]">
           <router-link to="/">
             <img
               src="/src/assets/images/logo.svg"
@@ -13,24 +13,24 @@
             />
           </router-link>
         </div>
-        <div class="nav-link">
+        <div class="relative h-full w-[490px] flex">
           <div
             v-for="(item, index) in NavLinkArray"
             :key="item.id"
-            class="nav-link-title"
+            class="font-NotoSansJP h-[76px] w-[98px] flex items-center justify-center text-[15px] font-[400] not-italic text-[#fff]"
             @click="ClickTitle(index)"
             @mouseover="iSCheck(index)"
             @mouseout="UnCheck(index)"
           >
             <router-link
-              class="router_link"
+              class="h-full w-full px-[19px] py-[28px]"
               :to="item.href"
               >{{ item.title }}</router-link
             >
           </div>
           <div
             ref="NavLine"
-            class="nav-link-line"
+            class="absolute bottom-[0px] h-[4px] w-[98px] bg-[#597be5] transition-left duration-800"
           ></div>
         </div>
       </div>
@@ -209,63 +209,6 @@ onBeforeUnmount(() => {
 </script>
 
 <style>
-.Main-Header {
-  width: 100%;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo-images {
-  width: 68px;
-  height: 68px;
-}
-.nav-link {
-  width: 490px;
-  height: 100%;
-  display: flex;
-  position: relative;
-}
-.nav-link-title {
-  width: 98px;
-  height: 76px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  text-align: center;
-  font-family: Noto Sans JP;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: normal;
-}
-.nav-link-line {
-  width: 98px;
-  height: 4px;
-  background-color: #597be5;
-  position: absolute;
-  bottom: 0px;
-  transition: left 0.8s;
-}
-.router_link {
-  width: 100%;
-  height: 100%;
-  padding: 28px 19px 26px 19px;
-}
-.logo-images a {
-  display: inherit;
-  margin: 6px 0;
-}
-.logo-images img {
-  width: 68px;
-  height: 68px;
-}
-.Header_content {
-  width: 1760px;
-  display: flex;
-  justify-content: space-between;
-  background-color: transparent;
-}
 .animate__animated,
 .animate__fadeOut {
   --animate-duration: 0.8s;
