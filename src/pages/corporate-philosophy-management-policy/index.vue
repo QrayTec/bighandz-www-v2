@@ -6,12 +6,12 @@
     />
     <sub-page-title :data="SubPageTitleData" />
     <div class="philosophy_policy_box">
-      <practices-guidelines />
-      <mission />
-      <vision />
-      <values />
+      <PracticesGuidelines />
+      <Mission />
+      <Vision />
+      <Values />
     </div>
-    <innovation />
+    <Innovation />
   </div>
 </template>
 
@@ -19,6 +19,11 @@
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
 import CorporatePhilosophy from '@/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner.png'
+import Innovation from './components/Innovation.vue'
+import Mission from './components/Mission.vue'
+import PracticesGuidelines from './components/PracticesGuidelines.vue'
+import Values from './components/Values.vue'
+import Vision from './components/Vision.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '企業理念 ',

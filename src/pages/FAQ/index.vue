@@ -20,7 +20,7 @@
 
     <div class="page_center">
       <div class="occupy"></div>
-      <FAQ-items />
+      <FAQItems />
     </div>
   </div>
 </template>
@@ -34,6 +34,7 @@ import {
   PageNavStyleType
 } from '@/data/pages_interface'
 import FAQ from '@/assets/images/sub_page_title/FAQ.png'
+import FAQItems from './components/FAQ-items.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'FAQ · ',

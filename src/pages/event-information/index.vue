@@ -9,7 +9,7 @@
     </div>
     <div class="healthcare_business m_b_240">
       <div class="healthcare_business_box">
-        <event-information-item />
+        <EventInformationItem />
       </div>
     </div>
   </div>
@@ -19,6 +19,7 @@
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
 import EventInformation from '@/assets/images/sub_page_title/event_information.png'
+import EventInformationItem from './components/EventInformationItem.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'イベント ',

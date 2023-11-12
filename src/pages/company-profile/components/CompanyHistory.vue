@@ -1,7 +1,7 @@
 <template>
   <div class="company_profile_content">
     <div class="company_history_title">会社 · 沿革</div>
-    <div class="company_history_data m_t_60">
+    <div class="m_t_60 company_history_data">
       <ul class="company_history_data_box">
         <li
           v-for="item in CompanyHistoryData"

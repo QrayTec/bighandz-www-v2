@@ -9,7 +9,7 @@
     </div>
     <div class="m_b_240 healthcare_business m_t_150 m_t_150">
       <div class="healthcare_business_box">
-        <Movie-item />
+        <MovieItem />
       </div>
     </div>
   </div>
@@ -19,6 +19,7 @@
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
 import CompanyStaffObservation from '@/assets/images/sub_page_title/Company_staff_observation.png'
+import MovieItem from './components/MovieItem.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'MOVIE',

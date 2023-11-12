@@ -8,8 +8,8 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Brand: typeof import('./components/healthcare-business/Brand.vue')['default']
-    CompanyHistory: typeof import('./components/company-profile/CompanyHistory.vue')['default']
-    CompanyProfileContent: typeof import('./components/company-profile/CompanyProfileContent.vue')['default']
+    CompanyHistory: typeof import('./pages/company-profile/components/CompanyHistory.vue')['default']
+    CompanyProfileContent: typeof import('./pages/company-profile/components/CompanyProfileContent.vue')['default']
     Download: typeof import('./components/TheDownloadBtn.vue')['default']
     EventInformationItem: typeof import('./components/event-information/EventInformationItem.vue')['default']
     FAQ_items: typeof import('./components/FAQ/FAQ-items.vue')['default']

@@ -35,7 +35,7 @@ import { ref } from 'vue'
 import { PageNavType, PageNavStyleType } from '@/data/pages_interface'
 
 const props = defineProps<{
-  pagenavdata: PageNavType
+  pagenavdata: PageNavType[]
   pagenavstyletype: PageNavStyleType
 }>()
 

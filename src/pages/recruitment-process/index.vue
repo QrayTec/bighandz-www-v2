@@ -20,7 +20,7 @@
 
     <div class="page_center">
       <div class="occupy"></div>
-      <Recruitment-item />
+      <RecruitmentItem />
     </div>
   </div>
 </template>
@@ -28,6 +28,9 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import handleScroll from '@/data/PageNav'
+
+import RecruitmentItem from './components/recruitment-item.vue'
+
 import {
   SubPageTitleType,
   PageNavType,
@@ -44,12 +47,12 @@ const SubPageTitleData = ref<SubPageTitleType>({
   type: 2
 })
 
-const PageNavData = ref<PageNavType[]>([
+const PageNavData: PageNavType[] = [
   { id: 1, anchor: '#STEP1', anchor_title: 'STEP1' },
   { id: 2, anchor: '#STEP2', anchor_title: 'STEP2' },
   { id: 3, anchor: '#STEP3', anchor_title: 'STEP3' },
   { id: 4, anchor: '#STEP4', anchor_title: 'STEP4' }
-])
+]
 
 const pagetype = ref<PageNavStyleType>({ type: 2 })
 

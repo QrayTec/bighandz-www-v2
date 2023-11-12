@@ -150,7 +150,7 @@ const MenuIndex = ref<number>(0)
 const NavLine = ref<HTMLElement>()
 const TabBar = ref<HTMLElement>()
 const NavLineLeft = ref<number>(98)
-const LineIndex = ref<number>()
+const LineIndex = ref<number>(0)
 
 function BlockMenu(flag: boolean, index: number) {
   MenuFlag.value = flag

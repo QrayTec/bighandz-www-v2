@@ -1,9 +1,3 @@
-<script setup lang="ts">
-defineOptions({
-  name: 'IndexPage'
-})
-</script>
-
 <template>
   <div class="index-page">
     <div class="index-bg"></div>
@@ -13,9 +7,9 @@ defineOptions({
     />
     <main>
       <div class="index_main">
-        <IndexFirst />
-        <IndexBusiness />
-        <IndexField />
+        <First />
+        <Business />
+        <Field />
         <!-- <IndexCustomers /> -->
       </div>
     </main>
@@ -27,7 +21,15 @@ defineOptions({
 meta:
   layout: home
 </route>
+<script setup lang="ts">
+import Field from './components/Field.vue'
+import First from './components/First.vue'
+import Business from './components/Business.vue'
 
+defineOptions({
+  name: 'IndexPage'
+})
+</script>
 <style scoped>
 .index-page {
   width: 100%;

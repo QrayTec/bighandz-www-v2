@@ -19,7 +19,7 @@
     </div>
     <div class="m_b_240 healthcare_business">
       <div class="healthcare_business_box">
-        <healthcare-business-item />
+        <HealthcareBusinessItem />
         <Brand />
       </div>
     </div>
@@ -35,6 +35,8 @@ import {
 } from '@/data/pages_interface'
 import handleScroll from '@/data/PageNav'
 import HealthcareBusiness from '@/assets/images/sub_page_title/Healthcare_Business.png'
+import Brand from './components/Brand.vue'
+import HealthcareBusinessItem from './components/HealthcareBusinessItem.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'ヘルスケア',

@@ -56,7 +56,7 @@ interface MenuTitle {
 }
 
 const props = defineProps<{
-  menudata: Menu_Items
+  menudata: Menu_Items[]
   menuindex: number
 }>()
 

@@ -15,17 +15,19 @@
       <hr class="hr mt-[60px]" />
     </div>
     <div
-      v-for="(item, index) in RecruitmentData"
+      v-for="item in RecruitmentData"
       :id="item.anchor"
       :key="item.id"
       class="font-NotoSansJP font-feature-settings-cilg-liga mt-[60px] text-[16px] leading-none font-[400] not-italic text-[#0e1b47]"
     >
-      <steps :stepsdata="StepsData[index++]" />
+      <steps :stepsdata="StepsData[RecruitmentData.indexOf(item)]" />
       <div
         class="pl-0 md:pl-[204px]"
         data-aos="slide-right"
       >
-        <p class="mt-[30px]">{{ item.list_data_1 }}</p>
+        <p class="mt-[30px]">
+          {{ item.list_data_1 }}
+        </p>
         <the-download-btn
           v-if="item.id === 1"
           class="mt-[30px]"

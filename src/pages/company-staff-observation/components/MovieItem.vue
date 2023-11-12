@@ -19,7 +19,7 @@
               src="/src/assets/images/company-staff-observation/play.svg"
               alt=""
             />
-            <p class="Video_Box_text m_t_30">Play Movie</p>
+            <p class="m_t_30 Video_Box_text">Play Movie</p>
           </div>
         </div>
         <div class="m_t_20">
