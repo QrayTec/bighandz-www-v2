@@ -1,7 +1,5 @@
-# name字段是 workflow 的名称
 name: GitHub Actions Build and Deploy Demo
-# on字段指定触发 workflow 的条件，通常是某些事件
-# 这里的触发条件是push代码到master的时候触发
+
 on: [push, pull_request]
 
 jobs:
@@ -13,7 +11,6 @@ jobs:
         os: [ubuntu-latest]
         node: [18]
 
-    # checkout@ 这里写你的分支名称
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -32,7 +29,8 @@ jobs:
       - name: build
         run: pnpm build
 
-
+      - name: Create CNAME file
+        run: echo "bighandz.flutter.eu.org" > dist/CNAME
 
       - name: Publish
         uses: cpina/github-action-push-to-another-repository@v1.3
