@@ -15,6 +15,7 @@ declare module 'vue' {
     FAQ_items: typeof import('./components/FAQ/FAQ-items.vue')['default']
     FAQItems: typeof import('./components/FAQ/FAQ-items.vue')['default']
     HealthcareBusinessItem: typeof import('./components/healthcare-business/HealthcareBusinessItem.vue')['default']
+    Index: typeof import('./components/TheHeader/Index.vue')['default']
     IndexBusiness: typeof import('./components/index/IndexBusiness.vue')['default']
     IndexCustomers: typeof import('./components/index/IndexCustomers.vue')['default']
     IndexField: typeof import('./components/index/IndexField.vue')['default']

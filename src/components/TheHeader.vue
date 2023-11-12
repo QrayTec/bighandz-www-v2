@@ -53,8 +53,12 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, onBeforeUnmount, onMounted, ref } from 'vue'
+import { onBeforeUnmount, onMounted, watch, ref } from 'vue'
+import { useRoute } from 'vue-router'
+import { json } from '../data/breadcrumb-data'
+import methods from '@/data/methods'
 
+const $route = useRoute()
 interface NavLink {
   id: number
   title: string
@@ -68,9 +72,7 @@ interface MenuItems {
   align: string
 }
 
-const props = defineProps<{ checked: number }>()
-
-const checked = ref<number>(props.checked)
+const checked = ref<number>(0)
 
 const NavLinkArray = ref<NavLink[]>([
   { id: 1, title: 'ホーム', href: '/' },
@@ -197,8 +199,13 @@ function handleScroll() {
   // 将背景颜色应用到特定元素，这里假设是NavLine元素
   TabBar.value!.style.backgroundColor = backgroundColor
 }
+watch($route, newRoute => {
+  // 调用 getPageCheck 方法更新 checked.value
+  checked.value = methods.getPageCheck(newRoute, json)
+})
 onMounted(() => {
   handleScroll()
+  checked.value = methods.getPageCheck($route, json)
   window.addEventListener('scroll', handleScroll)
   NavLine.value!.style.left = `${NavLineLeft.value * checked.value}px`
 })

@@ -1,9 +1,5 @@
 <template>
-  <div class="page">
-    <TheHeader
-      class="Header"
-      :checked="1"
-    />
+  <div class="w-full">
     <sub-page-title :data="SubPageTitleData" />
     <div class="philosophy_policy_box">
       <PracticesGuidelines />

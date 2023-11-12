@@ -1,9 +1,5 @@
 <template>
-  <div class="page">
-    <TheHeader
-      class="Header"
-      :checked="1"
-    />
+  <div class="w-full">
     <div class="message_from_president_main">
       <sub-page-title :data="SubPageTitleData" />
     </div>

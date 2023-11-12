@@ -1,10 +1,7 @@
 <template>
   <div class="index-page">
     <div class="index-bg"></div>
-    <TheHeader
-      class="Header"
-      :checked="0"
-    />
+
     <main>
       <div class="index_main">
         <First />

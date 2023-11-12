@@ -1,9 +1,5 @@
 <template>
-  <div class="page">
-    <TheHeader
-      class="Header"
-      :checked="3"
-    />
+  <div class="w-full">
     <div class="message_from_president_main">
       <sub-page-title :data="SubPageTitleData" />
     </div>
@@ -27,7 +23,7 @@
 
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-import handleScroll from '@/data/PageNav'
+import methods from '@/data/methods'
 
 import RecruitmentItem from './components/recruitment-item.vue'
 
@@ -60,7 +56,7 @@ const pagetype = ref<PageNavStyleType>({ type: 2 })
 const isSticky = ref(false)
 const navSticky = ref<HTMLElement>()
 
-const localSticky = handleScroll({ isSticky, navSticky })
+const localSticky = methods.handleScroll({ isSticky, navSticky })
 
 onMounted(() => {
   localSticky()
@@ -73,3 +69,4 @@ onUnmounted(() => {
 </script>
 
 <style scoped></style>
+@/data/methods
