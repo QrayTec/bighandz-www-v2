@@ -8,6 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Brand: typeof import('./components/healthcare-business/Brand.vue')['default']
+    BusinessItem: typeof import('./pages/index/components/Business-Item.vue')['default']
     CompanyHistory: typeof import('./pages/company-profile/components/CompanyHistory.vue')['default']
     CompanyProfileContent: typeof import('./pages/company-profile/components/CompanyProfileContent.vue')['default']
     Download: typeof import('./components/TheDownloadBtn.vue')['default']
@@ -31,6 +32,7 @@ declare module 'vue' {
     RouterView: typeof import('vue-router')['RouterView']
     Steps: typeof import('./components/steps.vue')['default']
     SubPageTitle: typeof import('./components/SubPageTitle.vue')['default']
+    The: typeof import('./pages/index/components/Business-Item.vue')['default']
     TheBackTop: typeof import('./components/TheBackTop.vue')['default']
     TheBreadcrumbs: typeof import('./components/TheBreadcrumbs.vue')['default']
     TheDownloadBtn: typeof import('./components/TheDownloadBtn.vue')['default']

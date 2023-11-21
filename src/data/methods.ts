@@ -12,7 +12,7 @@ const handleScroll = ({ isSticky, navSticky }: ScrollHandlerOptions) => {
   const scrollEvent = () => {
     const distanceFromTop = navSticky.value?.getBoundingClientRect().top
 
-    if (distanceFromTop !== undefined && distanceFromTop === 76) {
+    if (distanceFromTop !== undefined && distanceFromTop <= 76) {
       handleSticky.value = true
     } else {
       handleSticky.value = false

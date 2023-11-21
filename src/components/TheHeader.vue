@@ -57,8 +57,11 @@ import { onBeforeUnmount, onMounted, watch, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { json } from '../data/breadcrumb-data'
 import methods from '@/data/methods'
+import { useScrollToTop } from '@/config/route'
 
 const $route = useRoute()
+useScrollToTop()
+
 interface NavLink {
   id: number
   title: string

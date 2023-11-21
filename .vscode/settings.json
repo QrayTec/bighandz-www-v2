@@ -99,6 +99,6 @@
   },
   "nuxt.isNuxtApp": false,
   "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
 }

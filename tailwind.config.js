@@ -8,8 +8,9 @@ export default {
         Shippori: ['Shippori-Mincho', 'sans-serif']
       },
       backgroundImage: {
-        'primary-gradient':
-          'linear-gradient(90deg, #597EE5 0%, #597EE5 26.04%, #00FFB2 100%)'
+        primarygradient:
+          'linear-gradient(90deg, #597EE5 0%, #597EE5 26.04%, #00FFB2 100%)',
+        Business: 'linear-gradient(0deg, #111f4e 0%, #2e4a9e 100%)'
       }
     }
   },

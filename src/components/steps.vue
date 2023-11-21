@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="w-full flex justify-end">
-      <div class="bg-primary-gradient h-[40px] w-[144px]"></div>
+      <div class="bg-primarygradient h-[40px] w-[144px]"></div>
     </div>
   </div>
 </template>

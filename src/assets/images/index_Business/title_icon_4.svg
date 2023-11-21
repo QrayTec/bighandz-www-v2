@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-    <path d="M2 20C2 10.0589 10.0589 2 20 2H38V20C38 29.9411 29.9411 38 20 38V38C10.0589 38 2 29.9411 2 20V20Z"
-        stroke="white" stroke-width="2" />
-    <circle cx="13" cy="17" r="2" fill="white" />
-    <circle cx="24" cy="17" r="2" fill="white" />
+    <path d="M10 38H2V2H24V38H17M10 38V28H17V38M10 38H17M8 13H18M13 18V8M29 25H33M33 31H29" stroke="white"
+        stroke-width="2" />
+    <rect x="24" y="18" width="14" height="20" stroke="white" stroke-width="2" />
 </svg>
