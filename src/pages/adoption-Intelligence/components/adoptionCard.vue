@@ -2,7 +2,7 @@
   <div class="relative h-[360px] w-[585px]">
     <div class="absolute left-0 top-0 h-full w-full">
       <img
-        :src="Data.Background_image"
+        :src="CardData.BackgroundImage"
         alt=""
       />
     </div>
@@ -10,12 +10,12 @@
       class="font-NotoSansJP relative left-0 top-0 h-full w-full bg-[#0E1B47] bg-opacity-40 px-[40px] text-white"
     >
       <div class="pt-[240px] text-[24px] leading-[30px] font-[500]">
-        {{ Data.title }}
+        {{ CardData.title }}
       </div>
       <div class="mt-[30px]">
         <a
+          :href="CardData.link"
           class="flex"
-          :href="Data.link"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -34,8 +34,10 @@
 import { ref } from 'vue'
 import { AdoptionCardType } from '../types/index'
 
-const props = defineProps<{ data: AdoptionCardType }>()
+const props = defineProps<{ carddata: AdoptionCardType }>()
 
-const Data = ref<AdoptionCardType>(props.data)
+const CardData = ref<AdoptionCardType>(
+  props.carddata || { BackgroundImage: '', title: '', link: '' }
+)
 </script>
 <style lang=""></style>

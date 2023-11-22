@@ -5,8 +5,12 @@
     </div>
     <hr class="my-[80px] border-[1px] border-[#0E1B47] border-solid" />
     <div class="flex justify-between">
-      <AdoptionCard :data="AdoptionCardData[0]" />
-      <AdoptionCard :data="AdoptionCardData[1]" />
+      <div
+        v-for="card in AdoptionCardData"
+        :key="card.title"
+      >
+        <AdoptionCard :carddata="card" />
+      </div>
     </div>
   </div>
 </template>
@@ -18,8 +22,8 @@ import graduates from '@/assets/images/adoption/graduates.png'
 import careers from '@/assets/images/adoption/careers.png'
 
 const AdoptionCardData = ref<AdoptionCardType[]>([
-  { Background_image: graduates, title: '新卒採用', link: '#' },
-  { Background_image: careers, title: 'キャリア採用', link: '#' }
+  { BackgroundImage: graduates, title: '新卒採用', link: '#' },
+  { BackgroundImage: careers, title: 'キャリア採用', link: '#' }
 ])
 </script>
 <style lang=""></style>

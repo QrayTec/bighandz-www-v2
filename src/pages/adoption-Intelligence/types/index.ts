@@ -1,5 +1,5 @@
 export interface AdoptionCardType {
-  Background_image: string
+  BackgroundImage: string
   title: string
   link: string
 }
