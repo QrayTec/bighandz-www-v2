@@ -13,6 +13,10 @@
         :pagenavstyletype="pagetype"
       />
     </div>
+    <div class="my-[120px] w-full flex flex-col items-center">
+      <SolutionItem />
+      <AICases class="mt-[120px]" />
+    </div>
   </div>
 </template>
 
@@ -25,6 +29,8 @@ import {
   PageNavStyleType
 } from '@/data/pages_interface'
 import DataSolution from '@/assets/images/sub_page_title/Data-Solution.png'
+import SolutionItem from './components/solution-item.vue'
+import AICases from './components/AI-Cases.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'データ · ',
@@ -36,9 +42,15 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#Technology', anchor_title: 'システム開発' },
-  { id: 2, anchor: '#Management', anchor_title: 'システム運用保守' },
-  { id: 3, anchor: '#Plans&Equipment', anchor_title: '日中ソリューション' }
+  { id: 1, anchor: '#AI-Innovation-Business', anchor_title: 'AI革新ビジネス' },
+  {
+    id: 2,
+    anchor: '#Technological-Evolution&Value-Addition',
+    anchor_title: '技術進化と付加価値'
+  },
+  { id: 3, anchor: '#AI-Quality&Efficiency', anchor_title: 'AI品質・効率化' },
+  { id: 3, anchor: '#AI-Business&Development', anchor_title: 'AIビジネス展開' },
+  { id: 3, anchor: '#AI-Cases', anchor_title: 'AI事例' }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })
 
