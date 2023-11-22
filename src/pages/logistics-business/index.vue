@@ -13,13 +13,18 @@
         :pagenavstyletype="pagetype"
       />
     </div>
-    <div>123</div>
+    <div class="w-full flex justify-center">
+      <div class="my-[120px]">
+        <LogisticsDXPlatform />
+      </div>
+    </div>
   </div>
 </template>
 
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
+import LogisticsDXPlatform from './components/LogisticsDXPlatform.vue'
 import {
   SubPageTitleType,
   PageNavType,
