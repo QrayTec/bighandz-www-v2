@@ -13,6 +13,10 @@
         :pagenavstyletype="pagetype"
       />
     </div>
+    <div class="my-[120px] w-full flex flex-col items-center">
+      <CloudEnhancementStrategy />
+      <operational class="mt-[60px]" />
+    </div>
   </div>
 </template>
 
@@ -25,6 +29,8 @@ import {
   PageNavStyleType
 } from '@/data/pages_interface'
 import DataSolution from '@/assets/images/sub_page_title/infrastructure-business.png'
+import CloudEnhancementStrategy from './components/Cloud-Enhancement-Strategy.vue'
+import operational from './components/operational-efficiency-improvement.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'インフラ · ',
@@ -36,9 +42,17 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#Technology', anchor_title: 'システム開発' },
-  { id: 2, anchor: '#Management', anchor_title: 'システム運用保守' },
-  { id: 3, anchor: '#Plans&Equipment', anchor_title: '日中ソリューション' }
+  {
+    id: 1,
+    anchor: '#Cloud-Enhancement-Strategy',
+    anchor_title: 'クラウド強化戦略'
+  },
+  {
+    id: 2,
+    anchor: '#operational-efficiency-improvement',
+    anchor_title: '運用効率向上'
+  }
+  // { id: 3, anchor: '#Plans&Equipment', anchor_title: '日中ソリューション' }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })
 
