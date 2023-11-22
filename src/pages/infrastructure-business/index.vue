@@ -24,7 +24,7 @@ import {
   PageNavType,
   PageNavStyleType
 } from '@/data/pages_interface'
-import DataSolution from '@/assets/images/sub_page_title/Data-Solution.png'
+import DataSolution from '@/assets/images/sub_page_title/infrastructure-business.png'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'インフラ · ',

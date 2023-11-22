@@ -26,6 +26,7 @@
         >
           <div class="sub_page_Content_image_bg">
             <img
+              class="h-full w-full"
               :src="SubPageTitleData.ImgSrc"
               alt=""
             />

@@ -411,7 +411,14 @@ const CompanyHistoryData = ref<CompanyHistoryType[]>([
         list_data: 'ＮＥＣソフト株式会社との取引開始',
         text_color: 'list_color_2',
         point_color: 'point_color_2'
-      },
+      }
+    ]
+  },
+  {
+    id: 17,
+    year: 1998,
+    year_style: 'year_3',
+    content: [
       {
         month: '2月',
         list_data:

@@ -51,9 +51,9 @@ const BusinessItemData = ref<BusinessItemType[]>([
     background_image: Bg1,
     title: 'Siサービス事業',
     title_icon: TitleIcon1,
-    info_content_1: '主な業務経験は製造、流通関係です。',
-    info_content_2:
-      '製造業、物流サービス、通信のソフトウェア開発を得意分野としております。',
+    info_content_1:
+      'これまで培ってきた多くの業種業界での経験値及び、最先端の技術力、オフショアリソースを活用し、お客様の企業価値拡大に寄与するシステムを提供いたします。',
+    info_content_2: '',
     link: '/si-service-business',
     style: 'w-[287px] h-[594px]'
   },
@@ -61,9 +61,9 @@ const BusinessItemData = ref<BusinessItemType[]>([
     background_image: Bg2,
     title: 'データソリューション',
     title_icon: TitleIcon2,
-    info_content_1: '主な業務経験は製造、流通関係です。',
-    info_content_2:
-      '製造業、物流サービス、通信のソフトウェア開発を得意分野としております。',
+    info_content_1:
+      'AI技術やIoTといった最新技術にて、ビジネスへの活用領域検討から、PoC、実装までワンストップで提供いたします。',
+    info_content_2: '',
     link: '/data-solution',
     style: 'w-[287px] h-[287px]'
   },
@@ -71,9 +71,9 @@ const BusinessItemData = ref<BusinessItemType[]>([
     background_image: Bg3,
     title: 'インフラ事業',
     title_icon: TitleIcon3,
-    info_content_1: '主な業務経験は製造、流通関係です。',
-    info_content_2:
-      '製造業、物流サービス、通信のソフトウェア開発を得意分野としております。',
+    info_content_1:
+      'ITインフラ基盤のスペシャリスト集団として、設計から構築、運用、稼働後の改善提案含めトータルでサービスを提供 いたします。',
+    info_content_2: '',
     link: '/infrastructure-business',
     style: 'w-[590px] h-[287px]'
   },
@@ -82,9 +82,9 @@ const BusinessItemData = ref<BusinessItemType[]>([
 
     title: 'ヘルスケア事業',
     title_icon: TitleIcon4,
-    info_content_1: '主な業務経験は製造、流通関係です。',
-    info_content_2:
-      '製造業、物流サービス、通信のソフトウェア開発を得意分野としております。',
+    info_content_1:
+      '中国の大学と連携し、最先端のIT技術教育、介護教育及びインターンを実施し、日本におけるIT業界、介護業界の人財不足解消に貢献いたします。',
+    info_content_2: '',
     link: '/healthcare-business',
     style: 'w-[590px] h-[287px]'
   },
@@ -92,9 +92,9 @@ const BusinessItemData = ref<BusinessItemType[]>([
     background_image: Bg5,
     title: '物流事業',
     title_icon: TitleIcon5,
-    info_content_1: '主な業務経験は製造、流通関係です。',
-    info_content_2:
-      '製造業、物流サービス、通信のソフトウェア開発を得意分野としております。',
+    info_content_1:
+      '多種多様な業界における物流知見をベースに、物流における様々な課題をサプライチェーン全体の視点から解決し物流DX改革を実現します。',
+    info_content_2: '',
     link: '/logistics-business',
     style: 'w-[287px] h-[287px]'
   }

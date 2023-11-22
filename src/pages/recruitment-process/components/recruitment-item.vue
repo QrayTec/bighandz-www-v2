@@ -71,23 +71,19 @@ interface RecruitmentType {
 const StepsData = ref<StepsType[]>([
   {
     id: 1,
-    subheading: 'STEP 1',
-    title_main: '第一步'
+    subheading: 'STEP ①'
   },
   {
     id: 2,
-    subheading: 'STEP 2',
-    title_main: '第二步'
+    subheading: 'STEP ②'
   },
   {
     id: 3,
-    subheading: 'STEP 3',
-    title_main: '第三步'
+    subheading: 'STEP ③'
   },
   {
     id: 4,
-    subheading: 'STEP 4',
-    title_main: '第四步'
+    subheading: 'STEP ④'
   }
 ])
 

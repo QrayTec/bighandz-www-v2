@@ -1,20 +1,13 @@
 <template>
   <div
     data-aos="zoom-in-right"
-    class="relative z-4 w-[204px] flex flex-col justify-end bg-[#fff]"
-    :class="StepsData.subheading === '' ? 'h-[84px]' : 'h-[122px]'"
+    class="relative z-4 h-[84px] w-[204px] flex flex-col justify-end bg-[#fff]"
   >
     <div class="absolute left-[30px] top-[20px] z-3">
       <div
-        v-if="StepsData.subheading !== ''"
-        class="font-NotoSansJP font-feature-settings-cilg-liga text-[24px] leading-[44px] font-[400] not-italic text-[#6785c1]"
+        class="font-NotoSansJP font-feature-settings-cilg-liga text-[24px] leading-[44px] font-[400] not-italic text-[#0E1B47]"
       >
         {{ StepsData.subheading }}
-      </div>
-      <div
-        class="font-feature-settings-cilg-liga font-Shippori text-[40px] leading-[44px] font-[700] not-italic text-[#0e1b47]"
-      >
-        {{ StepsData.title_main }}
       </div>
     </div>
     <div class="w-full flex justify-end">

@@ -124,8 +124,8 @@ const NavLine = ref<HTMLElement>()
 const NavData = ref<NavDataType[]>([
   { id: 0, src: Icon1, title_cn: '金融', title_en: 'FINANCE' },
   { id: 1, src: Icon2, title_cn: '政府', title_en: 'government' },
-  { id: 2, src: Icon3, title_cn: '医疗', title_en: 'MEDICAL TREATMENT' },
-  { id: 3, src: Icon4, title_cn: '制造业', title_en: 'MANUFACTURE' }
+  { id: 2, src: Icon3, title_cn: '医療', title_en: 'MEDICAL TREATMENT' },
+  { id: 3, src: Icon4, title_cn: '物流', title_en: 'MANUFACTURE' }
 ])
 
 const ContentData = ref<COntentDataType[]>([
@@ -155,7 +155,7 @@ const ContentData = ref<COntentDataType[]>([
     id: 2,
     src: Icon3,
     BgSrc: bg3,
-    title_cn: '医疗',
+    title_cn: '医療',
     title_1: '主な業務経験は製造、流通関係です。',
     title_2:
       '製造業、物流サービス、通信のソフトウェア開発を得意分野としております。',
@@ -166,7 +166,7 @@ const ContentData = ref<COntentDataType[]>([
     id: 3,
     src: Icon4,
     BgSrc: bg4,
-    title_cn: '制造业',
+    title_cn: '物流',
     title_1: '主な業務経験は製造、流通関係です。',
     title_2:
       '製造業、物流サービス、通信のソフトウェア開発を得意分野としております。',

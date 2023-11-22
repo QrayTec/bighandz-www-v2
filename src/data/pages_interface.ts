@@ -23,5 +23,4 @@ export interface PageNavStyleType {
 export interface StepsType {
   id: number
   subheading: string
-  title_main: string
 }

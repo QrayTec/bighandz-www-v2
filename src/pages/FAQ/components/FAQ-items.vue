@@ -57,8 +57,7 @@ interface FAQType {
 
 const StepsData = ref<StepsType>({
   id: 1,
-  subheading: '',
-  title_main: 'Part1'
+  subheading: 'Part1'
 })
 
 const FAQData = ref<FAQType[]>([

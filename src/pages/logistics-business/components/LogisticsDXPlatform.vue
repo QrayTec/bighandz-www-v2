@@ -38,65 +38,78 @@
     <div
       class="mt-[205px] h-[480px] w-[1760px] flex justify-center bg-[#6785C1]"
     >
-      <div :style="{ width: MAIN_CONTENT_WIDTH + 'px' }">
-        <div
-          class="h-[225px] w-[448px] translate-y-[-145px] border-[6px] border-[#1360A1] border-solid bg-white px-[18px] py-[12px]"
-        >
-          <div class="flex items-center">
-            <div class="h-[77.575px] w-[270px]">
-              <img
-                src="@/assets/images/logistics-business/logo.png"
-                alt=""
-              />
-            </div>
-            <div
-              class="font-NotoSansJP ml-[16px] text-[20px] font-[900] text-[#44546A]"
-            >
-              MQ
-            </div>
-          </div>
-          <div class="flex px-[12px]">
-            <div class="h-[10px] w-[248px] bg-[#145F9E]"></div>
-            <div class="ml-[4px]">
-              <img
-                src="@/assets/images/logistics-business/line_1.svg"
-                alt=""
-              />
-            </div>
-          </div>
+      <div
+        :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+        class="flex"
+      >
+        <div class="flex flex-col">
           <div
-            class="font-NotoSansJP mt-[16px] px-[12px] text-[20px] font-[900] text-[#44546A]"
+            class="h-[225px] w-[448px] translate-y-[-145px] border-[6px] border-[#1360A1] border-solid bg-white px-[18px] py-[12px]"
           >
-            TMS | WMS
-          </div>
-          <div class="mt-[32px] flex px-[12px]">
-            <div class="h-[20px] w-[148px] bg-[#145F9E]"></div>
-            <div class="ml-[6px]">
-              <img
-                src="@/assets/images/logistics-business/line_2.svg"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div class="mt-[20px] translate-y-[-145px]">
-          <ul>
-            <li
-              v-for="item in ListData2"
-              :key="item.list"
-              class="font-NotoSansJP flex text-[16px] leading-[32px] font-[400px] text-white"
-            >
-              <div class="mt-[8px] min-w-[16px]">
+            <div class="flex items-center">
+              <div class="h-[77.575px] w-[270px]">
                 <img
-                  src="@/assets/images/logistics-business/list_icon.svg"
+                  src="@/assets/images/logistics-business/logo.png"
                   alt=""
                 />
               </div>
-              <p class="ml-[10px]">
-                {{ item.list }}
-              </p>
-            </li>
-          </ul>
+              <div
+                class="font-NotoSansJP ml-[16px] text-[20px] font-[900] text-[#44546A]"
+              >
+                MQ
+              </div>
+            </div>
+            <div class="flex px-[12px]">
+              <div class="h-[10px] w-[248px] bg-[#145F9E]"></div>
+              <div class="ml-[4px]">
+                <img
+                  src="@/assets/images/logistics-business/line_1.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="font-NotoSansJP mt-[16px] px-[12px] text-[20px] font-[900] text-[#44546A]"
+            >
+              TMS | WMS
+            </div>
+            <div class="mt-[32px] flex px-[12px]">
+              <div class="h-[20px] w-[148px] bg-[#145F9E]"></div>
+              <div class="ml-[6px]">
+                <img
+                  src="@/assets/images/logistics-business/line_2.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="mt-[20px] translate-y-[-145px]">
+            <ul>
+              <li
+                v-for="item in ListData2"
+                :key="item.list"
+                class="font-NotoSansJP flex text-[16px] leading-[32px] font-[400px] text-white"
+              >
+                <div class="mt-[8px] min-w-[16px]">
+                  <img
+                    src="@/assets/images/logistics-business/list_icon.svg"
+                    alt=""
+                  />
+                </div>
+                <p class="ml-[10px]">
+                  {{ item.list }}
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-[960px] flex flex-col translate-y-[-80px] items-end">
+          <div class="w-full flex justify-center">
+            <GartnerCard :carddata="CardData1[0]" />
+          </div>
+          <div class="w-full flex justify-center">
+            <GartnerCard :carddata="CardData2[0]" />
+          </div>
         </div>
       </div>
     </div>
@@ -104,7 +117,13 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
+import Iamge1 from '@/assets/images/logistics-business/image1.png'
+import Iamge2 from '@/assets/images/logistics-business/image2.png'
+import Iamge3 from '@/assets/images/logistics-business/image3.png'
+import Iamge4 from '@/assets/images/logistics-business/image4.png'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
+import GartnerCard from './GartnerCard.vue'
+import { GartnerCardType } from '../types/index'
 
 interface ListType {
   list: string
@@ -123,6 +142,36 @@ const ListData2 = ref<ListType[]>([
   { list: 'Gartner 2019年TMS賞アジア唯一入賞企業' },
   { list: 'Gartner 2019年W賞MS賞中国大陸トップ入賞企業' },
   { list: 'Gartner 2018年TMS報告“もっとも注目される企業”' }
+])
+
+const CardData1 = ref<GartnerCardType[]>([
+  {
+    BackgroundImage: Iamge1,
+    className: 'w-[320px]',
+    title_1: '無人',
+    title_2: 'フォ—クリフト'
+  }
+])
+
+const CardData2 = ref<GartnerCardType[]>([
+  {
+    BackgroundImage: Iamge2,
+    className: 'w-[320px]',
+    title_1: '無人',
+    title_2: 'フォ—クリフト'
+  },
+  {
+    BackgroundImage: Iamge3,
+    className: 'w-[160px]',
+    title_1: '無人',
+    title_2: 'フォ—クリフト'
+  },
+  {
+    BackgroundImage: Iamge4,
+    className: 'w-[160px]',
+    title_1: '無人',
+    title_2: 'フォ—クリフト'
+  }
 ])
 </script>
 <style lang=""></style>

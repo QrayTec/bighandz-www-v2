@@ -24,11 +24,11 @@
         </div>
       </div>
     </div>
-    <div
+    <!-- <div
       class="font-NotoSansJP mt-[40px] text-[24px] leading-[30px] font-[500] text-[#0E1B47]"
     >
       「私たちを理解してください」
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
