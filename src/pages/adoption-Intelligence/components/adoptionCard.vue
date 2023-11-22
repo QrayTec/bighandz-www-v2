@@ -32,7 +32,7 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
-import { AdoptionCardType } from '../type/index'
+import { AdoptionCardType } from '../types/index'
 
 const props = defineProps<{ data: AdoptionCardType }>()
 

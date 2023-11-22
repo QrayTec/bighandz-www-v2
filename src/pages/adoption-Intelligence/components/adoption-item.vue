@@ -13,7 +13,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import AdoptionCard from './adoptionCard.vue'
-import { AdoptionCardType } from '../type/index'
+import { AdoptionCardType } from '../types/index'
 import graduates from '@/assets/images/adoption/graduates.png'
 import careers from '@/assets/images/adoption/careers.png'
 

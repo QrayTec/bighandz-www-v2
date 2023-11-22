@@ -2,18 +2,23 @@
   <div class="Route_Breadcrumbs">
     <div class="flex cursor-pointer items-center">
       <div
-        class="font-NotoSansJP h-[16px] text-[16px] leading-[16px] font-[400] text-[#fff] opacity-40"
+        class="font-NotoSansJP h-[16px] text-[16px] leading-[16px] font-[400] text-[#fff]"
+        :class="{ 'opacity-40': MainPage, 'opacity-1-0': !MainPage }"
       >
         {{ ParentTitle }}
       </div>
 
-      <div class="mx-[20px] flex items-center justify-center">
+      <div
+        v-if="MainPage"
+        class="mx-[20px] flex items-center justify-center"
+      >
         <img
           src="/src/assets/images/bread_icon.svg"
           alt=""
         />
       </div>
       <div
+        v-if="MainPage"
         class="font-NotoSansJP h-[16px] text-[16px] leading-[16px] font-[400] text-[#fff]"
       >
         {{ IndexTitle }}
@@ -28,6 +33,7 @@ import { json } from '../data/breadcrumb-data'
 
 const ParentTitle = ref<string>('1')
 const IndexTitle = ref<string>('2')
+const MainPage = ref<boolean>(true)
 
 const $route = useRoute()
 
@@ -40,6 +46,7 @@ const getPageTitle = () => {
   if (pageData && pageData.name) {
     ParentTitle.value = pageData.Parent_title
     IndexTitle.value = pageData.name
+    MainPage.value = pageData.MainPage
     return pageData.name
   }
   return 'Unknown Page'

@@ -81,7 +81,7 @@ const NavLinkArray = ref<NavLink[]>([
   { id: 1, title: 'ホーム', href: '/' },
   { id: 2, title: '企業情報', href: '' },
   { id: 3, title: '事業概要', href: '' },
-  { id: 4, title: '採用情報', href: '' },
+  { id: 4, title: '採用情報', href: '/adoption-Intelligence' },
   { id: 5, title: 'アクセス', href: '' }
 ])
 const MenuData = ref<MenuItems[]>([])
