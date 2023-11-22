@@ -7,6 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AdoptionCard: typeof import('./components/adoptionCard.vue')['default']
     Brand: typeof import('./components/healthcare-business/Brand.vue')['default']
     BusinessItem: typeof import('./pages/index/components/Business-Item.vue')['default']
     CompanyHistory: typeof import('./pages/company-profile/components/CompanyHistory.vue')['default']
@@ -23,6 +24,7 @@ declare module 'vue' {
     IndexFirst: typeof import('./components/index/IndexFirst.vue')['default']
     Innovation: typeof import('./components/corporate-philosophy-management-policy/Innovation.vue')['default']
     Mission: typeof import('./components/corporate-philosophy-management-policy/Mission.vue')['default']
+    Movie: typeof import('./components/Movie.vue')['default']
     MovieItem: typeof import('./components/company-staff-observation/MovieItem.vue')['default']
     PracticesGuidelines: typeof import('./components/corporate-philosophy-management-policy/PracticesGuidelines.vue')['default']
     README: typeof import('./components/README.md')['default']

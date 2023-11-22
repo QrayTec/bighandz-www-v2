@@ -1,25 +1,50 @@
 <template>
-  <div class="Index_First">
-    <div class="Index_First_Content">
-      <div class="Index_First_Filters">
+  <div
+    data-aos="fade-in"
+    class="relative min-h-[100vh] w-full flex justify-center"
+  >
+    <div class="relative mt-[320px] w-[1200px]">
+      <div
+        class="absolute left-[-160px] top-[-120px] h-[531px] w-[531px] fill-[#00dbff33] blur-[100px]"
+      >
         <img
+          class="h-full w-full"
           src="/src/assets/images/index_main/filters.svg"
           alt=""
         />
       </div>
-      <div class="Index_Scroll">
-        <div class="Scroll_Text">SCROLL</div>
-        <div class="Scroll_Line"></div>
+      <div
+        class="absolute left-[-264px] top-[338px] h-[152px] w-[52px] animate-[moveContainer_3s_infinite_alternate]"
+      >
+        <div
+          class="font-NotoSansJP h-[21px] w-[52px] rotate-[-90deg] text-[14px] font-[400] text-white"
+        >
+          SCROLL
+        </div>
+        <div
+          class="Scroll_Line mx-auto mt-[20px] h-[80px] w-[1px] flex-shrink-0 translate-y-[50%]"
+        ></div>
       </div>
-      <div class="Index_Image_title">
+      <div class="h-[77px] w-[1110px] translate-x-[-30px]">
         <img
+          class="h-full w-full"
           src="/src/assets/images/index_main/pic_Speed_is_the_Power.png"
           alt=""
         />
       </div>
-      <div class="Index_Text_title">常に先へ</div>
-      <div class="Index_Text_Content">
-        <p>顧客様より先に考えること | 顧客様より先に行動すること</p>
+      <div class="mt-[123.5px] w-[800px]">
+        <div
+          class="font-NotoSansJP h-[60px] w-[751px] flex items-center bg-[#597BE5] py-[3px] p-r-[12px] text-[36px] leading-none font-[700] not-italic text-white"
+        >
+          「IT×ビジネス×教育」× SPEED ＝ POWER
+        </div>
+        <div
+          class="font-NotoSansJP mt-[60px] text-[20px] font-[400] text-white"
+        >
+          <p>
+            ITからビジネスへ、ビジネスからITへ、教育からIT・ビジネスへと三位一体でスピーディに社会の発展に貢献しつづけます。
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -29,100 +54,11 @@
 export default {}
 </script>
 <style scoped>
-.Index_First {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-.Index_First_Filters {
-  position: absolute;
-  left: -160px;
-  top: -120px;
-  width: 531px;
-  height: 531px;
-  fill: rgba(0, 219, 255, 0.2);
-  filter: blur(100px);
-}
-.Index_First_Content {
-  width: 1200px;
-  margin-top: 320px;
-  position: relative;
-}
-.Index_Image_title {
-  width: 1110px;
-  height: 77px;
-  transform: translateX(-30px);
-}
-.Index_Image_title img {
-  width: 100%;
-  height: 100%;
-}
-.Index_Text_title {
-  width: 192px;
-  height: 70px;
-  margin-top: 120px;
-  color: #fff;
-  font-family: Noto Sans JP;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 69.504px; /* 144.8% */
-}
-.Index_Text_Content {
-  display: flex;
-  width: 627px;
-  height: 35px;
-  padding: 6px 20px;
-  margin-top: 50px;
-  justify-content: center;
-  align-items: center;
-  background: #597be5;
-}
-.Index_Text_Content p {
-  color: #fff;
-  font-family: Noto Sans JP;
-  font-size: 22.6px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.Index_Scroll {
-  position: absolute;
-  left: -264px;
-  top: 338px;
-  width: 52px;
-  height: 152px;
-  animation: moveContainer 3s infinite alternate;
-}
-
-@keyframes moveContainer {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-30%); /* 根据需要调整移动距离 */
-  }
-}
-
-.Scroll_Text {
-  color: #fff;
-  width: 52px;
-  height: 21px;
-  transform: rotate(-90deg) translateX(-50%);
-}
-
 .Scroll_Line {
-  width: 1px;
-  height: 80px;
-  flex-shrink: 0;
   background: linear-gradient(
     297deg,
     rgba(255, 255, 255, 0) -33.34%,
     #fff 133.34%
   );
-  margin: 20px auto 0;
-  transform: translateY(50%);
 }
 </style>

@@ -68,6 +68,12 @@ export const json: {
     name: '物流事業',
     checked: 2
   },
+  '/adoption-intelligence': {
+    path: '/adoption-intelligence',
+    Parent_title: '採用情報',
+    name: '採用 · 情報',
+    checked: 3
+  },
   '/company-staff-observation': {
     path: '/company-staff-observation',
     Parent_title: '採用情報',

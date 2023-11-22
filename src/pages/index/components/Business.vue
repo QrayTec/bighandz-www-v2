@@ -2,6 +2,7 @@
   <div class="bg-Business h-[1030px] w-full flex justify-center">
     <div class="w-[1200px]">
       <div
+        data-aos="fade-in"
         class="font-NotoSansJP mt-[120px] h-[54px] w-[144px] text-[36px] leading-[54px] font-[500] not-italic text-white"
       >
         主な業務

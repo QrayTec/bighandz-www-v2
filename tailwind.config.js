@@ -11,6 +11,15 @@ export default {
         primarygradient:
           'linear-gradient(90deg, #597EE5 0%, #597EE5 26.04%, #00FFB2 100%)',
         Business: 'linear-gradient(0deg, #111f4e 0%, #2e4a9e 100%)'
+      },
+      animation: {
+        moveContainer: 'moveContainer 3s infinite alternate'
+      },
+      keyframes: {
+        moveContainer: {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: ' translateY(-30%)' }
+        }
       }
     }
   },
