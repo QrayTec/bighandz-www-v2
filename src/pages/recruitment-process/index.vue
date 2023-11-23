@@ -35,7 +35,7 @@ import {
 import RecruitmentProcess from '@/assets/images/sub_page_title/recruitment-process.png'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: '採用の · ',
+  TitleCn_1: '採用の',
   TitleCn_2: '流れ',
   TitleEn: 'Recruitment process',
   ImgSrc: RecruitmentProcess,

@@ -22,8 +22,8 @@ import Values from './components/Values.vue'
 import Vision from './components/Vision.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: '企業理念 ',
-  TitleCn_2: '· 経営方針',
+  TitleCn_1: '企業理念',
+  TitleCn_2: '経営方針',
   TitleEn: 'Corporate Philosophy Management Policy',
   ImgSrc: CorporatePhilosophy,
   bold: 1,

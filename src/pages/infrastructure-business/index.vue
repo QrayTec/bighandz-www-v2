@@ -33,7 +33,7 @@ import CloudEnhancementStrategy from './components/Cloud-Enhancement-Strategy.vu
 import operational from './components/operational-efficiency-improvement.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: 'インフラ · ',
+  TitleCn_1: 'インフラ',
   TitleCn_2: '事業',
   TitleEn: 'infrastructure business',
   ImgSrc: DataSolution,

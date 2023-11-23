@@ -100,8 +100,8 @@ const menus = [
       href: '/message-from-president',
       align: 'center'
     },
-    { id: 3, title: '会社概要', href: '/company-profile', align: 'right' },
-    { id: 4, title: 'イベント情報', href: '/event-information', align: 'left' }
+    { id: 3, title: '会社概要', href: '/company-profile', align: 'right' }
+    // { id: 4, title: 'イベント情報', href: '/event-information', align: 'left' }
   ],
   [
     {
@@ -148,7 +148,12 @@ const menus = [
       href: '/graduate-recruitment',
       align: 'center'
     },
-    { id: 3, title: 'キャリア採用', href: '/', align: 'right' },
+    {
+      id: 3,
+      title: 'キャリア採用',
+      href: '/social-recruitment',
+      align: 'right'
+    },
     { id: 4, title: '採用の流れ', href: '/recruitment-process', align: 'left' },
     { id: 5, title: 'FAQよくあるご質問', href: '/FAQ', align: 'center' },
     { id: 6, title: 'キャリア採社員インタビュー用', href: '/', align: 'right' }

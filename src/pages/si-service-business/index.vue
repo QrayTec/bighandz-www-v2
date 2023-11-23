@@ -37,7 +37,7 @@ import IndustryExperience from './components/Industry-Experience.vue'
 import ExamplesAchievements from './components/Examples-Achievements.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: 'Siサービス · ',
+  TitleCn_1: 'Siサービス',
   TitleCn_2: '事業',
   TitleEn: 'Si service business',
   ImgSrc: SiServiceBusiness,

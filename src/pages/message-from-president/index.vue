@@ -70,7 +70,7 @@ import MessagePresident from '@/assets/images/sub_page_title/MESSAGE_FROM_THE_PR
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '社長',
-  TitleCn_2: ' · 挨拶',
+  TitleCn_2: '挨拶',
   TitleEn: 'MESSAGE FROM THE PRESIDENT',
   ImgSrc: MessagePresident,
   bold: 1,

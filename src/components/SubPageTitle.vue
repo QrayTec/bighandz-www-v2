@@ -10,12 +10,16 @@
       <div class="sub_page_Content">
         <div class="sub_page_Content_title">
           <div class="title_cn">
-            <span :class="{ title_bold: SubPageTitleData.bold == 1 }">{{
-              SubPageTitleData.TitleCn_1
-            }}</span>
-            <span :class="{ title_bold: SubPageTitleData.bold == 2 }">{{
-              SubPageTitleData.TitleCn_2
-            }}</span>
+            <span
+              :class="{ title_bold: SubPageTitleData.bold == 1 }"
+              class="font-bold"
+              >{{ SubPageTitleData.TitleCn_1 }}</span
+            >
+            <span
+              :class="{ title_bold: SubPageTitleData.bold == 2 }"
+              class="font-bold"
+              >{{ SubPageTitleData.TitleCn_2 }}</span
+            >
           </div>
           <div class="title_en">{{ SubPageTitleData.TitleEn }}</div>
           <div class="title_line"></div>

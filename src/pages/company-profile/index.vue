@@ -18,7 +18,7 @@ import CompanyHistory from './components/CompanyHistory.vue'
 import CompanyProfileContent from './components/CompanyProfileContent.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: '会社 · ',
+  TitleCn_1: '会社',
   TitleCn_2: '概要',
   TitleEn: 'Company Profile',
   ImgSrc: CompanyProfile,

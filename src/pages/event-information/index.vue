@@ -18,8 +18,8 @@ import EventInformation from '@/assets/images/sub_page_title/event_information.p
 import EventInformationItem from './components/EventInformationItem.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: 'イベント ',
-  TitleCn_2: '· 情報',
+  TitleCn_1: 'イベント',
+  TitleCn_2: '情報',
   TitleEn: 'event information',
   ImgSrc: EventInformation,
   bold: 1,

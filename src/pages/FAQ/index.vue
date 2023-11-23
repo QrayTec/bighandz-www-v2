@@ -33,7 +33,7 @@ import FAQ from '@/assets/images/sub_page_title/FAQ.png'
 import FAQItems from './components/FAQ-items.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: 'FAQ · ',
+  TitleCn_1: 'FAQ',
   TitleCn_2: 'よくあるご質問',
   TitleEn: 'FAQ Frequently Asked Questions',
   ImgSrc: FAQ,

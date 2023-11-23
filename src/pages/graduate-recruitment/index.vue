@@ -34,7 +34,7 @@ import {
 } from '@/data/pages_interface'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: '新卒 · ',
+  TitleCn_1: '新卒',
   TitleCn_2: '採用',
   TitleEn: 'Graduate Recruitment',
   ImgSrc: GraduateRecruitment,

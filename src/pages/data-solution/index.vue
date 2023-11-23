@@ -33,7 +33,7 @@ import SolutionItem from './components/solution-item.vue'
 import AICases from './components/AI-Cases.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: 'データ · ',
+  TitleCn_1: 'データ',
   TitleCn_2: 'ソリューション',
   TitleEn: 'data solution',
   ImgSrc: DataSolution,

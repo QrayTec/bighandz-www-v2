@@ -18,7 +18,7 @@ import CompanyStaffObservation from '@/assets/images/sub_page_title/Company_staf
 import AdoptionItem from './components/adoption-item.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: '採用 · 情報',
+  TitleCn_1: '採用情報',
   TitleCn_2: '',
   TitleEn: 'Company staff observation',
   ImgSrc: CompanyStaffObservation,

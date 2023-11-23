@@ -14,11 +14,8 @@
       />
     </div>
     <div class="my-[120px] w-full flex flex-col items-center">
-      <LogisticsChallenges />
-      <LogisticsDXPromotion class="mt-[120px]" />
-      <LogisticsDXPlatform class="mt-[120px]" />
-      <LogisticsManagement class="mt-[120px]" />
-      <AiDelivery class="mt-[120px]" />
+      <ToNewGraduates />
+      <OpenPositions class="mt-[120px]" />
     </div>
   </div>
 </template>
@@ -26,12 +23,8 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
-import LogisticsChallenges from './components/Logistics-Industry-Challenges.vue'
-import LogisticsDXPromotion from './components/Logistics-DX-Promotion.vue'
-import LogisticsDXPlatform from './components/LogisticsDXPlatform.vue'
-import LogisticsBusiness from '@/assets/images/sub_page_title/Logistics-Business.png'
-import LogisticsManagement from './components/Logistics-Management.vue'
-import AiDelivery from './components/AI-Delivery.vue'
+import CareerRecruitment from '@/assets/images/sub_page_title/Career-Recruitment.jpg'
+
 import {
   SubPageTitleType,
   PageNavType,
@@ -39,39 +32,49 @@ import {
 } from '@/data/pages_interface'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: '物流',
-  TitleCn_2: '事業',
-  TitleEn: 'Logistics business',
-  ImgSrc: LogisticsBusiness,
+  TitleCn_1: 'キャリア採用',
+  TitleCn_2: '',
+  TitleEn: 'Career Recruitment',
+  ImgSrc: CareerRecruitment,
   bold: 1,
-  type: 1
+  type: 2
 })
 
 const PageNavData = ref<PageNavType[]>([
   {
     id: 1,
-    anchor: '#LogisticsChallenges',
-    anchor_title: '物流業界が直面する課題'
+    anchor: '#ToNewGraduates',
+    anchor_title: '新卒の皆さんへ'
   },
   {
     id: 2,
-    anchor: '#LogisticsDXPromotion',
-    anchor_title: '物流DX推進'
+    anchor: '#OpenPositions',
+    anchor_title: '募集職種'
   },
   {
     id: 3,
-    anchor: '#LogisticsDXPlatform',
-    anchor_title: '物流DXプラットフォーム'
+    anchor: '#Subject-application',
+    anchor_title: '募集学部・学科'
   },
   {
     id: 4,
-    anchor: '#LogisticsManagement',
+    anchor: '#Accepted-Faculties',
     anchor_title: '物流全般管理'
   },
   {
     id: 5,
-    anchor: '#AiDeliver12&Equipment',
-    anchor_title: 'AIによる配送最適化'
+    anchor: '#Salary&Benefits',
+    anchor_title: '給与と福利厚生'
+  },
+  {
+    id: 6,
+    anchor: '#Work-related',
+    anchor_title: '仕事関連'
+  },
+  {
+    id: 7,
+    anchor: '#PersonnelSystem',
+    anchor_title: '人事制度'
   }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })

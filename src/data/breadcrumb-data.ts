@@ -100,6 +100,13 @@ export const json: {
     checked: 3,
     MainPage: true
   },
+  '/social-recruitment': {
+    path: '/social-recruitment',
+    Parent_title: '採用情報',
+    name: 'キャリア採用',
+    checked: 3,
+    MainPage: true
+  },
   '/recruitment-process': {
     path: '/recruitment-process',
     Parent_title: '採用情報',

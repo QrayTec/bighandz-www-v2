@@ -36,7 +36,7 @@ import HealthcareBusinessItem from './components/HealthcareBusinessItem.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'ヘルスケア',
-  TitleCn_2: ' · 事業',
+  TitleCn_2: '事業',
   TitleEn: 'Healthcare business',
   ImgSrc: HealthcareBusiness,
   bold: 1,
