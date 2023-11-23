@@ -49,7 +49,7 @@ import TitleIcon5 from '@/assets/images/index_Business/title_icon_5.svg'
 const BusinessItemData = ref<BusinessItemType[]>([
   {
     background_image: Bg1,
-    title: 'Siサービス事業',
+    title: 'SIサービス事業',
     title_icon: TitleIcon1,
     info_content_1:
       'これまで培ってきた多くの業種業界での経験値及び、最先端の技術力、オフショアリソースを活用し、お客様の企業価値拡大に寄与するシステムを提供いたします。',

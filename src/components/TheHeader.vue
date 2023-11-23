@@ -106,7 +106,7 @@ const menus = [
   [
     {
       id: 1,
-      title: 'Siサービス事業',
+      title: 'SIサービス事業',
       href: '/si-service-business',
       align: 'left'
     },
