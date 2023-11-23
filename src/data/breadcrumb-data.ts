@@ -93,6 +93,13 @@ export const json: {
     checked: 3,
     MainPage: true
   },
+  '/graduate-recruitment': {
+    path: '/graduate-recruitment',
+    Parent_title: '採用情報',
+    name: '新卒採用',
+    checked: 3,
+    MainPage: true
+  },
   '/recruitment-process': {
     path: '/recruitment-process',
     Parent_title: '採用情報',

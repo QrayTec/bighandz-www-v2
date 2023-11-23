@@ -38,7 +38,7 @@ defineOptions({
 .index-bg {
   width: 100%;
   height: 100vh;
-  background-image: url('/src/assets/images/pic_banner.png');
+  background-image: url('/src/assets/images/bg_1.png');
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
