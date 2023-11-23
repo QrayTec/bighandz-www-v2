@@ -18,6 +18,7 @@
       <IndustryDev class="mt-[120px]" />
       <IndustryExperience class="mt-[120px]" />
       <ExamplesAchievements class="mt-[120px]" />
+      <AutomatedTestingTools class="my-[120px]" />
       <Publications
         :publications="SolutionData"
         class="mt-[120px]"
@@ -40,6 +41,7 @@ import SiServiceBusiness from '@/assets/images/sub_page_title/Si_Service_Busines
 import IndustryDev from './components/Industry-Dev.vue'
 import IndustryExperience from './components/Industry-Experience.vue'
 import ExamplesAchievements from './components/Examples-Achievements.vue'
+import AutomatedTestingTools from './components/Automated-Testing-Tools.vue'
 import PublicationsImage from '@/assets/images/Publications/Publications_1.png'
 
 const SolutionData = ref<SolutionType>({
