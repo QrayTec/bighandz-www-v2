@@ -54,7 +54,7 @@ export const json: {
   '/si-service-business': {
     path: '/si-service-business',
     Parent_title: '事業概要',
-    name: 'Siサービス事業',
+    name: 'SIサービス事業',
     checked: 2,
     MainPage: true
   },

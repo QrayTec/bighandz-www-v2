@@ -70,7 +70,7 @@ const PageNavData = ref<PageNavType[]>([
   },
   {
     id: 5,
-    anchor: '#AiDeliver12&Equipment',
+    anchor: '#AiDelivery',
     anchor_title: 'AIによる配送最適化'
   }
 ])

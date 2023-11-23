@@ -6,10 +6,10 @@
       class="h-full flex items-center justify-between py-[41px]"
       :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     >
-      <div class="h-[68px] w-[68px]">
+      <div class="h-[68px] w-[68px] flex items-center justify-center">
         <router-link to="/">
           <img
-            src="/src/assets/images/logo.svg"
+            src="/src/assets/images/logo.png"
             alt="logo"
         /></router-link>
       </div>

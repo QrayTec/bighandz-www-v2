@@ -15,6 +15,9 @@
     </div>
     <div class="my-[120px] w-full flex flex-col items-center">
       <SolutionItem />
+      <AICases class="mt-[120px]" />
+      <LLMApplications class="mt-[120px]" />
+      <AIAssemblerConversion class="mt-[120px]" />
       <Publications
         :publications="SolutionData"
         class="mt-[120px]"
@@ -34,7 +37,9 @@ import {
 } from '@/data/pages_interface'
 import DataSolution from '@/assets/images/sub_page_title/Data-Solution.png'
 import SolutionItem from './components/solution-item.vue'
-
+import AICases from './components/AI-Cases.vue'
+import LLMApplications from './components/LLM-Applications.vue'
+import AIAssemblerConversion from './components/AI-Assembler-Conversion.vue'
 import PublicationsImage from '@/assets/images/Publications/Publications_2.png'
 
 const SolutionData = ref<SolutionType>({
@@ -67,8 +72,10 @@ const PageNavData = ref<PageNavType[]>([
     anchor_title: '技術進化と付加価値'
   },
   { id: 3, anchor: '#AI-Quality&Efficiency', anchor_title: 'AI品質・効率化' },
-  { id: 3, anchor: '#AI-Business&Development', anchor_title: 'AIビジネス展開' },
-  { id: 3, anchor: '#Publications', anchor_title: '出版物' }
+  { id: 4, anchor: '#AI-Business&Development', anchor_title: 'AIビジネス展開' },
+  { id: 5, anchor: '#AI-Cases', anchor_title: 'AI事例' },
+
+  { id: 8, anchor: '#Publications', anchor_title: '出版物' }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })
 
