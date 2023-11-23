@@ -3,7 +3,7 @@
     <div class="index-bg">
       <div class="h-screen w-screen">
         <video
-          src="@/assets/video/index_video.mp4"
+          :src="videoFile"
           class="h-screen w-screen object-cover"
           autoplay
           loop
@@ -32,6 +32,7 @@ meta:
 // import Field from './components/Field.vue'
 import First from './components/First.vue'
 import Business from './components/Business.vue'
+import videoFile from '@/assets/video/index_video.mp4'
 
 defineOptions({
   name: 'IndexPage'
