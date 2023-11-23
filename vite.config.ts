@@ -17,6 +17,16 @@ import WebfontDownload from 'vite-plugin-webfont-dl'
 import tailwindcss from 'tailwindcss'
 
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'video-chunk': ['src/assets/video/Index_video.mp4']
+        }
+      }
+    }
+  },
+
   css: {
     postcss: {
       plugins: [tailwindcss]
