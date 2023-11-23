@@ -13,10 +13,12 @@
         :pagenavstyletype="pagetype"
       />
     </div>
-    <div class="w-full flex justify-center">
-      <div class="my-[120px]">
-        <LogisticsDXPlatform />
-      </div>
+    <div class="my-[120px] w-full flex flex-col items-center">
+      <LogisticsChallenges />
+      <LogisticsDXPromotion class="mt-[120px]" />
+      <LogisticsDXPlatform class="mt-[120px]" />
+      <LogisticsManagement class="mt-[120px]" />
+      <AiDelivery class="mt-[120px]" />
     </div>
   </div>
 </template>
@@ -24,13 +26,17 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
+import LogisticsChallenges from './components/Logistics-Industry-Challenges.vue'
+import LogisticsDXPromotion from './components/Logistics-DX-Promotion.vue'
 import LogisticsDXPlatform from './components/LogisticsDXPlatform.vue'
+import LogisticsBusiness from '@/assets/images/sub_page_title/Logistics-Business.png'
+import LogisticsManagement from './components/Logistics-Management.vue'
+import AiDelivery from './components/AI-Delivery.vue'
 import {
   SubPageTitleType,
   PageNavType,
   PageNavStyleType
 } from '@/data/pages_interface'
-import LogisticsBusiness from '@/assets/images/sub_page_title/Logistics-Business.png'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '物流 · ',
@@ -42,13 +48,31 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#Technology', anchor_title: '物流DXプラットフォーム' },
+  {
+    id: 1,
+    anchor: '#LogisticsChallenges',
+    anchor_title: '物流業界が直面する課題'
+  },
   {
     id: 2,
-    anchor: '#Management',
-    anchor_title: '物流マネージメントフルラインナップ'
+    anchor: '#LogisticsDXPromotion',
+    anchor_title: '物流DX推進'
   },
-  { id: 3, anchor: '#Plans&Equipment', anchor_title: 'AIによる配送最適化' }
+  {
+    id: 3,
+    anchor: '#LogisticsDXPlatform',
+    anchor_title: '物流DXプラットフォーム'
+  },
+  {
+    id: 4,
+    anchor: '#LogisticsManagement',
+    anchor_title: '物流全般管理'
+  },
+  {
+    id: 5,
+    anchor: '#AiDeliver12&Equipment',
+    anchor_title: 'AIによる配送最適化'
+  }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })
 

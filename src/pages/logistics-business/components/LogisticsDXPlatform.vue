@@ -1,25 +1,35 @@
 <template>
-  <div class="w-full flex flex-col items-center justify-center">
+  <div
+    id="LogisticsDXPlatform"
+    data-aos="fade-in"
+    class="w-full"
+    :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+  >
     <div
-      id="Technology"
-      :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+      class="h-[78px] max-w-[480px] flex items-center justify-center bg-[#6785C1] text-[36px] font-[500] text-white"
     >
-      <div class="max-w-[493px] bg-[#6785C1] px-[44px] py-[17px]">
-        <p
-          class="font-NotoSansJP text-[36px] leading-[54px] font-[500] text-white"
-        >
-          物流DXプラットフォーム
-        </p>
-      </div>
-      <div class="mt-[60px]">
-        <p class="font-NotoSansJP text-[20px] font-[700] text-[#071027]">
-          最先端のテクノロジーで物流改革
-        </p>
-        <ul class="w-[680px]">
+      物流DXプラットフォーム
+    </div>
+    <div
+      class="font-NotoSansJP mt-[30px] text-[20px] font-[700] text-[#071027]"
+    >
+      最先端のテクノロジーで物流改革
+    </div>
+    <div
+      v-for="(item, index) in ChallengesData"
+      :key="index"
+      class="mt-[60px] min-h-[360px] w-full flex justify-between"
+    >
+      <div
+        :class="index % 2 != 0 ? 'order-1' : ''"
+        class="w-[calc(50%-15px)] flex flex-col justify-center"
+      >
+        <ul class="w-full">
           <li
-            v-for="item in ListData"
-            :key="item.list"
-            class="mt-[30px] flex"
+            v-for="(items, i) in item.content"
+            :key="i"
+            :class="i == 0 ? '' : 'mt-[30px]'"
+            class="w-full flex px-[30px]"
           >
             <div class="mt-[5px] h-full min-w-[16px]">
               <img
@@ -28,14 +38,21 @@
                 alt=""
               />
             </div>
-            <p class="ml-[10px]">
-              {{ item.list }}
-            </p>
+            <p class="ml-[10px]">{{ items.list }}</p>
           </li>
         </ul>
       </div>
+      <div class="w-[calc(50%-15px)]">
+        <div class="h-full w-full">
+          <img
+            class="h-full w-full"
+            :src="item.Image"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
-    <div
+    <!-- <div
       class="mt-[205px] h-[480px] w-[1760px] flex justify-center bg-[#6785C1]"
     >
       <div
@@ -112,66 +129,70 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
-import Iamge1 from '@/assets/images/logistics-business/image1.png'
-import Iamge2 from '@/assets/images/logistics-business/image2.png'
-import Iamge3 from '@/assets/images/logistics-business/image3.png'
-import Iamge4 from '@/assets/images/logistics-business/image4.png'
+// import Iamge1 from '@/assets/images/logistics-business/image1.png'
+// import Iamge2 from '@/assets/images/logistics-business/image2.png'
+// import Iamge3 from '@/assets/images/logistics-business/image3.png'
+// import Iamge4 from '@/assets/images/logistics-business/image4.png'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
-import GartnerCard from './GartnerCard.vue'
-import { GartnerCardType } from '../types/index'
+// import GartnerCard from './GartnerCard.vue'
+// import { GartnerCardType } from '../types/index'
+import { ChallengesType } from '../types/index'
 
-interface ListType {
-  list: string
-}
+import Change3 from '@/assets/images/logistics-business/change_3.jpg'
 
-const ListData = ref<ListType[]>([
+const ChallengesData = ref<ChallengesType[]>([
   {
-    list: '20年以上における開発・導入、中国特有のマネジメントと海外企業の先進的マネジメントを組み合わせ、ハイテク製品を融合することで最大限のパフォーマンスを発揮。常に最新のテクノロジーを追求'
-  },
-  {
-    list: '3000社以上へ導入し、庫内オペレーション最適化はもとよりサプライチェーン全体での最適化も可能とし、物流品質アップ、物流コストダウン、企業価値・ブランド力アップを実現'
+    Image: Change3,
+    content: [
+      {
+        list: '20年以上における開発・導入、中国特有のマネジメントと海外企業の先進的マネジメントを組み合わせ、ハイテク製品を融合することで最大限のパフォーマンスを発揮。常に最新のテクノロジーを追求'
+      },
+      {
+        list: '3000社以上へ導入し、庫内オペレーション最適化はもとよりサプライチェーン全体での最適化も可能とし、物流品質アップ、物流コストダウン、企業価値・ブランド力アップを実現'
+      }
+    ]
   }
 ])
-const ListData2 = ref<ListType[]>([
-  { list: 'Gartner 2019年W賞MS賞中国大陸トップ入賞企業' },
-  { list: 'Gartner 2019年TMS賞アジア唯一入賞企業' },
-  { list: 'Gartner 2019年W賞MS賞中国大陸トップ入賞企業' },
-  { list: 'Gartner 2018年TMS報告“もっとも注目される企業”' }
-])
+// const ListData2 = ref<ListType[]>([
+//   { list: 'Gartner 2019年W賞MS賞中国大陸トップ入賞企業' },
+//   { list: 'Gartner 2019年TMS賞アジア唯一入賞企業' },
+//   { list: 'Gartner 2019年W賞MS賞中国大陸トップ入賞企業' },
+//   { list: 'Gartner 2018年TMS報告“もっとも注目される企業”' }
+// ])
 
-const CardData1 = ref<GartnerCardType[]>([
-  {
-    BackgroundImage: Iamge1,
-    className: 'w-[320px]',
-    title_1: '無人',
-    title_2: 'フォ—クリフト'
-  }
-])
+// const CardData1 = ref<GartnerCardType[]>([
+//   {
+//     BackgroundImage: Iamge1,
+//     className: 'w-[320px]',
+//     title_1: '無人',
+//     title_2: 'フォ—クリフト'
+//   }
+// ])
 
-const CardData2 = ref<GartnerCardType[]>([
-  {
-    BackgroundImage: Iamge2,
-    className: 'w-[320px]',
-    title_1: '無人',
-    title_2: 'フォ—クリフト'
-  },
-  {
-    BackgroundImage: Iamge3,
-    className: 'w-[160px]',
-    title_1: '無人',
-    title_2: 'フォ—クリフト'
-  },
-  {
-    BackgroundImage: Iamge4,
-    className: 'w-[160px]',
-    title_1: '無人',
-    title_2: 'フォ—クリフト'
-  }
-])
+// const CardData2 = ref<GartnerCardType[]>([
+//   {
+//     BackgroundImage: Iamge2,
+//     className: 'w-[320px]',
+//     title_1: '無人',
+//     title_2: 'フォ—クリフト'
+//   },
+//   {
+//     BackgroundImage: Iamge3,
+//     className: 'w-[160px]',
+//     title_1: '無人',
+//     title_2: 'フォ—クリフト'
+//   },
+//   {
+//     BackgroundImage: Iamge4,
+//     className: 'w-[160px]',
+//     title_1: '無人',
+//     title_2: 'フォ—クリフト'
+//   }
+// ])
 </script>
 <style lang=""></style>
