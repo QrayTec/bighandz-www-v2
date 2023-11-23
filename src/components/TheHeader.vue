@@ -136,26 +136,31 @@ const menus = [
     }
   ],
   [
-    {
-      id: 1,
-      title: 'MOVIE',
-      href: '/company-staff-observation',
-      align: 'left'
-    },
+    // {
+    //   id: 1,
+    //   title: 'MOVIE',
+    //   href: '/company-staff-observation',
+    //   align: 'left'
+    // },
     {
       id: 2,
       title: '新卒採用',
       href: '/graduate-recruitment',
-      align: 'center'
+      align: 'left'
     },
     {
       id: 3,
       title: 'キャリア採用',
       href: '/social-recruitment',
+      align: 'center'
+    },
+    {
+      id: 4,
+      title: '採用の流れ',
+      href: '/recruitment-process',
       align: 'right'
     },
-    { id: 4, title: '採用の流れ', href: '/recruitment-process', align: 'left' },
-    { id: 5, title: 'FAQよくあるご質問', href: '/FAQ', align: 'center' }
+    { id: 5, title: 'FAQよくあるご質問', href: '/FAQ', align: 'left' }
     // {
     //   id: 6,
     //   title: 'キャリア採社員インタビュー用',
