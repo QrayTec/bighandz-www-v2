@@ -3,7 +3,7 @@
     data-aos="fade-in"
     class="relative min-h-[100vh] w-full flex justify-center"
   >
-    <div class="relative mt-[320px] w-[1200px]">
+    <div class="relative mt-[580px] w-[1200px]">
       <div
         class="absolute left-[-160px] top-[-120px] h-[531px] w-[531px] fill-[#00dbff33] blur-[100px]"
       >
