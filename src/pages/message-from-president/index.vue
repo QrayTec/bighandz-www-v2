@@ -38,12 +38,12 @@
           <div class="message_content_text_main m_top_30">敬具</div>
         </div>
         <div class="message_content_images">
-          <div class="pic_president">
+          <!-- <div class="pic_president">
             <img
               src="/src/assets/images/MessageFromPresident/pic_president.png"
               alt="pic_president"
             />
-          </div>
+          </div> -->
           <div class="m_top_30 pic_Representative">
             <img
               src="/src/assets/images/MessageFromPresident/pic_Representative.png"
@@ -112,7 +112,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   margin-bottom: 180px;
 }
 .message_content_text {
-  width: 680px;
+  width: 100%;
   color: #0e1b47;
 }
 .message_content_title {

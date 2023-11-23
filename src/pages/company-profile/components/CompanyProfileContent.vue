@@ -38,7 +38,7 @@
       ※計算式…「派遣料金の平均額－派遣労働者の賃金の平均額」÷派遣料金の平均額
     </div>
 
-    <div class="m_t_30 main_banks">
+    <!-- <div class="m_t_30 main_banks">
       <div class="main_banks_title">主要取引銀行</div>
       <div
         v-for="item in BanksData"
@@ -54,7 +54,7 @@
         </div>
         <hr />
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -71,12 +71,12 @@ interface CompanyProfileType {
   content: ContentType[]
 }
 
-interface BanksType {
-  id: number
-  bank_name: string
-  bank_store_name: string
-  capital_number: string
-}
+// interface BanksType {
+//   id: number
+//   bank_name: string
+//   bank_store_name: string
+//   capital_number: string
+// }
 
 const CompanyProfile = ref<CompanyProfileType[]>([
   {
@@ -207,20 +207,20 @@ const CompanyProfile = ref<CompanyProfileType[]>([
   }
 ])
 
-const BanksData = ref<BanksType[]>([
-  {
-    id: 1,
-    bank_name: '三菱東京UFJ銀行',
-    bank_store_name: '日本橋支店',
-    capital_number: '普通預金No.1894324'
-  },
-  {
-    id: 2,
-    bank_name: '三井住友銀行',
-    bank_store_name: '日本橋東支店',
-    capital_number: '普通預金No.7317692'
-  }
-])
+// const BanksData = ref<BanksType[]>([
+//   {
+//     id: 1,
+//     bank_name: '三菱東京UFJ銀行',
+//     bank_store_name: '日本橋支店',
+//     capital_number: '普通預金No.1894324'
+//   },
+//   {
+//     id: 2,
+//     bank_name: '三井住友銀行',
+//     bank_store_name: '日本橋東支店',
+//     capital_number: '普通預金No.7317692'
+//   }
+// ])
 </script>
 
 <style scoped>

@@ -14,8 +14,7 @@
       />
     </div>
     <div class="my-[120px] w-full flex flex-col items-center">
-      <ToNewGraduates />
-      <OpenPositions class="mt-[120px]" />
+      <InexperiencedPerson />
     </div>
   </div>
 </template>
@@ -24,7 +23,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
 import CareerRecruitment from '@/assets/images/sub_page_title/Career-Recruitment.jpg'
-
+import InexperiencedPerson from './components/InexperiencedPerson.vue'
 import {
   SubPageTitleType,
   PageNavType,
@@ -43,8 +42,8 @@ const SubPageTitleData = ref<SubPageTitleType>({
 const PageNavData = ref<PageNavType[]>([
   {
     id: 1,
-    anchor: '#ToNewGraduates',
-    anchor_title: '新卒の皆さんへ'
+    anchor: '#InexperiencedPerson',
+    anchor_title: '未経験者'
   },
   {
     id: 2,
