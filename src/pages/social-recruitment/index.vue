@@ -15,6 +15,7 @@
     </div>
     <div class="my-[120px] w-full flex flex-col items-center">
       <InexperiencedPerson />
+      <ExperiencedPerson class="mt-[120px]" />
     </div>
   </div>
 </template>
@@ -24,6 +25,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
 import CareerRecruitment from '@/assets/images/sub_page_title/Career-Recruitment.jpg'
 import InexperiencedPerson from './components/InexperiencedPerson.vue'
+import ExperiencedPerson from './components/ExperiencedPerson.vue'
 import {
   SubPageTitleType,
   PageNavType,
