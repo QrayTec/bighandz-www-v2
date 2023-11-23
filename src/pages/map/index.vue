@@ -1,0 +1,75 @@
+<template>
+  <div class="w-full">
+    <div class="message_from_president_main">
+      <sub-page-title :data="SubPageTitleData" />
+    </div>
+    <div
+      ref="navSticky"
+      class="page_nav_sticky"
+      :class="{ shrink: isSticky }"
+    >
+      <the-page-nav
+        :pagenavdata="PageNavData"
+        :pagenavstyletype="pagetype"
+      />
+    </div>
+    <div class="my-[120px] w-full flex flex-col items-center justify-center">
+      <ContactInformation />
+      <TrainTravel class="mt-[120px]" />
+      <BusTravel class="mt-[120px]" />
+      <ShuttleBus class="mt-[120px]" />
+    </div>
+  </div>
+</template>
+
+<script lang="ts" setup>
+import { ref, onMounted, onUnmounted } from 'vue'
+import methods from '@/data/methods'
+import {
+  SubPageTitleType,
+  PageNavType,
+  PageNavStyleType
+} from '@/data/pages_interface'
+import ContactInformation from './components/Contact-Information.vue'
+import TrainTravel from './components/Train-Travel.vue'
+import BusTravel from './components/Bus-Travel.vue'
+import ShuttleBus from './components/Shuttle-Bus.vue'
+import MapPageHeaderImage from '@/assets/images/sub_page_title/Map.png'
+
+const SubPageTitleData = ref<SubPageTitleType>({
+  TitleCn_1: 'アクセスマップ',
+  TitleCn_2: '',
+  TitleEn: 'Access map',
+  ImgSrc: MapPageHeaderImage,
+  bold: 1,
+  type: 1
+})
+
+const PageNavData = ref<PageNavType[]>([
+  { id: 1, anchor: '#TrainTravel', anchor_title: '電車で行く' },
+  { id: 2, anchor: '#BusTravel', anchor_title: '業界の実績と開発言語' },
+  {
+    id: 3,
+    anchor: '#ShuttleBus',
+    anchor_title: '「東京ダイヤビルディング」無料シャトルバス運行ルート'
+  }
+])
+const pagetype = ref<PageNavStyleType>({ type: 1 })
+
+// 检测是否吸顶 修改高度
+const isSticky = ref(false)
+const navSticky = ref<HTMLElement>()
+
+const localSticky = methods.handleScroll({ isSticky, navSticky })
+
+onMounted(() => {
+  localSticky()
+  window.addEventListener('scroll', localSticky)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', localSticky)
+})
+</script>
+
+<style></style>

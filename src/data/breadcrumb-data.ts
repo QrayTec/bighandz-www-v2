@@ -120,5 +120,12 @@ export const json: {
     name: 'FAQよくあるご質問',
     checked: 3,
     MainPage: true
+  },
+  '/map': {
+    path: '/map',
+    Parent_title: 'アクセスマップ',
+    name: 'アクセスマップ',
+    checked: 1,
+    MainPage: false
   }
 }
