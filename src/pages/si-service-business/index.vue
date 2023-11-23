@@ -18,6 +18,10 @@
       <IndustryDev class="mt-[120px]" />
       <IndustryExperience class="mt-[120px]" />
       <ExamplesAchievements class="mt-[120px]" />
+      <Publications
+        :publications="SolutionData"
+        class="mt-[120px]"
+      />
     </div>
   </div>
 </template>
@@ -25,16 +29,30 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
-import AdvancedSIServices from './components/Advanced-SI-Services.vue'
 import {
   SubPageTitleType,
   PageNavType,
-  PageNavStyleType
+  PageNavStyleType,
+  SolutionType
 } from '@/data/pages_interface'
+import AdvancedSIServices from './components/Advanced-SI-Services.vue'
 import SiServiceBusiness from '@/assets/images/sub_page_title/Si_Service_Business.png'
 import IndustryDev from './components/Industry-Dev.vue'
 import IndustryExperience from './components/Industry-Experience.vue'
 import ExamplesAchievements from './components/Examples-Achievements.vue'
+import PublicationsImage from '@/assets/images/Publications/Publications_1.png'
+
+const SolutionData = ref<SolutionType>({
+  title: 'オフショアリング完全ガイド',
+  Image: PublicationsImage,
+  content: [
+    { list: '出版社 :  日経BP (2004/10/23)' },
+    { list: '呉勇 主筆（中国担当）' },
+    {
+      list: '中国・インドのソフト開発事情は、カギを握る「ブリッジSE」とは、なぜコスト削減は一筋縄ではいかないのか。苦労を重ねた先進エンジニアたちが経験と失敗事例を基に、日本からのオフショア開発の問題点と対策を語る国内初の書。'
+    }
+  ]
+})
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'Siサービス',
@@ -57,6 +75,11 @@ const PageNavData = ref<PageNavType[]>([
     id: 4,
     anchor: '#ExamplesAchievements',
     anchor_title: '開発実績一例'
+  },
+  {
+    id: 5,
+    anchor: '#Publications',
+    anchor_title: '出版物'
   }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })
@@ -78,4 +101,3 @@ onUnmounted(() => {
 </script>
 
 <style></style>
-@/data/methods

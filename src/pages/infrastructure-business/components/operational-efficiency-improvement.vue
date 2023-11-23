@@ -15,6 +15,13 @@
     >
       運用改善の提案、定常作業のオフショア活用により運用コスト削減に貢献、24時間365日のSEによる運用保守対応。<br />仮想化技術者も多数在籍しております。
     </div>
+
+    <div
+      id="Supported-Areas-Skill-Sets"
+      class="mt-[120px] max-w-[500px] flex justify-center bg-[#6785C1] px-[44px] py-[17px] text-[36px] font-[500] text-white"
+    >
+      対応領域とスキルセット
+    </div>
     <div class="mt-[30px] flex flex-col">
       <div class="flex text-center">
         <div class="w-[20%]">領域</div>

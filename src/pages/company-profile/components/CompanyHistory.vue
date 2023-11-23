@@ -1,7 +1,7 @@
 <template>
   <div class="company_profile_content">
     <div class="company_history_title">会社 · 沿革</div>
-    <div class="m_t_60 company_history_data">
+    <div class="company_history_data m_t_60">
       <ul class="company_history_data_box">
         <li
           v-for="item in CompanyHistoryData"
@@ -69,19 +69,6 @@ interface CompanyHistoryType {
 
 const CompanyHistoryData = ref<CompanyHistoryType[]>([
   {
-    id: 1,
-    year: 2022,
-    year_style: 'year_1',
-    content: [
-      {
-        month: '12月',
-        list_data: '上海電力日本株式会社との取引開始',
-        text_color: 'list_color_1',
-        point_color: 'point_color_1'
-      }
-    ]
-  },
-  {
     id: 2,
     year: 2021,
     year_style: 'year_1',
@@ -133,39 +120,7 @@ const CompanyHistoryData = ref<CompanyHistoryType[]>([
       }
     ]
   },
-  {
-    id: 6,
-    year: 2013,
-    year_style: 'year_2',
-    content: [
-      {
-        month: '6月',
-        list_data: 'プライバシーマーク認定を更新',
-        text_color: 'list_color_2',
-        point_color: 'point_color_2'
-      }
-    ]
-  },
-  {
-    id: 7,
-    year: 2011,
-    year_style: 'year_3',
-    content: [
-      {
-        month: '6月',
-        list_data: 'プライバシーマーク認定を更新',
-        text_color: 'list_color_3',
-        point_color: 'point_color_3'
-      },
-      {
-        month: '3月',
-        list_data:
-          '中国進出を実施する企業に対し、東京イノベーション＆テクノロジー株式会社と連携し、上海にて中国進出戦略会議を実施',
-        text_color: 'list_color_1',
-        point_color: 'point_color_1'
-      }
-    ]
-  },
+
   {
     id: 8,
     year: 2010,

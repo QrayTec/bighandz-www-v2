@@ -24,3 +24,8 @@ export interface StepsType {
   id: number
   subheading: string
 }
+export interface SolutionType {
+  title: string
+  Image: string
+  content: { list: string }[]
+}

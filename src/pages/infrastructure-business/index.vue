@@ -51,8 +51,12 @@ const PageNavData = ref<PageNavType[]>([
     id: 2,
     anchor: '#operational-efficiency-improvement',
     anchor_title: '運用効率向上'
+  },
+  {
+    id: 3,
+    anchor: '#Plans&Supported-Areas-Skill-Sets',
+    anchor_title: '対応領域とスキルセット'
   }
-  // { id: 3, anchor: '#Plans&Equipment', anchor_title: '日中ソリューション' }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })
 
