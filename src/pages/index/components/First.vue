@@ -25,7 +25,7 @@
           class="Scroll_Line mx-auto mt-[20px] h-[80px] w-[1px] flex-shrink-0 translate-y-[50%]"
         ></div>
       </div>
-      <div class="h-[77px] w-[1110px] translate-x-[-30px]">
+      <div class="w-[1100px] translate-x-[-30px]">
         <img
           class="h-full w-full"
           src="/src/assets/images/index_main/pic_Speed_is_the_Power.png"
