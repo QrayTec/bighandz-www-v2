@@ -25,10 +25,16 @@
           class="Scroll_Line mx-auto mt-[20px] h-[80px] w-[1px] flex-shrink-0 translate-y-[50%]"
         ></div>
       </div>
-      <div class="w-[1100px] translate-x-[-30px]">
+      <div class="h-[77px] w-[1100px] flex translate-x-[-30px]">
         <img
-          class="h-full w-full"
-          src="/src/assets/images/index_main/pic_Speed_is_the_Power.png"
+          class="h-full"
+          src="/src/assets/images/index_main/speed_1.png"
+          alt=""
+        />
+        <div class="mx-[20px] h-full w-[5px] bg-white"></div>
+        <img
+          class="h-full"
+          src="/src/assets/images/index_main/speed_2.png"
           alt=""
         />
       </div>
@@ -46,6 +52,12 @@
           </p>
         </div>
       </div>
+    </div>
+    <div class="absolute bottom-[120px] right-[120px] h-[120px] w-[120px]">
+      <img
+        src="/src/assets/images/index_main/25th.png"
+        alt=""
+      />
     </div>
   </div>
 </template>

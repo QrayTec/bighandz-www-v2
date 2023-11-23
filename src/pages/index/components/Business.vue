@@ -5,7 +5,7 @@
         data-aos="fade-in"
         class="font-NotoSansJP mt-[120px] h-[54px] w-[144px] text-[36px] leading-[54px] font-[500] not-italic text-white"
       >
-        主な業務
+        サービス
       </div>
       <div class="mt-[60px] flex flex-wrap">
         <BusinessItem :businessitemdata="BusinessItemData[0]" />

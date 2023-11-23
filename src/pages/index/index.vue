@@ -6,7 +6,7 @@
       <div class="index_main">
         <First />
         <Business />
-        <Field />
+        <!-- <Field /> -->
         <!-- <IndexCustomers /> -->
       </div>
     </main>
@@ -19,7 +19,7 @@ meta:
   layout: home
 </route>
 <script setup lang="ts">
-import Field from './components/Field.vue'
+// import Field from './components/Field.vue'
 import First from './components/First.vue'
 import Business from './components/Business.vue'
 
