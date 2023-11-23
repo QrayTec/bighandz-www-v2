@@ -21,7 +21,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          'video-chunk': ['src/assets/video/Index_video.mp4']
+          'video-chunk': ['src/assets/video/main_video.mp4']
         }
       }
     }
