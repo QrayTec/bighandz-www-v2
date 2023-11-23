@@ -80,6 +80,11 @@ const PageNavData = ref<PageNavType[]>([
   },
   {
     id: 5,
+    anchor: '#AutomatedTestingTools',
+    anchor_title: '携帯アプリテスト自動化ツール'
+  },
+  {
+    id: 6,
     anchor: '#Publications',
     anchor_title: '出版物'
   }

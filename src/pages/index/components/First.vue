@@ -13,19 +13,8 @@
           alt=""
         />
       </div>
-      <div
-        class="absolute left-[-264px] top-[338px] h-[152px] w-[52px] animate-[moveContainer_3s_infinite_alternate]"
-      >
-        <div
-          class="font-NotoSansJP h-[21px] w-[52px] rotate-[-90deg] text-[14px] font-[400] text-white"
-        >
-          SCROLL
-        </div>
-        <div
-          class="Scroll_Line mx-auto mt-[20px] h-[80px] w-[1px] flex-shrink-0 translate-y-[50%]"
-        ></div>
-      </div>
-      <div class="absolute bottom-[120px]">
+
+      <div class="absolute bottom-[125px]">
         <div class="h-[77px] w-[1100px] flex translate-x-[-30px]">
           <img
             class="h-full"
@@ -54,12 +43,24 @@
           </div>
         </div>
       </div>
-      <div class="absolute bottom-[120px] right-[120px] h-[120px] w-[120px]">
-        <img
-          src="/src/assets/images/index_main/25th.png"
-          alt=""
-        />
+    </div>
+    <div
+      class="absolute bottom-[110px] left-[72px] h-[152px] w-[52px] animate-[moveContainer_3s_infinite_alternate]"
+    >
+      <div
+        class="font-NotoSansJP h-[21px] w-[52px] rotate-[-90deg] text-[14px] font-[400] text-white"
+      >
+        SCROLL
       </div>
+      <div
+        class="Scroll_Line mx-auto mt-[20px] h-[80px] w-[1px] flex-shrink-0 translate-y-[50%]"
+      ></div>
+    </div>
+    <div class="absolute bottom-[120px] right-[120px] h-[120px] w-[120px]">
+      <img
+        src="/src/assets/images/index_main/25th.png"
+        alt=""
+      />
     </div>
   </div>
 </template>

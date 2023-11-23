@@ -5,3 +5,8 @@ interface SalaryList {
 export interface SalaryType {
   content: SalaryList[]
 }
+
+export interface SalaryType2 {
+  title?: string
+  content: SalaryList[]
+}

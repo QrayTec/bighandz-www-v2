@@ -53,7 +53,7 @@
       <div
         class="font-NotoSansJP w-[654px] text-[16px] leading-[32px] font-[400]"
       >
-        お客様に物流戦略の立案からシステム構築、保守、運用サービス、倉庫管理支援まで総合的なサービスをご提供いたします。
+        物流戦略の策定からシステム構築、保守・運用サービス、倉庫運営支援まで一気通貫でお客様にサービスを提供します
       </div>
       <div class="mt-[60px] w-full flex justify-center">
         <img
