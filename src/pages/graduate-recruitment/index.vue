@@ -67,6 +67,16 @@ const PageNavData = ref<PageNavType[]>([
     id: 5,
     anchor: '#Salary&Benefits',
     anchor_title: '給与と福利厚生'
+  },
+  {
+    id: 6,
+    anchor: '#Work-related',
+    anchor_title: '仕事関連'
+  },
+  {
+    id: 7,
+    anchor: '#PersonnelSystem',
+    anchor_title: '人事制度'
   }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })

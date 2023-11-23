@@ -84,6 +84,57 @@
               :class="i == 0 ? '' : 'mt-[30px]'"
               class="w-full flex px-[30px]"
             >
+              <div
+                v-if="i != 0"
+                class="mt-[5px] h-full min-w-[16px]"
+              >
+                <img
+                  class="h-16px w-[16px]"
+                  src="@/assets/images/company_profile/rhombic.svg"
+                  alt=""
+                />
+              </div>
+              <div
+                :class="i != 0 ? 'pl-[20px]' : 'pl-[0px]'"
+                class="w-full flex justify-between"
+              >
+                <p>{{ items1.list_1 }}</p>
+                <p>{{ items1.list_2 }}</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div
+      v-for="(item, index) in PositionsData2"
+      :key="index"
+    >
+      <div class="mt-[60px] min-h-[360px] w-full flex justify-between">
+        <div
+          :class="index % 2 != 0 ? 'order-1' : ''"
+          class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]"
+        >
+          <div
+            :class="index % 2 != 0 ? 'justify-start' : 'justify-end'"
+            class="w-full flex"
+          >
+            <div
+              :id="item.id"
+              data-aos="fade-in"
+              class="h-[78px] w-[360px] flex items-center justify-center bg-[#6785C1] text-[36px] font-[500] text-white"
+            >
+              {{ item.title }}
+            </div>
+          </div>
+          <ul class="mt-[20px] w-full">
+            <li
+              v-for="(items, i) in item.content"
+              :key="i"
+              :class="i == 0 ? '' : 'mt-[30px]'"
+              class="w-full flex px-[30px]"
+            >
               <div class="mt-[5px] h-full min-w-[16px]">
                 <img
                   class="h-16px w-[16px]"
@@ -91,12 +142,18 @@
                   alt=""
                 />
               </div>
-              <div class="w-full flex justify-between pl-[30px]">
-                <p class="ml-[10px]">{{ items1.list_1 }}</p>
-                <p class="ml-[10px]">{{ items1.list_2 }}</p>
-              </div>
+              <p class="ml-[10px]">{{ items.list }}</p>
             </li>
           </ul>
+        </div>
+        <div class="w-[calc(50%-15px)]">
+          <div class="h-full w-full">
+            <img
+              class="h-full w-full"
+              :src="item.Image"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -108,6 +165,9 @@ import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import { PositionsType, SalaryType } from '../types/index'
 
 import Job1 from '@/assets/images/graduate-recruitment/job_1.jpg'
+import Job2 from '@/assets/images/graduate-recruitment/job_2.jpg'
+import Job3 from '@/assets/images/graduate-recruitment/job_3.jpg'
+import Job4 from '@/assets/images/graduate-recruitment/job_4.jpg'
 
 const PositionsData = ref<PositionsType[]>([
   {
@@ -125,7 +185,7 @@ const PositionsData = ref<PositionsType[]>([
   {
     id: 'Subject-application',
     title: '募集対象',
-    Image: Job1,
+    Image: Job2,
     content: [
       { list: '2022年3月末までに高専、専門学校、大学、大学院を卒業見込みの方' },
       {
@@ -136,7 +196,7 @@ const PositionsData = ref<PositionsType[]>([
   {
     id: 'Accepted-Faculties',
     title: '募集学部・学科',
-    Image: Job1,
+    Image: Job3,
     content: [{ list: '全学部、全学科' }]
   }
 ])
@@ -176,6 +236,58 @@ const SalaryData = ref<SalaryType[]>([
           { list_1: '社会保険加入（健康、厚生、雇用、労災）' },
           { list_1: '資格取得支援制度昇給　年1回（4月）' }
         ]
+      }
+    ]
+  },
+  {
+    id: 'Work-related',
+    title: '仕事関連',
+    Image: Job1,
+    content: [
+      {
+        content_1: [{ list_1: '勤務地' }, { list_1: '東京、神奈川' }]
+      },
+      {
+        content_1: [
+          { list_1: '勤務時間' },
+          { list_1: '9:30～18:30' },
+          { list_1: '※プロジェクトにより異なる場合もあり' }
+        ]
+      },
+      {
+        content_1: [
+          { list_1: '試用期間' },
+          { list_1: '試用期間あり（6か月）' },
+          { list_1: '※試用期間と本採用後の、労働条件の変更はありません。' }
+        ]
+      },
+      {
+        content_1: [
+          { list_1: '休日・休暇' },
+          { list_1: '土曜日、日曜日、国民の祝日' },
+          { list_1: '夏期休暇、年末年始休暇。' }
+        ]
+      }
+    ]
+  }
+])
+
+const PositionsData2 = ref<PositionsType[]>([
+  {
+    id: 'PersonnelSystem',
+    title: '人事制度',
+    Image: Job4,
+    content: [
+      { list: '年齢や性別、国籍を問わず人材の多様性を重視しています。' },
+      { list: 'チャレンジ精神を持ち、自ら学ぶ姿勢を重視します。' },
+      {
+        list: 'プログラミングやネットワークなどに関する各種技術研修を用意しています。'
+      },
+      {
+        list: 'チームワークを重視し、管理職研修やコミュニケーション研修を実施しています。'
+      },
+      {
+        list: '外国籍の方には、日本語を学べる環境があります。'
       }
     ]
   }

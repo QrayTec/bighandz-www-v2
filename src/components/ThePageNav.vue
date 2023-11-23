@@ -15,7 +15,7 @@
           offset: -250
         }"
         class="page_nav_main_link"
-        :class="{ m_l_60: item.id != 1 }"
+        :class="{ 'ml-[50px]': item.id != 1 }"
         :href="item.anchor"
         ><div class="page_nav_content">
           <div>{{ item.anchor_title }}</div>
