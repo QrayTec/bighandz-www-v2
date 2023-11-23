@@ -4,8 +4,8 @@
       ref="TabBar"
       class="h-[80px] w-full flex items-center justify-center"
     >
-      <div class="w-[1780px] flex justify-between bg-transparent">
-        <div class="h-[68px] w-[68px]">
+      <div class="w-[1780px] flex items-center justify-between bg-transparent">
+        <div class="h-[68px] w-[68px] flex items-center">
           <router-link to="/">
             <img
               src="/src/assets/images/logo.png"
