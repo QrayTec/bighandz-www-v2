@@ -3,7 +3,7 @@
     data-aos="fade-in"
     class="relative min-h-[100vh] w-full flex justify-center"
   >
-    <div class="relative mt-[320px] w-[1200px]">
+    <div class="relative mt-[580px] w-[1200px]">
       <div
         class="absolute left-[-160px] top-[-120px] h-[531px] w-[531px] fill-[#00dbff33] blur-[100px]"
       >
@@ -25,7 +25,7 @@
           class="Scroll_Line mx-auto mt-[20px] h-[80px] w-[1px] flex-shrink-0 translate-y-[50%]"
         ></div>
       </div>
-      <div class="absolute top-[120px]">
+      <div class="absolute bottom-[120px]">
         <div class="h-[77px] w-[1100px] flex translate-x-[-30px]">
           <img
             class="h-full"

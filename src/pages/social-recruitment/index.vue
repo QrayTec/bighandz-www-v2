@@ -50,32 +50,7 @@ const PageNavData = ref<PageNavType[]>([
   {
     id: 2,
     anchor: '#OpenPositions',
-    anchor_title: '募集職種'
-  },
-  {
-    id: 3,
-    anchor: '#Subject-application',
-    anchor_title: '募集学部・学科'
-  },
-  {
-    id: 4,
-    anchor: '#Accepted-Faculties',
-    anchor_title: '物流全般管理'
-  },
-  {
-    id: 5,
-    anchor: '#Salary&Benefits',
-    anchor_title: '給与と福利厚生'
-  },
-  {
-    id: 6,
-    anchor: '#Work-related',
-    anchor_title: '仕事関連'
-  },
-  {
-    id: 7,
-    anchor: '#PersonnelSystem',
-    anchor_title: '人事制度'
+    anchor_title: '経験者'
   }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })
