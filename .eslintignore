@@ -9,6 +9,7 @@ node_modules
 *.log
 cypress/downloads
 images
+video
 font
 pnpm-lock.yaml
 package.json

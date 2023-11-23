@@ -1,6 +1,16 @@
 <template>
-  <div class="index-page">
-    <div class="index-bg"></div>
+  <div class="index-page relative">
+    <div class="index-bg">
+      <div class="h-screen w-screen">
+        <video
+          src="@/assets/video/index_video.mp4"
+          class="h-screen w-screen object-cover"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+    </div>
 
     <main>
       <div class="index_main">
@@ -38,7 +48,6 @@ defineOptions({
 .index-bg {
   width: 100%;
   height: 100vh;
-  background-image: url('/src/assets/images/bg_1.png');
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;

@@ -98,11 +98,9 @@ import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import GartnerCard from './GartnerCard.vue'
 import { ChallengesType } from '../types/index'
 
-import Change3 from '@/assets/images/logistics-business/Change_3.jpg'
-
 const ChallengesData = ref<ChallengesType[]>([
   {
-    Image: Change3,
+    Image: 'Change3',
     content: [
       {
         list: '最先端のテクノロジーで物流改革'
