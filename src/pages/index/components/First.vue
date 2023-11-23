@@ -25,7 +25,7 @@
           class="Scroll_Line mx-auto mt-[20px] h-[80px] w-[1px] flex-shrink-0 translate-y-[50%]"
         ></div>
       </div>
-      <div class="absolute top-[120px]">
+      <div class="absolute bottom-[120px]">
         <div class="h-[77px] w-[1100px] flex translate-x-[-30px]">
           <img
             class="h-full"
