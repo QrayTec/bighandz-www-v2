@@ -82,7 +82,7 @@ const NavLinkArray = ref<NavLink[]>([
   { id: 2, title: '企業情報', href: '' },
   { id: 3, title: '事業概要', href: '' },
   { id: 4, title: '採用情報', href: '/adoption-Intelligence' },
-  { id: 5, title: 'アクセス', href: '' }
+  { id: 5, title: 'アクセス', href: '/map' }
 ])
 const MenuData = ref<MenuItems[]>([])
 
@@ -156,7 +156,12 @@ const menus = [
     },
     { id: 4, title: '採用の流れ', href: '/recruitment-process', align: 'left' },
     { id: 5, title: 'FAQよくあるご質問', href: '/FAQ', align: 'center' },
-    { id: 6, title: 'キャリア採社員インタビュー用', href: '/', align: 'right' }
+    {
+      id: 6,
+      title: 'キャリア採社員インタビュー用',
+      href: '/map',
+      align: 'right'
+    }
   ]
 ]
 
