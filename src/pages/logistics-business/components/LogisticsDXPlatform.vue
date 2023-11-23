@@ -73,11 +73,27 @@
         </div>
       </div>
     </div>
+    <div
+      :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+      class="mt-[200px]"
+    >
+      <div
+        class="font-NotoSansJP w-[654px] text-[16px] leading-[32px] font-[400]"
+      >
+        物流DXの導入にあたっては、お客様の事業戦略や経営課題を分析し、物流戦略に落とし込んで目標を設定し、喫緊の課題解決に向けた個別最適化だけでなく、将来の改善に向けたサプライチェーン全体の最適化も行います。
+      </div>
+      <div class="mt-[60px] w-full flex justify-center">
+        <img
+          src="@/assets/images/logistics-business/pic_1.png"
+          alt=""
+        />
+      </div>
+    </div>
   </div>
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
-import { CombinedCardData } from '../data/Data.ts'
+import { CombinedCardData } from '../data/Data'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import GartnerCard from './GartnerCard.vue'
 import { ChallengesType } from '../types/index'

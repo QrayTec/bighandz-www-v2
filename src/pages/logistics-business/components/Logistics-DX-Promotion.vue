@@ -47,7 +47,7 @@
 import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import { ChallengesType } from '../types/index'
-import Change2 from '@/assets/images/logistics-business/change_2.jpg'
+import Change2 from '@/assets/images/logistics-business/change_2.png'
 
 const ChallengesData = ref<ChallengesType[]>([
   {

@@ -49,6 +49,19 @@
         </div>
       </div>
     </div>
+    <div class="mt-[120px] w-full">
+      <div
+        class="font-NotoSansJP w-[654px] text-[16px] leading-[32px] font-[400]"
+      >
+        お客様に物流戦略の立案からシステム構築、保守、運用サービス、倉庫管理支援まで総合的なサービスをご提供いたします。
+      </div>
+      <div class="mt-[60px] w-full flex justify-center">
+        <img
+          src="@/assets/images/logistics-business/pic_2.png"
+          alt=""
+        />
+      </div>
+    </div>
   </div>
 </template>
 <script setup lang="ts">
