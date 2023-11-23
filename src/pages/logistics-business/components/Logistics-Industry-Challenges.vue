@@ -26,7 +26,10 @@
             :class="i == 0 ? '' : 'mt-[30px]'"
             class="w-full flex px-[30px]"
           >
-            <div class="mt-[5px] h-full min-w-[16px]">
+            <div
+              v-if="i < 3"
+              class="mt-[5px] h-full min-w-[16px]"
+            >
               <img
                 class="h-16px w-[16px]"
                 src="@/assets/images/company_profile/rhombic.svg"
@@ -38,7 +41,7 @@
         </ul>
       </div>
       <div class="w-[calc(50%-15px)]">
-        <div class="h-full w-full">
+        <div class="h-[320px]">
           <img
             class="h-full w-full"
             :src="item.Image"
@@ -46,19 +49,6 @@
           />
         </div>
       </div>
-    </div>
-    <div
-      class="font-NotoSansJP mt-[30px] text-[20px] font-[700] text-[#071027]"
-    >
-      これらの課題を解決するには、物流DXの導入が重要となっています。
-    </div>
-    <div
-      class="font-NotoSansJP mt-[30px] text-[16px] leading-[32px] font-[400] text-[#071027]"
-    >
-      物流業界では、企業が基幹システムのDX導入・投資を優先している。<br />
-      物流システムにおける新技術の導入やデジタル化は遅々として進まず、物流サービスや物流レ<br />
-      ベルの向上が進んでいる<br />
-      業務効率、配送効率、透明性が欠けていると言われました。
     </div>
   </div>
 </template>
@@ -80,6 +70,9 @@ const ChallengesData = ref<ChallengesType[]>([
       },
       {
         list: 'また、物流業界は二酸化炭素の主要な排出源であり、環境への影響も懸念されています。持続可能な物流システムを確立する必要がある'
+      },
+      {
+        list: 'これらの課題を解決するために、物流DX導入は不可欠な状況になりつつありますが、物流業界においては、企業が基幹システムへのDX導入・投資が優先され、物流システムへの新たなテクノロジーの導入やデジタル化が遅れており、物流サービスの向上、業務の効率化、配送の効率化や透明性が不足しているとされています。'
       }
     ]
   }

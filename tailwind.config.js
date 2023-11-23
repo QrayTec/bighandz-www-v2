@@ -10,7 +10,9 @@ export default {
       backgroundImage: {
         primarygradient:
           'linear-gradient(90deg, #597EE5 0%, #597EE5 26.04%, #00FFB2 100%)',
-        Business: 'linear-gradient(0deg, #111f4e 0%, #2e4a9e 100%)'
+        Business: 'linear-gradient(0deg, #111f4e 0%, #2e4a9e 100%)',
+        GartnerCard:
+          'linear-gradient(to right, rgba(217, 217, 217, 0), rgba(14, 27, 71, 1))'
       },
       animation: {
         moveContainer: 'moveContainer 3s infinite alternate'

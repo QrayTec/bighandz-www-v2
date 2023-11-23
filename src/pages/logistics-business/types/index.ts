@@ -4,6 +4,10 @@ export interface GartnerCardType {
   title_1: string
   title_2: string
 }
+export interface GartnerCardDataType {
+  type: string
+  data: GartnerCardType[]
+}
 interface ChallengesList {
   list: string
 }
@@ -25,4 +29,8 @@ export interface ManagementType {
 export interface AiDeliverType {
   Image: string
   title: string
+}
+
+export interface ListType {
+  list: string
 }
