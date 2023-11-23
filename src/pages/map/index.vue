@@ -47,7 +47,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
 
 const PageNavData = ref<PageNavType[]>([
   { id: 1, anchor: '#TrainTravel', anchor_title: '電車で行く' },
-  { id: 2, anchor: '#BusTravel', anchor_title: '業界の実績と開発言語' },
+  { id: 2, anchor: '#BusTravel', anchor_title: 'バスで行く' },
   {
     id: 3,
     anchor: '#ShuttleBus',
