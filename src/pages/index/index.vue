@@ -32,7 +32,7 @@ meta:
 // import Field from './components/Field.vue'
 import First from './components/First.vue'
 import Business from './components/Business.vue'
-import videoFile from '@/assets/video/index_video.mp4'
+import videoFile from '@/assets/video/main_video.mp4'
 
 defineOptions({
   name: 'IndexPage'
