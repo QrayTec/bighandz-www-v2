@@ -8,7 +8,7 @@
         <div class="h-[68px] w-[68px]">
           <router-link to="/">
             <img
-              src="/src/assets/images/logo.svg"
+              src="/src/assets/images/logo.png"
               alt="logo"
             />
           </router-link>

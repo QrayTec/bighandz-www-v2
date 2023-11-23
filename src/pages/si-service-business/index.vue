@@ -55,7 +55,7 @@ const SolutionData = ref<SolutionType>({
 })
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: 'Siサービス',
+  TitleCn_1: 'SIサービス',
   TitleCn_2: '事業',
   TitleEn: 'Si service business',
   ImgSrc: SiServiceBusiness,
