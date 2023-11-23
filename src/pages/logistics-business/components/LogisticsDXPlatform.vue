@@ -143,7 +143,7 @@ import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 // import { GartnerCardType } from '../types/index'
 import { ChallengesType } from '../types/index'
 
-import Change3 from '@/assets/images/logistics-business/change_3.jpg'
+import Change3 from '@/assets/images/logistics-business/Change_3.jpg'
 
 const ChallengesData = ref<ChallengesType[]>([
   {
