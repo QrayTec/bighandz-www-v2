@@ -1,6 +1,6 @@
 <template>
   <div
-    id="InexperiencedPerson"
+    id="ExperiencedPerson"
     class="w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
