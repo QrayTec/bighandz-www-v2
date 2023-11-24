@@ -1,6 +1,6 @@
 <template>
   <div
-    class="sub_page_main_box"
+    class="sub_page_main_box bg-center-35"
     :style="TitleBg"
   >
     <div class="sub_page_main">
@@ -45,6 +45,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
+import SubBg from '@/assets/images/pic_innovation_bg.png'
 
 const props = defineProps<{ data: SubPageTitleType }>()
 
@@ -61,8 +62,8 @@ if (SubPageTitleData.value.type === 2) {
     rgba(14, 27, 71, 0.6) 58.33%,
     rgba(14, 27, 71, 0.6) 100%
   ), url('${SubPageTitleData.value.ImgSrc}') 50% / cover no-repeat`
-} else if (SubPageTitleData.value.type === 3) {
-  TitleBg.background = `url('${SubPageTitleData.value.ImgSrc}') 50% / cover no-repeat,linear-gradient( 
+} else if (SubPageTitleData.value.type === 1) {
+  TitleBg.background = `url('${SubBg}') 50% / cover no-repeat,linear-gradient( 
     90deg,
     #0e1b47 0%,
     rgba(14, 27, 71, 1) 100%)`

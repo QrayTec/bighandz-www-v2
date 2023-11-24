@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg_image bg-center-35 h-[1030px] w-full flex justify-center bg-no-repeat"
+    class="bg-center-35 bg_image h-[1030px] w-full flex justify-center bg-no-repeat"
   >
     <div class="w-[1200px]">
       <div
@@ -9,7 +9,10 @@
       >
         サービス
       </div>
-      <div class="mt-[60px] flex flex-wrap">
+      <div
+        class="mt-[60px] flex flex-wrap"
+        data-aos="fade-up"
+      >
         <BusinessItem :businessitemdata="BusinessItemData[0]" />
         <div class="ml-[20px]">
           <div class="h-[290px] w-[890px] flex">
@@ -19,7 +22,7 @@
               :businessitemdata="BusinessItemData[2]"
             />
           </div>
-          <div class="mt-[20px] h-[290px] w-[890px] flex">
+          <div class="mt-[14px] h-[290px] w-[890px] flex">
             <BusinessItem :businessitemdata="BusinessItemData[3]" />
 
             <BusinessItem
