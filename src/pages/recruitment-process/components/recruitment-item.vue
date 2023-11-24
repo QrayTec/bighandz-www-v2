@@ -4,7 +4,7 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div
-      class="pl-0 md:pl-[204px]"
+      class="pl-[204px]"
       data-aos="slide-right"
     >
       <div
@@ -22,7 +22,7 @@
     >
       <steps :stepsdata="StepsData[RecruitmentData.indexOf(item)]" />
       <div
-        class="pl-0 md:pl-[204px]"
+        class="pl-[204px]"
         data-aos="slide-right"
       >
         <p class="mt-[30px]">
@@ -39,7 +39,7 @@
       </div>
     </div>
     <div
-      class="pl-0 md:pl-[204px]"
+      class="pl-[204px]"
       data-aos="slide-right"
     >
       <hr class="hr mt-[30px]" />

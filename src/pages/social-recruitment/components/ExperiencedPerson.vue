@@ -4,7 +4,12 @@
     class="w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="font-NotoSansJP flex text-[24px] font-[500]">経験者</div>
+    <div
+      class="max-w-[480px] flex justify-center bg-[#6785C1] px-[44px] py-[17px] text-[36px] font-[500] text-white"
+    >
+      経験者
+    </div>
+    <div class="font-NotoSansJP flex text-[24px] font-[500]"></div>
     <div class="font-NotoSansJP mt-[30px] indent-8">
       開発エンジニア（システムエンジニア／プログラマ）、インフラ基盤系エンジニア及び営業を募集しています。ご自身が持っているスキル・経験を活かしたい方、キャリアアップを目指している方、収入増を目指している方は、是非ともご応募ください。お待ちしています。
       私たちといっしょに夢を実現しませんか。

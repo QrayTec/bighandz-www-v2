@@ -4,7 +4,12 @@
     class="w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="font-NotoSansJP flex text-[24px] font-[500]">未経験者</div>
+    <div
+      class="max-w-[480px] flex justify-center bg-[#6785C1] px-[44px] py-[17px] text-[36px] font-[500] text-white"
+    >
+      未経験者
+    </div>
+    <div class="font-NotoSansJP flex text-[24px] font-[500]"></div>
     <div class="font-NotoSansJP mt-[30px] indent-8">
       エンジニアの希望を最優先に考える会社です。社員が皆明るく、働きやすい職場を目指しています。
     </div>
