@@ -19,11 +19,17 @@
         <div
           v-for="item in NavData"
           :key="item.id"
-          class="h-[22px] min-w-[86px] flex items-center"
+          class="h-[22px] min-w-[86px] w-full flex items-center justify-center"
         >
           <div class="h-[12px] w-[1px] bg-[#fff] bg-opacity-20"></div>
-          <div class="mx-[20px] text-[15px] text-[#fff]">
-            <router-link :to="item.href">{{ item.title }}</router-link>
+          <div
+            class="mx-[20px] w-full flex justify-center text-[15px] text-[#fff]"
+          >
+            <router-link
+              :to="item.href"
+              target="_blank"
+              >{{ item.title }}</router-link
+            >
           </div>
         </div>
         <div class="h-[12px] w-[1px] bg-[#fff] bg-opacity-20"></div>
@@ -49,8 +55,8 @@ interface FooterNavData {
 
 const NavData = ref<FooterNavData[]>([
   { id: 1, title: 'ホーム', href: '/' },
-  { id: 1, title: 'プライバシーポリシー', href: '/' },
-  { id: 1, title: '個人情報の取扱いについて', href: '/' }
+  { id: 1, title: '利用規約', href: '/CustomSize–2.pdf' },
+  { id: 1, title: '個人情報保護方針', href: '/CustomSize–1.pdf' }
 ])
 </script>
 

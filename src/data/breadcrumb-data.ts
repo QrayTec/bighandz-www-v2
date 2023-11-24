@@ -125,7 +125,7 @@ export const json: {
     path: '/map',
     Parent_title: 'アクセスマップ',
     name: 'アクセスマップ',
-    checked: 1,
+    checked: 4,
     MainPage: false
   }
 }

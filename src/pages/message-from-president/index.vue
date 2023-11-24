@@ -36,14 +36,7 @@
             私たちは、お客様の成功を支援するために、常に最善を尽くします。今後も、IT分野の最新技術を取り入れながら、お客様のビジネスに貢献してまいります。引き続きご支援を賜りますよう、お願い申し上げます。<br /><br />
           </div>
           <div class="message_content_text_main m_top_30">敬具</div>
-        </div>
-        <div class="message_content_images">
-          <div class="pic_president h-[600px] bg-[#2266ff]">
-            <!-- <img
-              src="/src/assets/images/MessageFromPresident/pic_president.png"
-              alt="pic_president"
-            /> -->
-          </div>
+
           <div class="m_top_30 pic_Representative">
             <img
               src="/src/assets/images/MessageFromPresident/pic_Representative.png"
@@ -57,6 +50,26 @@
             />
           </div>
         </div>
+        <!-- <div class="message_content_images">
+          <div class="pic_president h-[600px] bg-[#2266ff]">
+            <img
+              src="/src/assets/images/MessageFromPresident/pic_president.png"
+              alt="pic_president"
+            />
+          </div>
+          <div class="m_top_30 pic_Representative">
+            <img
+              src="/src/assets/images/MessageFromPresident/pic_Representative.png"
+              alt="pic_president"
+            />
+          </div>
+          <div class="pic_president_sign">
+            <img
+              src="/src/assets/images/MessageFromPresident/pic_president_sign.png"
+              alt="pic_president"
+            />
+          </div>
+        </div> -->
       </div>
     </div>
   </div>

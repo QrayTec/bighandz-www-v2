@@ -49,7 +49,7 @@ const PageNavData = ref<PageNavType[]>([
   },
   {
     id: 2,
-    anchor: '#OpenPositions',
+    anchor: '#ExperiencedPerson',
     anchor_title: '経験者'
   }
 ])
