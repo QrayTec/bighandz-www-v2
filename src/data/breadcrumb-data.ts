@@ -127,5 +127,12 @@ export const json: {
     name: 'アクセスマップ',
     checked: 4,
     MainPage: false
+  },
+  '/terms-conditions': {
+    path: '/terms-conditions',
+    Parent_title: '利用規約',
+    name: '利用規約',
+    checked: 0,
+    MainPage: false
   }
 }
