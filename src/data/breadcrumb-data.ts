@@ -134,5 +134,12 @@ export const json: {
     name: '利用規約',
     checked: 0,
     MainPage: false
+  },
+  '/privacy-policy': {
+    path: '/terms-conditions',
+    Parent_title: '個人情報保護方針',
+    name: '個人情報保護方針',
+    checked: 0,
+    MainPage: false
   }
 }

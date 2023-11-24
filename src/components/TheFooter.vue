@@ -56,7 +56,7 @@ interface FooterNavData {
 const NavData = ref<FooterNavData[]>([
   { id: 1, title: 'ホーム', href: '/' },
   { id: 1, title: '利用規約', href: '/terms-conditions' },
-  { id: 1, title: '個人情報保護方針', href: '/CustomSize–1.pdf' }
+  { id: 1, title: '個人情報保護方針', href: '/privacy-policy' }
 ])
 </script>
 

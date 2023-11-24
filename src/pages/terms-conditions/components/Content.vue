@@ -15,7 +15,7 @@
     >
       {{ item.list }}
     </div>
-    <div class="mt-[120px]">
+    <div class="mt-[40px]">
       <div
         v-for="(item, index) in content"
         :key="index"
@@ -46,10 +46,7 @@ const introduction = ref<ListType[]>([
     list: '本ウェブサイトから、当社の関係会社が運営するウェブサイトにもリンクされております。それらのウェブサイトをご利⽤になる際には、その 中に掲載されているご利⽤条件にもご同意いただく必要がありますのでご注意ください。'
   },
   {
-    list: '本ウェブサイトとは、以下のドメインに含まれるすべてのディレクトリおよびページをいいます。'
-  },
-  {
-    list: 'www.bighandz.co.jp'
+    list: '本ウェブサイトとは、以下のドメインに含まれるすべてのディレクトリおよびページをいいます。www.bighandz.co.jp'
   }
 ])
 
