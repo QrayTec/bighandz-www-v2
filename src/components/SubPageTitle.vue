@@ -16,7 +16,7 @@
               >{{ SubPageTitleData.TitleCn_1 }}</span
             >
             <span
-              :class="{ title_bold: SubPageTitleData.bold == 2 }"
+              :class="{ title_bold: SubPageTitleData.bold != 2 }"
               class="font-bold"
               >{{ SubPageTitleData.TitleCn_2 }}</span
             >
@@ -35,7 +35,7 @@
               alt=""
             />
           </div>
-          <div class="Image_line"></div>
+          <!-- <div class="Image_line"></div> -->
         </div>
       </div>
     </div>
@@ -50,17 +50,22 @@ const props = defineProps<{ data: SubPageTitleType }>()
 
 const SubPageTitleData = ref<SubPageTitleType>(props.data)
 
-// 背景style
 const TitleBg = {
-  background:
-    SubPageTitleData.value.type === 2
-      ? `linear-gradient(
+  background: ''
+}
+
+if (SubPageTitleData.value.type === 2) {
+  TitleBg.background = `linear-gradient(
     90deg,
     #0e1b47 0%,
     rgba(14, 27, 71, 0.6) 58.33%,
     rgba(14, 27, 71, 0.6) 100%
-  ),url('${SubPageTitleData.value.ImgSrc}') lightgray 50% / cover no-repeat `
-      : ''
+  ), url('${SubPageTitleData.value.ImgSrc}') 50% / cover no-repeat`
+} else if (SubPageTitleData.value.type === 3) {
+  TitleBg.background = `url('${SubPageTitleData.value.ImgSrc}') 50% / cover no-repeat,linear-gradient( 
+    90deg,
+    #0e1b47 0%,
+    rgba(14, 27, 71, 1) 100%)`
 }
 </script>
 

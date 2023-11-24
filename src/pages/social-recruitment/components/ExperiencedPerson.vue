@@ -10,7 +10,7 @@
       経験者
     </div>
     <div class="font-NotoSansJP flex text-[24px] font-[500]"></div>
-    <div class="font-NotoSansJP mt-[30px] indent-8">
+    <div class="font-NotoSansJP mt-[30px]">
       開発エンジニア（システムエンジニア／プログラマ）、インフラ基盤系エンジニア及び営業を募集しています。ご自身が持っているスキル・経験を活かしたい方、キャリアアップを目指している方、収入増を目指している方は、是非ともご応募ください。お待ちしています。
       私たちといっしょに夢を実現しませんか。
     </div>

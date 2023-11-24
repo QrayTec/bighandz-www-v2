@@ -14,6 +14,9 @@ export default {
         GartnerCard:
           'linear-gradient(to right, rgba(217, 217, 217, 0), rgba(14, 27, 71, 1))'
       },
+      backgroundPosition: {
+        'center-35': 'center 120px , center'
+      },
       animation: {
         moveContainer: 'moveContainer 3s infinite alternate'
       },

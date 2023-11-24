@@ -14,7 +14,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
-import CorporatePhilosophy from '@/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner.png'
+import CorporatePhilosophy from '@/assets/images/pic_innovation_bg.png'
 import Innovation from './components/Innovation.vue'
 import Mission from './components/Mission.vue'
 import PracticesGuidelines from './components/PracticesGuidelines.vue'
@@ -27,7 +27,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleEn: 'Corporate Philosophy Management Policy',
   ImgSrc: CorporatePhilosophy,
   bold: 1,
-  type: 1
+  type: 3
 })
 </script>
 

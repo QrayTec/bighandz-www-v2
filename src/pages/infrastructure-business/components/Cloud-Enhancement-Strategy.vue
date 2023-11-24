@@ -99,7 +99,7 @@ const CloudData = ref<CloudType[]>([
       {
         ClassName: '#E22E59',
         list_1: 'ネットワーク',
-        list_2: '10%'
+        list_2: '20%'
       },
       {
         ClassName: '#E45C46',

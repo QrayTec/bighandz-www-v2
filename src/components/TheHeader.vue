@@ -122,17 +122,17 @@ const menus = [
       href: '/infrastructure-business',
       align: 'right'
     },
-    {
-      id: 4,
-      title: 'ヘルスケア事業',
-      href: '/healthcare-business',
-      align: 'left'
-    },
+    // {
+    //   id: 4,
+    //   title: 'ヘルスケア事業',
+    //   href: '/healthcare-business',
+    //   align: 'left'
+    // },
     {
       id: 5,
       title: '物流事業',
       href: '/logistics-business',
-      align: 'center'
+      align: 'left'
     }
   ],
   [

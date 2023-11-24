@@ -13,6 +13,9 @@
           alt=""
         />
         <div
+          class="absolute left-0 top-0 h-full w-full bg-[#2d2d2d] bg-opacity-50"
+        ></div>
+        <div
           data-aos="fade-up"
           class="relative h-full w-full flex flex-wrap items-center justify-center text-white group-hover:block group-hover:bg-[#071027] group-hover:bg-opacity-60 group-hover:p-[40px]"
         >

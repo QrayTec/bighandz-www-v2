@@ -3,21 +3,22 @@
     id="LogisticsDXPlatform"
     data-aos="fade-in"
     class="w-full flex flex-col items-center justify-center"
+    :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div :style="{ width: MAIN_CONTENT_WIDTH + 'px' }">
+    <div>
       <div
         class="h-[78px] max-w-[480px] flex items-center justify-center bg-[#6785C1] text-[36px] font-[500] text-white"
       >
         物流DXプラットフォーム
       </div>
       <div
-        v-for="(item, index) in ChallengesData"
-        :key="index"
-        class="mt-[60px] min-h-[360px] w-full flex justify-between"
+        class="mt-[60px] min-h-[360px] w-full flex items-center justify-between"
       >
         <div
+          v-for="(item, index) in ChallengesData"
+          :key="index"
           :class="index % 2 != 0 ? 'order-1' : ''"
-          class="ml-[30px] w-[450px] flex flex-col justify-center"
+          class="w-[40%] flex flex-col justify-center"
         >
           <ul class="w-full">
             <li
@@ -49,16 +50,7 @@
             </li>
           </ul>
         </div>
-      </div>
-    </div>
-    <div
-      class="mt-[205px] h-[327px] w-[1760px] flex justify-center bg-[#6785C1]"
-    >
-      <div
-        :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
-        class="flex justify-end"
-      >
-        <div class="w-[960px] flex flex-col translate-y-[-240px] items-end">
+        <div class="w-[60%] flex flex-col items-end">
           <div
             v-for="(cardData, index) in CombinedCardData"
             :key="index"
@@ -73,10 +65,8 @@
         </div>
       </div>
     </div>
-    <div
-      :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
-      class="mt-[200px]"
-    >
+
+    <div class="mt-[120px] w-full">
       <div
         class="font-NotoSansJP w-[654px] text-[16px] leading-[32px] font-[400]"
       >
