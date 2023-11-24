@@ -1,1 +1,0 @@
-import{_ as o}from"./LogisticsDXPlatform.vue_vue_type_script_setup_true_lang-c7444b77.js";import"./rhombic-d3e9827d.js";import"./app-74165c50.js";import"./video-chunk-5fea95d1.js";import"./GartnerCard.vue_vue_type_script_setup_true_lang-cdef0b5b.js";export{o as default};
