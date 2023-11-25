@@ -1,0 +1,1 @@
+import{d as o,a as e,o as a,c as s,t as c,f as r,G as t}from"./app-03c282fa.js";import"./video-chunk-5fea95d1.js";const f=o({__name:"[...all]",setup(l){const{t:n}=e();return(p,i)=>(a(),s("div",null,c(r(n)("not-found")),1))}});typeof t=="function"&&t(f);export{f as default};
