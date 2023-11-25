@@ -22,7 +22,8 @@ const menus: MenuItems[][] = [
       href: '/message-from-president',
       align: 'center'
     },
-    { id: 3, title: '会社概要', href: '/company-profile', align: 'right' }
+    { id: 3, title: '会社概要', href: '/company-profile', align: 'right' },
+    { id: 4, title: '関連会社', href: '/associated-company', align: 'left' }
     // { id: 4, title: 'イベント情報', href: '/event-information', align: 'left' }
   ],
   [

@@ -44,6 +44,13 @@ export const json: {
     checked: 1,
     MainPage: true
   },
+  '/associated-company': {
+    path: '/associated-company',
+    Parent_title: '企業情報',
+    name: '関連会社',
+    checked: 1,
+    MainPage: true
+  },
   '/healthcare-business': {
     path: '/healthcare-business',
     Parent_title: '事業概要',
