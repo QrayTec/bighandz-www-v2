@@ -126,8 +126,8 @@ if (SubPageTitleData.value.type === 2) {
   height: 390px;
 }
 .sub_page_Content_image_bg {
-  width: 350px;
-  height: 350px;
+  width: 280px;
+  height: 280px;
   background: #000;
 }
 .Image_line {
