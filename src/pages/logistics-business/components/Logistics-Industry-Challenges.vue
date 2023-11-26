@@ -13,11 +13,11 @@
     <div
       v-for="(item, index) in ChallengesData"
       :key="index"
-      class="mt-[60px] min-h-[360px] w-full flex justify-between"
+      class="mt-[60px] min-h-[360px] w-full flex justify-between text-[20px]"
     >
       <div
         :class="index % 2 != 0 ? 'order-1' : ''"
-        class="w-[calc(50%-15px)] flex flex-col justify-center text-[18px]"
+        class="w-[calc(50%-15px)] flex flex-col justify-center text-[20px]"
       >
         <ul class="w-full">
           <li

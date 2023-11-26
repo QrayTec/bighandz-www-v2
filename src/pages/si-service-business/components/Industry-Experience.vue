@@ -11,14 +11,14 @@
       様々な業界と技術経験
     </div>
     <div
-      class="font-NotoSansJP mt-[30px] w-full text-[18px] leading-[32px] font-[400]"
+      class="font-NotoSansJP mt-[30px] w-full text-[22px] leading-[32px] font-[400]"
     >
       これまでさまざまな業種・業界で多くの経験を積み、多くの技術を習得するとともに新技術も取り組んできております。
     </div>
     <div
       v-for="(item, index) in ExperienceData"
       :key="index"
-      class="mt-[60px] min-h-[360px] w-full flex justify-between"
+      class="mt-[60px] min-h-[360px] w-full flex justify-between text-[20px]"
     >
       <div
         :class="index % 2 != 0 ? 'order-1' : ''"

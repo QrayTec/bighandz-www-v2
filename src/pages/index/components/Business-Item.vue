@@ -59,7 +59,7 @@
           </div>
           <div
             data-aos="fade-up"
-            class="font-NotoSansJP mt-[15px] text-[18px] leading-[24px] font-[400]"
+            class="font-NotoSansJP mt-[15px] text-[20px] leading-[24px] font-[400]"
           >
             <p>{{ Data.info_content_1 }}</p>
             <p>{{ Data.info_content_2 }}</p>

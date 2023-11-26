@@ -8,7 +8,7 @@
       data-aos="slide-right"
     >
       <div
-        class="font-NotoSansJP font-feature-settings-cilg-liga text-[18px] leading-none font-[400] not-italic text-[#0e1b47]"
+        class="font-NotoSansJP font-feature-settings-cilg-liga text-[20px] leading-none font-[400] not-italic text-[#0e1b47]"
       >
         応募から採用までの流れをご説明しています。
       </div>
@@ -18,7 +18,7 @@
       v-for="item in RecruitmentData"
       :id="item.anchor"
       :key="item.id"
-      class="font-NotoSansJP font-feature-settings-cilg-liga mt-[60px] text-[18px] leading-none font-[400] not-italic text-[#0e1b47]"
+      class="font-NotoSansJP font-feature-settings-cilg-liga mt-[60px] text-[20px] leading-none font-[400] not-italic text-[#0e1b47]"
     >
       <steps :stepsdata="StepsData[RecruitmentData.indexOf(item)]" />
       <div
@@ -44,7 +44,7 @@
     >
       <hr class="hr mt-[30px]" />
       <div
-        class="font-NotoSansJP .font-feature-settings-cilg-liga mt-[60px] text-[18px] leading-[32px] font-[400] not-italic text-[#6785c1]"
+        class="font-NotoSansJP .font-feature-settings-cilg-liga mt-[60px] text-[20px] leading-[32px] font-[400] not-italic text-[#6785c1]"
       >
         <p>※応募から内定までの間、1～2か月程度のお時間をいただきます。</p>
         <p class="mt-[30px]">

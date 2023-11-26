@@ -11,17 +11,17 @@
       クラウド強化戦略
     </div>
     <div
-      class="font-NotoSansJP mt-[30px] w-full text-[18px] leading-[32px] font-[400]"
+      class="font-NotoSansJP mt-[30px] w-full text-[22px] leading-[32px] font-[400]"
     >
       インフラ分野では、クラウド関連事業を重点的に強化する⽅針を決定し、AWS、Azure、OCIのアプリケーションやプラットホームの開発、中国内で圧倒的な市場シェアを持つ『アリババクラウド』の構築・運⽤・保守といったトレンドの技術を⽤いたスケールの⼤きな案件をこれまで担ってきております。
     </div>
     <div
-      class="font-NotoSansJP mt-[30px] w-full text-[18px] leading-[32px] font-[400]"
+      class="font-NotoSansJP mt-[30px] w-full text-[22px] leading-[32px] font-[400]"
     >
       ⼤規模案件や社会貢献性の⾼い案件に取り組めるのは、これまでの実績がある当社だからと自負しております。
     </div>
     <div
-      class="font-NotoSansJP mt-[30px] w-full text-[18px] leading-[32px] font-[400]"
+      class="font-NotoSansJP mt-[30px] w-full text-[22px] leading-[32px] font-[400]"
     >
       インフラは企業の生命線となる根幹であり、あらゆる対応にSPEED感と状況に応じオフショアのリソースPOWERを活用し対応しております。
     </div>

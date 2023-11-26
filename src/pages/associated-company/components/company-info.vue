@@ -18,7 +18,7 @@
           class="borer-[#6785C1] mt-[4px] w-full border-t-1 border-dashed"
         ></div>
         <div
-          class="font-NotoSansJP mt-[20px] w-full text-[18px] leading-[32px] font-[400] text-[#0E1B47]"
+          class="font-NotoSansJP mt-[20px] w-full text-[20px] leading-[32px] font-[400] text-[#0E1B47]"
         >
           <div
             v-for="items in item.list"

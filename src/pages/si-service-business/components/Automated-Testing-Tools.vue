@@ -43,7 +43,8 @@
         <div class="w-[calc(50%-15px)] flex items-end justify-center">
           <div class="max-h-[480px] min-h-[320px] w-[80%]">
             <img
-              class="max-h-[480px] min-h-[320px] w-full"
+              class="max-h-[480px] min-h-[320px]"
+              :class="index === 2 ? 'w-[320px]' : 'w-full'"
               :src="item.Image"
               alt=""
             />

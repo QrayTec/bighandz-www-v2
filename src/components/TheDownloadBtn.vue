@@ -12,7 +12,7 @@
         srcset=""
       />
       <p
-        class="font-NotoSansJP ml-[16px] text-[18px] leading-none font-[400] not-italic text-[#fff]"
+        class="font-NotoSansJP ml-[16px] text-[20px] leading-none font-[400] not-italic text-[#fff]"
       >
         テンプレートのダウンロード
       </p>

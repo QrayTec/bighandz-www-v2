@@ -11,7 +11,7 @@
       物流全般管理
     </div>
     <div
-      class="font-NotoSansJP mt-[30px] text-[20px] font-[700] text-[#071027]"
+      class="font-NotoSansJP mt-[30px] text-[24.5px] font-[700] text-[#071027]"
     >
       vTradeExは物流マネージメントに必要な機能をすべて網羅できる構成となっています。
     </div>
@@ -19,7 +19,7 @@
     <div
       v-for="(item, index) in ManagementData"
       :key="index"
-      class="mt-[60px] min-h-[360px] w-full flex justify-between"
+      class="mt-[60px] min-h-[360px] w-full flex justify-between text-[20px]"
     >
       <div
         :class="index % 2 != 0 ? 'order-1' : ''"
@@ -33,7 +33,7 @@
             class="w-full p-[20px]"
             :style="{ background: items.Color }"
           >
-            <p class="font-NotoSansJP text-[20px] font-[700]">
+            <p class="font-NotoSansJP text-[24.5px] font-[700]">
               {{ items.title }}
             </p>
             <p class="mt-[10px]">{{ items.list }}</p>
@@ -52,7 +52,7 @@
     </div>
     <div class="mt-[120px] w-full">
       <div
-        class="font-NotoSansJP w-[654px] text-[18px] leading-[32px] font-[400]"
+        class="font-NotoSansJP w-[654px] text-[20px] leading-[32px] font-[400]"
       >
         物流戦略の策定からシステム構築、保守・運用サービス、倉庫運営支援まで一気通貫でお客様にサービスを提供します
       </div>

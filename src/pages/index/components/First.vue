@@ -35,7 +35,7 @@
             「IT×ビジネス×教育」× SPEED ＝ POWER
           </div> -->
           <div
-            class="font-NotoSansJP mt-[60px] text-[20px] font-[400] text-white"
+            class="font-NotoSansJP mt-[60px] text-[24.5px] font-[400] text-white"
           >
             <p>
               最先端のテクノロジーを追求し

@@ -10,7 +10,9 @@
     >
       バスで行く
     </div>
-    <div class="mt-[60px] min-h-[360px] w-full flex justify-between">
+    <div
+      class="mt-[60px] min-h-[360px] w-full flex justify-between text-[20px]"
+    >
       <div class="w-[calc(50%-15px)] flex justify-start">
         <div class="w-full">
           <img

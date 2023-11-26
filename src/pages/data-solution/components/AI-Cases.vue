@@ -11,7 +11,7 @@
       AI事例
     </div>
     <div
-      class="font-NotoSansJP mt-[60px] w-[654px] text-[18px] leading-[32px] font-[400]"
+      class="font-NotoSansJP mt-[60px] w-[654px] text-[20px] leading-[32px] font-[400]"
     >
       AI事例：現新比較の画面差分の自動識別<br />
       本システムはREST

@@ -10,23 +10,23 @@
       未経験者
     </div>
     <div class="font-NotoSansJP flex text-[24px] font-[500]"></div>
-    <div class="font-NotoSansJP mt-[30px]">
+    <div class="font-NotoSansJP mt-[30px] text-[20px]">
       エンジニアの希望を最優先に考える会社です。社員が皆明るく、働きやすい職場を目指しています。
     </div>
-    <div class="font-NotoSansJP mt-[30px]">
+    <div class="font-NotoSansJP mt-[30px] text-[20px]">
       当社では、人材は大切な財産だと考えております。本人の希望に沿ったプロジェクトにアサインしたり、バックアップなどにより、長く働いていたいと思える職場環境を整える
       ため、常に努力を行っております。
     </div>
-    <div class="font-NotoSansJP mt-[30px]">
+    <div class="font-NotoSansJP mt-[30px] text-[20px]">
       ビッグハンズは、日本と中国でシステムを同時開発ができる会社として設立しました。
     </div>
-    <div class="font-NotoSansJP mt-[30px]">
+    <div class="font-NotoSansJP mt-[30px] text-[20px]">
       全てのユーザーが容易に、かつ安心して開発したシステムを利用できるようになることを目標として、成長を続けてきた会社です。す。
     </div>
-    <div class="font-NotoSansJP mt-[30px]">
+    <div class="font-NotoSansJP mt-[30px] text-[20px]">
       即戦力はもちろん必要ですが、その候補となる人材も同時に募集いたします。選考にあたり、システム開発経験はあまり重視いたしません。
     </div>
-    <div class="font-NotoSansJP mt-[30px]">
+    <div class="font-NotoSansJP mt-[30px] text-[20px]">
       技術力に自信のない方には、個人のレベルに合わせた教育研修制度をご用意しております。
       ＯＪＴはもちろん、
       新たな技術やツールなどの教育をマンツーマンに近い状態であなたの成長をサポートして行きますので、
@@ -35,7 +35,9 @@
     </div>
 
     <div class="mt-[120px]">
-      <div class="mt-[60px] min-h-[360px] w-full flex justify-between">
+      <div
+        class="mt-[60px] min-h-[360px] w-full flex justify-between text-[20px]"
+      >
         <div class="w-full flex justify-between py-[30px]">
           <ul
             v-for="(item, index) in SalaryData"

@@ -10,15 +10,15 @@
       経験者
     </div>
     <div class="font-NotoSansJP flex text-[24px] font-[500]"></div>
-    <div class="font-NotoSansJP mt-[30px]">
+    <div class="font-NotoSansJP mt-[30px] text-[20px]">
       開発エンジニア（システムエンジニア／プログラマ）、インフラ基盤系エンジニア及び営業を募集しています。ご自身が持っているスキル・経験を活かしたい方、キャリアアップを目指している方、収入増を目指している方は、是非ともご応募ください。お待ちしています。
       私たちといっしょに夢を実現しませんか。
     </div>
 
     <div class="mt-[120px]">
-      <p class="font-bold">開発エンジニア</p>
+      <p class="text-[22px] font-bold">開発エンジニア</p>
       <div class="mt-[0px] min-h-[360px] w-full flex justify-between">
-        <div class="w-full flex justify-between py-[10px]">
+        <div class="w-full flex justify-between py-[10px] text-[20px]">
           <ul
             v-for="(item, index) in SalaryData"
             :key="index"
@@ -52,9 +52,9 @@
     </div>
 
     <div class="mt-[120px]">
-      <p class="font-bold">インフラ基盤系エンジニア</p>
+      <p class="text-[22px] font-bold">インフラ基盤系エンジニア</p>
       <div class="mt-[0px] min-h-[360px] w-full flex justify-between">
-        <div class="w-full flex justify-between py-[10px]">
+        <div class="w-full flex justify-between py-[10px] text-[20px]">
           <ul
             v-for="(item, index) in SalaryData2"
             :key="index"
@@ -87,8 +87,8 @@
       </div>
     </div>
 
-    <div class="mt-[120px]">
-      <p class="font-bold">コンサルティング営業</p>
+    <div class="mt-[120px] text-[20px]">
+      <p class="text-[22px] font-bold">コンサルティング営業</p>
       <p>
         提案先は、野村総研やNECグループ各社をはじめとする大手及び中堅SIer（システムインテグレーター）が中心です。
       </p>
@@ -97,7 +97,7 @@
         協力会社（ビジネスパートナー）を通じて、人材調達・人材管理も行っていただきます。
       </p>
       <div class="mt-[0px] min-h-[360px] w-full flex justify-between">
-        <div class="w-full flex justify-between py-[10px]">
+        <div class="w-full flex justify-between py-[10px] text-[20px]">
           <ul
             v-for="(item, index) in SalaryData3"
             :key="index"
@@ -129,7 +129,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-[60px]">
+    <div class="mt-[60px] text-[20px]">
       <table class="w-full">
         <tr class="mt-[20px] h-[150px] bg-[#f0f0f0] p-[10px]">
           <th class="w-[20%]">スキル</th>
@@ -170,7 +170,7 @@
         </tr>
       </table>
     </div>
-    <div class="mt-[120px]">
+    <div class="mt-[120px] text-[20px]">
       <p class="font-bold">
         上記の履歴書をクリックし、履歴書の書式ダウンロードして記入してください。（解凍ソフトが必要）
       </p>
@@ -202,7 +202,7 @@ const SalaryData = ref<SalaryType2[]>([
     content: [
       { list_1: 'スキル', flag: false },
       {
-        list_1: '・Java、C#等オープン系、Web系での開発経験のある方',
+        list_1: 'Java、C#等オープン系、Web系での開発経験のある方',
         flag: true
       }
     ]
