@@ -1,13 +1,16 @@
 <template>
   <div
-    class="bg-center-35 bg_image h-[1030px] w-full flex justify-center bg-no-repeat"
+    class="bg_image bg-center-35 h-[1030px] w-full flex justify-center bg-no-repeat"
   >
     <div class="w-[1200px]">
       <div
         data-aos="fade-in"
-        class="font-NotoSansJP mt-[120px] h-[54px] w-[144px] text-[36px] leading-[54px] font-[500] not-italic text-white"
+        class="font-NotoSansJP mt-[120px] h-[54px] text-[48px] leading-[54px] font-[500] not-italic text-white"
       >
         サービス
+      </div>
+      <div class="mt-[40px] text-[18px] text-gray">
+        ITからビジネスへ、ビジネスからITへ、教育からIT・ビジネスへと三位一体でスピーディに社会の発展に貢献しつづけます。
       </div>
       <div
         class="mt-[60px] flex flex-wrap"
