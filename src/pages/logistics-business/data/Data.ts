@@ -19,7 +19,7 @@ export const CombinedCardData = ref<GartnerCardDataType[]>([
     data: [
       {
         BackgroundImage: Iamge1,
-        className: 'w-[320px] translate-x-[-160px]',
+        className: 'w-[250px] translate-x-[-125px]',
         title_1: '無人',
         title_2: 'フォ—クリフト'
       }
@@ -30,19 +30,19 @@ export const CombinedCardData = ref<GartnerCardDataType[]>([
     data: [
       {
         BackgroundImage: Iamge2,
-        className: 'w-[320px]',
+        className: 'w-[250px]',
         title_1: 'パレット',
         title_2: '倉庫'
       },
       {
         BackgroundImage: Iamge3,
-        className: 'w-[160px]',
+        className: 'w-[125px]',
         title_1: '自動倉庫',
         title_2: ''
       },
       {
         BackgroundImage: Iamge4,
-        className: 'w-[160px]',
+        className: 'w-[125px]',
         title_1: 'AGV',
         title_2: '搬送ロボット'
       }
@@ -53,19 +53,19 @@ export const CombinedCardData = ref<GartnerCardDataType[]>([
     data: [
       {
         BackgroundImage: Iamge5,
-        className: 'w-[320px]',
+        className: 'w-[250px]',
         title_1: 'AI',
         title_2: 'フォ—クリフト'
       },
       {
         BackgroundImage: Iamge6,
-        className: 'w-[320px]',
+        className: 'w-[250px]',
         title_1: '移動ラックピッ',
         title_2: 'キング'
       },
       {
         BackgroundImage: Iamge7,
-        className: 'w-[160px]',
+        className: 'w-[125px]',
         title_1: 'ロボットアーム',
         title_2: 'とAGVの連携'
       }
@@ -76,25 +76,25 @@ export const CombinedCardData = ref<GartnerCardDataType[]>([
     data: [
       {
         BackgroundImage: Iamge8,
-        className: 'w-[320px]',
+        className: 'w-[250px]',
         title_1: 'スキャンニング、品質検査など',
         title_2: ''
       },
       {
         BackgroundImage: Iamge9,
-        className: 'w-[160px]',
+        className: 'w-[125px]',
         title_1: 'コンペア、AGVとの連携作業',
         title_2: ''
       },
       {
         BackgroundImage: Iamge10,
-        className: 'w-[160px]',
+        className: 'w-[125px]',
         title_1: '自動入庫',
         title_2: ''
       },
       {
         BackgroundImage: Iamge11,
-        className: 'w-[320px]',
+        className: 'w-[250px]',
         title_1: 'コンベア制御',
         title_2: ''
       }

@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-Business h-[1030px] w-full flex justify-center">
+  <div
+    class="bg-center-35 bg_image h-[1030px] w-full flex justify-center bg-no-repeat"
+  >
     <div class="w-[1200px]">
       <div
         data-aos="fade-in"
@@ -7,7 +9,10 @@
       >
         サービス
       </div>
-      <div class="mt-[60px] flex flex-wrap">
+      <div
+        class="mt-[60px] flex flex-wrap"
+        data-aos="fade-up"
+      >
         <BusinessItem :businessitemdata="BusinessItemData[0]" />
         <div class="ml-[20px]">
           <div class="h-[290px] w-[890px] flex">
@@ -17,7 +22,7 @@
               :businessitemdata="BusinessItemData[2]"
             />
           </div>
-          <div class="mt-[20px] h-[290px] w-[890px] flex">
+          <div class="mt-[14px] h-[290px] w-[890px] flex">
             <BusinessItem :businessitemdata="BusinessItemData[3]" />
 
             <BusinessItem
@@ -78,17 +83,6 @@ const BusinessItemData = ref<BusinessItemType[]>([
     style: 'w-[590px] h-[287px]'
   },
   {
-    background_image: Bg4,
-
-    title: 'ヘルスケア事業',
-    title_icon: TitleIcon4,
-    info_content_1:
-      '中国の大学と連携し、最先端のIT技術教育、介護教育及びインターンを実施し、日本におけるIT業界、介護業界の人財不足解消に貢献いたします。',
-    info_content_2: '',
-    link: '/healthcare-business',
-    style: 'w-[590px] h-[287px]'
-  },
-  {
     background_image: Bg5,
     title: '物流事業',
     title_icon: TitleIcon5,
@@ -96,9 +90,23 @@ const BusinessItemData = ref<BusinessItemType[]>([
       '多種多様な業界における物流知見をベースに、物流における様々な課題をサプライチェーン全体の視点から解決し物流DX改革を実現します。',
     info_content_2: '',
     link: '/logistics-business',
+    style: 'w-[590px] h-[287px]'
+  },
+  {
+    background_image: Bg4,
+    title: 'ヘルスケア事業',
+    title_icon: TitleIcon4,
+    info_content_1: 'Comming Soon',
+    info_content_2: '',
+    link: '/',
     style: 'w-[287px] h-[287px]'
   }
 ])
 </script>
 
-<style scoped></style>
+<style scoped>
+.bg_image {
+  background-image: url('@/assets/images/pic_innovation_bg.png'),
+    linear-gradient(0deg, #111f4e 0%, #2e4a9e 100%);
+}
+</style>

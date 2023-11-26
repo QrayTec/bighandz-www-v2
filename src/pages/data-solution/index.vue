@@ -46,10 +46,10 @@ const SolutionData = ref<SolutionType>({
   title: 'ニューラルコンピュータ―統計物理学からのアプローチ ',
   Image: PublicationsImage,
   content: [
-    { list: '出版社 :トッパン (1994/5/1)' },
     {
       list: 'J. ハーツ (著), R.G. パルマー (著), A. クロー (著), 呉 勇 (翻訳),  笹川 辰弥 (翻訳)'
     },
+    { list: '出版社 :トッパン (1994/5/1)' },
     {
       list: '神経細胞の構造にヒントを得て考え出されたのが、神経回路網的な計算を行うニューラルコンピュータである。その計算理論の入門書である)'
     }
@@ -65,14 +65,18 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#AI-Innovation-Business', anchor_title: 'AI革新ビジネス' },
+  // { id: 1, anchor: '#AI-Innovation-Business', anchor_title: 'AI革新ビジネス' },
+  // {
+  //   id: 2,
+  //   anchor: '#Technological-Evolution&Value-Addition',
+  //   anchor_title: '技術進化と付加価値'
+  // },
+  // { id: 3, anchor: '#AI-Quality&Efficiency', anchor_title: 'AI品質・効率化' },
   {
-    id: 2,
-    anchor: '#Technological-Evolution&Value-Addition',
-    anchor_title: '技術進化と付加価値'
+    id: 4,
+    anchor: '#AI-Innovation-Business',
+    anchor_title: 'AIによるビジネス革新'
   },
-  { id: 3, anchor: '#AI-Quality&Efficiency', anchor_title: 'AI品質・効率化' },
-  { id: 4, anchor: '#AI-Business&Development', anchor_title: 'AIビジネス展開' },
   { id: 5, anchor: '#AI-Cases', anchor_title: 'AI事例' },
 
   { id: 8, anchor: '#Publications', anchor_title: '出版物' }

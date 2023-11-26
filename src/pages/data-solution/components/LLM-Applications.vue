@@ -11,7 +11,7 @@
       LLMの応用(OSS)
     </div>
     <div
-      class="font-NotoSansJP mt-[60px] w-[654px] text-[16px] leading-[32px] font-[400]"
+      class="font-NotoSansJP mt-[60px] w-[654px] text-[18px] leading-[32px] font-[400]"
     >
       LLMの応用(OSS):Fine-tuningで安全なカスタマイズで差別化を加速
     </div>

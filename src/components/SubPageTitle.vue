@@ -1,6 +1,6 @@
 <template>
   <div
-    class="sub_page_main_box"
+    class="sub_page_main_box bg-center-35"
     :style="TitleBg"
   >
     <div class="sub_page_main">
@@ -16,7 +16,7 @@
               >{{ SubPageTitleData.TitleCn_1 }}</span
             >
             <span
-              :class="{ title_bold: SubPageTitleData.bold == 2 }"
+              :class="{ title_bold: SubPageTitleData.bold != 2 }"
               class="font-bold"
               >{{ SubPageTitleData.TitleCn_2 }}</span
             >
@@ -35,7 +35,7 @@
               alt=""
             />
           </div>
-          <div class="Image_line"></div>
+          <!-- <div class="Image_line"></div> -->
         </div>
       </div>
     </div>
@@ -45,22 +45,28 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
+import SubBg from '@/assets/images/pic_innovation_bg.png'
 
 const props = defineProps<{ data: SubPageTitleType }>()
 
 const SubPageTitleData = ref<SubPageTitleType>(props.data)
 
-// 背景style
 const TitleBg = {
-  background:
-    SubPageTitleData.value.type === 2
-      ? `linear-gradient(
+  background: ''
+}
+
+if (SubPageTitleData.value.type === 2) {
+  TitleBg.background = `linear-gradient(
     90deg,
     #0e1b47 0%,
     rgba(14, 27, 71, 0.6) 58.33%,
     rgba(14, 27, 71, 0.6) 100%
-  ),url('${SubPageTitleData.value.ImgSrc}') lightgray 50% / cover no-repeat `
-      : ''
+  ), url('${SubPageTitleData.value.ImgSrc}') 50% / cover no-repeat`
+} else if (SubPageTitleData.value.type === 1) {
+  TitleBg.background = `url('${SubBg}') 50% / cover no-repeat,linear-gradient( 
+    90deg,
+    #0e1b47 0%,
+    rgba(14, 27, 71, 1) 100%)`
 }
 </script>
 
@@ -76,7 +82,7 @@ const TitleBg = {
 }
 .sub_page_main {
   width: 1200px;
-  height: auto;
+  height: 480px;
   position: relative;
 }
 .Bread_Crumbs {
@@ -120,8 +126,8 @@ const TitleBg = {
   height: 390px;
 }
 .sub_page_Content_image_bg {
-  width: 390px;
-  height: 390px;
+  width: 280px;
+  height: 280px;
   background: #000;
 }
 .Image_line {
@@ -136,9 +142,6 @@ const TitleBg = {
   font-weight: 700;
 }
 @media screen and (min-width: 1200px) {
-  .sub_page_main {
-    height: 600px;
-  }
 }
 @media screen and (max-width: 1750px) {
   .sub_page_Content_image {
@@ -157,9 +160,6 @@ const TitleBg = {
   }
 }
 @media screen and (min-width: 788px) and (max-width: 1300px) {
-  .sub_page_main {
-    height: auto;
-  }
   .sub_page_Content {
     height: auto;
     display: flex;
@@ -191,9 +191,6 @@ const TitleBg = {
 }
 /* 在屏幕小于 786px 时应用的样式 */
 @media screen and (max-width: 786px) {
-  .sub_page_main {
-    height: auto;
-  }
   .sub_page_Content {
     height: auto;
     display: flex;

@@ -29,7 +29,13 @@
           class="mt-[20px] h-[32px] w-[33.33%]"
           :style="'  text-align: ' + item.align"
         >
-          <router-link :to="item.href">{{ item.title }}</router-link>
+          <!-- Bind ClickTitle method to router-link click event -->
+          <router-link
+            :to="item.href"
+            class="opacity-60 transition-all duration-800 hover:opacity-100"
+            @click="clickTitle"
+            >{{ item.title }}</router-link
+          >
         </div>
       </div>
     </div>
@@ -60,9 +66,10 @@ interface MenuTitle {
 const props = defineProps<{
   menudata: Menu_Items[]
   menuindex: number
+  clickTitle: (index: number) => void // Add clickTitle prop definition
 }>()
 
-const { menudata, menuindex } = toRefs(props)
+const { menudata, menuindex, clickTitle } = toRefs(props)
 
 const MenuDataTitle = ref<MenuTitle[]>([
   { id: 1, title: '企業情報', src: Information },

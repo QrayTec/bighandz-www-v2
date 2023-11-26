@@ -4,7 +4,7 @@
       <div class="Realization_title">企業理念の実現</div>
       <div class="Realization_min_text m_top_30">
         私たちは、よりお客様満足、より社員たちの喜び、永遠に追求します。<br /><br />
-        私たちは、ＳＩ事業を通して、日中間の架け橋の役割果たし、国、人種の垣根を越えた国際交流と経済発展に貢献します。
+        私たちは、ＳＩ事業を通して、国、人種の垣根を越えた国際交流と経済発展に貢献します。
       </div>
       <div class="Our_Way">
         <div class="Realization_title">Our Way</div>
@@ -39,7 +39,7 @@
             />
           </div>
         </div>
-        <div class="m_top_60 Employee_Code_of_Conduct">
+        <div class="Employee_Code_of_Conduct m_top_60">
           <div class="Realization_title">社員行動規範</div>
           <div class="m_top_30">
             <ul>

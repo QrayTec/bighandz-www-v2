@@ -1,9 +1,9 @@
 <template>
   <div class="w-full">
     <div class="flex justify-center">
-      <Movie />
+      <!-- <Movie /> -->
     </div>
-    <hr class="my-[80px] border-[1px] border-[#0E1B47] border-solid" />
+    <!-- <hr class="my-[80px] border-[1px] border-[#0E1B47] border-solid" /> -->
     <div class="flex justify-between">
       <div
         v-for="card in AdoptionCardData"
@@ -22,8 +22,16 @@ import graduates from '@/assets/images/adoption/graduates.png'
 import careers from '@/assets/images/adoption/careers.png'
 
 const AdoptionCardData = ref<AdoptionCardType[]>([
-  { BackgroundImage: graduates, title: '新卒採用', link: '#' },
-  { BackgroundImage: careers, title: 'キャリア採用', link: '#' }
+  {
+    BackgroundImage: graduates,
+    title: '新卒採用',
+    link: '/graduate-recruitment'
+  },
+  {
+    BackgroundImage: careers,
+    title: 'キャリア採用',
+    link: '/social-recruitment'
+  }
 ])
 </script>
 <style lang=""></style>

@@ -6,12 +6,20 @@
       class="h-full flex items-center justify-between py-[41px]"
       :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     >
-      <div class="h-[68px] w-[68px] flex items-center justify-center">
-        <router-link to="/">
+      <div class="h-full w-[68px] flex items-center justify-center">
+        <router-link
+          to="/"
+          class="h-full flex flex-col justify-between py-[5px]"
+        >
           <img
             src="/src/assets/images/logo.png"
             alt="logo"
-        /></router-link>
+          />
+          <img
+            src="/src/assets/images/logo_text.png"
+            alt="logo_text"
+          />
+        </router-link>
       </div>
       <div
         class="ml-[120px] h-[22px] w-[500px] flex items-center justify-between"
@@ -55,8 +63,8 @@ interface FooterNavData {
 
 const NavData = ref<FooterNavData[]>([
   { id: 1, title: 'ホーム', href: '/' },
-  { id: 1, title: '利用規約', href: '/CustomSize–2.pdf' },
-  { id: 1, title: '個人情報保護方針', href: '/CustomSize–1.pdf' }
+  { id: 1, title: '利用規約', href: '/terms-conditions' },
+  { id: 1, title: '個人情報保護方針', href: '/privacy-policy' }
 ])
 </script>
 

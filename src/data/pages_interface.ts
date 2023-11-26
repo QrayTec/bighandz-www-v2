@@ -29,3 +29,15 @@ export interface SolutionType {
   Image: string
   content: { list: string }[]
 }
+export interface NavLink {
+  id: number
+  title: string
+  href: string
+}
+
+export interface MenuItems {
+  id: number
+  title: string
+  href: string
+  align: string
+}

@@ -6,7 +6,7 @@
       :key="item.id"
       class="company_profile_box"
     >
-      <div class="company_profile_box_content">
+      <div class="company_profile_box_content my-[15px]">
         <div class="company_profile_box_title">{{ item.title }}</div>
         <div class="company_profile_text">
           <ul>
@@ -117,18 +117,18 @@ const CompanyProfile = ref<CompanyProfileType[]>([
   },
   {
     id: 3,
-    title: '代表取締役',
+    title: '役员',
     content: [
       {
-        list: '潘　若衛(ハン　ジャクエイ)',
+        list: '代表取缔役: 潘　若衛(ハン　ジャクエイ)',
         list_icon: ''
       },
       {
-        list: '取締役：福沢　雅子（フクザワ　マサコ）',
+        list: '取締役: 福沢　雅子（フクザワ　マサコ）',
         list_icon: ''
       },
       {
-        list: '取締役：呉　勇（ゴ　ユウ）',
+        list: '取締役: 呉　勇（ゴ　ユウ）',
         list_icon: ''
       }
     ]
@@ -243,7 +243,6 @@ const CompanyProfile = ref<CompanyProfileType[]>([
 .company_profile_box_content {
   display: flex;
   justify-content: center;
-  margin: 30px 0;
 }
 .company_profile_box_title {
   width: 28.3%;
@@ -259,7 +258,7 @@ const CompanyProfile = ref<CompanyProfileType[]>([
   width: 71.7%;
 }
 .company_profile_text li {
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
   color: #0e1b47;

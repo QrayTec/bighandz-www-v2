@@ -5,13 +5,13 @@
       <div class="Realization_min_text m_top_30">
         私たちのビジョンは、リーディングなITソリューションプロバイダーとなり、ビジネスとライフスタイルに影響を与え、変革することです。
       </div>
-      <div class="m_top_60">
+      <!-- <div class="m_top_60">
         <img
           class="Vision_Images"
           src="/src/assets/images/corporate-philosophy-management-policy/pic_vision.png"
           alt=""
         />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

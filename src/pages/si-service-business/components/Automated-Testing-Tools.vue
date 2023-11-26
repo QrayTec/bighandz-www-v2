@@ -39,8 +39,8 @@
           </li>
         </ul>
       </div>
-      <div class="w-[calc(50%-15px)]">
-        <div class="h-full w-full">
+      <div class="w-[calc(50%-15px)] flex items-center justify-center">
+        <div class="h-[80%] w-[80%]">
           <img
             class="h-full w-full"
             :src="item.Image"

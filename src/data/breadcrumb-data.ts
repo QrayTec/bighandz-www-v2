@@ -44,6 +44,13 @@ export const json: {
     checked: 1,
     MainPage: true
   },
+  '/associated-company': {
+    path: '/associated-company',
+    Parent_title: '企業情報',
+    name: '関連会社',
+    checked: 1,
+    MainPage: true
+  },
   '/healthcare-business': {
     path: '/healthcare-business',
     Parent_title: '事業概要',
@@ -126,6 +133,20 @@ export const json: {
     Parent_title: 'アクセスマップ',
     name: 'アクセスマップ',
     checked: 4,
+    MainPage: false
+  },
+  '/terms-conditions': {
+    path: '/terms-conditions',
+    Parent_title: '利用規約',
+    name: '利用規約',
+    checked: 0,
+    MainPage: false
+  },
+  '/privacy-policy': {
+    path: '/terms-conditions',
+    Parent_title: '個人情報保護方針',
+    name: '個人情報保護方針',
+    checked: 0,
     MainPage: false
   }
 }

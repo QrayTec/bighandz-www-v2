@@ -18,7 +18,7 @@
           {{ PublicationsData.title }}
         </div>
         <div
-          class="font-NotoSansJP w-full text-[16px] leading-[32px] font-[400] text-[#0E1B47]"
+          class="font-NotoSansJP w-full text-[18px] leading-[32px] font-[400] text-[#0E1B47]"
         >
           <ul class="mt-[20px] w-full">
             <li

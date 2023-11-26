@@ -17,7 +17,7 @@
     >
       <div
         :class="index % 2 != 0 ? 'order-1' : ''"
-        class="w-[calc(50%-15px)] flex flex-col justify-center"
+        class="w-[calc(50%-15px)] flex flex-col justify-center text-[18px]"
       >
         <ul class="w-full">
           <li
