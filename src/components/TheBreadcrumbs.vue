@@ -1,5 +1,8 @@
 <template>
-  <div class="Route_Breadcrumbs">
+  <div
+    v-show="flag"
+    class="Route_Breadcrumbs"
+  >
     <div class="flex cursor-pointer items-center">
       <div
         class="font-NotoSansJP h-[16px] text-[18px] leading-[16px] font-[400] text-[#fff]"
@@ -37,6 +40,8 @@ const MainPage = ref<boolean>(true)
 
 const $route = useRoute()
 
+const flag = ref<boolean>(false)
+
 const getPageTitle = () => {
   const routePath = $route.path
   const pageData = json[routePath.toLowerCase()] // 将路由路径转换为小写
@@ -47,6 +52,7 @@ const getPageTitle = () => {
     ParentTitle.value = pageData.Parent_title
     IndexTitle.value = pageData.name
     MainPage.value = pageData.MainPage
+    flag.value = true
     return pageData.name
   }
   return 'Unknown Page'
