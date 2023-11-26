@@ -9,7 +9,7 @@
             イノベーション
           </div>
           <div
-            class="font-NotoSansJP mt-[30px] text-[16px] leading-[32px] font-[400] text-[#071027]"
+            class="font-NotoSansJP mt-[30px] text-[18px] leading-[32px] font-[400] text-[#071027]"
           >
             私たちは常に新しいアイデア、新しい方法、新しい技術を追求し、自身と顧客のイノベーションを推進します。
           </div>

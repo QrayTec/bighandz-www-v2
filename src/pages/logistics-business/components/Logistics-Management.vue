@@ -51,7 +51,7 @@
     </div>
     <div class="mt-[120px] w-full">
       <div
-        class="font-NotoSansJP w-[654px] text-[16px] leading-[32px] font-[400]"
+        class="font-NotoSansJP w-[654px] text-[18px] leading-[32px] font-[400]"
       >
         物流戦略の策定からシステム構築、保守・運用サービス、倉庫運営支援まで一気通貫でお客様にサービスを提供します
       </div>

@@ -11,7 +11,7 @@
       先進SIサービス
     </div>
     <div
-      class="font-NotoSansJP mt-[30px] w-full text-[16px] leading-[32px] font-[400]"
+      class="font-NotoSansJP mt-[30px] w-full text-[18px] leading-[32px] font-[400]"
     >
       <p>
         これまでの、さまざまな業種・業界のシステム構築経験を活かし、導入フェーズから構築・運用・保守まで一貫したSIサービスを提供しております。
@@ -51,7 +51,7 @@
       </div>
     </div>
     <div
-      class="font-NotoSansJP mt-[30px] w-full text-[16px] leading-[32px] font-[400]"
+      class="font-NotoSansJP mt-[30px] w-full text-[18px] leading-[32px] font-[400]"
     >
       このように、IT技術の進化が激しいこの時代に、SPEED感をもって、これまでの経験値、最先端のIT技術、オフショアリソースPOWERを最大限活用し、お客様の要望に沿ったシステム構築を行っております
     </div>

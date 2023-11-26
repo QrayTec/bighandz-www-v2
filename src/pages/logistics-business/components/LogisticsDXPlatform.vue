@@ -18,7 +18,7 @@
           v-for="(item, index) in ChallengesData"
           :key="index"
           :class="index % 2 != 0 ? 'order-1' : ''"
-          class="w-[40%] flex flex-col justify-center"
+          class="w-[40%] flex flex-col justify-center text-[18px]"
         >
           <ul class="w-full">
             <li
@@ -68,7 +68,7 @@
 
     <div class="mt-[120px] w-full">
       <div
-        class="font-NotoSansJP w-[654px] text-[16px] leading-[32px] font-[400]"
+        class="font-NotoSansJP w-[654px] text-[18px] leading-[32px] font-[400]"
       >
         物流DX導入に際し、お客様の事業戦略と、業務のどこに課題があるか分析し、物流戦略への落とし込み、ゴールを設定し、喫緊の課題対策としての個別最適はもとより、将来を見据えたサプライチェーン全体での最適化、高度化を支援いたします。
       </div>

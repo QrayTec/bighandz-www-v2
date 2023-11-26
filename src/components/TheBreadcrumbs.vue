@@ -2,7 +2,7 @@
   <div class="Route_Breadcrumbs">
     <div class="flex cursor-pointer items-center">
       <div
-        class="font-NotoSansJP h-[16px] text-[16px] leading-[16px] font-[400] text-[#fff]"
+        class="font-NotoSansJP h-[16px] text-[18px] leading-[16px] font-[400] text-[#fff]"
         :class="{ 'opacity-40': MainPage, 'opacity-1-0': !MainPage }"
       >
         {{ ParentTitle }}
@@ -19,7 +19,7 @@
       </div>
       <div
         v-if="MainPage"
-        class="font-NotoSansJP h-[16px] text-[16px] leading-[16px] font-[400] text-[#fff]"
+        class="font-NotoSansJP h-[16px] text-[18px] leading-[16px] font-[400] text-[#fff]"
       >
         {{ IndexTitle }}
       </div>

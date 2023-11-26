@@ -11,7 +11,7 @@
       運用効率向上
     </div>
     <div
-      class="font-NotoSansJP mt-[30px] w-full text-[16px] leading-[32px] font-[400]"
+      class="font-NotoSansJP mt-[30px] w-full text-[18px] leading-[32px] font-[400]"
     >
       運用改善の提案、定常作業のオフショア活用により運用コスト削減に貢献、24時間365日のSEによる運用保守対応。<br />仮想化技術者も多数在籍しております。
     </div>

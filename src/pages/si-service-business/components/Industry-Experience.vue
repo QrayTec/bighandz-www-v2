@@ -11,7 +11,7 @@
       様々な業界と技術経験
     </div>
     <div
-      class="font-NotoSansJP mt-[30px] w-full text-[16px] leading-[32px] font-[400]"
+      class="font-NotoSansJP mt-[30px] w-full text-[18px] leading-[32px] font-[400]"
     >
       これまでさまざまな業種・業界で多くの経験を積み、多くの技術を習得するとともに新技術も取り組んできております。
     </div>
