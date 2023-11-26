@@ -13,39 +13,41 @@
     <div
       v-for="(item, index) in ExperienceData"
       :key="index"
-      class="mt-[60px] min-h-[360px] w-full flex justify-between"
+      class="mt-[60px] min-h-[360px] w-full flex flex-col justify-between"
     >
-      <div
-        :class="index % 2 != 0 ? 'order-1' : ''"
-        class="w-[calc(50%-15px)] flex flex-col justify-between"
-      >
-        <div class="font-NotoSansJP text-[36px] font-[700] text-[#071027]">
-          {{ item.title }}
-        </div>
-        <ul class="w-full">
-          <li
-            v-for="(items, i) in item.content"
-            :key="i"
-            class="mt-[30px] w-full flex px-[30px]"
-          >
-            <div class="mt-[5px] h-full min-w-[16px]">
-              <img
-                class="h-16px w-[16px]"
-                src="@/assets/images/company_profile/rhombic.svg"
-                alt=""
-              />
-            </div>
-            <p class="ml-[10px]">{{ items.list }}</p>
-          </li>
-        </ul>
+      <div class="font-NotoSansJP text-[36px] font-[700] text-[#071027]">
+        {{ item.title }}
       </div>
-      <div class="w-[calc(50%-15px)] flex items-center justify-center">
-        <div class="h-[80%] w-[80%]">
-          <img
-            class="h-full w-full"
-            :src="item.Image"
-            alt=""
-          />
+      <div class="mt-[50px] h-auto w-full flex justify-between">
+        <div
+          :class="index % 2 != 0 ? 'order-1' : ''"
+          class="w-[calc(50%-15px)] flex flex-col justify-end"
+        >
+          <ul class="h-full w-full flex flex-col justify-between">
+            <li
+              v-for="(items, i) in item.content"
+              :key="i"
+              class="mt-[30px] w-full flex px-[30px]"
+            >
+              <div class="mt-[5px] h-full min-w-[16px]">
+                <img
+                  class="h-16px w-[16px]"
+                  src="@/assets/images/company_profile/rhombic.svg"
+                  alt=""
+                />
+              </div>
+              <p class="ml-[10px]">{{ items.list }}</p>
+            </li>
+          </ul>
+        </div>
+        <div class="w-[calc(50%-15px)] flex items-end justify-center">
+          <div class="max-h-[480px] min-h-[320px] w-[80%]">
+            <img
+              class="max-h-[480px] min-h-[320px] w-full"
+              :src="item.Image"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>

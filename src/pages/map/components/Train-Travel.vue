@@ -61,8 +61,4 @@ const ListData = ref<ListType[]>([
   }
 ])
 </script>
-<style>
-.test {
-  width: calc();
-}
-</style>
+<style></style>

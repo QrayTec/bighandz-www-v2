@@ -9,36 +9,46 @@
       :id="item.id"
       :key="index"
       data-aos="fade-in"
-      class="mt-[60px] h-[380px] w-full flex justify-between"
+      class="mt-[80px] w-full flex flex-col justify-between"
     >
       <div
-        :class="index % 2 != 0 ? 'order-1 items-start' : 'items-end'"
-        class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]"
+        class="h-[80px] max-w-[480px] flex justify-center bg-[#6785C1] px-[44px] py-[17px] text-[36px] font-[500] text-white"
       >
-        <div
-          class="h-[80px] max-w-[480px] flex justify-center bg-[#6785C1] px-[44px] py-[17px] text-[36px] font-[500] text-white"
-        >
-          {{ item.title }}
-        </div>
-        <div
-          class="font-NotoSansJP w-full text-[18px] leading-[32px] font-[400] text-[#0E1B47]"
-        >
-          <p
-            v-for="(items, index) in item.content"
-            :key="index"
-          >
-            {{ items.list_1 }}<br v-if="items.list_2" />
-            {{ items.list_2 }}<br v-if="items.list_3" />
-            {{ items.list_3 }}
-          </p>
-        </div>
+        {{ item.title }}
       </div>
-      <div class="w-[calc(50%-15px)]">
-        <img
-          class="h-full w-full object-cover"
-          :src="item.Image"
-          alt=""
-        />
+      <div class="mt-[30px] w-full flex justify-between">
+        <div
+          :class="index % 2 != 0 ? 'order-1 items-start' : 'items-end'"
+          class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]"
+        >
+          <div
+            class="font-NotoSansJP h-full w-full text-[18px] leading-[32px] font-[400] text-[#0E1B47]"
+          >
+            <div
+              v-for="(items, i) in item.content"
+              :key="i"
+              class="h-full w-full flex flex-col justify-between"
+            >
+              <p>
+                {{ items.list_1 }}
+              </p>
+              <p>
+                {{ items.list_2 }}
+              </p>
+              <p>
+                {{ items.list_3 }}
+              </p>
+            </div>
+            <p></p>
+          </div>
+        </div>
+        <div class="w-[calc(50%-15px)]">
+          <img
+            class="h-[320px] w-full object-cover"
+            :src="item.Image"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   </div>
