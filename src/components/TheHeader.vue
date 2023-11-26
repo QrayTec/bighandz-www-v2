@@ -6,17 +6,19 @@
     >
       <div class="w-[1780px] flex items-center justify-between bg-transparent">
         <div
-          class="h-full w-[68px] flex items-center transition-all duration-800 hover:opacity-60"
+          class="h-full w-[200px] flex items-center transition-all duration-800 hover:opacity-60"
         >
           <router-link
             to="/"
-            class="h-full flex flex-col justify-between py-[5px]"
+            class="h-full flex items-center justify-between py-[5px]"
           >
             <img
+              class="w-[76px]"
               src="/src/assets/images/logo.png"
               alt="logo"
             />
             <img
+              class="h-[16px] w-[calc(100%-86px)]"
               src="/src/assets/images/logo_text.png"
               alt="logo_text"
             />
