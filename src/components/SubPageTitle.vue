@@ -82,7 +82,7 @@ if (SubPageTitleData.value.type === 2) {
 }
 .sub_page_main {
   width: 1200px;
-  height: auto;
+  height: 480px;
   position: relative;
 }
 .Bread_Crumbs {
@@ -126,8 +126,8 @@ if (SubPageTitleData.value.type === 2) {
   height: 390px;
 }
 .sub_page_Content_image_bg {
-  width: 390px;
-  height: 390px;
+  width: 350px;
+  height: 350px;
   background: #000;
 }
 .Image_line {
@@ -142,9 +142,6 @@ if (SubPageTitleData.value.type === 2) {
   font-weight: 700;
 }
 @media screen and (min-width: 1200px) {
-  .sub_page_main {
-    height: 600px;
-  }
 }
 @media screen and (max-width: 1750px) {
   .sub_page_Content_image {
@@ -163,9 +160,6 @@ if (SubPageTitleData.value.type === 2) {
   }
 }
 @media screen and (min-width: 788px) and (max-width: 1300px) {
-  .sub_page_main {
-    height: auto;
-  }
   .sub_page_Content {
     height: auto;
     display: flex;
@@ -197,9 +191,6 @@ if (SubPageTitleData.value.type === 2) {
 }
 /* 在屏幕小于 786px 时应用的样式 */
 @media screen and (max-width: 786px) {
-  .sub_page_main {
-    height: auto;
-  }
   .sub_page_Content {
     height: auto;
     display: flex;

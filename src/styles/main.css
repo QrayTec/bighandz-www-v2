@@ -89,7 +89,7 @@ body,
 }
 /* 页内导航 */
 .page_nav_sticky {
-  position: sticky;
+  /* position: sticky; */
   height: 140px;
   top: 76px;
   left: 0;

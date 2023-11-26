@@ -2,14 +2,23 @@
   <nav>
     <div
       ref="TabBar"
-      class="h-[80px] w-full flex items-center justify-center"
+      class="h-[75px] w-full flex items-center justify-center"
     >
       <div class="w-[1780px] flex items-center justify-between bg-transparent">
-        <div class="h-[68px] w-[68px] flex items-center">
-          <router-link to="/">
+        <div
+          class="h-full w-[68px] flex items-center transition-all duration-800 hover:opacity-60"
+        >
+          <router-link
+            to="/"
+            class="h-full flex flex-col justify-between py-[5px]"
+          >
             <img
               src="/src/assets/images/logo.png"
               alt="logo"
+            />
+            <img
+              src="/src/assets/images/logo_text.png"
+              alt="logo_text"
             />
           </router-link>
         </div>

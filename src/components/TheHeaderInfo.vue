@@ -32,6 +32,7 @@
           <!-- Bind ClickTitle method to router-link click event -->
           <router-link
             :to="item.href"
+            class="opacity-60 transition-all duration-800 hover:opacity-100"
             @click="clickTitle"
             >{{ item.title }}</router-link
           >
