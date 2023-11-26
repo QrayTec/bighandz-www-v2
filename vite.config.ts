@@ -94,10 +94,10 @@ export default defineConfig({
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
+      includeAssets: ['favicon.png', 'safari-pinned-tab.png'],
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
+        name: 'BigHandz',
+        short_name: 'BigHandz',
         theme_color: '#ffffff',
         icons: [
           {
