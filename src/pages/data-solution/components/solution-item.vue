@@ -16,7 +16,7 @@
       >
         {{ item.title }}
       </div>
-      <div class="mt-[30px] w-full flex justify-between text-[20px]">
+      <div class="mt-[30px] h-auto w-full flex justify-between text-[20px]">
         <div
           :class="index % 2 != 0 ? 'order-1 items-start' : 'items-end'"
           class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]"
@@ -39,7 +39,6 @@
                 {{ items.list_3 }}
               </p>
             </div>
-            <p></p>
           </div>
         </div>
         <div class="w-[calc(50%-15px)]">
@@ -48,6 +47,35 @@
             :src="item.Image"
             alt=""
           />
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-[60px] w-full flex justify-between">
+      <div
+        v-for="(item, index) in SolutionData2"
+        :key="index"
+        class="h-full w-[33.33%]"
+      >
+        <div
+          class="flex justify-center bg-[#6785C1] py-[17px] text-[36px] font-[500] text-white"
+        >
+          {{ item.title }}
+        </div>
+        <div
+          v-for="(items, i) in item.content"
+          :key="i"
+          class="h-full w-full flex flex-col justify-between p-[20px] text-[20px]"
+        >
+          <p class="mt-[30px]">
+            {{ items.list_1 }}
+          </p>
+          <p class="mt-[30px]">
+            {{ items.list_2 }}
+          </p>
+          <p class="mt-[30px]">
+            {{ items.list_3 }}
+          </p>
         </div>
       </div>
     </div>
@@ -75,7 +103,10 @@ const SolutionData = ref<SolutionType[]>([
           'お客様のデータ価値最大化、あらたなビジネスモデル実現に貢献しております。'
       }
     ]
-  },
+  }
+])
+
+const SolutionData2 = ref<SolutionType[]>([
   {
     id: 'Technological-Evolution&Value-Addition',
 

@@ -14,7 +14,7 @@
           />
         </div>
       </div>
-      <div class="w-[calc(50%-15px)] flex">
+      <div class="w-[calc(50%-15px)] flex text-[20px]">
         <ul>
           <li
             v-for="item in ListData"
