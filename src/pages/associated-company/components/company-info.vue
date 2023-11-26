@@ -23,7 +23,7 @@
           <div
             v-for="items in item.list"
             :key="items.list_title"
-            class="mt-[12px] w-[445px] flex items-center"
+            class="mt-[12px] w-full flex items-center"
           >
             <img
               :src="items.icon"

@@ -14,7 +14,7 @@
         />
       </div>
 
-      <div class="absolute bottom-[125px]">
+      <div class="absolute bottom-[205px]">
         <div class="h-[77px] w-[1100px] flex translate-x-[-30px]">
           <img
             class="h-full"
@@ -29,11 +29,11 @@
           />
         </div>
         <div class="mt-[123.5px] w-[800px]">
-          <div
+          <!-- <div
             class="font-NotoSansJP h-[60px] w-[751px] flex items-center bg-[#597BE5] py-[3px] p-r-[12px] text-[36px] leading-none font-[700] not-italic text-white"
           >
             「IT×ビジネス×教育」× SPEED ＝ POWER
-          </div>
+          </div> -->
           <div
             class="font-NotoSansJP mt-[60px] text-[20px] font-[400] text-white"
           >

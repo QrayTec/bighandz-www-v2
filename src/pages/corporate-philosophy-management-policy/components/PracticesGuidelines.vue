@@ -39,7 +39,7 @@
             />
           </div>
         </div>
-        <div class="Employee_Code_of_Conduct m_top_60">
+        <!-- <div class="Employee_Code_of_Conduct m_top_60">
           <div class="Realization_title">社員行動規範</div>
           <div class="m_top_30">
             <ul>
@@ -52,7 +52,7 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -66,10 +66,11 @@ interface OurWayType {
   title: string
   content: string
 }
-interface CriterionType {
-  id: number
-  list: string
-}
+// interface CriterionType {
+//   id: number
+//   list: string
+// }
+
 const OurWayData = ref<OurWayType[]>([
   {
     id: 1,
@@ -102,15 +103,7 @@ const OurWayData = ref<OurWayType[]>([
       'わたしたちは、社員一人一人の個性と創造力を尊重し、可能性を大切にします。'
   }
 ])
-const CriterionData = ref<CriterionType[]>([
-  { id: 1, list: '１、明確な目標を持つ　　－　計画する' },
-  { id: 2, list: '２．プラス発想する　　　－　やってみる' },
-  { id: 3, list: '３．オーナー意識をもつ　－　参画、協力する' },
-  { id: 4, list: '４．走りながら考える　　－　すぐやる' },
-  { id: 5, list: '５．プロを目指す　　　　－　やり切る' },
-  { id: 6, list: '６．感謝の気持ちを持つ　－　相手を尊重する' },
-  { id: 7, list: '７．信頼関係をつくる　　－　時間を守る' }
-])
+
 const getClassByIndex = (index: number) => {
   switch (index) {
     case 1:

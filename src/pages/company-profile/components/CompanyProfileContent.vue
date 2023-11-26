@@ -117,10 +117,10 @@ const CompanyProfile = ref<CompanyProfileType[]>([
   },
   {
     id: 3,
-    title: '役员',
+    title: '役員',
     content: [
       {
-        list: '代表取缔役: 潘　若衛(ハン　ジャクエイ)',
+        list: '代表取締役: 潘　若衛(ハン　ジャクエイ)',
         list_icon: ''
       },
       {

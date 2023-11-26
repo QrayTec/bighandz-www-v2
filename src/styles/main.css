@@ -90,7 +90,7 @@ body,
 /* 页内导航 */
 .page_nav_sticky {
   /* position: sticky; */
-  height: 140px;
+  height: 76px;
   top: 76px;
   left: 0;
   z-index: 5;

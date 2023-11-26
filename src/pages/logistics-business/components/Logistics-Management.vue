@@ -15,6 +15,7 @@
     >
       vTradeExは物流マネージメントに必要な機能をすべて網羅できる構成となっています。
     </div>
+    <!-- <ManageItem class="mt-[60px]" /> -->
     <div
       v-for="(item, index) in ManagementData"
       :key="index"
@@ -67,6 +68,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
+// import ManageItem from './Manage-Item.vue'
 import { ManagementType } from '../types/index'
 import Change4 from '@/assets/images/logistics-business/Change_4.png'
 

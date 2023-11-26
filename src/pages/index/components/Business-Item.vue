@@ -6,7 +6,7 @@
     @mouseleave="infoFalse"
   >
     <img
-      class="absolute left-0 top-0 h-full w-full"
+      class="absolute left-0 top-0 h-full w-full object-cover"
       :src="Data.background_image"
       alt=""
     />
@@ -14,7 +14,7 @@
       class="absolute left-0 top-0 h-full w-full bg-[#2d2d2d] bg-opacity-50"
     ></div>
     <div
-      class="relative h-full w-full flex flex-wrap items-center justify-center text-white group-hover:block group-hover:bg-[#071027] group-hover:bg-opacity-60 group-hover:p-[40px]"
+      class="relative h-full w-full flex flex-wrap items-center justify-center text-white group-hover:block group-hover:bg-[#071027] group-hover:bg-opacity-60 group-hover:p-[30px]"
     >
       <div
         v-show="!infoFlag"
@@ -28,9 +28,10 @@
           />
         </div>
         <p
-          class="font-NotoSansJP mt-[10px] text-[24px] leading-[22px] font-[500] group-hover:ml-[10px] group-hover:mt-0"
+          class="font-NotoSansJP mt-[10px] text-center text-[24px] leading-[22px] font-[500] group-hover:ml-[10px] group-hover:mt-0"
         >
-          {{ Data.title }}
+          {{ Data.title_1 }}<br v-if="Data.title_2" />
+          {{ Data.title_2 }}
         </p>
       </div>
       <transition
@@ -52,7 +53,8 @@
             <p
               class="font-NotoSansJP mt-[10px] text-[24px] leading-[22px] font-[500] group-hover:ml-[10px] group-hover:mt-0"
             >
-              {{ Data.title }}
+              {{ Data.title_1 }}<br v-if="Data.title_2" />
+              {{ Data.title_2 }}
             </p>
           </div>
           <div
