@@ -18,7 +18,7 @@
         <ul>
           <li
             v-for="item in ListData"
-            :key="item.list"
+            :key="item.list_1"
             class="mt-[30px] flex"
           >
             <div class="mt-[5px] h-full min-w-[16px]">
@@ -28,9 +28,13 @@
                 alt=""
               />
             </div>
-            <p class="ml-[10px]">
-              {{ item.list }}
-            </p>
+            <div
+              v-if="item.list_1"
+              class="min-w-[50px]"
+            >
+              {{ item.list_1 }}
+            </div>
+            <div>{{ item.list_2 }}</div>
           </li>
         </ul>
       </div>
@@ -42,20 +46,25 @@ import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 interface ListType {
-  list: string
+  list_1?: string
+  list_2?: string
 }
 const ListData = ref<ListType[]>([
   {
-    list: '株式会社ビッグハンズ (英文名：BIGHANDZ CO. ,LTD.)'
+    list_2: '株式会社ビッグハンズ (英文名：BIGHANDZ CO. ,LTD.)'
   },
   {
-    list: '住所：〒104-0033 東京都中央区新川1丁目28番25号 東京ダイヤビルディング3号館2F'
+    list_1: '住所:',
+    list_2:
+      '〒104-0033 東京都中央区新川1丁目28番25号 東京ダイヤビルディング3号館2F'
   },
   {
-    list: '電話：03-6228-3468'
+    list_1: '電話:',
+    list_2: '03-6228-3468'
   },
   {
-    list: 'FAX：03-6228-3469'
+    list_1: 'FAX:',
+    list_2: '03-6228-3469'
   }
 ])
 </script>
