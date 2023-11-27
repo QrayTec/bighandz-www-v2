@@ -16,7 +16,7 @@
     <div class="m_b_240 healthcare_business">
       <div class="healthcare_business_box">
         <HealthcareBusinessItem />
-        <Brand />
+        <!-- <Brand /> -->
       </div>
     </div>
   </div>
@@ -31,7 +31,6 @@ import {
 } from '@/data/pages_interface'
 import methods from '@/data/methods'
 import HealthcareBusiness from '@/assets/images/sub_page_title/Healthcare_Business.png'
-import Brand from './components/Brand.vue'
 import HealthcareBusinessItem from './components/HealthcareBusinessItem.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
@@ -55,8 +54,8 @@ const PageNavData = ref<PageNavType[]>([
     anchor: '#Plans&Equipment',
     anchor_title: '介護・リハビリ機器'
   },
-  { id: 4, anchor: '#Nursing', anchor_title: '医療ツーリズム' },
-  { id: 5, anchor: '#Brand', anchor_title: 'ブランドの紹介' }
+  { id: 4, anchor: '#Nursing', anchor_title: '医療ツーリズム' }
+  // { id: 5, anchor: '#Brand', anchor_title: 'ブランドの紹介' }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })
 
