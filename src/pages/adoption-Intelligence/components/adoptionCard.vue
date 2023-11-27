@@ -9,24 +9,24 @@
     <div
       class="font-NotoSansJP relative left-0 top-0 h-full w-full bg-[#0E1B47] bg-opacity-40 px-[40px] text-white"
     >
-      <div class="pt-[240px] text-[24px] leading-[30px] font-[500]">
-        {{ CardData.title }}
-      </div>
-      <div class="mt-[30px]">
-        <a
-          :href="CardData.link"
-          class="flex"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      <a
+        :href="CardData.link"
+        class="flex flex-col"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="pt-[240px] text-[24px] leading-[30px] font-[500]">
+          {{ CardData.title }}
+        </div>
+        <div class="mt-[30px] w-full flex">
           <p>詳細はこちら</p>
           <img
             class="ml-[20px]"
             src="@/assets/images/index_Business/link.svg"
             alt=""
           />
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
   </div>
 </template>

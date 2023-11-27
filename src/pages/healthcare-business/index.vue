@@ -44,10 +44,18 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#Technology', anchor_title: 'リハビリテーション技術' },
-  { id: 2, anchor: '#Management', anchor_title: 'リハビリテーション管理' },
-  { id: 3, anchor: '#Plans&Equipment', anchor_title: 'リハビリプランと器具' },
-  { id: 4, anchor: '#Nursing', anchor_title: 'リハビリテーション看護' },
+  {
+    id: 1,
+    anchor: '#Technology',
+    anchor_title: '運営とコンサルティング  '
+  },
+  { id: 2, anchor: '#Management', anchor_title: '人材育成と紹介' },
+  {
+    id: 3,
+    anchor: '#Plans&Equipment',
+    anchor_title: '介護・リハビリ機器'
+  },
+  { id: 4, anchor: '#Nursing', anchor_title: '医療ツーリズム' },
   { id: 5, anchor: '#Brand', anchor_title: 'ブランドの紹介' }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })

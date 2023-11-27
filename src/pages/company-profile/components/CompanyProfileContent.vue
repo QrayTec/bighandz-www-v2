@@ -107,11 +107,7 @@ const CompanyProfile = ref<CompanyProfileType[]>([
       },
       {
         list: 'http://www.bighandz.co.jp',
-        list_icon: 'link'
-      },
-      {
-        list: 'info@bighandz.co.jp',
-        list_icon: 'mail'
+        list_icon: ''
       }
     ]
   },
@@ -120,15 +116,15 @@ const CompanyProfile = ref<CompanyProfileType[]>([
     title: '役員',
     content: [
       {
-        list: '代表取締役: 潘　若衛(ハン　ジャクエイ)',
+        list: '代表取締役: 潘　若衛',
         list_icon: ''
       },
       {
-        list: '取締役: 福沢　雅子（フクザワ　マサコ）',
+        list: '取締役: 福沢　雅子',
         list_icon: ''
       },
       {
-        list: '取締役: 呉　勇（ゴ　ユウ）',
+        list: '取締役: 呉　勇',
         list_icon: ''
       }
     ]
@@ -173,15 +169,15 @@ const CompanyProfile = ref<CompanyProfileType[]>([
       },
       {
         list: '各種コンピュータソフトの企画、開発、設計、保守並びに売買',
-        list_icon: 'rhombic'
+        list_icon: ''
       },
       {
         list: '各種の情報提供システム及び情報提供システムの開発、制作、保守、販売',
-        list_icon: 'rhombic'
+        list_icon: ''
       },
       {
         list: '情報処理システム開発の計画作成又はプログラムの設計技術者の支援貿易関連事業',
-        list_icon: 'rhombic'
+        list_icon: ''
       }
     ]
   },
@@ -201,7 +197,7 @@ const CompanyProfile = ref<CompanyProfileType[]>([
     content: [
       {
         list: '派１３-３０２８７４',
-        list_icon: 'link_2'
+        list_icon: ''
       }
     ]
   }

@@ -4,7 +4,7 @@
     <div class="philosophy_policy_box">
       <PracticesGuidelines />
       <Mission />
-      <Vision />
+      <!-- <Vision /> -->
       <Values />
     </div>
     <Innovation />
@@ -19,7 +19,6 @@ import Innovation from './components/Innovation.vue'
 import Mission from './components/Mission.vue'
 import PracticesGuidelines from './components/PracticesGuidelines.vue'
 import Values from './components/Values.vue'
-import Vision from './components/Vision.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '企業理念',

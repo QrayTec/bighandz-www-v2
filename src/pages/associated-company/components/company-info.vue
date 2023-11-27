@@ -31,7 +31,21 @@
             />
             <div class="ml-[6px] w-full flex justify-between">
               <div class="w-[25%]">{{ items.list_title }}</div>
-              <div class="w-[75%]">{{ items.list_info }}</div>
+              <div
+                v-if="items.list_info !== 'http: //www.qdhaien.cn/'"
+                class="w-[75%]"
+              >
+                {{ items.list_info }}
+              </div>
+              <a
+                v-if="items.list_info == 'http: //www.qdhaien.cn/'"
+                class="w-[75%]"
+                href="http://www.qdhaien.cn/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ items.list_info }}</a
+              >
             </div>
           </div>
         </div>

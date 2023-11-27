@@ -65,7 +65,7 @@
         <div
           v-for="(items, i) in item.content"
           :key="i"
-          class="h-full w-full flex flex-col justify-between p-[20px] text-[20px]"
+          class="font-NotoSansJP h-full w-full flex flex-col justify-between p-[20px] text-[20px] text-[#0E1B47]"
         >
           <p class="mt-[30px]">
             {{ items.list_1 }}

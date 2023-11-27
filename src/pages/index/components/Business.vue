@@ -103,9 +103,10 @@ const BusinessItemData = ref<BusinessItemType[]>([
     background_image: Bg4,
     title_1: 'ヘルスケア事業',
     title_icon: TitleIcon4,
-    info_content_1: 'Comming Soon',
+    info_content_1:
+      '中国における高齢者向けの介護問題解決を目指し、“自立支援介護”の理念と、日本の教育・医療・介護福祉分野の多くの施設とのパートナーシップを築き上げました。',
     info_content_2: '',
-    link: '/',
+    link: '/healthcare-business',
     style: 'w-[287px] h-[287px]'
   }
 ])
