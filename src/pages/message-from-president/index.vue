@@ -18,10 +18,7 @@
           <div class="message_content_text_main m_top_30">敬具</div>
 
           <div class="m_top_30 pic_Representative">
-            <img
-              src="/src/assets/images/MessageFromPresident/pic_Representative.png"
-              alt="pic_president"
-            />
+            <div class="message_content_text_main m_top_30">代表取締役</div>
           </div>
           <div class="pic_president_sign">
             <img
