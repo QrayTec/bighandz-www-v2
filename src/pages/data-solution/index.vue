@@ -75,7 +75,7 @@ const PageNavData = ref<PageNavType[]>([
   {
     id: 4,
     anchor: '#AI-Innovation-Business',
-    anchor_title: 'AIによるビジネス革新'
+    anchor_title: 'AIビジネス展開'
   },
   { id: 5, anchor: '#AI-Cases', anchor_title: 'AI事例' },
 

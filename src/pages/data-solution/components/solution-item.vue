@@ -93,7 +93,7 @@ import Solution4 from '@/assets/images/data-solution/Solution_4.jpg'
 const SolutionData = ref<SolutionType[]>([
   {
     id: 'AI-Innovation-Business',
-    title: 'AI革新ビジネス',
+    title: 'AIビジネス展開',
     Image: Solution1,
     content: [
       {
@@ -138,7 +138,7 @@ const SolutionData2 = ref<SolutionType[]>([
   },
   {
     id: 'AI-Business&Development',
-    title: 'AIビジネス展開',
+    title: 'AI革新ビジネス',
     Image: Solution4,
     content: [
       {
