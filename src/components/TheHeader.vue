@@ -10,17 +10,11 @@
         >
           <router-link
             to="/"
-            class="h-full flex items-center justify-between py-[5px]"
+            class="h-full w-full flex items-center justify-between py-[5px]"
           >
             <img
-              class="w-[76px]"
               src="/src/assets/images/logo.png"
               alt="logo"
-            />
-            <img
-              class="h-[16px] w-[calc(100%-86px)]"
-              src="/src/assets/images/logo_text.png"
-              alt="logo_text"
             />
           </router-link>
         </div>

@@ -15,16 +15,12 @@
       </div>
 
       <div class="absolute bottom-[205px]">
-        <div class="h-[77px] w-[1100px] flex translate-x-[-30px]">
+        <div
+          class="h-[77px] w-[1100px] flex translate-x-[-30px] translate-y-[-130px]"
+        >
           <img
             class="h-full"
-            src="/src/assets/images/index_main/speed_1.png"
-            alt=""
-          />
-          <div class="mx-[20px] h-full w-[5px] bg-white"></div>
-          <img
-            class="h-full"
-            src="/src/assets/images/index_main/speed_2.png"
+            src="/src/assets/images/index_main/pic_Speed_is_the_Power.png"
             alt=""
           />
         </div>
