@@ -11,7 +11,7 @@
       AIアセンブラ変換
     </div>
     <div
-      class="font-NotoSansJP mt-[60px] w-[654px] text-[20px] leading-[32px] font-[400]"
+      class="font-NotoSansJP mt-[60px] w-[654px] text-[20px] leading-[32px] font-[400] text-[#071027]"
     >
       生成AIを活用したアセンブラ解析・変換サービス<br />
       生成AIによる変換処理の説明責任（アカウンタビリティー）を考慮し、変換ソース作成とあわせて構造解析レポートおよびロジック解析レポートも作成します。

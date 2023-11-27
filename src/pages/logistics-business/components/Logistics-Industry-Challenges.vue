@@ -19,7 +19,7 @@
         :class="index % 2 != 0 ? 'order-1' : ''"
         class="w-[calc(50%-15px)] flex flex-col justify-center text-[20px]"
       >
-        <ul class="w-full">
+        <ul class="w-full text-[#071027]">
           <li
             v-for="(items, i) in item.content"
             :key="i"

@@ -18,7 +18,7 @@
     <div
       v-for="(item, index) in ExperienceData"
       :key="index"
-      class="mt-[60px] min-h-[360px] w-full flex justify-between text-[20px]"
+      class="mt-[60px] min-h-[360px] w-full flex justify-between text-[20px] text-[#071027]"
     >
       <div
         :class="index % 2 != 0 ? 'order-1' : ''"

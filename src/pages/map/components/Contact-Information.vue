@@ -19,7 +19,7 @@
           <li
             v-for="item in ListData"
             :key="item.list_1"
-            class="mt-[30px] flex"
+            class="mt-[30px] flex text-[#071027]"
           >
             <div class="mt-[5px] h-full min-w-[16px]">
               <img
