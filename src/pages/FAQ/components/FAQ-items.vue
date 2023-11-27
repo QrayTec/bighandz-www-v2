@@ -130,7 +130,7 @@ const FAQData = ref<FAQType[]>([
 
   /* 正文加粗 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -141,7 +141,7 @@ const FAQData = ref<FAQType[]>([
 
   /* 正文段落 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */
@@ -153,7 +153,7 @@ const FAQData = ref<FAQType[]>([
   font-feature-settings: 'clig' off, 'liga' off;
   /* 正文段落 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */

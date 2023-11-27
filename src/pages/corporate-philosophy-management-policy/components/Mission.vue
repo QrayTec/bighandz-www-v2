@@ -4,7 +4,7 @@
       <div class="Mission_Box_main">
         <div class="Mission_text">
           <div class="Realization_title m_top_60">使命</div>
-          <div class="Realization_min_text m_top_30">
+          <div class="Realization_min_text m_top_30 text-[20px]">
             私たちの使命は、顧客に優れた技術ソリューションとサービスを提供し、彼らがビジネス目標を達成し、信頼できるテクノロジーパートナーとなることを支援することです。
           </div>
         </div>
@@ -70,7 +70,7 @@
   color: #071027;
   /* 正文一级标题加粗 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;

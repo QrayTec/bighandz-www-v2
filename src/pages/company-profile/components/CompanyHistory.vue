@@ -1,7 +1,7 @@
 <template>
   <div class="company_profile_content">
     <div class="company_history_title">会社 · 沿革</div>
-    <div class="company_history_data m_t_60">
+    <div class="m_t_60 company_history_data">
       <ul class="company_history_data_box">
         <li
           v-for="item in CompanyHistoryData"
@@ -449,7 +449,7 @@ const CompanyHistoryData = ref<CompanyHistoryType[]>([
 .company_history_data_content_text {
   /* 正文段落 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */
@@ -503,7 +503,7 @@ const CompanyHistoryData = ref<CompanyHistoryType[]>([
 
   /* 正文段落 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 32px;

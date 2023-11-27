@@ -2,7 +2,7 @@
   <div
     id="AutomatedTestingTools"
     data-aos="fade-in"
-    class="w-full"
+    class="w-full text-[20px]"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div

@@ -157,7 +157,7 @@ const MovieData = ref<MovieType[]>([
 
   /* 正文加粗 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -177,7 +177,7 @@ const MovieData = ref<MovieType[]>([
 
   /* 正文段落 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */

@@ -264,7 +264,7 @@ const CompanyProfile = ref<CompanyProfileType[]>([
   color: #0e1b47;
   /* 正文段落 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */
@@ -280,7 +280,7 @@ const CompanyProfile = ref<CompanyProfileType[]>([
 .company_profile_clarification {
   color: #0e1b47;
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */

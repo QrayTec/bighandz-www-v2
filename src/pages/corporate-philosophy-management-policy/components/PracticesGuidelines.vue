@@ -143,7 +143,7 @@ const getClassByIndex = (index: number) => {
   color: #071027;
   /* 正文一级标题加粗 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
@@ -236,7 +236,7 @@ hr {
   color: #0e1b47;
   /* 正文 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

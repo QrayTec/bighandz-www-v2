@@ -144,7 +144,7 @@ const ListData = ref<ListType[]>([
   margin-top: 30px;
   /* 正文段落 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */

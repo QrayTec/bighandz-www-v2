@@ -2,7 +2,7 @@
   <div
     id="ExamplesAchievements"
     data-aos="fade-in"
-    class="w-full"
+    class="w-full text-[18px]"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div
