@@ -5,13 +5,13 @@ import { useHead } from '@vueuse/head'
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
-  title: 'Vitesse',
+  title: '株式会社ビッグハンズ',
   meta: [{ name: 'description', content: 'Opinionated Vite Starter Template' }],
   link: [
     {
       rel: 'icon',
       type: 'image/svg+xml',
-      href: '/favicon.svg'
+      href: '/icon.svg'
     }
   ]
 })

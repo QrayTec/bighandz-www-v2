@@ -16,3 +16,4 @@ package.json
 main.css
 tsconfig.json
 *.pdf
+public
