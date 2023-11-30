@@ -19,9 +19,7 @@
           />
         </router-link>
       </div>
-      <div
-        class="ml-[120px] h-[22px] w-[500px] flex items-center justify-between"
-      >
+      <div class="h-[22px] w-[650px] flex items-center justify-between">
         <div
           v-for="item in NavData"
           :key="item.id"
@@ -31,11 +29,7 @@
           <div
             class="mx-[20px] w-full flex justify-center text-[15px] text-[#fff]"
           >
-            <router-link
-              :to="item.href"
-              target="_blank"
-              >{{ item.title }}</router-link
-            >
+            <router-link :to="item.href">{{ item.title }}</router-link>
           </div>
         </div>
         <div class="h-[12px] w-[1px] bg-[#fff] bg-opacity-20"></div>
@@ -62,7 +56,8 @@ interface FooterNavData {
 const NavData = ref<FooterNavData[]>([
   { id: 1, title: 'ホーム', href: '/' },
   { id: 1, title: '利用規約', href: '/terms-conditions' },
-  { id: 1, title: '個人情報保護方針', href: '/privacy-policy' }
+  { id: 1, title: '個人情報保護方針', href: '/privacy-policy' },
+  { id: 1, title: 'お問い合わせ', href: '/contact-us' }
 ])
 </script>
 
