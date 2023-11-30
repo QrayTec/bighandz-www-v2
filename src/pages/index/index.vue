@@ -2,7 +2,7 @@
   <div class="index-page relative">
     <TheLoadng
       v-show="Loading"
-      class="absolute left-0 top-0 z-999999 bg-white"
+      class="fixed left-0 top-0 z-999999 bg-white"
     />
     <div class="index-bg">
       <div class="h-screen w-screen">
