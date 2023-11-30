@@ -70,7 +70,7 @@
           <div>
             <input
               v-model="name"
-              placeholder="例:ネコ"
+              placeholder="例:ビッグハンズ"
               class="mt-[20px] h-[50px] w-[240px] border rounded-[12px]"
               type="text"
             />
