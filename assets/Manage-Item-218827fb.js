@@ -1,1 +1,0 @@
-import{d as e,o as t,c as s,n as a,f as o,M as n,e as _}from"./app-b00df330.js";import"./video-chunk-5fea95d1.js";const c=_("div",{class:"h-[500px] w-[500px]"},"13",-1),r=[c],f=e({__name:"Manage-Item",setup(p){return(i,d)=>(t(),s("div",{style:a({width:o(n)+"px"})},r,4))}});export{f as default};
