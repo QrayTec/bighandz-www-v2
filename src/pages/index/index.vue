@@ -7,12 +7,12 @@
     <div class="index-bg">
       <div class="h-screen w-screen">
         <img
-          v-show="Loading"
+          ref="image"
           class="h-full w-full"
           src="@/assets/images/video.png"
           alt=""
         />
-        <video
+        <!-- <video
           v-show="!Loading"
           ref="video"
           class="h-screen w-screen object-cover"
@@ -20,7 +20,7 @@
           autoplay
           loop
           muted
-        ></video>
+        ></video> -->
       </div>
     </div>
 
@@ -40,25 +40,19 @@
 import { ref, onMounted, watchEffect } from 'vue'
 import First from './components/First.vue'
 import Business from './components/Business.vue'
-import videoFile from '@/assets/video/main_video.mp4'
 
-const video = ref<HTMLVideoElement>()
+const image = ref<HTMLImageElement>()
 const Loading = ref<boolean>(true)
 
 onMounted(() => {
   watchEffect(() => {
-    const videoElement = video.value
+    const imageElement = image.value
 
-    if (videoElement) {
-      videoElement.addEventListener('loadedmetadata', () => {
-        // 在事件回调中检查 readyState
-        if (videoElement.readyState === 1) {
-          // 视频加载完成
-          Loading.value = false
-          // 播放视频
-          videoElement.play()
-        }
-      })
+    if (imageElement) {
+      imageElement.onload = () => {
+        // 图像加载完成
+        Loading.value = false
+      }
     }
   })
 })
