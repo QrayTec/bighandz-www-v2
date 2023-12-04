@@ -6,10 +6,17 @@
     />
     <div class="index-bg">
       <div class="h-screen w-screen">
+        <img
+          v-show="Loading"
+          class="h-full w-full"
+          src="@/assets/images/video.png"
+          alt=""
+        />
         <video
+          v-show="!Loading"
           ref="video"
-          :src="videoFile"
           class="h-screen w-screen object-cover"
+          :src="videoFile"
           autoplay
           loop
           muted
@@ -29,12 +36,7 @@
   </div>
 </template>
 
-<route lang="yaml">
-meta:
-  layout: home
-</route>
 <script setup lang="ts">
-// import Field from './components/Field.vue'
 import { ref, onMounted, watchEffect } from 'vue'
 import First from './components/First.vue'
 import Business from './components/Business.vue'
@@ -42,6 +44,7 @@ import videoFile from '@/assets/video/main_video.mp4'
 
 const video = ref<HTMLVideoElement>()
 const Loading = ref<boolean>(true)
+
 onMounted(() => {
   watchEffect(() => {
     const videoElement = video.value
@@ -52,11 +55,14 @@ onMounted(() => {
         if (videoElement.readyState === 1) {
           // 视频加载完成
           Loading.value = false
+          // 播放视频
+          videoElement.play()
         }
       })
     }
   })
 })
+
 defineOptions({
   name: 'IndexPage'
 })
