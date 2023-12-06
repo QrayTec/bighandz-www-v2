@@ -14,8 +14,11 @@
       />
     </div>
     <div class="my-[120px] w-full flex flex-col items-center">
-      <CloudEnhancementStrategy />
-      <operational class="mt-[60px]" />
+      <Introduce />
+      <DevResults class="mt-[120px]" />
+      <Operations class="mt-[120px]" />
+      <InfrastructureBusiness class="mt-[120px]" />
+      <VirtualizationEngineer class="mt-[120px]" />
     </div>
   </div>
 </template>
@@ -29,8 +32,12 @@ import {
   PageNavStyleType
 } from '@/data/pages_interface'
 import DataSolution from '@/assets/images/sub_page_title/infrastructure-business.png'
-import CloudEnhancementStrategy from './components/Cloud-Enhancement-Strategy.vue'
-import operational from './components/operational-efficiency-improvement.vue'
+
+import Introduce from './components/Introduce.vue'
+import DevResults from './components/Dev-Results.vue'
+import Operations from './components/Operations.vue'
+import InfrastructureBusiness from './components/Infrastructure-Business.vue'
+import VirtualizationEngineer from './components/Virtualization-Engineer.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'インフラ',
