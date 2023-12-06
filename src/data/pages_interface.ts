@@ -26,8 +26,9 @@ export interface StepsType {
 }
 export interface SolutionType {
   title: string
+  title_2?: string
   Image: string
-  content: { list: string }[]
+  content: { list: string; list_2?: string }[]
 }
 export interface NavLink {
   id: number

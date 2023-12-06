@@ -19,13 +19,18 @@
       </div>
       <div class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]">
         <div class="flex flex-col">
-          <TheIconTitle>{{ PublicationsData.title }}</TheIconTitle>
+          <TheIconTitle>
+            <div class="w-[358px]">
+              <p>{{ PublicationsData.title }}</p>
+              <p class="text-right">{{ PublicationsData.title_2 }}</p>
+            </div>
+          </TheIconTitle>
           <ul class="mt-[60px]">
             <TheIconList
               v-for="(item, index) in PublicationsData.content"
               :key="index"
               :class="index === 0 ? '' : 'mt-[30px]'"
-              >{{ item.list }}</TheIconList
+              >{{ item.list }}<br />{{ item.list_2 }}</TheIconList
             >
           </ul>
         </div>

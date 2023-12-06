@@ -8,7 +8,7 @@
           alt=""
         />
       </div>
-      <p class="ml-[10px]">
+      <p class="text-deep_blue ml-[10px] text-[1rem] leading-[2rem] font-[400]">
         <slot></slot>
       </p>
     </li>

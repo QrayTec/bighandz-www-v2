@@ -9,7 +9,7 @@
         />
       </div>
       <p
-        class="text-cobalt_blue ml-[10px] flex items-center text-[1.5rem] leading-[30px] font-[700]"
+        class="text-cobalt_blue ml-[10px] w-full flex items-center text-[1.5rem] leading-[30px] font-[700]"
       >
         <slot></slot>
       </p>
