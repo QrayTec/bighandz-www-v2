@@ -2,60 +2,52 @@
   <div
     id="SiServiceBusiness"
     data-aos="fade-in"
-    class="w-full"
+    class="font-NotoSansJP w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div
-      class="max-w-[480px] flex justify-center bg-[#6785C1] px-[44px] py-[17px] text-[36px] font-[500] text-white"
-    >
-      先進SIサービス
-    </div>
-    <div
-      class="font-NotoSansJP mt-[30px] w-full text-[22px] leading-[32px] font-[400]"
-    >
+    <ThePageMinTitle>先進SIサービス</ThePageMinTitle>
+
+    <div class="text-deep_blue mt-[30px] text-[16px] leading-[32px] font-[400]">
       <p>
         これまでの、さまざまな業種・業界のシステム構築経験を活かし、導入フェーズから構築・運用・保守まで一貫したSIサービスを提供しております。
       </p>
-      <p class="mt-[30px]">
+      <br />
+      <p>
         領域・工程によっては、オフショアを最大限活用し、お客様の企業価値最大化へも貢献しております。
       </p>
     </div>
     <div
-      class="mt-[60px] min-h-[360px] w-full flex justify-between text-[20px]"
+      class="text-deep_blue mt-[30px] flex justify-between text-[16px] leading-[32px] font-[400]"
     >
-      <div class="w-[calc(50%-15px)] flex">
-        <ul>
-          <li
-            v-for="item in ListData"
-            :key="item.list"
-            class="mt-[30px] flex"
-          >
-            <div class="mt-[5px] h-full min-w-[16px]">
-              <img
-                class="h-16px w-[16px]"
-                src="@/assets/images/company_profile/rhombic.svg"
-                alt=""
-              />
-            </div>
-            <p class="ml-[10px]">
-              {{ item.list }}
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div class="w-[calc(50%-15px)] flex justify-start">
-        <div class="w-full">
-          <img
-            src="@/assets/images/si-service-business/si_1.jpg"
-            alt=""
-          />
+      <div class="w-[710px] flex flex-col">
+        <div
+          v-for="(item, index) in ListData"
+          :key="index"
+          :class="index === 0 ? 'mt-[00px]' : 'mt-[30px]'"
+          class="flex"
+        >
+          <div class="mr-[10px] mt-[8px] h-[16px] w-[16px]">
+            <img
+              class="h-full min-h-[16px] min-w-[16px] w-full"
+              src="@/assets/images/company_profile/rhombic.svg"
+              alt="list-icon"
+            />
+          </div>
+          <div>
+            {{ item.list }}
+          </div>
         </div>
       </div>
+      <div class="w-[460px]">
+        <img
+          class="min-w-full"
+          src="@/assets/images/si-service-business/si_1.png"
+          alt=""
+        />
+      </div>
     </div>
-    <div
-      class="font-NotoSansJP mt-[30px] w-full text-[22px] leading-[32px] font-[400]"
-    >
-      このように、IT技術の進化が激しいこの時代に、SPEED感をもって、これまでの経験値、最先端のIT技術、オフショアリソースPOWERを最大限活用し、お客様の要望に沿ったシステム構築を行っております
+    <div class="text-deep_blue mt-[30px] text-[16px] leading-[32px] font-[400]">
+      このように、IT技術の進化が激しいこの時代に、SPEED感をもって、これまでの経験値、最先端のIT技術、オフショアリソースPOWERを最大限活用し、お客様の要望に沿ったシステム構築を行っております。
     </div>
   </div>
 </template>
