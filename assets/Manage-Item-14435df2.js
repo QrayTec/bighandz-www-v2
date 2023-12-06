@@ -1,1 +1,0 @@
-import{d as e,o as s,c as t,n as a,f as o,M as n,e as _}from"./app-3a4082bd.js";const c=_("div",{class:"h-[500px] w-[500px]"},"13",-1),r=[c],m=e({__name:"Manage-Item",setup(p){return(d,i)=>(s(),t("div",{style:a({width:o(n)+"px"})},r,4))}});export{m as default};
