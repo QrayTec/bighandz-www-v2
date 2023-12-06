@@ -29,3 +29,9 @@ export interface ImageListType {
   Image: string
   title: string
 }
+
+export interface TechnologyType {
+  Image: string
+  title: string
+  list: string
+}

@@ -19,6 +19,10 @@
       <IndustryExperience class="mt-[120px]" />
       <ExamplesAchievements class="mt-[120px]" />
       <AutomatedTestingTools class="my-[120px]" />
+      <SystemDev class="my-[120px]" />
+      <PlatformsConfig class="mt-[120px]" />
+      <LatestTechnology class="mt-[120px]" />
+      <SystemMaintenance class="mt-[120px]" />
       <Publications
         :publications="SolutionData"
         class="mt-[120px]"
@@ -43,6 +47,10 @@ import IndustryExperience from './components/Industry-Experience.vue'
 import ExamplesAchievements from './components/Examples-Achievements.vue'
 import AutomatedTestingTools from './components/Automated-Testing-Tools.vue'
 import PublicationsImage from '@/assets/images/Publications/Publications_1.png'
+import SystemDev from './components/System-Dev.vue'
+import PlatformsConfig from './components/Platforms-Config.vue'
+import LatestTechnology from './components/Latest-Technology.vue'
+import SystemMaintenance from './components/System-Maintenance.vue'
 
 const SolutionData = ref<SolutionType>({
   title: 'オフショアリング完全ガイド',
