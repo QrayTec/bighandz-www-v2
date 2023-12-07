@@ -15,7 +15,7 @@
         class="relative right-0 top-0 h-full w-full flex items-center justify-end text-white transition-duration-1s group-hover:opacity-0"
       >
         <div
-          class="font-NotoSansJP bg-GartnerCard h-full w-[125px] flex flex-col items-center justify-center px-[22.5px] text-center text-[20px] font-[700]"
+          class="font-NotoSansJP bg-GartnerCard h-full w-[125px] flex flex-col items-center justify-center px-[22.5px] text-center text-[1rem] font-[700]"
         >
           <p>{{ CardData.title_1 }}</p>
           <p>{{ CardData.title_2 }}</p>

@@ -5,13 +5,9 @@
     class="w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
+    <ThePageMinTitle>AIによる配送最適化</ThePageMinTitle>
     <div
-      class="max-w-[480px] flex justify-center bg-[#6785C1] px-[42px] py-[17px] text-[36px] font-[500] text-white"
-    >
-      AIによる配送最適化
-    </div>
-    <div
-      class="font-NotoSansJP mt-[30px] text-[24.5px] font-[700] text-[#071027]"
+      class="text-deep_blue font-NotoSansJP mt-[30px] text-[1rem] font-[400]"
     >
       AIを駆使し配送の効率化を実現する。
     </div>
@@ -35,7 +31,7 @@
             />
           </div>
           <div
-            class="font-NotoSansJP mt-[40px] text-[24.5px] font-[400] text-white"
+            class="font-NotoSansJP mt-[40px] text-[1.25rem] font-[400] text-white"
           >
             {{ item.title }}
           </div>
