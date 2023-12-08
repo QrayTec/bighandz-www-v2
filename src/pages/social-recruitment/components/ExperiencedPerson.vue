@@ -35,7 +35,7 @@
               >
                 <img
                   class="h-16px w-[16px]"
-                  src="@/assets/images/company_profile/rhombic.svg"
+                  src="@/assets/images/listicon/icon_1.svg"
                   alt=""
                 />
               </div>
@@ -71,7 +71,7 @@
               >
                 <img
                   class="h-16px w-[16px]"
-                  src="@/assets/images/company_profile/rhombic.svg"
+                  src="@/assets/images/listicon/icon_1.svg"
                   alt=""
                 />
               </div>
@@ -114,7 +114,7 @@
               >
                 <img
                   class="h-16px w-[16px]"
-                  src="@/assets/images/company_profile/rhombic.svg"
+                  src="@/assets/images/listicon/icon_1.svg"
                   alt=""
                 />
               </div>

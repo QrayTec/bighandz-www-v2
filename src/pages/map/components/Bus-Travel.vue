@@ -34,7 +34,7 @@
               <div class="mt-[5px] h-full min-w-[16px]">
                 <img
                   class="h-16px w-[16px]"
-                  src="@/assets/images/company_profile/rhombic.svg"
+                  src="@/assets/images/listicon/icon_1.svg"
                   alt=""
                 />
               </div>
@@ -51,7 +51,7 @@
               <div class="mt-[5px] h-full min-w-[16px]">
                 <img
                   class="h-16px w-[16px]"
-                  src="@/assets/images/company_profile/rhombic.svg"
+                  src="@/assets/images/listicon/icon_1.svg"
                   alt=""
                 />
               </div>
