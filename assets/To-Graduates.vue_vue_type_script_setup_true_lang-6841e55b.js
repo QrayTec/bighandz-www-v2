@@ -1,0 +1,1 @@
+import{d as e,o as a,c as o,p as s,f as t,M as n}from"./app-9653d1ab.js";const l=e({__name:"To-Graduates",setup(r){return(_,c)=>(a(),o("div",{class:"font-NotoSansJP",style:s({width:t(n)+"px"})}," 123 ",4))}});export{l as _};
