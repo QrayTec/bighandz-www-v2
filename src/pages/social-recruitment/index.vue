@@ -1,21 +1,21 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitle_2 :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <the-page-nav
-        :pagenavdata="PageNavData"
-        :pagenavstyletype="pagetype"
-      />
+      <ThePageNav2 :pagenavdata="PageNavData" />
     </div>
-    <div class="my-[120px] w-full flex flex-col items-center">
-      <InexperiencedPerson />
-      <ExperiencedPerson class="mt-[120px]" />
+    <div class="relative h-auto bg-[#F4F4F4]">
+      <div class="absolute z-[1] h-full w-[504px] bg-[#DFE4F2]"></div>
+      <div class="relative z-2 w-full flex flex-col items-center">
+        <InexperiencedPerson class="mt-[120px] pb-[120px]" />
+        <div class="mt-[120px]"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -23,37 +23,55 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
-import CareerRecruitment from '@/assets/images/sub_page_title/Career-Recruitment.jpg'
-import InexperiencedPerson from './components/InexperiencedPerson.vue'
-import ExperiencedPerson from './components/ExperiencedPerson.vue'
-import {
-  SubPageTitleType,
-  PageNavType,
-  PageNavStyleType
-} from '@/data/pages_interface'
+import GraduateRecruitment from '@/assets/images/sub_page_title/graduate-recruitment.png'
 
-const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: 'キャリア採用',
-  TitleCn_2: '',
-  TitleEn: 'Career Recruitment',
-  ImgSrc: CareerRecruitment,
-  bold: 1,
-  type: 2
+import { SubPageTitleType2, PageNavType } from '@/data/pages_interface'
+
+import InexperiencedPerson from './components/InexperiencedPerson.vue'
+
+const SubPageTitleData = ref<SubPageTitleType2>({
+  TitleCn_1: '他人に勝ちたい',
+  TitleCn_2: 'まずは自分に勝つ',
+  ImgSrc: GraduateRecruitment
 })
 
 const PageNavData = ref<PageNavType[]>([
   {
     id: 1,
-    anchor: '#InexperiencedPerson',
-    anchor_title: '未経験者'
+    anchor: '#ToNewGraduates',
+    anchor_title: '新卒の皆さんへ'
   },
   {
     id: 2,
-    anchor: '#ExperiencedPerson',
-    anchor_title: '経験者'
+    anchor: '#OpenPositions',
+    anchor_title: '募集職種'
+  },
+  {
+    id: 3,
+    anchor: '#Subject-application',
+    anchor_title: '募集学部・学科'
+  },
+  {
+    id: 4,
+    anchor: '#Accepted-Faculties',
+    anchor_title: '物流全般管理'
+  },
+  {
+    id: 5,
+    anchor: '#Salary&Benefits',
+    anchor_title: '給与と福利厚生'
+  },
+  {
+    id: 6,
+    anchor: '#Work-related',
+    anchor_title: '仕事関連'
+  },
+  {
+    id: 7,
+    anchor: '#PersonnelSystem',
+    anchor_title: '人事制度'
   }
 ])
-const pagetype = ref<PageNavStyleType>({ type: 1 })
 
 // 检测是否吸顶 修改高度
 const isSticky = ref(false)
@@ -72,4 +90,3 @@ onUnmounted(() => {
 </script>
 
 <style></style>
-@/data/methods
