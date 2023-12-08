@@ -7,7 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    copy: typeof import('./components/TheIconList copy.vue')['default']
+    copy: typeof import('./components/ThePageNav copy.vue')['default']
     Movie: typeof import('./components/Movie.vue')['default']
     Publications: typeof import('./components/Publications.vue')['default']
     README: typeof import('./components/README.md')['default']
@@ -15,6 +15,7 @@ declare module 'vue' {
     RouterView: typeof import('vue-router')['RouterView']
     Steps: typeof import('./components/steps.vue')['default']
     SubPageTitle: typeof import('./components/SubPageTitle.vue')['default']
+    SubPageTitle_2: typeof import('./components/SubPageTitle_2.vue')['default']
     TheBackTop: typeof import('./components/TheBackTop.vue')['default']
     TheBreadcrumbs: typeof import('./components/TheBreadcrumbs.vue')['default']
     TheDownloadBtn: typeof import('./components/TheDownloadBtn.vue')['default']
@@ -26,5 +27,6 @@ declare module 'vue' {
     TheLoadng: typeof import('./components/TheLoadng.vue')['default']
     ThePageMinTitle: typeof import('./components/ThePageMinTitle.vue')['default']
     ThePageNav: typeof import('./components/ThePageNav.vue')['default']
+    ThePageNav2: typeof import('./components/ThePageNav2.vue')['default']
   }
 }

@@ -1,21 +1,17 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitle_2 :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <the-page-nav
-        :pagenavdata="PageNavData"
-        :pagenavstyletype="pagetype"
-      />
+      <ThePageNav2 :pagenavdata="PageNavData" />
     </div>
-    <div class="my-[120px] w-full flex flex-col items-center">
-      <ToNewGraduates />
-      <OpenPositions class="mt-[120px]" />
+    <div class="my-[7.5rem] w-full flex flex-col items-center">
+      <ToGraduates />
     </div>
   </div>
 </template>
@@ -23,23 +19,16 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
-import GraduateRecruitment from '@/assets/images/sub_page_title/graduate-recruitment.jpg'
+import GraduateRecruitment from '@/assets/images/sub_page_title/graduate-recruitment.png'
 
-import ToNewGraduates from './components/to-new-graduates.vue'
-import OpenPositions from './components/Open-Positions.vue'
-import {
-  SubPageTitleType,
-  PageNavType,
-  PageNavStyleType
-} from '@/data/pages_interface'
+import { SubPageTitleType2, PageNavType } from '@/data/pages_interface'
 
-const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: '新卒',
-  TitleCn_2: '採用',
-  TitleEn: 'Graduate Recruitment',
-  ImgSrc: GraduateRecruitment,
-  bold: 1,
-  type: 2
+import ToGraduates from './components/To-Graduates.vue'
+
+const SubPageTitleData = ref<SubPageTitleType2>({
+  TitleCn_1: '他人に勝ちたい',
+  TitleCn_2: 'まずは自分に勝つ',
+  ImgSrc: GraduateRecruitment
 })
 
 const PageNavData = ref<PageNavType[]>([
@@ -79,7 +68,6 @@ const PageNavData = ref<PageNavType[]>([
     anchor_title: '人事制度'
   }
 ])
-const pagetype = ref<PageNavStyleType>({ type: 1 })
 
 // 检测是否吸顶 修改高度
 const isSticky = ref(false)

@@ -9,6 +9,11 @@ export interface SubPageTitleType {
   bold: number
   type: number
 }
+export interface SubPageTitleType2 {
+  TitleCn_1: string
+  TitleCn_2: string
+  ImgSrc: string
+}
 // 页内导航的type
 export interface PageNavType {
   id: number

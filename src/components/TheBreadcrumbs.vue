@@ -5,7 +5,7 @@
   >
     <div class="flex cursor-pointer items-center">
       <div
-        class="font-NotoSansJP h-[16px] text-[20px] leading-[16px] font-[400] text-[#fff]"
+        class="font-NotoSansJP h-[16px] text-[.9375rem] leading-[1rem] font-[400] text-[#fff]"
         :class="{ 'opacity-40': MainPage, 'opacity-1-0': !MainPage }"
       >
         {{ ParentTitle }}
@@ -22,7 +22,7 @@
       </div>
       <div
         v-if="MainPage"
-        class="font-NotoSansJP h-[16px] text-[20px] leading-[16px] font-[400] text-[#fff]"
+        class="font-NotoSansJP h-[16px] text-[.9375rem] leading-[1rem] font-[400] text-[#fff]"
       >
         {{ IndexTitle }}
       </div>
