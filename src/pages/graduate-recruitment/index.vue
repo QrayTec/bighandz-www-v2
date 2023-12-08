@@ -10,8 +10,22 @@
     >
       <ThePageNav2 :pagenavdata="PageNavData" />
     </div>
-    <div class="my-[7.5rem] w-full flex flex-col items-center">
-      <ToGraduates />
+    <div class="relative h-auto">
+      <div class="absolute z-[-1] h-full w-[504px] bg-[#DFE4F2]"></div>
+      <div class="z-1 w-full flex flex-col items-center">
+        <ToGraduates class="mt-[120px] pb-[120px]" />
+        <OpenPositions class="pb-[120px]" />
+        <SubjectApplication class="pb-[120px]" />
+        <RecruitingSubjects class="pb-[120px]" />
+        <Salary class="pb-[120px]" />
+        <Welfare class="pb-[120px]" />
+        <WorkPlace class="pb-[120px]" />
+        <WorkTimer class="pb-[120px]" />
+        <TrialPeriod class="pb-[120px]" />
+        <HolidaysVacation class="pb-[120px]" />
+        <PersonnelSystem class="pb-[120px]" />
+        <div class="mt-[120px]"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -24,6 +38,16 @@ import GraduateRecruitment from '@/assets/images/sub_page_title/graduate-recruit
 import { SubPageTitleType2, PageNavType } from '@/data/pages_interface'
 
 import ToGraduates from './components/To-Graduates.vue'
+import OpenPositions from './components/Open-Positions.vue'
+import SubjectApplication from './components/Subject-application.vue'
+import RecruitingSubjects from './components/Recruiting-Subjects.vue'
+import Salary from './components/Salary.vue'
+import Welfare from './components/Welfare.vue'
+import WorkPlace from './components/Work-Place.vue'
+import WorkTimer from './components/Work-Timer.vue'
+import TrialPeriod from './components/Trial-Period.vue'
+import HolidaysVacation from './components/Holidays-Vacation.vue'
+import PersonnelSystem from './components/Personnel-System.vue'
 
 const SubPageTitleData = ref<SubPageTitleType2>({
   TitleCn_1: '他人に勝ちたい',

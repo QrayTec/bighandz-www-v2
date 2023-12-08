@@ -41,6 +41,9 @@ export default {
           '0%': { transform: 'translateY(0)' },
           '100%': { transform: ' translateY(-30%)' }
         }
+      },
+      boxShadow: {
+        Graduates: '0px -4px 4px 0px rgba(14, 27, 71, 0.25)'
       }
     },
     colors: {

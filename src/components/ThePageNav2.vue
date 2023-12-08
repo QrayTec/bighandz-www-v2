@@ -11,6 +11,7 @@
           duration: 1000,
           offset: -250
         }"
+        :href="item.anchor"
         :class="index === 0 ? '' : 'ml-[60px]'"
         class="text-[1rem] leading-normal font-[700]"
       >

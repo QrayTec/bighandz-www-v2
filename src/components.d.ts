@@ -26,7 +26,9 @@ declare module 'vue' {
     TheIconTitle: typeof import('./components/TheIconTitle.vue')['default']
     TheLoadng: typeof import('./components/TheLoadng.vue')['default']
     ThePageMinTitle: typeof import('./components/ThePageMinTitle.vue')['default']
+    ThePageMinTitle2: typeof import('./components/ThePageMinTitle2.vue')['default']
     ThePageNav: typeof import('./components/ThePageNav.vue')['default']
     ThePageNav2: typeof import('./components/ThePageNav2.vue')['default']
+    ThePageTitle2: typeof import('./components/ThePageTitle2.vue')['default']
   }
 }
