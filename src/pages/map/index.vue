@@ -15,6 +15,7 @@
     </div>
     <div class="my-[120px] w-full flex flex-col items-center justify-center">
       <CompanyInfo />
+      <PublicTransit class="mt-[120px]" />
     </div>
   </div>
 </template>
@@ -31,6 +32,7 @@ import {
 import MapPageHeaderImage from '@/assets/images/sub_page_title/Map.png'
 
 import CompanyInfo from './components/Company-Info.vue'
+import PublicTransit from './components/Public-Transit.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'アクセス',

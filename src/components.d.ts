@@ -7,7 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    copy: typeof import('./components/SubPageTitle_2 copy.vue')['default']
+    copy: typeof import('./components/ThePageMinTitle copy.vue')['default']
     Movie: typeof import('./components/Movie.vue')['default']
     Publications: typeof import('./components/Publications.vue')['default']
     README: typeof import('./components/README.md')['default']
@@ -26,6 +26,7 @@ declare module 'vue' {
     TheIconList: typeof import('./components/TheIconList.vue')['default']
     TheIconTitle: typeof import('./components/TheIconTitle.vue')['default']
     TheLoadng: typeof import('./components/TheLoadng.vue')['default']
+    ThePageMinIconTitle: typeof import('./components/ThePageMinIconTitle.vue')['default']
     ThePageMinTitle: typeof import('./components/ThePageMinTitle.vue')['default']
     ThePageMinTitle2: typeof import('./components/ThePageMinTitle2.vue')['default']
     ThePageNav: typeof import('./components/ThePageNav.vue')['default']
