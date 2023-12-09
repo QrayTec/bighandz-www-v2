@@ -1,5 +1,6 @@
 <template>
   <div
+    id="LogisticsManagement"
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
@@ -264,12 +265,13 @@
         </div>
 
         <div
-          class="text-deep_blue mt-[10px] w-full flex justify-between text-[1rem] font-[400]"
+          class="text-deep_blue mt-[10px] h-full w-full flex justify-between text-[1rem] font-[400]"
         >
           <div
             v-for="(item, index) in ManagementData"
             :key="index"
             :style="{ width: item.width }"
+            class="h-full"
           >
             <div
               :style="{
@@ -285,12 +287,12 @@
               :style="{
                 borderColor: item.borderColor
               }"
-              class="mt-[10px] h-[214px] border-2 rounded-[5px] border-solid bg-[#fff] p-[10px]"
+              class="mt-[10px] h-[312px] border-2 rounded-[5px] border-solid bg-[#fff] p-[10px]"
             >
               <TheIconList
                 v-for="(items, i) in item.content"
                 :key="i"
-                class="text-[.875rem] leading-normal font-[400]"
+                class="text-[.875rem] leading-[2rem] font-[400]"
                 >{{ items.list }}</TheIconList
               >
             </div>

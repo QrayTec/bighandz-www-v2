@@ -1,5 +1,6 @@
 <template>
   <div
+    id="LogisticsDXPromotion"
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >

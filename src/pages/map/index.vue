@@ -37,9 +37,9 @@ import ShuttleBus from './components/Shuttle-Bus.vue'
 import MapPageHeaderImage from '@/assets/images/sub_page_title/Map.png'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: 'アクセスマップ',
+  TitleCn_1: 'アクセス',
   TitleCn_2: '',
-  TitleEn: 'Access map',
+  TitleEn: 'Access',
   ImgSrc: MapPageHeaderImage,
   bold: 1,
   type: 1

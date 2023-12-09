@@ -1,5 +1,6 @@
 <template>
   <div
+    id="LogisticsChallenges"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP"
   >
