@@ -31,7 +31,8 @@
         <the-download-btn
           v-if="item.id === 1"
           class="mt-[30px]"
-        />
+          >テンプレートのダウンロード</the-download-btn
+        >
         <p class="mt-[30px]">
           {{ item.list_data_2 }}
         </p>

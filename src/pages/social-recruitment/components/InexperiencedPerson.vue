@@ -1,5 +1,6 @@
 <template>
   <div
+    id="InexperiencedPerson"
     class="font-NotoSansJP text-deep_blue relative h-auto flex justify-center"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
@@ -16,7 +17,7 @@
             ため、常に努力を行っております。
           </p>
         </div>
-        <div class="mt-[60px] w-full flex justify-between">
+        <div class="mt-[60px] w-full flex justify-between leading-[2rem]">
           <div class="w-[calc(100%-400px)]">
             <TheIconList
               v-for="(item, index) in ListData"
@@ -45,6 +46,44 @@
             </div>
           </div>
         </div>
+        <div
+          class="text-deep_blue mt-[60px] w-full text-[1rem] leading-[2rem] font-[400]"
+        >
+          <table>
+            <tbody>
+              <tr
+                v-for="(item, index) in TableData"
+                :key="index"
+              >
+                <th
+                  class="bg-[#DFE4F2] px-[30px] py-[12px] text-left font-[400]"
+                >
+                  <div class="h-full w-full flex">
+                    {{ item.title }}
+                  </div>
+                </th>
+                <td class="px-[30px] py-[12px]">
+                  <div
+                    v-for="(items, i) in item.content"
+                    :key="i"
+                  >
+                    <p
+                      v-if="items.title"
+                      class="font-[700]"
+                      :class="index === 0 ? 'mt-[0px]' : 'mt-[10px]'"
+                    >
+                      {{ items.title }}
+                    </p>
+                    <TheIconList
+                      :class="index === 0 ? 'mt-[0px]' : 'mt-[10px]'"
+                      >{{ items.list }}</TheIconList
+                    >
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
@@ -52,7 +91,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
-import { List } from '../types/index'
+import { List, TableType } from '../types/index'
 
 const ListData = ref<List[]>([
   {
@@ -68,5 +107,45 @@ const ListData = ref<List[]>([
     list: '技術力に自信のない方には、個人のレベルに合わせた教育研修制度をご用意しております。 ＯＪＴはもちろん、 新たな技術やツールなどの教育をマンツーマンに近い状態であなたの成長をサポートして行きますので、 無理なく確実にスキルアップすることが可能です。'
   }
 ])
+
+const TableData = ref<TableType[]>([
+  {
+    title: '【業務内容】',
+    content: [
+      { list: '顧客のシステム構築に対する提案業務・設計・製造・テスト' },
+      { list: '顧客またはSIベンダー等への技術支援、導入後のサポート業務' }
+    ]
+  },
+  {
+    title: '【要件】',
+    content: [
+      {
+        list: 'UNIX、Windowsを理解し、システム設計および開発提案経験があること。スキルを有すること。'
+      },
+      { list: 'MS Office スキル' },
+      { list: 'JAVA、C、C++、.Netを使ったアプリケーションの開発経験' },
+      { list: '社会人3年以上の経験を有すること（相応の能力があれば可）' }
+    ]
+  },
+  {
+    title: '【望ましい要件】',
+    content: [
+      {
+        title: 'SE経験',
+        list: 'システム提案、設計経験を持つこと'
+      },
+      {
+        list: 'SIベンダー等でシステム構築や設計の経験をお持ちの方は歓迎します'
+      },
+      { title: 'プログラマ経験', list: '詳細設計、製造経験を持つこと' },
+      { list: 'SIベンダー等でシステム開発や製造の経験をお持ちの方は歓迎します' }
+    ]
+  }
+])
 </script>
-<style lang=""></style>
+<style scoped>
+th,
+td {
+  border: 1px solid #6785c1;
+}
+</style>

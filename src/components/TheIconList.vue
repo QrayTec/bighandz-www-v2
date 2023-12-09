@@ -2,23 +2,21 @@
   <div>
     <li class="w-full flex items-center">
       <div class="text-deep_blue flex font-[400]">
-        <div
-          class="mt-[calc(16px-0.8rem)] h-full min-w-[16px] flex items-center"
-        >
+        <div class="mt-[.5rem] h-full min-w-[1rem] flex items-center">
           <img
             v-if="type === undefined"
-            class="h-16px w-[16px]"
+            class="h-1rem w-[1rem]"
             src="@/assets/images/listicon/icon_1.svg"
             alt=""
           />
           <img
             v-if="type === 2"
-            class="h-16px w-[16px]"
+            class="h-1rem w-[1rem]"
             src="@/assets/images/listicon/icon_2.svg"
             alt=""
           />
         </div>
-        <p class="ml-[10px]">
+        <p class="ml-[.625rem]">
           <slot></slot>
         </p>
       </div>

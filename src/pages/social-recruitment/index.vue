@@ -14,6 +14,8 @@
       <div class="absolute z-[1] h-full w-[504px] bg-[#DFE4F2]"></div>
       <div class="relative z-2 w-full flex flex-col items-center">
         <InexperiencedPerson class="mt-[120px] pb-[120px]" />
+        <ExperiencedPerson class="pb-[120px]" />
+        <DownloadTemplate class="pb-[120px]" />
         <div class="mt-[120px]"></div>
       </div>
     </div>
@@ -28,6 +30,8 @@ import SocialRecruitment from '@/assets/images/sub_page_title/social-recruitment
 import { SubPageTitleType2, PageNavType } from '@/data/pages_interface'
 
 import InexperiencedPerson from './components/InexperiencedPerson.vue'
+import ExperiencedPerson from './components/ExperiencedPerson.vue'
+import DownloadTemplate from './components/Download-Template.vue'
 
 const SubPageTitleData = ref<SubPageTitleType2>({
   TitleCn_1: '知恵は大義を照らし',
@@ -38,38 +42,13 @@ const SubPageTitleData = ref<SubPageTitleType2>({
 const PageNavData = ref<PageNavType[]>([
   {
     id: 1,
-    anchor: '#ToNewGraduates',
-    anchor_title: '新卒の皆さんへ'
+    anchor: '#InexperiencedPerson',
+    anchor_title: '未経験者'
   },
   {
     id: 2,
-    anchor: '#OpenPositions',
-    anchor_title: '募集職種'
-  },
-  {
-    id: 3,
-    anchor: '#Subject-application',
-    anchor_title: '募集学部・学科'
-  },
-  {
-    id: 4,
-    anchor: '#Accepted-Faculties',
-    anchor_title: '物流全般管理'
-  },
-  {
-    id: 5,
-    anchor: '#Salary&Benefits',
-    anchor_title: '給与と福利厚生'
-  },
-  {
-    id: 6,
-    anchor: '#Work-related',
-    anchor_title: '仕事関連'
-  },
-  {
-    id: 7,
-    anchor: '#PersonnelSystem',
-    anchor_title: '人事制度'
+    anchor: '#ExperiencedPerson',
+    anchor_title: '経験者'
   }
 ])
 
