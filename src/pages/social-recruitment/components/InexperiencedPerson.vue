@@ -32,7 +32,7 @@
             >
               <img
                 class="absolute top-[50px] h-[160px] w-[160px]"
-                src="src/assets/images/social-recruitment/logo_social.svg"
+                src="@/assets/images/social-recruitment/logo_social.svg"
                 alt=""
               />
             </div>

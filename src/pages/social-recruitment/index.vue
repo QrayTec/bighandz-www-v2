@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <SubPageTitle_2 :data="SubPageTitleData" />
+      <SubPageTitle_3 :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
@@ -23,16 +23,16 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
-import GraduateRecruitment from '@/assets/images/sub_page_title/graduate-recruitment.png'
+import SocialRecruitment from '@/assets/images/sub_page_title/social-recruitment.png'
 
 import { SubPageTitleType2, PageNavType } from '@/data/pages_interface'
 
 import InexperiencedPerson from './components/InexperiencedPerson.vue'
 
 const SubPageTitleData = ref<SubPageTitleType2>({
-  TitleCn_1: '他人に勝ちたい',
-  TitleCn_2: 'まずは自分に勝つ',
-  ImgSrc: GraduateRecruitment
+  TitleCn_1: '知恵は大義を照らし',
+  TitleCn_2: '魂は世界を気遣う',
+  ImgSrc: SocialRecruitment
 })
 
 const PageNavData = ref<PageNavType[]>([

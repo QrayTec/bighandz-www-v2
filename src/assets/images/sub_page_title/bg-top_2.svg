@@ -1,0 +1,105 @@
+<svg width="1440" height="720" viewBox="0 0 1440 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="144" y="0" width="144" height="144" fill="#0E1B47" />
+    <rect x="144" y="144" width="144" height="144" fill="#0E1B47" />
+    <rect x="144" y="288" width="144" height="144" fill="#0E1B47" />
+    <rect x="288" y="0" width="144" height="144" fill="#0E1B47" />
+    <rect x="288" y="144" width="144" height="144" fill="#0E1B47" />
+    <rect x="432" y="0" width="144" height="144" fill="#0E1B47" />
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="1296" y="576" width="144" height="144" fill="#0E1B47" />
+    </g>
+    <rect opacity="0.7" x="1296" y="288" width="144" height="144" fill="#8FACD9" />
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="1152" y="432" width="144" height="144" fill="#0E1B47" />
+    </g>
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="1008" y="576" width="144" height="144" fill="#0E1B47" />
+    </g>
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="1008" y="288" width="144" height="144" fill="#0E1B47" />
+    </g>
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="1008" width="144" height="145" fill="#0E1B47" />
+    </g>
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="865" y="432" width="143" height="144" fill="#0E1B47" />
+    </g>
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="865" y="145" width="143" height="143" fill="#0E1B47" />
+    </g>
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="720" y="576" width="145" height="144" fill="#0E1B47" />
+    </g>
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="720" y="288" width="145" height="144" fill="#0E1B47" />
+    </g>
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="576" y="432" width="144" height="144" fill="#0E1B47" />
+    </g>
+    <rect x="576" y="145" width="144" height="143" fill="#0E1B47" />
+    <rect x="432" y="576" width="144" height="144" fill="#0E1B47" />
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="432" y="288" width="144" height="144" fill="#0E1B47" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="1152" y="576" width="144" height="144" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="1152" y="288" width="144" height="144" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="1152" width="144" height="145" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="1008" y="432" width="144" height="144" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="1008" y="145" width="144" height="143" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="865" y="576" width="143" height="144" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="865" y="288" width="143" height="144" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="865" width="143" height="145" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="720" y="432" width="145" height="144" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="720" y="145" width="145" height="143" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="576" y="576" width="144" height="144" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="576" y="288" width="144" height="144" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen">
+        <rect x="288" y="288" width="144" height="144" fill="#597BE5" />
+    </g>
+    <g style="mix-blend-mode:screen">
+        <rect x="576" width="144" height="145" fill="#597BE5" />
+    </g>
+    <g style="mix-blend-mode:screen" opacity="0.1">
+        <rect x="432" y="432" width="144" height="144" fill="white" />
+    </g>
+    <g style="mix-blend-mode:screen">
+        <rect x="432" y="145" width="144" height="143" fill="#597BE5" />
+    </g>
+    <g style="mix-blend-mode:screen">
+        <rect x="288" y="576" width="144" height="144" fill="#597BE5" />
+    </g>
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="144" y="576" width="144" height="144" fill="#0E1B47" />
+    </g>
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect y="576" width="144" height="144" fill="#0E1B47" />
+    </g>
+    <rect opacity="0.7" x="1296" y="432" width="144" height="144" fill="#597BE5" />
+    <g style="mix-blend-mode:multiply" opacity="0.2">
+        <rect x="144" y="432" width="144" height="144" fill="#0E1B47" />
+    </g>
+</svg>
