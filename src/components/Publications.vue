@@ -25,7 +25,7 @@
               <p class="text-right">{{ PublicationsData.title_2 }}</p>
             </div>
           </TheIconTitle>
-          <ul class="mt-[60px]">
+          <ul class="mt-[60px] leading-[2rem]">
             <TheIconList
               v-for="(item, index) in PublicationsData.content"
               :key="index"
