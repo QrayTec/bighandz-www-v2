@@ -14,10 +14,7 @@
       />
     </div>
     <div class="my-[120px] w-full flex flex-col items-center justify-center">
-      <ContactInformation />
-      <TrainTravel class="mt-[120px]" />
-      <BusTravel class="mt-[120px]" />
-      <ShuttleBus class="mt-[120px]" />
+      <CompanyInfo />
     </div>
   </div>
 </template>
@@ -30,11 +27,10 @@ import {
   PageNavType,
   PageNavStyleType
 } from '@/data/pages_interface'
-import ContactInformation from './components/Contact-Information.vue'
-import TrainTravel from './components/Train-Travel.vue'
-import BusTravel from './components/Bus-Travel.vue'
-import ShuttleBus from './components/Shuttle-Bus.vue'
+
 import MapPageHeaderImage from '@/assets/images/sub_page_title/Map.png'
+
+import CompanyInfo from './components/Company-Info.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'アクセス',
