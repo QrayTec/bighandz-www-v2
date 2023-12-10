@@ -16,11 +16,14 @@
           >東京メトロ「日比谷線」八丁堀駅A4番出口徒歩7分</TheIconList
         >
       </div>
-      <div class="w-[50%]">
-        <img
-          src="@/assets/images/map/Map-2.png"
-          alt=""
-        />
+      <div class="h-[380px] w-[50%]">
+        <iframe
+          class="h-full w-full"
+          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3240.9869171682044!2d139.77945566150805!3d35.67732413007397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x6018895bae6c2a8d%3A0x7c332c5bb0c2cd92!2z6IyF5Zy655S6IOaXpeacrOOAkjEwMy0wMDI1IFRva3lvLCBDaHVvIENpdHksIE5paG9uYmFzaGlrYXlhYmFjaMWNLCAxLWNoxY1tZeKIkjEx!3m2!1d35.6799355!2d139.78016309999998!4m5!1s0x60188968200fffff%3A0x1b535c2dd2c70bfd!2zVG9reW8gRGlhIEJ1aWxkaW5nLCDmnbHkuqzjg4DjgqTjg6Tjg5Pjg6s05Y-36aSoIDEgQ2hvbWUtMjgg5paw5bed5Lit5aSu5Yy65Lic5Lqs6YO95pel5pys!3m2!1d35.6749931!2d139.78468569999998!5e0!3m2!1szh-CN!2sus!4v1702195374646!5m2!1szh-CN!2sus"
+          style="border: 0"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </div>
     <ThePageMinIconTitle
@@ -110,7 +113,7 @@
                 v-for="(item, index) in BusTimerData1"
                 :key="index"
               >
-                <td class="td_1 text-cobalt_blue text-[1rem] font-[700]">
+                <td class="text-cobalt_blue td_1 text-[1rem] font-[700]">
                   {{ item.title }}
                 </td>
                 <td

@@ -60,10 +60,13 @@
         </div>
       </div>
       <div class="w-[1000px]">
-        <img
-          src="@/assets/images/map/Map-1.png"
-          alt=""
-        />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.0805594878275!2d139.78212521150812!3d35.6750183302007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188968200fffff%3A0x1b535c2dd2c70bfd!2sTokyo%20Dia%20Building!5e0!3m2!1szh-CN!2sus!4v1702195019670!5m2!1szh-CN!2sus"
+          class="h-full w-full"
+          style="border: 0"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </div>
   </div>
