@@ -1,6 +1,6 @@
 <template>
   <div class="w-full">
-    <sub-page-title :data="SubPageTitleData" />
+    <SubPageTitleBg :data="SubPageTitleData" />
     <div class="my-[120px] w-full flex items-center justify-center">
       <Content />
     </div>

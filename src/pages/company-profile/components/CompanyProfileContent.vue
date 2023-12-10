@@ -25,7 +25,7 @@
               v-for="(contentItem, i) in item.content"
               :key="contentItem.list"
               :class="i == 0 ? '' : 'mt-[10px]'"
-              class="text-deep_blue flex items-center leading-[2rem] font-[1rem] font-[400]"
+              class="text-deep_blue flex items-center text-[1rem] leading-[2rem] font-[400]"
             >
               {{ contentItem.list }}
             </li>
