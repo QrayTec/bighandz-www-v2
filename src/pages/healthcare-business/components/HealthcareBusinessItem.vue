@@ -1,42 +1,34 @@
 <template>
   <div
-    v-for="(item, index) in ItemsData"
-    :id="item.id"
-    :key="item.id"
-    class="m_t_120 flex flex-col"
+    class="font-NotoSansJP"
+    :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="healthcare_business_item_title w-[700px] p-[20px]">
-      {{ item.title }}
-    </div>
-    <div class="mt-[60px] flex">
-      <div
-        class="healthcare_business_item_text"
-        :class="index % 2 != 0 ? 'p_l_30' : 'p_r_30'"
-      >
+    <div
+      v-for="(item, index) in ItemsData"
+      :id="item.id"
+      :key="index"
+      class="text-deep_blue mt-[120px] w-full text-[1rem] leading-[2rem] font-[400]"
+    >
+      <ThePageMinTitle>{{ item.title }}</ThePageMinTitle>
+
+      <div class="mt-[60px] w-full flex justify-between">
         <div
-          class="title_box w-[calc(50%-15px)]"
-          :class="
-            index % 2 != 0 ? 'justify-content-start ' : 'justify-content-end '
-          "
-          :data-aos="index % 2 != 0 ? 'fade-left' : 'fade-right'"
-        ></div>
-        <div
-          class="healthcare_business_item_text_main mt-[40px]"
-          :data-aos="index % 2 != 0 ? 'fade-left' : 'fade-right'"
+          :data-aos="index % 2 === 0 ? 'fade-right' : 'fade-left'"
+          class="w-[calc(50%-30px)] flex items-end"
+          :class="index % 2 === 0 ? 'order-0' : 'order-1'"
         >
-          {{ item.content }}
+          <p>{{ item.content }}</p>
         </div>
-      </div>
-      <div
-        class="w-[calc(50%-15px)] flex items-center"
-        :class="index % 2 != 0 ? 'order_-1' : ''"
-        data-aos="zoom-in"
-        data-aos-anchor-target="self"
-      >
-        <img
-          :src="item.ImgSrc"
-          alt=""
-        />
+        <div
+          :data-aos="index % 2 === 0 ? 'fade-left' : 'fade-right'"
+          class="w-[50%] overflow-hidden"
+        >
+          <img
+            class="transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
+            :src="item.ImgSrc"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -48,6 +40,7 @@ import Image1 from '@/assets/images/healthcare-business/image_1.png'
 import Image2 from '@/assets/images/healthcare-business/image_2.jpg'
 import Image3 from '@/assets/images/healthcare-business/image_3.png'
 import Image4 from '@/assets/images/healthcare-business/image_4.png'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 interface ItemsType {
   id: string

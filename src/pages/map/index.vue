@@ -38,9 +38,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'アクセス',
   TitleCn_2: '',
   TitleEn: 'Access',
-  ImgSrc: MapPageHeaderImage,
-  bold: 1,
-  type: 1
+  ImgSrc: MapPageHeaderImage
 })
 
 const PageNavData = ref<PageNavType[]>([

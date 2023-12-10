@@ -21,6 +21,7 @@
         <div
           class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]"
           :class="index % 2 === 0 ? 'order-0' : 'order-1'"
+          :data-aos="index % 2 === 0 ? 'fade-right' : 'fade-left'"
         >
           <div
             class="flex"
@@ -34,8 +35,12 @@
             {{ item.content }}
           </div>
         </div>
-        <div class="w-[calc(50%-15px)]">
+        <div
+          class="w-[calc(50%-15px)] overflow-hidden"
+          :data-aos="index % 2 === 0 ? 'fade-left' : 'fade-right'"
+        >
           <img
+            class="transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
             :src="item.Image"
             alt=""
           />

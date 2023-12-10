@@ -21,9 +21,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'MOVIE',
   TitleCn_2: '',
   TitleEn: 'Company staff observation',
-  ImgSrc: CompanyStaffObservation,
-  bold: 1,
-  type: 1
+  ImgSrc: CompanyStaffObservation
 })
 </script>
 

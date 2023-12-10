@@ -28,7 +28,9 @@ export default {
         AutomationTest_top_4:
           'linear-gradient(238deg, #D877F3 11.94%, #935DFB 76.04%)',
         AutomationTest_4:
-          'url(@/assets/images/si-service-business/AutomationTest_4.svg)'
+          'url(@/assets/images/si-service-business/AutomationTest_4.svg)',
+        SubPageTitleBg:
+          'linear-gradient(90deg, rgb(14, 27, 71) 0%, rgba(14, 27, 71, 0.6) 58.33%, rgba(14, 27, 71, 0.6) 100%)'
       },
       backgroundPosition: {
         'center-35': 'center 120px , center'

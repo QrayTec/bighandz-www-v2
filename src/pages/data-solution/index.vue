@@ -64,9 +64,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'データ',
   TitleCn_2: 'ソリューション',
   TitleEn: 'data solution',
-  ImgSrc: DataSolution,
-  bold: 1,
-  type: 1
+  ImgSrc: DataSolution
 })
 
 const PageNavData = ref<PageNavType[]>([

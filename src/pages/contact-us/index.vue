@@ -17,9 +17,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'お問い合わせ',
   TitleCn_2: '',
   TitleEn: 'contact us',
-  ImgSrc: ContactUs,
-  bold: 1,
-  type: 2
+  ImgSrc: ContactUs
 })
 </script>
 

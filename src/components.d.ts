@@ -7,7 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    copy: typeof import('./components/ThePageMinTitle copy.vue')['default']
+    copy: typeof import('./components/SubPageTitle copy.vue')['default']
     Movie: typeof import('./components/Movie.vue')['default']
     Publications: typeof import('./components/Publications.vue')['default']
     README: typeof import('./components/README.md')['default']
@@ -17,6 +17,8 @@ declare module 'vue' {
     SubPageTitle: typeof import('./components/SubPageTitle.vue')['default']
     SubPageTitle_2: typeof import('./components/SubPageTitle_2.vue')['default']
     SubPageTitle_3: typeof import('./components/SubPageTitle_3.vue')['default']
+    SubPageTitle_4: typeof import('./components/SubPageTitle_4.vue')['default']
+    SubPageTitleBg: typeof import('./components/SubPageTitle-Bg.vue')['default']
     TheBackTop: typeof import('./components/TheBackTop.vue')['default']
     TheBreadcrumbs: typeof import('./components/TheBreadcrumbs.vue')['default']
     TheDownloadBtn: typeof import('./components/TheDownloadBtn.vue')['default']

@@ -37,9 +37,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'ヘルスケア',
   TitleCn_2: '事業',
   TitleEn: 'Healthcare business',
-  ImgSrc: HealthcareBusiness,
-  bold: 1,
-  type: 1
+  ImgSrc: HealthcareBusiness
 })
 
 const PageNavData = ref<PageNavType[]>([

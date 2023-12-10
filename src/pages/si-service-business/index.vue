@@ -68,9 +68,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'SIサービス',
   TitleCn_2: '事業',
   TitleEn: 'Si service business',
-  ImgSrc: SiServiceBusiness,
-  bold: 1,
-  type: 1
+  ImgSrc: SiServiceBusiness
 })
 
 const PageNavData = ref<PageNavType[]>([

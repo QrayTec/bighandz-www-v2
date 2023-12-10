@@ -43,9 +43,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'インフラ',
   TitleCn_2: '事業',
   TitleEn: 'infrastructure business',
-  ImgSrc: DataSolution,
-  bold: 1,
-  type: 1
+  ImgSrc: DataSolution
 })
 
 const PageNavData = ref<PageNavType[]>([

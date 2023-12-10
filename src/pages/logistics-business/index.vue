@@ -44,9 +44,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '物流',
   TitleCn_2: '事業',
   TitleEn: 'Logistics business',
-  ImgSrc: LogisticsBusiness,
-  bold: 1,
-  type: 1
+  ImgSrc: LogisticsBusiness
 })
 
 const PageNavData = ref<PageNavType[]>([

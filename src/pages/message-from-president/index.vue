@@ -63,9 +63,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '社長',
   TitleCn_2: '挨拶',
   TitleEn: 'MESSAGE FROM THE PRESIDENT',
-  ImgSrc: MessagePresident,
-  bold: 1,
-  type: 1
+  ImgSrc: MessagePresident
 })
 
 interface ListType {

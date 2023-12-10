@@ -6,8 +6,6 @@ export interface SubPageTitleType {
   TitleCn_2: string
   TitleEn: string
   ImgSrc: string
-  bold: number
-  type: number
 }
 export interface SubPageTitleType2 {
   TitleCn_1: string
