@@ -1,13 +1,14 @@
 <template>
   <div class="w-full">
     <sub-page-title :data="SubPageTitleData" />
-    <div class="philosophy_policy_box">
+    <div
+      class="my-[120px] w-full flex flex-col items-center justify-center overflow-hidden"
+    >
       <PracticesGuidelines />
-      <Mission />
-      <!-- <Vision /> -->
-      <Values />
+      <Mission class="mt-[120px]" />
+      <Values class="mt-[120px]" />
+      <Innovation class="mt-[120px]" />
     </div>
-    <Innovation />
   </div>
 </template>
 

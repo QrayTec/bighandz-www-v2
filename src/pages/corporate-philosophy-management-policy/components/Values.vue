@@ -1,24 +1,33 @@
 <template>
-  <div class="Practices_guidelines vision">
-    <div class="Realization_of_Corporate_Philosophy">
-      <div class="Realization_title">価値観</div>
-      <div class="Realization_min_text m_top_30">
-        私たちの価値観は、イノベーション、顧客志向、責任、チームワーク、成長です。<br />
-        私たちは常にイノベーションを追求し、顧客を中心に行動し、責任を果たし、団結し、共通の目標を達成するために成長していきます。
-      </div>
-      <div class="m_top_60 values">
+  <div
+    :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+    class="font-NotoSansJP"
+  >
+    <div class="text-cobalt_blue text-[2.25rem] leading-normal font-[700]">
+      価値観
+    </div>
+    <div class="text-deep_blue mt-[30px] text-[1rem] leading-[2rem] font-[400]">
+      私たちの価値観は、イノベーション、顧客志向、責任、チームワーク、成長です。
+      私たちは常にイノベーションを追求し、顧客を中心に行動し、責任を果たし、団結し、共通の目標を達成するために成長していきます
+    </div>
+    <div class="mt-[60px] w-full flex justify-between">
+      <div
+        v-for="item in ValuesData"
+        :key="item.id"
+        class="w-full flex flex-col items-center justify-center pb-[26px] pt-[30px]"
+      >
         <div
-          v-for="item in ValuesData"
-          :key="item.id"
-          class="values_Items"
+          class="h-[120px] w-[120px] flex items-center justify-center border border-[#DFE4F2] rounded-full border-solid"
         >
-          <div class="m_top_30 values_Items_Image">
-            <img
-              :src="item.ImgSrc"
-              alt=""
-            />
-          </div>
-          <div class="values_Items_Text">{{ item.title }}</div>
+          <img
+            :src="item.ImgSrc"
+            alt=""
+          />
+        </div>
+        <div
+          class="text-deep_blue mt-[10px] text-[1.5rem] leading-[2rem] font-[700]"
+        >
+          {{ item.title }}
         </div>
       </div>
     </div>
@@ -27,6 +36,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
+
 import PicIcon1 from '@/assets/images/corporate-philosophy-management-policy/pic_icon_1.svg'
 import PicIcon2 from '@/assets/images/corporate-philosophy-management-policy/pic_icon_2.svg'
 import PicIcon3 from '@/assets/images/corporate-philosophy-management-policy/pic_icon_3.svg'
@@ -46,36 +57,3 @@ const ValuesData = ref<ValuesType[]>([
   { id: 5, ImgSrc: PicIcon5, title: '成長です' }
 ])
 </script>
-
-<style scoped>
-.values {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.values_Items {
-  width: 216px;
-  height: 216px;
-}
-.values_Items_Image {
-  width: 120px;
-  height: 120px;
-  border: 1px solid #dfe4f2;
-  border-radius: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px auto 0;
-}
-.values_Items_Text {
-  margin: 10px auto 0;
-  color: #0e1b47;
-  text-align: center;
-  /* 正文二级标题medium */
-  font-family: Noto Sans JP;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 30px; /* 125% */
-}
-</style>
