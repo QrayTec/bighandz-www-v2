@@ -1,1 +1,0 @@
-import{g as t,o as n,c as o,B as s}from"./app-6fc59219.js";const c={},p={class:"bg-navy_blue inline-block h-[88px] px-[44px] py-[17px] text-[2.25rem] leading-[54px] font-[500] text-white"};function r(e,_,a,l,i,x){return n(),o("div",p,[s(e.$slots,"default")])}const f=t(c,[["render",r]]);export{f as _};
