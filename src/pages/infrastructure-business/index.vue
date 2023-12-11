@@ -49,18 +49,18 @@ const SubPageTitleData = ref<SubPageTitleType>({
 const PageNavData = ref<PageNavType[]>([
   {
     id: 1,
-    anchor: '#Cloud-Enhancement-Strategy',
-    anchor_title: 'クラウド強化戦略'
+    anchor: '#Dev-RESULTS',
+    anchor_title: 'インフラ開発実績'
   },
   {
     id: 2,
-    anchor: '#operational-efficiency-improvement',
-    anchor_title: '運用効率向上'
+    anchor: '#Infrastructure-Business',
+    anchor_title: 'インフラ事業内容'
   },
   {
     id: 3,
-    anchor: '#Plans&Supported-Areas-Skill-Sets',
-    anchor_title: '対応領域とスキルセット'
+    anchor: '#VirtualizationEngineers',
+    anchor_title: '仮想化技術者が多数在籍'
   }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })

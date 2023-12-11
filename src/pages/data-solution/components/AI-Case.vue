@@ -1,5 +1,6 @@
 <template>
   <div
+    id="AI-Cases"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP"
   >

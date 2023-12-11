@@ -1,5 +1,6 @@
 <template>
   <div
+    id="OpenPositions"
     class="font-NotoSansJP relative h-auto flex justify-center text-white"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >

@@ -3,7 +3,11 @@
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinIconTitle :img="train">電車で行く</ThePageMinIconTitle>
+    <ThePageMinIconTitle
+      id="TrainTravel"
+      :img="train"
+      >電車で行く</ThePageMinIconTitle
+    >
     <div class="mt-[60px] w-full flex justify-between">
       <div class="w-[calc(50%-30px)]">
         <TheIconList class="mt-[30px]"
@@ -27,6 +31,7 @@
       </div>
     </div>
     <ThePageMinIconTitle
+      id="BusTravel"
       class="mt-[120px]"
       :img="bus"
       >バスで行く</ThePageMinIconTitle
@@ -71,6 +76,7 @@
     </div>
 
     <ThePageMinIconTitle
+      id="ShuttleBus"
       class="mt-[120px]"
       :img="BusTimer"
       >「東京ダイヤビルディング」無料シャトルバス運行ルート</ThePageMinIconTitle

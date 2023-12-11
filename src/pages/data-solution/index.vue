@@ -68,11 +68,6 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
-  {
-    id: 4,
-    anchor: '#AI-Innovation-Business',
-    anchor_title: 'AIビジネス展開'
-  },
   { id: 5, anchor: '#AI-Cases', anchor_title: 'AI事例' },
 
   { id: 8, anchor: '#Publications', anchor_title: '出版物' }

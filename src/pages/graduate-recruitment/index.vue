@@ -57,11 +57,6 @@ const SubPageTitleData = ref<SubPageTitleType2>({
 
 const PageNavData = ref<PageNavType[]>([
   {
-    id: 1,
-    anchor: '#ToNewGraduates',
-    anchor_title: '新卒の皆さんへ'
-  },
-  {
     id: 2,
     anchor: '#OpenPositions',
     anchor_title: '募集職種'
@@ -70,11 +65,6 @@ const PageNavData = ref<PageNavType[]>([
     id: 3,
     anchor: '#Subject-application',
     anchor_title: '募集学部・学科'
-  },
-  {
-    id: 4,
-    anchor: '#Accepted-Faculties',
-    anchor_title: '物流全般管理'
   },
   {
     id: 5,

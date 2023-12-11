@@ -1,5 +1,6 @@
 <template>
   <div
+    id="Infrastructure-Business"
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >

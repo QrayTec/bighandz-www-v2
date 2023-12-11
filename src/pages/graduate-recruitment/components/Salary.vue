@@ -1,11 +1,12 @@
 <template>
   <div
+    id="Salary&Benefits"
     class="font-NotoSansJP relative h-auto flex justify-center text-white"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)]"></div>
     <div class="w-full">
-      <ThePageMinTitle2>募集学部・学科</ThePageMinTitle2>
+      <ThePageMinTitle2>給与</ThePageMinTitle2>
       <div class="px-[90px]">
         <div class="mt-[60px]">
           <img
