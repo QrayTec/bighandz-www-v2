@@ -1,6 +1,7 @@
 <template>
   <div
     id="Dev-RESULTS"
+    data-aos="fade-up"
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >

@@ -3,8 +3,11 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP"
   >
-    <ThePageMinTitle>AIの産業活用領域</ThePageMinTitle>
-    <div class="text-deep_blue mt-[60px] text-[1rem] leading-[2rem] font-[400]">
+    <ThePageMinTitle data-aos="fade-right">AIの産業活用領域</ThePageMinTitle>
+    <div
+      class="text-deep_blue mt-[60px] text-[1rem] leading-[2rem] font-[400]"
+      data-aos="fade-right"
+    >
       <table class="w-[1000px] border border-[#6785C1] border-solid">
         <tr
           v-for="(item, index) in AIApplicationAreaData"

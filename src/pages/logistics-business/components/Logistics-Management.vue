@@ -303,7 +303,10 @@
       </div>
     </div>
 
-    <div class="mt-[120px]">
+    <div
+      class="mt-[120px]"
+      data-aos="fade-up"
+    >
       <div
         class="text-deep_blue w-[654px] text-[1rem] leading-[2rem] font-[400]"
       >

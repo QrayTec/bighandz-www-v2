@@ -5,14 +5,19 @@
     class="font-NotoSansJP w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle>業界の実績と開発言語</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-right"
+      >業界の実績と開発言語</ThePageMinTitle
+    >
 
     <div
       v-for="(item, index) in industryData"
       :key="index"
       class="mt-[30px] w-full flex flex-col"
     >
-      <div class="flex items-center justify-between text-[2.25rem] font-[400]">
+      <div
+        class="flex items-center justify-between text-[2.25rem] font-[400]"
+        data-aos="fade-right"
+      >
         <div class="flex items-center">
           <div class="h-[32px] w-[5px] bg-[#F6C103]"></div>
           <div class="ml-[10px]">{{ item.title }}</div>
@@ -20,7 +25,10 @@
         <div>{{ item.en_title }}</div>
       </div>
       <div class="mt-[12px] h-[1px] w-full bg-[#D8D8D8]"></div>
-      <div class="flex">
+      <div
+        class="flex"
+        data-aos="fade-right"
+      >
         <div
           :class="index === 0 ? 'order-0 justify-end' : 'order-1 justify-start'"
           class="h-[560px] w-[660px] flex items-center"

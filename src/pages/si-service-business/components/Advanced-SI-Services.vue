@@ -5,9 +5,12 @@
     class="font-NotoSansJP w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle>先進SIサービス</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-right">先進SIサービス</ThePageMinTitle>
 
-    <div class="text-deep_blue mt-[30px] text-[16px] leading-[32px] font-[400]">
+    <div
+      class="text-deep_blue mt-[30px] text-[16px] leading-[32px] font-[400]"
+      data-aos="fade-right"
+    >
       <p>
         これまでの、さまざまな業種・業界のシステム構築経験を活かし、導入フェーズから構築・運用・保守まで一貫したSIサービスを提供しております。
       </p>
@@ -19,34 +22,34 @@
     <div
       class="text-deep_blue mt-[30px] flex justify-between text-[16px] leading-[32px] font-[400]"
     >
-      <div class="w-[710px] flex flex-col">
+      <div
+        class="w-[710px] flex flex-col"
+        data-aos="fade-right"
+      >
         <div
           v-for="(item, index) in ListData"
           :key="index"
           :class="index === 0 ? 'mt-[00px]' : 'mt-[30px]'"
           class="flex"
         >
-          <div class="mr-[10px] mt-[8px] h-[16px] w-[16px]">
-            <img
-              class="h-full min-h-[16px] min-w-[16px] w-full"
-              src="@/assets/images/listicon/icon_1.svg"
-              alt="list-icon"
-            />
-          </div>
-          <div>
-            {{ item.list }}
-          </div>
+          <TheIconList>{{ item.list }}</TheIconList>
         </div>
       </div>
-      <div class="w-[460px]">
+      <div
+        class="w-[460px] overflow-hidden"
+        data-aos="fade-left"
+      >
         <img
-          class="min-w-full"
+          class="min-w-full transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
           src="@/assets/images/si-service-business/si_1.png"
           alt=""
         />
       </div>
     </div>
-    <div class="text-deep_blue mt-[30px] text-[16px] leading-[32px] font-[400]">
+    <div
+      data-aos="fade-right"
+      class="text-deep_blue mt-[30px] text-[16px] leading-[32px] font-[400]"
+    >
       このように、IT技術の進化が激しいこの時代に、SPEED感をもって、これまでの経験値、最先端のIT技術、オフショアリソースPOWERを最大限活用し、お客様の要望に沿ったシステム構築を行っております。
     </div>
   </div>

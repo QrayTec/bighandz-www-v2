@@ -32,7 +32,7 @@ export const createApp = ViteSSG(
 )
 if (typeof document !== 'undefined') {
   AOS.init({
-    duration: 800, // 动画持续时间
-    offset: 50
+    duration: 1200, // 动画持续时间
+    offset: 200
   })
 }

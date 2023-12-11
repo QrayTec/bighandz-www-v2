@@ -11,6 +11,7 @@
           <router-link
             to="/"
             class="h-full w-full flex items-center justify-between py-[5px]"
+            @click="iSCheck(0)"
           >
             <img
               src="/src/assets/images/logo.png"
@@ -28,7 +29,7 @@
             @mouseout="UnCheck(index)"
           >
             <router-link
-              class="h-full w-full px-[19px] py-[28px]"
+              class="h-full w-full px-[19px] py-[28px] text-center"
               :to="item.href"
               >{{ item.title }}</router-link
             >

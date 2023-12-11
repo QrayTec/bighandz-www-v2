@@ -3,10 +3,13 @@
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-right">
       生成AIを活用したアセンブラ解析・変換サービス
     </ThePageMinTitle>
-    <div class="mt-[30px]">
+    <div
+      class="mt-[30px]"
+      data-aos="fade-right"
+    >
       <div class="w-[654px] text-[1rem] leading-[2rem] font-[400]">
         生成AIによる変換処理の説明責任（アカウンタビリティー）を考慮し、変換ソース作成とあわせて構造解析レポートおよびロジック解析レポートも作成します。
       </div>
@@ -19,6 +22,7 @@
       </div>
     </div>
     <div
+      data-aos="fade-right"
       class="text-deep_blue mt-[120px] text-[1rem] leading-[2rem] font-[400]"
     >
       <div>

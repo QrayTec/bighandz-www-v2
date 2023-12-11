@@ -1,6 +1,7 @@
 <template>
   <div
     class="font-NotoSansJP"
+    data-aos="fade-up"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="text-deep_blue text-[16px] leading-[2rem] font-[400]">

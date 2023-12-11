@@ -5,15 +5,21 @@
     class="font-NotoSansJP w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle>様々な業界と技術経験</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-right"
+      >様々な業界と技術経験</ThePageMinTitle
+    >
 
     <div
+      data-aos="fade-right"
       class="text-deep_blue mt-[30px] w-[654px] text-[1rem] leading-[32px] font-[400]"
     >
       これまでさまざまな業種・業界で多くの経験を積み、多くの技術を習得するとともに新技術も取り組んできております。
     </div>
     <div class="mt-[60px] w-full flex justify-between">
-      <div class="w-[calc(50%-20px)] flex">
+      <div
+        class="w-[calc(50%-20px)] flex"
+        data-aos="fade-right"
+      >
         <div class="relative z-2 w-[100px]">
           <div class="relative h-[418px] w-[100px]">
             <img
@@ -52,7 +58,10 @@
           </div>
         </div>
       </div>
-      <div class="w-[calc(50%-20px)] flex flex-col">
+      <div
+        class="w-[calc(50%-20px)] flex flex-col"
+        data-aos="fade-left"
+      >
         <div class="w-full flex">
           <div class="relative z-2 w-[100px] translate-y-[4px]">
             <div class="relative h-[209px] w-[100px]">

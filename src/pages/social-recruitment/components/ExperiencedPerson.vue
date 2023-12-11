@@ -6,9 +6,12 @@
   >
     <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
     <div class="w-full">
-      <ThePageMinTitle2>経験者</ThePageMinTitle2>
+      <ThePageMinTitle2 data-aos="fade-right">経験者</ThePageMinTitle2>
       <div class="px-[90px]">
-        <div class="mt-[60px] text-[1rem] leading-[2rem] font-[400]">
+        <div
+          class="mt-[60px] text-[1rem] leading-[2rem] font-[400]"
+          data-aos="fade-up"
+        >
           <p>
             開発エンジニア（システムエンジニア／プログラマ）、インフラ基盤系エンジニア及び営業を募集しています。
           </p>
@@ -21,10 +24,13 @@
         <div
           class="text-deep_blue mt-[60px] w-full text-[1rem] leading-[2rem] font-[400]"
         >
-          <ThePageMinTitle>
+          <ThePageMinTitle data-aos="fade-right">
             <p class="text-[1.25rem]">開発エンジニア</p>
           </ThePageMinTitle>
-          <table class="mt-[30px]">
+          <table
+            class="mt-[30px]"
+            data-aos="fade-up"
+          >
             <tbody>
               <tr
                 v-for="(item, index) in TableData"
@@ -63,10 +69,13 @@
         <div
           class="text-deep_blue mt-[60px] w-full text-[1rem] leading-[2rem] font-[400]"
         >
-          <ThePageMinTitle>
+          <ThePageMinTitle data-aos="fade-right">
             <p class="text-[1.25rem]">インフラ基盤系エンジニア</p>
           </ThePageMinTitle>
-          <table class="mt-[30px]">
+          <table
+            class="mt-[30px]"
+            data-aos="fade-up"
+          >
             <tbody>
               <tr
                 v-for="(item, index) in TableData2"
@@ -105,11 +114,14 @@
         <div
           class="text-deep_blue mt-[60px] w-full text-[1rem] leading-[2rem] font-[400]"
         >
-          <ThePageMinTitle>
+          <ThePageMinTitle data-aos="fade-right">
             <p class="text-[1.25rem]">コンサルティング営業</p>
           </ThePageMinTitle>
 
-          <div class="mt-[30px] text-[1rem] leading-[2rem] font-[400]">
+          <div
+            data-aos="fade-up"
+            class="mt-[30px] text-[1rem] leading-[2rem] font-[400]"
+          >
             <p>
               提案先は、野村総研やNECグループ各社をはじめとする大手及び中堅SIer（システムインテグレーター）が中心です。
             </p>
@@ -124,7 +136,10 @@
             </p>
           </div>
 
-          <table class="mt-[30px]">
+          <table
+            class="mt-[30px]"
+            data-aos="fade-up"
+          >
             <tbody>
               <tr
                 v-for="(item, index) in TableData3"

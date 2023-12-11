@@ -6,9 +6,14 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="w-full">
-      <ThePageMinTitle>携帯アプリテストの課題</ThePageMinTitle>
+      <ThePageMinTitle data-aos="fade-right"
+        >携帯アプリテストの課題</ThePageMinTitle
+      >
       <div class="mt-[60px] flex justify-between">
-        <div class="w-[710px]">
+        <div
+          class="w-[710px]"
+          data-aos="fade-right"
+        >
           <div
             v-for="(item, index) in MobileData"
             :key="index"
@@ -23,8 +28,12 @@
             が緊急のニーズとなっています。
           </div>
         </div>
-        <div class="w-[460px]">
+        <div
+          class="w-[460px] overflow-hidden"
+          data-aos="fade-left"
+        >
           <img
+            class="transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
             src="@/assets/images/si-service-business/si_2.png"
             alt=""
           />

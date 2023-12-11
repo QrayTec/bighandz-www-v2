@@ -4,9 +4,12 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP"
   >
-    <ThePageMinTitle>物流業界が直面する課題</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-right"
+      >物流業界が直面する課題</ThePageMinTitle
+    >
     <div class="mt-[60px] flex justify-between">
       <div
+        data-aos="fade-right"
         class="text-deep_blue w-[710px] text-[1rem] leading-[32px] font-[400]"
       >
         <TheIconList
@@ -22,7 +25,10 @@
           業務の効率化、配送の効率化や透明性が不足しているとされています。
         </p>
       </div>
-      <div class="w-[460px]">
+      <div
+        class="w-[460px]"
+        data-aos="fade-left"
+      >
         <img
           src="@/assets/images/logistics-business/change_1.png"
           alt=""

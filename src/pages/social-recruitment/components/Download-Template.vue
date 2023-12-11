@@ -5,12 +5,19 @@
   >
     <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
     <div class="w-full">
-      <ThePageMinTitle2>テンプレートのダウンロード</ThePageMinTitle2>
+      <ThePageMinTitle2 data-aos="fade-right"
+        >テンプレートのダウンロード</ThePageMinTitle2
+      >
       <div class="px-[90px]">
         <div class="mt-[60px]">
-          <TheDownloadBtn>履歴書テンプレート</TheDownloadBtn>
+          <TheDownloadBtn data-aos="fade-right"
+            >履歴書テンプレート</TheDownloadBtn
+          >
         </div>
-        <div class="mt-[60px] text-[1rem] font-[400]">
+        <div
+          class="mt-[60px] text-[1rem] font-[400]"
+          data-aos="fade-up"
+        >
           <p>
             上記の履歴書をクリックし、履歴書の書式ダウンロードして記入してください。
           </p>

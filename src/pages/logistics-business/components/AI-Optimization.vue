@@ -1,26 +1,33 @@
 <template>
   <div
     id="AiDelivery"
-    data-aos="fade-in"
     class="w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle>AIによる配送最適化</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-right">AIによる配送最適化</ThePageMinTitle>
     <div
+      data-aos="fade-up"
       class="text-deep_blue font-NotoSansJP mt-[30px] text-[1rem] font-[400]"
     >
       AIを駆使し配送の効率化を実現する。
     </div>
-    <div class="mt-[60px] flex justify-center">
+    <div
+      class="mt-[60px] flex justify-center"
+      data-aos="fade-up"
+    >
       <img
         src="@/assets/images/logistics-business/Change_5.png"
         alt=""
       />
     </div>
-    <div class="mt-[60px] h-[168px] w-full flex items-center bg-[#6785C1]">
+    <div
+      data-aos="fade-up"
+      class="mt-[60px] h-[168px] w-full flex items-center bg-[#6785C1]"
+    >
       <div
         v-for="(item, index) in AiDeliverData"
         :key="index"
+        data-aos="fade-up"
         class="w-full flex justify-between"
       >
         <div class="w-full flex flex-col items-center justify-center">

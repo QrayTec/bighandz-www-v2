@@ -1,6 +1,7 @@
 <template>
   <div
     id="AI-Cases"
+    data-aos="fade-right"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP"
   >

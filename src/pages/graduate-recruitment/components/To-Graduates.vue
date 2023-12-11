@@ -8,7 +8,9 @@
     ></div>
     <div class="w-full">
       <div class="z-1 w-full flex items-center">
-        <ThePageMinTitle2 class=""> 新卒の皆さんへ </ThePageMinTitle2>
+        <ThePageMinTitle2 data-aos="fade-right">
+          新卒の皆さんへ
+        </ThePageMinTitle2>
         <div class="ml-[1.875rem] text-[20px] leading-normal font-[400]">
           <p class="inline-block">
             当社の新卒採用ページにアクセスいただき、ありがとうございます。
@@ -16,8 +18,7 @@
         </div>
       </div>
       <div class="mt-[5.625rem] w-full flex flex-col items-center">
-        <!-- src/assets/images/graduate-recruitment/Graduates_1.svg -->
-        <div>
+        <div data-aos="fade-up">
           <img
             src="@/assets/images/graduate-recruitment/Graduates_1.svg"
             alt=""
@@ -38,6 +39,7 @@
           <p>人事部 新卒採用担当者</p>
         </div>
         <div
+          data-aos="fade-up"
           class="relative mt-[3.75rem] h-[12.5rem] w-full flex text-[.875rem] leading-normal font-[400]"
         >
           <img
@@ -63,6 +65,7 @@
           </div>
         </div>
         <div
+          data-aos="fade-up"
           class="relative mt-[3.75rem] h-[12.5rem] w-full flex text-[.875rem] leading-normal font-[400]"
         >
           <img
@@ -92,6 +95,7 @@
         </div>
 
         <div
+          data-aos="fade-up"
           class="relative mt-[3.75rem] h-[12.5rem] w-full flex text-[.875rem] leading-normal font-[400]"
         >
           <img

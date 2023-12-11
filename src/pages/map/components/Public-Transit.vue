@@ -5,10 +5,14 @@
   >
     <ThePageMinIconTitle
       id="TrainTravel"
+      data-aos="fade-right"
       :img="train"
       >電車で行く</ThePageMinIconTitle
     >
-    <div class="mt-[60px] w-full flex justify-between">
+    <div
+      class="mt-[60px] w-full flex justify-between"
+      data-aos="fade-up"
+    >
       <div class="w-[calc(50%-30px)]">
         <TheIconList class="mt-[30px]"
           >東京メトロ「東西線」茅場町駅3番出口徒歩10分</TheIconList
@@ -34,9 +38,13 @@
       id="BusTravel"
       class="mt-[120px]"
       :img="bus"
+      data-aos="fade-right"
       >バスで行く</ThePageMinIconTitle
     >
-    <div class="mt-[60px] w-full flex justify-between">
+    <div
+      class="mt-[60px] w-full flex justify-between"
+      data-aos="fade-up"
+    >
       <div class="w-[calc(50%-30px)]">
         <div>
           <TheIconList>東京駅八重洲口から</TheIconList>
@@ -79,15 +87,22 @@
       id="ShuttleBus"
       class="mt-[120px]"
       :img="BusTimer"
+      data-aos="fade-right"
       >「東京ダイヤビルディング」無料シャトルバス運行ルート</ThePageMinIconTitle
     >
-    <div class="mt-[60px]">
+    <div
+      class="mt-[60px]"
+      data-aos="fade-up"
+    >
       <img
         src="@/assets/images/map/bus_timer_map.png"
         alt=""
       />
     </div>
-    <div class="mt-[60px]">
+    <div
+      class="mt-[60px]"
+      data-aos="fade-up"
+    >
       <div class="w-full flex text-[1rem] leading-[2rem] font-[400]">
         <div
           class="h-[32px] w-[40px] flex items-center justify-center bg-[#6785C1] text-[#fff]"
@@ -175,7 +190,10 @@
         </div>
       </div>
     </div>
-    <div class="mt-[60px]">
+    <div
+      class="mt-[60px]"
+      data-aos="fade-up"
+    >
       <div class="w-full flex text-[1rem] leading-[2rem] font-[400]">
         <div
           class="h-[32px] w-[40px] flex items-center justify-center bg-[#D2331D] text-[#fff]"
@@ -302,7 +320,10 @@
         </div>
       </div>
     </div>
-    <div class="text-deep_blue font-[400 mt-[30px] text-[1rem] leading-normal">
+    <div
+      data-aos="fade-up"
+      class="text-deep_blue font-[400 mt-[30px] text-[1rem] leading-normal"
+    >
       <p>※土曜・日曜・祝日は、運休といたします。</p>
       <p class="mt-[30px]">※運行ダイヤは、予告なく変更することがございます。</p>
     </div>

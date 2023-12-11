@@ -3,9 +3,10 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP"
   >
-    <ThePageMinTitle>システム開発</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-right">システム開発</ThePageMinTitle>
     <div class="mt-[60px] flex justify-between">
       <div
+        data-aos="fade-right"
         class="text-cobalt_blue w-[710px] text-[1rem] leading-[2rem] font-[400]"
       >
         <div>
@@ -27,8 +28,12 @@
           </p>
         </div>
       </div>
-      <div class="w-[460px]">
+      <div
+        class="w-[460px] overflow-hidden"
+        data-aos="fade-left"
+      >
         <img
+          class="transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
           src="@/assets/images/si-service-business/si_7.png"
           alt=""
         />

@@ -6,10 +6,11 @@
   >
     <div class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)]"></div>
     <div class="w-full">
-      <ThePageMinTitle2>人事制度</ThePageMinTitle2>
+      <ThePageMinTitle2 data-aos="fade-right">人事制度</ThePageMinTitle2>
       <div
         v-for="(item, index) in ListData"
         :key="index"
+        data-aos="fade-up"
         class="px-[90px]"
         :class="index == 0 ? 'mt-[60px]' : 'mt-[30px]'"
       >

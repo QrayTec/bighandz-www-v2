@@ -1,5 +1,6 @@
 <template>
   <div
+    data-aos="fade-in"
     class="font-NotoSansJP text-deep_blue text-[1rem] leading-[2rem] font-[400]"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >

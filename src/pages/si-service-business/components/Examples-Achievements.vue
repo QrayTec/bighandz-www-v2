@@ -6,8 +6,11 @@
       class="w-full"
       :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     >
-      <ThePageMinTitle>開発実績一例</ThePageMinTitle>
-      <div class="mt-[60px]">
+      <ThePageMinTitle data-aos="fade-right">開発実績一例</ThePageMinTitle>
+      <div
+        class="mt-[60px]"
+        data-aos="fade-right"
+      >
         <table class="w-full border border-[#6785C1] border-solid">
           <thead
             class="h-[36px] bg-[#DFE4F2] py-[12px] text-center text-[1rem] font-[700] text-[#071027]"

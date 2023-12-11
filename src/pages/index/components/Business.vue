@@ -5,14 +5,14 @@
     <div class="w-[1200px]">
       <div
         data-aos="fade-in"
-        class="font-NotoSansJP mt-[120px] h-[54px] text-[48px] leading-[54px] font-[500] not-italic text-white"
+        class="font-NotoSansJP mt-[120px] h-[54px] text-[2.25rem] leading-[3.375rem] font-[500] not-italic text-white"
       >
         サービス
       </div>
-      <div class="mt-[40px] text-[22px] text-white">
+      <div class="mt-[40px] text-[1rem] text-white">
         「IT×ビジネス×教育」× SPEED ＝ POWER
       </div>
-      <div class="mt-[40px] text-[22px] text-white">
+      <div class="mt-[40px] text-[1rem] text-white">
         ITからビジネスへ、ビジネスからITへ、教育からIT・ビジネスへと三位一体でスピーディに社会の発展に貢献しつづけます。
       </div>
       <div

@@ -6,9 +6,12 @@
   >
     <div class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)]"></div>
     <div class="w-full">
-      <ThePageMinTitle2>募集職種</ThePageMinTitle2>
+      <ThePageMinTitle2 data-aos="fade-right">募集職種</ThePageMinTitle2>
       <div class="w-full flex flex-col items-center justify-center px-[90px]">
-        <div class="mt-[60px] w-full flex">
+        <div
+          class="mt-[60px] w-full flex"
+          data-aos="fade-up"
+        >
           <div class="w-[50%] flex">
             <div
               class="w-[80px] flex items-center bg-[#597BE5] px-[30px] py-[20px]"
@@ -47,7 +50,10 @@
             </div>
           </div>
         </div>
-        <div class="text-deep_blue mt-[30px] flex bg-[#fff] p-[30px]">
+        <div
+          data-aos="fade-up"
+          class="text-deep_blue mt-[30px] flex bg-[#fff] p-[30px]"
+        >
           <div>
             <li class="w-full flex items-center">
               <div class="text-deep_blue ml-[10px] flex font-[400]">

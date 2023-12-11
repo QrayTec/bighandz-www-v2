@@ -28,7 +28,7 @@
           />
         </div>
         <p
-          class="font-NotoSansJP mt-[10px] text-center text-[24px] leading-[22px] font-[500] group-hover:ml-[10px] group-hover:mt-0"
+          class="font-NotoSansJP mt-[10px] text-center text-[1.5rem] leading-[1.375rem] font-[500] group-hover:ml-[10px] group-hover:mt-0"
         >
           {{ Data.title_1 }}<br v-if="Data.title_2" />
           {{ Data.title_2 }}
@@ -57,7 +57,7 @@
                 srcset=""
               />
               <p
-                class="font-NotoSansJP mt-[10px] text-[24px] leading-[22px] font-[500] group-hover:ml-[10px] group-hover:mt-0"
+                class="font-NotoSansJP mt-[10px] text-[1.5rem] leading-[1.375rem] font-[500] group-hover:ml-[10px] group-hover:mt-0"
               >
                 {{ Data.title_1 }}<br v-if="Data.title_2" />
                 {{ Data.title_2 }}
@@ -72,7 +72,7 @@
             </div>
             <div
               data-aos="fade-up"
-              class="font-NotoSansJP mt-[18px] flex text-[14px] font-[400]"
+              class="font-NotoSansJP mt-[1rem] flex text-[14px] font-[400]"
             >
               <p>詳細はこちら</p>
               <img
