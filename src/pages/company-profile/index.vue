@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div class="company_profile_main">
       <CompanyProfileContent />
@@ -13,7 +13,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
-import CompanyProfile from '@/assets/images/sub_page_title/Company_Profile.png'
+import CompanyProfile from '@/assets/images/sub_page_title/Company_Profile_1.jpg'
 // import CompanyHistory from './components/CompanyHistory.vue'
 import CompanyProfileContent from './components/CompanyProfileContent.vue'
 

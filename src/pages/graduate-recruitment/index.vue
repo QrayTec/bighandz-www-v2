@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <SubPageTitle_2 :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
@@ -33,9 +33,9 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
-import GraduateRecruitment from '@/assets/images/sub_page_title/graduate-recruitment.png'
+import GraduateRecruitment from '@/assets/images/sub_page_title/graduate-recruitment_1.jpg'
 
-import { SubPageTitleType2, PageNavType } from '@/data/pages_interface'
+import { SubPageTitleType, PageNavType } from '@/data/pages_interface'
 
 import ToGraduates from './components/To-Graduates.vue'
 import OpenPositions from './components/Open-Positions.vue'
@@ -49,9 +49,10 @@ import TrialPeriod from './components/Trial-Period.vue'
 import HolidaysVacation from './components/Holidays-Vacation.vue'
 import PersonnelSystem from './components/Personnel-System.vue'
 
-const SubPageTitleData = ref<SubPageTitleType2>({
-  TitleCn_1: '他人に勝ちたい',
-  TitleCn_2: 'まずは自分に勝つ',
+const SubPageTitleData = ref<SubPageTitleType>({
+  TitleCn_1: '新卒採用',
+  TitleCn_2: '',
+  TitleEn: 'graduate recruitment',
   ImgSrc: GraduateRecruitment
 })
 

@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <sub-page-title-bg :data="SubPageTitleData" />
     </div>
     <div class="message_content">
       <div class="message_content_main">
@@ -57,7 +57,7 @@
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
 
-import MessagePresident from '@/assets/images/sub_page_title/MESSAGE_FROM_THE_PRESIDENT_banner.png'
+import MessagePresident from '@/assets/images/sub_page_title/MESSAGE_FROM_THE_PRESIDENT_banner_1.jpg'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '社長',

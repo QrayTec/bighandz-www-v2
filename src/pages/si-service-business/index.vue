@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
@@ -41,7 +41,7 @@ import {
   SolutionType
 } from '@/data/pages_interface'
 import AdvancedSIServices from './components/Advanced-SI-Services.vue'
-import SiServiceBusiness from '@/assets/images/sub_page_title/Si_Service_Business.png'
+import SiServiceBusiness from '@/assets/images/sub_page_title/Si_Service_Business_1.jpg'
 import IndustryDev from './components/Industry-Dev.vue'
 import IndustryExperience from './components/Industry-Experience.vue'
 import ExamplesAchievements from './components/Examples-Achievements.vue'

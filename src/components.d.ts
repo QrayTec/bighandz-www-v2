@@ -17,7 +17,6 @@ declare module 'vue' {
     SubPageTitle: typeof import('./components/SubPageTitle.vue')['default']
     SubPageTitle_2: typeof import('./components/SubPageTitle_2.vue')['default']
     SubPageTitle_3: typeof import('./components/SubPageTitle_3.vue')['default']
-    SubPageTitle_4: typeof import('./components/SubPageTitle_4.vue')['default']
     SubPageTitleBg: typeof import('./components/SubPageTitle-Bg.vue')['default']
     TheBackTop: typeof import('./components/TheBackTop.vue')['default']
     TheBreadcrumbs: typeof import('./components/TheBreadcrumbs.vue')['default']

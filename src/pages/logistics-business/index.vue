@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
@@ -27,7 +27,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
 
-import LogisticsBusiness from '@/assets/images/sub_page_title/Logistics-Business.png'
+import LogisticsBusiness from '@/assets/images/sub_page_title/Logistics-Business_1.jpg'
 import {
   SubPageTitleType,
   PageNavType,

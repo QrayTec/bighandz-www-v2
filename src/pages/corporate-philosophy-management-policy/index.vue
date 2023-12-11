@@ -1,6 +1,6 @@
 <template>
   <div class="w-full">
-    <sub-page-title :data="SubPageTitleData" />
+    <SubPageTitleBg :data="SubPageTitleData" />
     <div
       class="my-[120px] w-full flex flex-col items-center justify-center overflow-hidden"
     >
@@ -15,7 +15,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
-import CorporatePhilosophy from '@/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner.png'
+import CorporatePhilosophy from '@/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner_1.jpg'
 import Innovation from './components/Innovation.vue'
 import Mission from './components/Mission.vue'
 import PracticesGuidelines from './components/PracticesGuidelines.vue'

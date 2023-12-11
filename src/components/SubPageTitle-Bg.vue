@@ -5,7 +5,7 @@
     <div class="bg-SubPageTitleBg absolute h-full w-full"></div>
     <div
       :style="{ backgroundImage: 'url(' + SubPageTitleData.ImgSrc + ')' }"
-      class="h-full w-full flex justify-center bg-[center_50%] bg-cover bg-no-repeat"
+      class="h-full w-full flex justify-center bg-[right_bottom_50%] bg-cover bg-no-repeat"
     >
       <div
         :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"

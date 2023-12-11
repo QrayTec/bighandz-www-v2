@@ -1,6 +1,6 @@
 <template>
   <div class="w-full">
-    <sub-page-title :data="SubPageTitleData" />
+    <SubPageTitleBg :data="SubPageTitleData" />
     <div class="my-[120px] flex justify-center">
       <CompanyInfo />
     </div>
@@ -10,7 +10,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
-import AssociatedCompany from '@/assets/images/sub_page_title/associated-company.png'
+import AssociatedCompany from '@/assets/images/sub_page_title/associated-company_1.jpg'
 import CompanyInfo from './components/company-info.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({

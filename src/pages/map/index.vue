@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
@@ -29,7 +29,7 @@ import {
   PageNavStyleType
 } from '@/data/pages_interface'
 
-import MapPageHeaderImage from '@/assets/images/sub_page_title/Map.png'
+import MapPageHeaderImage from '@/assets/images/sub_page_title/Map_1.jpg'
 
 import CompanyInfo from './components/Company-Info.vue'
 import PublicTransit from './components/Public-Transit.vue'

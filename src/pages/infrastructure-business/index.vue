@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
@@ -31,7 +31,7 @@ import {
   PageNavType,
   PageNavStyleType
 } from '@/data/pages_interface'
-import DataSolution from '@/assets/images/sub_page_title/infrastructure-business.png'
+import DataSolution from '@/assets/images/sub_page_title/infrastructure-business_1.jpg'
 
 import Introduce from './components/Introduce.vue'
 import DevResults from './components/Dev-Results.vue'
