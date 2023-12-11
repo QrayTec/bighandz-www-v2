@@ -17,10 +17,12 @@
           class="relative h-[732px] w-full flex flex-col items-center justify-center"
         >
           <div
-            class="text-deep_blue relative mt-[6px] h-[500px] w-[500px] text-[1.25rem] font-[700]"
+            class="text-deep_blue relative z-1 mt-[6px] h-[500px] w-[500px] text-[1.25rem] font-[700]"
           >
             <div
-              class="absolute left-[calc(50%-92.5px)] top-[0px] h-[162.px] w-[185px] flex items-center justify-center"
+              class="group absolute left-[calc(50%-92.5px)] top-[0px] h-[162.px] w-[185px] flex items-center justify-center"
+              @mouseenter="TMS = true"
+              @mouseleave="TMS = false"
             >
               <img
                 src="@/assets/images/logistics-business/tms.svg"
@@ -29,7 +31,9 @@
               <div class="absolute">TMS</div>
             </div>
             <div
-              class="absolute bottom-[0px] left-[calc(50%-92.5px)] h-[162.px] w-[185px] flex items-center justify-center"
+              class="group absolute bottom-[0px] left-[calc(50%-92.5px)] h-[162.px] w-[185px] flex items-center justify-center"
+              @mouseenter="EHUB = true"
+              @mouseleave="EHUB = false"
             >
               <img
                 src="@/assets/images/logistics-business/ehub.svg"
@@ -39,6 +43,8 @@
             </div>
             <div
               class="absolute right-[21px] top-[21px] h-[189px] w-[189px] flex items-center justify-center"
+              @mouseenter="WMS = true"
+              @mouseleave="WMS = false"
             >
               <img
                 src="@/assets/images/logistics-business/wms.svg"
@@ -48,6 +54,8 @@
             </div>
             <div
               class="absolute left-[21px] top-[21px] h-[189px] w-[189px] flex items-center justify-center"
+              @mouseenter="OMS = true"
+              @mouseleave="OMS = false"
             >
               <img
                 src="@/assets/images/logistics-business/oms.svg"
@@ -57,6 +65,8 @@
             </div>
             <div
               class="absolute right-[0px] top-[calc(50%-92.5px)] h-[185px] w-[162px] flex items-center justify-center"
+              @mouseenter="BMS = true"
+              @mouseleave="BMS = false"
             >
               <img
                 src="@/assets/images/logistics-business/bms.svg"
@@ -66,6 +76,8 @@
             </div>
             <div
               class="absolute left-[0px] top-[calc(50%-92.5px)] h-[185px] w-[162px] flex items-center justify-center"
+              @mouseenter="WES = true"
+              @mouseleave="WES = false"
             >
               <img
                 src="@/assets/images/logistics-business/wes.svg"
@@ -75,6 +87,8 @@
             </div>
             <div
               class="absolute bottom-[21px] right-[21px] h-[189px] w-[189px] flex items-center justify-center"
+              @mouseenter="ROS = true"
+              @mouseleave="ROS = false"
             >
               <img
                 src="@/assets/images/logistics-business/ros.svg"
@@ -84,6 +98,8 @@
             </div>
             <div
               class="absolute bottom-[21px] left-[21px] h-[189px] w-[189px] flex items-center justify-center"
+              @mouseenter="Cloud = true"
+              @mouseleave="Cloud = false"
             >
               <img
                 src="@/assets/images/logistics-business/cloud.svg"
@@ -103,112 +119,185 @@
               />
             </div>
           </div>
-          <div class="absolute left-[calc(50%-250px)] top-[0px] w-[500px]">
-            <div
-              class="text-deep_blue bg-[#DCECC9] px-[20px] py-[12px] text-[1rem] font-[400]"
+
+          <div class="absolute left-0 top-0 z-0 h-full w-full">
+            <transition
+              name="fade"
+              enter-active-class="animate__animated animate__fadeInDown"
+              leave-active-class="animate__animated animate__fadeOutUp"
             >
-              <p class="font-[700]">輸配送管理システム（TMS）</p>
-              <p class="mt-[10px]">
-                集荷、幹線、小口貨物、配車、積替え、配送など輸計画の最適化とモニタリングを行う
-              </p>
-            </div>
-            <div
-              class="absolute left-[244px] h-[6px] w-[12px] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#DCECC9] divide-solid"
-            ></div>
-          </div>
-          <div class="absolute left-0 top-0 h-full w-full">
-            <div class="absolute left-[0] top-[128px] w-[370px]">
               <div
-                class="text-deep_blue bg-[#85CBCF] px-[20px] py-[12px] text-[1rem] font-[400]"
+                v-show="TMS"
+                class="absolute left-[calc(50%-250px)] top-[0px] w-[500px]"
               >
-                <p class="font-[700]">オーダー管理システム（OMS）</p>
-                <p class="mt-[10px]">
-                  オーダーコントロール、倉庫・配送会社割当、在庫一元管理、トレーサビリティ、KPI分析を可能とする
-                </p>
+                <div
+                  class="text-deep_blue bg-[#DCECC9] px-[20px] py-[12px] text-[1rem] font-[400]"
+                >
+                  <p class="font-[700]">輸配送管理システム（TMS）</p>
+                  <p class="mt-[10px]">
+                    集荷、幹線、小口貨物、配車、積替え、配送など輸計画の最適化とモニタリングを行う
+                  </p>
+                </div>
+                <div
+                  class="absolute left-[244px] h-[6px] w-[12px] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#DCECC9] divide-solid"
+                ></div>
               </div>
+            </transition>
+            <transition
+              name="fade"
+              enter-active-class="animate__animated animate__fadeInDown"
+              leave-active-class="animate__animated animate__fadeOutUp"
+            >
               <div
-                class="absolute right-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[270deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#85CBCF] divide-solid"
-              ></div>
-            </div>
-            <div class="absolute right-[0] top-[128px] w-[370px]">
-              <div
-                class="text-deep_blue bg-[#AFDCCC] px-[20px] py-[12px] text-[1rem] font-[400]"
+                v-show="OMS"
+                class="absolute left-[0] top-[128px] w-[370px]"
               >
-                <p class="font-[700]">倉庫管理システム（WMS）</p>
-                <p class="mt-[10px]">
-                  倉庫内のオペレーションを高品質・効率的に管理。入荷から在庫、出荷、返品、棚卸といった一連の倉庫業務をサポート
-                </p>
+                <div
+                  class="text-deep_blue bg-[#85CBCF] px-[20px] py-[12px] text-[1rem] font-[400]"
+                >
+                  <p class="font-[700]">オーダー管理システム（OMS）</p>
+                  <p class="mt-[10px]">
+                    オーダーコントロール、倉庫・配送会社割当、在庫一元管理、トレーサビリティ、KPI分析を可能とする
+                  </p>
+                </div>
+                <div
+                  class="absolute right-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[270deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#85CBCF] divide-solid"
+                ></div>
               </div>
+            </transition>
+            <transition
+              name="fade"
+              enter-active-class="animate__animated animate__fadeInDown"
+              leave-active-class="animate__animated animate__fadeOutUp"
+            >
               <div
-                class="absolute left-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[90deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#AFDCCC] divide-solid"
-              ></div>
-            </div>
-            <div class="absolute left-[0] top-[296px] w-[338px]">
-              <div
-                class="bg-[#2371AD] px-[20px] py-[12px] text-[1rem] font-[400] text-[#fff]"
+                v-show="WMS"
+                class="absolute right-[0] top-[128px] w-[370px]"
               >
-                <p class="font-[700]">倉庫運用管理システム（WES）</p>
-                <p class="mt-[10px]">
-                  マテハンメーカーのWCSと連携し、リアルタイムにAGVやアームロボットなどのマテハン機械のコントロール及び監視を行う
-                </p>
+                <div
+                  class="text-deep_blue bg-[#AFDCCC] px-[20px] py-[12px] text-[1rem] font-[400]"
+                >
+                  <p class="font-[700]">倉庫管理システム（WMS）</p>
+                  <p class="mt-[10px]">
+                    倉庫内のオペレーションを高品質・効率的に管理。入荷から在庫、出荷、返品、棚卸といった一連の倉庫業務をサポート
+                  </p>
+                </div>
+                <div
+                  class="absolute left-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[90deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#AFDCCC] divide-solid"
+                ></div>
               </div>
+            </transition>
+            <transition
+              name="fade"
+              enter-active-class="animate__animated animate__fadeInDown"
+              leave-active-class="animate__animated animate__fadeOutUp"
+            >
               <div
-                class="absolute right-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[270deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#2371AD] divide-solid"
-              ></div>
-            </div>
-            <div class="absolute right-[0] top-[296px] w-[338px]">
-              <div
-                class="text-deep_blue bg-[#78C6D0] px-[20px] py-[12px] text-[1rem] font-[400]"
+                v-show="WES"
+                class="absolute left-[0] top-[296px] w-[338px]"
               >
-                <p class="font-[700]">物流費管理システム（BMS）</p>
-                <p class="mt-[10px]">
-                  費用率マスタ、課金ロジックエンジンにより、倉庫運営、運送関連費用の計算を行う
-                </p>
+                <div
+                  class="bg-[#2371AD] px-[20px] py-[12px] text-[1rem] font-[400] text-[#fff]"
+                >
+                  <p class="font-[700]">倉庫運用管理システム（WES）</p>
+                  <p class="mt-[10px]">
+                    マテハンメーカーのWCSと連携し、リアルタイムにAGVやアームロボットなどのマテハン機械のコントロール及び監視を行う
+                  </p>
+                </div>
+                <div
+                  class="absolute right-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[270deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#2371AD] divide-solid"
+                ></div>
               </div>
+            </transition>
+            <transition
+              name="fade"
+              enter-active-class="animate__animated animate__fadeInDown"
+              leave-active-class="animate__animated animate__fadeOutUp"
+            >
               <div
-                class="absolute left-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[90deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#78C6D0] divide-solid"
-              ></div>
-            </div>
-            <div class="absolute bottom-[131px] left-[0] w-[370px]">
-              <div
-                class="bg-[#183F7A] px-[20px] py-[12px] text-[1rem] font-[400] text-[#fff]"
+                v-show="BMS"
+                class="absolute right-[0] top-[296px] w-[338px]"
               >
-                <p class="font-[700]">クラウドプラットフォーム</p>
-                <p class="mt-[10px]">
-                  vTradExサブブランドとして、
-                  クラウドにてWMS、TMS、ROSなどの機能をモバイルアプリにて利用可能
-                </p>
+                <div
+                  class="text-deep_blue bg-[#78C6D0] px-[20px] py-[12px] text-[1rem] font-[400]"
+                >
+                  <p class="font-[700]">物流費管理システム（BMS）</p>
+                  <p class="mt-[10px]">
+                    費用率マスタ、課金ロジックエンジンにより、倉庫運営、運送関連費用の計算を行う
+                  </p>
+                </div>
+                <div
+                  class="absolute left-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[90deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#78C6D0] divide-solid"
+                ></div>
               </div>
+            </transition>
+            <transition
+              name="fade"
+              enter-active-class="animate__animated animate__fadeInDown"
+              leave-active-class="animate__animated animate__fadeOutUp"
+            >
               <div
-                class="absolute right-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[270deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#183F7A] divide-solid"
-              ></div>
-            </div>
-            <div class="absolute bottom-[131px] right-[0] w-[370px]">
-              <div
-                class="bg-[#289DC7] px-[20px] py-[12px] text-[1rem] font-[400] text-[#fff]"
+                v-show="Cloud"
+                class="absolute bottom-[131px] left-[0] w-[370px]"
               >
-                <p class="font-[700]">ルート管理システム（ROS）</p>
-                <p class="mt-[10px]">
-                  AIを活用し、分単位での最適な配送計画を立案しコストダウンを可能とする
-                </p>
+                <div
+                  class="bg-[#183F7A] px-[20px] py-[12px] text-[1rem] font-[400] text-[#fff]"
+                >
+                  <p class="font-[700]">クラウドプラットフォーム</p>
+                  <p class="mt-[10px]">
+                    vTradExサブブランドとして、
+                    クラウドにてWMS、TMS、ROSなどの機能をモバイルアプリにて利用可能
+                  </p>
+                </div>
+                <div
+                  class="absolute right-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[270deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#183F7A] divide-solid"
+                ></div>
               </div>
+            </transition>
+            <transition
+              name="fade"
+              enter-active-class="animate__animated animate__fadeInDown"
+              leave-active-class="animate__animated animate__fadeOutUp"
+            >
               <div
-                class="absolute left-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[90deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#289DC7] divide-solid"
-              ></div>
-            </div>
-            <div class="absolute bottom-[0px] left-[calc(50%-250px)] w-[500px]">
-              <div
-                class="bg-deep_blue px-[20px] py-[12px] text-[1rem] font-[400] text-[#fff]"
+                v-show="ROS"
+                class="absolute bottom-[131px] right-[0] w-[370px]"
               >
-                <p class="font-[700]">e-Hubインタフェースプラットフォーム</p>
-                <p class="mt-[10px]">
-                  異るシステム間での連携を迅速に実現するためのクラウドベースのインターフェースプラットフォーム
-                </p>
+                <div
+                  class="bg-[#289DC7] px-[20px] py-[12px] text-[1rem] font-[400] text-[#fff]"
+                >
+                  <p class="font-[700]">ルート管理システム（ROS）</p>
+                  <p class="mt-[10px]">
+                    AIを活用し、分単位での最適な配送計画を立案しコストダウンを可能とする
+                  </p>
+                </div>
+                <div
+                  class="absolute left-[-9px] top-[calc(50%-6px)] h-[6px] w-[12px] transform-rotate-[90deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent border-t-[#289DC7] divide-solid"
+                ></div>
               </div>
+            </transition>
+            <transition
+              name="fade"
+              enter-active-class="animate__animated animate__fadeInDown"
+              leave-active-class="animate__animated animate__fadeOutUp"
+            >
               <div
-                class="border-t-deep_blue absolute left-[244px] top-[-6px] h-[6px] w-[12px] transform-rotate-[180deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent divide-solid"
-              ></div>
-            </div>
+                v-show="EHUB"
+                class="absolute bottom-[0px] left-[calc(50%-250px)] w-[500px]"
+              >
+                <div
+                  class="bg-deep_blue px-[20px] py-[12px] text-[1rem] font-[400] text-[#fff]"
+                >
+                  <p class="font-[700]">e-Hubインタフェースプラットフォーム</p>
+                  <p class="mt-[10px]">
+                    異るシステム間での連携を迅速に実現するためのクラウドベースのインターフェースプラットフォーム
+                  </p>
+                </div>
+                <div
+                  class="border-t-deep_blue absolute left-[244px] top-[-6px] h-[6px] w-[12px] transform-rotate-[180deg] border-l-[6px] border-r-[6px] border-t-[6px] border-l-transparent border-r-transparent divide-solid"
+                ></div>
+              </div>
+            </transition>
           </div>
         </div>
       </div>
@@ -365,5 +454,14 @@ const ManagementData = ref<ManagementType[]>([
     ]
   }
 ])
+
+const TMS = ref<boolean>(false)
+const WMS = ref<boolean>(false)
+const BMS = ref<boolean>(false)
+const ROS = ref<boolean>(false)
+const EHUB = ref<boolean>(false)
+const Cloud = ref<boolean>(false)
+const WES = ref<boolean>(false)
+const OMS = ref<boolean>(false)
 </script>
 <style lang=""></style>
