@@ -9,7 +9,7 @@
       <ThePageMinTitle data-aos="fade-right">開発実績一例</ThePageMinTitle>
       <div
         class="mt-[60px]"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <table class="w-full border border-[#6785C1] border-solid">
           <thead
@@ -64,7 +64,10 @@
         </table>
       </div>
     </div>
-    <div class="mt-[120px] w-full flex justify-center bg-[#F4F4F4]">
+    <div
+      data-aos="fade-up"
+      class="mt-[120px] w-full flex justify-center bg-[#F4F4F4]"
+    >
       <div
         :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
         class="px-[123px] py-[60px]"

@@ -41,15 +41,22 @@
       </div>
     </div>
     <div class="mt-[120px] w-full">
-      <ThePageMinTitle>携帯テスト自動化ツール</ThePageMinTitle>
+      <ThePageMinTitle data-aos="fade-right"
+        >携帯テスト自動化ツール</ThePageMinTitle
+      >
       <div class="mt-[30px] flex justify-between">
-        <div class="w-[460px]">
+        <div
+          class="w-[460px] overflow-hidden"
+          data-aos="fade-right"
+        >
           <img
+            class="transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
             src="@/assets/images/si-service-business/si_5.png"
             alt=""
           />
         </div>
         <div
+          data-aos="fade-left"
           class="text-cobalt_blue w-[710px] text-[1rem] leading-[2rem] font-[400]"
         >
           <div>
@@ -74,10 +81,11 @@
       </div>
     </div>
     <div class="mt-[120px] w-full">
-      <ThePageMinTitle
+      <ThePageMinTitle data-aos="fade-right"
         >本自動テストプラットフォームを利用すると
       </ThePageMinTitle>
       <div
+        data-aos="fade-up"
         class="text-cobalt_blue mt-[30px] text-[1rem] leading-[2rem] font-[400]"
       >
         <p>
@@ -93,7 +101,10 @@
       <div
         class="text-cobalt_blue mt-[30px] flex justify-between text-[1rem] leading-[2rem] font-[400]"
       >
-        <div class="w-[710px]">
+        <div
+          class="w-[710px]"
+          data-aos="fade-right"
+        >
           <TheIconList
             v-for="(item, index) in AutomationTestData"
             :key="index"
@@ -103,6 +114,7 @@
           </TheIconList>
         </div>
         <div
+          data-aos="fade-left"
           class="w-[460px] flex flex-col items-center justify-end text-[1.5rem] leading-[30px] font-[700] text-white"
         >
           <div class="z-10 w-[160px]">

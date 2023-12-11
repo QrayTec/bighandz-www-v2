@@ -4,20 +4,26 @@
     class="w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle>出版物</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-right">出版物</ThePageMinTitle>
 
     <div
       data-aos="fade-in"
       class="mt-[60px] flex justify-between"
     >
-      <div class="h-[460px] w-[calc(50%-15px)] flex justify-center">
+      <div
+        class="h-[460px] w-[calc(50%-15px)] flex justify-center"
+        data-aos="fade-right"
+      >
         <img
-          class="object-cover"
+          class="object-cover transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
           :src="PublicationsData.Image"
           alt=""
         />
       </div>
-      <div class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]">
+      <div
+        class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]"
+        data-aos="fade-left"
+      >
         <div class="flex flex-col">
           <TheIconTitle>
             <div class="w-[358px]">

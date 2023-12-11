@@ -9,7 +9,6 @@
       </ThePageMinTitle>
       <div class="my-[60px]">
         <img
-          class="transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
           src="@/assets/images/si-service-business/si_8.png"
           alt=""
         />
