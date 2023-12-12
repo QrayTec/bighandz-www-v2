@@ -1,1 +1,0 @@
-import{_ as o}from"./Logistics-Platform.vue_vue_type_script_setup_true_lang-e955a305.js";import"./TheIconList.vue_vue_type_script_setup_true_lang-689df7da.js";import"./icon_1-3ff743fe.js";import"./app-6fef336b.js";import"./video-chunk-5fea95d1.js";import"./ThePageMinTitle-a924fb44.js";import"./GartnerCard.vue_vue_type_script_setup_true_lang-bb021724.js";export{o as default};
