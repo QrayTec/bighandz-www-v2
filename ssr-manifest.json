@@ -344,10 +344,10 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "../../../../../@vite-plugin-pages/route-block": [
-    "/assets/_...all_-747be5dc.js"
+    "/assets/_...all_-b3584787.js"
   ],
   "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-4ecec1e2.js"
+    "/assets/virtual_pwa-register-4e986015.js"
   ],
   "../../../../../@vite-plugin-vue-layouts/generated-layouts": [
     "/assets/logo-f2b74d48.png",
@@ -1778,32 +1778,32 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "src/assets/images/IconTitle/icon.svg": [
-    "/assets/Publications.vue_vue_type_script_setup_true_lang-9e72984c.js",
+    "/assets/Publications.vue_vue_type_script_setup_true_lang-cf90fb3d.js",
     "/assets/icon-1cc56fac.svg"
   ],
   "src/assets/images/MessageFromPresident/pic_president_sign.png": [
-    "/assets/index-ad6637c6.js",
+    "/assets/index-fef74023.js",
     "/assets/index-c1a8415f.css",
     "/assets/pic_president_sign-6f5a098d.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner_1-5906df9d.jpg"
   ],
   "src/assets/images/Publications/Publications_1.png": [
-    "/assets/index-71b11b2a.js",
+    "/assets/index-0c5f5e1e.js",
     "/assets/Si_Service_Business_1-7f460fb8.jpg",
     "/assets/Publications_1-1debbd63.png"
   ],
   "src/assets/images/Publications/Publications_2.png": [
-    "/assets/index-650e19a8.js",
+    "/assets/index-9aabb446.js",
     "/assets/Data-Solution_1-ee77bdde.jpg",
     "/assets/Publications_2-415e3359.png"
   ],
   "src/assets/images/adoption/careers.png": [
-    "/assets/adoption-item.vue_vue_type_script_setup_true_lang-0a0c4f21.js",
+    "/assets/adoption-item.vue_vue_type_script_setup_true_lang-086fe844.js",
     "/assets/graduates-2412aa82.png",
     "/assets/careers-3062bdd7.png"
   ],
   "src/assets/images/adoption/graduates.png": [
-    "/assets/adoption-item.vue_vue_type_script_setup_true_lang-0a0c4f21.js",
+    "/assets/adoption-item.vue_vue_type_script_setup_true_lang-086fe844.js",
     "/assets/graduates-2412aa82.png",
     "/assets/careers-3062bdd7.png"
   ],
@@ -1814,14 +1814,14 @@
     "/assets/fax-b46cdba3.svg"
   ],
   "src/assets/images/associated-company/company_1.png": [
-    "/assets/company-info.vue_vue_type_script_setup_true_lang-03225d90.js",
+    "/assets/company-info.vue_vue_type_script_setup_true_lang-768cd14e.js",
     "/assets/company_1-028cfe07.png",
     "/assets/company_2-a1557fcb.png",
     "/assets/person-957e186d.svg",
     "/assets/site-e40a61e9.svg"
   ],
   "src/assets/images/associated-company/company_2.png": [
-    "/assets/company-info.vue_vue_type_script_setup_true_lang-03225d90.js",
+    "/assets/company-info.vue_vue_type_script_setup_true_lang-768cd14e.js",
     "/assets/company_1-028cfe07.png",
     "/assets/company_2-a1557fcb.png",
     "/assets/person-957e186d.svg",
@@ -1834,7 +1834,7 @@
     "/assets/fax-b46cdba3.svg"
   ],
   "src/assets/images/associated-company/person.svg": [
-    "/assets/company-info.vue_vue_type_script_setup_true_lang-03225d90.js",
+    "/assets/company-info.vue_vue_type_script_setup_true_lang-768cd14e.js",
     "/assets/company_1-028cfe07.png",
     "/assets/company_2-a1557fcb.png",
     "/assets/person-957e186d.svg",
@@ -1847,7 +1847,7 @@
     "/assets/fax-b46cdba3.svg"
   ],
   "src/assets/images/associated-company/site.svg": [
-    "/assets/company-info.vue_vue_type_script_setup_true_lang-03225d90.js",
+    "/assets/company-info.vue_vue_type_script_setup_true_lang-768cd14e.js",
     "/assets/company_1-028cfe07.png",
     "/assets/company_2-a1557fcb.png",
     "/assets/person-957e186d.svg",
@@ -1897,27 +1897,27 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "src/assets/images/bread_icon.svg": [
-    "/assets/TheBreadcrumbs.vue_vue_type_script_setup_true_lang-0ea6f517.js",
+    "/assets/TheBreadcrumbs.vue_vue_type_script_setup_true_lang-c08e591d.js",
     "/assets/bread_icon-5c1858f4.svg"
   ],
   "src/assets/images/company-staff-observation/play.svg": [
-    "/assets/MovieItem-1b007312.js",
+    "/assets/MovieItem-4dcc702f.js",
     "/assets/MovieItem-45d44f91.css",
     "/assets/play-df0788ce.svg",
     "/assets/video-3538944c.png"
   ],
   "src/assets/images/company-staff-observation/video.png": [
-    "/assets/MovieItem-1b007312.js",
+    "/assets/MovieItem-4dcc702f.js",
     "/assets/MovieItem-45d44f91.css",
     "/assets/play-df0788ce.svg",
     "/assets/video-3538944c.png"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic-Misson.png": [
-    "/assets/Mission.vue_vue_type_script_setup_true_lang-a3017b80.js",
+    "/assets/Mission.vue_vue_type_script_setup_true_lang-bfc1fd86.js",
     "/assets/pic-Misson-eece2139.png"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_1.svg": [
-    "/assets/Values.vue_vue_type_script_setup_true_lang-6f2e8765.js",
+    "/assets/Values.vue_vue_type_script_setup_true_lang-9198f761.js",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
     "/assets/pic_icon_3-a4585458.svg",
@@ -1925,7 +1925,7 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_2.svg": [
-    "/assets/Values.vue_vue_type_script_setup_true_lang-6f2e8765.js",
+    "/assets/Values.vue_vue_type_script_setup_true_lang-9198f761.js",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
     "/assets/pic_icon_3-a4585458.svg",
@@ -1933,7 +1933,7 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_3.svg": [
-    "/assets/Values.vue_vue_type_script_setup_true_lang-6f2e8765.js",
+    "/assets/Values.vue_vue_type_script_setup_true_lang-9198f761.js",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
     "/assets/pic_icon_3-a4585458.svg",
@@ -1941,7 +1941,7 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_4.svg": [
-    "/assets/Values.vue_vue_type_script_setup_true_lang-6f2e8765.js",
+    "/assets/Values.vue_vue_type_script_setup_true_lang-9198f761.js",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
     "/assets/pic_icon_3-a4585458.svg",
@@ -1949,7 +1949,7 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_icon_5.svg": [
-    "/assets/Values.vue_vue_type_script_setup_true_lang-6f2e8765.js",
+    "/assets/Values.vue_vue_type_script_setup_true_lang-9198f761.js",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
     "/assets/pic_icon_3-a4585458.svg",
@@ -1957,7 +1957,7 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_way_bg_1.svg": [
-    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-b2de7843.js",
+    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-fbbe5bbe.js",
     "/assets/pic_way_bg_1-af197670.svg",
     "/assets/pic_way_bg_2-a0fecacb.svg",
     "/assets/pic_way_bg_3-e9523cfc.svg",
@@ -1965,7 +1965,7 @@
     "/assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_way_bg_2.svg": [
-    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-b2de7843.js",
+    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-fbbe5bbe.js",
     "/assets/pic_way_bg_1-af197670.svg",
     "/assets/pic_way_bg_2-a0fecacb.svg",
     "/assets/pic_way_bg_3-e9523cfc.svg",
@@ -1973,7 +1973,7 @@
     "/assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_way_bg_3.svg": [
-    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-b2de7843.js",
+    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-fbbe5bbe.js",
     "/assets/pic_way_bg_1-af197670.svg",
     "/assets/pic_way_bg_2-a0fecacb.svg",
     "/assets/pic_way_bg_3-e9523cfc.svg",
@@ -1981,7 +1981,7 @@
     "/assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_way_bg_4.svg": [
-    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-b2de7843.js",
+    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-fbbe5bbe.js",
     "/assets/pic_way_bg_1-af197670.svg",
     "/assets/pic_way_bg_2-a0fecacb.svg",
     "/assets/pic_way_bg_3-e9523cfc.svg",
@@ -1989,7 +1989,7 @@
     "/assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/corporate-philosophy-management-policy/pic_way_bg_5.svg": [
-    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-b2de7843.js",
+    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-fbbe5bbe.js",
     "/assets/pic_way_bg_1-af197670.svg",
     "/assets/pic_way_bg_2-a0fecacb.svg",
     "/assets/pic_way_bg_3-e9523cfc.svg",
@@ -1997,21 +1997,21 @@
     "/assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/assets/images/data-solution/AICase_1.png": [
-    "/assets/AI-Case-68b62672.js",
+    "/assets/AI-Case-e27577ae.js",
     "/assets/AICase_1-a37232aa.png",
     "/assets/AICase_2-c7cd2537.png"
   ],
   "src/assets/images/data-solution/AICase_2.png": [
-    "/assets/AI-Case-68b62672.js",
+    "/assets/AI-Case-e27577ae.js",
     "/assets/AICase_1-a37232aa.png",
     "/assets/AICase_2-c7cd2537.png"
   ],
   "src/assets/images/data-solution/AnalyticsTransformationServices_1.png": [
-    "/assets/Analytics-Transformation-Services.vue_vue_type_script_setup_true_lang-1b74ba16.js",
+    "/assets/Analytics-Transformation-Services.vue_vue_type_script_setup_true_lang-ad399dc2.js",
     "/assets/AnalyticsTransformationServices_1-3eb13cc1.png"
   ],
   "src/assets/images/data-solution/EPR_1.png": [
-    "/assets/EPR.vue_vue_type_script_setup_true_lang-18b2157a.js",
+    "/assets/EPR.vue_vue_type_script_setup_true_lang-d4a5aa9a.js",
     "/assets/EPR_1-38677ffd.png",
     "/assets/EPR_2-646cb40b.png",
     "/assets/EPR_3-21a06a49.png",
@@ -2019,7 +2019,7 @@
     "/assets/EPR_5-a0cf9dc8.png"
   ],
   "src/assets/images/data-solution/EPR_2.png": [
-    "/assets/EPR.vue_vue_type_script_setup_true_lang-18b2157a.js",
+    "/assets/EPR.vue_vue_type_script_setup_true_lang-d4a5aa9a.js",
     "/assets/EPR_1-38677ffd.png",
     "/assets/EPR_2-646cb40b.png",
     "/assets/EPR_3-21a06a49.png",
@@ -2027,7 +2027,7 @@
     "/assets/EPR_5-a0cf9dc8.png"
   ],
   "src/assets/images/data-solution/EPR_3.png": [
-    "/assets/EPR.vue_vue_type_script_setup_true_lang-18b2157a.js",
+    "/assets/EPR.vue_vue_type_script_setup_true_lang-d4a5aa9a.js",
     "/assets/EPR_1-38677ffd.png",
     "/assets/EPR_2-646cb40b.png",
     "/assets/EPR_3-21a06a49.png",
@@ -2035,7 +2035,7 @@
     "/assets/EPR_5-a0cf9dc8.png"
   ],
   "src/assets/images/data-solution/EPR_4.png": [
-    "/assets/EPR.vue_vue_type_script_setup_true_lang-18b2157a.js",
+    "/assets/EPR.vue_vue_type_script_setup_true_lang-d4a5aa9a.js",
     "/assets/EPR_1-38677ffd.png",
     "/assets/EPR_2-646cb40b.png",
     "/assets/EPR_3-21a06a49.png",
@@ -2043,7 +2043,7 @@
     "/assets/EPR_5-a0cf9dc8.png"
   ],
   "src/assets/images/data-solution/EPR_5.png": [
-    "/assets/EPR.vue_vue_type_script_setup_true_lang-18b2157a.js",
+    "/assets/EPR.vue_vue_type_script_setup_true_lang-d4a5aa9a.js",
     "/assets/EPR_1-38677ffd.png",
     "/assets/EPR_2-646cb40b.png",
     "/assets/EPR_3-21a06a49.png",
@@ -2051,11 +2051,11 @@
     "/assets/EPR_5-a0cf9dc8.png"
   ],
   "src/assets/images/download.svg": [
-    "/assets/TheDownloadBtn-c50c2a60.js",
+    "/assets/TheDownloadBtn-acc72f05.js",
     "/assets/download-31b6a16b.svg"
   ],
   "src/assets/images/graduate-recruitment/Graduates_1.svg": [
-    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-e8502520.js",
+    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-1a4e22e7.js",
     "/assets/Graduates_1-0bf615e4.svg",
     "/assets/Graduates_top_1-1613399e.svg",
     "/assets/Graduates_top_2-f4c7faf1.svg",
@@ -2066,11 +2066,11 @@
     "/assets/Graduates_top_7-1a1e1b58.svg"
   ],
   "src/assets/images/graduate-recruitment/Graduates_2.svg": [
-    "/assets/Open-Positions.vue_vue_type_script_setup_true_lang-d09e5134.js",
+    "/assets/Open-Positions.vue_vue_type_script_setup_true_lang-6b6e935e.js",
     "/assets/Graduates_2-28713b1f.svg"
   ],
   "src/assets/images/graduate-recruitment/Graduates_top_1.svg": [
-    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-e8502520.js",
+    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-1a4e22e7.js",
     "/assets/Graduates_1-0bf615e4.svg",
     "/assets/Graduates_top_1-1613399e.svg",
     "/assets/Graduates_top_2-f4c7faf1.svg",
@@ -2081,7 +2081,7 @@
     "/assets/Graduates_top_7-1a1e1b58.svg"
   ],
   "src/assets/images/graduate-recruitment/Graduates_top_2.svg": [
-    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-e8502520.js",
+    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-1a4e22e7.js",
     "/assets/Graduates_1-0bf615e4.svg",
     "/assets/Graduates_top_1-1613399e.svg",
     "/assets/Graduates_top_2-f4c7faf1.svg",
@@ -2092,7 +2092,7 @@
     "/assets/Graduates_top_7-1a1e1b58.svg"
   ],
   "src/assets/images/graduate-recruitment/Graduates_top_3.svg": [
-    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-e8502520.js",
+    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-1a4e22e7.js",
     "/assets/Graduates_1-0bf615e4.svg",
     "/assets/Graduates_top_1-1613399e.svg",
     "/assets/Graduates_top_2-f4c7faf1.svg",
@@ -2103,7 +2103,7 @@
     "/assets/Graduates_top_7-1a1e1b58.svg"
   ],
   "src/assets/images/graduate-recruitment/Graduates_top_4.svg": [
-    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-e8502520.js",
+    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-1a4e22e7.js",
     "/assets/Graduates_1-0bf615e4.svg",
     "/assets/Graduates_top_1-1613399e.svg",
     "/assets/Graduates_top_2-f4c7faf1.svg",
@@ -2114,7 +2114,7 @@
     "/assets/Graduates_top_7-1a1e1b58.svg"
   ],
   "src/assets/images/graduate-recruitment/Graduates_top_5.svg": [
-    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-e8502520.js",
+    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-1a4e22e7.js",
     "/assets/Graduates_1-0bf615e4.svg",
     "/assets/Graduates_top_1-1613399e.svg",
     "/assets/Graduates_top_2-f4c7faf1.svg",
@@ -2125,7 +2125,7 @@
     "/assets/Graduates_top_7-1a1e1b58.svg"
   ],
   "src/assets/images/graduate-recruitment/Graduates_top_6.svg": [
-    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-e8502520.js",
+    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-1a4e22e7.js",
     "/assets/Graduates_1-0bf615e4.svg",
     "/assets/Graduates_top_1-1613399e.svg",
     "/assets/Graduates_top_2-f4c7faf1.svg",
@@ -2136,7 +2136,7 @@
     "/assets/Graduates_top_7-1a1e1b58.svg"
   ],
   "src/assets/images/graduate-recruitment/Graduates_top_7.svg": [
-    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-e8502520.js",
+    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-1a4e22e7.js",
     "/assets/Graduates_1-0bf615e4.svg",
     "/assets/Graduates_top_1-1613399e.svg",
     "/assets/Graduates_top_2-f4c7faf1.svg",
@@ -2147,7 +2147,7 @@
     "/assets/Graduates_top_7-1a1e1b58.svg"
   ],
   "src/assets/images/graduate-recruitment/Graduates_top_8.svg": [
-    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-e8502520.js",
+    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-1a4e22e7.js",
     "/assets/Graduates_1-0bf615e4.svg",
     "/assets/Graduates_top_1-1613399e.svg",
     "/assets/Graduates_top_2-f4c7faf1.svg",
@@ -2158,11 +2158,11 @@
     "/assets/Graduates_top_7-1a1e1b58.svg"
   ],
   "src/assets/images/graduate-recruitment/industrial-finance.png": [
-    "/assets/Salary.vue_vue_type_script_setup_true_lang-f1ce7478.js",
+    "/assets/Salary.vue_vue_type_script_setup_true_lang-c3c3da7b.js",
     "/assets/industrial-finance-de95daab.png"
   ],
   "src/assets/images/healthcare-business/image_1.png": [
-    "/assets/HealthcareBusinessItem-427ff9d0.js",
+    "/assets/HealthcareBusinessItem-c7a298ac.js",
     "/assets/HealthcareBusinessItem-271c2f62.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-24c18a6d.jpg",
@@ -2170,7 +2170,7 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/assets/images/healthcare-business/image_2.jpg": [
-    "/assets/HealthcareBusinessItem-427ff9d0.js",
+    "/assets/HealthcareBusinessItem-c7a298ac.js",
     "/assets/HealthcareBusinessItem-271c2f62.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-24c18a6d.jpg",
@@ -2178,7 +2178,7 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/assets/images/healthcare-business/image_3.png": [
-    "/assets/HealthcareBusinessItem-427ff9d0.js",
+    "/assets/HealthcareBusinessItem-c7a298ac.js",
     "/assets/HealthcareBusinessItem-271c2f62.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-24c18a6d.jpg",
@@ -2186,7 +2186,7 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/assets/images/healthcare-business/image_4.png": [
-    "/assets/HealthcareBusinessItem-427ff9d0.js",
+    "/assets/HealthcareBusinessItem-c7a298ac.js",
     "/assets/HealthcareBusinessItem-271c2f62.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-24c18a6d.jpg",
@@ -2194,13 +2194,13 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/assets/images/healthcare-business/image_5.png": [
-    "/assets/Brand-5e935960.js",
+    "/assets/Brand-37440a75.js",
     "/assets/Brand-fbad39da.css",
     "/assets/image_5-08d974ca.png",
     "/assets/logo_1-7333d4d5.png"
   ],
   "src/assets/images/healthcare-business/logo_1.png": [
-    "/assets/Brand-5e935960.js",
+    "/assets/Brand-37440a75.js",
     "/assets/Brand-fbad39da.css",
     "/assets/image_5-08d974ca.png",
     "/assets/logo_1-7333d4d5.png"
@@ -3453,11 +3453,11 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "src/assets/images/infrastructure-business/Cloud_1.png": [
-    "/assets/Dev-Results.vue_vue_type_script_setup_true_lang-7c877e04.js",
+    "/assets/Dev-Results.vue_vue_type_script_setup_true_lang-e8dc975c.js",
     "/assets/Cloud_1-b66bfba7.png"
   ],
   "src/assets/images/infrastructure-business/Infrastructure_Business_1.png": [
-    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-935ab421.js",
+    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-4d6bd0e6.js",
     "/assets/Infrastructure_Business_1-97b7a6ac.png",
     "/assets/Infrastructure_Business_2-68b116d3.png",
     "/assets/Infrastructure_Business_3-9d07d093.png",
@@ -3466,7 +3466,7 @@
     "/assets/Infrastructure_Business_6-5efb2685.png"
   ],
   "src/assets/images/infrastructure-business/Infrastructure_Business_2.png": [
-    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-935ab421.js",
+    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-4d6bd0e6.js",
     "/assets/Infrastructure_Business_1-97b7a6ac.png",
     "/assets/Infrastructure_Business_2-68b116d3.png",
     "/assets/Infrastructure_Business_3-9d07d093.png",
@@ -3475,7 +3475,7 @@
     "/assets/Infrastructure_Business_6-5efb2685.png"
   ],
   "src/assets/images/infrastructure-business/Infrastructure_Business_3.png": [
-    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-935ab421.js",
+    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-4d6bd0e6.js",
     "/assets/Infrastructure_Business_1-97b7a6ac.png",
     "/assets/Infrastructure_Business_2-68b116d3.png",
     "/assets/Infrastructure_Business_3-9d07d093.png",
@@ -3484,7 +3484,7 @@
     "/assets/Infrastructure_Business_6-5efb2685.png"
   ],
   "src/assets/images/infrastructure-business/Infrastructure_Business_4.png": [
-    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-935ab421.js",
+    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-4d6bd0e6.js",
     "/assets/Infrastructure_Business_1-97b7a6ac.png",
     "/assets/Infrastructure_Business_2-68b116d3.png",
     "/assets/Infrastructure_Business_3-9d07d093.png",
@@ -3493,7 +3493,7 @@
     "/assets/Infrastructure_Business_6-5efb2685.png"
   ],
   "src/assets/images/infrastructure-business/Infrastructure_Business_5.png": [
-    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-935ab421.js",
+    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-4d6bd0e6.js",
     "/assets/Infrastructure_Business_1-97b7a6ac.png",
     "/assets/Infrastructure_Business_2-68b116d3.png",
     "/assets/Infrastructure_Business_3-9d07d093.png",
@@ -3502,7 +3502,7 @@
     "/assets/Infrastructure_Business_6-5efb2685.png"
   ],
   "src/assets/images/infrastructure-business/Infrastructure_Business_6.png": [
-    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-935ab421.js",
+    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-4d6bd0e6.js",
     "/assets/Infrastructure_Business_1-97b7a6ac.png",
     "/assets/Infrastructure_Business_2-68b116d3.png",
     "/assets/Infrastructure_Business_3-9d07d093.png",
@@ -3515,11 +3515,11 @@
     "/assets/icon_1-25fa691c.svg"
   ],
   "src/assets/images/listicon/icon_2.svg": [
-    "/assets/TheIconList.vue_vue_type_script_setup_true_lang-a6586f66.js",
+    "/assets/TheIconList.vue_vue_type_script_setup_true_lang-c43a2132.js",
     "/assets/icon_2-8181ee96.svg"
   ],
   "src/assets/images/logistics-business/Change_5.png": [
-    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-e0e945cb.js",
+    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-4206e3b1.js",
     "/assets/Change_5-f25c2517.png",
     "/assets/icon_1-1d03082b.svg",
     "/assets/icon_2-f377764a.svg",
@@ -3527,7 +3527,7 @@
     "/assets/icon_4-147e712d.svg"
   ],
   "src/assets/images/logistics-business/arrow_left.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -3542,7 +3542,7 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/assets/images/logistics-business/bms.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -3557,15 +3557,15 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/assets/images/logistics-business/change_1.png": [
-    "/assets/Logistics-Challenges.vue_vue_type_script_setup_true_lang-16df98ac.js",
+    "/assets/Logistics-Challenges.vue_vue_type_script_setup_true_lang-373c2c69.js",
     "/assets/change_1-cd9df667.png"
   ],
   "src/assets/images/logistics-business/change_2.png": [
-    "/assets/Logistics-Promotion.vue_vue_type_script_setup_true_lang-bdca97be.js",
+    "/assets/Logistics-Promotion.vue_vue_type_script_setup_true_lang-b997a6c7.js",
     "/assets/change_2-8878717c.png"
   ],
   "src/assets/images/logistics-business/cloud.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -3580,7 +3580,7 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/assets/images/logistics-business/double-arrow-min.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -3595,7 +3595,7 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/assets/images/logistics-business/double-arrow.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -3610,7 +3610,7 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/assets/images/logistics-business/ehub.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -3625,7 +3625,7 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/assets/images/logistics-business/icon_1.svg": [
-    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-e0e945cb.js",
+    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-4206e3b1.js",
     "/assets/Change_5-f25c2517.png",
     "/assets/icon_1-1d03082b.svg",
     "/assets/icon_2-f377764a.svg",
@@ -3633,7 +3633,7 @@
     "/assets/icon_4-147e712d.svg"
   ],
   "src/assets/images/logistics-business/icon_2.svg": [
-    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-e0e945cb.js",
+    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-4206e3b1.js",
     "/assets/Change_5-f25c2517.png",
     "/assets/icon_1-1d03082b.svg",
     "/assets/icon_2-f377764a.svg",
@@ -3641,7 +3641,7 @@
     "/assets/icon_4-147e712d.svg"
   ],
   "src/assets/images/logistics-business/icon_3.svg": [
-    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-e0e945cb.js",
+    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-4206e3b1.js",
     "/assets/Change_5-f25c2517.png",
     "/assets/icon_1-1d03082b.svg",
     "/assets/icon_2-f377764a.svg",
@@ -3649,7 +3649,7 @@
     "/assets/icon_4-147e712d.svg"
   ],
   "src/assets/images/logistics-business/icon_4.svg": [
-    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-e0e945cb.js",
+    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-4206e3b1.js",
     "/assets/Change_5-f25c2517.png",
     "/assets/icon_1-1d03082b.svg",
     "/assets/icon_2-f377764a.svg",
@@ -3657,7 +3657,7 @@
     "/assets/icon_4-147e712d.svg"
   ],
   "src/assets/images/logistics-business/image1.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3672,7 +3672,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/image10.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3687,7 +3687,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/image11.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3702,7 +3702,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/image2.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3717,7 +3717,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/image3.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3732,7 +3732,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/image4.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3747,7 +3747,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/image5.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3762,7 +3762,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/image6.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3777,7 +3777,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/image7.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3792,7 +3792,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/image8.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3807,7 +3807,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/image9.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3822,7 +3822,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/logo.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -3837,7 +3837,7 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/assets/images/logistics-business/oms.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -3852,7 +3852,7 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/assets/images/logistics-business/pic_1.png": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -3867,7 +3867,7 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/assets/images/logistics-business/ros.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -3882,7 +3882,7 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/assets/images/logistics-business/tms.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -3897,7 +3897,7 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/assets/images/logistics-business/wes.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -3912,7 +3912,7 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/assets/images/logistics-business/wms.svg": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -4013,11 +4013,11 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "src/assets/images/map/JP-CompanyInfo.png": [
-    "/assets/Company-Info.vue_vue_type_script_setup_true_lang-79cb19d2.js",
+    "/assets/Company-Info.vue_vue_type_script_setup_true_lang-10fc7c49.js",
     "/assets/JP-CompanyInfo-ad2a5102.png"
   ],
   "src/assets/images/map/arrow-right_1.svg": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -4028,7 +4028,7 @@
     "/assets/bus_timer-743d5d08.svg"
   ],
   "src/assets/images/map/arrow-right_2.svg": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -4039,7 +4039,7 @@
     "/assets/bus_timer-743d5d08.svg"
   ],
   "src/assets/images/map/bus_1.svg": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -4050,7 +4050,7 @@
     "/assets/bus_timer-743d5d08.svg"
   ],
   "src/assets/images/map/bus_2.png": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -4061,7 +4061,7 @@
     "/assets/bus_timer-743d5d08.svg"
   ],
   "src/assets/images/map/bus_timer.svg": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -4072,7 +4072,7 @@
     "/assets/bus_timer-743d5d08.svg"
   ],
   "src/assets/images/map/bus_timer_map.png": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -4083,7 +4083,7 @@
     "/assets/bus_timer-743d5d08.svg"
   ],
   "src/assets/images/map/train_1.svg": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -4227,7 +4227,7 @@
     "/assets/page_nav-b44cd7f3.svg"
   ],
   "src/assets/images/si-service-business/Exp_1.svg": [
-    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-74182262.js",
+    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-75b63be8.js",
     "/assets/Exp_1-7aaa3aa9.svg",
     "/assets/Exp_top_1-73c1f690.svg",
     "/assets/Exp_bottom_1-6f7c5d65.svg",
@@ -4237,7 +4237,7 @@
     "/assets/Exp_bottom_3-d12aabc4.svg"
   ],
   "src/assets/images/si-service-business/Exp_2.svg": [
-    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-74182262.js",
+    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-75b63be8.js",
     "/assets/Exp_1-7aaa3aa9.svg",
     "/assets/Exp_top_1-73c1f690.svg",
     "/assets/Exp_bottom_1-6f7c5d65.svg",
@@ -4247,7 +4247,7 @@
     "/assets/Exp_bottom_3-d12aabc4.svg"
   ],
   "src/assets/images/si-service-business/Exp_3.svg": [
-    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-74182262.js",
+    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-75b63be8.js",
     "/assets/Exp_1-7aaa3aa9.svg",
     "/assets/Exp_top_1-73c1f690.svg",
     "/assets/Exp_bottom_1-6f7c5d65.svg",
@@ -4257,7 +4257,7 @@
     "/assets/Exp_bottom_3-d12aabc4.svg"
   ],
   "src/assets/images/si-service-business/Exp_bottom_1.svg": [
-    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-74182262.js",
+    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-75b63be8.js",
     "/assets/Exp_1-7aaa3aa9.svg",
     "/assets/Exp_top_1-73c1f690.svg",
     "/assets/Exp_bottom_1-6f7c5d65.svg",
@@ -4267,7 +4267,7 @@
     "/assets/Exp_bottom_3-d12aabc4.svg"
   ],
   "src/assets/images/si-service-business/Exp_bottom_3.svg": [
-    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-74182262.js",
+    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-75b63be8.js",
     "/assets/Exp_1-7aaa3aa9.svg",
     "/assets/Exp_top_1-73c1f690.svg",
     "/assets/Exp_bottom_1-6f7c5d65.svg",
@@ -4277,7 +4277,7 @@
     "/assets/Exp_bottom_3-d12aabc4.svg"
   ],
   "src/assets/images/si-service-business/Exp_icon_1.svg": [
-    "/assets/Examples-Achievements-85a9fed3.js",
+    "/assets/Examples-Achievements-03902b4a.js",
     "/assets/Examples-Achievements-34b05d7f.css",
     "/assets/Exp_icon_1-c5054fad.svg",
     "/assets/Exp_icon_2-c558653b.svg",
@@ -4285,7 +4285,7 @@
     "/assets/Exp_icon_4-2c69146d.svg"
   ],
   "src/assets/images/si-service-business/Exp_icon_2.svg": [
-    "/assets/Examples-Achievements-85a9fed3.js",
+    "/assets/Examples-Achievements-03902b4a.js",
     "/assets/Examples-Achievements-34b05d7f.css",
     "/assets/Exp_icon_1-c5054fad.svg",
     "/assets/Exp_icon_2-c558653b.svg",
@@ -4293,7 +4293,7 @@
     "/assets/Exp_icon_4-2c69146d.svg"
   ],
   "src/assets/images/si-service-business/Exp_icon_3.svg": [
-    "/assets/Examples-Achievements-85a9fed3.js",
+    "/assets/Examples-Achievements-03902b4a.js",
     "/assets/Examples-Achievements-34b05d7f.css",
     "/assets/Exp_icon_1-c5054fad.svg",
     "/assets/Exp_icon_2-c558653b.svg",
@@ -4301,7 +4301,7 @@
     "/assets/Exp_icon_4-2c69146d.svg"
   ],
   "src/assets/images/si-service-business/Exp_icon_4.svg": [
-    "/assets/Examples-Achievements-85a9fed3.js",
+    "/assets/Examples-Achievements-03902b4a.js",
     "/assets/Examples-Achievements-34b05d7f.css",
     "/assets/Exp_icon_1-c5054fad.svg",
     "/assets/Exp_icon_2-c558653b.svg",
@@ -4309,7 +4309,7 @@
     "/assets/Exp_icon_4-2c69146d.svg"
   ],
   "src/assets/images/si-service-business/Exp_top_1.svg": [
-    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-74182262.js",
+    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-75b63be8.js",
     "/assets/Exp_1-7aaa3aa9.svg",
     "/assets/Exp_top_1-73c1f690.svg",
     "/assets/Exp_bottom_1-6f7c5d65.svg",
@@ -4319,7 +4319,7 @@
     "/assets/Exp_bottom_3-d12aabc4.svg"
   ],
   "src/assets/images/si-service-business/Exp_top_2.svg": [
-    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-74182262.js",
+    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-75b63be8.js",
     "/assets/Exp_1-7aaa3aa9.svg",
     "/assets/Exp_top_1-73c1f690.svg",
     "/assets/Exp_bottom_1-6f7c5d65.svg",
@@ -4329,7 +4329,7 @@
     "/assets/Exp_bottom_3-d12aabc4.svg"
   ],
   "src/assets/images/si-service-business/Technology1.png": [
-    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-dbc2a9f4.js",
+    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-10b1c4ab.js",
     "/assets/Technology1-e8cd2285.png",
     "/assets/Technology2-02f097d2.png",
     "/assets/Technology3-b8370cd1.png",
@@ -4337,7 +4337,7 @@
     "/assets/Technology5-d1d939b5.png"
   ],
   "src/assets/images/si-service-business/Technology2.png": [
-    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-dbc2a9f4.js",
+    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-10b1c4ab.js",
     "/assets/Technology1-e8cd2285.png",
     "/assets/Technology2-02f097d2.png",
     "/assets/Technology3-b8370cd1.png",
@@ -4345,7 +4345,7 @@
     "/assets/Technology5-d1d939b5.png"
   ],
   "src/assets/images/si-service-business/Technology3.png": [
-    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-dbc2a9f4.js",
+    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-10b1c4ab.js",
     "/assets/Technology1-e8cd2285.png",
     "/assets/Technology2-02f097d2.png",
     "/assets/Technology3-b8370cd1.png",
@@ -4353,7 +4353,7 @@
     "/assets/Technology5-d1d939b5.png"
   ],
   "src/assets/images/si-service-business/Technology4.png": [
-    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-dbc2a9f4.js",
+    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-10b1c4ab.js",
     "/assets/Technology1-e8cd2285.png",
     "/assets/Technology2-02f097d2.png",
     "/assets/Technology3-b8370cd1.png",
@@ -4361,7 +4361,7 @@
     "/assets/Technology5-d1d939b5.png"
   ],
   "src/assets/images/si-service-business/Technology5.png": [
-    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-dbc2a9f4.js",
+    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-10b1c4ab.js",
     "/assets/Technology1-e8cd2285.png",
     "/assets/Technology2-02f097d2.png",
     "/assets/Technology3-b8370cd1.png",
@@ -4369,135 +4369,135 @@
     "/assets/Technology5-d1d939b5.png"
   ],
   "src/assets/images/si-service-business/dev.png": [
-    "/assets/Industry-Dev.vue_vue_type_script_setup_true_lang-fb61681e.js",
+    "/assets/Industry-Dev.vue_vue_type_script_setup_true_lang-ea733520.js",
     "/assets/industry-2e84261d.png",
     "/assets/dev-967fe68e.png"
   ],
   "src/assets/images/si-service-business/industry.png": [
-    "/assets/Industry-Dev.vue_vue_type_script_setup_true_lang-fb61681e.js",
+    "/assets/Industry-Dev.vue_vue_type_script_setup_true_lang-ea733520.js",
     "/assets/industry-2e84261d.png",
     "/assets/dev-967fe68e.png"
   ],
   "src/assets/images/si-service-business/si_1.png": [
-    "/assets/Advanced-SI-Services.vue_vue_type_style_index_0_lang-f3d91854.js",
+    "/assets/Advanced-SI-Services.vue_vue_type_style_index_0_lang-68c51f13.js",
     "/assets/Advanced-SI-Services-26772f50.css",
     "/assets/si_1-34ce4503.png"
   ],
   "src/assets/images/si-service-business/si_2.png": [
-    "/assets/Automated-Testing-Tools.vue_vue_type_script_setup_true_lang-3274b4fd.js",
+    "/assets/Automated-Testing-Tools.vue_vue_type_script_setup_true_lang-f43cfe7b.js",
     "/assets/si_2-5a4c8e6e.png",
     "/assets/si_5-f30a63e1.png"
   ],
   "src/assets/images/si-service-business/si_5.png": [
-    "/assets/Automated-Testing-Tools.vue_vue_type_script_setup_true_lang-3274b4fd.js",
+    "/assets/Automated-Testing-Tools.vue_vue_type_script_setup_true_lang-f43cfe7b.js",
     "/assets/si_2-5a4c8e6e.png",
     "/assets/si_5-f30a63e1.png"
   ],
   "src/assets/images/si-service-business/si_7.png": [
-    "/assets/System-Dev.vue_vue_type_script_setup_true_lang-088bbac6.js",
+    "/assets/System-Dev.vue_vue_type_script_setup_true_lang-8bf8f220.js",
     "/assets/si_7-14681e4d.png"
   ],
   "src/assets/images/si-service-business/si_8.png": [
-    "/assets/Platforms-Config.vue_vue_type_script_setup_true_lang-92bfba98.js",
+    "/assets/Platforms-Config.vue_vue_type_script_setup_true_lang-725d4ed9.js",
     "/assets/si_8-2ac8de8f.png"
   ],
   "src/assets/images/si-service-business/si_9.png": [
-    "/assets/System-Maintenance.vue_vue_type_script_setup_true_lang-19f20b39.js",
+    "/assets/System-Maintenance.vue_vue_type_script_setup_true_lang-0bbd886d.js",
     "/assets/si_9-7ee44547.png"
   ],
   "src/assets/images/social-recruitment/logo_social.svg": [
-    "/assets/InexperiencedPerson-afd4507a.js",
+    "/assets/InexperiencedPerson-b3f9d6b5.js",
     "/assets/InexperiencedPerson-87fd03da.css",
     "/assets/logo_social-5959b821.svg"
   ],
   "src/assets/images/sub_page_title/AdoptionIntelligence.jpg": [
-    "/assets/index-e03e960f.js",
+    "/assets/index-7651063a.js",
     "/assets/index-119d1e7a.css",
     "/assets/AdoptionIntelligence-b570c525.jpg"
   ],
   "src/assets/images/sub_page_title/Company_Profile_1.jpg": [
-    "/assets/index-a253c061.js",
+    "/assets/index-3927603a.js",
     "/assets/index-201b3101.css",
     "/assets/Company_Profile_1-2c2f47c8.jpg"
   ],
   "src/assets/images/sub_page_title/Company_staff_observation.png": [
-    "/assets/index-98a9fcc4.js",
+    "/assets/index-7f8677fb.js",
     "/assets/index-9699b288.css",
     "/assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/assets/images/sub_page_title/Contact-Us.jpg": [
-    "/assets/index-118ed029.js",
+    "/assets/index-45f9afa7.js",
     "/assets/Contact-Us-bc30d869.jpg"
   ],
   "src/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner_1.jpg": [
-    "/assets/index-1b108d90.js",
+    "/assets/index-604ac90f.js",
     "/assets/index-14e51d23.css",
     "/assets/Corporate_Philosophy_Management_Policy_banner_1-8d66cd81.jpg"
   ],
   "src/assets/images/sub_page_title/Data-Solution_1.jpg": [
-    "/assets/index-650e19a8.js",
+    "/assets/index-9aabb446.js",
     "/assets/Data-Solution_1-ee77bdde.jpg",
     "/assets/Publications_2-415e3359.png"
   ],
   "src/assets/images/sub_page_title/FAQ.png": [
-    "/assets/index-7b724cd2.js",
+    "/assets/index-81eb87fe.js",
     "/assets/FAQ-4980e2be.png"
   ],
   "src/assets/images/sub_page_title/Healthcare_Business_1.jpg": [
-    "/assets/index-89929d3a.js",
+    "/assets/index-df062747.js",
     "/assets/index-470b2b28.css",
     "/assets/Healthcare_Business_1-748c8775.jpg"
   ],
   "src/assets/images/sub_page_title/Logistics-Business_1.jpg": [
-    "/assets/index-8041dcd4.js",
+    "/assets/index-737f0833.js",
     "/assets/Logistics-Business_1-edfb5674.jpg"
   ],
   "src/assets/images/sub_page_title/MESSAGE_FROM_THE_PRESIDENT_banner_1.jpg": [
-    "/assets/index-ad6637c6.js",
+    "/assets/index-fef74023.js",
     "/assets/index-c1a8415f.css",
     "/assets/pic_president_sign-6f5a098d.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner_1-5906df9d.jpg"
   ],
   "src/assets/images/sub_page_title/Map_1.jpg": [
-    "/assets/index-059f9d3f.js",
+    "/assets/index-055255a9.js",
     "/assets/Map_1-3c6e4df9.jpg"
   ],
   "src/assets/images/sub_page_title/Si_Service_Business_1.jpg": [
-    "/assets/index-71b11b2a.js",
+    "/assets/index-0c5f5e1e.js",
     "/assets/Si_Service_Business_1-7f460fb8.jpg",
     "/assets/Publications_1-1debbd63.png"
   ],
   "src/assets/images/sub_page_title/Terms_Conditions.jpg": [
-    "/assets/index-b3e65b4f.js",
+    "/assets/index-e6232428.js",
     "/assets/Terms_Conditions-82b811c5.jpg"
   ],
   "src/assets/images/sub_page_title/associated-company_1.jpg": [
-    "/assets/index-b31a34dd.js",
+    "/assets/index-7eb2ed47.js",
     "/assets/associated-company_1-62a4bcf4.jpg"
   ],
   "src/assets/images/sub_page_title/event_information.png": [
-    "/assets/index-5bc011fc.js",
+    "/assets/index-0cb59a8b.js",
     "/assets/index-7e7f310d.css",
     "/assets/event_information-5ea6994c.png"
   ],
   "src/assets/images/sub_page_title/graduate-recruitment_1.jpg": [
-    "/assets/index-acea1ad8.js",
+    "/assets/index-7ed6892e.js",
     "/assets/graduate-recruitment_1-b5578ba6.jpg"
   ],
   "src/assets/images/sub_page_title/infrastructure-business_1.jpg": [
-    "/assets/index-3c3784f1.js",
+    "/assets/index-3adfba2b.js",
     "/assets/infrastructure-business_1-6fd55e20.jpg"
   ],
   "src/assets/images/sub_page_title/privacy-policy.jpg": [
-    "/assets/index-665af853.js",
+    "/assets/index-64b6bd7d.js",
     "/assets/privacy-policy-d963c1e5.jpg"
   ],
   "src/assets/images/sub_page_title/recruitment-process.png": [
-    "/assets/index-b704048d.js",
+    "/assets/index-09de8cf4.js",
     "/assets/recruitment-process-aa0f47d7.png"
   ],
   "src/assets/images/sub_page_title/social-recruitment_1.jpg": [
-    "/assets/index-cf62c911.js",
+    "/assets/index-4d957613.js",
     "/assets/social-recruitment_1-1579b0b8.jpg"
   ],
   "src/assets/video/main_video.mp4": [
@@ -4505,14 +4505,14 @@
     "/assets/main_video-b09face9.mp4"
   ],
   "src/components/Publications.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Publications.vue_vue_type_script_setup_true_lang-9e72984c.js",
+    "/assets/Publications.vue_vue_type_script_setup_true_lang-cf90fb3d.js",
     "/assets/icon-1cc56fac.svg"
   ],
   "src/components/SubPageTitle-Bg.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/SubPageTitle-Bg.vue_vue_type_script_setup_true_lang-31a24f9e.js"
+    "/assets/SubPageTitle-Bg.vue_vue_type_script_setup_true_lang-d25be468.js"
   ],
   "src/components/SubPageTitle.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/SubPageTitle.vue_vue_type_script_setup_true_lang-3bb0fc31.js"
+    "/assets/SubPageTitle.vue_vue_type_script_setup_true_lang-beffe990.js"
   ],
   "src/components/TheBackTop.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/logo-f2b74d48.png",
@@ -4558,11 +4558,11 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "src/components/TheBreadcrumbs.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/TheBreadcrumbs.vue_vue_type_script_setup_true_lang-0ea6f517.js",
+    "/assets/TheBreadcrumbs.vue_vue_type_script_setup_true_lang-c08e591d.js",
     "/assets/bread_icon-5c1858f4.svg"
   ],
   "src/components/TheDownloadBtn.vue": [
-    "/assets/TheDownloadBtn-c50c2a60.js",
+    "/assets/TheDownloadBtn-acc72f05.js",
     "/assets/download-31b6a16b.svg"
   ],
   "src/components/TheFooter.vue?vue&type=script&setup=true&lang.ts": [
@@ -4781,11 +4781,11 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "src/components/TheIconList.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/TheIconList.vue_vue_type_script_setup_true_lang-a6586f66.js",
+    "/assets/TheIconList.vue_vue_type_script_setup_true_lang-c43a2132.js",
     "/assets/icon_2-8181ee96.svg"
   ],
   "src/components/TheIconTitle.vue": [
-    "/assets/Publications.vue_vue_type_script_setup_true_lang-9e72984c.js",
+    "/assets/Publications.vue_vue_type_script_setup_true_lang-cf90fb3d.js",
     "/assets/icon-1cc56fac.svg"
   ],
   "src/components/TheLoadng.vue": [
@@ -4875,7 +4875,7 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "src/components/ThePageMinIconTitle.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -4886,25 +4886,25 @@
     "/assets/bus_timer-743d5d08.svg"
   ],
   "src/components/ThePageMinTitle.vue": [
-    "/assets/ThePageMinTitle-7d732c2f.js"
+    "/assets/ThePageMinTitle-a3b44e37.js"
   ],
   "src/components/ThePageMinTitle2.vue": [
-    "/assets/ThePageMinTitle2-491967c0.js"
+    "/assets/ThePageMinTitle2-0762a970.js"
   ],
   "src/components/ThePageNav.vue": [
-    "/assets/ThePageNav-2fce1ae0.js",
+    "/assets/ThePageNav-abd99d5b.js",
     "/assets/ThePageNav-ed3849d8.css"
   ],
   "src/components/ThePageNav.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ThePageNav-2fce1ae0.js",
+    "/assets/ThePageNav-abd99d5b.js",
     "/assets/ThePageNav-ed3849d8.css"
   ],
   "src/components/ThePageNav.vue?vue&type=style&index=0&scoped=65112672&lang.css": [
-    "/assets/ThePageNav-2fce1ae0.js",
+    "/assets/ThePageNav-abd99d5b.js",
     "/assets/ThePageNav-ed3849d8.css"
   ],
   "src/components/ThePageNav2.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ThePageNav2.vue_vue_type_script_setup_true_lang-b58f2c63.js"
+    "/assets/ThePageNav2.vue_vue_type_script_setup_true_lang-81559b56.js"
   ],
   "src/config/UI.ts": [
     "/assets/logo-f2b74d48.png",
@@ -5122,13 +5122,13 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "src/layouts/404.vue": [
-    "/assets/404-0824d636.js"
+    "/assets/404-5c70a8a1.js"
   ],
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-0824d636.js"
+    "/assets/404-5c70a8a1.js"
   ],
   "src/layouts/blank.vue": [
-    "/assets/blank-9adcb156.js"
+    "/assets/blank-7418cbf2.js"
   ],
   "src/layouts/default.vue": [
     "/assets/logo-f2b74d48.png",
@@ -5174,10 +5174,10 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "src/layouts/home.vue": [
-    "/assets/home-479d5184.js"
+    "/assets/home-eeae0e24.js"
   ],
   "src/layouts/home.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home-479d5184.js"
+    "/assets/home-eeae0e24.js"
   ],
   "src/main.ts": [
     "/assets/logo-f2b74d48.png",
@@ -5395,173 +5395,173 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "src/pages/FAQ/components/FAQ-items.vue": [
-    "/assets/FAQ-items-c0909f2e.js"
+    "/assets/FAQ-items-be8ef45e.js"
   ],
   "src/pages/FAQ/components/FAQ-items.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/FAQ-items.vue_vue_type_script_setup_true_lang-694a630b.js"
+    "/assets/FAQ-items.vue_vue_type_script_setup_true_lang-7cfe2707.js"
   ],
   "src/pages/FAQ/index.vue": [
-    "/assets/index-7b724cd2.js",
+    "/assets/index-81eb87fe.js",
     "/assets/FAQ-4980e2be.png"
   ],
   "src/pages/FAQ/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-7b724cd2.js",
+    "/assets/index-81eb87fe.js",
     "/assets/FAQ-4980e2be.png"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_-747be5dc.js"
+    "/assets/_...all_-b3584787.js"
   ],
   "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-747be5dc.js"
+    "/assets/_...all_-b3584787.js"
   ],
   "src/pages/adoption-Intelligence/components/adoption-item.vue": [
-    "/assets/adoption-item-4d1ae14e.js"
+    "/assets/adoption-item-208e79bf.js"
   ],
   "src/pages/adoption-Intelligence/components/adoption-item.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/adoption-item.vue_vue_type_script_setup_true_lang-0a0c4f21.js",
+    "/assets/adoption-item.vue_vue_type_script_setup_true_lang-086fe844.js",
     "/assets/graduates-2412aa82.png",
     "/assets/careers-3062bdd7.png"
   ],
   "src/pages/adoption-Intelligence/components/adoptionCard.vue": [
-    "/assets/adoptionCard-8d99ad3c.js"
+    "/assets/adoptionCard-dc6e5181.js"
   ],
   "src/pages/adoption-Intelligence/components/adoptionCard.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/adoptionCard.vue_vue_type_script_setup_true_lang-dd966a33.js"
+    "/assets/adoptionCard.vue_vue_type_script_setup_true_lang-bdb1efee.js"
   ],
   "src/pages/adoption-Intelligence/index.vue": [
-    "/assets/index-e03e960f.js",
+    "/assets/index-7651063a.js",
     "/assets/index-119d1e7a.css",
     "/assets/AdoptionIntelligence-b570c525.jpg"
   ],
   "src/pages/adoption-Intelligence/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-e03e960f.js",
+    "/assets/index-7651063a.js",
     "/assets/index-119d1e7a.css",
     "/assets/AdoptionIntelligence-b570c525.jpg"
   ],
   "src/pages/adoption-Intelligence/index.vue?vue&type=style&index=0&scoped=b5147712&lang.css": [
-    "/assets/index-e03e960f.js",
+    "/assets/index-7651063a.js",
     "/assets/index-119d1e7a.css",
     "/assets/AdoptionIntelligence-b570c525.jpg"
   ],
   "src/pages/associated-company/components/company-info.vue": [
-    "/assets/company-info-97b2d58e.js"
+    "/assets/company-info-40a756a6.js"
   ],
   "src/pages/associated-company/components/company-info.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/company-info.vue_vue_type_script_setup_true_lang-03225d90.js",
+    "/assets/company-info.vue_vue_type_script_setup_true_lang-768cd14e.js",
     "/assets/company_1-028cfe07.png",
     "/assets/company_2-a1557fcb.png",
     "/assets/person-957e186d.svg",
     "/assets/site-e40a61e9.svg"
   ],
   "src/pages/associated-company/index.vue": [
-    "/assets/index-b31a34dd.js",
+    "/assets/index-7eb2ed47.js",
     "/assets/associated-company_1-62a4bcf4.jpg"
   ],
   "src/pages/associated-company/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-b31a34dd.js",
+    "/assets/index-7eb2ed47.js",
     "/assets/associated-company_1-62a4bcf4.jpg"
   ],
   "src/pages/company-profile/components/CompanyHistory.vue": [
-    "/assets/CompanyHistory-24934ef7.js",
+    "/assets/CompanyHistory-48d2c5ad.js",
     "/assets/CompanyHistory-0a7891a4.css",
     "/assets/history_line-d35b45ca.svg"
   ],
   "src/pages/company-profile/components/CompanyHistory.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/CompanyHistory-24934ef7.js",
+    "/assets/CompanyHistory-48d2c5ad.js",
     "/assets/CompanyHistory-0a7891a4.css",
     "/assets/history_line-d35b45ca.svg"
   ],
   "src/pages/company-profile/components/CompanyHistory.vue?vue&type=style&index=0&scoped=5106f4f9&lang.css": [
-    "/assets/CompanyHistory-24934ef7.js",
+    "/assets/CompanyHistory-48d2c5ad.js",
     "/assets/CompanyHistory-0a7891a4.css",
     "/assets/history_line-d35b45ca.svg"
   ],
   "src/pages/company-profile/components/CompanyProfileContent.vue": [
-    "/assets/CompanyProfileContent-dc480fd2.js"
+    "/assets/CompanyProfileContent-d21fffbd.js"
   ],
   "src/pages/company-profile/components/CompanyProfileContent.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/CompanyProfileContent.vue_vue_type_script_setup_true_lang-577ca766.js"
+    "/assets/CompanyProfileContent.vue_vue_type_script_setup_true_lang-888bb803.js"
   ],
   "src/pages/company-profile/index.vue": [
-    "/assets/index-a253c061.js",
+    "/assets/index-3927603a.js",
     "/assets/index-201b3101.css",
     "/assets/Company_Profile_1-2c2f47c8.jpg"
   ],
   "src/pages/company-profile/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-a253c061.js",
+    "/assets/index-3927603a.js",
     "/assets/index-201b3101.css",
     "/assets/Company_Profile_1-2c2f47c8.jpg"
   ],
   "src/pages/company-profile/index.vue?vue&type=style&index=0&lang.css": [
-    "/assets/index-a253c061.js",
+    "/assets/index-3927603a.js",
     "/assets/index-201b3101.css",
     "/assets/Company_Profile_1-2c2f47c8.jpg"
   ],
   "src/pages/company-staff-observation/components/MovieItem.vue": [
-    "/assets/MovieItem-1b007312.js",
+    "/assets/MovieItem-4dcc702f.js",
     "/assets/MovieItem-45d44f91.css",
     "/assets/play-df0788ce.svg",
     "/assets/video-3538944c.png"
   ],
   "src/pages/company-staff-observation/components/MovieItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/MovieItem-1b007312.js",
+    "/assets/MovieItem-4dcc702f.js",
     "/assets/MovieItem-45d44f91.css",
     "/assets/play-df0788ce.svg",
     "/assets/video-3538944c.png"
   ],
   "src/pages/company-staff-observation/components/MovieItem.vue?vue&type=style&index=0&scoped=c16041c6&lang.css": [
-    "/assets/MovieItem-1b007312.js",
+    "/assets/MovieItem-4dcc702f.js",
     "/assets/MovieItem-45d44f91.css",
     "/assets/play-df0788ce.svg",
     "/assets/video-3538944c.png"
   ],
   "src/pages/company-staff-observation/index.vue": [
-    "/assets/index-98a9fcc4.js",
+    "/assets/index-7f8677fb.js",
     "/assets/index-9699b288.css",
     "/assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/pages/company-staff-observation/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-98a9fcc4.js",
+    "/assets/index-7f8677fb.js",
     "/assets/index-9699b288.css",
     "/assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/pages/company-staff-observation/index.vue?vue&type=style&index=0&scoped=57ac633b&lang.css": [
-    "/assets/index-98a9fcc4.js",
+    "/assets/index-7f8677fb.js",
     "/assets/index-9699b288.css",
     "/assets/Company_staff_observation-b7c9e73b.png"
   ],
   "src/pages/contact-us/components/Content.vue": [
-    "/assets/Content-a0a981f8.js"
+    "/assets/Content-27edd23a.js"
   ],
   "src/pages/contact-us/components/Content.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Content.vue_vue_type_script_setup_true_lang-ca994b3e.js"
+    "/assets/Content.vue_vue_type_script_setup_true_lang-03d40415.js"
   ],
   "src/pages/contact-us/index.vue": [
-    "/assets/index-118ed029.js",
+    "/assets/index-45f9afa7.js",
     "/assets/Contact-Us-bc30d869.jpg"
   ],
   "src/pages/contact-us/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-118ed029.js",
+    "/assets/index-45f9afa7.js",
     "/assets/Contact-Us-bc30d869.jpg"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Innovation.vue": [
-    "/assets/Innovation-55c570ef.js"
+    "/assets/Innovation-1f4e99ff.js"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Innovation.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Innovation.vue_vue_type_script_setup_true_lang-224d3f94.js"
+    "/assets/Innovation.vue_vue_type_script_setup_true_lang-c4ff2d6a.js"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Mission.vue": [
-    "/assets/Mission-c4e7f2af.js"
+    "/assets/Mission-e87f1dea.js"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Mission.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Mission.vue_vue_type_script_setup_true_lang-a3017b80.js",
+    "/assets/Mission.vue_vue_type_script_setup_true_lang-bfc1fd86.js",
     "/assets/pic-Misson-eece2139.png"
   ],
   "src/pages/corporate-philosophy-management-policy/components/PracticesGuidelines.vue": [
-    "/assets/PracticesGuidelines-eee08560.js"
+    "/assets/PracticesGuidelines-65633b79.js"
   ],
   "src/pages/corporate-philosophy-management-policy/components/PracticesGuidelines.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-b2de7843.js",
+    "/assets/PracticesGuidelines.vue_vue_type_script_setup_true_lang-fbbe5bbe.js",
     "/assets/pic_way_bg_1-af197670.svg",
     "/assets/pic_way_bg_2-a0fecacb.svg",
     "/assets/pic_way_bg_3-e9523cfc.svg",
@@ -5569,10 +5569,10 @@
     "/assets/pic_way_bg_5-5a481176.svg"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Values.vue": [
-    "/assets/Values-a8d8ce5e.js"
+    "/assets/Values-bd83af91.js"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Values.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Values.vue_vue_type_script_setup_true_lang-6f2e8765.js",
+    "/assets/Values.vue_vue_type_script_setup_true_lang-9198f761.js",
     "/assets/pic_icon_1-b08ca6ae.svg",
     "/assets/pic_icon_2-11780678.svg",
     "/assets/pic_icon_3-a4585458.svg",
@@ -5580,57 +5580,57 @@
     "/assets/pic_icon_5-443db5fd.svg"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Vision.vue": [
-    "/assets/Vision-b18859e7.js",
+    "/assets/Vision-45c3299b.js",
     "/assets/Vision-31838d7b.css"
   ],
   "src/pages/corporate-philosophy-management-policy/components/Vision.vue?vue&type=style&index=0&scoped=a4e9eaa4&lang.css": [
-    "/assets/Vision-b18859e7.js",
+    "/assets/Vision-45c3299b.js",
     "/assets/Vision-31838d7b.css"
   ],
   "src/pages/corporate-philosophy-management-policy/index.vue": [
-    "/assets/index-1b108d90.js",
+    "/assets/index-604ac90f.js",
     "/assets/index-14e51d23.css",
     "/assets/Corporate_Philosophy_Management_Policy_banner_1-8d66cd81.jpg"
   ],
   "src/pages/corporate-philosophy-management-policy/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-1b108d90.js",
+    "/assets/index-604ac90f.js",
     "/assets/index-14e51d23.css",
     "/assets/Corporate_Philosophy_Management_Policy_banner_1-8d66cd81.jpg"
   ],
   "src/pages/corporate-philosophy-management-policy/index.vue?vue&type=style&index=0&lang.css": [
-    "/assets/index-1b108d90.js",
+    "/assets/index-604ac90f.js",
     "/assets/index-14e51d23.css",
     "/assets/Corporate_Philosophy_Management_Policy_banner_1-8d66cd81.jpg"
   ],
   "src/pages/data-solution/components/AI-Application-Area.vue": [
-    "/assets/AI-Application-Area-4cf5c208.js",
+    "/assets/AI-Application-Area-52c2af8c.js",
     "/assets/AI-Application-Area-3753cc26.css"
   ],
   "src/pages/data-solution/components/AI-Application-Area.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/AI-Application-Area-4cf5c208.js",
+    "/assets/AI-Application-Area-52c2af8c.js",
     "/assets/AI-Application-Area-3753cc26.css"
   ],
   "src/pages/data-solution/components/AI-Application-Area.vue?vue&type=style&index=0&scoped=76f023da&lang.css": [
-    "/assets/AI-Application-Area-4cf5c208.js",
+    "/assets/AI-Application-Area-52c2af8c.js",
     "/assets/AI-Application-Area-3753cc26.css"
   ],
   "src/pages/data-solution/components/AI-Case.vue": [
-    "/assets/AI-Case-68b62672.js",
+    "/assets/AI-Case-e27577ae.js",
     "/assets/AICase_1-a37232aa.png",
     "/assets/AICase_2-c7cd2537.png"
   ],
   "src/pages/data-solution/components/Analytics-Transformation-Services.vue": [
-    "/assets/Analytics-Transformation-Services-8a54821a.js"
+    "/assets/Analytics-Transformation-Services-8edea161.js"
   ],
   "src/pages/data-solution/components/Analytics-Transformation-Services.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Analytics-Transformation-Services.vue_vue_type_script_setup_true_lang-1b74ba16.js",
+    "/assets/Analytics-Transformation-Services.vue_vue_type_script_setup_true_lang-ad399dc2.js",
     "/assets/AnalyticsTransformationServices_1-3eb13cc1.png"
   ],
   "src/pages/data-solution/components/EPR.vue": [
-    "/assets/EPR-9d2fbd9d.js"
+    "/assets/EPR-66398d17.js"
   ],
   "src/pages/data-solution/components/EPR.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/EPR.vue_vue_type_script_setup_true_lang-18b2157a.js",
+    "/assets/EPR.vue_vue_type_script_setup_true_lang-d4a5aa9a.js",
     "/assets/EPR_1-38677ffd.png",
     "/assets/EPR_2-646cb40b.png",
     "/assets/EPR_3-21a06a49.png",
@@ -5638,91 +5638,91 @@
     "/assets/EPR_5-a0cf9dc8.png"
   ],
   "src/pages/data-solution/components/Introduce.vue": [
-    "/assets/Introduce-2926b1e3.js"
+    "/assets/Introduce-d3dee042.js"
   ],
   "src/pages/data-solution/components/Introduce.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Introduce.vue_vue_type_script_setup_true_lang-00ab12ce.js"
+    "/assets/Introduce.vue_vue_type_script_setup_true_lang-638edc80.js"
   ],
   "src/pages/data-solution/index.vue": [
-    "/assets/index-650e19a8.js",
+    "/assets/index-9aabb446.js",
     "/assets/Data-Solution_1-ee77bdde.jpg",
     "/assets/Publications_2-415e3359.png"
   ],
   "src/pages/data-solution/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-650e19a8.js",
+    "/assets/index-9aabb446.js",
     "/assets/Data-Solution_1-ee77bdde.jpg",
     "/assets/Publications_2-415e3359.png"
   ],
   "src/pages/event-information/components/EventInformationItem.vue": [
-    "/assets/EventInformationItem-ee045449.js",
+    "/assets/EventInformationItem-f7894b61.js",
     "/assets/EventInformationItem-aa7afeda.css"
   ],
   "src/pages/event-information/components/EventInformationItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/EventInformationItem-ee045449.js",
+    "/assets/EventInformationItem-f7894b61.js",
     "/assets/EventInformationItem-aa7afeda.css"
   ],
   "src/pages/event-information/components/EventInformationItem.vue?vue&type=style&index=0&scoped=e153e3b1&lang.css": [
-    "/assets/EventInformationItem-ee045449.js",
+    "/assets/EventInformationItem-f7894b61.js",
     "/assets/EventInformationItem-aa7afeda.css"
   ],
   "src/pages/event-information/index.vue": [
-    "/assets/index-5bc011fc.js",
+    "/assets/index-0cb59a8b.js",
     "/assets/index-7e7f310d.css",
     "/assets/event_information-5ea6994c.png"
   ],
   "src/pages/event-information/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-5bc011fc.js",
+    "/assets/index-0cb59a8b.js",
     "/assets/index-7e7f310d.css",
     "/assets/event_information-5ea6994c.png"
   ],
   "src/pages/event-information/index.vue?vue&type=style&index=0&scoped=2069204e&lang.css": [
-    "/assets/index-5bc011fc.js",
+    "/assets/index-0cb59a8b.js",
     "/assets/index-7e7f310d.css",
     "/assets/event_information-5ea6994c.png"
   ],
   "src/pages/graduate-recruitment/components/Holidays-Vacation.vue": [
-    "/assets/Holidays-Vacation-70d5524b.js"
+    "/assets/Holidays-Vacation-ed4c1305.js"
   ],
   "src/pages/graduate-recruitment/components/Holidays-Vacation.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Holidays-Vacation.vue_vue_type_script_setup_true_lang-0c8a110e.js"
+    "/assets/Holidays-Vacation.vue_vue_type_script_setup_true_lang-5d8d50af.js"
   ],
   "src/pages/graduate-recruitment/components/Open-Positions.vue": [
-    "/assets/Open-Positions-7ea5b5a1.js"
+    "/assets/Open-Positions-517e5793.js"
   ],
   "src/pages/graduate-recruitment/components/Open-Positions.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Open-Positions.vue_vue_type_script_setup_true_lang-d09e5134.js",
+    "/assets/Open-Positions.vue_vue_type_script_setup_true_lang-6b6e935e.js",
     "/assets/Graduates_2-28713b1f.svg"
   ],
   "src/pages/graduate-recruitment/components/Personnel-System.vue": [
-    "/assets/Personnel-System-f4a9487b.js"
+    "/assets/Personnel-System-40d40566.js"
   ],
   "src/pages/graduate-recruitment/components/Personnel-System.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Personnel-System.vue_vue_type_script_setup_true_lang-686399fa.js"
+    "/assets/Personnel-System.vue_vue_type_script_setup_true_lang-9da54afa.js"
   ],
   "src/pages/graduate-recruitment/components/Recruiting-Subjects.vue": [
-    "/assets/Recruiting-Subjects-075fdfb7.js"
+    "/assets/Recruiting-Subjects-263eed97.js"
   ],
   "src/pages/graduate-recruitment/components/Recruiting-Subjects.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Recruiting-Subjects.vue_vue_type_script_setup_true_lang-05aaa127.js"
+    "/assets/Recruiting-Subjects.vue_vue_type_script_setup_true_lang-51a5ea7f.js"
   ],
   "src/pages/graduate-recruitment/components/Salary.vue": [
-    "/assets/Salary-c0a72d90.js"
+    "/assets/Salary-53ae511c.js"
   ],
   "src/pages/graduate-recruitment/components/Salary.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Salary.vue_vue_type_script_setup_true_lang-f1ce7478.js",
+    "/assets/Salary.vue_vue_type_script_setup_true_lang-c3c3da7b.js",
     "/assets/industrial-finance-de95daab.png"
   ],
   "src/pages/graduate-recruitment/components/Subject-application.vue": [
-    "/assets/Subject-application-8926c9b0.js"
+    "/assets/Subject-application-5d050cc7.js"
   ],
   "src/pages/graduate-recruitment/components/Subject-application.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Subject-application.vue_vue_type_script_setup_true_lang-ba18f6b8.js"
+    "/assets/Subject-application.vue_vue_type_script_setup_true_lang-4ba902d9.js"
   ],
   "src/pages/graduate-recruitment/components/To-Graduates.vue": [
-    "/assets/To-Graduates-39ea9ba2.js"
+    "/assets/To-Graduates-1af171c8.js"
   ],
   "src/pages/graduate-recruitment/components/To-Graduates.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-e8502520.js",
+    "/assets/To-Graduates.vue_vue_type_script_setup_true_lang-1a4e22e7.js",
     "/assets/Graduates_1-0bf615e4.svg",
     "/assets/Graduates_top_1-1613399e.svg",
     "/assets/Graduates_top_2-f4c7faf1.svg",
@@ -5733,57 +5733,57 @@
     "/assets/Graduates_top_7-1a1e1b58.svg"
   ],
   "src/pages/graduate-recruitment/components/Trial-Period.vue": [
-    "/assets/Trial-Period-2d3748d4.js"
+    "/assets/Trial-Period-e6632ebd.js"
   ],
   "src/pages/graduate-recruitment/components/Trial-Period.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Trial-Period.vue_vue_type_script_setup_true_lang-505fed65.js"
+    "/assets/Trial-Period.vue_vue_type_script_setup_true_lang-75939134.js"
   ],
   "src/pages/graduate-recruitment/components/Welfare.vue": [
-    "/assets/Welfare-07a13ce4.js"
+    "/assets/Welfare-62eaedaf.js"
   ],
   "src/pages/graduate-recruitment/components/Welfare.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Welfare.vue_vue_type_script_setup_true_lang-29306831.js"
+    "/assets/Welfare.vue_vue_type_script_setup_true_lang-4f5cd707.js"
   ],
   "src/pages/graduate-recruitment/components/Work-Place.vue": [
-    "/assets/Work-Place-57eafbaf.js"
+    "/assets/Work-Place-4b1e25ec.js"
   ],
   "src/pages/graduate-recruitment/components/Work-Place.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Work-Place.vue_vue_type_script_setup_true_lang-30b55197.js"
+    "/assets/Work-Place.vue_vue_type_script_setup_true_lang-239c0a96.js"
   ],
   "src/pages/graduate-recruitment/components/Work-Timer.vue": [
-    "/assets/Work-Timer-a66998f2.js"
+    "/assets/Work-Timer-1a536fdf.js"
   ],
   "src/pages/graduate-recruitment/components/Work-Timer.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Work-Timer.vue_vue_type_script_setup_true_lang-7c0fa956.js"
+    "/assets/Work-Timer.vue_vue_type_script_setup_true_lang-6f2a4329.js"
   ],
   "src/pages/graduate-recruitment/index.vue": [
-    "/assets/index-acea1ad8.js",
+    "/assets/index-7ed6892e.js",
     "/assets/graduate-recruitment_1-b5578ba6.jpg"
   ],
   "src/pages/graduate-recruitment/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-acea1ad8.js",
+    "/assets/index-7ed6892e.js",
     "/assets/graduate-recruitment_1-b5578ba6.jpg"
   ],
   "src/pages/healthcare-business/components/Brand.vue": [
-    "/assets/Brand-5e935960.js",
+    "/assets/Brand-37440a75.js",
     "/assets/Brand-fbad39da.css",
     "/assets/image_5-08d974ca.png",
     "/assets/logo_1-7333d4d5.png"
   ],
   "src/pages/healthcare-business/components/Brand.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Brand-5e935960.js",
+    "/assets/Brand-37440a75.js",
     "/assets/Brand-fbad39da.css",
     "/assets/image_5-08d974ca.png",
     "/assets/logo_1-7333d4d5.png"
   ],
   "src/pages/healthcare-business/components/Brand.vue?vue&type=style&index=0&scoped=d4305b79&lang.css": [
-    "/assets/Brand-5e935960.js",
+    "/assets/Brand-37440a75.js",
     "/assets/Brand-fbad39da.css",
     "/assets/image_5-08d974ca.png",
     "/assets/logo_1-7333d4d5.png"
   ],
   "src/pages/healthcare-business/components/HealthcareBusinessItem.vue": [
-    "/assets/HealthcareBusinessItem-427ff9d0.js",
+    "/assets/HealthcareBusinessItem-c7a298ac.js",
     "/assets/HealthcareBusinessItem-271c2f62.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-24c18a6d.jpg",
@@ -5791,7 +5791,7 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/pages/healthcare-business/components/HealthcareBusinessItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/HealthcareBusinessItem-427ff9d0.js",
+    "/assets/HealthcareBusinessItem-c7a298ac.js",
     "/assets/HealthcareBusinessItem-271c2f62.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-24c18a6d.jpg",
@@ -5799,7 +5799,7 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/pages/healthcare-business/components/HealthcareBusinessItem.vue?vue&type=style&index=0&scoped=a381dd44&lang.css": [
-    "/assets/HealthcareBusinessItem-427ff9d0.js",
+    "/assets/HealthcareBusinessItem-c7a298ac.js",
     "/assets/HealthcareBusinessItem-271c2f62.css",
     "/assets/image_1-81633712.png",
     "/assets/image_2-24c18a6d.jpg",
@@ -5807,17 +5807,17 @@
     "/assets/image_4-b06dc208.png"
   ],
   "src/pages/healthcare-business/index.vue": [
-    "/assets/index-89929d3a.js",
+    "/assets/index-df062747.js",
     "/assets/index-470b2b28.css",
     "/assets/Healthcare_Business_1-748c8775.jpg"
   ],
   "src/pages/healthcare-business/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-89929d3a.js",
+    "/assets/index-df062747.js",
     "/assets/index-470b2b28.css",
     "/assets/Healthcare_Business_1-748c8775.jpg"
   ],
   "src/pages/healthcare-business/index.vue?vue&type=style&index=0&lang.css": [
-    "/assets/index-89929d3a.js",
+    "/assets/index-df062747.js",
     "/assets/index-470b2b28.css",
     "/assets/Healthcare_Business_1-748c8775.jpg"
   ],
@@ -6553,17 +6553,17 @@
     "/assets/bg-top_2-27382c31.svg"
   ],
   "src/pages/infrastructure-business/components/Dev-Results.vue": [
-    "/assets/Dev-Results-a2684a06.js"
+    "/assets/Dev-Results-c787e957.js"
   ],
   "src/pages/infrastructure-business/components/Dev-Results.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Dev-Results.vue_vue_type_script_setup_true_lang-7c877e04.js",
+    "/assets/Dev-Results.vue_vue_type_script_setup_true_lang-e8dc975c.js",
     "/assets/Cloud_1-b66bfba7.png"
   ],
   "src/pages/infrastructure-business/components/Infrastructure-Business.vue": [
-    "/assets/Infrastructure-Business-8c444bcc.js"
+    "/assets/Infrastructure-Business-0034531e.js"
   ],
   "src/pages/infrastructure-business/components/Infrastructure-Business.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-935ab421.js",
+    "/assets/Infrastructure-Business.vue_vue_type_script_setup_true_lang-4d6bd0e6.js",
     "/assets/Infrastructure_Business_1-97b7a6ac.png",
     "/assets/Infrastructure_Business_2-68b116d3.png",
     "/assets/Infrastructure_Business_3-9d07d093.png",
@@ -6572,48 +6572,48 @@
     "/assets/Infrastructure_Business_6-5efb2685.png"
   ],
   "src/pages/infrastructure-business/components/Introduce.vue": [
-    "/assets/Introduce-02bc1fbd.js"
+    "/assets/Introduce-e114aaca.js"
   ],
   "src/pages/infrastructure-business/components/Introduce.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Introduce.vue_vue_type_script_setup_true_lang-58245312.js"
+    "/assets/Introduce.vue_vue_type_script_setup_true_lang-9913186c.js"
   ],
   "src/pages/infrastructure-business/components/Operations.vue": [
-    "/assets/Operations-7c9a6f86.js",
+    "/assets/Operations-e4c20ad8.js",
     "/assets/Operations-3d1d8de6.css"
   ],
   "src/pages/infrastructure-business/components/Operations.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Operations-7c9a6f86.js",
+    "/assets/Operations-e4c20ad8.js",
     "/assets/Operations-3d1d8de6.css"
   ],
   "src/pages/infrastructure-business/components/Operations.vue?vue&type=style&index=0&scoped=36b1073b&lang.css": [
-    "/assets/Operations-7c9a6f86.js",
+    "/assets/Operations-e4c20ad8.js",
     "/assets/Operations-3d1d8de6.css"
   ],
   "src/pages/infrastructure-business/components/Virtualization-Engineer.vue": [
-    "/assets/Virtualization-Engineer-43d1cf6f.js",
+    "/assets/Virtualization-Engineer-075b1645.js",
     "/assets/Virtualization-Engineer-384b39c4.css"
   ],
   "src/pages/infrastructure-business/components/Virtualization-Engineer.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Virtualization-Engineer-43d1cf6f.js",
+    "/assets/Virtualization-Engineer-075b1645.js",
     "/assets/Virtualization-Engineer-384b39c4.css"
   ],
   "src/pages/infrastructure-business/components/Virtualization-Engineer.vue?vue&type=style&index=0&scoped=e8f9ee13&lang.css": [
-    "/assets/Virtualization-Engineer-43d1cf6f.js",
+    "/assets/Virtualization-Engineer-075b1645.js",
     "/assets/Virtualization-Engineer-384b39c4.css"
   ],
   "src/pages/infrastructure-business/index.vue": [
-    "/assets/index-3c3784f1.js",
+    "/assets/index-3adfba2b.js",
     "/assets/infrastructure-business_1-6fd55e20.jpg"
   ],
   "src/pages/infrastructure-business/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-3c3784f1.js",
+    "/assets/index-3adfba2b.js",
     "/assets/infrastructure-business_1-6fd55e20.jpg"
   ],
   "src/pages/logistics-business/components/AI-Optimization.vue": [
-    "/assets/AI-Optimization-b8c77ea3.js"
+    "/assets/AI-Optimization-9c3510d6.js"
   ],
   "src/pages/logistics-business/components/AI-Optimization.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-e0e945cb.js",
+    "/assets/AI-Optimization.vue_vue_type_script_setup_true_lang-4206e3b1.js",
     "/assets/Change_5-f25c2517.png",
     "/assets/icon_1-1d03082b.svg",
     "/assets/icon_2-f377764a.svg",
@@ -6621,23 +6621,23 @@
     "/assets/icon_4-147e712d.svg"
   ],
   "src/pages/logistics-business/components/GartnerCard.vue": [
-    "/assets/GartnerCard-285440e6.js"
+    "/assets/GartnerCard-4445bb89.js"
   ],
   "src/pages/logistics-business/components/GartnerCard.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/GartnerCard.vue_vue_type_script_setup_true_lang-0eb6a2db.js"
+    "/assets/GartnerCard.vue_vue_type_script_setup_true_lang-c5038f06.js"
   ],
   "src/pages/logistics-business/components/Logistics-Challenges.vue": [
-    "/assets/Logistics-Challenges-fd754b37.js"
+    "/assets/Logistics-Challenges-3287547d.js"
   ],
   "src/pages/logistics-business/components/Logistics-Challenges.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Logistics-Challenges.vue_vue_type_script_setup_true_lang-16df98ac.js",
+    "/assets/Logistics-Challenges.vue_vue_type_script_setup_true_lang-373c2c69.js",
     "/assets/change_1-cd9df667.png"
   ],
   "src/pages/logistics-business/components/Logistics-Management.vue": [
-    "/assets/Logistics-Management-0107ae5b.js"
+    "/assets/Logistics-Management-f57a8081.js"
   ],
   "src/pages/logistics-business/components/Logistics-Management.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-b0ff820b.js",
+    "/assets/Logistics-Management.vue_vue_type_script_setup_true_lang-fa2e7a9c.js",
     "/assets/tms-bc9a2d36.svg",
     "/assets/ehub-108cd1df.svg",
     "/assets/wms-99ded300.svg",
@@ -6652,10 +6652,10 @@
     "/assets/double-arrow-min-01514024.svg"
   ],
   "src/pages/logistics-business/components/Logistics-Platform.vue": [
-    "/assets/Logistics-Platform-5d7a454c.js"
+    "/assets/Logistics-Platform-2fdcaf2c.js"
   ],
   "src/pages/logistics-business/components/Logistics-Platform.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -6670,14 +6670,14 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/pages/logistics-business/components/Logistics-Promotion.vue": [
-    "/assets/Logistics-Promotion-f64a0300.js"
+    "/assets/Logistics-Promotion-a82a7185.js"
   ],
   "src/pages/logistics-business/components/Logistics-Promotion.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Logistics-Promotion.vue_vue_type_script_setup_true_lang-bdca97be.js",
+    "/assets/Logistics-Promotion.vue_vue_type_script_setup_true_lang-b997a6c7.js",
     "/assets/change_2-8878717c.png"
   ],
   "src/pages/logistics-business/data/Data.ts": [
-    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-681d376d.js",
+    "/assets/Logistics-Platform.vue_vue_type_script_setup_true_lang-a10e51d4.js",
     "/assets/pic_1-cca8073e.png",
     "/assets/image1-f90b9a42.png",
     "/assets/image2-b372289a.png",
@@ -6692,22 +6692,22 @@
     "/assets/image11-55a35f9d.png"
   ],
   "src/pages/logistics-business/index.vue": [
-    "/assets/index-8041dcd4.js",
+    "/assets/index-737f0833.js",
     "/assets/Logistics-Business_1-edfb5674.jpg"
   ],
   "src/pages/logistics-business/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-8041dcd4.js",
+    "/assets/index-737f0833.js",
     "/assets/Logistics-Business_1-edfb5674.jpg"
   ],
   "src/pages/map/components/Company-Info.vue": [
-    "/assets/Company-Info-3a86e855.js"
+    "/assets/Company-Info-a3c528b8.js"
   ],
   "src/pages/map/components/Company-Info.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Company-Info.vue_vue_type_script_setup_true_lang-79cb19d2.js",
+    "/assets/Company-Info.vue_vue_type_script_setup_true_lang-10fc7c49.js",
     "/assets/JP-CompanyInfo-ad2a5102.png"
   ],
   "src/pages/map/components/Public-Transit.vue": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -6718,7 +6718,7 @@
     "/assets/bus_timer-743d5d08.svg"
   ],
   "src/pages/map/components/Public-Transit.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -6729,7 +6729,7 @@
     "/assets/bus_timer-743d5d08.svg"
   ],
   "src/pages/map/components/Public-Transit.vue?vue&type=style&index=0&scoped=b288fcaf&lang.css": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -6740,7 +6740,7 @@
     "/assets/bus_timer-743d5d08.svg"
   ],
   "src/pages/map/data/index.ts": [
-    "/assets/Public-Transit-4b09d06c.js",
+    "/assets/Public-Transit-8d892002.js",
     "/assets/Public-Transit-f8249174.css",
     "/assets/bus_2-0a019416.png",
     "/assets/bus_timer_map-90e66bda.png",
@@ -6751,91 +6751,91 @@
     "/assets/bus_timer-743d5d08.svg"
   ],
   "src/pages/map/index.vue": [
-    "/assets/index-059f9d3f.js",
+    "/assets/index-055255a9.js",
     "/assets/Map_1-3c6e4df9.jpg"
   ],
   "src/pages/map/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-059f9d3f.js",
+    "/assets/index-055255a9.js",
     "/assets/Map_1-3c6e4df9.jpg"
   ],
   "src/pages/message-from-president/index.vue": [
-    "/assets/index-ad6637c6.js",
+    "/assets/index-fef74023.js",
     "/assets/index-c1a8415f.css",
     "/assets/pic_president_sign-6f5a098d.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner_1-5906df9d.jpg"
   ],
   "src/pages/message-from-president/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-ad6637c6.js",
+    "/assets/index-fef74023.js",
     "/assets/index-c1a8415f.css",
     "/assets/pic_president_sign-6f5a098d.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner_1-5906df9d.jpg"
   ],
   "src/pages/message-from-president/index.vue?vue&type=style&index=0&scoped=3ab68e39&lang.css": [
-    "/assets/index-ad6637c6.js",
+    "/assets/index-fef74023.js",
     "/assets/index-c1a8415f.css",
     "/assets/pic_president_sign-6f5a098d.png",
     "/assets/MESSAGE_FROM_THE_PRESIDENT_banner_1-5906df9d.jpg"
   ],
   "src/pages/privacy-policy/components/Content.vue": [
-    "/assets/Content-2aa8d27d.js"
+    "/assets/Content-97a1dde3.js"
   ],
   "src/pages/privacy-policy/components/Content.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Content.vue_vue_type_script_setup_true_lang-b16e3458.js"
+    "/assets/Content.vue_vue_type_script_setup_true_lang-832a2e0a.js"
   ],
   "src/pages/privacy-policy/index.vue": [
-    "/assets/index-665af853.js",
+    "/assets/index-64b6bd7d.js",
     "/assets/privacy-policy-d963c1e5.jpg"
   ],
   "src/pages/privacy-policy/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-665af853.js",
+    "/assets/index-64b6bd7d.js",
     "/assets/privacy-policy-d963c1e5.jpg"
   ],
   "src/pages/recruitment-information/index.vue": [
-    "/assets/index-595cb5f8.js"
+    "/assets/index-ca4e9d71.js"
   ],
   "src/pages/recruitment-process/components/recruitment-item.vue": [
-    "/assets/recruitment-item-132161f3.js",
+    "/assets/recruitment-item-dd2e8b75.js",
     "/assets/recruitment-item-19e8d4c2.css"
   ],
   "src/pages/recruitment-process/components/recruitment-item.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/recruitment-item-132161f3.js",
+    "/assets/recruitment-item-dd2e8b75.js",
     "/assets/recruitment-item-19e8d4c2.css"
   ],
   "src/pages/recruitment-process/components/recruitment-item.vue?vue&type=style&index=0&scoped=f2d46c37&lang.css": [
-    "/assets/recruitment-item-132161f3.js",
+    "/assets/recruitment-item-dd2e8b75.js",
     "/assets/recruitment-item-19e8d4c2.css"
   ],
   "src/pages/recruitment-process/index.vue": [
-    "/assets/index-b704048d.js",
+    "/assets/index-09de8cf4.js",
     "/assets/recruitment-process-aa0f47d7.png"
   ],
   "src/pages/recruitment-process/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-b704048d.js",
+    "/assets/index-09de8cf4.js",
     "/assets/recruitment-process-aa0f47d7.png"
   ],
   "src/pages/si-service-business/components/Advanced-SI-Services.vue": [
-    "/assets/Advanced-SI-Services-8f2c5959.js"
+    "/assets/Advanced-SI-Services-3ebe07bc.js"
   ],
   "src/pages/si-service-business/components/Advanced-SI-Services.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Advanced-SI-Services.vue_vue_type_style_index_0_lang-f3d91854.js",
+    "/assets/Advanced-SI-Services.vue_vue_type_style_index_0_lang-68c51f13.js",
     "/assets/Advanced-SI-Services-26772f50.css",
     "/assets/si_1-34ce4503.png"
   ],
   "src/pages/si-service-business/components/Advanced-SI-Services.vue?vue&type=style&index=0&lang.css": [
-    "/assets/Advanced-SI-Services.vue_vue_type_style_index_0_lang-f3d91854.js",
+    "/assets/Advanced-SI-Services.vue_vue_type_style_index_0_lang-68c51f13.js",
     "/assets/Advanced-SI-Services-26772f50.css",
     "/assets/si_1-34ce4503.png"
   ],
   "src/pages/si-service-business/components/Automated-Testing-Tools.vue": [
-    "/assets/Automated-Testing-Tools-7661788e.js"
+    "/assets/Automated-Testing-Tools-71fcd489.js"
   ],
   "src/pages/si-service-business/components/Automated-Testing-Tools.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Automated-Testing-Tools.vue_vue_type_script_setup_true_lang-3274b4fd.js",
+    "/assets/Automated-Testing-Tools.vue_vue_type_script_setup_true_lang-f43cfe7b.js",
     "/assets/si_2-5a4c8e6e.png",
     "/assets/si_5-f30a63e1.png"
   ],
   "src/pages/si-service-business/components/Examples-Achievements.vue": [
-    "/assets/Examples-Achievements-85a9fed3.js",
+    "/assets/Examples-Achievements-03902b4a.js",
     "/assets/Examples-Achievements-34b05d7f.css",
     "/assets/Exp_icon_1-c5054fad.svg",
     "/assets/Exp_icon_2-c558653b.svg",
@@ -6843,7 +6843,7 @@
     "/assets/Exp_icon_4-2c69146d.svg"
   ],
   "src/pages/si-service-business/components/Examples-Achievements.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Examples-Achievements-85a9fed3.js",
+    "/assets/Examples-Achievements-03902b4a.js",
     "/assets/Examples-Achievements-34b05d7f.css",
     "/assets/Exp_icon_1-c5054fad.svg",
     "/assets/Exp_icon_2-c558653b.svg",
@@ -6851,7 +6851,7 @@
     "/assets/Exp_icon_4-2c69146d.svg"
   ],
   "src/pages/si-service-business/components/Examples-Achievements.vue?vue&type=style&index=0&scoped=976200f6&lang.css": [
-    "/assets/Examples-Achievements-85a9fed3.js",
+    "/assets/Examples-Achievements-03902b4a.js",
     "/assets/Examples-Achievements-34b05d7f.css",
     "/assets/Exp_icon_1-c5054fad.svg",
     "/assets/Exp_icon_2-c558653b.svg",
@@ -6859,18 +6859,18 @@
     "/assets/Exp_icon_4-2c69146d.svg"
   ],
   "src/pages/si-service-business/components/Industry-Dev.vue": [
-    "/assets/Industry-Dev-23a76583.js"
+    "/assets/Industry-Dev-aebbf2af.js"
   ],
   "src/pages/si-service-business/components/Industry-Dev.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Industry-Dev.vue_vue_type_script_setup_true_lang-fb61681e.js",
+    "/assets/Industry-Dev.vue_vue_type_script_setup_true_lang-ea733520.js",
     "/assets/industry-2e84261d.png",
     "/assets/dev-967fe68e.png"
   ],
   "src/pages/si-service-business/components/Industry-Experience.vue": [
-    "/assets/Industry-Experience-24765560.js"
+    "/assets/Industry-Experience-51787bbc.js"
   ],
   "src/pages/si-service-business/components/Industry-Experience.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-74182262.js",
+    "/assets/Industry-Experience.vue_vue_type_script_setup_true_lang-75b63be8.js",
     "/assets/Exp_1-7aaa3aa9.svg",
     "/assets/Exp_top_1-73c1f690.svg",
     "/assets/Exp_bottom_1-6f7c5d65.svg",
@@ -6880,10 +6880,10 @@
     "/assets/Exp_bottom_3-d12aabc4.svg"
   ],
   "src/pages/si-service-business/components/Latest-Technology.vue": [
-    "/assets/Latest-Technology-ac6de382.js"
+    "/assets/Latest-Technology-089e8b6f.js"
   ],
   "src/pages/si-service-business/components/Latest-Technology.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-dbc2a9f4.js",
+    "/assets/Latest-Technology.vue_vue_type_script_setup_true_lang-10b1c4ab.js",
     "/assets/Technology1-e8cd2285.png",
     "/assets/Technology2-02f097d2.png",
     "/assets/Technology3-b8370cd1.png",
@@ -6891,89 +6891,89 @@
     "/assets/Technology5-d1d939b5.png"
   ],
   "src/pages/si-service-business/components/Platforms-Config.vue": [
-    "/assets/Platforms-Config-8b8a950d.js"
+    "/assets/Platforms-Config-ba7f37e5.js"
   ],
   "src/pages/si-service-business/components/Platforms-Config.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Platforms-Config.vue_vue_type_script_setup_true_lang-92bfba98.js",
+    "/assets/Platforms-Config.vue_vue_type_script_setup_true_lang-725d4ed9.js",
     "/assets/si_8-2ac8de8f.png"
   ],
   "src/pages/si-service-business/components/System-Dev.vue": [
-    "/assets/System-Dev-304a6f05.js"
+    "/assets/System-Dev-af213353.js"
   ],
   "src/pages/si-service-business/components/System-Dev.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/System-Dev.vue_vue_type_script_setup_true_lang-088bbac6.js",
+    "/assets/System-Dev.vue_vue_type_script_setup_true_lang-8bf8f220.js",
     "/assets/si_7-14681e4d.png"
   ],
   "src/pages/si-service-business/components/System-Maintenance.vue": [
-    "/assets/System-Maintenance-fc870997.js"
+    "/assets/System-Maintenance-fc006818.js"
   ],
   "src/pages/si-service-business/components/System-Maintenance.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/System-Maintenance.vue_vue_type_script_setup_true_lang-19f20b39.js",
+    "/assets/System-Maintenance.vue_vue_type_script_setup_true_lang-0bbd886d.js",
     "/assets/si_9-7ee44547.png"
   ],
   "src/pages/si-service-business/index.vue": [
-    "/assets/index-71b11b2a.js",
+    "/assets/index-0c5f5e1e.js",
     "/assets/Si_Service_Business_1-7f460fb8.jpg",
     "/assets/Publications_1-1debbd63.png"
   ],
   "src/pages/si-service-business/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-71b11b2a.js",
+    "/assets/index-0c5f5e1e.js",
     "/assets/Si_Service_Business_1-7f460fb8.jpg",
     "/assets/Publications_1-1debbd63.png"
   ],
   "src/pages/social-recruitment/components/Download-Template.vue": [
-    "/assets/Download-Template-f4cacbd5.js"
+    "/assets/Download-Template-ac0c9ae8.js"
   ],
   "src/pages/social-recruitment/components/Download-Template.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Download-Template.vue_vue_type_script_setup_true_lang-1a686252.js"
+    "/assets/Download-Template.vue_vue_type_script_setup_true_lang-54e279c4.js"
   ],
   "src/pages/social-recruitment/components/ExperiencedPerson.vue": [
-    "/assets/ExperiencedPerson-13b8d6bc.js",
+    "/assets/ExperiencedPerson-1f185ebb.js",
     "/assets/ExperiencedPerson-031788b7.css"
   ],
   "src/pages/social-recruitment/components/ExperiencedPerson.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ExperiencedPerson-13b8d6bc.js",
+    "/assets/ExperiencedPerson-1f185ebb.js",
     "/assets/ExperiencedPerson-031788b7.css"
   ],
   "src/pages/social-recruitment/components/ExperiencedPerson.vue?vue&type=style&index=0&scoped=a3c55211&lang.css": [
-    "/assets/ExperiencedPerson-13b8d6bc.js",
+    "/assets/ExperiencedPerson-1f185ebb.js",
     "/assets/ExperiencedPerson-031788b7.css"
   ],
   "src/pages/social-recruitment/components/InexperiencedPerson.vue": [
-    "/assets/InexperiencedPerson-afd4507a.js",
+    "/assets/InexperiencedPerson-b3f9d6b5.js",
     "/assets/InexperiencedPerson-87fd03da.css",
     "/assets/logo_social-5959b821.svg"
   ],
   "src/pages/social-recruitment/components/InexperiencedPerson.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/InexperiencedPerson-afd4507a.js",
+    "/assets/InexperiencedPerson-b3f9d6b5.js",
     "/assets/InexperiencedPerson-87fd03da.css",
     "/assets/logo_social-5959b821.svg"
   ],
   "src/pages/social-recruitment/components/InexperiencedPerson.vue?vue&type=style&index=0&scoped=b041da57&lang.css": [
-    "/assets/InexperiencedPerson-afd4507a.js",
+    "/assets/InexperiencedPerson-b3f9d6b5.js",
     "/assets/InexperiencedPerson-87fd03da.css",
     "/assets/logo_social-5959b821.svg"
   ],
   "src/pages/social-recruitment/index.vue": [
-    "/assets/index-cf62c911.js",
+    "/assets/index-4d957613.js",
     "/assets/social-recruitment_1-1579b0b8.jpg"
   ],
   "src/pages/social-recruitment/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-cf62c911.js",
+    "/assets/index-4d957613.js",
     "/assets/social-recruitment_1-1579b0b8.jpg"
   ],
   "src/pages/terms-conditions/components/Content.vue": [
-    "/assets/Content-f69d1bb0.js"
+    "/assets/Content-07bac0dc.js"
   ],
   "src/pages/terms-conditions/components/Content.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Content.vue_vue_type_script_setup_true_lang-0f5f5715.js"
+    "/assets/Content.vue_vue_type_script_setup_true_lang-904ce1b8.js"
   ],
   "src/pages/terms-conditions/index.vue": [
-    "/assets/index-b3e65b4f.js",
+    "/assets/index-e6232428.js",
     "/assets/Terms_Conditions-82b811c5.jpg"
   ],
   "src/pages/terms-conditions/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index-b3e65b4f.js",
+    "/assets/index-e6232428.js",
     "/assets/Terms_Conditions-82b811c5.jpg"
   ],
   "src/styles/main.css": [
