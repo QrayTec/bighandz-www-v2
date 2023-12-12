@@ -196,7 +196,7 @@ const tags3 = ref([
   '日本の技術移転・投資',
   '越境EC'
 ])
-const CX = width.value / 3
+const CX = width.value / 4
 const CY = height.value / 2
 const isScrolling = ref(true)
 const rotateX = (angleX: number) => {
