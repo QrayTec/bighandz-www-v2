@@ -179,6 +179,16 @@ const CompanyProfile = ref<CompanyProfileType[]>([
   },
   {
     id: 9,
+    title: '有料職業紹介事業許可番号',
+    content: [
+      {
+        list: '１３－ユ－３０８９１５',
+        list_icon: ''
+      }
+    ]
+  },
+  {
+    id: 10,
     title: '労働者派遣事業許可番号',
     content: [
       {

@@ -4,7 +4,7 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="flex justify-between">
-      <div class="w-[calc(50%-15px)] flex flex-col justify-between">
+      <div class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]">
         <div class="text-deep_blue text-[2.25rem] leading-normal font-[700]">
           イノベーション
         </div>
