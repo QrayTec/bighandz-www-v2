@@ -1,6 +1,6 @@
 <template>
   <div class="w-full">
-    <sub-page-title :data="SubPageTitleData" />
+    <SubPageTitleBg :data="SubPageTitleData" />
     <div class="my-[120px] w-full flex items-center justify-center">
       <Content />
     </div>
@@ -17,9 +17,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '利用規約',
   TitleCn_2: '',
   TitleEn: 'Terms and Conditions',
-  ImgSrc: TermsConditions,
-  bold: 1,
-  type: 2
+  ImgSrc: TermsConditions
 })
 </script>
 

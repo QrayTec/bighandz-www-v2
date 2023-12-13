@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
@@ -15,10 +15,10 @@
     </div>
     <div class="my-[120px] w-full flex flex-col items-center">
       <LogisticsChallenges />
-      <LogisticsDXPromotion class="mt-[120px]" />
-      <LogisticsDXPlatform class="mt-[120px]" />
+      <LogisticsPromotion class="mt-[120px]" />
+      <LogisticsPlatform class="mt-[120px]" />
       <LogisticsManagement class="mt-[120px]" />
-      <AiDelivery class="mt-[120px]" />
+      <AIOptimization class="mt-[120px]" />
     </div>
   </div>
 </template>
@@ -26,25 +26,25 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
-import LogisticsChallenges from './components/Logistics-Industry-Challenges.vue'
-import LogisticsDXPromotion from './components/Logistics-DX-Promotion.vue'
-import LogisticsDXPlatform from './components/LogisticsDXPlatform.vue'
-import LogisticsBusiness from '@/assets/images/sub_page_title/Logistics-Business.png'
-import LogisticsManagement from './components/Logistics-Management.vue'
-import AiDelivery from './components/AI-Delivery.vue'
+
+import LogisticsBusiness from '@/assets/images/sub_page_title/Logistics-Business_1.jpg'
 import {
   SubPageTitleType,
   PageNavType,
   PageNavStyleType
 } from '@/data/pages_interface'
 
+import LogisticsChallenges from './components/Logistics-Challenges.vue'
+import LogisticsPromotion from './components/Logistics-Promotion.vue'
+import LogisticsPlatform from './components/Logistics-Platform.vue'
+import LogisticsManagement from './components/Logistics-Management.vue'
+import AIOptimization from './components/AI-Optimization.vue'
+
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '物流',
   TitleCn_2: '事業',
   TitleEn: 'Logistics business',
-  ImgSrc: LogisticsBusiness,
-  bold: 1,
-  type: 1
+  ImgSrc: LogisticsBusiness
 })
 
 const PageNavData = ref<PageNavType[]>([

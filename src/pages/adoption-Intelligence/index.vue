@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div class="m_b_240 healthcare_business m_t_150 m_t_150">
       <div class="healthcare_business_box">
@@ -14,16 +14,14 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
-import CompanyStaffObservation from '@/assets/images/sub_page_title/Company_staff_observation.png'
+import CompanyStaffObservation from '@/assets/images/sub_page_title/AdoptionIntelligence.jpg'
 import AdoptionItem from './components/adoption-item.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '採用情報',
   TitleCn_2: '',
-  TitleEn: 'Company staff observation',
-  ImgSrc: CompanyStaffObservation,
-  bold: 1,
-  type: 1
+  TitleEn: 'Adoption Intelligence',
+  ImgSrc: CompanyStaffObservation
 })
 </script>
 

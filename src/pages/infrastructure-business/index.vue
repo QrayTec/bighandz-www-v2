@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
@@ -14,8 +14,11 @@
       />
     </div>
     <div class="my-[120px] w-full flex flex-col items-center">
-      <CloudEnhancementStrategy />
-      <operational class="mt-[60px]" />
+      <Introduce />
+      <DevResults class="mt-[120px]" />
+      <Operations class="mt-[120px]" />
+      <InfrastructureBusiness class="mt-[120px]" />
+      <VirtualizationEngineer class="mt-[120px]" />
     </div>
   </div>
 </template>
@@ -28,34 +31,36 @@ import {
   PageNavType,
   PageNavStyleType
 } from '@/data/pages_interface'
-import DataSolution from '@/assets/images/sub_page_title/infrastructure-business.png'
-import CloudEnhancementStrategy from './components/Cloud-Enhancement-Strategy.vue'
-import operational from './components/operational-efficiency-improvement.vue'
+import DataSolution from '@/assets/images/sub_page_title/infrastructure-business_1.jpg'
+
+import Introduce from './components/Introduce.vue'
+import DevResults from './components/Dev-Results.vue'
+import Operations from './components/Operations.vue'
+import InfrastructureBusiness from './components/Infrastructure-Business.vue'
+import VirtualizationEngineer from './components/Virtualization-Engineer.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'インフラ',
   TitleCn_2: '事業',
   TitleEn: 'infrastructure business',
-  ImgSrc: DataSolution,
-  bold: 1,
-  type: 1
+  ImgSrc: DataSolution
 })
 
 const PageNavData = ref<PageNavType[]>([
   {
     id: 1,
-    anchor: '#Cloud-Enhancement-Strategy',
-    anchor_title: 'クラウド強化戦略'
+    anchor: '#Dev-RESULTS',
+    anchor_title: 'インフラ開発実績'
   },
   {
     id: 2,
-    anchor: '#operational-efficiency-improvement',
-    anchor_title: '運用効率向上'
+    anchor: '#Infrastructure-Business',
+    anchor_title: 'インフラ事業内容'
   },
   {
     id: 3,
-    anchor: '#Plans&Supported-Areas-Skill-Sets',
-    anchor_title: '対応領域とスキルセット'
+    anchor: '#VirtualizationEngineers',
+    anchor_title: '仮想化技術者が多数在籍'
   }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })

@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
@@ -14,10 +14,11 @@
       />
     </div>
     <div class="my-[120px] w-full flex flex-col items-center">
-      <SolutionItem />
-      <AICases class="mt-[120px]" />
-      <LLMApplications class="mt-[120px]" />
-      <AIAssemblerConversion class="mt-[120px]" />
+      <Introduce />
+      <AICase class="mt-[60px]" />
+      <AnalyticsTransformationServices class="mt-[120px]" />
+      <AIApplicationArea class="mt-[120px]" />
+      <EPR class="mt-[120px]" />
       <Publications
         :publications="SolutionData"
         class="mt-[120px]"
@@ -35,19 +36,23 @@ import {
   PageNavStyleType,
   SolutionType
 } from '@/data/pages_interface'
-import DataSolution from '@/assets/images/sub_page_title/Data-Solution.png'
-import SolutionItem from './components/solution-item.vue'
-import AICases from './components/AI-Cases.vue'
-import LLMApplications from './components/LLM-Applications.vue'
-import AIAssemblerConversion from './components/AI-Assembler-Conversion.vue'
+import DataSolution from '@/assets/images/sub_page_title/Data-Solution_1.jpg'
 import PublicationsImage from '@/assets/images/Publications/Publications_2.png'
 
+import Introduce from './components/Introduce.vue'
+import AICase from './components/AI-Case.vue'
+import AnalyticsTransformationServices from './components/Analytics-Transformation-Services.vue'
+import AIApplicationArea from './components/AI-Application-Area.vue'
+import EPR from './components/EPR.vue'
+
 const SolutionData = ref<SolutionType>({
-  title: 'ニューラルコンピュータ―統計物理学からのアプローチ ',
+  title: 'ニューラルコンピュータ ',
+  title_2: '—統計物理学からのアプローチ',
   Image: PublicationsImage,
   content: [
     {
-      list: 'J. ハーツ (著), R.G. パルマー (著), A. クロー (著), 呉 勇 (翻訳),  笹川 辰弥 (翻訳)'
+      list: 'J. ハーツ (著), R.G. パルマー (著), A. クロー (著),',
+      list_2: ' 呉 勇 (翻訳),  笹川 辰弥 (翻訳)'
     },
     { list: '出版社 :トッパン (1994/5/1)' },
     {
@@ -59,24 +64,10 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'データ',
   TitleCn_2: 'ソリューション',
   TitleEn: 'data solution',
-  ImgSrc: DataSolution,
-  bold: 1,
-  type: 1
+  ImgSrc: DataSolution
 })
 
 const PageNavData = ref<PageNavType[]>([
-  // { id: 1, anchor: '#AI-Innovation-Business', anchor_title: 'AI革新ビジネス' },
-  // {
-  //   id: 2,
-  //   anchor: '#Technological-Evolution&Value-Addition',
-  //   anchor_title: '技術進化と付加価値'
-  // },
-  // { id: 3, anchor: '#AI-Quality&Efficiency', anchor_title: 'AI品質・効率化' },
-  {
-    id: 4,
-    anchor: '#AI-Innovation-Business',
-    anchor_title: 'AIによるビジネス革新'
-  },
   { id: 5, anchor: '#AI-Cases', anchor_title: 'AI事例' },
 
   { id: 8, anchor: '#Publications', anchor_title: '出版物' }

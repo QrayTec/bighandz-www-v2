@@ -41,7 +41,7 @@
         >
           <img
             v-if="item.id !== 1"
-            src="/src/assets/images/company_profile/rhombic.svg"
+            src="/src/assets/images/listicon/icon_1.svg"
             alt=""
           />
           <p :class="{ m_l_10: item.id !== 1 }">
@@ -102,7 +102,7 @@ ul {
   font-feature-settings: 'clig' off, 'liga' off;
   /* 正文段落 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */

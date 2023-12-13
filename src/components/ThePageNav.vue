@@ -14,7 +14,7 @@
           duration: 1000,
           offset: -250
         }"
-        class="page_nav_main_link"
+        class="page_nav_main_link opacity-60 transition-all duration-800 hover:opacity-100"
         :class="{ 'ml-[30px]': item.id != 1 }"
         :href="item.anchor"
         ><div class="page_nav_content">

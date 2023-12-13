@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <sub-page-title-bg :data="SubPageTitleData" />
     </div>
     <div class="message_content">
       <div class="message_content_main">
@@ -18,10 +18,7 @@
           <div class="message_content_text_main m_top_30">敬具</div>
 
           <div class="m_top_30 pic_Representative">
-            <img
-              src="/src/assets/images/MessageFromPresident/pic_Representative.png"
-              alt="pic_president"
-            />
+            <div class="message_content_text_main m_top_30">代表取締役</div>
           </div>
           <div class="pic_president_sign">
             <img
@@ -60,15 +57,13 @@
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
 
-import MessagePresident from '@/assets/images/sub_page_title/MESSAGE_FROM_THE_PRESIDENT_banner.png'
+import MessagePresident from '@/assets/images/sub_page_title/MESSAGE_FROM_THE_PRESIDENT_banner_1.jpg'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '社長',
   TitleCn_2: '挨拶',
   TitleEn: 'MESSAGE FROM THE PRESIDENT',
-  ImgSrc: MessagePresident,
-  bold: 1,
-  type: 1
+  ImgSrc: MessagePresident
 })
 
 interface ListType {
@@ -85,7 +80,7 @@ const ListData = ref<ListType[]>([
     list: '現在、当社は生成AIやクラウドなど最新のIT技術に力を入れ、金融・物流・ヘルスケアなどの分野でソリューションベンダーに変貌しようとしています。私たちの使命は、価値創造を通じて、社会に貢献することです。'
   },
   {
-    list: 'また、当社はEGS（環境、ガバナンス、社会）社会への取り組みも強化しています。持続可能な未来社会の実現に向け、環境への配慮、透明な経営、社会的責任の果たし方を常に考え、行動しています。'
+    list: 'また、当社はESG（環境、社会、ガバナンス）社会への取り組みも強化しています。持続可能な未来社会の実現に向け、環境への配慮、透明な経営、社会的責任の果たし方を常に考え、行動しています。'
   },
   {
     list: '未来に向けて、私たちは技術とイノベーションの力を信じ、常に先進性を追求し、未来創造し続けます。私たちの目指すは、ただ技術を進化させることではなく、人々の生活を豊かにし、社会全体に価値をもたらすことです。'
@@ -144,7 +139,7 @@ const ListData = ref<ListType[]>([
   margin-top: 30px;
   /* 正文段落 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */

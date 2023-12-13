@@ -10,7 +10,7 @@
         :class="index % 2 == 0 ? 'order-1 items-start' : 'items-end'"
         class="w-[680px] flex flex-col justify-between"
       >
-        <div class="font-NotoSansJP text-[36px] font-[400] text-[#071027]">
+        <div class="font-NotoSansJP text-[2.25rem] font-[400] text-[#071027]">
           {{ item.title }}
         </div>
         <hr class="mt-[10px] h-[2px] w-full border-none bg-[#6785C1]" />
@@ -18,12 +18,12 @@
           class="borer-[#6785C1] mt-[4px] w-full border-t-1 border-dashed"
         ></div>
         <div
-          class="font-NotoSansJP mt-[20px] w-full text-[18px] leading-[32px] font-[400] text-[#0E1B47]"
+          class="font-NotoSansJP mt-[20px] w-full text-[1rem] leading-[2rem] font-[400] text-[#0E1B47]"
         >
           <div
             v-for="items in item.list"
             :key="items.list_title"
-            class="mt-[12px] w-[445px] flex items-center"
+            class="mt-[12px] w-full flex items-center"
           >
             <img
               :src="items.icon"
@@ -31,7 +31,21 @@
             />
             <div class="ml-[6px] w-full flex justify-between">
               <div class="w-[25%]">{{ items.list_title }}</div>
-              <div class="w-[75%]">{{ items.list_info }}</div>
+              <div
+                v-if="items.list_info !== 'http: //www.qdhaien.cn/'"
+                class="w-[75%]"
+              >
+                {{ items.list_info }}
+              </div>
+              <a
+                v-if="items.list_info == 'http: //www.qdhaien.cn/'"
+                class="w-[75%]"
+                href="http://www.qdhaien.cn/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ items.list_info }}</a
+              >
             </div>
           </div>
         </div>

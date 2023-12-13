@@ -1,15 +1,18 @@
 <template>
   <div
-    class="bg_image bg-center-35 h-[1030px] w-full flex justify-center bg-no-repeat"
+    class="bg_image bg-center-35 h-[1130px] w-full flex justify-center bg-no-repeat"
   >
     <div class="w-[1200px]">
       <div
         data-aos="fade-in"
-        class="font-NotoSansJP mt-[120px] h-[54px] text-[48px] leading-[54px] font-[500] not-italic text-white"
+        class="font-NotoSansJP mt-[120px] h-[54px] text-[2.25rem] leading-[3.375rem] font-[500] not-italic text-white"
       >
         サービス
       </div>
-      <div class="mt-[40px] text-[18px] text-gray">
+      <div class="mt-[40px] text-[1rem] text-white">
+        「IT×ビジネス×教育」× SPEED ＝ POWER
+      </div>
+      <div class="mt-[40px] text-[1rem] text-white">
         ITからビジネスへ、ビジネスからITへ、教育からIT・ビジネスへと三位一体でスピーディに社会の発展に貢献しつづけます。
       </div>
       <div
@@ -57,7 +60,7 @@ import TitleIcon5 from '@/assets/images/index_Business/title_icon_5.svg'
 const BusinessItemData = ref<BusinessItemType[]>([
   {
     background_image: Bg1,
-    title: 'SIサービス事業',
+    title_1: 'SIサービス事業',
     title_icon: TitleIcon1,
     info_content_1:
       'これまで培ってきた多くの業種業界での経験値及び、最先端の技術力、オフショアリソースを活用し、お客様の企業価値拡大に寄与するシステムを提供いたします。',
@@ -67,7 +70,8 @@ const BusinessItemData = ref<BusinessItemType[]>([
   },
   {
     background_image: Bg2,
-    title: 'データソリューション',
+    title_1: 'データ',
+    title_2: 'ソリューション',
     title_icon: TitleIcon2,
     info_content_1:
       'AI技術やIoTといった最新技術にて、ビジネスへの活用領域検討から、PoC、実装までワンストップで提供いたします。',
@@ -77,7 +81,7 @@ const BusinessItemData = ref<BusinessItemType[]>([
   },
   {
     background_image: Bg3,
-    title: 'インフラ事業',
+    title_1: 'インフラ事業',
     title_icon: TitleIcon3,
     info_content_1:
       'ITインフラ基盤のスペシャリスト集団として、設計から構築、運用、稼働後の改善提案含めトータルでサービスを提供 いたします。',
@@ -87,7 +91,7 @@ const BusinessItemData = ref<BusinessItemType[]>([
   },
   {
     background_image: Bg5,
-    title: '物流事業',
+    title_1: '物流事業',
     title_icon: TitleIcon5,
     info_content_1:
       '多種多様な業界における物流知見をベースに、物流における様々な課題をサプライチェーン全体の視点から解決し物流DX改革を実現します。',
@@ -97,11 +101,12 @@ const BusinessItemData = ref<BusinessItemType[]>([
   },
   {
     background_image: Bg4,
-    title: 'ヘルスケア事業',
+    title_1: 'ヘルスケア事業',
     title_icon: TitleIcon4,
-    info_content_1: 'Comming Soon',
+    info_content_1:
+      '中国における高齢者向けの介護問題解決を目指し、“自立支援介護”の理念と、日本の教育・医療・介護福祉分野の多くの施設とのパートナーシップを築き上げました。',
     info_content_2: '',
-    link: '/',
+    link: '/healthcare-business',
     style: 'w-[287px] h-[287px]'
   }
 ])

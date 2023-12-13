@@ -5,7 +5,7 @@ import { useHead } from '@vueuse/head'
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
-  title: 'BigHandz Co.Ltd. – Speed is the Power!',
+  title: '株式会社ビッグハンズ',
   meta: [
     { name: 'description', content: 'BigHandz Co.Ltd. – Speed is the Power!' }
   ],
@@ -13,7 +13,7 @@ useHead({
     {
       rel: 'icon',
       type: 'image/svg+xml',
-      href: '/favicon.png'
+      href: '/icon.svg'
     }
   ]
 })

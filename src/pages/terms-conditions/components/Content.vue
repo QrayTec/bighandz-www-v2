@@ -3,15 +3,11 @@
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div
-      class="h-[80px] w-[280px] flex items-center justify-center bg-[#597be5] text-[36px] leading-[36px] font-[700] text-white"
-    >
-      利用規約
-    </div>
+    <ThePageMinTitle>利用規約</ThePageMinTitle>
     <div
       v-for="(item, index) in introduction"
       :key="index"
-      class="mt-[30px]"
+      class="mt-[30px] text-[1rem] leading-[2rem] font-[400]"
     >
       {{ item.list }}
     </div>

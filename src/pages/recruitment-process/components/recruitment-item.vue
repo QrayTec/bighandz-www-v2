@@ -8,7 +8,7 @@
       data-aos="slide-right"
     >
       <div
-        class="font-NotoSansJP font-feature-settings-cilg-liga text-[18px] leading-none font-[400] not-italic text-[#0e1b47]"
+        class="font-NotoSansJP text-deep_blue font-feature-settings-cilg-liga text-[1rem] leading-normal font-[400]"
       >
         応募から採用までの流れをご説明しています。
       </div>
@@ -18,9 +18,9 @@
       v-for="item in RecruitmentData"
       :id="item.anchor"
       :key="item.id"
-      class="font-NotoSansJP font-feature-settings-cilg-liga mt-[60px] text-[18px] leading-none font-[400] not-italic text-[#0e1b47]"
+      class="font-NotoSansJP text-deep_blue mt-[60px] text-[1rem] leading-normal font-[400]"
     >
-      <steps :stepsdata="StepsData[RecruitmentData.indexOf(item)]" />
+      <the-page-min-title2>{{ item.subheading }}</the-page-min-title2>
       <div
         class="pl-[204px]"
         data-aos="slide-right"
@@ -31,7 +31,8 @@
         <the-download-btn
           v-if="item.id === 1"
           class="mt-[30px]"
-        />
+          >テンプレートのダウンロード</the-download-btn
+        >
         <p class="mt-[30px]">
           {{ item.list_data_2 }}
         </p>
@@ -44,7 +45,7 @@
     >
       <hr class="hr mt-[30px]" />
       <div
-        class="font-NotoSansJP .font-feature-settings-cilg-liga mt-[60px] text-[18px] leading-[32px] font-[400] not-italic text-[#6785c1]"
+        class="font-NotoSansJP font-feature-settings-cilg-liga mt-[60px] text-[1rem] leading-[2rem] font-[400] text-[#6785c1]"
       >
         <p>※応募から内定までの間、1～2か月程度のお時間をいただきます。</p>
         <p class="mt-[30px]">
@@ -57,40 +58,15 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { StepsType } from '@/data/pages_interface'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
-interface RecruitmentType {
-  id: number
-  anchor: string
-  list_data_1: string
-  list_data_2?: string
-  list_data_3?: string
-}
-
-const StepsData = ref<StepsType[]>([
-  {
-    id: 1,
-    subheading: 'STEP ①'
-  },
-  {
-    id: 2,
-    subheading: 'STEP ②'
-  },
-  {
-    id: 3,
-    subheading: 'STEP ③'
-  },
-  {
-    id: 4,
-    subheading: 'STEP ④'
-  }
-])
+import { RecruitmentType } from '../types/index'
 
 const RecruitmentData = ref<RecruitmentType[]>([
   {
     id: 1,
     anchor: 'STEP1',
+    subheading: 'STEP ①',
     list_data_1: 'テンプレートを参考に履歴書を記入してください',
     list_data_2:
       '履歴書をダンロードし、指定されたメールアドレスにご提出お願い致します。',
@@ -99,16 +75,19 @@ const RecruitmentData = ref<RecruitmentType[]>([
   {
     id: 2,
     anchor: 'STEP2',
+    subheading: 'STEP ②',
     list_data_1: '履歴選考（職種により必要性に応じて実施します）'
   },
   {
     id: 3,
     anchor: 'STEP3',
+    subheading: 'STEP ③',
     list_data_1: '面接 （複数回を予定）'
   },
   {
     id: 4,
     anchor: 'STEP4',
+    subheading: 'STEP ④',
     list_data_1: '内定'
   }
 ])

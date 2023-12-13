@@ -1,50 +1,45 @@
 <template>
   <div
+    id="Publications"
     class="w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div
-      id="Publications"
-      class="h-[80px] max-w-[480px] flex justify-center bg-[#6785C1] px-[44px] py-[17px] text-[36px] font-[500] text-white"
-    >
-      出版物
-    </div>
+    <ThePageMinTitle data-aos="fade-right">出版物</ThePageMinTitle>
+
     <div
       data-aos="fade-in"
       class="mt-[60px] flex justify-between"
     >
-      <div class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]">
-        <div class="font-NotoSansJP text-[#071027]s text-[36px] font-[700]">
-          {{ PublicationsData.title }}
-        </div>
-        <div
-          class="font-NotoSansJP w-full text-[18px] leading-[32px] font-[400] text-[#0E1B47]"
-        >
-          <ul class="mt-[20px] w-full">
-            <li
-              v-for="(items, i) in PublicationsData.content"
-              :key="i"
-              :class="i == 0 ? '' : 'mt-[30px]'"
-              class="w-full flex px-[30px]"
-            >
-              <div class="mt-[5px] h-full min-w-[16px]">
-                <img
-                  class="h-16px w-[16px]"
-                  src="@/assets/images/company_profile/rhombic.svg"
-                  alt=""
-                />
-              </div>
-              <p class="ml-[10px]">{{ items.list }}</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="w-[calc(50%-15px)] flex justify-center">
+      <div
+        class="h-[460px] w-[calc(50%-15px)] flex justify-center"
+        data-aos="fade-right"
+      >
         <img
-          class="object-cover"
+          class="object-cover transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
           :src="PublicationsData.Image"
           alt=""
         />
+      </div>
+      <div
+        class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]"
+        data-aos="fade-left"
+      >
+        <div class="flex flex-col">
+          <TheIconTitle>
+            <div class="w-[358px]">
+              <p>{{ PublicationsData.title }}</p>
+              <p class="text-right">{{ PublicationsData.title_2 }}</p>
+            </div>
+          </TheIconTitle>
+          <ul class="mt-[60px] leading-[2rem]">
+            <TheIconList
+              v-for="(item, index) in PublicationsData.content"
+              :key="index"
+              :class="index === 0 ? '' : 'mt-[30px]'"
+              >{{ item.list }}<br />{{ item.list_2 }}</TheIconList
+            >
+          </ul>
+        </div>
       </div>
     </div>
   </div>

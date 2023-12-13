@@ -1,33 +1,31 @@
 <template>
   <div class="w-full">
-    <sub-page-title :data="SubPageTitleData" />
-    <div class="philosophy_policy_box">
+    <SubPageTitleBg :data="SubPageTitleData" />
+    <div
+      class="my-[120px] w-full flex flex-col items-center justify-center overflow-hidden"
+    >
       <PracticesGuidelines />
-      <Mission />
-      <Vision />
-      <Values />
+      <Mission class="mt-[120px]" />
+      <Values class="mt-[120px]" />
+      <Innovation class="mt-[120px]" />
     </div>
-    <Innovation />
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
 import { SubPageTitleType } from '@/data/pages_interface'
-import CorporatePhilosophy from '@/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner.png'
+import CorporatePhilosophy from '@/assets/images/sub_page_title/Corporate_Philosophy_Management_Policy_banner_1.jpg'
 import Innovation from './components/Innovation.vue'
 import Mission from './components/Mission.vue'
 import PracticesGuidelines from './components/PracticesGuidelines.vue'
 import Values from './components/Values.vue'
-import Vision from './components/Vision.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '企業理念',
   TitleCn_2: '経営方針',
   TitleEn: 'Corporate Philosophy Management Policy',
-  ImgSrc: CorporatePhilosophy,
-  bold: 1,
-  type: 1
+  ImgSrc: CorporatePhilosophy
 })
 </script>
 
@@ -60,7 +58,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   color: #071027;
   /* 正文一级标题加粗 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;

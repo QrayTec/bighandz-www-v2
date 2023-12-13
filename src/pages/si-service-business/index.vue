@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
@@ -19,6 +19,10 @@
       <IndustryExperience class="mt-[120px]" />
       <ExamplesAchievements class="mt-[120px]" />
       <AutomatedTestingTools class="my-[120px]" />
+      <SystemDev class="my-[120px]" />
+      <PlatformsConfig class="mt-[120px]" />
+      <LatestTechnology class="mt-[120px]" />
+      <SystemMaintenance class="mt-[120px]" />
       <Publications
         :publications="SolutionData"
         class="mt-[120px]"
@@ -37,12 +41,16 @@ import {
   SolutionType
 } from '@/data/pages_interface'
 import AdvancedSIServices from './components/Advanced-SI-Services.vue'
-import SiServiceBusiness from '@/assets/images/sub_page_title/Si_Service_Business.png'
+import SiServiceBusiness from '@/assets/images/sub_page_title/Si_Service_Business_1.jpg'
 import IndustryDev from './components/Industry-Dev.vue'
 import IndustryExperience from './components/Industry-Experience.vue'
 import ExamplesAchievements from './components/Examples-Achievements.vue'
 import AutomatedTestingTools from './components/Automated-Testing-Tools.vue'
 import PublicationsImage from '@/assets/images/Publications/Publications_1.png'
+import SystemDev from './components/System-Dev.vue'
+import PlatformsConfig from './components/Platforms-Config.vue'
+import LatestTechnology from './components/Latest-Technology.vue'
+import SystemMaintenance from './components/System-Maintenance.vue'
 
 const SolutionData = ref<SolutionType>({
   title: 'オフショアリング完全ガイド',
@@ -60,9 +68,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'SIサービス',
   TitleCn_2: '事業',
   TitleEn: 'Si service business',
-  ImgSrc: SiServiceBusiness,
-  bold: 1,
-  type: 1
+  ImgSrc: SiServiceBusiness
 })
 
 const PageNavData = ref<PageNavType[]>([

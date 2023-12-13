@@ -6,8 +6,11 @@ export interface SubPageTitleType {
   TitleCn_2: string
   TitleEn: string
   ImgSrc: string
-  bold: number
-  type: number
+}
+export interface SubPageTitleType2 {
+  TitleCn_1: string
+  TitleCn_2: string
+  ImgSrc: string
 }
 // 页内导航的type
 export interface PageNavType {
@@ -26,8 +29,9 @@ export interface StepsType {
 }
 export interface SolutionType {
   title: string
+  title_2?: string
   Image: string
-  content: { list: string }[]
+  content: { list: string; list_2?: string }[]
 }
 export interface NavLink {
   id: number

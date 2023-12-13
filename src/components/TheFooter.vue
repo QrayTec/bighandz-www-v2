@@ -6,24 +6,20 @@
       class="h-full flex items-center justify-between py-[41px]"
       :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     >
-      <div class="h-full w-[68px] flex items-center justify-center">
+      <div
+        class="h-full w-[200px] flex items-center transition-all duration-800 hover:opacity-60"
+      >
         <router-link
           to="/"
-          class="h-full flex flex-col justify-between py-[5px]"
+          class="h-full flex items-center justify-between py-[5px]"
         >
           <img
             src="/src/assets/images/logo.png"
             alt="logo"
           />
-          <img
-            src="/src/assets/images/logo_text.png"
-            alt="logo_text"
-          />
         </router-link>
       </div>
-      <div
-        class="ml-[120px] h-[22px] w-[500px] flex items-center justify-between"
-      >
+      <div class="h-[22px] w-[650px] flex items-center justify-between">
         <div
           v-for="item in NavData"
           :key="item.id"
@@ -33,17 +29,13 @@
           <div
             class="mx-[20px] w-full flex justify-center text-[15px] text-[#fff]"
           >
-            <router-link
-              :to="item.href"
-              target="_blank"
-              >{{ item.title }}</router-link
-            >
+            <router-link :to="item.href">{{ item.title }}</router-link>
           </div>
         </div>
         <div class="h-[12px] w-[1px] bg-[#fff] bg-opacity-20"></div>
       </div>
       <div
-        class="font-feature-settings-cilg-liga font-NotoSansJP h-[22px] w-[350px] text-right text-[14.4px] font-[400] not-italic text-[#fff]"
+        class="font-NotoSansJP font-feature-settings-cilg-liga h-[22px] w-[350px] text-right text-[14.4px] font-[400] not-italic text-[#fff]"
       >
         Copyright © BigHandz Co.Ltd. All Rights Reserved.
       </div>
@@ -64,7 +56,8 @@ interface FooterNavData {
 const NavData = ref<FooterNavData[]>([
   { id: 1, title: 'ホーム', href: '/' },
   { id: 1, title: '利用規約', href: '/terms-conditions' },
-  { id: 1, title: '個人情報保護方針', href: '/privacy-policy' }
+  { id: 1, title: '個人情報保護方針', href: '/privacy-policy' },
+  { id: 1, title: 'お問い合わせ', href: '/contact-us' }
 ])
 </script>
 

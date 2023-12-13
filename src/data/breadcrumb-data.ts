@@ -148,5 +148,12 @@ export const json: {
     name: '個人情報保護方針',
     checked: 0,
     MainPage: false
+  },
+  '/contact-us': {
+    path: '/contact-us',
+    Parent_title: 'お問い合わせ',
+    name: 'お問い合わせ',
+    checked: 0,
+    MainPage: false
   }
 }

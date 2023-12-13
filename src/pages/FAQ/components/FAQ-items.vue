@@ -1,26 +1,34 @@
 <template>
   <div
     id="Part1"
-    class="relative mb-[240px] mt-[120px]"
+    class="font-NotoSansJP relative mb-[240px] mt-[120px]"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <steps :stepsdata="StepsData" />
-    <div class="FAQ_content">
+    <the-page-min-title2>Part1</the-page-min-title2>
+    <div class="pl-[204px]">
       <div
         v-for="item in FAQData"
         :key="item.id"
         data-aos="slide-right"
-        class="FAQ_items m_t_60"
+        class="mt-[60px]"
       >
-        <div class="question qa_data">
-          <div class="question_id question_bg">{{ item.question_id }}</div>
-          <div class="question_data">
+        <div class="text-deep_blue flex text-[1rem] leading-[2rem] font-[700]">
+          <div class="w-[40px] bg-[#6785C1] text-center font-[400] text-white">
+            {{ item.question_id }}
+          </div>
+          <div class="ml-[12px] flex items-center leading-normal">
             {{ item.question_data }}
           </div>
         </div>
-        <div class="qa_data assurance m_t_30">
-          <div class="question_id assurance_bg">{{ item.assurance_id }}</div>
-          <div class="question_data">
+        <div
+          class="text-deep_blue mt-[30px] flex text-[1rem] leading-[2rem] font-[700]"
+        >
+          <div
+            class="h-[32px] min-w-[40px] bg-[#2CC0CC] text-center font-[400] text-white"
+          >
+            {{ item.assurance_id }}
+          </div>
+          <div class="ml-[12px] font-[400]">
             <p
               v-for="(assurance, index) in item.assurance_list"
               :key="index"
@@ -31,7 +39,7 @@
         </div>
       </div>
       <hr
-        class="m_t_60 hr"
+        class="hr mt-[60px]"
         data-aos="slide-right"
       />
     </div>
@@ -40,7 +48,6 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { StepsType } from '@/data/pages_interface'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 interface AssuranceListType {
@@ -54,11 +61,6 @@ interface FAQType {
   assurance_id: string
   assurance_list: AssuranceListType[]
 }
-
-const StepsData = ref<StepsType>({
-  id: 1,
-  subheading: 'Part1'
-})
 
 const FAQData = ref<FAQType[]>([
   {
@@ -113,97 +115,3 @@ const FAQData = ref<FAQType[]>([
   }
 ])
 </script>
-
-<style scoped>
-.page_center_items {
-  position: relative;
-}
-.FAQ_content {
-  padding-left: 204px;
-}
-.qa_data {
-  display: flex;
-}
-.question {
-  color: var(---, #0e1b47);
-  font-feature-settings: 'clig' off, 'liga' off;
-
-  /* 正文加粗 */
-  font-family: Noto Sans JP;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.assurance {
-  color: var(---, #0e1b47);
-  font-feature-settings: 'clig' off, 'liga' off;
-
-  /* 正文段落 */
-  font-family: Noto Sans JP;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 200% */
-}
-.question_id {
-  min-width: 40px;
-  max-height: 32px;
-  color: #fff;
-  font-feature-settings: 'clig' off, 'liga' off;
-  /* 正文段落 */
-  font-family: Noto Sans JP;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 200% */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.question_data {
-  margin-left: 12px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.question_bg {
-  background-color: #6785c1;
-}
-.assurance_bg {
-  background-color: #2cc0cc;
-}
-
-/* 大于等于768px宽度，小于1024px宽度的屏幕 */
-@media (min-width: 768px) and (max-width: 1023px) {
-  .FAQ_content {
-    padding-left: 0px;
-    width: 80%;
-    display: flex;
-    justify-self: center;
-    flex-direction: row;
-  }
-  .page_center_items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-}
-
-/* 小于768px宽度的屏幕 */
-@media (max-width: 767px) {
-  .FAQ_content {
-    padding-left: 0px;
-    width: 80%;
-  }
-  .page_center_items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-}
-</style>

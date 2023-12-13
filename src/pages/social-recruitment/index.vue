@@ -1,21 +1,23 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <the-page-nav
-        :pagenavdata="PageNavData"
-        :pagenavstyletype="pagetype"
-      />
+      <ThePageNav2 :pagenavdata="PageNavData" />
     </div>
-    <div class="my-[120px] w-full flex flex-col items-center">
-      <InexperiencedPerson />
-      <ExperiencedPerson class="mt-[120px]" />
+    <div class="relative h-auto bg-[#F4F4F4]">
+      <div class="absolute z-[1] h-full w-[504px] bg-[#DFE4F2]"></div>
+      <div class="relative z-2 w-full flex flex-col items-center">
+        <InexperiencedPerson class="mt-[120px] pb-[120px]" />
+        <ExperiencedPerson class="pb-[120px]" />
+        <DownloadTemplate class="pb-[120px]" />
+        <div class="mt-[120px]"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -23,22 +25,19 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
-import CareerRecruitment from '@/assets/images/sub_page_title/Career-Recruitment.jpg'
+import SocialRecruitment from '@/assets/images/sub_page_title/social-recruitment_1.jpg'
+
+import { SubPageTitleType, PageNavType } from '@/data/pages_interface'
+
 import InexperiencedPerson from './components/InexperiencedPerson.vue'
 import ExperiencedPerson from './components/ExperiencedPerson.vue'
-import {
-  SubPageTitleType,
-  PageNavType,
-  PageNavStyleType
-} from '@/data/pages_interface'
+import DownloadTemplate from './components/Download-Template.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'キャリア採用',
   TitleCn_2: '',
-  TitleEn: 'Career Recruitment',
-  ImgSrc: CareerRecruitment,
-  bold: 1,
-  type: 2
+  TitleEn: 'CAREER RECRUITMENT',
+  ImgSrc: SocialRecruitment
 })
 
 const PageNavData = ref<PageNavType[]>([
@@ -53,7 +52,6 @@ const PageNavData = ref<PageNavType[]>([
     anchor_title: '経験者'
   }
 ])
-const pagetype = ref<PageNavStyleType>({ type: 1 })
 
 // 检测是否吸顶 修改高度
 const isSticky = ref(false)
@@ -72,4 +70,3 @@ onUnmounted(() => {
 </script>
 
 <style></style>
-@/data/methods

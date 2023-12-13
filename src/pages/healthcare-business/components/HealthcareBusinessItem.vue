@@ -1,40 +1,35 @@
 <template>
   <div
-    v-for="(item, index) in ItemsData"
-    :id="item.id"
-    :key="item.id"
-    class="m_t_120 healthcare_business_item"
+    class="font-NotoSansJP"
+    :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div
-      class="healthcare_business_item_text"
-      :class="index % 2 != 0 ? 'p_l_30' : 'p_r_30'"
+      v-for="(item, index) in ItemsData"
+      :id="item.id"
+      :key="index"
+      class="text-deep_blue mt-[120px] w-full text-[1rem] leading-[2rem] font-[400]"
     >
-      <div
-        class="title_box"
-        :class="
-          index % 2 != 0 ? 'justify-content-start ' : 'justify-content-end '
-        "
-        :data-aos="index % 2 != 0 ? 'fade-left' : 'fade-right'"
-      >
-        <div class="healthcare_business_item_title">{{ item.title }}</div>
+      <ThePageMinTitle>{{ item.title }}</ThePageMinTitle>
+
+      <div class="mt-[60px] w-full flex justify-between">
+        <div
+          :data-aos="index % 2 === 0 ? 'fade-right' : 'fade-left'"
+          class="w-[calc(50%-30px)] flex items-end"
+          :class="index % 2 === 0 ? 'order-0' : 'order-1'"
+        >
+          <p>{{ item.content }}</p>
+        </div>
+        <div
+          :data-aos="index % 2 === 0 ? 'fade-left' : 'fade-right'"
+          class="w-[50%] overflow-hidden"
+        >
+          <img
+            class="transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
+            :src="item.ImgSrc"
+            alt=""
+          />
+        </div>
       </div>
-      <div
-        class="healthcare_business_item_text_main"
-        :data-aos="index % 2 != 0 ? 'fade-left' : 'fade-right'"
-      >
-        {{ item.content }}
-      </div>
-    </div>
-    <div
-      class="image-container"
-      :class="index % 2 != 0 ? 'order_-1' : ''"
-      data-aos="zoom-in"
-      data-aos-anchor-target="self"
-    >
-      <img
-        :src="item.ImgSrc"
-        alt=""
-      />
     </div>
   </div>
 </template>
@@ -42,9 +37,10 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import Image1 from '@/assets/images/healthcare-business/image_1.png'
-import Image2 from '@/assets/images/healthcare-business/image_2.png'
+import Image2 from '@/assets/images/healthcare-business/image_2.jpg'
 import Image3 from '@/assets/images/healthcare-business/image_3.png'
 import Image4 from '@/assets/images/healthcare-business/image_4.png'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 interface ItemsType {
   id: string
@@ -56,31 +52,31 @@ interface ItemsType {
 const ItemsData = ref<ItemsType[]>([
   {
     id: 'Technology',
-    title: 'リハビリテーション技術',
+    title: '介護施設の運営とコンサルティング事業',
     content:
-      '高度な日本のリハビリ技術を国内に紹介し、経験豊かな日本のリハビリ師を雇い治療させる。日本のリハビリテーションの技術を掌握したサービスチームを育成する。',
+      '2016年に、中国における高齢者向けの介護問題解決を目指し、国際医療福祉大学大学院の竹内孝仁先生が提唱する“自立支援介護”の理念と、日本の教育・医療・介護福祉分野の多くの施設とのパートナーシップを築き上げました。そして、2017年に山東省青島市にある上場企業の山東新華錦グループと共同で国家衛生局の認可を受け、リハビリ医療センターを開設しました。日本の自立支援介護とリハビリ技術を中国青島に「仙手」というブランド名で導入しました。これは、日本式の医療看護介護の連携専門チームによる現地の急性期回復期の患者に対するリハビリサービスを提供し、高い評価を受けました。さらに、青島市政府から2023年に地域向けのリハビリ型デイサービス施設の運営を委託され、訪問リハビリと介護の運営も開始しました。今後は仙手のノウハウを中国で普及します。運営指導、機器販売、スタッフのトレーニングなどパッケージして販売する。',
     ImgSrc: Image1
   },
   {
     id: 'Management',
-    title: 'リハビリテーション管理',
+    title: '介護看護人材育成と紹介事業',
     content:
-      '日本の成功した管理モデルとビジネスプロセスを参考にリハビリ管理モジュールと介護管理モジュールを独自に開発、規模を拡大する際や管理業務を輸出する際に使用される。',
-    ImgSrc: Image2
+      'グローバルな医療・介護人材の育成事業として、私たちは日本国内において、介護看護人材の確保を図るために外国人介護人材の受け入れに在留資格「介護」、特定技能1号、インターンシップ制度を活用する取り組みを進めつつ、日本人と外国人を差別せずに育成することを目指しています。そして、今後高齢化が進む世界各国の介護医療機関との架け橋となり、中国現地の職業専門学校から大学まで多くの教育機関と連携し、看護・介護・リハビリなど広範な専門人材の育成を行い、医療・介護領域における労働力不足の問題を解消するお手伝いをしてまいります。',
+    ImgSrc: Image4
   },
   {
     id: 'Plans&Equipment',
-    title: 'リハビリプランと器具',
+    title: '介護、リハビリ機器の開発・販売事業',
     content:
-      'さまざまな病気に対して、BOBATH等の技術に加えそれに対応するリハビリ機器とIT技術を組み合わせた仙手の一連の独自な解決案を形成、リハビリテーション治療製品を開発する。リハビリ設備を開発する能力としてFreegaitという製品を既に開発。トレーニング効果を80％向上させることができ、他の製品も次々に出品される予定。',
-    ImgSrc: Image3
+      '中国や東南アジアなどの国々に対して、日本の介護およびリハビリ機器を輸出しています。同時に、日本の介護医療メーカーとの戦略的なパートナーシップを構築し、先進的な介護とリハビリ機器の開発を共同で推進しています。日本と中国の大学と連携し、AIやデータサイエンス、人間工学、IoT、ロボット工学などを活用して、日中の介護現場のニーズを分析し、商品開発に取り組んでいます。',
+    ImgSrc: Image2
   },
   {
     id: 'Nursing',
-    title: 'リハビリテーション看護',
+    title: '医療ツーリズム事業',
     content:
-      '看護は青島の高齢者に最先端のケアを提供するために、日本の国家の医療政策に含まれた自立支援介護の概念の導入',
-    ImgSrc: Image4
+      '日本の医療は世界的な注目を集めており、医療ツーリズムの成長には十分な可能性があります。外国人に対して、人間ドックを含む日本の優れた医療技術とサービスを提供することは自然な流れです。同時に、訪日外国人が日本の医療機関で高度な健康診断や治療を受けるための手続き、健康診断・治療の代金受領代行、医療通訳の手配など、治療受け入れまでの包括的なサポートや医療滞在ビザの保証などを行うため、医療通訳者や医療コーディネーターを自社で育成することで、より充実したサービスを提供し、顧客を引きつける力になると考えています。',
+    ImgSrc: Image3
   }
 ])
 </script>
@@ -122,12 +118,10 @@ const ItemsData = ref<ItemsType[]>([
   display: flex;
 }
 .healthcare_business_item_title {
-  width: 484px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #6785c1;
-  padding: 17px 0;
   color: #fff;
   font-feature-settings: 'clig' off, 'liga' off;
   /* 正文一级标题medium */
@@ -142,7 +136,7 @@ const ItemsData = ref<ItemsType[]>([
   font-feature-settings: 'clig' off, 'liga' off;
   /* 正文段落 */
   font-family: Noto Sans JP;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */

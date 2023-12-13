@@ -1,10 +1,22 @@
 <template>
   <div class="index-page relative">
+    <TheLoadng
+      v-show="Loading"
+      class="fixed left-0 top-0 z-999999 bg-white"
+    />
     <div class="index-bg">
       <div class="h-screen w-screen">
+        <!-- <img
+          ref="image"
+          class="h-full w-full"
+          src="@/assets/images/video.png"
+          alt=""
+        /> -->
         <video
-          :src="videoFile"
+          v-show="!Loading"
+          ref="video"
           class="h-screen w-screen object-cover"
+          :src="videoFile"
           autoplay
           loop
           muted
@@ -16,6 +28,8 @@
       <div class="index_main">
         <First />
         <Business />
+        <!-- <Businesscontent /> -->
+        <!-- <BusinessEcharts /> -->
         <!-- <Field /> -->
         <!-- <IndexCustomers /> -->
       </div>
@@ -24,15 +38,30 @@
   </div>
 </template>
 
-<route lang="yaml">
-meta:
-  layout: home
-</route>
 <script setup lang="ts">
-// import Field from './components/Field.vue'
+import { ref, onMounted, watchEffect } from 'vue'
 import First from './components/First.vue'
 import Business from './components/Business.vue'
+// import Businesscontent from './components/Business-content.vue'
+// import BusinessEcharts from './components/BusinessEcharts.vue'
 import videoFile from '@/assets/video/main_video.mp4'
+
+const video = ref<HTMLVideoElement>()
+const Loading = ref<boolean>(true)
+onMounted(() => {
+  watchEffect(() => {
+    const videoElement = video.value
+    if (videoElement) {
+      videoElement.addEventListener('loadedmetadata', () => {
+        // 在事件回调中检查 readyState
+        if (videoElement.readyState === 1) {
+          // 视频加载完成
+          Loading.value = false
+        }
+      })
+    }
+  })
+})
 
 defineOptions({
   name: 'IndexPage'

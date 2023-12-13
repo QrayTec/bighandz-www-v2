@@ -8,6 +8,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  font-size: 16px;
 }
 @font-face {
   font-family: 'Noto-Sans-JP';
@@ -90,7 +91,7 @@ body,
 /* 页内导航 */
 .page_nav_sticky {
   /* position: sticky; */
-  height: 140px;
+  height: 76px;
   top: 76px;
   left: 0;
   z-index: 5;

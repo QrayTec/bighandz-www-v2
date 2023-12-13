@@ -1,12 +1,13 @@
-interface SalaryList {
-  list_1: string
-  flag?: boolean
-}
-export interface SalaryType {
-  content: SalaryList[]
+export interface List {
+  list: string
 }
 
-export interface SalaryType2 {
+export interface ListType {
   title?: string
-  content: SalaryList[]
+  list: string
+}
+
+export interface TableType {
+  title: string
+  content: ListType[]
 }

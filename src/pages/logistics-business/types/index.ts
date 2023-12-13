@@ -8,7 +8,7 @@ export interface GartnerCardDataType {
   type: string
   data: GartnerCardType[]
 }
-interface ChallengesList {
+export interface ChallengesList {
   list: string
 }
 export interface ChallengesType {
@@ -16,13 +16,15 @@ export interface ChallengesType {
   content: ChallengesList[]
 }
 interface ManagementList {
-  title: string
   list: string
-  Color: string
 }
 
 export interface ManagementType {
-  Image: string
+  title: string
+  title_2?: string
+  color: string
+  borderColor: string
+  width: string
   content: ManagementList[]
 }
 

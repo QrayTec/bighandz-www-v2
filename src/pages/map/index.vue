@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitleBg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
@@ -14,10 +14,8 @@
       />
     </div>
     <div class="my-[120px] w-full flex flex-col items-center justify-center">
-      <ContactInformation />
-      <TrainTravel class="mt-[120px]" />
-      <BusTravel class="mt-[120px]" />
-      <ShuttleBus class="mt-[120px]" />
+      <CompanyInfo />
+      <PublicTransit class="mt-[120px]" />
     </div>
   </div>
 </template>
@@ -30,19 +28,17 @@ import {
   PageNavType,
   PageNavStyleType
 } from '@/data/pages_interface'
-import ContactInformation from './components/Contact-Information.vue'
-import TrainTravel from './components/Train-Travel.vue'
-import BusTravel from './components/Bus-Travel.vue'
-import ShuttleBus from './components/Shuttle-Bus.vue'
-import MapPageHeaderImage from '@/assets/images/sub_page_title/Map.png'
+
+import MapPageHeaderImage from '@/assets/images/sub_page_title/Map_1.jpg'
+
+import CompanyInfo from './components/Company-Info.vue'
+import PublicTransit from './components/Public-Transit.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
-  TitleCn_1: 'アクセスマップ',
+  TitleCn_1: 'アクセス',
   TitleCn_2: '',
-  TitleEn: 'Access map',
-  ImgSrc: MapPageHeaderImage,
-  bold: 1,
-  type: 1
+  TitleEn: 'Access',
+  ImgSrc: MapPageHeaderImage
 })
 
 const PageNavData = ref<PageNavType[]>([

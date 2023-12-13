@@ -2,58 +2,62 @@
   <div
     id="IndustryDev"
     data-aos="fade-in"
-    class="w-full"
+    class="font-NotoSansJP w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div
-      class="max-w-[480px] flex justify-center bg-[#6785C1] px-[44px] py-[17px] text-[36px] font-[500] text-white"
+    <ThePageMinTitle data-aos="fade-right"
+      >業界の実績と開発言語</ThePageMinTitle
     >
-      業界の実績と開発言語
-    </div>
+
     <div
       v-for="(item, index) in industryData"
       :key="index"
-      class="mt-[30px] w-full"
+      class="mt-[30px] w-full flex flex-col"
     >
-      <div class="flex items-center">
-        <div class="h-[32px] w-[4px] bg-[#F6C103]"></div>
-        <div class="font-NotoSansJP ml-[10px] text-[36px] font-[400]">
-          {{ item.title }}
+      <div
+        class="flex items-center justify-between text-[2.25rem] font-[400]"
+        data-aos="fade-right"
+      >
+        <div class="flex items-center">
+          <div class="h-[32px] w-[5px] bg-[#F6C103]"></div>
+          <div class="ml-[10px]">{{ item.title }}</div>
         </div>
+        <div>{{ item.en_title }}</div>
       </div>
-      <hr />
-      <div class="flex justify-between">
+      <div class="mt-[12px] h-[1px] w-full bg-[#D8D8D8]"></div>
+      <div
+        class="flex"
+        data-aos="fade-right"
+      >
         <div
-          class="w-[calc(50%-15px)] px-[25px] py-[71px]"
-          :class="index % 2 == 0 ? 'order-1' : ''"
+          :class="index === 0 ? 'order-0 justify-end' : 'order-1 justify-start'"
+          class="h-[560px] w-[660px] flex items-center"
         >
-          <img
-            :src="item.Image"
-            alt=""
-          />
+          <div class="h-[488px] w-[535px]">
+            <img
+              :src="item.Image"
+              alt=""
+            />
+          </div>
         </div>
         <div
-          class="w-[calc(50%-15px)] flex items-center justify-center px-[25px] py-[71px]"
+          class="h-[560px] w-[540px] flex flex-col items-center justify-center"
         >
-          <div class="font-NotoSansJP">
-            <ul>
-              <li
-                v-for="(items, i) in item.content"
-                :key="i"
-                class="w-[308px] flex items-center text-[24px]"
-                :style="{ color: items.ClassName }"
-                :class="i != 0 ? 'mt-[30px]' : ''"
-              >
-                <div
-                  class="h-[16px] w-[16px] rounded"
-                  :style="{ background: items.ClassName }"
-                ></div>
-                <div class="ml-[10px] w-[calc(100%-16px)] flex justify-between">
-                  <div>{{ items.list_1 }}</div>
-                  <div>{{ items.list_2 }}</div>
-                </div>
-              </li>
-            </ul>
+          <div
+            v-for="(list, i) in item.content"
+            :key="i"
+            :style="{ color: list.ClassName }"
+            :class="i === 0 ? 'mt-[0px]' : 'mt-[30px]'"
+            class="h-[35px] w-[308px] flex items-center justify-between"
+          >
+            <div class="flex items-center">
+              <div
+                :style="{ backgroundColor: list.ClassName }"
+                class="max-h-[16px] max-w-[16px] min-h-[16px] min-w-[16px] rounded-[6px]"
+              ></div>
+              <div class="ml-[10px]">{{ list.list_1 }}</div>
+            </div>
+            <div>{{ list.list_2 }}</div>
           </div>
         </div>
       </div>
@@ -70,8 +74,9 @@ import { industryType } from '../types/index'
 
 const industryData = ref<industryType[]>([
   {
-    title: '業種別開発実績',
+    title: '開発実績',
     Image: industry,
+    en_title: 'DEVELOPMENT RESULTS',
     content: [
       {
         ClassName: '#8959FB',
@@ -103,6 +108,8 @@ const industryData = ref<industryType[]>([
   {
     title: '開発⾔語',
     Image: dev,
+    en_title: 'DEVELOPMENT LANGUAGE',
+
     content: [
       {
         ClassName: '#8959FB',

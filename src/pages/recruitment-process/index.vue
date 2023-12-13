@@ -1,22 +1,21 @@
 <template>
   <div class="w-full">
     <div class="message_from_president_main">
-      <sub-page-title :data="SubPageTitleData" />
+      <SubPageTitle-Bg :data="SubPageTitleData" />
     </div>
     <div
       ref="navSticky"
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <the-page-nav
-        :pagenavdata="PageNavData"
-        :pagenavstyletype="pagetype"
-      />
+      <ThePageNav2 :pagenavdata="PageNavData" />
     </div>
 
-    <div class="page_center">
-      <div class="occupy"></div>
-      <RecruitmentItem />
+    <div class="relative h-auto bg-[#F4F4F4]">
+      <div class="absolute z-[1] h-full w-[504px] bg-[#DFE4F2]"></div>
+      <div class="relative z-2 w-full flex flex-col items-center">
+        <RecruitmentItem />
+      </div>
     </div>
   </div>
 </template>
@@ -27,20 +26,14 @@ import methods from '@/data/methods'
 
 import RecruitmentItem from './components/recruitment-item.vue'
 
-import {
-  SubPageTitleType,
-  PageNavType,
-  PageNavStyleType
-} from '@/data/pages_interface'
+import { SubPageTitleType, PageNavType } from '@/data/pages_interface'
 import RecruitmentProcess from '@/assets/images/sub_page_title/recruitment-process.png'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: '採用の',
   TitleCn_2: '流れ',
   TitleEn: 'Recruitment process',
-  ImgSrc: RecruitmentProcess,
-  bold: 1,
-  type: 2
+  ImgSrc: RecruitmentProcess
 })
 
 const PageNavData: PageNavType[] = [
@@ -49,8 +42,6 @@ const PageNavData: PageNavType[] = [
   { id: 3, anchor: '#STEP3', anchor_title: 'STEP3' },
   { id: 4, anchor: '#STEP4', anchor_title: 'STEP4' }
 ]
-
-const pagetype = ref<PageNavStyleType>({ type: 2 })
 
 // 检测是否吸顶 修改高度
 const isSticky = ref(false)

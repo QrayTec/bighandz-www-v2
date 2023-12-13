@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[300px] flex items-center bg-[#597be5] px-[30px] py-[20px]">
+  <div class="inline-block items-center bg-[#597be5] px-[30px] py-[20px]">
     <a
       href="#"
       target="_blank"
@@ -12,9 +12,9 @@
         srcset=""
       />
       <p
-        class="font-NotoSansJP ml-[16px] text-[18px] leading-none font-[400] not-italic text-[#fff]"
+        class="font-NotoSansJP ml-[16px] text-[20px] leading-none font-[400] not-italic text-[#fff]"
       >
-        テンプレートのダウンロード
+        <slot></slot>
       </p>
     </a>
   </div>
