@@ -1,47 +1,55 @@
 <template>
   <div
     id="Part1"
-    class="font-NotoSansJP relative mb-[240px] mt-[120px]"
+    class="font-NotoSansJP relative flex flex-col items-center justify-center"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <the-page-min-title2>Part1</the-page-min-title2>
-    <div class="pl-[204px]">
-      <div
-        v-for="item in FAQData"
-        :key="item.id"
-        data-aos="slide-right"
-        class="mt-[60px]"
-      >
-        <div class="text-deep_blue flex text-[1rem] leading-[2rem] font-[700]">
-          <div class="w-[40px] bg-[#6785C1] text-center font-[400] text-white">
-            {{ item.question_id }}
-          </div>
-          <div class="ml-[12px] flex items-center leading-normal">
-            {{ item.question_data }}
-          </div>
-        </div>
+    <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
+
+    <div class="w-full">
+      <the-page-min-title2>Part1</the-page-min-title2>
+      <div class="w-[calc(100%-120px)] pl-[204px]">
         <div
-          class="text-deep_blue mt-[30px] flex text-[1rem] leading-[2rem] font-[700]"
+          v-for="item in FAQData"
+          :key="item.id"
+          data-aos="slide-right"
+          class="mt-[60px]"
         >
           <div
-            class="h-[32px] min-w-[40px] bg-[#2CC0CC] text-center font-[400] text-white"
+            class="text-deep_blue flex text-[1rem] leading-[2rem] font-[700]"
           >
-            {{ item.assurance_id }}
-          </div>
-          <div class="ml-[12px] font-[400]">
-            <p
-              v-for="(assurance, index) in item.assurance_list"
-              :key="index"
+            <div
+              class="w-[40px] bg-[#6785C1] text-center font-[400] text-white"
             >
-              {{ assurance.list }}
-            </p>
+              {{ item.question_id }}
+            </div>
+            <div class="ml-[12px] flex items-center leading-normal">
+              {{ item.question_data }}
+            </div>
+          </div>
+          <div
+            class="text-deep_blue mt-[30px] flex text-[1rem] leading-[2rem] font-[700]"
+          >
+            <div
+              class="h-[32px] min-w-[40px] bg-[#2CC0CC] text-center font-[400] text-white"
+            >
+              {{ item.assurance_id }}
+            </div>
+            <div class="ml-[12px] font-[400]">
+              <p
+                v-for="(assurance, index) in item.assurance_list"
+                :key="index"
+              >
+                {{ assurance.list }}
+              </p>
+            </div>
           </div>
         </div>
+        <hr
+          class="hr mt-[60px]"
+          data-aos="slide-right"
+        />
       </div>
-      <hr
-        class="hr mt-[60px]"
-        data-aos="slide-right"
-      />
     </div>
   </div>
 </template>

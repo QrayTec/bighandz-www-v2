@@ -12,8 +12,6 @@
       <a
         :href="CardData.link"
         class="flex flex-col"
-        target="_blank"
-        rel="noopener noreferrer"
       >
         <div class="pt-[240px] text-[24px] leading-[30px] font-[500]">
           {{ CardData.title }}

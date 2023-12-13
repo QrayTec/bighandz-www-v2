@@ -8,15 +8,15 @@
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <ThePageNav2 :pagenavdata="PageNavData" />
+      <ThePageNav :pagenavdata="PageNavData" />
     </div>
     <div class="relative h-auto bg-[#F4F4F4]">
-      <div class="absolute z-[1] h-full w-[504px] bg-[#DFE4F2]"></div>
+      <div class="absolute z-[1] h-full w-[full] bg-[#DFE4F2]"></div>
       <div class="relative z-2 w-full flex flex-col items-center">
-        <InexperiencedPerson class="mt-[120px] pb-[120px]" />
+        <InexperiencedPerson class="mt-[40px] pb-[120px]" />
         <ExperiencedPerson class="pb-[120px]" />
         <DownloadTemplate class="pb-[120px]" />
-        <div class="mt-[120px]"></div>
+        <div class="mt-[40px]"></div>
       </div>
     </div>
   </div>

@@ -45,8 +45,6 @@
           <router-link
             class="h-full w-full flex flex-wrap items-center justify-start"
             :to="Data.link"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <div
               class="flex flex-wrap items-center justify-start px-[50px] group-hover:flex-nowrap group-hover:px-0"

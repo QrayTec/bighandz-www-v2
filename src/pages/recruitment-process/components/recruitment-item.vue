@@ -1,56 +1,60 @@
 <template>
   <div
-    class="page_center_items m-t[120px] mb-[240px]"
+    class="page_center_items relative my-[40px] flex flex-col items-center"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div
-      class="pl-[204px]"
-      data-aos="slide-right"
-    >
-      <div
-        class="font-NotoSansJP text-deep_blue font-feature-settings-cilg-liga text-[1rem] leading-normal font-[400]"
-      >
-        応募から採用までの流れをご説明しています。
-      </div>
-      <hr class="hr mt-[60px]" />
-    </div>
-    <div
-      v-for="item in RecruitmentData"
-      :id="item.anchor"
-      :key="item.id"
-      class="font-NotoSansJP text-deep_blue mt-[60px] text-[1rem] leading-normal font-[400]"
-    >
-      <the-page-min-title2>{{ item.subheading }}</the-page-min-title2>
+    <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
+
+    <div class="w-full py-[60px]">
       <div
         class="pl-[204px]"
         data-aos="slide-right"
       >
-        <p class="mt-[30px]">
-          {{ item.list_data_1 }}
-        </p>
-        <the-download-btn
-          v-if="item.id === 1"
-          class="mt-[30px]"
-          >テンプレートのダウンロード</the-download-btn
+        <div
+          class="font-NotoSansJP text-deep_blue font-feature-settings-cilg-liga text-[1rem] leading-normal font-[400]"
         >
-        <p class="mt-[30px]">
-          {{ item.list_data_2 }}
-        </p>
-        <p class="mt-[30px]">{{ item.list_data_3 }}</p>
+          応募から採用までの流れをご説明しています。
+        </div>
+        <hr class="hr mt-[60px]" />
       </div>
-    </div>
-    <div
-      class="pl-[204px]"
-      data-aos="slide-right"
-    >
-      <hr class="hr mt-[30px]" />
       <div
-        class="font-NotoSansJP font-feature-settings-cilg-liga mt-[60px] text-[1rem] leading-[2rem] font-[400] text-[#6785c1]"
+        v-for="item in RecruitmentData"
+        :id="item.anchor"
+        :key="item.id"
+        class="font-NotoSansJP text-deep_blue mt-[60px] text-[1rem] leading-normal font-[400]"
       >
-        <p>※応募から内定までの間、1～2か月程度のお時間をいただきます。</p>
-        <p class="mt-[30px]">
-          ※選考結果は、合否にかかわらずメールでお知らせいたします。
-        </p>
+        <the-page-min-title2>{{ item.subheading }}</the-page-min-title2>
+        <div
+          class="pl-[204px]"
+          data-aos="slide-right"
+        >
+          <p class="mt-[30px]">
+            {{ item.list_data_1 }}
+          </p>
+          <the-download-btn
+            v-if="item.id === 1"
+            class="mt-[30px]"
+            >テンプレートのダウンロード</the-download-btn
+          >
+          <p class="mt-[30px]">
+            {{ item.list_data_2 }}
+          </p>
+          <p class="mt-[30px]">{{ item.list_data_3 }}</p>
+        </div>
+      </div>
+      <div
+        class="pl-[204px]"
+        data-aos="slide-right"
+      >
+        <hr class="hr mt-[30px]" />
+        <div
+          class="font-NotoSansJP font-feature-settings-cilg-liga mt-[60px] text-[1rem] leading-[2rem] font-[400] text-[#6785c1]"
+        >
+          <p>※応募から内定までの間、1～2か月程度のお時間をいただきます。</p>
+          <p class="mt-[30px]">
+            ※選考結果は、合否にかかわらずメールでお知らせいたします。
+          </p>
+        </div>
       </div>
     </div>
   </div>

@@ -18,6 +18,10 @@ body,
   font-family: 'Shippori-Mincho';
   src: url('/font/ShipporiMincho-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Smart-FontUI';
+  src: url('/font/SmartFontUI.ttf') format('truetype');
+}
 .font-feature-settings-cilg-liga{
   font-feature-settings: 'clig' off, 'liga' off;
 }

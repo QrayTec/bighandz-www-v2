@@ -155,5 +155,12 @@ export const json: {
     name: 'お問い合わせ',
     checked: 0,
     MainPage: false
+  },
+  '/test': {
+    path: '/test',
+    Parent_title: 'お問い合わせ',
+    name: 'お問い合わせ',
+    checked: 0,
+    MainPage: false
   }
 }

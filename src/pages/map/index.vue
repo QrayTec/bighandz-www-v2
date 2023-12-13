@@ -8,10 +8,7 @@
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <the-page-nav
-        :pagenavdata="PageNavData"
-        :pagenavstyletype="pagetype"
-      />
+      <the-page-nav :pagenavdata="PageNavData" />
     </div>
     <div class="my-[120px] w-full flex flex-col items-center justify-center">
       <CompanyInfo />
@@ -23,11 +20,7 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import methods from '@/data/methods'
-import {
-  SubPageTitleType,
-  PageNavType,
-  PageNavStyleType
-} from '@/data/pages_interface'
+import { SubPageTitleType, PageNavType } from '@/data/pages_interface'
 
 import MapPageHeaderImage from '@/assets/images/sub_page_title/Map_1.jpg'
 
@@ -50,7 +43,6 @@ const PageNavData = ref<PageNavType[]>([
     anchor_title: '「東京ダイヤビルディング」無料シャトルバス運行ルート'
   }
 ])
-const pagetype = ref<PageNavStyleType>({ type: 1 })
 
 // 检测是否吸顶 修改高度
 const isSticky = ref(false)
