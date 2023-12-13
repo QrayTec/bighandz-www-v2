@@ -230,7 +230,7 @@
         </div>
 
         <div
-          class="absolute bottom-[-50px] right-[545px] flex flex-col cursor-pointer text-[1rem] font-[700]"
+          class="absolute bottom-[-50px] right-[485px] flex flex-col cursor-pointer text-[1rem] font-[700]"
         >
           <div
             class="w-full"
@@ -245,7 +245,7 @@
             <div class="flex items-center">
               <p class="text-[1.5rem] leading-[1.875rem] font-[700]">1998</p>
             </div>
-            <div>ITシステム開発</div>
+            <div>ビッグハンズ株式会社</div>
           </div>
           <transition
             enter-active-class="animate__animated animate__fadeInDown"
@@ -253,11 +253,12 @@
           >
             <div
               v-show="Flag7"
-              class="text-deep_blue absolute left-[0] top-[-290%] z-2 w-[280px]"
+              class="text-deep_blue absolute left-[0] top-[-330%] z-2 w-[280px]"
             >
               <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
-                <div class="font-[700]">ITシステム開発</div>
+                <div class="font-[700]">ビッグハンズ株式会社</div>
                 <div class="mt-[10px] font-[400]">
+                  ITシステム開発<br />
                   証券/金融/官庁/公共<br />
                   製造/流通/医療/製薬/養老<br />
                   インフラの構築・運用<br />
