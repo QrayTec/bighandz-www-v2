@@ -253,12 +253,11 @@
           >
             <div
               v-show="Flag7"
-              class="text-deep_blue absolute left-[0] top-[-330%] z-2 w-[280px]"
+              class="text-deep_blue absolute left-[0] top-[-280%] z-2 w-[280px]"
             >
               <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
-                <div class="font-[700]">ビッグハンズ株式会社</div>
+                <div class="font-[700]">ITシステム開発</div>
                 <div class="mt-[10px] font-[400]">
-                  ITシステム開発<br />
                   証券/金融/官庁/公共<br />
                   製造/流通/医療/製薬/養老<br />
                   インフラの構築・運用<br />
