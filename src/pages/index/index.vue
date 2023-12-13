@@ -29,6 +29,7 @@
         <First />
         <Business />
         <BusinessCompanies />
+        <BusinessBall />
         <!-- <Businesscontent /> -->
         <!-- <BusinessEcharts /> -->
         <!-- <Field /> -->
@@ -46,6 +47,7 @@ import Business from './components/Business.vue'
 // import Businesscontent from './components/Business-content.vue'
 // import BusinessEcharts from './components/BusinessEcharts.vue'
 import BusinessCompanies from './components/Business-Companies.vue'
+import BusinessBall from './components/Business-Ball.vue'
 import videoFile from '@/assets/video/main_video.mp4'
 
 const video = ref<HTMLVideoElement>()
