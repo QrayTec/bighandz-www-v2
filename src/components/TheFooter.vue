@@ -35,7 +35,7 @@
         <div class="h-[12px] w-[1px] bg-[#fff] bg-opacity-20"></div>
       </div>
       <div
-        class="font-feature-settings-cilg-liga font-NotoSansJP h-[22px] w-[350px] text-right text-[14.4px] font-[400] not-italic text-[#fff]"
+        class="font-NotoSansJP font-feature-settings-cilg-liga h-[22px] w-[350px] text-right text-[14.4px] font-[400] not-italic text-[#fff]"
       >
         Copyright © BigHandz Co.Ltd. All Rights Reserved.
       </div>

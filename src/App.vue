@@ -6,7 +6,9 @@ import { useHead } from '@vueuse/head'
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
   title: '株式会社ビッグハンズ',
-  meta: [{ name: 'description', content: 'Opinionated Vite Starter Template' }],
+  meta: [
+    { name: 'description', content: 'BigHandz Co.Ltd. – Speed is the Power!' }
+  ],
   link: [
     {
       rel: 'icon',

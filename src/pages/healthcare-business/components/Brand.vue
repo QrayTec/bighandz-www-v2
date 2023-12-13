@@ -1,7 +1,7 @@
 <template>
   <div
     id="Brand"
-    class="Brand m_t_120"
+    class="m_t_120 Brand"
   >
     <div
       class="Brand_title"
@@ -10,13 +10,13 @@
       ブランドの紹介
     </div>
     <div
-      class="Brand_Content m_t_30"
+      class="m_t_30 Brand_Content"
       data-aos="fade-right"
     >
       仙手复健（康复医療中心）は、日本と韓国の高度なリハビリ技術とコンセプトを統合し、伝統的な中国医学を組み合わせて、青島市を始め、国際標準化された日本式のリハビリセンターを構築し、現代的なリハビリ医療サービスを提供する。
     </div>
     <div
-      class="Brand_Image m_t_60"
+      class="m_t_60 Brand_Image"
       data-aos="zoom-in"
       data-aos-anchor-target="self"
     >
