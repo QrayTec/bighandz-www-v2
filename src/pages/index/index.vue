@@ -28,6 +28,7 @@
       <div class="index_main">
         <First />
         <Business />
+        <BusinessCompanies />
         <!-- <Businesscontent /> -->
         <!-- <BusinessEcharts /> -->
         <!-- <Field /> -->
@@ -44,6 +45,7 @@ import First from './components/First.vue'
 import Business from './components/Business.vue'
 // import Businesscontent from './components/Business-content.vue'
 // import BusinessEcharts from './components/BusinessEcharts.vue'
+import BusinessCompanies from './components/Business-Companies.vue'
 import videoFile from '@/assets/video/main_video.mp4'
 
 const video = ref<HTMLVideoElement>()
