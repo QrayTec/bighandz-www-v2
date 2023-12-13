@@ -1,7 +1,7 @@
 <template>
   <div class="inline-block items-center bg-[#597be5] px-[30px] py-[20px]">
     <a
-      href="#"
+      :href="Href"
       target="_blank"
       rel="noopener noreferrer"
       class="w-full flex justify-between decoration-none"
@@ -20,8 +20,12 @@
   </div>
 </template>
 
-<script>
-export default {}
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const props = defineProps<{ href: string }>()
+
+const Href = ref<string>(props.href)
 </script>
 
 <style scoped></style>

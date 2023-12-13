@@ -6,18 +6,15 @@
     >
       <div
         ref="cardContainer"
-        class="relative h-[400px] w-[600px] flex justify-between"
+        class="relative h-[400px] w-[800px] flex items-center justify-center"
         @mouseenter="stopAnimation"
         @mouseleave="startAnimation"
       >
         <div
           id="lopp"
-          class="flex items-center justify-center text-white"
+          class="flex items-center justify-center text-[2.25rem] font-[700] text-white"
         >
-          <img
-            src="@/assets/images/logo_icon.png"
-            alt=""
-          />
+          Bighandz
         </div>
         <div
           v-for="(ball, index) in balls"
@@ -47,7 +44,7 @@
               <div
                 v-show="hoveredBallIndex === index"
                 :style="{ backgroundColor: ball.color }"
-                class="absolute bottom-[105%] w-[250px] flex flex-col justify-center rounded-[5px] px-[30px] py-[12px] font-[400]"
+                class="absolute bottom-[105%] z-999 w-[300px] flex flex-col justify-center rounded-[5px] px-[30px] py-[12px] font-[400]"
               >
                 <div
                   v-for="item in ball.content"
@@ -212,7 +209,7 @@ const clearHoveredBall = () => {
     left: 0px;
   }
   100% {
-    left: 500px;
+    left: 600px;
   }
 }
 @keyframes animY {
@@ -221,21 +218,21 @@ const clearHoveredBall = () => {
   }
 
   100% {
-    top: 300px;
+    top: 320px;
   }
 }
 @keyframes scale {
   0% {
     transform: scale(0.7);
-    opacity: 0.5;
+    z-index: 1;
   }
   50% {
     transform: scale(1);
-    opacity: 1;
+    z-index: 10;
   }
   100% {
     transform: scale(0.7);
-    opacity: 0.5;
+    z-index: 1;
   }
 }
 
@@ -294,12 +291,10 @@ const clearHoveredBall = () => {
 }
 
 #lopp {
-  width: 500px;
-  height: 300px;
+  width: 600px;
+  height: 350px;
   border: 2px solid #999;
   border-radius: 50%;
   position: absolute;
-  left: 50px;
-  top: 100px;
 }
 </style>

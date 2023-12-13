@@ -1,5 +1,5 @@
 <template>
-  <div class="main_bg relative h-[973px] w-full flex flex-col items-center">
+  <div class="main_bg relative h-[970px] w-full flex flex-col items-center">
     <div class="bg-deep_blue absolute z-[1] h-full w-full bg-opacity-60"></div>
     <div
       class="font-NotoSansJP relative z-2 h-full pt-[90px] text-white"
@@ -99,7 +99,7 @@
             <div class="flex items-center">
               <p class="text-[1.5rem] leading-[1.875rem] font-[700]">2017</p>
             </div>
-            <div>青岛大手新华锦康复有限公司</div>
+            <div>青島大手新華錦康復有限公司</div>
           </div>
           <transition
             enter-active-class="animate__animated animate__fadeInUp"
@@ -180,7 +180,7 @@
           >
             <div
               v-show="Flag5"
-              class="text-deep_blue absolute bottom-[-250%] left-[0] z-2 w-[280px]"
+              class="text-deep_blue absolute left-[0] top-[calc(100%+24px)] z-2 w-[280px]"
             >
               <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
                 <div class="font-[700]">オフショア開発センター</div>
@@ -217,7 +217,7 @@
           >
             <div
               v-show="Flag6"
-              class="text-deep_blue absolute left-[0] top-[-200%] z-2 w-[280px]"
+              class="text-deep_blue absolute bottom-[calc(100%+24px)] left-[0] z-2 w-[280px]"
             >
               <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
                 <div class="font-[700]">オフショア開発センター</div>
@@ -253,7 +253,7 @@
           >
             <div
               v-show="Flag7"
-              class="text-deep_blue absolute left-[0] top-[-280%] z-2 w-[280px]"
+              class="text-deep_blue absolute bottom-[calc(100%+24px)] left-[0] z-2 w-[280px]"
             >
               <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
                 <div class="font-[700]">ITシステム開発</div>

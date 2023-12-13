@@ -33,6 +33,7 @@
           </p>
           <the-download-btn
             v-if="item.id === 1"
+            :href="'rirekisyo.xlsx'"
             class="mt-[30px]"
             >テンプレートのダウンロード</the-download-btn
           >

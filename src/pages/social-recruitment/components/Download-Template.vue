@@ -10,7 +10,9 @@
       >
       <div class="px-[90px]">
         <div class="mt-[60px]">
-          <TheDownloadBtn data-aos="fade-right"
+          <TheDownloadBtn
+            data-aos="fade-right"
+            :href="'rirekisyo.xlsx'"
             >履歴書テンプレート</TheDownloadBtn
           >
         </div>
