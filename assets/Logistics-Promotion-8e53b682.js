@@ -1,0 +1,1 @@
+import{_ as o}from"./Logistics-Promotion.vue_vue_type_script_setup_true_lang-b3fbe0cb.js";import"./ThePageMinTitle-b346e316.js";import"./app-a9fa1e58.js";import"./video-chunk-f8443941.js";export{o as default};
