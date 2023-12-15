@@ -300,7 +300,7 @@ const CompaniesData2 = ref<CompaniesType2[]>([
 
 const AnimationFlag = ref<boolean>(true)
 
-const BollTime = ref<number>(4)
+const BollTime = ref<number>(3.242)
 const BollTime2 = ref<number>(2.8)
 
 const ballStyles = (index: number) => {
@@ -338,12 +338,13 @@ const ballStylesHover = (index: number) => {
       `animY 10s cubic-bezier(0.36, 0, 0.64, 1) -${
         index * BollTime.value + 0
       }s infinite alternate, ` +
-      `scale_hover 20s cubic-bezier(0.36, 0, 0.64, 1) -${
+      `scale 20s cubic-bezier(0.36, 0, 0.64, 1) -${
         index * BollTime.value + 0
       }s infinite alternate`,
     left: `${left}px`,
     top: `${top}px`,
-    animationPlayState: AnimationFlag.value ? 'running' : 'paused'
+    animationPlayState: AnimationFlag.value ? 'running' : 'paused',
+    zIndex: 10
   }
 }
 
@@ -428,30 +429,7 @@ const clearHoveredBall2 = () => {
     opacity: 0;
   }
 }
-@keyframes scale_hover {
-  0% {
-    transform: scale(0.7);
-    opacity: 0;
-  }
-  40% {
-    transform: scale(1);
-    opacity: 1;
-    z-index: 6;
-  }
-  50% {
-    transform: scale(1);
-    z-index: 6;
-    opacity: 1;
-  }
-  60% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(0.7);
-    opacity: 0;
-  }
-}
+
 @keyframes animX2 {
   0% {
     left: -100px;
