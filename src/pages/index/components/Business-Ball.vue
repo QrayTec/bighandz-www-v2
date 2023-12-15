@@ -339,7 +339,8 @@ const ballStyles = (index: number) => {
       }s infinite alternate`,
     left: `${left}px`,
     top: `${top}px`,
-    animationPlayState: AnimationFlag.value ? 'running' : 'paused'
+    animationPlayState: AnimationFlag.value ? 'running' : 'paused',
+    willChange: 'left,top,opacity'
   }
 }
 
@@ -362,7 +363,8 @@ const ballStylesHover = (index: number) => {
     left: `${left}px`,
     top: `${top}px`,
     animationPlayState: AnimationFlag.value ? 'running' : 'paused',
-    zIndex: 10
+    zIndex: 10,
+    willChange: 'left,top,opacity'
   }
 }
 
@@ -384,6 +386,7 @@ const ballStyles2 = (index: number) => {
       }s infinite alternate`,
     left: `${left}px`,
     top: `${top}px`,
+    willChange: 'left,top,opacity',
     animationPlayState: AnimationFlag.value ? 'running' : 'paused'
   }
 }
@@ -422,18 +425,15 @@ const clearHoveredBall2 = () => {
   }
 
   100% {
-    top: 180px;
+    top: 150px;
   }
 }
 @keyframes scale {
   0% {
     transform: scale(0.7);
-    opacity: 0;
+    opacity: 0.1;
   }
-  40% {
-    transform: scale(1);
-    opacity: 1;
-  }
+
   50% {
     transform: scale(1);
     opacity: 1;
@@ -444,7 +444,7 @@ const clearHoveredBall2 = () => {
   }
   100% {
     transform: scale(0.7);
-    opacity: 0;
+    opacity: 0.1;
   }
 }
 
@@ -458,17 +458,17 @@ const clearHoveredBall2 = () => {
 }
 @keyframes animY2 {
   0% {
-    top: -50px;
+    top: -80px;
   }
 
   100% {
-    top: 245px;
+    top: 300px;
   }
 }
 @keyframes scale2 {
   0% {
     transform: scale(0.7);
-    opacity: 0;
+    opacity: 0.3;
   }
   40% {
     transform: scale(1);
@@ -484,7 +484,8 @@ const clearHoveredBall2 = () => {
   }
   100% {
     transform: scale(0.7);
-    opacity: 0;
+    opacity: 0.3;
+
     z-index: 1;
   }
 }
