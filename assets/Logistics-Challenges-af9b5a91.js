@@ -1,0 +1,1 @@
+import{_ as o}from"./Logistics-Challenges.vue_vue_type_script_setup_true_lang-daec8190.js";import"./TheIconList.vue_vue_type_script_setup_true_lang-84e0b777.js";import"./icon_1-3ff743fe.js";import"./app-b93d56bc.js";import"./video-chunk-f8443941.js";import"./ThePageMinTitle-3dff8407.js";export{o as default};
