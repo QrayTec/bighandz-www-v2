@@ -99,7 +99,7 @@
           >
             <div
               v-show="hoveredBallIndex2 === index"
-              class="balls_show absolute z-1 h-[300px] w-[300px] flex flex-col justify-center rounded-full px-[36px]"
+              class="balls_show absolute z-1 h-[300px] w-[300px] flex flex-col justify-center rounded-full px-[36px] pb-[46px]"
             >
               <div class="flex items-center justify-center">
                 <img
@@ -108,18 +108,26 @@
                   alt=""
                 />
               </div>
-              <div class="mt-[30px] text-[1rem] leading-normal font-[700]">
+              <div
+                class="mt-[15px] flex items-center justify-center text-[1rem] leading-normal font-[700]"
+              >
                 {{ ball.BigTitle }}
               </div>
               <div
                 v-if="ball.BigTitle_2"
-                class="mt-[10px] text-[1rem] leading-normal font-[700]"
+                class="mt-[5px] text-[1rem] leading-normal font-[700]"
               >
                 {{ ball.BigTitle_2 }}
               </div>
+              <div
+                v-if="ball.BigYear"
+                class="text-[1rem] leading-normal font-[700]"
+              >
+                {{ ball.BigYear }}
+              </div>
               <div class="w-full pl-[20px]">
                 <ul
-                  class="mt-[10px] w-full flex flex-col list-disc items-start justify-start text-[.875rem] leading-normal font-[400]"
+                  class="mt-[4px] w-full flex flex-col list-disc items-start justify-start text-[.875rem] leading-normal font-[400]"
                 >
                   <li
                     v-for="item in ball.content"
@@ -154,6 +162,14 @@ import XinHuaJin from '@/assets/images/Business-Companies/XinHuaJin.svg'
 import Inquiry from '@/assets/images/Business-Companies/Inquiry.svg'
 import Shopper1 from '@/assets/images/Business-Companies/shopper_1.svg'
 import Shopper2 from '@/assets/images/Business-Companies/shopper_2.svg'
+import IT from '@/assets/images/Business-Companies/IT.svg'
+import IconDev from '@/assets/images/Business-Companies/icon_dev.svg'
+import IT2 from '@/assets/images/index_Business/title_icon_1.svg'
+import IconDev2 from '@/assets/images/index_Business/title_icon_2.svg'
+import Inquiry2 from '@/assets/images/Business-Companies/Inquiry_2_1.svg'
+import Inquiry3 from '@/assets/images/Business-Companies/Inquiry_2_2.svg'
+import Hospitals1 from '@/assets/images/Business-Companies/Hospitals.svg'
+import Hospitals2 from '@/assets/images/index_Business/title_icon_4.svg'
 
 const CompaniesData1 = ref<CompaniesType[]>([
   {
@@ -212,6 +228,16 @@ const CompaniesData1 = ref<CompaniesType[]>([
 
 const CompaniesData2 = ref<CompaniesType2[]>([
   {
+    MiniTitle_1: 'オフショア開発センター',
+    year: '(2021)',
+    BigYear: '（２０２１年）',
+    icon: IconDev,
+    icon2: IconDev2,
+    BigTitle: '大連大手経緯信息技術有限公司',
+    BigTitle_2: 'オフショア開発センター',
+    content: [{ list: 'POSシステム開発' }]
+  },
+  {
     MiniTitle_1: '商品企画・販売',
     year: '(2020)',
     icon: Shopper1,
@@ -224,21 +250,11 @@ const CompaniesData2 = ref<CompaniesType2[]>([
       { list: 'ライブコンマス・SNS' }
     ]
   },
-
-  {
-    MiniTitle_1: 'オフショア開発センター',
-    year: '(2021)',
-    icon: Shopper1,
-    icon2: Shopper2,
-    BigTitle: '大連大手経緯信息技術有限公司',
-    BigTitle_2: 'オフショア開発センター（２０２１年）',
-    content: [{ list: 'POSシステム開発' }]
-  },
   {
     MiniTitle_1: 'ヘルスケア',
     year: '(2017)',
-    icon: Shopper1,
-    icon2: Shopper2,
+    icon: Hospitals1,
+    icon2: Hospitals2,
     BigTitle: '青島大手新華錦康復有限公司',
     BigTitle_2: 'ヘルスケア（２０１7年）',
     content: [
@@ -250,8 +266,8 @@ const CompaniesData2 = ref<CompaniesType2[]>([
   {
     MiniTitle_1: 'コンサルティング',
     year: '(2015)',
-    icon: Shopper1,
-    icon2: Shopper2,
+    icon: Inquiry2,
+    icon2: Inquiry3,
     BigTitle: '青島大手商業諮詢有限公司',
     BigTitle_2: 'コンサルティング（２０１５）',
     content: [
@@ -263,10 +279,11 @@ const CompaniesData2 = ref<CompaniesType2[]>([
   {
     MiniTitle_1: 'オフショア開発センター',
     year: '(2006)',
-    icon: Shopper1,
-    icon2: Shopper2,
+    BigYear: '（２００６年）',
+    icon: IconDev,
+    icon2: IconDev2,
     BigTitle: '青島大手海恩信息技術有限公司',
-    BigTitle_2: 'オフショア開発センター（２００６年）',
+    BigTitle_2: 'オフショア開発センター',
     content: [
       { list: 'システム開発：証券・公共・医療' },
       { list: '運用・BPO' },
@@ -276,17 +293,18 @@ const CompaniesData2 = ref<CompaniesType2[]>([
   {
     MiniTitle_1: 'オフショア開発センター',
     year: '(2002)',
-    icon: Shopper1,
-    icon2: Shopper2,
+    BigYear: '（２００２年）',
+    icon: IconDev,
+    icon2: IconDev2,
     BigTitle: '北京大手計算機技術有限公司',
-    BigTitle_2: 'オフショア開発センター(2002)',
+    BigTitle_2: 'オフショア開発センター',
     content: [{ list: 'システム開発：流通パッケージ現地化' }]
   },
   {
     MiniTitle_1: 'ITシステム開発',
     year: '(1998)',
-    icon: Shopper1,
-    icon2: Shopper2,
+    icon: IT,
+    icon2: IT2,
     BigTitle: '',
     BigTitle_2: 'ITシステム開発(1998)',
     content: [

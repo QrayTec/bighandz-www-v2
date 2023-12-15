@@ -33,6 +33,7 @@ export interface CompaniesType {
 export interface CompaniesType2 {
   MiniTitle_1: string
   MiniTitle_2?: string
+  BigYear?: string
   year: string
   icon: string
   icon2: string
