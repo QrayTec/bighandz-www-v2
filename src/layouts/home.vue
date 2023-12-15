@@ -8,7 +8,7 @@
     </div>
     <main class="home-page">
       <RouterView />
-      <TheFooter />
+      <TheFooter class="z-2" />
     </main>
   </div>
 </template>

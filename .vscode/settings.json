@@ -101,4 +101,5 @@
   "[vue]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
+  "cmake.configureOnOpen": false,
 }

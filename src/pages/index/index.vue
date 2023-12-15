@@ -28,8 +28,9 @@
       <div class="index_main">
         <First />
         <Business />
-        <BusinessCompanies />
-        <BusinessBall />
+        <BusinessCompanies2 />
+        <!-- <BusinessCompanies />
+        <BusinessBall /> -->
         <!-- <Businesscontent /> -->
         <!-- <BusinessEcharts /> -->
         <!-- <Field /> -->
@@ -44,10 +45,11 @@
 import { ref, onMounted, watchEffect } from 'vue'
 import First from './components/First.vue'
 import Business from './components/Business.vue'
+import BusinessCompanies2 from './components/Business-Companies2.vue'
 // import Businesscontent from './components/Business-content.vue'
 // import BusinessEcharts from './components/BusinessEcharts.vue'
-import BusinessCompanies from './components/Business-Companies.vue'
-import BusinessBall from './components/Business-Ball.vue'
+// import BusinessCompanies from './components/Business-Companies.vue'
+// import BusinessBall from './components/Business-Ball.vue'
 import videoFile from '@/assets/video/main_video.mp4'
 
 const video = ref<HTMLVideoElement>()

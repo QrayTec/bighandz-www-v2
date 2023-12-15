@@ -30,7 +30,8 @@ export default {
         AutomationTest_4:
           'url(@/assets/images/si-service-business/AutomationTest_4.svg)',
         SubPageTitleBg:
-          'linear-gradient(90deg, rgb(14, 27, 71) 0%, rgba(14, 27, 71, 0.6) 58.33%, rgba(14, 27, 71, 0.6) 100%)'
+          'linear-gradient(90deg, rgb(14, 27, 71) 0%, rgba(14, 27, 71, 0.6) 58.33%, rgba(14, 27, 71, 0.6) 100%)',
+        BusinessBall: 'linear-gradient(180deg, #6078DA 0%, #192147 100%);'
       },
       backgroundPosition: {
         'center-35': 'center 120px , center'

@@ -8,3 +8,35 @@ export interface BusinessItemType {
   link: string
   style: string
 }
+
+export interface ListType {
+  list: string
+}
+
+export interface BusinessCompaniesType {
+  left: string
+  top: string
+  Icon1: string
+  Icon2: string
+  Title: string
+  content: ListType[]
+}
+
+export interface CompaniesType {
+  MiniTitle_1: string
+  MiniTitle_2?: string
+  icon: string
+  BigTitle: string
+  BigTitle_2?: string
+  content: ListType[]
+}
+export interface CompaniesType2 {
+  MiniTitle_1: string
+  MiniTitle_2?: string
+  year: string
+  icon: string
+  icon2: string
+  BigTitle: string
+  BigTitle_2?: string
+  content: ListType[]
+}
