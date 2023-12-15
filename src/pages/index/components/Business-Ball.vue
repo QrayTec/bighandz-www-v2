@@ -17,7 +17,11 @@
         v-for="(ball, index) in CompaniesData1"
         :key="index"
         class="absolute flex flex-col items-center justify-center text-[1.2rem]"
-        :style="ballStyles(index)"
+        :style="
+          hoveredBallIndex === index
+            ? ballStylesHover(index)
+            : ballStyles(index)
+        "
         @mouseenter="setHoveredBall(index)"
         @mouseleave="clearHoveredBall"
       >
@@ -313,6 +317,28 @@ const ballStyles = (index: number) => {
         index * BollTime.value + 0
       }s infinite alternate, ` +
       `scale 20s cubic-bezier(0.36, 0, 0.64, 1) -${
+        index * BollTime.value + 0
+      }s infinite alternate`,
+    left: `${left}px`,
+    top: `${top}px`,
+    animationPlayState: AnimationFlag.value ? 'running' : 'paused'
+  }
+}
+
+const ballStylesHover = (index: number) => {
+  const spacing = 50 // Adjust the spacing between balls as needed
+  const left = index * spacing
+  const top = index * spacing
+
+  return {
+    animation:
+      `animX 10s cubic-bezier(0.36, 0, 0.64, 1) -${
+        index * BollTime.value + 5
+      }s infinite alternate, ` +
+      `animY 10s cubic-bezier(0.36, 0, 0.64, 1) -${
+        index * BollTime.value + 0
+      }s infinite alternate, ` +
+      `scale_hover 20s cubic-bezier(0.36, 0, 0.64, 1) -${
         index * BollTime.value + 0
       }s infinite alternate`,
     left: `${left}px`,
