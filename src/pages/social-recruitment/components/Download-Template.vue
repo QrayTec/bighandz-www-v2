@@ -11,6 +11,7 @@
       <div class="px-[90px]">
         <div class="mt-[60px]">
           <TheDownloadBtn
+            :img-src="DownLoadBg"
             data-aos="fade-right"
             :href="'rirekisyo.xlsx'"
             >履歴書テンプレート</TheDownloadBtn
@@ -31,5 +32,6 @@
 </template>
 <script setup lang="ts">
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
+import DownLoadBg from '@/assets/images/DownLoadBtn/bg-1.svg'
 </script>
 <style lang=""></style>

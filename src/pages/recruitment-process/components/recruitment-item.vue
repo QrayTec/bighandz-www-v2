@@ -23,7 +23,9 @@
         :key="item.id"
         class="font-NotoSansJP text-deep_blue mt-[60px] text-[1rem] leading-normal font-[400]"
       >
-        <the-page-min-title2>{{ item.subheading }}</the-page-min-title2>
+        <the-page-min-title2 data-aos="fade-right">{{
+          item.subheading
+        }}</the-page-min-title2>
         <div
           class="pl-[204px]"
           data-aos="slide-right"
@@ -34,6 +36,7 @@
           <the-download-btn
             v-if="item.id === 1"
             :href="'rirekisyo.xlsx'"
+            :img-src="DownLoadBg"
             class="mt-[30px]"
             >テンプレートのダウンロード</the-download-btn
           >
@@ -66,6 +69,8 @@ import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 import { RecruitmentType } from '../types/index'
+
+import DownLoadBg from '@/assets/images/DownLoadBtn/bg-2.svg'
 
 const RecruitmentData = ref<RecruitmentType[]>([
   {

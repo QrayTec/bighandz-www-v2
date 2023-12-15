@@ -1,13 +1,17 @@
 <template>
-  <div class="font-Shippori relative inline-block bg-white px-[30px] py-[20px]">
+  <div class="">
     <div
-      class="text-deep_blue relative z-2 text-[2.5rem] leading-[2.75rem] font-[700]"
+      class="font-Shippori relative inline-block bg-[#597BE5] px-[30px] py-[20px]"
     >
-      <slot></slot>
+      <div
+        class="relative z-2 text-[2.25rem] leading-[2.75rem] font-[700] text-[#fff]"
+      >
+        <slot></slot>
+      </div>
     </div>
-    <div
-      class="bg-primarygradient absolute bottom-0 right-0 z-0 h-[50%] w-[calc(100%-60px)]"
-    ></div>
+    <div class="">
+      <img src="@/assets/images/ThePageMinTitle2/bg.svg" />
+    </div>
   </div>
 </template>
 <script setup lang="ts"></script>
