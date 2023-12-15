@@ -8,7 +8,7 @@
         class="group absolute inline-block"
       >
         <div
-          class="z-1 h-[56px] w-[56px] opacity-100 transition duration-700 ease-in-out group-hover:(opacity-0)"
+          class="z-2 h-[56px] w-[56px] opacity-100 transition duration-700 ease-in-out group-hover:(opacity-0)"
         >
           <div class="h-full w-full origin-center transform">
             <div

@@ -184,8 +184,8 @@ const CompaniesData1 = ref<CompaniesType[]>([
   {
     MiniTitle_1: '青島',
     MiniTitle_2: '大連',
-    BigTitle: '青島大手商業諮詢有限公司',
-    BigTitle_2: '青島大手商業諮詢有限公司',
+    BigTitle: '青島大手海恩信息技術有限公司',
+    BigTitle_2: '大連大手経緯信息技術有限公司',
     icon: QinDaoDaLian,
     content: [
       { list: '日本向けオフショア開発' },
