@@ -8,13 +8,13 @@
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <the-page-nav
+      <ThePageNav2
         :pagenavdata="PageNavData"
         :pagenavstyletype="Number(1)"
       />
     </div>
     <div class="relative h-auto">
-      <div class="absolute z-[-1] h-full w-full bg-[#DFE4F2]"></div>
+      <div class="absolute z-[-1] h-full w-[504px] bg-[#DFE4F2]"></div>
       <div class="z-1 w-full flex flex-col items-center">
         <ToGraduates class="mt-[40px] pb-[120px]" />
         <OpenPositions class="pb-[120px]" />

@@ -318,78 +318,57 @@ const CompaniesData2 = ref<CompaniesType2[]>([
 
 const AnimationFlag = ref<boolean>(true)
 
-const BollTime = ref<number>(3.242)
-const BollTime2 = ref<number>(2.8)
+const BollTime = ref<number>(20 / CompaniesData1.value.length)
+const BollTime2 = ref<number>(20 / CompaniesData2.value.length)
 
-const ballStyles = (index: number) => {
-  const spacing = 50 // Adjust the spacing between balls as needed
-  const left = index * spacing
-  const top = index * spacing
+const ballStyles = (index: number) => ({
+  animation:
+    `animX 10s cubic-bezier(0.36, 0, 0.64, 1) -${
+      index * BollTime.value + 5
+    }s infinite alternate, ` +
+    `animY 10s cubic-bezier(0.36, 0, 0.64, 1) -${
+      index * BollTime.value + 0
+    }s infinite alternate, ` +
+    `scale 20s cubic-bezier(0.36, 0, 0.64, 1) -${
+      index * BollTime.value + 0
+    }s infinite alternate`,
 
-  return {
-    animation:
-      `animX 10s cubic-bezier(0.36, 0, 0.64, 1) -${
-        index * BollTime.value + 5
-      }s infinite alternate, ` +
-      `animY 10s cubic-bezier(0.36, 0, 0.64, 1) -${
-        index * BollTime.value + 0
-      }s infinite alternate, ` +
-      `scale 20s cubic-bezier(0.36, 0, 0.64, 1) -${
-        index * BollTime.value + 0
-      }s infinite alternate`,
-    left: `${left}px`,
-    top: `${top}px`,
-    animationPlayState: AnimationFlag.value ? 'running' : 'paused',
-    willChange: 'left,top,opacity'
-  }
-}
+  animationPlayState: AnimationFlag.value ? 'running' : 'paused',
+  willChange: 'left,top,opacity'
+})
 
-const ballStylesHover = (index: number) => {
-  const spacing = 50 // Adjust the spacing between balls as needed
-  const left = index * spacing
-  const top = index * spacing
+const ballStylesHover = (index: number) => ({
+  animation:
+    `animX 10s cubic-bezier(0.36, 0, 0.64, 1) -${
+      index * BollTime.value + 5
+    }s infinite alternate, ` +
+    `animY 10s cubic-bezier(0.36, 0, 0.64, 1) -${
+      index * BollTime.value + 0
+    }s infinite alternate, ` +
+    `scale 20s cubic-bezier(0.36, 0, 0.64, 1) -${
+      index * BollTime.value + 0
+    }s infinite alternate`,
 
-  return {
-    animation:
-      `animX 10s cubic-bezier(0.36, 0, 0.64, 1) -${
-        index * BollTime.value + 5
-      }s infinite alternate, ` +
-      `animY 10s cubic-bezier(0.36, 0, 0.64, 1) -${
-        index * BollTime.value + 0
-      }s infinite alternate, ` +
-      `scale 20s cubic-bezier(0.36, 0, 0.64, 1) -${
-        index * BollTime.value + 0
-      }s infinite alternate`,
-    left: `${left}px`,
-    top: `${top}px`,
-    animationPlayState: AnimationFlag.value ? 'running' : 'paused',
-    zIndex: 10,
-    willChange: 'left,top,opacity'
-  }
-}
+  animationPlayState: AnimationFlag.value ? 'running' : 'paused',
+  zIndex: 10,
+  willChange: 'left,top,opacity,cubic-bezier'
+})
 
-const ballStyles2 = (index: number) => {
-  const spacing = 50 // Adjust the spacing between balls as needed
-  const left = index * spacing
-  const top = index * spacing
+const ballStyles2 = (index: number) => ({
+  animation:
+    `animX2 10s cubic-bezier(0.36, 0, 0.64, 1) -${
+      index * BollTime2.value + 5
+    }s infinite alternate, ` +
+    `animY2 10s cubic-bezier(0.36, 0, 0.64, 1) -${
+      index * BollTime2.value + 0
+    }s infinite alternate, ` +
+    `scale2 20s cubic-bezier(0.36, 0, 0.64, 1) -${
+      index * BollTime2.value + 0
+    }s infinite alternate`,
 
-  return {
-    animation:
-      `animX2 10s cubic-bezier(0.36, 0, 0.64, 1) -${
-        index * BollTime2.value + 5
-      }s infinite alternate, ` +
-      `animY2 10s cubic-bezier(0.36, 0, 0.64, 1) -${
-        index * BollTime2.value + 0
-      }s infinite alternate, ` +
-      `scale2 20s cubic-bezier(0.36, 0, 0.64, 1) -${
-        index * BollTime2.value + 0
-      }s infinite alternate`,
-    left: `${left}px`,
-    top: `${top}px`,
-    willChange: 'left,top,opacity',
-    animationPlayState: AnimationFlag.value ? 'running' : 'paused'
-  }
-}
+  willChange: 'left,top,opacity',
+  animationPlayState: AnimationFlag.value ? 'running' : 'paused'
+})
 
 const hoveredBallIndex = ref<number | null>()
 const hoveredBallIndex2 = ref<number | null>()
@@ -421,11 +400,11 @@ const clearHoveredBall2 = () => {
 }
 @keyframes animY {
   0% {
-    top: 30px;
+    top: 10px;
   }
 
   100% {
-    top: 150px;
+    top: 160px;
   }
 }
 @keyframes scale {
@@ -433,8 +412,7 @@ const clearHoveredBall2 = () => {
     transform: scale(0.7);
     opacity: 0.1;
   }
-
-  50% {
+  40% {
     transform: scale(1);
     opacity: 1;
   }
@@ -442,6 +420,7 @@ const clearHoveredBall2 = () => {
     transform: scale(1);
     opacity: 1;
   }
+
   100% {
     transform: scale(0.7);
     opacity: 0.1;

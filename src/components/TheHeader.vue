@@ -66,10 +66,8 @@ import { json } from '../data/breadcrumb-data'
 import methods from '@/data/methods'
 import { NavLinkArray, menus } from '@/data/HeaderData'
 import { MenuItems } from '@/data/pages_interface'
-import { useScrollToTop } from '@/config/route'
 
 const $route = useRoute()
-useScrollToTop()
 
 const checked = ref<number>(0)
 

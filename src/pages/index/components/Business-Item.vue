@@ -87,9 +87,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { BusinessItemType } from '../types/index'
-import { useScrollToTop } from '@/config/route'
 
-useScrollToTop()
 const props = defineProps<{ businessitemdata: BusinessItemType }>()
 
 const Data = ref<BusinessItemType>(props.businessitemdata)

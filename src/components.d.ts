@@ -7,7 +7,6 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    copy: typeof import('./components/SubPageTitle copy.vue')['default']
     Movie: typeof import('./components/Movie.vue')['default']
     Publications: typeof import('./components/Publications.vue')['default']
     README: typeof import('./components/README.md')['default']
@@ -32,6 +31,5 @@ declare module 'vue' {
     ThePageMinTitle2: typeof import('./components/ThePageMinTitle2.vue')['default']
     ThePageNav: typeof import('./components/ThePageNav.vue')['default']
     ThePageNav2: typeof import('./components/ThePageNav2.vue')['default']
-    ThePageTitle2: typeof import('./components/ThePageTitle2.vue')['default']
   }
 }

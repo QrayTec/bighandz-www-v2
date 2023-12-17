@@ -22,6 +22,7 @@ export const createApp = ViteSSG(
   { routes, base: import.meta.env.BASE_URL },
   ctx => {
     ctx.app.use(VueSmoothScroll)
+
     // install all modules under `modules/`
     Object.values(
       import.meta.glob<{ install: UserModule }>('./modules/*.ts', {

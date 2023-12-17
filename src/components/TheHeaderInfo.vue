@@ -48,9 +48,7 @@ import Information from '@/assets/images/menu/information.svg'
 import Outline from '@/assets/images/menu/outline.svg'
 import Recruit from '@/assets/images/menu/recruit.svg'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
-import { useScrollToTop } from '@/config/route'
 
-useScrollToTop()
 interface Menu_Items {
   id: number
   title: string
