@@ -1,6 +1,6 @@
 <template>
   <div
-    class="page_center_items relative my-[40px] flex flex-col items-center"
+    class="page_center_items relative my-[120px] flex flex-col items-center"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
@@ -11,7 +11,7 @@
         data-aos="slide-right"
       >
         <div
-          class="font-NotoSansJP text-deep_blue font-feature-settings-cilg-liga text-[1rem] leading-normal font-[400]"
+          class="font-NotoSansJP font-feature-settings-cilg-liga text-deep_blue text-[1rem] leading-normal font-[400]"
         >
           応募から採用までの流れをご説明しています。
         </div>

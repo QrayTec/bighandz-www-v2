@@ -16,7 +16,7 @@
     <div class="relative h-auto">
       <div class="absolute z-[-1] h-full w-[504px] bg-[#DFE4F2]"></div>
       <div class="z-1 w-full flex flex-col items-center">
-        <ToGraduates class="mt-[40px] pb-[120px]" />
+        <ToGraduates class="mt-[120px] pb-[120px]" />
         <OpenPositions class="pb-[120px]" />
         <SubjectApplication class="pb-[120px]" />
         <RecruitingSubjects class="pb-[120px]" />
@@ -27,7 +27,7 @@
         <TrialPeriod class="pb-[120px]" />
         <HolidaysVacation class="pb-[120px]" />
         <PersonnelSystem class="pb-[120px]" />
-        <div class="mt-[40px]"></div>
+        <div class="mt-[120px]"></div>
       </div>
     </div>
   </div>

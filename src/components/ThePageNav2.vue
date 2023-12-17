@@ -9,7 +9,7 @@
         :key="item.id"
         v-smooth-scroll="{
           duration: 1000,
-          offset: -250
+          offset: -120
         }"
         :href="item.anchor"
         :class="index === 0 ? '' : 'ml-[60px]'"

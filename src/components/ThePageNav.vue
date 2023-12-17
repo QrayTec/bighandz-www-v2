@@ -6,7 +6,7 @@
         :key="item.id"
         v-smooth-scroll="{
           duration: 1000,
-          offset: -250
+          offset: -120
         }"
         class="page_nav_main_link opacity-60 transition-all duration-800 hover:opacity-100"
         :class="{ 'ml-[30px]': item.id != 1 }"

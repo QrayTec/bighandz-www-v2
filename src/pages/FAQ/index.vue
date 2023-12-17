@@ -14,7 +14,7 @@
     <div class="relative h-auto bg-[#F4F4F4]">
       <div class="absolute z-[1] h-full w-[504px] bg-[#DFE4F2]"></div>
       <div class="relative z-2 w-full flex flex-col items-center">
-        <FAQItems class="my-[40px]" />
+        <FAQItems class="my-[120px]" />
       </div>
     </div>
   </div>
