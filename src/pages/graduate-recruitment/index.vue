@@ -14,7 +14,7 @@
       />
     </div>
     <div class="relative h-auto">
-      <div class="absolute z-[-1] h-full w-[504px] bg-[#DFE4F2]"></div>
+      <!-- <div class="absolute z-[-1] h-full w-[504px] bg-[#DFE4F2]"></div> -->
       <div class="z-1 w-full flex flex-col items-center">
         <ToGraduates class="mt-[120px] pb-[120px]" />
         <OpenPositions class="pb-[120px]" />

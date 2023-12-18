@@ -4,7 +4,7 @@
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle>物流マネージメントフルラインナップ</ThePageMinTitle>
+    <ThePageMinTitle>物流全般管理</ThePageMinTitle>
     <div class="text-deep_blue mt-[30px] text-[1rem] leading-[2rem] font-[400]">
       <p>
         vTradExは物流マネージメントに必要な機能をすべて網羅できる構成となっています。

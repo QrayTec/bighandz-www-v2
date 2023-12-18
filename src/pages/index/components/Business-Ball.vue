@@ -60,7 +60,7 @@
                 </div>
                 <div class="w-full">
                   <ul
-                    class="mt-[10px] w-full flex flex-col list-disc items-start justify-start text-[.875rem] leading-normal font-[400]"
+                    class="mt-[10px] w-full flex flex-col items-start justify-start text-[.875rem] leading-normal font-[400]"
                   >
                     <li
                       v-for="item in ball.content"

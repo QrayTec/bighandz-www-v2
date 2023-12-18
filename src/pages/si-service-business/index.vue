@@ -15,10 +15,7 @@
     </div>
     <div class="my-[120px] w-full flex flex-col items-center justify-center">
       <AdvancedSIServices />
-      <SystemDev
-        id="System-Development"
-        class="mt-[120px]"
-      />
+      <SystemDev class="mt-[120px]" />
       <SystemMaintenance class="mt-[120px]" />
       <EPR class="mt-[120px]" />
       <LatestTechnology class="mt-[120px]" />

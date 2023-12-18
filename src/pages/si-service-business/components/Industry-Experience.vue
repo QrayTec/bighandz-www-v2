@@ -5,13 +5,13 @@
     class="font-NotoSansJP w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right"
-      >様々な業界と技術経験</ThePageMinTitle
+    <ThePageMinTitle3 data-aos="fade-right"
+      >様々な業界と技術経験</ThePageMinTitle3
     >
 
     <div
       data-aos="fade-right"
-      class="text-deep_blue mt-[30px] w-[654px] text-[1rem] leading-[32px] font-[400]"
+      class="text-deep_blue mt-[30px] w-full text-[1rem] leading-[32px] font-[400]"
     >
       これまでさまざまな業種・業界で多くの経験を積み、多くの技術を習得するとともに新技術も取り組んできております。
     </div>
