@@ -41,7 +41,7 @@
             >
               <div
                 v-show="hoveredBallIndex === index"
-                class="bg-BusinessBall absolute z-9999999 h-[300px] w-[300px] flex flex-col justify-center rounded-full px-[36px]"
+                class="bg-BusinessBall absolute z-3 h-[340px] w-[340px] flex flex-col justify-center rounded-full px-[36px]"
               >
                 <div class="flex items-center justify-center">
                   <img
@@ -162,54 +162,61 @@ import BusinessIcon10 from '@/assets/images/Business-Companies/Business_icon_5_2
 const CompaniesData1 = ref<CompaniesType[]>([
   {
     MiniTitle_1: '北京',
-    BigTitle: '北京大手計算機技術有限公司',
+    BigTitle: '北京大手計算機技術有限公司(2002)',
     icon: BeiJIn,
     content: [
-      { list: '千手運用パッケージ開発' },
-      { list: 'ITシステム開発・流通' }
+      { list: 'オフショア開発センター' },
+      { list: 'ITシステム開発・流通' },
+      { list: 'パッケージ現地化' }
     ]
   },
   {
     MiniTitle_1: '青島',
-    BigTitle: '青島大手海恩信息技術有限公司',
+    BigTitle: '青島大手海恩信息技術有限公司(2006)',
     icon: QinDaoDaLian,
     content: [
-      { list: '日本向けオフショア開発' },
+      { list: 'オフショア開発センター' },
+      { list: 'システム開発：証券・公共・医療' },
+      { list: '運用・BPO' },
       { list: 'イノベーションセンター' }
     ]
   },
   {
     MiniTitle_1: '大連',
-    BigTitle: '大連大手経緯信息技術有限公司',
+    BigTitle: '大連大手経緯信息技術有限公司(2021)',
     icon: QinDaoDaLian,
-    content: [
-      { list: '日本向けオフショア開発' },
-      { list: 'イノベーションセンター' }
-    ]
+    content: [{ list: 'オフショア開発センター' }, { list: 'POSシステム開発' }]
   },
 
   {
     MiniTitle_1: 'サイフ',
-    BigTitle: 'サイフ株式会社',
+    BigTitle: 'サイフ株式会社(2020)',
     icon: Saif,
-    content: [{ list: '越境EC' }, { list: 'ライブコンマス' }]
+    content: [
+      { list: '商品企画・販売' },
+      { list: 'インバウンド商品・越境EC' },
+      { list: 'デジタルマーケティング' },
+      { list: 'ライブコマース・SNS' }
+    ]
   },
   {
-    MiniTitle_1: '新華錦',
-    BigTitle: '新華錦大手康復産業管理公司',
+    MiniTitle_1: '康復',
+    BigTitle: '新華錦大手康復産業管理公司(2017)',
     icon: XinHuaJin,
     content: [
-      { list: '高齢者総合機能評価' },
-      { list: '介護・リハビリステーション' }
+      { list: 'ヘルスケア' },
+      { list: 'リハビリステーション' },
+      { list: '老人ホーム管理システム' },
+      { list: 'Intelligent Community' }
     ]
   },
   {
     MiniTitle_1: '諮詢',
-    BigTitle: '青島大手商業諮詢有限公司',
+    BigTitle: '青島大手商業諮詢有限公司(2015)',
     icon: Inquiry,
     content: [
+      { list: 'コンサルティング' },
       { list: 'スマートシティ・スマート農業' },
-      { list: '医療・メディカル' },
       { list: '中国マーケット調査' },
       { list: '日本の技術移転・投資' }
     ]
@@ -228,7 +235,7 @@ const CompaniesData2 = ref<BusinessCompaniesType[]>([
       { list: '医療/製薬/養老' },
       { list: 'ビッグデータ' },
       { list: 'DX（AI/データ分析）' },
-      { list: 'SalesForce' }
+      { list: 'ERP' }
     ]
   },
   {
@@ -238,8 +245,7 @@ const CompaniesData2 = ref<BusinessCompaniesType[]>([
     content: [
       { list: 'リハビリステーション' },
       { list: '老人ホーム管理システム' },
-      { list: '製造/流通' },
-      { list: 'Intelligent Community' }
+      { list: 'スマートコミュニティ' }
     ]
   },
   {
@@ -263,7 +269,7 @@ const CompaniesData2 = ref<BusinessCompaniesType[]>([
     content: [
       { list: 'インバウンド商品' },
       { list: 'デジタルマーケティング' },
-      { list: 'SNS＆EC' }
+      { list: '越境EC' }
     ]
   },
   {

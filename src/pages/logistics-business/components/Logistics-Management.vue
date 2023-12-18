@@ -7,7 +7,6 @@
     <ThePageMinTitle>物流全般管理</ThePageMinTitle>
     <div class="text-deep_blue mt-[30px] text-[1rem] leading-[2rem] font-[400]">
       <p>
-        vTradExは物流マネージメントに必要な機能をすべて網羅できる構成となっています。
         vTradExは物流マネージメントに必要な機能をすべて網羅できる構成となっています。はグローバル的に各業種に向け3,000社以上の導入実績がある総合的な物流パッケージです。ビッグハンズ社はvTradExに日本販売代理店となっております。日本の顧客様が安心でvTradExを利用できるため、ビッグハンズ社は日本でのvTradExを販売するとともに現地でのパッケージ導入・カスタマイズなどの技術サポートもしております。
       </p>
     </div>
@@ -284,7 +283,7 @@
             >
               <div
                 v-show="EHUB"
-                class="absolute bottom-[0px] left-[calc(50%-250px)] w-[500px]"
+                class="absolute bottom-[-20px] left-[calc(50%-250px)] w-[500px]"
               >
                 <div
                   class="bg-deep_blue px-[20px] py-[12px] text-[1rem] font-[400] text-[#fff]"

@@ -24,21 +24,7 @@
     <div
       data-aos="fade-right"
       class="text-deep_blue mt-[120px] text-[1rem] leading-[2rem] font-[400]"
-    >
-      <div>
-        <p>ビッグデータ解析・分析</p>
-        <p>人工知能・機械学習の導入・開発</p>
-        <p>ビジネスインテリジェンス（BI）の導入・開発</p>
-      </div>
-      <div class="mt-[40px]">
-        <p>ビッグデータ×AI</p>
-        <p>IoT（Internet of Things）/ CPS（Cyber-physical System ）</p>
-        <p>デジタル・ビジネス・プラットフォーム</p>
-        <p>コンテナ×マイクロサービス</p>
-        <p>SaaS/API クラウド・コンピューティング PaaS/FaaS</p>
-        <p>サイバー･セキュリティ</p>
-      </div>
-    </div>
+    ></div>
   </div>
 </template>
 <script setup lang="ts">
