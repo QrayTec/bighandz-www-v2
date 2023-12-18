@@ -34,7 +34,7 @@
         </div>
       </div>
     </div>
-    <div class="text-deep_blue text-[16px] leading-[2rem] font-[400]">
+    <div class="text-deep_blue text-[1rem] leading-[2rem] font-[400]">
       <p>
         運用改善の提案、定常作業のオフショア活用により運用コスト削減に貢献、24時間365日のSEによる運用保守対応。
       </p>

@@ -64,7 +64,7 @@
       <div class="mt-[60px]">
         <div class="flex justify-between">
           <div class="mx-[20px] flex flex-col">
-            <div class="flex text-[16px]">
+            <div class="flex text-[1rem]">
               <div>氏名:</div>
               <div class="text-red">*</div>
             </div>
@@ -78,7 +78,7 @@
             </div>
           </div>
           <div class="mx-[20px] flex flex-col">
-            <div class="flex text-[16px]">
+            <div class="flex text-[1rem]">
               <div>件名:</div>
               <div class="text-red">*</div>
             </div>
@@ -92,7 +92,7 @@
             </div>
           </div>
           <div class="mx-[20px] flex flex-col">
-            <div class="flex text-[16px]">
+            <div class="flex text-[1rem]">
               <div>メールアドレス:</div>
               <div class="text-red">*</div>
             </div>
@@ -121,7 +121,7 @@
           </div>
         </div>
         <div class="mx-[20px] mt-[40px] flex flex-col">
-          <div class="flex text-[16px]">
+          <div class="flex text-[1rem]">
             <div>メッセージ:</div>
             <div class="text-red">*</div>
           </div>

@@ -8,7 +8,7 @@
         企業理念の実現
       </div>
       <div
-        class="text-deep_blue mt-[30px] text-[16px] leading-[2rem] font-[400]"
+        class="text-deep_blue mt-[30px] text-[1rem] leading-[2rem] font-[400]"
       >
         <p>私たちは、よりお客様満足、より社員たちの喜び、永遠に追求します。</p>
         <p class="mt-[1.875rem]">

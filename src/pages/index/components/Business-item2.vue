@@ -36,7 +36,7 @@
                 :class="index > 2 ? 'mt-[10px]' : 'mt-[5px]'"
                 class="hidden text-center text-[14px] font-[400] text-white group-hover:block"
               >
-                <div class="w-full text-[16px] font-[700]">
+                <div class="w-full text-[1rem] font-[700]">
                   {{ item.Title }}
                 </div>
                 <div class="mt-[5px] text-start">

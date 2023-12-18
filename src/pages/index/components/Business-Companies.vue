@@ -38,7 +38,7 @@
               v-show="Flag1"
               class="text-deep_blue absolute bottom-[-150%] right-[0] z-2 w-[280px]"
             >
-              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
+              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[1rem]">
                 <div class="font-[700]">オフショア開発センター</div>
                 <div class="mt-[10px] font-[400]">POSシステム開発</div>
               </div>
@@ -72,7 +72,7 @@
               v-show="Flag2"
               class="text-deep_blue absolute bottom-[-250%] left-[0] z-2 w-[280px]"
             >
-              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
+              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[1rem]">
                 <div class="font-[700]">商品企画・販売</div>
                 <div class="mt-[10px] font-[400]">
                   インバウンド商品・越境EC デジタルマーケティング
@@ -109,7 +109,7 @@
               v-show="Flag3"
               class="text-deep_blue absolute bottom-[-200%] left-[0] z-2 w-[280px]"
             >
-              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
+              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[1rem]">
                 <div class="font-[700]">ヘルスケア</div>
                 <div class="mt-[10px] font-[400]">
                   リハビリステーション 老人ホーム管理システム Intelligent
@@ -145,7 +145,7 @@
               v-show="Flag4"
               class="text-deep_blue absolute bottom-[-250%] left-[0] z-2 w-[280px]"
             >
-              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
+              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[1rem]">
                 <div class="font-[700]">コンサルティング</div>
                 <div class="mt-[10px] font-[400]">
                   スマートシティ・スマート農業 中国マーケット調査
@@ -182,7 +182,7 @@
               v-show="Flag5"
               class="text-deep_blue absolute left-[0] top-[calc(100%+24px)] z-2 w-[280px]"
             >
-              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
+              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[1rem]">
                 <div class="font-[700]">オフショア開発センター</div>
                 <div class="mt-[10px] font-[400]">
                   システム開発：証券・公共・医療 運用・BPO
@@ -219,7 +219,7 @@
               v-show="Flag6"
               class="text-deep_blue absolute bottom-[calc(100%+24px)] left-[0] z-2 w-[280px]"
             >
-              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
+              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[1rem]">
                 <div class="font-[700]">オフショア開発センター</div>
                 <div class="mt-[10px] font-[400]">
                   システム開発：流通 パッケージ現地化
@@ -255,7 +255,7 @@
               v-show="Flag7"
               class="text-deep_blue absolute bottom-[calc(100%+24px)] left-[0] z-2 w-[280px]"
             >
-              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[16px]">
+              <div class="bg-[#FEE9D8] px-[20px] py-[12px] text-[1rem]">
                 <div class="font-[700]">ITシステム開発</div>
                 <div class="mt-[10px] font-[400]">
                   証券/金融/官庁/公共<br />

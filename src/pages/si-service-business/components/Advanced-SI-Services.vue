@@ -8,7 +8,7 @@
     <ThePageMinTitle data-aos="fade-right">先進SIサービス</ThePageMinTitle>
 
     <div
-      class="text-deep_blue mt-[30px] text-[16px] leading-[32px] font-[400]"
+      class="text-deep_blue mt-[30px] text-[1rem] leading-[32px] font-[400]"
       data-aos="fade-right"
     >
       <p>
@@ -20,7 +20,7 @@
       </p>
     </div>
     <div
-      class="text-deep_blue mt-[30px] flex justify-between text-[16px] leading-[32px] font-[400]"
+      class="text-deep_blue mt-[30px] flex justify-between text-[1rem] leading-[32px] font-[400]"
     >
       <div
         class="w-[710px] flex flex-col"
@@ -48,7 +48,7 @@
     </div>
     <div
       data-aos="fade-right"
-      class="text-deep_blue mt-[30px] text-[16px] leading-[32px] font-[400]"
+      class="text-deep_blue mt-[30px] text-[1rem] leading-[32px] font-[400]"
     >
       このように、IT技術の進化が激しいこの時代に、SPEED感をもって、これまでの経験値、最先端のIT技術、オフショアリソースPOWERを最大限活用し、お客様の要望に沿ったシステム構築を行っております。
     </div>
