@@ -35,12 +35,14 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#TrainTravel', anchor_title: '電車で行く' },
-  { id: 2, anchor: '#BusTravel', anchor_title: 'バスで行く' },
+  { id: 1, anchor: '#Access-Map', anchor_title: 'アクセスマップ' },
+
+  { id: 2, anchor: '#TrainTravel', anchor_title: '電車で行く' },
+  { id: 3, anchor: '#BusTravel', anchor_title: 'バスで行く' },
   {
-    id: 3,
-    anchor: '#ShuttleBus',
-    anchor_title: '「東京ダイヤビルディング」無料シャトルバス運行ルート'
+    id: 4,
+    anchor: '#free-shuttle-bus',
+    anchor_title: '無料シャトルバス'
   }
 ])
 

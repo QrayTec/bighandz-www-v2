@@ -12,12 +12,6 @@ export interface industryType {
 export interface ExperienceList {
   list: string
 }
-interface RemarksList {
-  list_1: string
-  list_2?: string
-  list_3?: string
-  list_4?: string
-}
 export interface AchievementsType {
   SystemName: string
   Technology: string
@@ -34,4 +28,8 @@ export interface TechnologyType {
   Image: string
   title: string
   list: string
+}
+export interface EPRType {
+  Image: string
+  title: string
 }

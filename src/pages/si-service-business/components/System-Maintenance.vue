@@ -3,7 +3,7 @@
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right">システム運用保守</ThePageMinTitle>
+    <ThePageMinTitle3 data-aos="fade-right">システム運用保守</ThePageMinTitle3>
     <div
       class="mt-[60px] flex justify-between"
       data-aos="fade-right"

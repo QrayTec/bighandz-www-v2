@@ -1,20 +1,12 @@
 <template>
   <div
-    id="Dev-RESULTS"
+    id="Infrastructure-Development"
     data-aos="fade-up"
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div
-      class="text-cobalt_blue flex justify-between text-[2.25rem] font-[400]"
-    >
-      <div class="flex items-center">
-        <div class="h-[32px] w-[4px] bg-[#F6C103]"></div>
-        <div class="ml-[10px]">インフラ開発実績</div>
-      </div>
-      <div>DEVELOPMENT RESULTS</div>
-    </div>
-    <div class="mt-[10px] h-[1px] w-full bg-[#D8D8D8]"></div>
+    <ThePageMinTitle>インフラ開発実績</ThePageMinTitle>
+
     <div class="mt-[30px] flex justify-between">
       <div class="w-[50%] flex justify-center">
         <img
@@ -41,6 +33,11 @@
           <div>{{ list.list_2 }}</div>
         </div>
       </div>
+    </div>
+    <div class="text-deep_blue text-[16px] leading-[2rem] font-[400]">
+      <p>
+        運用改善の提案、定常作業のオフショア活用により運用コスト削減に貢献、24時間365日のSEによる運用保守対応。
+      </p>
     </div>
   </div>
 </template>

@@ -14,11 +14,14 @@
       />
     </div>
     <div class="my-[120px] w-full flex flex-col items-center">
-      <Introduce />
+      <Introduce id="Introduce" />
+      <AIApplicationArea
+        id="AIApplicationArea"
+        class="mt-[120px]"
+      />
+
       <AICase class="mt-[60px]" />
       <AnalyticsTransformationServices class="mt-[120px]" />
-      <AIApplicationArea class="mt-[120px]" />
-      <EPR class="mt-[120px]" />
       <Publications
         :publications="SolutionData"
         class="mt-[120px]"
@@ -43,7 +46,6 @@ import Introduce from './components/Introduce.vue'
 import AICase from './components/AI-Case.vue'
 import AnalyticsTransformationServices from './components/Analytics-Transformation-Services.vue'
 import AIApplicationArea from './components/AI-Application-Area.vue'
-import EPR from './components/EPR.vue'
 
 const SolutionData = ref<SolutionType>({
   title: 'ニューラルコンピュータ ',
@@ -68,6 +70,8 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
+  { id: 1, anchor: '#Introduce', anchor_title: 'AIビジネス展開' },
+  { id: 2, anchor: '#AIApplicationArea', anchor_title: 'AIの産業活用領域' },
   { id: 5, anchor: '#AI-Cases', anchor_title: 'AI事例' },
 
   { id: 8, anchor: '#Publications', anchor_title: '出版物' }

@@ -22,8 +22,3 @@ export interface AIApplicationAreaType {
   list_1: string
   list_2: string
 }
-
-export interface EPRType {
-  Image: string
-  title: string
-}

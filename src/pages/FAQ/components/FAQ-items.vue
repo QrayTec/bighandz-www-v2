@@ -1,13 +1,13 @@
 <template>
   <div
-    id="Part1"
-    class="font-NotoSansJP relative flex flex-col items-center justify-center"
+    id="STEP１"
+    class="font-NotoSansJP relative flex flex-col items-center justify-center pb-[120px]"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
 
     <div class="w-full">
-      <the-page-min-title2 data-aos="fade-right">Part1</the-page-min-title2>
+      <the-page-min-title2 data-aos="fade-right">STEP ①</the-page-min-title2>
       <div class="w-[calc(100%-120px)] pl-[204px]">
         <div
           v-for="item in FAQData"
@@ -45,10 +45,6 @@
             </div>
           </div>
         </div>
-        <hr
-          class="hr mt-[60px]"
-          data-aos="slide-right"
-        />
       </div>
     </div>
   </div>

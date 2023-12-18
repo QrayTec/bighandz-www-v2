@@ -83,13 +83,17 @@
       </div>
     </div>
 
-    <ThePageMinIconTitle
-      id="ShuttleBus"
-      class="mt-[120px]"
-      :img="BusTimer"
-      data-aos="fade-right"
-      >「東京ダイヤビルディング」無料シャトルバス運行ルート</ThePageMinIconTitle
-    >
+    <ThePageMinTitle
+      id="free-shuttle-bus"
+      class="mt-[60px]"
+      >無料シャトルバス
+    </ThePageMinTitle>
+    <div class="text-deep_blue mt-[60px] text-[1rem] font-[400]">
+      <p>
+        「東京ダイヤビルディング」には、無料シャトルバスが運行しております。
+      </p>
+      <p class="mt-[2rem]">運行ルートについて、下図を参照してください。</p>
+    </div>
     <div
       class="mt-[60px]"
       data-aos="fade-up"
@@ -100,7 +104,7 @@
       />
     </div>
     <div
-      class="mt-[60px]"
+      class="mt-[30px]"
       data-aos="fade-up"
     >
       <div class="w-full flex text-[1rem] leading-[2rem] font-[400]">
@@ -334,7 +338,6 @@ import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import train from '@/assets/images/map/train_1.svg'
 import bus from '@/assets/images/map/bus_1.svg'
-import BusTimer from '@/assets/images/map/bus_timer.svg'
 
 import { ListType } from '../types/index'
 import {

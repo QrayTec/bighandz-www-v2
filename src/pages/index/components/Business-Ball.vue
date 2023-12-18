@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex justify-center">
+  <div class="w-full flex items-center justify-center">
     <div
       class="relative w-[1118px] flex items-center justify-center"
       @mouseenter="AnimationFlag = false"
@@ -25,54 +25,55 @@
         @mouseenter="setHoveredBall(index)"
         @mouseleave="clearHoveredBall"
       >
-        <div
-          class="bg-BusinessBall relative z-1 h-[64px] w-[64px] flex flex-col items-center justify-center rounded-[50px]"
-        >
-          <div class="z-1">
-            <div class="text-[1.125rem] font-[500]">
-              {{ ball.MiniTitle_1 }}<br />
-              {{ ball.MiniTitle_2 }}
-            </div>
-          </div>
-
-          <transition
-            enter-active-class="animate__animated animate__fadeIn"
-            leave-active-class="animate__animated animate__fadeOut"
+        <router-link to="/associated-company">
+          <div
+            class="bg-BusinessBall relative z-1 h-[64px] w-[64px] flex flex-col items-center justify-center rounded-[50px]"
           >
-            <div
-              v-show="hoveredBallIndex === index"
-              class="bg-BusinessBall absolute z-9999999 h-[300px] w-[300px] flex flex-col justify-center rounded-full px-[36px]"
-            >
-              <div class="flex items-center justify-center">
-                <img
-                  :src="ball.icon"
-                  alt=""
-                />
-              </div>
-              <div class="mt-[30px] text-[1rem] leading-normal font-[700]">
-                {{ ball.BigTitle }}
-              </div>
-              <div
-                v-if="ball.BigTitle_2"
-                class="mt-[10px] text-[1rem] leading-normal font-[700]"
-              >
-                {{ ball.BigTitle_2 }}
-              </div>
-              <div class="w-full pl-[20px]">
-                <ul
-                  class="mt-[10px] w-full flex flex-col list-disc items-start justify-start text-[.875rem] leading-normal font-[400]"
-                >
-                  <li
-                    v-for="item in ball.content"
-                    :key="item.list"
-                  >
-                    {{ item.list }}
-                  </li>
-                </ul>
+            <div class="z-1">
+              <div class="text-[1rem] font-[500]">
+                {{ ball.MiniTitle_1 }}
               </div>
             </div>
-          </transition>
-        </div>
+
+            <transition
+              enter-active-class="animate__animated animate__fadeIn"
+              leave-active-class="animate__animated animate__fadeOut"
+            >
+              <div
+                v-show="hoveredBallIndex === index"
+                class="bg-BusinessBall absolute z-9999999 h-[300px] w-[300px] flex flex-col justify-center rounded-full px-[36px]"
+              >
+                <div class="flex items-center justify-center">
+                  <img
+                    :src="ball.icon"
+                    alt=""
+                  />
+                </div>
+                <div class="mt-[30px] text-[1rem] leading-normal font-[700]">
+                  {{ ball.BigTitle }}
+                </div>
+                <div
+                  v-if="ball.BigTitle_2"
+                  class="mt-[10px] text-[1rem] leading-normal font-[700]"
+                >
+                  {{ ball.BigTitle_2 }}
+                </div>
+                <div class="w-full">
+                  <ul
+                    class="mt-[10px] w-full flex flex-col list-disc items-start justify-start text-[.875rem] leading-normal font-[400]"
+                  >
+                    <li
+                      v-for="item in ball.content"
+                      :key="item.list"
+                    >
+                      {{ item.list }}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </transition>
+          </div>
+        </router-link>
       </div>
 
       <div
@@ -88,7 +89,7 @@
         >
           <div class="z-1">
             <img
-              :src="ball.icon"
+              :src="ball.Icon1"
               alt=""
             />
           </div>
@@ -99,32 +100,21 @@
           >
             <div
               v-show="hoveredBallIndex2 === index"
-              class="balls_show absolute z-1 h-[300px] w-[300px] flex flex-col justify-center rounded-full px-[36px] pb-[46px]"
+              class="balls_show absolute z-1 h-[340px] w-[340px] flex flex-col justify-center rounded-full px-[36px] pb-[46px]"
             >
               <div class="flex items-center justify-center">
                 <img
                   class="h-[48px] w-[48px]"
-                  :src="ball.icon2"
+                  :src="ball.Icon2"
                   alt=""
                 />
               </div>
               <div
-                class="mt-[15px] flex items-center justify-center text-[1rem] leading-normal font-[700]"
+                class="mt-[10px] flex items-center justify-center text-[1rem] leading-normal font-[700]"
               >
-                {{ ball.BigTitle }}
+                {{ ball.Title }}
               </div>
-              <div
-                v-if="ball.BigTitle_2"
-                class="mt-[5px] text-[1rem] leading-normal font-[700]"
-              >
-                {{ ball.BigTitle_2 }}
-              </div>
-              <div
-                v-if="ball.BigYear"
-                class="text-[1rem] leading-normal font-[700]"
-              >
-                {{ ball.BigYear }}
-              </div>
+
               <div class="w-full pl-[20px]">
                 <ul
                   class="mt-[4px] w-full flex flex-col list-disc items-start justify-start text-[.875rem] leading-normal font-[400]"
@@ -143,8 +133,7 @@
         <div
           class="mt-[6px] w-[205px] text-center text-[1.125rem] leading-normal font-[700] text-[#597BE5]"
         >
-          {{ ball.MiniTitle_1 }}<br />
-          {{ ball.year }}
+          {{ ball.Title }}
         </div>
       </div>
     </div>
@@ -153,23 +142,22 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-import { CompaniesType, CompaniesType2 } from '../types/index'
+import { CompaniesType, BusinessCompaniesType } from '../types/index'
 import BeiJIn from '@/assets/images/Business-Companies/BeiJin.svg'
 import QinDaoDaLian from '@/assets/images/Business-Companies/QinDaoDaLian.svg'
-import SEI from '@/assets/images/Business-Companies/SEI.svg'
 import Saif from '@/assets/images/Business-Companies/Saif.svg'
 import XinHuaJin from '@/assets/images/Business-Companies/XinHuaJin.svg'
 import Inquiry from '@/assets/images/Business-Companies/Inquiry.svg'
-import Shopper1 from '@/assets/images/Business-Companies/shopper_1.svg'
-import Shopper2 from '@/assets/images/Business-Companies/shopper_2.svg'
-import IT from '@/assets/images/Business-Companies/IT.svg'
-import IconDev from '@/assets/images/Business-Companies/icon_dev.svg'
-import IT2 from '@/assets/images/index_Business/title_icon_1.svg'
-import IconDev2 from '@/assets/images/index_Business/title_icon_2.svg'
-import Inquiry2 from '@/assets/images/Business-Companies/Inquiry_2_1.svg'
-import Inquiry3 from '@/assets/images/Business-Companies/Inquiry_2_2.svg'
-import Hospitals1 from '@/assets/images/Business-Companies/Hospitals.svg'
-import Hospitals2 from '@/assets/images/index_Business/title_icon_4.svg'
+import BusinessIcon1 from '@/assets/images/Business-Companies/Business_icon_1_1.svg'
+import BusinessIcon2 from '@/assets/images/Business-Companies/Business_icon_1_2.svg'
+import BusinessIcon3 from '@/assets/images/Business-Companies/Business_icon_2_1.svg'
+import BusinessIcon4 from '@/assets/images/Business-Companies/Business_icon_2_2.svg'
+import BusinessIcon5 from '@/assets/images/Business-Companies/Business_icon_3_1.svg'
+import BusinessIcon6 from '@/assets/images/Business-Companies/Business_icon_3_2.svg'
+import BusinessIcon7 from '@/assets/images/Business-Companies/Business_icon_4_1.svg'
+import BusinessIcon8 from '@/assets/images/Business-Companies/Business_icon_4_2.svg'
+import BusinessIcon9 from '@/assets/images/Business-Companies/Business_icon_5_1.svg'
+import BusinessIcon10 from '@/assets/images/Business-Companies/Business_icon_5_2.svg'
 
 const CompaniesData1 = ref<CompaniesType[]>([
   {
@@ -183,9 +171,7 @@ const CompaniesData1 = ref<CompaniesType[]>([
   },
   {
     MiniTitle_1: '青島',
-    MiniTitle_2: '大連',
     BigTitle: '青島大手海恩信息技術有限公司',
-    BigTitle_2: '大連大手経緯信息技術有限公司',
     icon: QinDaoDaLian,
     content: [
       { list: '日本向けオフショア開発' },
@@ -193,11 +179,15 @@ const CompaniesData1 = ref<CompaniesType[]>([
     ]
   },
   {
-    MiniTitle_1: 'SEI',
-    BigTitle: '株式会社SEI',
-    icon: SEI,
-    content: [{ list: 'AI・データ分析' }, { list: 'インフラ' }]
+    MiniTitle_1: '大連',
+    BigTitle: '大連大手経緯信息技術有限公司',
+    icon: QinDaoDaLian,
+    content: [
+      { list: '日本向けオフショア開発' },
+      { list: 'イノベーションセンター' }
+    ]
   },
+
   {
     MiniTitle_1: 'サイフ',
     BigTitle: 'サイフ株式会社',
@@ -226,92 +216,64 @@ const CompaniesData1 = ref<CompaniesType[]>([
   }
 ])
 
-const CompaniesData2 = ref<CompaniesType2[]>([
+const CompaniesData2 = ref<BusinessCompaniesType[]>([
   {
-    MiniTitle_1: 'オフショア開発センター',
-    year: '(2021)',
-    BigYear: '（２０２１年）',
-    icon: IconDev,
-    icon2: IconDev2,
-    BigTitle: '大連大手経緯信息技術有限公司',
-    BigTitle_2: 'オフショア開発センター',
-    content: [{ list: 'POSシステム開発' }]
-  },
-  {
-    MiniTitle_1: '商品企画・販売',
-    year: '(2020)',
-    icon: Shopper1,
-    icon2: Shopper2,
-    BigTitle: 'サイフ株式会社',
-    BigTitle_2: '商品企画・販売（２０２０年）',
+    Title: 'ITシステム開発',
+    Icon1: BusinessIcon1,
+    Icon2: BusinessIcon2,
     content: [
-      { list: 'インバウンド商品・越境EC' },
-      { list: 'デジタルマーケティング' },
-      { list: 'ライブコンマス・SNS' }
+      { list: '証券/金融' },
+      { list: '官庁/公共' },
+      { list: '製造/流通' },
+      { list: '医療/製薬/養老' },
+      { list: 'ビッグデータ' },
+      { list: 'DX（AI/データ分析）' },
+      { list: 'SalesForce' }
     ]
   },
   {
-    MiniTitle_1: 'ヘルスケア',
-    year: '(2017)',
-    icon: Hospitals1,
-    icon2: Hospitals2,
-    BigTitle: '青島大手新華錦康復有限公司',
-    BigTitle_2: 'ヘルスケア（２０１7年）',
+    Title: 'ヘルスケア',
+    Icon1: BusinessIcon3,
+    Icon2: BusinessIcon4,
     content: [
       { list: 'リハビリステーション' },
       { list: '老人ホーム管理システム' },
-      { list: 'Intelligent　Community' }
+      { list: '製造/流通' },
+      { list: 'Intelligent Community' }
     ]
   },
   {
-    MiniTitle_1: 'コンサルティング',
-    year: '(2015)',
-    icon: Inquiry2,
-    icon2: Inquiry3,
-    BigTitle: '青島大手商業諮詢有限公司',
-    BigTitle_2: 'コンサルティング（２０１５）',
+    Title: 'セルフサービス端末',
+    Icon1: BusinessIcon5,
+    Icon2: BusinessIcon6,
     content: [
-      { list: 'スマートシティ・スマート農業' },
-      { list: '中国マーケット調査' },
-      { list: '日本の技術移転・投資' }
+      { list: '知恵点' },
+      { list: 'IPS' },
+      { list: 'スマト物流' },
+      { list: 'スマートウォッチ' },
+      { list: '自動券売機' },
+      { list: '自動販売機' },
+      { list: '無人店舗' }
     ]
   },
   {
-    MiniTitle_1: 'オフショア開発センター',
-    year: '(2006)',
-    BigYear: '（２００６年）',
-    icon: IconDev,
-    icon2: IconDev2,
-    BigTitle: '青島大手海恩信息技術有限公司',
-    BigTitle_2: 'オフショア開発センター',
+    Title: '商品企画・販売',
+    Icon1: BusinessIcon7,
+    Icon2: BusinessIcon8,
     content: [
-      { list: 'システム開発：証券・公共・医療' },
-      { list: '運用・BPO' },
-      { list: 'イノベーションセンター' }
+      { list: 'インバウンド商品' },
+      { list: 'デジタルマーケティング' },
+      { list: 'SNS＆EC' }
     ]
   },
   {
-    MiniTitle_1: 'オフショア開発センター',
-    year: '(2002)',
-    BigYear: '（２００２年）',
-    icon: IconDev,
-    icon2: IconDev2,
-    BigTitle: '北京大手計算機技術有限公司',
-    BigTitle_2: 'オフショア開発センター',
-    content: [{ list: 'システム開発：流通パッケージ現地化' }]
-  },
-  {
-    MiniTitle_1: 'ITシステム開発',
-    year: '(1998)',
-    icon: IT,
-    icon2: IT2,
-    BigTitle: '',
-    BigTitle_2: 'ITシステム開発(1998)',
+    Title: 'コンサルティング',
+    Icon1: BusinessIcon9,
+    Icon2: BusinessIcon10,
     content: [
-      { list: '証券/金融/官庁/公共' },
-      { list: '製造/流通/医療/製薬/養老' },
-      { list: 'インフラの構築・運用' },
-      { list: 'DX（AI/データ分析/クラウド' }
+      { list: '日中間の新規ビジネス開拓' },
+      { list: '人材紹介' },
+      { list: '顧客紹介' }
     ]
   }
 ])

@@ -6,7 +6,7 @@
       class="w-full"
       :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     >
-      <ThePageMinTitle data-aos="fade-right">開発実績一例</ThePageMinTitle>
+      <ThePageMinTitle3 data-aos="fade-right">開発実績一例</ThePageMinTitle3>
       <div
         class="mt-[60px]"
         data-aos="fade-up"

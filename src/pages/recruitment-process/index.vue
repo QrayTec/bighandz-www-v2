@@ -8,7 +8,7 @@
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <ThePageNav2 :pagenavdata="PageNavData" />
+      <ThePageNav :pagenavdata="PageNavData" />
     </div>
 
     <div class="relative h-auto bg-[#F4F4F4]">

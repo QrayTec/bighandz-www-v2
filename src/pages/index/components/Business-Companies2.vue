@@ -9,14 +9,15 @@
       <div class="mt-[80px] text-[2.25rem] leading-[3.375rem] font-[500]">
         事業内容・グループ企業
       </div>
-      <BusinessItem2 />
-      <BusinessBall />
+      <!-- <BusinessItem2 /> -->
+      <div class="h-[calc(100%-100px)] flex items-center justify-center">
+        <BusinessBall />
+      </div>
     </div>
   </div>
 </template>
 <script setup lang="ts">
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
-import BusinessItem2 from './Business-item2.vue'
 import BusinessBall from './Business-Ball.vue'
 </script>
 <style scoped></style>

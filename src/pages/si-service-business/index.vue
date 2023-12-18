@@ -15,14 +15,19 @@
     </div>
     <div class="my-[120px] w-full flex flex-col items-center justify-center">
       <AdvancedSIServices />
+      <SystemDev
+        id="System-Development"
+        class="mt-[120px]"
+      />
+      <SystemMaintenance class="mt-[120px]" />
+      <EPR class="mt-[120px]" />
+      <LatestTechnology class="mt-[120px]" />
       <IndustryDev class="mt-[120px]" />
       <IndustryExperience class="mt-[120px]" />
       <ExamplesAchievements class="mt-[120px]" />
       <AutomatedTestingTools class="my-[120px]" />
-      <SystemDev class="my-[120px]" />
-      <PlatformsConfig class="mt-[120px]" />
-      <LatestTechnology class="mt-[120px]" />
-      <SystemMaintenance class="mt-[120px]" />
+      <PlatformsConfig />
+      <UseTest />
       <Publications
         :publications="SolutionData"
         class="mt-[120px]"
@@ -51,6 +56,8 @@ import SystemDev from './components/System-Dev.vue'
 import PlatformsConfig from './components/Platforms-Config.vue'
 import LatestTechnology from './components/Latest-Technology.vue'
 import SystemMaintenance from './components/System-Maintenance.vue'
+import UseTest from './components/Use-Test.vue'
+import EPR from './components/EPR.vue'
 
 const SolutionData = ref<SolutionType>({
   title: 'オフショアリング完全ガイド',
@@ -73,17 +80,13 @@ const SubPageTitleData = ref<SubPageTitleType>({
 
 const PageNavData = ref<PageNavType[]>([
   { id: 1, anchor: '#SiServiceBusiness', anchor_title: '先進SIサービス' },
+  {
+    id: 2,
+    anchor: '#System-Development',
+    anchor_title: 'システム開発の最新技術'
+  },
   { id: 2, anchor: '#IndustryDev', anchor_title: '業界の実績と開発言語' },
-  {
-    id: 3,
-    anchor: '#Industry&Experience',
-    anchor_title: '様々な業界と技術経験'
-  },
-  {
-    id: 4,
-    anchor: '#ExamplesAchievements',
-    anchor_title: '開発実績一例'
-  },
+
   {
     id: 5,
     anchor: '#AutomatedTestingTools',

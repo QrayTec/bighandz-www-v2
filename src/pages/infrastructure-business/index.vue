@@ -14,11 +14,11 @@
       />
     </div>
     <div class="my-[120px] w-full flex flex-col items-center">
-      <Introduce />
+      <Introduce id="Infrastructure-Business" />
+      <InfrastructureBusiness class="mt-[120px]" />
       <DevResults class="mt-[120px]" />
       <Operations class="mt-[120px]" />
-      <InfrastructureBusiness class="mt-[120px]" />
-      <VirtualizationEngineer class="mt-[120px]" />
+      <!-- <VirtualizationEngineer class="mt-[120px]" /> -->
     </div>
   </div>
 </template>
@@ -37,7 +37,7 @@ import Introduce from './components/Introduce.vue'
 import DevResults from './components/Dev-Results.vue'
 import Operations from './components/Operations.vue'
 import InfrastructureBusiness from './components/Infrastructure-Business.vue'
-import VirtualizationEngineer from './components/Virtualization-Engineer.vue'
+// import VirtualizationEngineer from './components/Virtualization-Engineer.vue'
 
 const SubPageTitleData = ref<SubPageTitleType>({
   TitleCn_1: 'インフラ',
@@ -49,18 +49,18 @@ const SubPageTitleData = ref<SubPageTitleType>({
 const PageNavData = ref<PageNavType[]>([
   {
     id: 1,
-    anchor: '#Dev-RESULTS',
-    anchor_title: 'インフラ開発実績'
-  },
-  {
-    id: 2,
     anchor: '#Infrastructure-Business',
     anchor_title: 'インフラ事業内容'
   },
   {
+    id: 2,
+    anchor: '#Infrastructure-Development',
+    anchor_title: 'インフラ開発実績'
+  },
+  {
     id: 3,
-    anchor: '#VirtualizationEngineers',
-    anchor_title: '仮想化技術者が多数在籍'
+    anchor: '#Supported-Skill-Sets',
+    anchor_title: '対応領域とスキルセット'
   }
 ])
 const pagetype = ref<PageNavStyleType>({ type: 1 })

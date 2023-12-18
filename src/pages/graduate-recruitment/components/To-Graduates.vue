@@ -1,5 +1,6 @@
 <template>
   <div
+    id="To-New-Graduates"
     class="font-NotoSansJP relative h-auto flex justify-center text-white"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
@@ -56,7 +57,7 @@
             皆さんにとってシステム開発とはどんなイメージでしょうか。
           </div>
           <div class="flex basis-2/6 items-center bg-[#ED8E3E] p-[1.25rem]">
-            私たちの会社がスタートしたのは約22年前ですが、
+            私たちの会社がスタートしたのは約25年前ですが、
             PCやスマホの普及とIT技術の進歩とともにシステム開発の分野は急速に進化し、企業だけでなく、官公庁、自治体、学校、病院、各家庭に浸透しています。
           </div>
           <div class="flex basis-3/6 items-center bg-[#289DC7] p-[1.25rem]">

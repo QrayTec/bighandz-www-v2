@@ -1,15 +1,12 @@
 <template>
   <div
+    id="Supported-Skill-Sets"
     class="font-NotoSansJP"
     data-aos="fade-up"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="text-deep_blue text-[16px] leading-[2rem] font-[400]">
-      <p>
-        運用改善の提案、定常作業のオフショア活用により運用コスト削減に貢献、24時間365日のSEによる運用保守対応。
-      </p>
-      <p class="mt-[2rem]">仮想化技術者も多数在籍しております。</p>
-    </div>
+    <ThePageMinTitle>対応領域とスキルセット</ThePageMinTitle>
+
     <div class="mt-[60px] flex justify-center text-[1rem]">
       <table class="w-[1000px]">
         <thead class="bg-[#6785C1] font-[700] text-white">
@@ -30,6 +27,24 @@
           </tr>
         </tbody>
       </table>
+    </div>
+    <div class="text-deep_blue mt-[60px] text-[1rem] leading-[2rem] font-[400]">
+      <p>
+        当社のインフラ事業では、信頼性の高いITインフラストラクチャーソリューションを提供し、お客様のビジネスの成長と成功をサポートいたします。
+      </p>
+    </div>
+    <div
+      class="text-deep_blue mt-[30px] w-full text-[1rem] leading-[2rem] font-[400]"
+    >
+      <p>
+        当社は常に最新のテクノロジーと専門知識を活用し、お客様のビジネスに最適なインフラストラクチャーソリューションを提供することをお約束いたします。
+      </p>
+      <p class="mt-[2.25rem]">
+        お客様の成長と成功に貢献するために、真摯な姿勢でサービスを提供いたします。
+      </p>
+      <p class="mt-[2.25rem] text-[1.25rem] leading-none font-[700]">
+        どうぞお気軽にお問い合わせください。
+      </p>
     </div>
   </div>
 </template>

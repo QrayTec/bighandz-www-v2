@@ -4,7 +4,8 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP"
   >
-    <ThePageMinTitle>ERP事業</ThePageMinTitle>
+    <ThePageMinTitle3 data-aos="fade-right">ERP事業 </ThePageMinTitle3>
+
     <div class="text-deep_blue font-[400 mt-[30px] text-[1rem] leading-[2rem]">
       <p>
         企業の業務プロセスを自動化し、統合するためのソフトウェアシステムです。

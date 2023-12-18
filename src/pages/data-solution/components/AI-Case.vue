@@ -5,7 +5,10 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP"
   >
-    <ThePageMinTitle>AI事例：現新比較の画面差分の自動識別</ThePageMinTitle>
+    <ThePageMinTitle>AI事例</ThePageMinTitle>
+    <ThePageMinTitle3 class="mt-[60px]">
+      AI事例：現新比較の画面差分の自動識別
+    </ThePageMinTitle3>
     <div class="mt-[30px]">
       <div
         class="text-deep_blue w-[654px] text-[1rem] leading-[2rem] font-[400]"
@@ -21,6 +24,12 @@
         />
       </div>
     </div>
+    <ThePageMinTitle3
+      data-aos="fade-right"
+      class="mt-[60px]"
+    >
+      AI事例：OSSのLLMの応用
+    </ThePageMinTitle3>
     <div class="mt-[60px]">
       <div
         class="text-deep_blue w-[654px] text-[1rem] leading-[2rem] font-[400]"

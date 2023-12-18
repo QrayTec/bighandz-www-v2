@@ -3,9 +3,9 @@
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right">
+    <ThePageMinTitle3 data-aos="fade-right">
       生成AIを活用したアセンブラ解析・変換サービス
-    </ThePageMinTitle>
+    </ThePageMinTitle3>
     <div
       class="mt-[30px]"
       data-aos="fade-right"

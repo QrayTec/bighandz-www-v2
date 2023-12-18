@@ -1,14 +1,10 @@
 <template>
   <div
-    id="Infrastructure-Business"
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="text-deep_blue text-[1rem] leading-[2rem] font-[400]">
-      <p>
-        当社のインフラ事業では、信頼性の高いITインフラストラクチャーソリューションを提供し、お客様のビジネスの成長と成功をサポートいたします。
-      </p>
-      <p class="mt-[1.5rem] text-[1.25rem] font-[700]">
+      <p class="text-[1.25rem] font-[700]">
         以下は、当社の主なインフラ事業内容の概要です。
       </p>
     </div>
@@ -47,19 +43,6 @@
           />
         </div>
       </div>
-    </div>
-    <div
-      class="text-deep_blue mt-[120px] text-[1rem] leading-[2rem] font-[400]"
-    >
-      <p>
-        当社は常に最新のテクノロジーと専門知識を活用し、お客様のビジネスに最適なインフラストラクチャーソリューションを提供することをお約束いたします。
-      </p>
-      <p class="mt-[2.25rem]">
-        お客様の成長と成功に貢献するために、真摯な姿勢でサービスを提供いたします。
-      </p>
-      <p class="mt-[2.25rem] text-[1.25rem] leading-none font-[700]">
-        どうぞお気軽にお問い合わせください。
-      </p>
     </div>
   </div>
 </template>

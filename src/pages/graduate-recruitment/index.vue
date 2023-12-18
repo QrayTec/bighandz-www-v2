@@ -8,7 +8,7 @@
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <ThePageNav2
+      <ThePageNav
         :pagenavdata="PageNavData"
         :pagenavstyletype="Number(1)"
       />
@@ -60,6 +60,11 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
+  {
+    id: 1,
+    anchor: '#To-New-Graduates',
+    anchor_title: '新卒の皆さんへ'
+  },
   {
     id: 2,
     anchor: '#OpenPositions',

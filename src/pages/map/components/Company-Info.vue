@@ -1,10 +1,12 @@
 <template>
   <div
+    id="Access-Map"
     data-aos="fade-up"
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="w-full flex justify-between">
+    <ThePageMinTitle>アクセスマップ </ThePageMinTitle>
+    <div class="mt-[60px] w-full flex justify-between">
       <div class="w-[550px]">
         <img src="@/assets/images/map/JP-CompanyInfo.png" />
       </div>

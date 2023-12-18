@@ -8,7 +8,7 @@
       class="page_nav_sticky"
       :class="{ shrink: isSticky }"
     >
-      <ThePageNav2 :pagenavdata="PageNavData" />
+      <ThePageNav :pagenavdata="PageNavData" />
     </div>
 
     <div class="relative h-auto bg-[#F4F4F4]">
@@ -35,7 +35,7 @@ const SubPageTitleData = ref<SubPageTitleType>({
 })
 
 const PageNavData = ref<PageNavType[]>([
-  { id: 1, anchor: '#Part1', anchor_title: 'Part１' }
+  { id: 1, anchor: '#STEP１', anchor_title: 'STEP１' }
 ])
 
 // 检测是否吸顶 修改高度

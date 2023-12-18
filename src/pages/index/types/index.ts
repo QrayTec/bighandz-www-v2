@@ -14,8 +14,6 @@ export interface ListType {
 }
 
 export interface BusinessCompaniesType {
-  left: string
-  top: string
   Icon1: string
   Icon2: string
   Title: string
