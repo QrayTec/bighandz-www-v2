@@ -1,1 +1,0 @@
-import{d as o,a as e,o as a,c as s,t as c,f as r}from"./app-accede3f.js";import"./video-chunk-f8443941.js";const f=o({__name:"[...all]",setup(l){const{t:n}=e();return(p,i)=>(a(),s("div",null,c(r(n)("not-found")),1))}}),t={};typeof t=="function"&&t(f);export{f as default};
