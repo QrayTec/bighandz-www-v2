@@ -11,7 +11,7 @@
         <img src="@/assets/images/map/JP-CompanyInfo.png" />
       </div>
       <div class="w-[calc(100%-580px)]">
-        <div class="text-cobalt_blue w-full flex text-[1rem] font-[400]">
+        <div class="text-cobalt_blue w-full text-[1rem] font-[400]">
           <div class="text-[36px]">株式会社ビッグハンズ</div>
           <div class="ml-[10px] flex items-end">
             (英文名：BIGHANDZ CO. ,LTD.)
