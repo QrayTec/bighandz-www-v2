@@ -5,9 +5,7 @@
     class="font-NotoSansJP w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right"
-      >業界の実績と開発言語</ThePageMinTitle
-    >
+    <ThePageMinTitle data-aos="fade-right">開発実績と開発言語</ThePageMinTitle>
 
     <div
       v-for="(item, index) in industryData"

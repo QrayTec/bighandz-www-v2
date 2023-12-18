@@ -82,7 +82,7 @@ const PageNavData = ref<PageNavType[]>([
     anchor: '#System-Development',
     anchor_title: 'システム開発の最新技術'
   },
-  { id: 2, anchor: '#IndustryDev', anchor_title: '業界の実績と開発言語' },
+  { id: 2, anchor: '#IndustryDev', anchor_title: '開発実績と開発言語' },
 
   {
     id: 5,
