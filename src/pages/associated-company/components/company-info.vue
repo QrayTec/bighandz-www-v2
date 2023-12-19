@@ -127,7 +127,7 @@ const CompanyInfoData = ref<CompanyInfoType[]>([
       },
       {
         icon: Site,
-        list_title: '主页',
+        list_title: 'ホームページ',
         list_info: 'http: //www.qdhaien.cn/'
       }
     ]
