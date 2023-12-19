@@ -26,7 +26,7 @@
           :key="index"
           class="mt-[30px] w-full flex justify-between"
         >
-          <div class="w-[150px] flex items-start">
+          <div class="w-[200px] flex items-start">
             <div class="flex items-center">
               <div>
                 <img
