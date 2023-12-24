@@ -24,7 +24,6 @@ declare module 'vue' {
     TheHeader: typeof import('./components/TheHeader.vue')['default']
     TheHeaderInfo: typeof import('./components/TheHeaderInfo.vue')['default']
     TheHeaderMobile: typeof import('./components/TheHeader-Mobile.vue')['default']
-    TheHeaderMoild: typeof import('./components/TheHeader-Moild.vue')['default']
     TheIconList: typeof import('./components/TheIconList.vue')['default']
     TheIconTitle: typeof import('./components/TheIconTitle.vue')['default']
     TheLoadng: typeof import('./components/TheLoadng.vue')['default']
