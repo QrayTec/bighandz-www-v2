@@ -2,7 +2,7 @@
   <div
     class="bg_image bg-center-35 h-[1130px] w-full flex justify-center bg-no-repeat"
   >
-    <div class="w-[1200px]">
+    <div :style="{ width: MAIN_CONTENT_WIDTH + 'px' }">
       <div
         data-aos="fade-in"
         class="font-NotoSansJP mt-[120px] h-[54px] text-[2.25rem] leading-[3.375rem] font-[500] not-italic text-white"
@@ -44,6 +44,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import BusinessItem from './Business-Item.vue'
 import { BusinessItemType } from '../types/index'
 import Bg1 from '@/assets/images/index_Business/bg-1.png'

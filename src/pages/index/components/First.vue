@@ -3,7 +3,10 @@
     data-aos="fade-in"
     class="relative min-h-[100vh] w-full flex justify-center"
   >
-    <div class="relative mt-[580px] w-[1200px]">
+    <div
+      class="relative mt-[580px]"
+      :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+    >
       <div
         class="absolute left-[-160px] top-[-120px] h-[531px] w-[531px] fill-[#00dbff33] blur-[100px]"
       >
@@ -60,8 +63,8 @@
   </div>
 </template>
 
-<script>
-export default {}
+<script setup lang="ts">
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 </script>
 <style scoped>
 .Scroll_Line {

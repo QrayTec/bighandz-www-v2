@@ -2,6 +2,10 @@
 export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
+    screens: {
+      md: '768px',
+      lg: '1300px'
+    },
     extend: {
       fontFamily: {
         NotoSansJP: ['Noto-Sans-JP', 'sans-serif'],
