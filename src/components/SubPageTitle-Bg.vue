@@ -15,11 +15,13 @@
           <the-breadcrumbs />
         </div>
         <div class="mt-[110px]">
-          <div class="text-[3.5rem] leading-[5.125rem] font-[700] text-[#fff]">
+          <div
+            class="text-[2.25rem] leading-[5.125rem] font-[700] text-[#fff] lg:text-[3.5rem]"
+          >
             {{ SubPageTitleData.TitleCn_1 + SubPageTitleData.TitleCn_2 }}
           </div>
           <div
-            class="text-[1.125rem] tracking-[.75rem] font-[400] uppercase text-white opacity-40"
+            class="text-[.625rem] tracking-[.125rem] font-[400] uppercase text-white opacity-40 lg:text-[1.125rem] lg:tracking-[.75rem]"
           >
             {{ SubPageTitleData.TitleEn }}
           </div>

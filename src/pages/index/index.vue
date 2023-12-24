@@ -1,18 +1,16 @@
 <template>
   <div class="index-page relative">
-    <TheLoadng
-      v-show="Loading"
-      class="fixed left-0 top-0 z-999999 bg-white"
-    />
     <div class="index-bg">
       <div class="h-screen w-screen">
-        <!-- <img
+        <img
+          v-if="MAIN_CONTENT_WIDTH < 1200"
           ref="image"
-          class="h-full w-full"
+          class="h-full w-full object-cover"
           src="@/assets/images/video.png"
           alt=""
-        /> -->
+        />
         <video
+          v-if="MAIN_CONTENT_WIDTH == 1200"
           v-show="!Loading"
           ref="video"
           class="h-screen w-screen object-cover"
@@ -25,17 +23,11 @@
     </div>
 
     <main>
-      <div class="index_main">
+      <div class="index_main flex flex-col items-center justify-center">
         <First />
         <Business />
-        <BusinessCompanies2 />
-
-        <!-- <BusinessCompanies />
-        <BusinessBall /> -->
-        <!-- <Businesscontent /> -->
-        <!-- <BusinessEcharts /> -->
-        <!-- <Field /> -->
-        <!-- <IndexCustomers /> -->
+        <BusinessCompanies v-if="MAIN_CONTENT_WIDTH < 1200" />
+        <BusinessCompanies2 v-if="MAIN_CONTENT_WIDTH === 1200" />
       </div>
     </main>
     <TheBackTop />
@@ -47,17 +39,18 @@ import { ref, onMounted, watchEffect } from 'vue'
 import First from './components/First.vue'
 import Business from './components/Business.vue'
 import BusinessCompanies2 from './components/Business-Companies2.vue'
-// import Businesscontent from './components/Business-content.vue'
-// import BusinessEcharts from './components/BusinessEcharts.vue'
-// import BusinessCompanies from './components/Business-Companies.vue'
-// import BusinessBall from './components/Business-Ball.vue'
+import BusinessCompanies from './components/Business-Companies.vue'
 import videoFile from '@/assets/video/main_video.mp4'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 const video = ref<HTMLVideoElement>()
+const image = ref<HTMLImageElement>()
 const Loading = ref<boolean>(true)
 onMounted(() => {
   watchEffect(() => {
     const videoElement = video.value
+    const imageElement = image.value
+
     if (videoElement) {
       videoElement.addEventListener('loadedmetadata', () => {
         // 在事件回调中检查 readyState
@@ -66,6 +59,9 @@ onMounted(() => {
           Loading.value = false
         }
       })
+    }
+    if (imageElement) {
+      Loading.value = false
     }
   })
 })

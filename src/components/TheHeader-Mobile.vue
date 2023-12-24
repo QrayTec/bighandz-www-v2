@@ -12,7 +12,6 @@
         <div :style="{ width: MAIN_CONTENT_WIDTH + 'px' }">
           <div
             class="z-9 h-[70px] w-full flex items-center justify-between px-[15px]"
-            @click="HeaderInfoFlag = !HeaderInfoFlag"
           >
             <router-link to="/">
               <img
@@ -20,7 +19,7 @@
                 alt="logo"
               />
             </router-link>
-            <div>
+            <div @click="HeaderInfoFlag = !HeaderInfoFlag">
               <img
                 src="@/assets/images/Header-Mobile/MenuButton.svg"
                 alt="menu button"
@@ -52,7 +51,15 @@
               >
                 <div>
                   <div class="text-[1.25rem] leading-normal font-[700]">
-                    <router-link :to="item.href">{{ item.title }}</router-link>
+                    <router-link
+                      :to="item.href"
+                      @click="
+                        item.href !== ''
+                          ? (HeaderInfoFlag = !HeaderInfoFlag)
+                          : (HeaderInfoFlag = HeaderInfoFlag)
+                      "
+                      >{{ item.title }}</router-link
+                    >
                   </div>
                 </div>
                 <div
@@ -81,7 +88,10 @@
                 :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
                 class="h-[64px] flex flex-col justify-center px-[30px] text-[1rem] font-[700]"
               >
-                <router-link :to="content.href">
+                <router-link
+                  :to="content.href"
+                  @click="HeaderInfoFlag = !HeaderInfoFlag"
+                >
                   {{ content.list }}
                 </router-link>
               </div>

@@ -1,64 +1,35 @@
 <template>
   <div
     data-aos="fade-in"
-    class="relative min-h-[100vh] w-full flex justify-center"
+    :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+    class="relative min-h-[100vh] w-full px-[15px] lg:px-0"
   >
     <div
-      class="relative mt-[580px]"
-      :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+      class="absolute left-[15px] top-[50%] w-[350px] lg:top-[470px] lg:w-[760px]"
     >
-      <div
-        class="absolute left-[-160px] top-[-120px] h-[531px] w-[531px] fill-[#00dbff33] blur-[100px]"
-      >
-        <img
-          class="h-full w-full"
-          src="/src/assets/images/index_main/filters.svg"
-          alt=""
-        />
-      </div>
-
-      <div class="absolute bottom-[205px]">
-        <div class="h-[77px] w-[1100px] flex">
-          <img
-            class="h-full"
-            src="/src/assets/images/index_main/pic_Speed_is_the_Power.png"
-            alt=""
-          />
-        </div>
-        <div class="mt-[123.5px]">
-          <!-- <div
-            class="font-NotoSansJP h-[60px] w-[751px] flex items-center bg-[#597BE5] py-[3px] p-r-[12px] text-[36px] leading-none font-[700] not-italic text-white"
-          >
-            「IT×ビジネス×教育」× SPEED ＝ POWER
-          </div> -->
-          <div
-            class="font-NotoSansJP mt-[60px] translate-y-[120px] text-[28.5px] font-[400] text-white"
-          >
-            <p>
-              最先端のテクノロジーを追求し
-              お客様に寄り添い、お客様の企業価値創造に貢献します
-            </p>
-          </div>
-        </div>
-      </div>
+      <img src="@/assets/images/index_main/pic_Speed_is_the_Power.png" />
     </div>
     <div
-      class="absolute bottom-[110px] left-[72px] h-[152px] w-[52px] animate-[moveContainer_3s_infinite_alternate]"
+      class="absolute bottom-[120px] text-[1.125rem] text-[#fff] lg:bottom-[80px] lg:text-[1.5rem]"
+    >
+      最先端のテクノロジーを追求し
+      お客様に寄り添い、お客様の企業価値創造に貢献します
+    </div>
+    <div
+      class="absolute bottom-[50px] right-0 h-[60px] w-[60px] lg:bottom-[120px] lg:right-[-230px] lg:h-[120px] lg:w-[120px]"
+    >
+      <img src="@/assets/images/index_main/25th.png" />
+    </div>
+    <div
+      v-if="MAIN_CONTENT_WIDTH === 1200"
+      class="flex flex-col animate-[moveContainer_3s_infinite_alternate] lg:absolute lg:bottom-[120px] lg:left-[-274px]"
     >
       <div
-        class="font-NotoSansJP h-[21px] w-[52px] rotate-[-90deg] text-[14px] font-[400] text-white"
+        class="translate-x-[-50%] translate-y-[-100%] rotate-[270deg] text-[14px] text-[#fff]"
       >
         SCROLL
       </div>
-      <div
-        class="Scroll_Line mx-auto mt-[20px] h-[80px] w-[1px] flex-shrink-0 translate-y-[50%]"
-      ></div>
-    </div>
-    <div class="absolute bottom-[120px] right-[120px] h-[120px] w-[120px]">
-      <img
-        src="/src/assets/images/index_main/25th.png"
-        alt=""
-      />
+      <div class="Scroll_Line mt-[20px] h-[80px] w-[1px]"></div>
     </div>
   </div>
 </template>

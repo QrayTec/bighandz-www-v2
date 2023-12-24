@@ -1,8 +1,11 @@
 <template>
   <div
-    class="bg_image bg-center-35 h-[1130px] w-full flex justify-center bg-no-repeat"
+    class="bg_image bg-center-35 w-full flex justify-center bg-no-repeat lg:h-[1130px]"
   >
-    <div :style="{ width: MAIN_CONTENT_WIDTH + 'px' }">
+    <div
+      class="px-[15px] lg:px-[0]"
+      :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+    >
       <div
         data-aos="fade-in"
         class="font-NotoSansJP mt-[120px] h-[54px] text-[2.25rem] leading-[3.375rem] font-[500] not-italic text-white"
@@ -16,6 +19,7 @@
         ITからビジネスへ、ビジネスからITへ、教育からIT・ビジネスへと三位一体でスピーディに社会の発展に貢献しつづけます。
       </div>
       <div
+        v-if="MAIN_CONTENT_WIDTH === 1200"
         class="mt-[60px] flex flex-wrap"
         data-aos="fade-up"
       >
@@ -38,6 +42,19 @@
           </div>
         </div>
       </div>
+
+      <div
+        v-if="MAIN_CONTENT_WIDTH < 1200"
+        class="mb-[120px] w-full md:flex md:flex-wrap md:justify-between"
+        data-aos="fade-up"
+      >
+        <BusinessItem2
+          v-for="(item, index) in BusinessItemData"
+          :key="item.title_1"
+          class="mt-[30px]"
+          :businessitemdata="BusinessItemData[index]"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -46,6 +63,7 @@
 import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import BusinessItem from './Business-Item.vue'
+import BusinessItem2 from './Business-item2.vue'
 import { BusinessItemType } from '../types/index'
 import Bg1 from '@/assets/images/index_Business/bg-1.png'
 import Bg2 from '@/assets/images/index_Business/bg-2.png'
