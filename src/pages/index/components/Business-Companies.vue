@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex justify-center bg-[#142458] pb-[120px] text-[#fff]">
     <div
-      class="font-NotoSansJP"
+      class="font-NotoSansJP px-[15px] md:px-0"
       :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     >
       <div

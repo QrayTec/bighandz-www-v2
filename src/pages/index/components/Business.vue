@@ -3,7 +3,7 @@
     class="bg_image bg-center-35 w-full flex justify-center bg-no-repeat lg:h-[1130px]"
   >
     <div
-      class="px-[15px] lg:px-[0]"
+      class="px-[15px] lg:px-[0] md:px-[0]"
       :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     >
       <div

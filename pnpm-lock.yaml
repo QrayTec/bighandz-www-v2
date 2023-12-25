@@ -50,6 +50,9 @@ importers:
       vue-router:
         specifier: ^4.2.5
         version: 4.2.5(vue@3.3.4)
+      vue3-photo-preview:
+        specifier: ^0.3.0
+        version: 0.3.0(vue@3.3.4)
       vue3-smooth-scroll:
         specifier: ^0.8.1
         version: 0.8.1
@@ -7547,6 +7550,10 @@ packages:
     dependencies:
       p-locate: 5.0.0
 
+  /lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+    dev: false
+
   /lodash.debounce@4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
 
@@ -10843,6 +10850,16 @@ packages:
       semver: 7.5.4
       typescript: 5.2.2
     dev: true
+
+  /vue3-photo-preview@0.3.0(vue@3.3.4):
+    resolution: {integrity: sha512-DeZ076yN85RcfWdhcgSYVEj5Y721mi6rmDoShDb4Bt7z7Q5Rfs4Y8PlP66OIrsyE0x4KVLdE0auJGxrxXRJXjA==}
+    engines: {node: '>=14', npm: '>=7'}
+    peerDependencies:
+      vue: '>=3.2.0'
+    dependencies:
+      lodash-es: 4.17.21
+      vue: 3.3.4
+    dev: false
 
   /vue3-smooth-scroll@0.8.1:
     resolution: {integrity: sha512-9EN1aiBT2RtkIe1MoGiyGjUoLmqmlJ96R9/QVCylaiurHQ7oGu1SPzEoGJyxdhCa1q3qyMcX/pne1oTAn1UaoQ==}

@@ -5,6 +5,7 @@ import VueSmoothScroll from 'vue3-smooth-scroll'
 import AOS from 'aos'
 import 'aos/dist/aos.css' // You can also use <link> for styles
 import type { RouterScrollBehavior } from 'vue-router'
+import vue3PhotoPreview from 'vue3-photo-preview'
 import App from './App.vue'
 import type { UserModule } from './types'
 import generatedRoutes from '~pages'
@@ -13,6 +14,7 @@ import './styles/main.css'
 import 'uno.css'
 import 'animate.css'
 import 'tailwindcss/tailwind.css'
+import 'vue3-photo-preview/dist/index.css'
 
 const routes = setupLayouts(generatedRoutes)
 
@@ -38,6 +40,7 @@ export const createApp = ViteSSG(
   { routes, base: import.meta.env.BASE_URL, scrollBehavior },
   ctx => {
     ctx.app.use(VueSmoothScroll)
+    ctx.app.use(vue3PhotoPreview)
     // install all modules under `modules/`
     Object.values(
       import.meta.glob<{ install: UserModule }>('./modules/*.ts', {

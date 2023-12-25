@@ -6,7 +6,7 @@ function calculateMainContentWidth(): number {
       return 375 // 手机版心宽度
     }
     if (window.innerWidth < 1300) {
-      return 730 // 平板版心宽度
+      return 700 // 平板版心宽度
     }
   }
   return 1200 // 大屏幕版心宽度

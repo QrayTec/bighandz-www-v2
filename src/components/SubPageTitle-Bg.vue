@@ -9,7 +9,7 @@
     >
       <div
         :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
-        class="z-1 py-[78px]"
+        class="z-1 px-[15px] py-[78px] lg:px-0 md:px-0"
       >
         <div class="mt-[60px]">
           <the-breadcrumbs />

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg-px-0 md:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="w-full">
@@ -16,10 +16,29 @@
         </p>
       </div>
     </div>
-    <div class="mt-[60px] px-[60px]">
+    <div class="mt-[30px] px-[15px] lg:mt-[60px] lg:px-[60px] md:px-[15px]">
       <div class="text-[2.25rem] font-[700]">Our Way</div>
     </div>
-    <div class="relative mt-[60px] w-full px-[60px]">
+    <div
+      v-if="MAIN_CONTENT_WIDTH < 1200"
+      class="mt-[30px] px-[15px]"
+    >
+      <photo-provider>
+        <photo-consumer
+          intro="OurWay"
+          :src="OurWay"
+        >
+          <img
+            :src="OurWay"
+            class="view-box"
+          />
+        </photo-consumer>
+      </photo-provider>
+    </div>
+    <div
+      v-if="MAIN_CONTENT_WIDTH === 1200"
+      class="relative mt-[60px] w-full px-[60px]"
+    >
       <div class="w-full">
         <div
           v-for="(item, index) in OurWayData"
@@ -62,6 +81,7 @@
 import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import { OurWayType } from '../types/index'
+import OurWay from '@/assets/images/corporate-philosophy-management-policy/Our-Way.png'
 import WayBg1 from '@/assets/images/corporate-philosophy-management-policy/pic_way_bg_1.svg'
 import WayBg2 from '@/assets/images/corporate-philosophy-management-policy/pic_way_bg_2.svg'
 import WayBg3 from '@/assets/images/corporate-philosophy-management-policy/pic_way_bg_3.svg'
