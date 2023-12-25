@@ -1,10 +1,10 @@
 <template>
   <div class="w-full">
-    <div class="message_from_president_main">
+    <div class="w-full flex justify-center">
       <SubPageTitleBg :data="SubPageTitleData" />
     </div>
-    <div class="company_profile_main">
-      <CompanyProfileContent />
+    <div class="w-full flex flex-col items-center">
+      <CompanyProfileContent class="my-[60px] lg:my-[120px]" />
       <!-- <CompanyHistory /> -->
     </div>
   </div>
@@ -31,29 +31,5 @@ ul li {
 }
 hr {
   color: #dfe4f2;
-}
-.m_t_30 {
-  margin-top: 30px;
-}
-.m_b_30 {
-  margin-bottom: 30px;
-}
-
-.message_from_president_main {
-  width: 100%;
-  height: auto;
-  background: #0e1b47;
-  display: flex;
-  justify-content: center;
-}
-.company_profile_main {
-  margin-top: 120px;
-  margin-bottom: 240px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.company_profile_content {
-  width: 1200px;
 }
 </style>

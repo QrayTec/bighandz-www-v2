@@ -1,7 +1,7 @@
 <template>
   <div
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
   >
     <div
       class="text-cobalt_blue w-full bg-[#DFE4F2] px-[44px] py-[24px] text-center text-[1.5rem] leading-[1.875rem] font-[700]"
@@ -13,13 +13,13 @@
       :key="item.id"
       class="company_profile_box"
     >
-      <div class="my-[15px] flex justify-center">
+      <div class="my-[15px] flex flex-col justify-center lg:flex-row">
         <div
-          class="text-cobalt_blue w-[340px] text-[1.25rem] leading-normal font-[400]"
+          class="text-cobalt_blue w-full text-[1.25rem] leading-normal font-[400] lg:w-[340px]"
         >
           {{ item.title }}
         </div>
-        <div class="w-[calc(100%-340px)]">
+        <div class="mt-[15px] w-full lg:mt-[0px] lg:w-[calc(100%-340px)]">
           <ul>
             <li
               v-for="(contentItem, i) in item.content"
@@ -88,7 +88,11 @@ const CompanyProfile = ref<CompanyProfileType[]>([
         list_icon: ''
       },
       {
-        list: 'TEL：03-6228-3468    FAX：03-6228-3469',
+        list: 'TEL：03-6228-3468',
+        list_icon: ''
+      },
+      {
+        list: 'FAX：03-6228-3469',
         list_icon: ''
       },
       {
