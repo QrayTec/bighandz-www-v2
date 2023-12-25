@@ -1,7 +1,7 @@
 <template>
   <div
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
   >
     <div class="text-cobalt_blue text-[2.25rem] leading-normal font-[700]">
       価値観
@@ -10,11 +10,13 @@
       私たちの価値観は、イノベーション、顧客志向、責任、チームワーク、成長です。
       私たちは常にイノベーションを追求し、顧客を中心に行動し、責任を果たし、団結し、共通の目標を達成するために成長していきます
     </div>
-    <div class="mt-[60px] w-full flex justify-between">
+    <div
+      class="mt-[60px] w-full flex flex-col lg:flex-row md:flex-row lg:justify-between"
+    >
       <div
         v-for="item in ValuesData"
         :key="item.id"
-        class="w-full flex flex-col items-center justify-center pb-[26px] pt-[30px]"
+        class="w-full flex flex-col items-center justify-start pb-[26px] pt-[30px]"
       >
         <div
           class="h-[120px] w-[120px] flex items-center justify-center border border-[#DFE4F2] rounded-full border-solid"
@@ -25,7 +27,7 @@
           />
         </div>
         <div
-          class="text-deep_blue mt-[10px] text-[1.5rem] leading-[2rem] font-[700]"
+          class="text-deep_blue mt-[10px] w-full flex items-center justify-center text-center text-[1.5rem] leading-[2rem] font-[700]"
         >
           {{ item.title }}
         </div>
