@@ -15,9 +15,12 @@
     >
       これまでさまざまな業種・業界で多くの経験を積み、多くの技術を習得するとともに新技術も取り組んできております。
     </div>
-    <div class="mt-[60px] w-full flex justify-between">
+    <div
+      v-if="MAIN_CONTENT_WIDTH > 375"
+      class="mt-[60px] w-full flex justify-between lg:flex-row md:flex-col"
+    >
       <div
-        class="w-[calc(50%-20px)] flex"
+        class="flex lg:w-[calc(50%-20px)] md:w-full md:justify-center"
         data-aos="fade-right"
       >
         <div class="relative z-2 w-[100px]">
@@ -52,17 +55,17 @@
             v-for="(item, index) in SkillData"
             :key="index"
             :class="index % 2 == 0 ? 'bg-[#D3E1E5]' : 'bg-[#F4F4F4]'"
-            class="h-[63px] px-[20px] py-[20px]"
+            class="h-[63px] flex items-center px-[20px]"
           >
             {{ item.list }}
           </div>
         </div>
       </div>
       <div
-        class="w-[calc(50%-20px)] flex flex-col"
+        class="flex flex-col lg:mt-0 md:mt-[30px] lg:w-[calc(50%-20px)] md:w-full"
         data-aos="fade-left"
       >
-        <div class="w-full flex">
+        <div class="w-full flex md:justify-center">
           <div class="relative z-2 w-[100px] translate-y-[4px]">
             <div class="relative h-[209px] w-[100px]">
               <img
@@ -95,7 +98,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full flex">
+        <div class="w-full flex md:justify-center">
           <div class="relative z-2 w-[100px] translate-y-[-4px]">
             <div class="relative h-[209px] w-[100px]">
               <img
@@ -130,12 +133,32 @@
         </div>
       </div>
     </div>
+    <div
+      v-if="MAIN_CONTENT_WIDTH === 375"
+      class="w-full"
+    >
+      <photo-provider>
+        <photo-consumer
+          v-for="(item, index) in industryImageData"
+          :key="index"
+          :intro="item.title"
+          :src="item.Src"
+        >
+          <img
+            :src="item.Src"
+            class="view-box mt-[30px]"
+          />
+        </photo-consumer>
+      </photo-provider>
+    </div>
   </div>
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
-import { ExperienceList } from '../types/index'
+import industryImge1 from '@/assets/images/si-service-business/industry_m_1.png'
+import industryImge2 from '@/assets/images/si-service-business/industry_m_2.png'
+import { ExperienceList, industryImageType } from '../types/index'
 
 const SkillData = ref<ExperienceList[]>([
   { list: 'システム設計～開発～保守・運用' },
@@ -159,6 +182,11 @@ const OtherData = ref<ExperienceList[]>([
   },
   { list: '全プロジェクトのQC審査' },
   { list: 'ISO90001、ISO270001などの資格認定' }
+])
+
+const industryImageData = ref<industryImageType[]>([
+  { title: '技術', Src: industryImge1 },
+  { title: '業務領域&その他', Src: industryImge2 }
 ])
 </script>
 <style lang=""></style>

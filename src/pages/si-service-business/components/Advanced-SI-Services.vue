@@ -2,7 +2,7 @@
   <div
     id="SiServiceBusiness"
     data-aos="fade-in"
-    class="font-NotoSansJP w-full"
+    class="font-NotoSansJP w-full px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <ThePageMinTitle data-aos="fade-right">先進SIサービス</ThePageMinTitle>
@@ -20,10 +20,10 @@
       </p>
     </div>
     <div
-      class="text-deep_blue mt-[30px] flex justify-between text-[1rem] leading-[32px] font-[400]"
+      class="text-deep_blue :flex-row mt-[30px] flex flex-col justify-between text-[1rem] leading-[32px] font-[400] lg:flex-row"
     >
       <div
-        class="w-[710px] flex flex-col"
+        class="order-1 mt-[30px] flex flex-col lg:order-0 lg:mt-0 lg:w-[710px]"
         data-aos="fade-right"
       >
         <div
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div
-        class="w-[460px] overflow-hidden"
+        class="order-0 flex overflow-hidden lg:order-1 lg:w-[460px]"
         data-aos="fade-left"
       >
         <img

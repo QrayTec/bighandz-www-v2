@@ -13,6 +13,10 @@
         :class="index === 0 ? 'ml-[0px]' : 'ml-[60px]'"
       >
         <a
+          v-smooth-scroll="{
+            duration: 1000,
+            offset: -120
+          }"
           :href="item.anchor"
           class="flex items-center justify-between opacity-60 transition-all duration-700 hover:opacity-100"
         >

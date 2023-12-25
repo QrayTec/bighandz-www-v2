@@ -15,11 +15,13 @@
       </p>
     </div>
     <div class="w-full flex flex-col items-center">
-      <div class="mt-[60px] w-full flex flex-wrap justify-between">
+      <div
+        class="mt-[60px] w-full flex flex-col items-center justify-center lg:flex-row lg:flex-wrap lg:justify-between"
+      >
         <div
           v-for="(item, index) in EPRData1"
           :key="index"
-          class="w-[338px] flex flex-col items-center"
+          class="w-full flex flex-col items-center lg:w-[338px]"
         >
           <div class="flex justify-center">
             <img
@@ -34,7 +36,9 @@
           </div>
         </div>
       </div>
-      <div class="mt-[60px] w-[749px] flex flex-wrap justify-between">
+      <div
+        class="mt-[60px] w-full flex flex-col flex-wrap items-center justify-center lg:w-[749px] lg:flex-row lg:justify-between"
+      >
         <div
           v-for="(item, index) in EPRData2"
           :key="index"

@@ -2,7 +2,7 @@
   <div
     id="IndustryDev"
     data-aos="fade-in"
-    class="font-NotoSansJP w-full"
+    class="font-NotoSansJP w-full px-[15px] lg:p-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <ThePageMinTitle data-aos="fade-right">開発実績と開発言語</ThePageMinTitle>
@@ -20,18 +20,22 @@
           <div class="h-[32px] w-[5px] bg-[#F6C103]"></div>
           <div class="ml-[10px]">{{ item.title }}</div>
         </div>
-        <div>{{ item.en_title }}</div>
+        <div v-if="MAIN_CONTENT_WIDTH === 1200">{{ item.en_title }}</div>
       </div>
       <div class="mt-[12px] h-[1px] w-full bg-[#D8D8D8]"></div>
       <div
-        class="flex"
+        class="flex flex-col lg:flex-row md:flex-row"
         data-aos="fade-right"
       >
         <div
-          :class="index === 0 ? 'order-0 justify-end' : 'order-1 justify-start'"
-          class="h-[560px] w-[660px] flex items-center"
+          :class="
+            index === 0
+              ? 'order-0 justify-end'
+              : 'order-0 lg:order-1 md:order-1 justify-start'
+          "
+          class="w-full flex items-center lg:h-[560px] lg:w-[660px]"
         >
-          <div class="h-[488px] w-[535px]">
+          <div class="px-[15px] py-[43px] lg:h-[488px] lg:w-[535px] lg:p-0">
             <img
               :src="item.Image"
               alt=""
@@ -39,7 +43,7 @@
           </div>
         </div>
         <div
-          class="h-[560px] w-[540px] flex flex-col items-center justify-center"
+          class="w-full flex flex-col items-center justify-center lg:h-[560px] lg:w-[540px]"
         >
           <div
             v-for="(list, i) in item.content"

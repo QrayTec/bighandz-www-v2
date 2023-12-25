@@ -1,13 +1,13 @@
 <template>
   <div
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
   >
     <ThePageMinTitle3 data-aos="fade-right">システム開発</ThePageMinTitle3>
-    <div class="mt-[60px] flex justify-between">
+    <div class="mt-[60px] flex flex-col justify-between lg:flex-row">
       <div
         data-aos="fade-right"
-        class="text-cobalt_blue w-[710px] text-[1rem] leading-[2rem] font-[400]"
+        class="text-cobalt_blue order-1 mt-[30px] w-full text-[1rem] leading-[2rem] font-[400] lg:order-0 lg:mt-0 lg:w-[710px]"
       >
         <div>
           <p>
@@ -29,11 +29,11 @@
         </div>
       </div>
       <div
-        class="w-[460px] overflow-hidden"
+        class="order-0 w-full overflow-hidden lg:order-1 lg:w-[460px]"
         data-aos="fade-left"
       >
         <img
-          class="transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
+          class="w-full transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
           src="@/assets/images/si-service-business/si_7.png"
           alt=""
         />

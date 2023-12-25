@@ -2,7 +2,7 @@
   <div
     id="System-Development"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
   >
     <ThePageMinTitle data-aos="fade-right"
       >システム開発の最新技術</ThePageMinTitle
@@ -14,17 +14,21 @@
       <div
         v-for="item in TechnologyData"
         :key="item.title"
-        class="mt-[60px] w-[calc(50%-15px)]"
+        class="mt-[60px] w-full lg:w-[calc(50%-15px)]"
       >
-        <div class="flex justify-between">
-          <div class="w-[160px]">
+        <div
+          class="flex flex-col items-center justify-center lg:flex-row lg:justify-between"
+        >
+          <div class="w-full flex justify-center lg:w-[160px]">
             <img
               :src="item.Image"
               alt=""
               srcset=""
             />
           </div>
-          <div class="w-[calc(100%-190px)]">
+          <div
+            class="w-full flex flex-col items-center justify-center lg:w-[calc(100%-190px)]"
+          >
             <div class="text-cobalt_blue text-[1rem] leading-[2rem] font-[700]">
               {{ item.title }}
             </div>

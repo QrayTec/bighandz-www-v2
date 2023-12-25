@@ -33,3 +33,8 @@ export interface EPRType {
   Image: string
   title: string
 }
+
+export interface industryImageType {
+  Src: string
+  title: string
+}
