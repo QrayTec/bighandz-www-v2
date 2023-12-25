@@ -4,13 +4,20 @@
       v-for="(item, index) in CompanyInfoData"
       :key="index"
       data-aos="fade-in"
-      class="mt-[120px] h-[320px] w-full flex justify-between"
+      :class="index === 0 ? '' : 'mt-[120px]'"
+      class="w-full flex flex-col justify-between lg:h-[320px] lg:flex-row"
     >
       <div
-        :class="index % 2 == 0 ? 'order-1 items-start' : 'items-end'"
-        class="w-[680px] flex flex-col justify-between"
+        :class="
+          index % 2 == 0
+            ? 'order-1 items-start mt-[20px]'
+            : 'items-end mt-[20px]'
+        "
+        class="flex flex-col justify-between lg:w-[680px]"
       >
-        <div class="font-NotoSansJP text-[2.25rem] font-[400] text-[#071027]">
+        <div
+          class="font-NotoSansJP text-[1.45rem] font-[400] text-[#071027] lg:text-[2.25rem]"
+        >
           {{ item.title }}
         </div>
         <hr class="mt-[10px] h-[2px] w-full border-none bg-[#6785C1]" />
@@ -23,23 +30,24 @@
           <div
             v-for="items in item.list"
             :key="items.list_title"
-            class="mt-[12px] w-full flex items-center"
+            class="mt-[12px] w-full flex items-start"
           >
             <img
+              class="mt-[12px]"
               :src="items.icon"
               alt=""
             />
             <div class="ml-[6px] w-full flex justify-between">
-              <div class="w-[25%]">{{ items.list_title }}</div>
+              <div class="w-[40%] lg:w-[25%]">{{ items.list_title }}</div>
               <div
                 v-if="items.list_info !== 'http: //www.qdhaien.cn/'"
-                class="w-[75%]"
+                class="w-[60%] lg:w-[75%]"
               >
                 {{ items.list_info }}
               </div>
               <a
                 v-if="items.list_info == 'http: //www.qdhaien.cn/'"
-                class="w-[75%]"
+                class="w-[60%] lg:w-[75%]"
                 href="http://www.qdhaien.cn/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -52,7 +60,7 @@
         <hr class="mt-[10px] h-[2px] w-full border-none bg-[#6785C1]" />
       </div>
 
-      <div class="h-[320px] w-[480px]">
+      <div class="lg:h-[320px] lg:w-[480px]">
         <img
           class="h-full w-full object-cover"
           :src="item.Image"
