@@ -1,53 +1,44 @@
 <template>
   <div class="w-full">
-    <div class="message_from_president_main">
+    <div class="bg-deep_blue w-full flex justify-center">
       <sub-page-title-bg :data="SubPageTitleData" />
     </div>
-    <div class="message_content">
-      <div class="message_content_main">
-        <div class="message_content_text">
-          <div class="message_content_title">社長メッセージ</div>
-          <div class="message_content_text_main">
-            <p
-              v-for="(item, index) in ListData"
-              :key="index"
-            >
-              {{ item.list }} <br /><br />
-            </p>
-          </div>
-          <div class="message_content_text_main m_top_30">敬具</div>
-
-          <div class="m_top_30 pic_Representative">
-            <div class="message_content_text_main m_top_30">代表取締役</div>
-          </div>
-          <div class="pic_president_sign">
-            <img
-              class="h-[80px] w-[200px]"
-              src="/src/assets/images/MessageFromPresident/pic_president_sign.png"
-              alt="pic_president"
-            />
-          </div>
+    <div class="font-NotoSansJP w-full flex justify-center">
+      <div
+        class="my-[60px] px-[15px] lg:my-[120px] lg:px-0"
+        :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+      >
+        <div class="text-cobalt_blue text-[2.25rem] leading-normal font-[700]">
+          社長メッセージ
         </div>
-        <!-- <div class="message_content_images">
-          <div class="pic_president h-[600px] bg-[#2266ff]">
-            <img
-              src="/src/assets/images/MessageFromPresident/pic_president.png"
-              alt="pic_president"
-            />
-          </div>
-          <div class="m_top_30 pic_Representative">
-            <img
-              src="/src/assets/images/MessageFromPresident/pic_Representative.png"
-              alt="pic_president"
-            />
-          </div>
-          <div class="pic_president_sign">
-            <img
-              src="/src/assets/images/MessageFromPresident/pic_president_sign.png"
-              alt="pic_president"
-            />
-          </div>
-        </div> -->
+        <div
+          class="text-cobalt_blue mt-[30px] text-[1rem] leading-[2rem] font-[400]"
+        >
+          <p
+            v-for="(item, index) in ListData"
+            :key="index"
+          >
+            {{ item.list }} <br /><br />
+          </p>
+        </div>
+        <div
+          class="text-cobalt_blue mt-[30px] text-[1rem] leading-[2rem] font-[400]"
+        >
+          敬具
+        </div>
+
+        <div
+          class="text-cobalt_blue mt-[30px] text-right text-[1rem] leading-[2rem] font-[400]"
+        >
+          代表取締役
+        </div>
+        <div class="mt-[10px] flex justify-end">
+          <img
+            class="h-[80px] w-[200px]"
+            src="/src/assets/images/MessageFromPresident/pic_president_sign.png"
+            alt="pic_president"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -55,6 +46,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import { SubPageTitleType } from '@/data/pages_interface'
 
 import MessagePresident from '@/assets/images/sub_page_title/MESSAGE_FROM_THE_PRESIDENT_banner_1.jpg'
@@ -91,107 +83,4 @@ const ListData = ref<ListType[]>([
 ])
 </script>
 
-<style scoped>
-.page {
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-}
-.Header {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 9;
-}
-.message_from_president_main {
-  width: 100%;
-  height: auto;
-  background: #0e1b47;
-  display: flex;
-  justify-content: center;
-}
-.message_content {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.message_content_main {
-  width: 1200px;
-  height: auto;
-  display: flex;
-  margin-top: 180px;
-  margin-bottom: 180px;
-}
-.message_content_text {
-  width: 100%;
-  color: #0e1b47;
-}
-.message_content_title {
-  font-family: Noto Sans JP;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.message_content_text_main {
-  margin-top: 30px;
-  /* 正文段落 */
-  font-family: Noto Sans JP;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 200% */
-}
-.m_top_60 {
-  margin-top: 60px;
-}
-.m_top_30 {
-  margin-top: 30px;
-}
-.message_content_images {
-  margin-left: 40px;
-  padding-top: 90px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column; /* 垂直排列子元素 */
-  align-items: flex-end; /* 子元素在交叉轴上居右 */
-}
-.pic_president {
-  width: 480px;
-}
-.pic_president_sign {
-  margin-top: 10px;
-}
-@media screen and (max-width: 1300px) {
-  .message_content_main {
-    flex-wrap: wrap;
-  }
-  .message_content_text {
-    width: 80%;
-    margin: 0 auto; /* 水平居中 */
-  }
-  .message_content_images {
-    width: 80%;
-    margin: 0 auto; /* 水平居中 */
-    align-items: center;
-  }
-}
-
-/* 在屏幕小于 786px 时应用的样式 */
-@media screen and (max-width: 786px) {
-  .message_content_text {
-    width: 80%;
-    margin: 0 auto; /* 水平居中 */
-  }
-  .message_content_images {
-    width: 80%;
-    margin: 0 auto; /* 水平居中 */
-    align-items: center;
-  }
-  .pic_president {
-    width: auto;
-  }
-}
-</style>
+<style scoped></style>
