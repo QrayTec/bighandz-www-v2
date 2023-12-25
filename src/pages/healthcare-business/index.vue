@@ -3,16 +3,10 @@
     <div class="message_from_president_main">
       <SubPageTitleBg :data="SubPageTitleData" />
     </div>
-    <div
-      ref="navSticky"
-      class="page_nav_sticky"
-      :class="{ shrink: isSticky }"
-    >
-      <the-page-nav
-        :pagenavdata="PageNavData"
-        :pagenavstyletype="pagetype"
-      />
-    </div>
+    <the-page-nav
+      :pagenavdata="PageNavData"
+      :pagenavstyletype="pagetype"
+    />
     <div class="m_b_240 healthcare_business">
       <div class="healthcare_business_box">
         <HealthcareBusinessItem />
@@ -103,9 +97,7 @@ onUnmounted(() => {
   .healthcare_business_box {
     width: 80%;
   }
-  .page_nav_sticky {
-    height: auto;
-  }
+
   .shrink {
     height: auto;
   }

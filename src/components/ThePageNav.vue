@@ -1,31 +1,34 @@
 <template>
-  <div class="relative h-full w-full flex justify-center bg-[#0e1b47]">
-    <div class="page_nav_main">
-      <a
-        v-for="item in PageNavData"
-        :key="item.id"
-        v-smooth-scroll="{
-          duration: 1000,
-          offset: -120
-        }"
-        class="page_nav_main_link opacity-60 transition-all duration-800 hover:opacity-100"
-        :class="{ 'ml-[30px]': item.id != 1 }"
-        :href="item.anchor"
-        ><div class="page_nav_content">
+  <div
+    v-if="MAIN_CONTENT_WIDTH === 1200"
+    class="bg-deep_blue h-[76px] w-full flex items-center justify-center text-white"
+  >
+    <div
+      class="font-NotoSansJP w-full flex text-[1rem] leading-normal font-[700]"
+      :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+    >
+      <div
+        v-for="(item, index) in PageNavData"
+        :key="index"
+        :class="index === 0 ? 'ml-[0px]' : 'ml-[60px]'"
+      >
+        <a
+          :href="item.anchor"
+          class="flex items-center justify-between opacity-60 transition-all duration-700 hover:opacity-100"
+        >
           <div>{{ item.anchor_title }}</div>
-          <div class="page_nav_image">
-            <img
-              src="/src/assets/images/page_nav.svg"
-              alt=""
-            />
-          </div></div
-      ></a>
+          <div class="ml-[15px]">
+            <img src="@/assets/images/page_nav.svg" />
+          </div>
+        </a>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import { PageNavType } from '@/data/pages_interface'
 
 const props = defineProps<{
@@ -35,85 +38,4 @@ const props = defineProps<{
 const PageNavData = ref(props.pagenavdata)
 </script>
 
-<style scoped>
-.page_nav {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  background-color: #0e1b47;
-}
-.occupy_nav {
-  width: calc((100% - 912px) / 2);
-  height: 100%;
-  position: absolute;
-  left: 0;
-  background: var(---, #dfe4f2);
-}
-.page_nav_main {
-  width: 1200px;
-  display: flex;
-  align-items: center;
-  color: #fff;
-}
-.page_nav_main_type_2 {
-  width: calc(912px);
-  display: flex;
-  align-items: center;
-  color: #fff;
-  padding: 0px 60px;
-}
-.page_nav_content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-feature-settings: 'clig' off, 'liga' off;
-  /* 正文加粗 */
-  font-family: Noto Sans JP;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.page_nav_image {
-  margin-left: 16px;
-}
-@media screen and (max-width: 1299px) and (min-width: 768px) {
-  .page_nav_main {
-    width: 80%;
-    flex-wrap: wrap;
-  }
-  .page_nav_main_link {
-    margin-top: 60px;
-    width: 50%;
-  }
-
-  .page_nav_main_type_2 {
-    width: calc(912px);
-  }
-  .page_nav_main_link:last-child {
-    width: 100%;
-  }
-  .page_nav_content {
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 767px) {
-  .page_nav_main {
-    width: 80%;
-    flex-wrap: wrap;
-  }
-  .page_nav_main_link:first {
-    margin-top: 0px;
-    width: 100%;
-  }
-  .page_nav_main_link {
-    margin-top: 20px;
-    width: 100%;
-  }
-  .page_nav_main_type_2 {
-    width: 100%;
-  }
-}
-</style>
+<style scoped></style>

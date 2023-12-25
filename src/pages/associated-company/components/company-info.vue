@@ -1,5 +1,8 @@
 <template>
-  <div :style="{ width: MAIN_CONTENT_WIDTH + 'px' }">
+  <div
+    class="px-[15px] lg:px-0"
+    :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+  >
     <div
       v-for="(item, index) in CompanyInfoData"
       :key="index"

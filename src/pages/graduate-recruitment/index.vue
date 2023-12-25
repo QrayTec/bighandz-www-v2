@@ -3,16 +3,7 @@
     <div class="message_from_president_main">
       <SubPageTitleBg :data="SubPageTitleData" />
     </div>
-    <div
-      ref="navSticky"
-      class="page_nav_sticky"
-      :class="{ shrink: isSticky }"
-    >
-      <ThePageNav
-        :pagenavdata="PageNavData"
-        :pagenavstyletype="Number(1)"
-      />
-    </div>
+    <ThePageNav :pagenavdata="PageNavData" />
     <div class="relative h-auto">
       <!-- <div class="absolute z-[-1] h-full w-[504px] bg-[#DFE4F2]"></div> -->
       <div class="z-1 w-full flex flex-col items-center">

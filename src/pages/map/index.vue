@@ -3,13 +3,8 @@
     <div class="message_from_president_main">
       <SubPageTitleBg :data="SubPageTitleData" />
     </div>
-    <div
-      ref="navSticky"
-      class="page_nav_sticky"
-      :class="{ shrink: isSticky }"
-    >
-      <the-page-nav :pagenavdata="PageNavData" />
-    </div>
+
+    <ThePageNav :pagenavdata="PageNavData" />
     <div class="my-[120px] w-full flex flex-col items-center justify-center">
       <CompanyInfo />
       <PublicTransit class="mt-[120px]" />
