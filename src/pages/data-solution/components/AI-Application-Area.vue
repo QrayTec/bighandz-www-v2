@@ -1,14 +1,14 @@
 <template>
   <div
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
   >
-    <ThePageMinTitle data-aos="fade-right">AIの産業活用領域</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-up">AIの産業活用領域</ThePageMinTitle>
     <div
       class="text-deep_blue mt-[60px] text-[1rem] leading-[2rem] font-[400]"
-      data-aos="fade-right"
+      data-aos="fade-up"
     >
-      <table class="w-[1000px] border border-[#6785C1] border-solid">
+      <table class="w-full border border-[#6785C1] border-solid lg:w-[1000px]">
         <tr
           v-for="(item, index) in AIApplicationAreaData"
           :key="index"

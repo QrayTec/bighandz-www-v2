@@ -5,12 +5,10 @@
     class="font-NotoSansJP w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle3 data-aos="fade-right"
-      >様々な業界と技術経験</ThePageMinTitle3
-    >
+    <ThePageMinTitle3 data-aos="fade-up">様々な業界と技術経験</ThePageMinTitle3>
 
     <div
-      data-aos="fade-right"
+      data-aos="fade-up"
       class="text-deep_blue mt-[30px] w-full text-[1rem] leading-[32px] font-[400]"
     >
       これまでさまざまな業種・業界で多くの経験を積み、多くの技術を習得するとともに新技術も取り組んできております。
@@ -21,7 +19,7 @@
     >
       <div
         class="flex lg:w-[calc(50%-20px)] md:w-full md:justify-center"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <div class="relative z-2 w-[100px]">
           <div class="relative h-[418px] w-[100px]">
@@ -63,7 +61,7 @@
       </div>
       <div
         class="flex flex-col lg:mt-0 md:mt-[30px] lg:w-[calc(50%-20px)] md:w-full"
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         <div class="w-full flex md:justify-center">
           <div class="relative z-2 w-[100px] translate-y-[4px]">

@@ -6,7 +6,7 @@
   >
     <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
     <div class="w-full">
-      <ThePageMinTitle2 data-aos="fade-right">経験者</ThePageMinTitle2>
+      <ThePageMinTitle2 data-aos="fade-up">経験者</ThePageMinTitle2>
       <div class="px-[90px]">
         <div
           class="mt-[60px] text-[1rem] leading-[2rem] font-[400]"
@@ -24,7 +24,7 @@
         <div
           class="text-deep_blue mt-[60px] w-full text-[1rem] leading-[2rem] font-[400]"
         >
-          <ThePageMinTitle data-aos="fade-right">
+          <ThePageMinTitle data-aos="fade-up">
             <p class="text-[1.25rem]">開発エンジニア</p>
           </ThePageMinTitle>
           <table
@@ -69,7 +69,7 @@
         <div
           class="text-deep_blue mt-[60px] w-full text-[1rem] leading-[2rem] font-[400]"
         >
-          <ThePageMinTitle data-aos="fade-right">
+          <ThePageMinTitle data-aos="fade-up">
             <p class="text-[1.25rem]">インフラ基盤系エンジニア</p>
           </ThePageMinTitle>
           <table
@@ -114,7 +114,7 @@
         <div
           class="text-deep_blue mt-[60px] w-full text-[1rem] leading-[2rem] font-[400]"
         >
-          <ThePageMinTitle data-aos="fade-right">
+          <ThePageMinTitle data-aos="fade-up">
             <p class="text-[1.25rem]">コンサルティング営業</p>
           </ThePageMinTitle>
 

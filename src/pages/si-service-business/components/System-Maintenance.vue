@@ -3,10 +3,10 @@
     class="font-NotoSansJP px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle3 data-aos="fade-right">システム運用保守</ThePageMinTitle3>
+    <ThePageMinTitle3 data-aos="fade-up">システム運用保守</ThePageMinTitle3>
     <div
       class="mt-[60px] flex flex-col justify-between lg:flex-row"
-      data-aos="fade-right"
+      data-aos="fade-up"
     >
       <div
         class="text-cobalt_blue order-1 mt-[30px] text-[1rem] leading-[2rem] font-[400] lg:order-0 lg:mt-0 lg:w-[710px]"

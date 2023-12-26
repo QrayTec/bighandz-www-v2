@@ -5,17 +5,17 @@
     class="font-NotoSansJP w-full px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right">
+    <ThePageMinTitle data-aos="fade-up">
       携帯アプリテスト自動化ツール
     </ThePageMinTitle>
     <div class="mt-[60px] w-full">
-      <ThePageMinTitle3 data-aos="fade-right"
+      <ThePageMinTitle3 data-aos="fade-up"
         >携帯アプリテストの課題</ThePageMinTitle3
       >
       <div class="mt-[60px] flex flex-col lg:flex-row lg:justify-between">
         <div
           class="order-1 mt-[30px] w-full lg:order-0 lg:mt-0 lg:w-[710px]"
-          data-aos="fade-right"
+          data-aos="fade-up"
         >
           <div
             v-for="(item, index) in MobileData"
@@ -33,7 +33,7 @@
         </div>
         <div
           class="order-0 w-full flex justify-center overflow-hidden lg:order-1 lg:mt-0 lg:w-[460px]"
-          data-aos="fade-left"
+          data-aos="fade-up"
         >
           <img
             class="transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
@@ -44,13 +44,13 @@
       </div>
     </div>
     <div class="mt-[120px] w-full">
-      <ThePageMinTitle3 data-aos="fade-right"
+      <ThePageMinTitle3 data-aos="fade-up"
         >携帯テスト自動化ツール</ThePageMinTitle3
       >
       <div class="mt-[30px] flex flex-col lg:flex-row lg:justify-between">
         <div
           class="w-full flex justify-center overflow-hidden lg:w-[460px]"
-          data-aos="fade-right"
+          data-aos="fade-up"
         >
           <img
             class="transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
@@ -59,7 +59,7 @@
           />
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="fade-up"
           class="text-cobalt_blue mt-[30px] w-full text-[1rem] leading-[2rem] font-[400] lg:mt-0 lg:w-[710px]"
         >
           <div>

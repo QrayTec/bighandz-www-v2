@@ -6,7 +6,7 @@
     >
       <ThePageMinTitle3
         class="mt-[60px]"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         自動化テストプラットフォームの構成図
       </ThePageMinTitle3>

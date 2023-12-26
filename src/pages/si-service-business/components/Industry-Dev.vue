@@ -5,7 +5,7 @@
     class="font-NotoSansJP w-full px-[15px] lg:p-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right">開発実績と開発言語</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-up">開発実績と開発言語</ThePageMinTitle>
 
     <div
       v-for="(item, index) in industryData"
@@ -14,7 +14,7 @@
     >
       <div
         class="flex items-center justify-between text-[1.7rem] font-[400] lg:text-[2.25rem]"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <div class="flex items-center">
           <div class="h-[32px] w-[5px] bg-[#F6C103]"></div>
@@ -25,7 +25,7 @@
       <div class="mt-[12px] h-[1px] w-full bg-[#D8D8D8]"></div>
       <div
         class="flex flex-col lg:flex-row md:flex-row"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <div
           :class="

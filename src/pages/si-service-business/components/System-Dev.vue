@@ -3,10 +3,10 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP px-[15px] lg:px-0"
   >
-    <ThePageMinTitle3 data-aos="fade-right">システム開発</ThePageMinTitle3>
+    <ThePageMinTitle3 data-aos="fade-up">システム開発</ThePageMinTitle3>
     <div class="mt-[60px] flex flex-col justify-between lg:flex-row">
       <div
-        data-aos="fade-right"
+        data-aos="fade-up"
         class="text-cobalt_blue order-1 mt-[30px] w-full text-[1rem] leading-[2rem] font-[400] lg:order-0 lg:mt-0 lg:w-[710px]"
       >
         <div>
@@ -30,7 +30,7 @@
       </div>
       <div
         class="order-0 w-full overflow-hidden lg:order-1 lg:w-[460px]"
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         <img
           class="w-full transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"

@@ -4,13 +4,11 @@
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right"
-      >物流DXプラットフォーム</ThePageMinTitle
-    >
+    <ThePageMinTitle data-aos="fade-up">物流DXプラットフォーム</ThePageMinTitle>
     <div class="mt-[60px] flex justify-between">
       <div
         class="w-[480px]"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <p class="text-cobalt_blue text-[1.25rem] font-[700]">
           最先端のテクノロジーで物流改革

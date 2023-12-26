@@ -5,14 +5,14 @@
   >
     <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
     <div class="w-full">
-      <ThePageMinTitle2 data-aos="fade-right"
+      <ThePageMinTitle2 data-aos="fade-up"
         >テンプレートのダウンロード</ThePageMinTitle2
       >
       <div class="px-[90px]">
         <div class="mt-[60px]">
           <TheDownloadBtn
             :img-src="DownLoadBg"
-            data-aos="fade-right"
+            data-aos="fade-up"
             :href="'rirekisyo.xlsx'"
             >履歴書テンプレート</TheDownloadBtn
           >

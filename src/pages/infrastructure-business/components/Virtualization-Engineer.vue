@@ -4,12 +4,10 @@
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right"
-      >仮想化技術者が多数在籍</ThePageMinTitle
-    >
+    <ThePageMinTitle data-aos="fade-up">仮想化技術者が多数在籍</ThePageMinTitle>
     <div
       class="mt-[60px] w-[800px]"
-      data-aos="fade-right"
+      data-aos="fade-up"
     >
       <table>
         <tbody>

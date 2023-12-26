@@ -1,10 +1,10 @@
 <template>
   <div
     data-aos="fade-in"
-    class="font-NotoSansJP text-deep_blue text-[1rem] leading-[2rem] font-[400]"
+    class="font-NotoSansJP text-deep_blue px-[15px] text-[1rem] leading-[2rem] font-[400] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right">AIビジネス展開</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-up">AIビジネス展開</ThePageMinTitle>
     <div class="mt-[60px]">
       AIを⽤いたデータマイニングや機械学習を取り⼊れた最先端分野にも積極的にり組んでおり、業務の効率化にとどまらず、
       お客様のデータ価値最大化、あらたなビジネスモデル実現に貢献しております。

@@ -11,7 +11,7 @@
         data-aos="slide-right"
       >
         <div
-          class="font-NotoSansJP font-feature-settings-cilg-liga text-deep_blue text-[1rem] leading-normal font-[400]"
+          class="font-NotoSansJP text-deep_blue font-feature-settings-cilg-liga text-[1rem] leading-normal font-[400]"
         >
           応募から採用までの流れをご説明しています。
         </div>
@@ -23,7 +23,7 @@
         :key="item.id"
         class="font-NotoSansJP text-deep_blue mt-[60px] text-[1rem] leading-normal font-[400]"
       >
-        <the-page-min-title2 data-aos="fade-right">{{
+        <the-page-min-title2 data-aos="fade-up">{{
           item.subheading
         }}</the-page-min-title2>
         <div

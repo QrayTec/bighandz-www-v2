@@ -4,11 +4,11 @@
     class="font-NotoSansJP"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right">物流DX推進</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-up">物流DX推進</ThePageMinTitle>
     <div class="mt-[60px] flex justify-between">
       <div
         class="w-[480px]"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <img
           src="@/assets/images/logistics-business/change_2.png"
@@ -16,7 +16,7 @@
         />
       </div>
       <div
-        data-aos="fade-left"
+        data-aos="fade-up"
         class="text-deep_blue w-[680px] text-[1rem] leading-[2rem] font-[400]"
       >
         <div>

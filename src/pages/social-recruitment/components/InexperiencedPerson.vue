@@ -6,7 +6,7 @@
   >
     <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
     <div class="w-full">
-      <ThePageMinTitle2 data-aos="fade-right">未経験者</ThePageMinTitle2>
+      <ThePageMinTitle2 data-aos="fade-up">未経験者</ThePageMinTitle2>
       <div
         class="px-[90px]"
         data-aos="fade-up"
@@ -23,7 +23,7 @@
         <div class="mt-[60px] w-full flex justify-between leading-[2rem]">
           <div
             class="w-[calc(100%-400px)]"
-            data-aos="fade-right"
+            data-aos="fade-up"
           >
             <TheIconList
               v-for="(item, index) in ListData"
@@ -35,7 +35,7 @@
           </div>
           <div class="relative h-[410px] w-[370px] flex justify-center">
             <div
-              data-aos="fade-left"
+              data-aos="fade-up"
               class="relative h-[410px] w-[310px] flex justify-center bg-[#DFE4F2]"
             >
               <img
@@ -45,7 +45,7 @@
               />
             </div>
             <div
-              data-aos="fade-left"
+              data-aos="fade-up"
               class="absolute bottom-[30px] h-[144px] w-full flex flex-col items-center justify-center bg-[#6785C1] p-[20px] text-[1.25rem] leading-normal font-[700] text-[#fff]"
             >
               <p>意欲のある方であれば、</p>

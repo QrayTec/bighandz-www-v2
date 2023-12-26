@@ -4,7 +4,7 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="mt-[120px] w-full">
-      <ThePageMinTitle3 data-aos="fade-right"
+      <ThePageMinTitle3 data-aos="fade-up"
         >本自動化テストプラットフォームの利用
       </ThePageMinTitle3>
       <div
@@ -26,7 +26,7 @@
       >
         <div
           class="order-1 mt-[30px] w-full lg:order-0 lg:mt-0 lg:w-[710px]"
-          data-aos="fade-right"
+          data-aos="fade-up"
         >
           <TheIconList
             v-for="(item, index) in AutomationTestData"
@@ -38,7 +38,7 @@
         </div>
         <div
           v-if="MAIN_CONTENT_WIDTH === 1200"
-          data-aos="fade-left"
+          data-aos="fade-up"
           class="order-0 w-full flex flex-col items-center justify-end text-[1.5rem] leading-[30px] font-[700] text-white lg:order-1 lg:w-[460px]"
         >
           <div class="z-10 w-[160px]">

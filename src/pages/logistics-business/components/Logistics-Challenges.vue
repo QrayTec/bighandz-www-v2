@@ -4,12 +4,10 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP"
   >
-    <ThePageMinTitle data-aos="fade-right"
-      >物流業界が直面する課題</ThePageMinTitle
-    >
+    <ThePageMinTitle data-aos="fade-up">物流業界が直面する課題</ThePageMinTitle>
     <div class="mt-[60px] flex justify-between">
       <div
-        data-aos="fade-right"
+        data-aos="fade-up"
         class="text-deep_blue w-[710px] text-[1rem] leading-[32px] font-[400]"
       >
         <TheIconList
@@ -27,7 +25,7 @@
       </div>
       <div
         class="w-[460px]"
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         <img
           src="@/assets/images/logistics-business/change_1.png"

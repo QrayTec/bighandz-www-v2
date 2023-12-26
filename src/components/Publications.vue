@@ -4,7 +4,7 @@
     class="w-full px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right">出版物</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-up">出版物</ThePageMinTitle>
 
     <div
       data-aos="fade-in"
@@ -12,7 +12,7 @@
     >
       <div
         class="h-[460px] w-full flex justify-center lg:w-[calc(50%-15px)]"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <img
           class="object-cover transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
@@ -22,7 +22,7 @@
       </div>
       <div
         class="w-full flex flex-col justify-between py-[30px] lg:w-[calc(50%-15px)]"
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         <div class="flex flex-col">
           <TheIconTitle>

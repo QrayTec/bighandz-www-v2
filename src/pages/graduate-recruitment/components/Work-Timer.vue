@@ -5,10 +5,10 @@
   >
     <div class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)]"></div>
     <div class="w-full">
-      <ThePageMinTitle2 data-aos="fade-right">勤務時間</ThePageMinTitle2>
+      <ThePageMinTitle2 data-aos="fade-up">勤務時間</ThePageMinTitle2>
       <div
         class="mt-[60px] px-[90px]"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <TheIconList :type="2">
           <p class="text-white">9:30～18:30</p>
@@ -16,7 +16,7 @@
       </div>
       <div
         class="mt-[30px] px-[90px]"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <p class="text-[.875rem] leading-normal font-[400]">
           ※プロジェクトにより異なる場合もあり。

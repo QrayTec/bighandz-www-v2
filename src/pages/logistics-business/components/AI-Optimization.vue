@@ -4,7 +4,7 @@
     class="w-full"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right">AIによる配送最適化</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-up">AIによる配送最適化</ThePageMinTitle>
     <div
       data-aos="fade-up"
       class="text-deep_blue font-NotoSansJP mt-[30px] text-[1rem] font-[400]"

@@ -6,7 +6,7 @@
   >
     <div class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)]"></div>
     <div class="w-full">
-      <ThePageMinTitle2 data-aos="fade-right">募集職種</ThePageMinTitle2>
+      <ThePageMinTitle2 data-aos="fade-up">募集職種</ThePageMinTitle2>
       <div class="w-full flex flex-col items-center justify-center px-[90px]">
         <div
           class="mt-[60px] w-full flex"

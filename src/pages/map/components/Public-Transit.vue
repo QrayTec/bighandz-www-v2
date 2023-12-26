@@ -5,7 +5,7 @@
   >
     <ThePageMinIconTitle
       id="TrainTravel"
-      data-aos="fade-right"
+      data-aos="fade-up"
       :img="train"
       >電車で行く</ThePageMinIconTitle
     >
@@ -38,7 +38,7 @@
       id="BusTravel"
       class="mt-[120px]"
       :img="bus"
-      data-aos="fade-right"
+      data-aos="fade-up"
       >バスで行く</ThePageMinIconTitle
     >
     <div

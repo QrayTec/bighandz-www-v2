@@ -4,12 +4,10 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP px-[15px] lg:px-0"
   >
-    <ThePageMinTitle data-aos="fade-right"
-      >システム開発の最新技術</ThePageMinTitle
-    >
+    <ThePageMinTitle data-aos="fade-up">システム開発の最新技術</ThePageMinTitle>
     <div
       class="flex flex-wrap justify-between"
-      data-aos="fade-right"
+      data-aos="fade-up"
     >
       <div
         v-for="item in TechnologyData"

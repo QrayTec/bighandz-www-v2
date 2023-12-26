@@ -7,7 +7,7 @@
     <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
 
     <div class="w-full">
-      <the-page-min-title2 data-aos="fade-right">STEP ①</the-page-min-title2>
+      <the-page-min-title2 data-aos="fade-up">STEP ①</the-page-min-title2>
       <div class="w-[calc(100%-120px)] pl-[204px]">
         <div
           v-for="item in FAQData"

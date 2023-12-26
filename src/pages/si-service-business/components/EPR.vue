@@ -1,10 +1,10 @@
 <template>
   <div
-    data-aos="fade-right"
+    data-aos="fade-up"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     class="font-NotoSansJP"
   >
-    <ThePageMinTitle3 data-aos="fade-right">ERP事業 </ThePageMinTitle3>
+    <ThePageMinTitle3 data-aos="fade-up">ERP事業 </ThePageMinTitle3>
 
     <div class="text-deep_blue font-[400 mt-[30px] text-[1rem] leading-[2rem]">
       <p>

@@ -5,11 +5,11 @@
     class="font-NotoSansJP w-full px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <ThePageMinTitle data-aos="fade-right">先進SIサービス</ThePageMinTitle>
+    <ThePageMinTitle data-aos="fade-up">先進SIサービス</ThePageMinTitle>
 
     <div
       class="text-deep_blue mt-[30px] text-[1rem] leading-[32px] font-[400]"
-      data-aos="fade-right"
+      data-aos="fade-up"
     >
       <p>
         これまでの、さまざまな業種・業界のシステム構築経験を活かし、導入フェーズから構築・運用・保守まで一貫したSIサービスを提供しております。
@@ -24,7 +24,7 @@
     >
       <div
         class="order-1 mt-[30px] flex flex-col lg:order-0 lg:mt-0 lg:w-[710px]"
-        data-aos="fade-right"
+        data-aos="fade-up"
       >
         <div
           v-for="(item, index) in ListData"
@@ -37,7 +37,7 @@
       </div>
       <div
         class="order-0 flex overflow-hidden lg:order-1 lg:w-[460px]"
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         <img
           class="min-w-full transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"
@@ -47,7 +47,7 @@
       </div>
     </div>
     <div
-      data-aos="fade-right"
+      data-aos="fade-up"
       class="text-deep_blue mt-[30px] text-[1rem] leading-[32px] font-[400]"
     >
       このように、IT技術の進化が激しいこの時代に、SPEED感をもって、これまでの経験値、最先端のIT技術、オフショアリソースPOWERを最大限活用し、お客様の要望に沿ったシステム構築を行っております。

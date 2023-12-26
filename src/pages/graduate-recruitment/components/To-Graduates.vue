@@ -7,9 +7,7 @@
     <div class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)]"></div>
     <div class="w-full">
       <div class="z-1 w-full flex items-center">
-        <ThePageMinTitle2 data-aos="fade-right">
-          新卒の皆さんへ
-        </ThePageMinTitle2>
+        <ThePageMinTitle2 data-aos="fade-up"> 新卒の皆さんへ </ThePageMinTitle2>
         <div class="ml-[1.875rem] text-[1.25rem] leading-normal font-[400]">
           <p class="inline-block">
             当社の新卒採用ページにアクセスいただき、ありがとうございます。
