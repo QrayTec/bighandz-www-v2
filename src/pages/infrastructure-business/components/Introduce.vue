@@ -2,7 +2,7 @@
   <div
     data-aos="fade-up"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
   >
     <ThePageMinTitle>インフラ事業内容 </ThePageMinTitle>
     <div class="text-deep_blue mt-[60px] text-[1rem] leading-[2rem] font-[400]">

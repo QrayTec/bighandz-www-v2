@@ -2,20 +2,22 @@
   <div
     id="Infrastructure-Development"
     data-aos="fade-up"
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <ThePageMinTitle>インフラ開発実績</ThePageMinTitle>
 
-    <div class="mt-[30px] flex justify-between">
-      <div class="w-[50%] flex justify-center">
+    <div
+      class="mt-[30px] flex flex-col lg:flex-row md:flex-row lg:justify-between"
+    >
+      <div class="w-full flex justify-center lg:w-[50%]">
         <img
-          class="h-[475px] w-[515px]"
+          class="lg:h-[475px] lg:w-[515px] md:w-[350px]"
           src="@/assets/images/infrastructure-business/Cloud_1.png"
           alt=""
         />
       </div>
-      <div class="w-[50%] flex flex-col items-center justify-center">
+      <div class="w-full flex flex-col items-center justify-center lg:w-[50%]">
         <div
           v-for="(list, i) in industryData"
           :key="i"
@@ -34,7 +36,9 @@
         </div>
       </div>
     </div>
-    <div class="text-deep_blue text-[1rem] leading-[2rem] font-[400]">
+    <div
+      class="text-deep_blue mt-[30px] text-[1rem] leading-[2rem] font-[400] lg:mt-0"
+    >
       <p>
         運用改善の提案、定常作業のオフショア活用により運用コスト削減に貢献、24時間365日のSEによる運用保守対応。
       </p>

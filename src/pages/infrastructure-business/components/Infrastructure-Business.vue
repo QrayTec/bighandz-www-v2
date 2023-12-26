@@ -1,6 +1,6 @@
 <template>
   <div
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="text-deep_blue text-[1rem] leading-[2rem] font-[400]">
@@ -8,7 +8,10 @@
         以下は、当社の主なインフラ事業内容の概要です。
       </p>
     </div>
-    <div class="mt-[120px]">
+    <div
+      v-if="MAIN_CONTENT_WIDTH === 1200"
+      class="mt-[120px]"
+    >
       <div
         v-for="(item, index) in InfrastructureBusinessData"
         :key="index"
@@ -42,6 +45,25 @@
             alt=""
           />
         </div>
+      </div>
+    </div>
+    <div
+      v-else
+      class="mt-[120px]"
+    >
+      <div
+        v-for="(item, index) in InfrastructureBusinessData"
+        :key="index"
+        class="mt-[30px]"
+      >
+        <ThePageMinTitle>
+          <p class="text-[1.25rem]">{{ item.title }}</p>
+        </ThePageMinTitle>
+        <div class="mt-[30px] flex justify-center">
+          <img :src="item.Image" />
+        </div>
+
+        <div class="mt-[30px]">{{ item.content }}</div>
       </div>
     </div>
   </div>
