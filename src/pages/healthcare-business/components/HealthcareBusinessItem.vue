@@ -1,27 +1,31 @@
 <template>
   <div
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div
       v-for="(item, index) in ItemsData"
       :id="item.id"
       :key="index"
-      class="text-deep_blue mt-[120px] w-full text-[1rem] leading-[2rem] font-[400]"
+      class="text-deep_blue mt-[60px] w-full text-[1rem] leading-[2rem] font-[400] lg:mt-[120px]"
     >
       <ThePageMinTitle>{{ item.title }}</ThePageMinTitle>
 
-      <div class="mt-[60px] w-full flex justify-between">
+      <div
+        class="mt-[60px] w-full flex flex-col lg:flex-row lg:justify-between"
+      >
         <div
-          :data-aos="index % 2 === 0 ? 'fade-right' : 'fade-left'"
-          class="w-[calc(50%-30px)] flex items-end"
-          :class="index % 2 === 0 ? 'order-0' : 'order-1'"
+          data-aos="fade-up"
+          class="mt-[30px] w-full flex items-end lg:mt-0 lg:w-[calc(50%-30px)]"
+          :class="
+            index % 2 === 0 ? ' order-1 lg:order-0' : ' order-1 lg:order-1'
+          "
         >
           <p>{{ item.content }}</p>
         </div>
         <div
-          :data-aos="index % 2 === 0 ? 'fade-left' : 'fade-right'"
-          class="w-[50%] overflow-hidden"
+          data-aos="fade-up"
+          class="w-full flex justify-center overflow-hidden lg:w-[50%] lg:justify-start"
         >
           <img
             class="transition-all duration-800 ease-in-out hover:transform-scale-[1.2] hover:duration-800"

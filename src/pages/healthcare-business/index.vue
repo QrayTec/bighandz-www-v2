@@ -1,17 +1,13 @@
 <template>
   <div class="w-full">
-    <div class="message_from_president_main">
-      <SubPageTitleBg :data="SubPageTitleData" />
-    </div>
+    <SubPageTitleBg :data="SubPageTitleData" />
     <the-page-nav
       :pagenavdata="PageNavData"
       :pagenavstyletype="pagetype"
     />
-    <div class="m_b_240 healthcare_business">
-      <div class="healthcare_business_box">
-        <HealthcareBusinessItem />
-        <!-- <Brand /> -->
-      </div>
+    <div class="mb-[120px] w-full flex flex-col items-center justify-center">
+      <HealthcareBusinessItem />
+      <!-- <Brand /> -->
     </div>
   </div>
 </template>
