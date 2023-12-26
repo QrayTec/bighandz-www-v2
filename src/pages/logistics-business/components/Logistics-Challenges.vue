@@ -2,13 +2,13 @@
   <div
     id="LogisticsChallenges"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
   >
     <ThePageMinTitle data-aos="fade-up">物流業界が直面する課題</ThePageMinTitle>
-    <div class="mt-[60px] flex justify-between">
+    <div class="mt-[60px] flex flex-col lg:flex-row lg:justify-between">
       <div
         data-aos="fade-up"
-        class="text-deep_blue w-[710px] text-[1rem] leading-[32px] font-[400]"
+        class="text-deep_blue order-1 mt-[30px] w-full text-[1rem] leading-[32px] font-[400] lg:order-0 lg:mt-0 lg:w-[710px]"
       >
         <TheIconList
           v-for="(item, index) in ChallengesListData"
@@ -24,7 +24,7 @@
         </p>
       </div>
       <div
-        class="w-[460px]"
+        class="order-0 w-full flex justify-center lg:order-1 lg:w-[460px] lg:justify-start"
         data-aos="fade-up"
       >
         <img

@@ -1,13 +1,13 @@
 <template>
   <div
     id="LogisticsDXPlatform"
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <ThePageMinTitle data-aos="fade-up">物流DXプラットフォーム</ThePageMinTitle>
-    <div class="mt-[60px] flex justify-between">
+    <div class="mt-[60px] flex flex-col justify-between lg:flex-row">
       <div
-        class="w-[480px]"
+        class="w-full lg:w-[480px]"
         data-aos="fade-up"
       >
         <p class="text-cobalt_blue text-[1.25rem] font-[700]">
@@ -20,7 +20,10 @@
           >{{ item.list }}</TheIconList
         >
       </div>
-      <div class="w-[680px] flex flex-col items-end">
+      <div
+        v-if="MAIN_CONTENT_WIDTH === 1200"
+        class="w-[680px] flex flex-col items-end"
+      >
         <div
           v-for="(cardData, index) in CombinedCardData"
           :key="index"
@@ -33,6 +36,7 @@
           />
         </div>
       </div>
+      <div v-else>test</div>
     </div>
     <div
       class="mt-[120px]"
@@ -45,10 +49,22 @@
       </div>
       <div class="mt-[60px] w-full flex justify-center">
         <img
-          class="w-[1000px] object-contain"
+          v-if="MAIN_CONTENT_WIDTH === 1200"
+          class="w-full object-contain lg:w-[1000px]"
           src="@/assets/images/logistics-business/pic_1.png"
           alt=""
         />
+        <photo-provider v-else>
+          <photo-consumer
+            intro="物流DXプラットフォーム"
+            :src="Pic"
+          >
+            <img
+              :src="Pic"
+              class="view-box"
+            />
+          </photo-consumer>
+        </photo-provider>
       </div>
     </div>
   </div>
@@ -59,6 +75,8 @@ import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import { ChallengesList } from '../types/index'
 import { CombinedCardData } from '../data/Data'
 import GartnerCard from './GartnerCard.vue'
+
+import Pic from '@/assets/images/logistics-business/pic_1.png'
 
 const PlatformData = ref<ChallengesList[]>([
   {

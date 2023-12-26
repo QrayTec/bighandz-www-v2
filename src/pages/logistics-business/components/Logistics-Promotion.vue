@@ -1,13 +1,13 @@
 <template>
   <div
     id="LogisticsDXPromotion"
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <ThePageMinTitle data-aos="fade-up">物流DX推進</ThePageMinTitle>
-    <div class="mt-[60px] flex justify-between">
+    <div class="mt-[60px] flex flex-col justify-between lg:flex-row">
       <div
-        class="w-[480px]"
+        class="w-full flex justify-center lg:w-[480px] lg:justify-start"
         data-aos="fade-up"
       >
         <img
@@ -17,7 +17,7 @@
       </div>
       <div
         data-aos="fade-up"
-        class="text-deep_blue w-[680px] text-[1rem] leading-[2rem] font-[400]"
+        class="text-deep_blue w-full text-[1rem] leading-[2rem] font-[400] lg:w-[680px]"
       >
         <div>
           上記、現状をふまえ、物流を戦略と捉え、デジタル技術を活用した経営革新、物流DX導入が求められています。

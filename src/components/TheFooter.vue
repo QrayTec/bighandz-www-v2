@@ -1,6 +1,6 @@
 <template>
   <div
-    class="font-NotoSansJP min-h-[150px] w-full flex items-center justify-center bg-[#09122e] pb-[20px] text-[#fff] lg:pb-0"
+    class="font-NotoSansJP min-h-[150px] w-full flex items-center justify-center bg-[#09122e] px-[15px] pb-[20px] text-[#fff] lg:px-0 lg:pb-0"
   >
     <div
       class="md:() h-full flex flex-col items-start justify-center py-[0] lg:flex-row lg:items-center lg:justify-center lg:py-[41px]"
