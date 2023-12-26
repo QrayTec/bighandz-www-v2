@@ -18,6 +18,7 @@
           autoplay
           loop
           muted
+          playsinline
         ></video>
       </div>
     </div>
