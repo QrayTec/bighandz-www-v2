@@ -1,7 +1,7 @@
 <template>
   <div class="font-NotoSansJP w-full">
     <div
-      class="flex items-center justify-between text-[2.25rem] font-[400]"
+      class="flex items-center justify-between text-[1.7rem] font-[400] lg:text-[2.25rem]"
       data-aos="fade-right"
     >
       <div class="flex items-center">

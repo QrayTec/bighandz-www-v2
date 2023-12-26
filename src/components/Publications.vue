@@ -1,17 +1,17 @@
 <template>
   <div
     id="Publications"
-    class="w-full"
+    class="w-full px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <ThePageMinTitle data-aos="fade-right">出版物</ThePageMinTitle>
 
     <div
       data-aos="fade-in"
-      class="mt-[60px] flex justify-between"
+      class="mt-[60px] flex flex-col lg:flex-row lg:justify-between"
     >
       <div
-        class="h-[460px] w-[calc(50%-15px)] flex justify-center"
+        class="h-[460px] w-full flex justify-center lg:w-[calc(50%-15px)]"
         data-aos="fade-right"
       >
         <img
@@ -21,7 +21,7 @@
         />
       </div>
       <div
-        class="w-[calc(50%-15px)] flex flex-col justify-between py-[30px]"
+        class="w-full flex flex-col justify-between py-[30px] lg:w-[calc(50%-15px)]"
         data-aos="fade-left"
       >
         <div class="flex flex-col">

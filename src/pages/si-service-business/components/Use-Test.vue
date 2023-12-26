@@ -1,6 +1,6 @@
 <template>
   <div
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="mt-[120px] w-full">
@@ -22,10 +22,10 @@
         </p>
       </div>
       <div
-        class="text-cobalt_blue mt-[30px] flex justify-between text-[1rem] leading-[2rem] font-[400]"
+        class="text-cobalt_blue mt-[30px] flex flex-col justify-between text-[1rem] leading-[2rem] font-[400] lg:flex-row"
       >
         <div
-          class="w-[710px]"
+          class="order-1 mt-[30px] w-full lg:order-0 lg:mt-0 lg:w-[710px]"
           data-aos="fade-right"
         >
           <TheIconList
@@ -37,8 +37,9 @@
           </TheIconList>
         </div>
         <div
+          v-if="MAIN_CONTENT_WIDTH === 1200"
           data-aos="fade-left"
-          class="w-[460px] flex flex-col items-center justify-end text-[1.5rem] leading-[30px] font-[700] text-white"
+          class="order-0 w-full flex flex-col items-center justify-end text-[1.5rem] leading-[30px] font-[700] text-white lg:order-1 lg:w-[460px]"
         >
           <div class="z-10 w-[160px]">
             <div
@@ -80,6 +81,9 @@
               <p class="w-full text-center">リスクの低減</p>
             </div>
           </div>
+        </div>
+        <div v-else>
+          <img src="@/assets/images/si-service-business/Use-Test-M.png" />
         </div>
       </div>
     </div>

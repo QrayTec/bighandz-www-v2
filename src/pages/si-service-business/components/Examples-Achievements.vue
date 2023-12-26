@@ -3,7 +3,7 @@
     <div
       id="ExamplesAchievements"
       data-aos="fade-in"
-      class="w-full"
+      class="w-full px-[15px] lg:px-0"
       :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
     >
       <ThePageMinTitle3 data-aos="fade-right">開発実績一例</ThePageMinTitle3>
@@ -11,7 +11,10 @@
         class="mt-[60px]"
         data-aos="fade-up"
       >
-        <table class="w-full border border-[#6785C1] border-solid">
+        <table
+          v-if="MAIN_CONTENT_WIDTH === 1200"
+          class="w-full border border-[#6785C1] border-solid"
+        >
           <thead
             class="h-[36px] bg-[#DFE4F2] py-[12px] text-center text-[1rem] font-[700] text-[#071027]"
           >
@@ -62,6 +65,173 @@
             </tr>
           </tbody>
         </table>
+
+        <table
+          v-if="MAIN_CONTENT_WIDTH < 1200"
+          class="w-full"
+        >
+          <tbody class="w-full text-[1rem] font-[400] text-[#071027]">
+            <div
+              v-for="(item, index) in AchievementsData"
+              :key="index"
+              class="w-full flex flex-col items-center justify-center"
+            >
+              <thead class="w-full flex justify-center">
+                <tr class="text-cobalt_blue w-full bg-[#DFE4F2] text-left">
+                  <th class="w-[120px] px-[8px] py-[5px] align-middle">No.</th>
+                  <th
+                    class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                  >
+                    {{ index + 1 }}
+                  </th>
+                </tr>
+              </thead>
+
+              <tr class="flex justify-center">
+                <td class="w-[120px] px-[8px] py-[5px] align-middle">
+                  システム名
+                </td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  {{ item.SystemName }}
+                </td>
+              </tr>
+              <tr>
+                <td class="w-[120px] px-[8px] py-[5px] align-middle">技術</td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  {{ item.Technology }}
+                </td>
+              </tr>
+              <tr>
+                <td class="w-[120px] px-[8px] py-[5px] align-middle">規模</td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  {{ item.Scale }}
+                </td>
+              </tr>
+              <tr>
+                <td class="h-full w-[120px] px-[8px] py-[5px] align-middle">
+                  備考
+                </td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  {{ item.Remarks }}
+                </td>
+              </tr>
+            </div>
+          </tbody>
+          <tbody>
+            <div class="w-full flex flex-col items-center justify-center">
+              <thead class="w-full flex justify-center">
+                <tr class="text-cobalt_blue w-full bg-[#DFE4F2] text-left">
+                  <th class="w-[120px] px-[8px] py-[5px] align-middle">No.</th>
+                  <th
+                    class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                  >
+                    9
+                  </th>
+                </tr>
+              </thead>
+
+              <tr class="bg-[#FDEADA]">
+                <td class="w-[120px] px-[8px] py-[5px] align-middle">
+                  システム名
+                </td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  POSシステム
+                </td>
+              </tr>
+              <tr class="bg-[#FDEADA]">
+                <td class="w-[120px] px-[8px] py-[5px] align-middle">技術</td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  Java、.NET、C++
+                </td>
+              </tr>
+              <tr class="bg-[#FDEADA]">
+                <td class="w-[120px] px-[8px] py-[5px] align-middle">規模</td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  40人チーム
+                </td>
+              </tr>
+              <tr class="bg-[#FDEADA]">
+                <td class="h-full w-[120px] px-[8px] py-[5px] align-middle">
+                  備考
+                </td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  外部設計：東京、詳細設計・製造 大連・青島
+                  POSチーム体制確立し、保守・運用までサポート 対応機種：<span
+                    class="text-[#6785C1]"
+                    >富士通、NCR、東芝テック、NEC、寺岡</span
+                  >
+                  Mobile/Cloud POSも対応経験有
+                </td>
+              </tr>
+            </div>
+            <div class="w-full flex flex-col items-center justify-center">
+              <thead class="w-full flex justify-center">
+                <tr class="text-cobalt_blue w-full bg-[#DFE4F2] text-left">
+                  <th class="w-[120px] px-[8px] py-[5px] align-middle">No.</th>
+                  <th
+                    class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                  >
+                    10
+                  </th>
+                </tr>
+              </thead>
+
+              <tr class="bg-[#FFD9B9]">
+                <td class="w-[120px] px-[8px] py-[5px] align-middle">
+                  システム名
+                </td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  コールセンタシステム
+                </td>
+              </tr>
+              <tr class="bg-[#FFD9B9]">
+                <td class="w-[120px] px-[8px] py-[5px] align-middle">技術</td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  Java
+                </td>
+              </tr>
+              <tr class="bg-[#FFD9B9]">
+                <td class="w-[120px] px-[8px] py-[5px] align-middle">規模</td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  20人チーム、100人月
+                </td>
+              </tr>
+              <tr class="bg-[#FFD9B9]">
+                <td class="h-full w-[120px] px-[8px] py-[5px] align-middle">
+                  備考
+                </td>
+                <td
+                  class="w-[225px] px-[10px] py-[5px] md:w-[calc(680px-120px)]"
+                >
+                  外部設計：東京、詳細設計・製造：大連、青島
+                  保守・運用体制構築し対応中
+                </td>
+              </tr>
+            </div>
+          </tbody>
+        </table>
       </div>
     </div>
     <div
@@ -70,13 +240,15 @@
     >
       <div
         :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
-        class="px-[123px] py-[60px]"
+        class="flex flex-col px-[15px] py-[60px] lg:px-[123px]"
       >
-        <div class="flex justify-between">
+        <div
+          class="order-1 flex flex-col items-center lg:order-0 lg:flex-row md:flex-row md:flex-wrap lg:justify-between"
+        >
           <div
             v-for="(item, index) in ImageListData"
             :key="index"
-            class="h-[220px] w-[216px] flex flex-col items-center justify-center px-[20px] pb-[14px] pt-[30px]"
+            class="h-[220px] w-[216px] flex flex-col items-center justify-center px-[20px] pb-[14px] pt-[30px] md:h-[300px] md:w-[300px]"
           >
             <div
               class="h-[120px] w-[120px] flex items-center justify-center border border-[#DFE4F2] rounded-full border-solid"
@@ -94,7 +266,7 @@
           </div>
         </div>
         <div
-          class="text-cobalt_blue mt-[60px] flex justify-center text-[1.25rem] font-[700]"
+          class="text-cobalt_blue order-0 mt-[60px] flex justify-center text-[1.25rem] font-[700] lg:order-1"
         >
           幅広いコンピュータ技術を持ち、業務システムの構築ノウハウを蓄積・保有している。
         </div>
@@ -103,83 +275,8 @@
   </div>
 </template>
 <script setup lang="ts">
-import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
-import { AchievementsType, ImageListType } from '../types/index'
-import ExpIcon1 from '@/assets/images/si-service-business/Exp_icon_1.svg'
-import ExpIcon2 from '@/assets/images/si-service-business/Exp_icon_2.svg'
-import ExpIcon3 from '@/assets/images/si-service-business/Exp_icon_3.svg'
-import ExpIcon4 from '@/assets/images/si-service-business/Exp_icon_4.svg'
-
-const AchievementsData = ref<AchievementsType[]>([
-  {
-    SystemName: '健康保険システム',
-    Technology: 'TERASOLUNA、Java',
-    Scale: '12人チーム、150人月',
-    Remarks: '外部設計・詳細設計・製造：東京、問合対応：東京'
-  },
-  {
-    SystemName: '介護保険システム',
-    Technology: '.NET、VC++、PL/SQL',
-    Scale: '25人チーム、300人月',
-    Remarks: '外部設計：東京、詳細設計・製造：青島'
-  },
-  {
-    SystemName: '簡易保険システム',
-    Technology: 'MF COBOL',
-    Scale: '40人チーム、480人月',
-    Remarks: '概要設計、外部設計：東京、詳細設計・製造：東京　'
-  },
-  {
-    SystemName: '電波監視システム',
-    Technology: '.NET、VC++、PL/SQL',
-    Scale: '50人チーム、350人月',
-    Remarks: '概要設計、外部設計：東京、詳細設計・製造：青島　'
-  },
-  {
-    SystemName: '電子入札システム',
-    Technology: 'Spring、Java',
-    Scale: '30人チーム、400人月',
-    Remarks: '外部設計：東京、詳細設計・製造：青島　'
-  },
-  {
-    SystemName: '製薬会社向け製造販売後調査システム',
-    Technology: 'Spring、Java、JQuery',
-    Scale: '10人チーム、100人月',
-    Remarks: '外部設計：東京、詳細設計・製造：青島　'
-  },
-  {
-    SystemName: '証券システム（開発）',
-    Technology: 'Java、COBOL',
-    Scale: '46人チーム、600人月',
-    Remarks: '外部設計：東京、詳細設計・製造：青島'
-  },
-  {
-    SystemName: '証券システム（運用）',
-    Technology: 'Java、COBOL',
-    Scale: '25人チーム、LAB契約',
-    Remarks: '運用：東京、青島、テスト：東京、青島'
-  }
-])
-
-const ImageListData = ref<ImageListType[]>([
-  {
-    Image: ExpIcon1,
-    title: 'カスタムソフトウェア開発'
-  },
-  {
-    Image: ExpIcon2,
-    title: 'パッケージソフトウェア開発'
-  },
-  {
-    Image: ExpIcon3,
-    title: 'Webアプリケーション開発'
-  },
-  {
-    Image: ExpIcon4,
-    title: 'スマートフォンアプリケーション開発'
-  }
-])
+import { AchievementsData, ImageListData } from '../data/index'
 </script>
 <style scoped>
 th,

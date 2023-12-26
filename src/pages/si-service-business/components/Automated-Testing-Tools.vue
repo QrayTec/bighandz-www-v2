@@ -2,7 +2,7 @@
   <div
     id="AutomatedTestingTools"
     data-aos="fade-in"
-    class="font-NotoSansJP w-full"
+    class="font-NotoSansJP w-full px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <ThePageMinTitle data-aos="fade-right">
@@ -12,9 +12,9 @@
       <ThePageMinTitle3 data-aos="fade-right"
         >携帯アプリテストの課題</ThePageMinTitle3
       >
-      <div class="mt-[60px] flex justify-between">
+      <div class="mt-[60px] flex flex-col lg:flex-row lg:justify-between">
         <div
-          class="w-[710px]"
+          class="order-1 mt-[30px] w-full lg:order-0 lg:mt-0 lg:w-[710px]"
           data-aos="fade-right"
         >
           <div
@@ -32,7 +32,7 @@
           </div>
         </div>
         <div
-          class="w-[460px] overflow-hidden"
+          class="order-0 w-full flex justify-center overflow-hidden lg:order-1 lg:mt-0 lg:w-[460px]"
           data-aos="fade-left"
         >
           <img
@@ -47,9 +47,9 @@
       <ThePageMinTitle3 data-aos="fade-right"
         >携帯テスト自動化ツール</ThePageMinTitle3
       >
-      <div class="mt-[30px] flex justify-between">
+      <div class="mt-[30px] flex flex-col lg:flex-row lg:justify-between">
         <div
-          class="w-[460px] overflow-hidden"
+          class="w-full flex justify-center overflow-hidden lg:w-[460px]"
           data-aos="fade-right"
         >
           <img
@@ -60,7 +60,7 @@
         </div>
         <div
           data-aos="fade-left"
-          class="text-cobalt_blue w-[710px] text-[1rem] leading-[2rem] font-[400]"
+          class="text-cobalt_blue mt-[30px] w-full text-[1rem] leading-[2rem] font-[400] lg:mt-0 lg:w-[710px]"
         >
           <div>
             <p>

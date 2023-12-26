@@ -2,7 +2,8 @@
   <div
     v-show="BtnFlag"
     v-smooth-scroll="{
-      duration: 1000
+      duration: 1000,
+      offset: -120
     }"
     href="#app"
     class="fixed bottom-[150px] right-[0px] z-9 h-[64px] w-[64px] flex cursor-pointer items-center justify-center bg-[#597be5] transition-all duration-300 hover:bg-[#31437c]"
