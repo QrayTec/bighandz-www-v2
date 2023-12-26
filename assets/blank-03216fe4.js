@@ -1,1 +1,0 @@
-import{g as o,r as n,o as t,c as r,b as c}from"./app-19c9b574.js";import"./video-chunk-b633910e.js";const a={};function s(_,l){const e=n("RouterView");return t(),r("main",null,[c(e)])}const p=o(a,[["render",s]]);export{p as default};
