@@ -1,20 +1,26 @@
 <template>
   <div
     id="To-New-Graduates"
-    class="font-NotoSansJP relative h-auto flex justify-center text-white"
+    class="font-NotoSansJP relative h-auto flex justify-center px-[15px] text-white lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)]"></div>
+    <div
+      class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-60px)] lg:w-[calc(100%-120px)]"
+    ></div>
     <div class="w-full">
-      <div class="z-1 w-full flex items-center">
+      <div class="z-1 w-full flex flex-col lg:flex-row lg:items-center">
         <ThePageMinTitle2 data-aos="fade-up"> 新卒の皆さんへ </ThePageMinTitle2>
-        <div class="ml-[1.875rem] text-[1.25rem] leading-normal font-[400]">
+        <div
+          class="mt-[30px] px-[30px] text-[1.25rem] leading-normal font-[400] lg:ml-[1.875rem] lg:mt-0"
+        >
           <p class="inline-block">
             当社の新卒採用ページにアクセスいただき、ありがとうございます。
           </p>
         </div>
       </div>
-      <div class="mt-[60px] w-full flex flex-col items-center">
+      <div
+        class="mt-[60px] w-full flex flex-col items-center px-[30px] lg:px-0"
+      >
         <div data-aos="fade-up">
           <img
             src="@/assets/images/graduate-recruitment/Graduates_1.svg"
@@ -22,7 +28,8 @@
           />
         </div>
         <div
-          class="shadow-Graduates relative translate-y-[-3.125rem] bg-[#597BE5] px-[90px] py-[20px]"
+          v-if="MAIN_CONTENT_WIDTH === 1200"
+          class="shadow-Graduates relative w-full translate-y-[-50px] bg-[#597BE5] py-[20px] text-center lg:px-[90px]"
         >
           <img
             class="absolute left-0 top-[-10px]"
@@ -35,6 +42,23 @@
           <p>株式会社ビッグハンズ</p>
           <p>人事部 新卒採用担当者</p>
         </div>
+        <div
+          v-else
+          class="shadow-Graduates relative w-full translate-y-[-70px] bg-[#597BE5] py-[20px] text-center md:w-[320px] lg:px-[90px]"
+        >
+          <img
+            class="absolute left-0 top-[-5px]"
+            src="@/assets/images/graduate-recruitment/Graduates_top_1_1.svg"
+          />
+          <img
+            class="absolute right-0 top-[-5px]"
+            src="@/assets/images/graduate-recruitment/Graduates_top_2_2.svg"
+          />
+          <p>株式会社ビッグハンズ</p>
+          <p>人事部 新卒採用担当者</p>
+        </div>
+      </div>
+      <div v-if="MAIN_CONTENT_WIDTH === 1200">
         <div
           data-aos="fade-up"
           class="relative mt-[3.75rem] h-[12.5rem] w-full flex text-[.875rem] leading-normal font-[400]"
@@ -120,10 +144,12 @@
           </div>
         </div>
       </div>
+      <GraduatesPhone v-else />
     </div>
   </div>
 </template>
 <script setup lang="ts">
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
+import GraduatesPhone from './GraduatesPhone.vue'
 </script>
 <style lang=""></style>

@@ -1,18 +1,22 @@
 <template>
   <div
     id="OpenPositions"
-    class="font-NotoSansJP relative h-auto flex justify-center text-white"
+    class="font-NotoSansJP relative h-auto flex justify-center px-[15px] text-white lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)]"></div>
+    <div
+      class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-60px)] lg:w-[calc(100%-120px)]"
+    ></div>
     <div class="w-full">
       <ThePageMinTitle2 data-aos="fade-up">募集職種</ThePageMinTitle2>
-      <div class="w-full flex flex-col items-center justify-center px-[90px]">
+      <div
+        class="w-full flex flex-col items-center justify-center px-[30px] lg:px-[90px]"
+      >
         <div
-          class="mt-[60px] w-full flex"
+          class="mt-[60px] w-full flex flex-col lg:flex-row"
           data-aos="fade-up"
         >
-          <div class="w-[50%] flex">
+          <div class="flex lg:w-[50%]">
             <div
               class="w-[80px] flex items-center bg-[#597BE5] px-[30px] py-[20px]"
             >
@@ -22,18 +26,18 @@
               class="w-[calc(100%-80px)] flex flex-col text-[1rem] font-[700]"
             >
               <div
-                class="text-deep_blue border border-[#597BE5] border-solid bg-[#fff] px-[30px] py-[20px]"
+                class="text-deep_blue border border-[#597BE5] border-solid bg-[#fff] px-[10px] py-[20px] lg:px-[30px]"
               >
                 開発エンジニア
               </div>
               <div
-                class="text-deep_blue border border-[#597BE5] border-solid bg-[#fff] px-[30px] py-[20px]"
+                class="text-deep_blue border border-[#597BE5] border-solid bg-[#fff] px-[10px] py-[20px] lg:px-[30px]"
               >
                 インフラエンジニア
               </div>
             </div>
           </div>
-          <div class="w-[50%] flex">
+          <div class="flex lg:w-[50%]">
             <div
               class="w-[80px] flex items-center bg-[#597BE5] px-[30px] py-[20px]"
             >
@@ -43,7 +47,7 @@
               class="text-deep_blue h-[132px] w-[calc(100%-80px)] flex flex-col text-[1rem] font-[700]"
             >
               <div
-                class="h-full flex items-center border border-[#597BE5] border-solid bg-[#fff] px-[30px] py-[20px]"
+                class="h-full flex items-center border border-[#597BE5] border-solid bg-[#fff] px-[10px] py-[20px] lg:px-[30px]"
               >
                 営業
               </div>
@@ -52,7 +56,7 @@
         </div>
         <div
           data-aos="fade-up"
-          class="text-deep_blue mt-[30px] flex bg-[#fff] p-[30px]"
+          class="text-deep_blue mt-[30px] flex bg-[#fff] p-[10px] lg:p-[30px]"
         >
           <div>
             <li class="w-full flex items-center">

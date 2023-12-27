@@ -1,24 +1,37 @@
 <template>
   <div
     id="Salary&Benefits"
-    class="font-NotoSansJP relative h-auto flex justify-center text-white"
+    class="font-NotoSansJP relative h-auto flex justify-center px-[15px] text-white lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)]"></div>
+    <div
+      class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-60px)] lg:w-[calc(100%-120px)]"
+    ></div>
     <div class="w-full">
       <ThePageMinTitle2 data-aos="fade-up">給与</ThePageMinTitle2>
       <div
-        class="px-[90px]"
+        class="px-[30px] lg:px-[90px]"
         data-aos="fade-up"
       >
         <div class="mt-[60px]">
           <img
+            v-if="MAIN_CONTENT_WIDTH === 1200"
             src="@/assets/images/graduate-recruitment/industrial-finance.png"
-            alt=""
           />
+          <photo-provider v-else>
+            <photo-consumer
+              intro="給与"
+              :src="financePhone"
+            >
+              <img
+                src="@/assets/images/graduate-recruitment/industrial-financePhone.png"
+                class="view-box"
+              />
+            </photo-consumer>
+          </photo-provider>
         </div>
         <div
-          class="mt-[60px] px-[90px] text-[.875rem] leading-normal font-[400]"
+          class="mt-[60px] px-[30px] text-[.875rem] leading-normal font-[400] lg:px-[90px]"
         >
           <div data-aos="fade-up">
             <div>※通勤手当別途支給。</div>
@@ -59,6 +72,7 @@
   </div>
 </template>
 <script setup lang="ts">
+import financePhone from '@/assets/images/graduate-recruitment/industrial-financePhone.png'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 </script>
 <style lang=""></style>

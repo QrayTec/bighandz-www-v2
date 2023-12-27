@@ -1,17 +1,19 @@
 <template>
   <div
     id="PersonnelSystem"
-    class="font-NotoSansJP relative h-auto flex justify-center text-white"
+    class="font-NotoSansJP relative h-auto flex justify-center px-[15px] text-white lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)]"></div>
+    <div
+      class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)] w-[calc(100%-60px)] lg:w-[calc(100%-120px)]"
+    ></div>
     <div class="w-full">
       <ThePageMinTitle2 data-aos="fade-up">人事制度</ThePageMinTitle2>
       <div
         v-for="(item, index) in ListData"
         :key="index"
         data-aos="fade-up"
-        class="px-[90px]"
+        class="px-[30px] lg:px-[90px]"
         :class="index == 0 ? 'mt-[60px]' : 'mt-[30px]'"
       >
         <TheIconList :type="2">

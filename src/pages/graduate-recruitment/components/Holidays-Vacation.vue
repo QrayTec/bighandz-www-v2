@@ -1,13 +1,15 @@
 <template>
   <div
-    class="font-NotoSansJP relative h-auto flex justify-center text-white"
+    class="font-NotoSansJP relative h-auto flex justify-center px-[15px] text-white lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)]"></div>
+    <div
+      class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-60px)] lg:w-[calc(100%-120px)]"
+    ></div>
     <div class="w-full">
       <ThePageMinTitle2 data-aos="fade-up">休日・休暇</ThePageMinTitle2>
       <div
-        class="mt-[60px] px-[90px]"
+        class="mt-[60px] px-[30px] lg:px-[90px]"
         data-aos="fade-up"
       >
         <TheIconList :type="2">
@@ -15,7 +17,7 @@
         </TheIconList>
       </div>
       <div
-        class="mt-[30px] px-[90px]"
+        class="mt-[30px] px-[30px] lg:px-[90px]"
         data-aos="fade-up"
       >
         <TheIconList :type="2">
