@@ -1,30 +1,23 @@
 <template>
-  <div class="relative h-[360px] w-[585px]">
-    <div class="absolute left-0 top-0 h-full w-full">
-      <img
-        :src="CardData.BackgroundImage"
-        alt=""
-      />
-    </div>
+  <div
+    class="mt-[30px] h-[212px] w-full bg-cover lg:mt-0 md:mt-0 lg:h-[360px] lg:w-[585px] md:h-[200px] md:w-[320px]"
+    :style="{ backgroundImage: 'url(' + CardData.BackgroundImage + ')' }"
+  >
     <div
-      class="font-NotoSansJP relative left-0 top-0 h-full w-full bg-[#0E1B47] bg-opacity-40 px-[40px] text-white"
+      class="bg-deep_blue h-full w-full bg-opacity-40 px-[15px] py-[30px] text-white"
     >
-      <a
-        :href="CardData.link"
-        class="flex flex-col"
+      <router-link
+        :to="CardData.link"
+        class="h-full w-full flex flex-col justify-end"
       >
-        <div class="pt-[240px] text-[24px] leading-[30px] font-[500]">
-          {{ CardData.title }}
+        <div class="text-[1.5rem] font-[700]">{{ CardData.title }}</div>
+        <div class="mt-[30px] flex items-center">
+          <div>詳細はこちら</div>
+          <div class="ml-[20px]">
+            <img src="@/assets/images/index_Business/link.svg" />
+          </div>
         </div>
-        <div class="mt-[30px] w-full flex">
-          <p>詳細はこちら</p>
-          <img
-            class="ml-[20px]"
-            src="@/assets/images/index_Business/link.svg"
-            alt=""
-          />
-        </div>
-      </a>
+      </router-link>
     </div>
   </div>
 </template>

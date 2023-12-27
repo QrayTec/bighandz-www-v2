@@ -1,12 +1,8 @@
 <template>
   <div class="w-full">
-    <div class="message_from_president_main">
-      <SubPageTitleBg :data="SubPageTitleData" />
-    </div>
-    <div class="m_b_240 healthcare_business m_t_150 m_t_150">
-      <div class="healthcare_business_box">
-        <AdoptionItem />
-      </div>
+    <SubPageTitleBg :data="SubPageTitleData" />
+    <div class="my-[120px] flex flex-col items-center justify-center">
+      <AdoptionItem />
     </div>
   </div>
 </template>

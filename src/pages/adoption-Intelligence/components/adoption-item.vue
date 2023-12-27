@@ -1,10 +1,11 @@
 <template>
-  <div class="w-full">
-    <div class="flex justify-center">
-      <!-- <Movie /> -->
-    </div>
-    <!-- <hr class="my-[80px] border-[1px] border-[#0E1B47] border-solid" /> -->
-    <div class="flex justify-between">
+  <div
+    class="font-NotoSansJP px-[15px] lg:px-0"
+    :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
+  >
+    <div
+      class="flex flex-col lg:flex-row md:flex-row lg:justify-between md:justify-between"
+    >
       <div
         v-for="card in AdoptionCardData"
         :key="card.title"
@@ -16,6 +17,7 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
+import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import AdoptionCard from './adoptionCard.vue'
 import { AdoptionCardType } from '../types/index'
 import graduates from '@/assets/images/adoption/graduates.png'
