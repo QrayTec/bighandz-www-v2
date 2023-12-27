@@ -5,7 +5,7 @@
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div
-      class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-120px)] w-[calc(100%-60px)] lg:w-[calc(100%-120px)]"
+      class="bg-deep_blue absolute z-[-1] h-full w-[calc(100%-60px)] lg:w-[calc(100%-120px)]"
     ></div>
     <div class="w-full">
       <ThePageMinTitle2 data-aos="fade-up">人事制度</ThePageMinTitle2>

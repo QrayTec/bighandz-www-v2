@@ -1,6 +1,6 @@
 <template>
   <div
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <ThePageMinIconTitle
@@ -10,10 +10,10 @@
       >電車で行く</ThePageMinIconTitle
     >
     <div
-      class="mt-[60px] w-full flex justify-between"
+      class="mt-[60px] w-full flex flex-col lg:flex-row lg:justify-between"
       data-aos="fade-up"
     >
-      <div class="w-[calc(50%-30px)]">
+      <div class="w-full lg:w-[calc(50%-30px)]">
         <TheIconList class="mt-[30px]"
           >東京メトロ「東西線」茅場町駅3番出口徒歩10分</TheIconList
         >
@@ -24,7 +24,9 @@
           >東京メトロ「日比谷線」八丁堀駅A4番出口徒歩7分</TheIconList
         >
       </div>
-      <div class="h-[380px] w-[50%]">
+      <div
+        class="mt-[30px] h-[215px] w-full lg:mt-0 lg:h-[380px] lg:w-[calc(50%-30px)] md:h-[360px]"
+      >
         <iframe
           class="h-full w-full"
           src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3240.9869171682044!2d139.77945566150805!3d35.67732413007397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x6018895bae6c2a8d%3A0x7c332c5bb0c2cd92!2z6IyF5Zy655S6IOaXpeacrOOAkjEwMy0wMDI1IFRva3lvLCBDaHVvIENpdHksIE5paG9uYmFzaGlrYXlhYmFjaMWNLCAxLWNoxY1tZeKIkjEx!3m2!1d35.6799355!2d139.78016309999998!4m5!1s0x60188968200fffff%3A0x1b535c2dd2c70bfd!2zVG9reW8gRGlhIEJ1aWxkaW5nLCDmnbHkuqzjg4DjgqTjg6Tjg5Pjg6s05Y-36aSoIDEgQ2hvbWUtMjgg5paw5bed5Lit5aSu5Yy65Lic5Lqs6YO95pel5pys!3m2!1d35.6749931!2d139.78468569999998!5e0!3m2!1szh-CN!2sus!4v1702195374646!5m2!1szh-CN!2sus"
@@ -42,10 +44,10 @@
       >バスで行く</ThePageMinIconTitle
     >
     <div
-      class="mt-[60px] w-full flex justify-between"
+      class="mt-[60px] w-full flex flex-col lg:flex-row lg:justify-between"
       data-aos="fade-up"
     >
-      <div class="w-[calc(50%-30px)]">
+      <div class="order-1 w-full lg:order-0 lg:w-[calc(50%-30px)]">
         <div>
           <TheIconList>東京駅八重洲口から</TheIconList>
           <div
@@ -75,11 +77,10 @@
           </div>
         </div>
       </div>
-      <div class="w-[50%]">
-        <img
-          src="@/assets/images/map/bus_2.png"
-          alt=""
-        />
+      <div
+        class="order-1 mt-[30px] w-full lg:order-0 lg:mt-0 lg:w-[calc(50%-30px)]"
+      >
+        <img src="@/assets/images/map/bus_2.png" />
       </div>
     </div>
 
@@ -99,9 +100,20 @@
       data-aos="fade-up"
     >
       <img
+        v-if="MAIN_CONTENT_WIDTH === 1200"
         src="@/assets/images/map/bus_timer_map.png"
-        alt=""
       />
+      <photo-provider v-else>
+        <photo-consumer
+          intro="無料シャトルバス"
+          :src="BusTimerMap"
+        >
+          <img
+            :src="BusTimerMap"
+            class="view-box"
+          />
+        </photo-consumer>
+      </photo-provider>
     </div>
     <div
       class="mt-[30px]"
@@ -119,8 +131,10 @@
           青ルート（茅場町駅・八丁堀駅巡回ルート）
         </div>
       </div>
-      <div class="mt-[45px] w-full flex items-center justify-between">
-        <div class="w-[530px]">
+      <div
+        class="mt-[45px] w-full flex flex-col items-center lg:flex-row lg:justify-between"
+      >
+        <div class="w-full lg:w-[530px]">
           <table class="w-full">
             <thead>
               <tr>
@@ -153,13 +167,12 @@
             </tbody>
           </table>
         </div>
-        <div class="w-[80px]">
-          <img
-            src="@/assets/images/map/arrow-right_1.svg"
-            alt=""
-          />
+        <div
+          class="mt-[30px] h-[80px] w-[80px] rotate-90 lg:mt-0 lg:h-auto lg:rotate-0"
+        >
+          <img src="@/assets/images/map/arrow-right_1.svg" />
         </div>
-        <div class="w-[530px]">
+        <div class="mt-[30px] w-full lg:mt-0 lg:w-[530px]">
           <table class="w-full">
             <thead>
               <tr>
@@ -210,8 +223,10 @@
           赤ルート（八重洲地下街入口・日本橋駅・茅場町巡回ルート）
         </div>
       </div>
-      <div class="mt-[45px] w-full flex items-center justify-between">
-        <div class="w-[306px]">
+      <div
+        class="mt-[45px] w-full flex flex-col items-center lg:flex-row lg:justify-between"
+      >
+        <div class="w-full lg:w-[306px]">
           <table class="w-full">
             <thead>
               <tr>
@@ -244,13 +259,12 @@
             </tbody>
           </table>
         </div>
-        <div class="w-[80px]">
-          <img
-            src="@/assets/images/map/arrow-right_2.svg"
-            alt=""
-          />
+        <div
+          class="mt-[30px] h-[80px] w-[80px] rotate-90 lg:mt-0 lg:h-auto lg:rotate-0"
+        >
+          <img src="@/assets/images/map/arrow-right_2.svg" />
         </div>
-        <div class="w-[306px]">
+        <div class="mt-[30px] w-full lg:mt-0 lg:w-[306px]">
           <table class="w-full">
             <thead>
               <tr>
@@ -283,13 +297,12 @@
             </tbody>
           </table>
         </div>
-        <div class="w-[80px]">
-          <img
-            src="@/assets/images/map/arrow-right_2.svg"
-            alt=""
-          />
+        <div
+          class="mt-[30px] h-[80px] w-[80px] rotate-90 lg:mt-0 lg:h-auto lg:rotate-0"
+        >
+          <img src="@/assets/images/map/arrow-right_2.svg" />
         </div>
-        <div class="w-[306px]">
+        <div class="mt-[30px] w-full lg:mt-0 lg:w-[306px]">
           <table class="w-full">
             <thead>
               <tr>
@@ -338,6 +351,7 @@ import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import train from '@/assets/images/map/train_1.svg'
 import bus from '@/assets/images/map/bus_1.svg'
+import BusTimerMap from '@/assets/images/map/bus_timer_map.png'
 
 import { ListType } from '../types/index'
 import {
