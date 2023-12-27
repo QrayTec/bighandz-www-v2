@@ -1,14 +1,16 @@
 <template>
   <div
     id="STEP１"
-    class="font-NotoSansJP relative flex flex-col items-center justify-center pb-[120px]"
+    class="font-NotoSansJP relative flex flex-col items-center justify-center px-[15px] pb-[120px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
+    <div
+      class="absolute z-[-1] h-full w-[calc(100%-60px)] bg-white lg:w-[calc(100%-120px)]"
+    ></div>
 
     <div class="w-full">
       <the-page-min-title2 data-aos="fade-up">STEP ①</the-page-min-title2>
-      <div class="w-[calc(100%-120px)] pl-[204px]">
+      <div class="px-[30px] lg:w-[calc(100%-120px)] lg:pl-[204px]">
         <div
           v-for="item in FAQData"
           :key="item.id"
@@ -19,7 +21,7 @@
             class="text-deep_blue flex text-[1rem] leading-[2rem] font-[700]"
           >
             <div
-              class="w-[40px] bg-[#6785C1] text-center font-[400] text-white"
+              class="h-[32px] min-w-[40px] bg-[#6785C1] text-center font-[400] text-white"
             >
               {{ item.question_id }}
             </div>
