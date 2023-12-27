@@ -24,7 +24,7 @@
         </p>
       </div>
       <div
-        class="order-0 w-full flex justify-center lg:order-1 lg:w-[460px] lg:justify-start"
+        class="order-0 w-full flex justify-center lg:order-1 lg:h-[320px] lg:w-[460px] lg:justify-start"
         data-aos="fade-up"
       >
         <img

@@ -36,14 +36,14 @@
           />
         </div>
       </div>
-      <div v-else>test</div>
+      <GartnerCardPhone v-else />
     </div>
     <div
       class="mt-[120px]"
       data-aos="fade-up"
     >
       <div
-        class="text-deep_blue w-[654px] text-[1rem] leading-[2rem] font-[400]"
+        class="text-deep_blue text-[1rem] leading-[2rem] font-[400] lg:w-[654px]"
       >
         物流DXの導入にあたっては、お客様の事業戦略や経営課題を分析し、物流戦略に落とし込んで目標を設定し、喫緊の課題解決に向けた個別最適化だけでなく、将来の改善に向けたサプライチェーン全体の最適化も行います。
       </div>
@@ -75,7 +75,7 @@ import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import { ChallengesList } from '../types/index'
 import { CombinedCardData } from '../data/Data'
 import GartnerCard from './GartnerCard.vue'
-
+import GartnerCardPhone from './GartnerCardPhone.vue'
 import Pic from '@/assets/images/logistics-business/pic_1.png'
 
 const PlatformData = ref<ChallengesList[]>([

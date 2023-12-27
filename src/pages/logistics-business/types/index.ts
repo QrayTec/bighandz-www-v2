@@ -36,3 +36,9 @@ export interface AiDeliverType {
 export interface ListType {
   list: string
 }
+
+export interface ManagementPhoneType {
+  ClassName: string
+  title: string
+  Content: string
+}

@@ -1,7 +1,7 @@
 <template>
   <div
     id="LogisticsManagement"
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <ThePageMinTitle>物流全般管理</ThePageMinTitle>
@@ -12,7 +12,10 @@
       </p>
     </div>
 
-    <div class="mt-[60px] w-full flex justify-center">
+    <div
+      v-if="MAIN_CONTENT_WIDTH === 1200"
+      class="mt-[60px] w-full flex justify-center"
+    >
       <div class="w-full flex flex-col items-center justify-center">
         <div
           class="relative h-[732px] w-full flex flex-col items-center justify-center"
@@ -303,17 +306,18 @@
         </div>
       </div>
     </div>
-
+    <ManageMentPhone v-else />
     <div
-      class="mt-[120px]"
+      class="mt-[60px] lg:mt-[120px]"
       data-aos="fade-up"
     >
       <div
-        class="text-deep_blue w-[654px] text-[1rem] leading-[2rem] font-[400]"
+        class="text-deep_blue text-[1rem] leading-[2rem] font-[400] lg:w-[654px]"
       >
         物流戦略の策定からシステム構築、保守・運用サービス、倉庫運営支援まで一気通貫でお客様にサービスを提供します。
       </div>
       <div
+        v-if="MAIN_CONTENT_WIDTH === 1200"
         class="mt-[60px] flex flex-col items-center justify-center bg-[#DFE4F2] px-[30px] pb-[15px]"
       >
         <div class="relative mt-[30px] h-[44px] w-full flex justify-center">
@@ -380,7 +384,7 @@
               :style="{
                 borderColor: item.borderColor
               }"
-              class="mt-[10px] h-[312px] border-2 rounded-[5px] border-solid bg-[#fff] p-[10px]"
+              class="mt-[10px] h-[350px] border-2 rounded-[5px] border-solid bg-[#fff] p-[10px]"
             >
               <TheIconList
                 v-for="(items, i) in item.content"
@@ -398,6 +402,7 @@
           ゴールを共有し、お客さまとのパートナーシップを大切にプロジェクトを遂行いたします
         </div>
       </div>
+      <LogisticsStrategyPhone v-else />
     </div>
   </div>
 </template>
@@ -406,6 +411,9 @@ import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 import { ManagementType } from '../types/index'
+
+import ManageMentPhone from './ManageMentPhone.vue'
+import LogisticsStrategyPhone from './LogisticsStrategyPhone.vue'
 
 const ManagementData = ref<ManagementType[]>([
   {
