@@ -1,17 +1,19 @@
 <template>
   <div
-    class="page_center_items relative my-[120px] flex flex-col items-center"
+    class="page_center_items relative my-[120px] flex flex-col items-center px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
+    <div
+      class="absolute z-[-1] h-full w-[calc(100%-60px)] bg-white lg:w-[calc(100%-120px)]"
+    ></div>
 
     <div class="w-full py-[60px]">
       <div
-        class="pl-[204px]"
+        class="px-[30px] lg:pl-[204px]"
         data-aos="slide-right"
       >
         <div
-          class="font-NotoSansJP text-deep_blue font-feature-settings-cilg-liga text-[1rem] leading-normal font-[400]"
+          class="font-NotoSansJP font-feature-settings-cilg-liga text-deep_blue text-[1rem] leading-normal font-[400]"
         >
           応募から採用までの流れをご説明しています。
         </div>
@@ -27,7 +29,7 @@
           item.subheading
         }}</the-page-min-title2>
         <div
-          class="pl-[204px]"
+          class="px-[30px] lg:pl-[204px]"
           data-aos="slide-right"
         >
           <p class="mt-[30px]">
@@ -47,7 +49,7 @@
         </div>
       </div>
       <div
-        class="pl-[204px]"
+        class="px-[30px] lg:pl-[204px]"
         data-aos="slide-right"
       >
         <hr class="hr mt-[30px]" />
