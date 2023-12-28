@@ -1,14 +1,16 @@
 <template>
   <div
     id="InexperiencedPerson"
-    class="font-NotoSansJP text-deep_blue relative h-auto flex justify-center"
+    class="font-NotoSansJP text-deep_blue relative h-auto flex justify-center px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div class="absolute z-[-1] h-full w-[calc(100%-120px)] bg-white"></div>
+    <div
+      class="absolute z-[-1] h-full w-[calc(100%-60px)] bg-white lg:w-[calc(100%-120px)]"
+    ></div>
     <div class="w-full">
       <ThePageMinTitle2 data-aos="fade-up">未経験者</ThePageMinTitle2>
       <div
-        class="px-[90px]"
+        class="px-[30px] lg:px-[90px]"
         data-aos="fade-up"
       >
         <div class="mt-[60px] text-[1rem] leading-[2rem] font-[400]">
@@ -20,9 +22,11 @@
             ため、常に努力を行っております。
           </p>
         </div>
-        <div class="mt-[60px] w-full flex justify-between leading-[2rem]">
+        <div
+          class="mt-[60px] w-full flex flex-col leading-[2rem] lg:flex-row lg:justify-between"
+        >
           <div
-            class="w-[calc(100%-400px)]"
+            class="order-1 mt-[30px] w-full lg:order-0 lg:mt-0 lg:w-[calc(100%-400px)]"
             data-aos="fade-up"
           >
             <TheIconList
@@ -33,10 +37,12 @@
               {{ item.list }}
             </TheIconList>
           </div>
-          <div class="relative h-[410px] w-[370px] flex justify-center">
+          <div
+            class="relative order-0 mt-[30px] h-[410px] w-full flex justify-center lg:order-1 lg:mt-0 lg:w-[370px]"
+          >
             <div
               data-aos="fade-up"
-              class="relative h-[410px] w-[310px] flex justify-center bg-[#DFE4F2]"
+              class="relative w-[250px] flex justify-center bg-[#DFE4F2] lg:h-[410px] lg:w-[310px] md:h-[410px] md:w-[300px]"
             >
               <img
                 class="absolute top-[50px] h-[160px] w-[160px]"
@@ -46,7 +52,7 @@
             </div>
             <div
               data-aos="fade-up"
-              class="absolute bottom-[30px] h-[144px] w-full flex flex-col items-center justify-center bg-[#6785C1] p-[20px] text-[1.25rem] leading-normal font-[700] text-[#fff]"
+              class="absolute bottom-[30px] h-[144px] w-full flex flex-col items-center justify-center bg-[#6785C1] p-[20px] text-[1rem] leading-normal font-[700] text-[#fff] md:w-[380px] lg:text-[1.25rem]"
             >
               <p>意欲のある方であれば、</p>
               <p>是非ともご応募ください。</p>
@@ -55,6 +61,7 @@
           </div>
         </div>
         <div
+          v-if="MAIN_CONTENT_WIDTH === 1200"
           data-aos="fade-up"
           class="text-deep_blue mt-[60px] w-full text-[1rem] leading-[2rem] font-[400]"
         >
@@ -65,13 +72,13 @@
                 :key="index"
               >
                 <th
-                  class="bg-[#DFE4F2] px-[30px] py-[12px] text-left font-[400]"
+                  class="bg-[#DFE4F2] p-[10px] text-left font-[400] lg:px-[30px] lg:py-[12px]"
                 >
                   <div class="h-full w-full flex">
                     {{ item.title }}
                   </div>
                 </th>
-                <td class="px-[30px] py-[12px]">
+                <td class="p-[10px] lg:px-[30px] lg:py-[12px]">
                   <div
                     v-for="(items, i) in item.content"
                     :key="i"
@@ -93,6 +100,10 @@
             </tbody>
           </table>
         </div>
+        <SocialTablePhone
+          v-else
+          :data="TableData"
+        />
       </div>
     </div>
   </div>
@@ -101,6 +112,7 @@
 import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 import { List, TableType } from '../types/index'
+import SocialTablePhone from './SocialTablePhone.vue'
 
 const ListData = ref<List[]>([
   {
