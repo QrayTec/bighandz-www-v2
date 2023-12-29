@@ -31,7 +31,7 @@
           </photo-provider>
         </div>
         <div
-          class="mt-[60px] px-[30px] text-[.875rem] leading-normal font-[400] lg:px-[90px]"
+          class="mt-[60px] text-[.875rem] leading-normal font-[400] lg:px-[90px]"
         >
           <div data-aos="fade-up">
             <div>※通勤手当別途支給。</div>
