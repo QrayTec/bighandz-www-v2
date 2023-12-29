@@ -17,6 +17,9 @@ import WebfontDownload from 'vite-plugin-webfont-dl'
 import tailwindcss from 'tailwindcss'
 
 export default defineConfig({
+  server: {
+    host: '0.0.0.0'
+  },
   build: {
     rollupOptions: {
       output: {

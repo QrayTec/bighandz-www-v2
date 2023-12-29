@@ -51,7 +51,14 @@
               >
                 <div>
                   <div class="text-[1.25rem] leading-normal font-[700]">
+                    <div
+                      v-if="index == 2 || index == 1"
+                      @click="ShowInfo(index)"
+                    >
+                      {{ item.title }}
+                    </div>
                     <router-link
+                      v-if="index !== 2 && index !== 1"
                       :to="item.href"
                       @click="
                         item.href !== ''

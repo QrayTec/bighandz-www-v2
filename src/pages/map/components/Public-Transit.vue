@@ -13,7 +13,7 @@
       class="mt-[60px] w-full flex flex-col lg:flex-row lg:justify-between"
       data-aos="fade-up"
     >
-      <div class="w-full lg:w-[calc(50%-30px)]">
+      <div class="order-1 w-full lg:order-0 lg:w-[calc(50%-30px)]">
         <TheIconList class="mt-[30px]"
           >東京メトロ「東西線」茅場町駅3番出口徒歩10分</TheIconList
         >
@@ -25,7 +25,7 @@
         >
       </div>
       <div
-        class="mt-[30px] h-[215px] w-full lg:mt-0 lg:h-[380px] lg:w-[calc(50%-30px)] md:h-[360px]"
+        class="order-0 mt-[30px] h-[215px] w-full lg:order-1 lg:mt-0 lg:h-[380px] lg:w-[calc(50%-30px)] md:h-[360px]"
       >
         <iframe
           class="h-full w-full"
@@ -47,7 +47,9 @@
       class="mt-[60px] w-full flex flex-col lg:flex-row lg:justify-between"
       data-aos="fade-up"
     >
-      <div class="order-1 w-full lg:order-0 lg:w-[calc(50%-30px)]">
+      <div
+        class="order-1 mt-[30px] w-full lg:order-0 lg:mt-0 lg:w-[calc(50%-30px)]"
+      >
         <div>
           <TheIconList>東京駅八重洲口から</TheIconList>
           <div
@@ -78,7 +80,7 @@
         </div>
       </div>
       <div
-        class="order-1 mt-[30px] w-full lg:order-0 lg:mt-0 lg:w-[calc(50%-30px)]"
+        class="order-0 mt-[30px] w-full lg:order-1 lg:mt-0 lg:w-[calc(50%-30px)]"
       >
         <img src="@/assets/images/map/bus_2.png" />
       </div>
@@ -89,31 +91,35 @@
       class="mt-[60px]"
       >無料シャトルバス
     </ThePageMinTitle>
-    <div class="text-deep_blue mt-[60px] text-[1rem] font-[400]">
-      <p>
-        「東京ダイヤビルディング」には、無料シャトルバスが運行しております。
-      </p>
-      <p class="mt-[2rem]">運行ルートについて、下図を参照してください。</p>
-    </div>
-    <div
-      class="mt-[60px]"
-      data-aos="fade-up"
-    >
-      <img
-        v-if="MAIN_CONTENT_WIDTH === 1200"
-        src="@/assets/images/map/bus_timer_map.png"
-      />
-      <photo-provider v-else>
-        <photo-consumer
-          intro="無料シャトルバス"
-          :src="BusTimerMap"
-        >
-          <img
+    <div class="flex flex-col">
+      <div
+        class="text-deep_blue order-1 mt-[30px] text-[1rem] font-[400] lg:order-0 lg:mt-[60px]"
+      >
+        <p>
+          「東京ダイヤビルディング」には、無料シャトルバスが運行しております。
+        </p>
+        <p class="mt-[2rem]">運行ルートについて、下図を参照してください。</p>
+      </div>
+      <div
+        class="order-0 mt-[60px] lg:order-1"
+        data-aos="fade-up"
+      >
+        <img
+          v-if="MAIN_CONTENT_WIDTH === 1200"
+          src="@/assets/images/map/bus_timer_map.png"
+        />
+        <photo-provider v-else>
+          <photo-consumer
+            intro="無料シャトルバス"
             :src="BusTimerMap"
-            class="view-box"
-          />
-        </photo-consumer>
-      </photo-provider>
+          >
+            <img
+              :src="BusTimerMap"
+              class="view-box"
+            />
+          </photo-consumer>
+        </photo-provider>
+      </div>
     </div>
     <div
       class="mt-[30px]"
@@ -152,7 +158,7 @@
                 v-for="(item, index) in BusTimerData1"
                 :key="index"
               >
-                <td class="text-cobalt_blue td_1 text-[1rem] font-[700]">
+                <td class="td_1 text-cobalt_blue text-[1rem] font-[700]">
                   {{ item.title }}
                 </td>
                 <td

@@ -29,7 +29,7 @@
         </div>
         <div
           v-if="MAIN_CONTENT_WIDTH === 1200"
-          class="shadow-Graduates relative w-[500px] translate-y-[-50px] bg-[#597BE5] py-[20px] text-center lg:px-[90px]"
+          class="shadow-Graduates relative h-[60px] w-[500px] translate-y-[-50px] bg-[#597BE5] py-[20px] text-center lg:h-[100px] lg:px-[90px]"
         >
           <img
             class="absolute left-0 top-[-10px]"
@@ -44,7 +44,7 @@
         </div>
         <div
           v-else
-          class="shadow-Graduates relative w-full translate-y-[-40px] bg-[#597BE5] py-[20px] text-center md:w-[500px] md:translate-y-[-70px] lg:px-[90px]"
+          class="shadow-Graduates relative h-[80px] w-full translate-y-[-40px] bg-[#597BE5] text-center md:w-[500px] md:translate-y-[-70px] lg:px-[90px]"
         >
           <img
             class="absolute left-0 top-[-5px]"
@@ -54,14 +54,16 @@
             class="absolute right-0 top-[-5px]"
             src="@/assets/images/graduate-recruitment/Graduates_top_2_2.svg"
           />
-          <p>株式会社ビッグハンズ</p>
-          <p>人事部 新卒採用担当者</p>
+          <div class="h-full w-full flex flex-col items-center justify-center">
+            <p>株式会社ビッグハンズ</p>
+            <p>人事部 新卒採用担当者</p>
+          </div>
         </div>
       </div>
       <div v-if="MAIN_CONTENT_WIDTH === 1200">
         <div
           data-aos="fade-up"
-          class="relative mt-[3.75rem] h-[12.5rem] w-full flex text-[.875rem] leading-normal font-[400]"
+          class="relative mt-[60px] h-[12.5rem] w-full flex text-[.875rem] leading-normal font-[400]"
         >
           <img
             class="absolute left-0 top-[-10px] text-[1rem]"

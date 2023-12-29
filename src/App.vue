@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { onMounted } from 'vue'
 import { useHead } from '@vueuse/head'
 
 // https://github.com/vueuse/head
@@ -16,6 +17,26 @@ useHead({
       href: '/icon.svg'
     }
   ]
+})
+// 禁止缩放
+onMounted(() => {
+  document.addEventListener('touchstart', event => {
+    if (event.touches.length > 1) {
+      event.preventDefault()
+    }
+  })
+  let lastTouchEnd = 0
+  document.addEventListener(
+    'touchend',
+    event => {
+      const now = new Date().getTime()
+      if (now - lastTouchEnd <= 300) {
+        event.preventDefault()
+      }
+      lastTouchEnd = now
+    },
+    false
+  )
 })
 </script>
 

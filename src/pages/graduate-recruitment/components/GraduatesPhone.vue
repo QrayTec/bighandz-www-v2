@@ -1,5 +1,5 @@
 <template>
-  <div class="font-NotoSansJP w-full">
+  <div class="font-NotoSansJP mt-[30px] w-full">
     <div
       v-for="(item, index) in GraduatesPhoneData"
       :key="index"
