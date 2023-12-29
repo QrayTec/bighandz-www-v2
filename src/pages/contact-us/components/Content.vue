@@ -1,6 +1,6 @@
 <template>
   <div
-    class="font-NotoSansJP"
+    class="font-NotoSansJP px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
     <div class="text-[1rem] leading-[2rem] font-[400]">
@@ -62,8 +62,8 @@
         </div>
       </div>
       <div class="mt-[60px]">
-        <div class="flex justify-between">
-          <div class="mx-[20px] flex flex-col">
+        <div class="flex flex-col lg:flex-row lg:justify-between">
+          <div class="mx-[20px] mt-[30px] flex flex-col lg:mt-0">
             <div class="flex text-[1rem]">
               <div>氏名:</div>
               <div class="text-red">*</div>
@@ -72,12 +72,12 @@
               <input
                 v-model="name"
                 placeholder="例:ビッグハンズ"
-                class="mt-[20px] h-[50px] w-[240px] border rounded-[12px]"
+                class="h-[50px] w-full border rounded-[12px] lg:mt-[20px] lg:w-[240px]"
                 type="text"
               />
             </div>
           </div>
-          <div class="mx-[20px] flex flex-col">
+          <div class="mx-[20px] mt-[30px] flex flex-col lg:mt-0">
             <div class="flex text-[1rem]">
               <div>件名:</div>
               <div class="text-red">*</div>
@@ -86,12 +86,12 @@
               <input
                 v-model="EmailTitle"
                 placeholder="件名"
-                class="mt-[20px] h-[50px] w-[240px] border rounded-[12px]"
+                class="h-[50px] w-full border rounded-[12px] lg:mt-[20px] lg:w-[240px]"
                 type="text"
               />
             </div>
           </div>
-          <div class="mx-[20px] flex flex-col">
+          <div class="mx-[20px] mt-[30px] flex flex-col lg:mt-0">
             <div class="flex text-[1rem]">
               <div>メールアドレス:</div>
               <div class="text-red">*</div>
@@ -100,12 +100,12 @@
               <input
                 v-model="Email"
                 placeholder="例:mail@example.com  "
-                class="mt-[20px] h-[50px] w-[240px] border rounded-[12px]"
+                class="h-[50px] w-full border rounded-[12px] lg:mt-[20px] lg:w-[240px]"
                 type="text"
               />
             </div>
           </div>
-          <div class="mx-[20px] flex flex-col">
+          <div class="mx-[20px] mt-[30px] flex flex-col lg:mt-0">
             <div class="flex text-[1rem]">
               <div>電話番号:</div>
               <div class="text-red">*</div>
@@ -114,13 +114,13 @@
               <input
                 v-model="PhoneNumber"
                 placeholder="例:090-0000-0000"
-                class="mt-[20px] h-[50px] w-[240px] border rounded-[12px]"
+                class="h-[50px] w-full border rounded-[12px] lg:mt-[20px] lg:w-[240px]"
                 type="text"
               />
             </div>
           </div>
         </div>
-        <div class="mx-[20px] mt-[40px] flex flex-col">
+        <div class="mx-[20px] mt-[30px] flex flex-col lg:mt-[40px]">
           <div class="flex text-[1rem]">
             <div>メッセージ:</div>
             <div class="text-red">*</div>
@@ -128,7 +128,7 @@
           <div>
             <textarea
               v-model="Content"
-              class="w-full border"
+              class="w-full border rounded-[12px]"
               placeholder="情報を入力してください"
               cols="30"
               rows="10"
@@ -136,7 +136,7 @@
           </div>
         </div>
       </div>
-      <div class="font-NotoSansJP mt-[20px] w-full px-[20px]">
+      <div class="font-NotoSansJP w-full px-[20px] lg:mt-[20px]">
         <div>
           <input
             id="checkbox"
@@ -149,7 +149,7 @@
             >同意する
           </label>
           <button
-            class="mt-[20px] max-w-[200px] flex items-center px-[30px] py-[20px]"
+            class="max-w-[200px] flex items-center px-[30px] py-[20px] lg:mt-[20px]"
             :disabled="!agreed"
             :class="{
               'bg-[#597be5]': agreed,
