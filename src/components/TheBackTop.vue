@@ -6,7 +6,7 @@
       offset: -120
     }"
     href="#app"
-    class="fixed bottom-[150px] right-[0px] z-9 h-[64px] w-[64px] flex cursor-pointer items-center justify-center bg-[#597be5] transition-all duration-300 hover:bg-[#31437c]"
+    class="fixed bottom-[150px] right-[0px] z-7 h-[64px] w-[64px] flex cursor-pointer items-center justify-center bg-[#597be5] transition-all duration-300 hover:bg-[#31437c]"
   >
     <img
       src="/src/assets/images/back_top.svg"

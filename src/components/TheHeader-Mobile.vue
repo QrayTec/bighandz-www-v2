@@ -110,7 +110,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
 
 interface HeaderInfoList {
@@ -172,4 +172,15 @@ function ShowInfo(index: number) {
   HeaderMobileInfo.value[index].InfoFlag =
     !HeaderMobileInfo.value[index].InfoFlag
 }
+// 关闭menu 关闭全部标签
+watch(HeaderInfoFlag, newRoute => {
+  if (!newRoute) {
+    for (let i = 0; i < HeaderMobileInfo.value.length; i++) {
+      const info = HeaderMobileInfo.value[i]
+      if (info.InfoFlag) {
+        info.InfoFlag = false
+      }
+    }
+  }
+})
 </script>
