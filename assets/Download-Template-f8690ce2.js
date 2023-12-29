@@ -1,1 +1,0 @@
-import{_ as o}from"./Download-Template.vue_vue_type_script_setup_true_lang-42dda09c.js";import"./TheDownloadBtn.vue_vue_type_script_setup_true_lang-edb38182.js";import"./app-7cd9e46d.js";import"./video-chunk-b633910e.js";import"./ThePageMinTitle2.vue_vue_type_script_setup_true_lang-fb8b3f52.js";export{o as default};
