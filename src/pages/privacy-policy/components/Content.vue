@@ -3,11 +3,7 @@
     class="font-NotoSansJP px-[15px] lg:px-0"
     :style="{ width: MAIN_CONTENT_WIDTH + 'px' }"
   >
-    <div
-      class="h-[80px] w-[380px] flex items-center justify-center bg-[#597be5] text-[36px] leading-[36px] font-[700] text-white"
-    >
-      個人情報保護方針
-    </div>
+    <ThePageMinTitle> 個人情報保護方針 </ThePageMinTitle>
     <div class="mt-[30px]">
       当社は『中国と⽇本の橋渡し役に』をスローガンに、幅広くソフトウェア開発事業を⾏っております。お客様が満⾜できるサービスを提供し、かつ
       個⼈を尊重し⼈材の育成と技術を軸として、お客様に満⾜される関係を構築し独⾃の市場を創造出来るSI
