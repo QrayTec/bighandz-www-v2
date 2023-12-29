@@ -1,0 +1,1 @@
+import{_ as o}from"./Platforms-Config.vue_vue_type_script_setup_true_lang-afa18389.js";import"./ThePageMinTitle3-f28bef44.js";import"./app-2faf0410.js";import"./video-chunk-b633910e.js";export{o as default};
