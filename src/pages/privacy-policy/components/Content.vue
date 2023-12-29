@@ -60,7 +60,10 @@
         </div>
       </div>
       <div class="mt-[30px]">
-        <table class="min-w-full divide-y divide-gray-200">
+        <table
+          v-if="MAIN_CONTENT_WIDTH === 1200"
+          class="min-w-full divide-y divide-gray-200"
+        >
           <thead class="bg-gray-50">
             <tr>
               <th
@@ -79,55 +82,32 @@
           </thead>
           <tbody class="bg-white divide-y divide-gray-200">
             <!-- 行1 -->
-            <tr class="bg-blue-50">
-              <td class="whitespace-nowrap px-6 py-4">お取引先担当者様情報</td>
+            <tr
+              v-for="(item, index) in TablePhoneData1"
+              :key="index"
+              :class="item.ClassName"
+            >
+              <td class="whitespace-nowrap px-6 py-4">{{ item.list_1 }}</td>
               <td class="whitespace-nowrap px-6 py-4">
-                発注内容確認のため（通信記録等）
-              </td>
-            </tr>
-
-            <!-- 行2 -->
-            <tr class="bg-green-50">
-              <td class="whitespace-nowrap px-6 py-4">当社従業員情報</td>
-              <td class="whitespace-nowrap px-6 py-4">
-                社員の人事労務管理、業務管理、健康管理、セキュリティ管理のため
-              </td>
-            </tr>
-
-            <!-- 行3 -->
-            <tr class="bg-yellow-50">
-              <td class="whitespace-nowrap px-6 py-4">
-                開発パートナー（個人事業主）情報
-              </td>
-              <td class="whitespace-nowrap px-6 py-4">業務管理のため</td>
-            </tr>
-
-            <!-- 行4 -->
-            <tr class="bg-pink-50">
-              <td class="whitespace-nowrap px-6 py-4">
-                当社への採用応募者情報
-              </td>
-              <td class="whitespace-nowrap px-6 py-4">
-                採用応募者への連絡と当社の採用業務管理のため
-              </td>
-            </tr>
-
-            <!-- 行5 -->
-            <tr class="bg-purple-50">
-              <td class="whitespace-nowrap px-6 py-4">特定個人情報</td>
-              <td class="whitespace-nowrap px-6 py-4">
-                番号利用法に定められた利用目的のため
+                {{ item.list_2 }}
               </td>
             </tr>
           </tbody>
         </table>
+        <TablePhone
+          v-else
+          :data="TablePhoneData1"
+        />
       </div>
       <div class="ml-[2rem] mt-[60px] flex">
         <div>（2）</div>
         <div>前項以外の方法によって取得する個人情報の利用目的</div>
       </div>
       <div class="mt-[30px]">
-        <table class="min-w-full divide-y divide-gray-200">
+        <table
+          v-if="MAIN_CONTENT_WIDTH === 1200"
+          class="min-w-full divide-y divide-gray-200"
+        >
           <thead class="bg-gray-50">
             <tr>
               <th
@@ -146,32 +126,22 @@
           </thead>
           <tbody class="bg-white divide-y divide-gray-200">
             <!-- 行1 -->
-            <tr class="bg-blue-50">
+            <tr
+              v-for="(item, index) in TablePhoneData2"
+              :key="index"
+              :class="item.ClassName"
+            >
+              <td class="whitespace-nowrap px-6 py-4">{{ item.list_1 }}</td>
               <td class="whitespace-nowrap px-6 py-4">
-                業務の受託に伴い、お客様からお預かりする個人情報
+                {{ item.list_2 }}
               </td>
-              <td class="whitespace-nowrap px-6 py-4">
-                委託された当該業務を適切に遂行するため
-              </td>
-            </tr>
-
-            <!-- 行2 -->
-            <tr class="bg-green-50">
-              <td class="whitespace-nowrap px-6 py-4">
-                人材紹介会社からご提供頂く個人情報
-              </td>
-              <td class="whitespace-nowrap px-6 py-4">
-                当社へ入社を希望される方の採用に関する業務を行うため
-              </td>
-            </tr>
-
-            <!-- 行3 -->
-            <tr class="bg-yellow-50">
-              <td class="whitespace-nowrap px-6 py-4">協力会社技術者情報</td>
-              <td class="whitespace-nowrap px-6 py-4">業務管理のため</td>
             </tr>
           </tbody>
         </table>
+        <TablePhone
+          v-else
+          :data="TablePhoneData2"
+        />
       </div>
     </div>
     <div class="mt-[60px]">
@@ -200,7 +170,10 @@
 
       <div>
         <div>ｃ）全ての保有個人データの利用目的</div>
-        <table class="min-w-full divide-y divide-gray-200">
+        <table
+          v-if="MAIN_CONTENT_WIDTH === 1200"
+          class="min-w-full divide-y divide-gray-200"
+        >
           <thead class="bg-gray-50">
             <tr>
               <th
@@ -219,30 +192,22 @@
           </thead>
           <tbody class="bg-white divide-y divide-gray-200">
             <!-- 行1 -->
-            <tr class="bg-blue-50">
-              <td class="whitespace-nowrap px-6 py-4">お取引先担当者様情報</td>
+            <tr
+              v-for="(item, index) in TablePhoneData3"
+              :key="index"
+              :class="item.ClassName"
+            >
+              <td class="whitespace-nowrap px-6 py-4">{{ item.list_1 }}</td>
               <td class="whitespace-nowrap px-6 py-4">
-                発注内容確認のため（通信記録等）
+                {{ item.list_2 }}
               </td>
-            </tr>
-
-            <!-- 行2 -->
-            <tr class="bg-green-50">
-              <td class="whitespace-nowrap px-6 py-4">当社従業員情報</td>
-              <td class="whitespace-nowrap px-6 py-4">
-                社員の人事労務管理、業務管理、健康管理、セキュリティ管理のため
-              </td>
-            </tr>
-
-            <!-- 行3 -->
-            <tr class="bg-yellow-50">
-              <td class="whitespace-nowrap px-6 py-4">
-                開発パートナー（個人事業主）情報
-              </td>
-              <td class="whitespace-nowrap px-6 py-4">業務管理のため</td>
             </tr>
           </tbody>
         </table>
+        <TablePhone
+          v-else
+          :data="TablePhoneData3"
+        />
       </div>
 
       <div>
@@ -414,7 +379,8 @@
 import { ref } from 'vue'
 
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
-import { ListType, ContentListType } from '../types/index'
+import { ListType, ContentListType, TablePhoneType } from '../types/index'
+import TablePhone from './TablePhone.vue'
 
 const introduction = ref<ListType[]>([
   {
@@ -501,6 +467,70 @@ const content = ref<ContentListType[]>([
 を実施し、維持し、及び継続的にその改善に努めます。`
       }
     ]
+  }
+])
+
+const TablePhoneData1 = ref<TablePhoneType[]>([
+  {
+    ClassName: 'bg-blue-50',
+    list_1: 'お取引先担当者様情報',
+    list_2: '発注内容確認のため（通信記録等）'
+  },
+  {
+    ClassName: 'bg-green-50',
+    list_1: '当社従業員情報',
+    list_2: '	社員の人事労務管理、業務管理、健康管理、セキュリティ管理のため'
+  },
+  {
+    ClassName: 'bg-yellow-50',
+    list_1: '開発パートナー（個人事業主）情報',
+    list_2: '	業務管理のため'
+  },
+  {
+    ClassName: 'bg-pink-50',
+    list_1: '当社への採用応募者情報',
+    list_2: '採用応募者への連絡と当社の採用業務管理のため'
+  },
+  {
+    ClassName: 'bg-purple-50',
+    list_1: 'お取引先担当者様情報',
+    list_2: '特定個人情報'
+  }
+])
+
+const TablePhoneData2 = ref<TablePhoneType[]>([
+  {
+    ClassName: 'bg-blue-50',
+    list_1: '業務の受託に伴い、お客様からお預かりする個人情報',
+    list_2: '委託された当該業務を適切に遂行するため'
+  },
+  {
+    ClassName: 'bg-green-50',
+    list_1: '人材紹介会社からご提供頂く個人情報',
+    list_2: '	当社へ入社を希望される方の採用に関する業務を行うため'
+  },
+  {
+    ClassName: 'bg-yellow-50',
+    list_1: '協力会社技術者情報',
+    list_2: '業務管理のため'
+  }
+])
+
+const TablePhoneData3 = ref<TablePhoneType[]>([
+  {
+    ClassName: 'bg-blue-50',
+    list_1: 'お取引先担当者様情報',
+    list_2: '発注内容確認のため（通信記録等）'
+  },
+  {
+    ClassName: 'bg-green-50',
+    list_1: '当社従業員情報',
+    list_2: '	社員の人事労務管理、業務管理、健康管理、セキュリティ管理のため'
+  },
+  {
+    ClassName: 'bg-yellow-50',
+    list_1: '開発パートナー（個人事業主）情報',
+    list_2: '	業務管理のため'
   }
 ])
 </script>
