@@ -20,15 +20,6 @@ export default defineConfig({
   server: {
     host: '0.0.0.0'
   },
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'video-chunk': ['src/assets/video/main_video.mp4']
-        }
-      }
-    }
-  },
 
   css: {
     postcss: {

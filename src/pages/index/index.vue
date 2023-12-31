@@ -2,24 +2,37 @@
   <div class="index-page relative">
     <div class="index-bg">
       <div class="h-screen w-screen">
-        <img
-          v-if="MAIN_CONTENT_WIDTH < 1200"
-          ref="image"
-          class="h-full w-full object-cover"
-          src="@/assets/images/video.png"
-          alt=""
-        />
-        <video
+        <!-- <video
           v-if="MAIN_CONTENT_WIDTH == 1200"
-          v-show="!Loading"
           ref="video"
           class="h-screen w-screen object-cover"
-          :src="videoFile"
           autoplay
           loop
           muted
           playsinline
-        ></video>
+        >
+          <source src="/main_video.mp4" />
+        </video> -->
+        <div
+          v-if="MAIN_CONTENT_WIDTH == 1200"
+          class="video-container"
+        >
+          <div class="video-foreground">
+            <iframe
+              class="h-screen w-screen object-cover"
+              src="https://www.youtube.com/embed/_Sl8diqCAFw?&autoplay=1&mute=1&controls=0&playsinline=0&version=3&loop=1&playlist=_Sl8diqCAFw&rel=0"
+              frameborder="0"
+              allowfullscreen
+              allow="autoplay"
+            ></iframe>
+          </div>
+        </div>
+
+        <img
+          v-else
+          class="h-full w-full object-cover"
+          src="@/assets/images/video.png"
+        />
       </div>
     </div>
 
@@ -36,36 +49,11 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, watchEffect } from 'vue'
 import First from './components/First.vue'
 import Business from './components/Business.vue'
 import BusinessCompanies2 from './components/Business-Companies2.vue'
 import BusinessCompanies from './components/Business-Companies.vue'
-import videoFile from '@/assets/video/main_video.mp4'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
-
-const video = ref<HTMLVideoElement>()
-const image = ref<HTMLImageElement>()
-const Loading = ref<boolean>(true)
-onMounted(() => {
-  watchEffect(() => {
-    const videoElement = video.value
-    const imageElement = image.value
-
-    if (videoElement) {
-      videoElement.addEventListener('loadedmetadata', () => {
-        // 在事件回调中检查 readyState
-        if (videoElement.readyState === 1) {
-          // 视频加载完成
-          Loading.value = false
-        }
-      })
-    }
-    if (imageElement) {
-      Loading.value = false
-    }
-  })
-})
 
 defineOptions({
   name: 'IndexPage'
@@ -102,5 +90,34 @@ defineOptions({
   width: 100%;
   height: auto;
   background-color: transparent;
+}
+.video-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container iframe {
+  pointer-events: none;
+}
+.video-container iframe {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  width: 100vw;
+  height: calc(100% + 100px);
+}
+.video-foreground {
+  pointer-events: none;
 }
 </style>
