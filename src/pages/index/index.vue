@@ -19,12 +19,30 @@
         >
           <div class="video-foreground">
             <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/7yTtd981dZI?&autoplay=1&mute=1&controls=0&playsinline=0&version=3&loop=1&playlist=7yTtd981dZI&rel=0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <!-- <iframe
               class="h-screen w-screen object-cover"
-              src="https://www.youtube.com/embed/_Sl8diqCAFw?&autoplay=1&mute=1&controls=0&playsinline=0&version=3&loop=1&playlist=_Sl8diqCAFw&rel=0"
+              src="https://www.youtube.com/embed/7yTtd981dZI?&autoplay=1&mute=1&controls=0&playsinline=0&version=3&loop=1&playlist=_Sl8diqCAFw&rel=0"
               frameborder="0"
               allowfullscreen
               allow="autoplay"
-            ></iframe>
+            ></iframe> -->
+            <!-- <iframe
+              src="//player.bilibili.com/player.html?aid=213378163&bvid=BV1ma411v7Hm&cid=582587711&p=1"
+              scrolling="no"
+              border="0"
+              frameborder="no"
+              framespacing="0"
+              allowfullscreen="true"
+            >
+            </iframe> -->
           </div>
         </div>
 
