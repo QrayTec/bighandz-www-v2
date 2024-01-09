@@ -1,1 +1,0 @@
-import{_ as o}from"./Welfare.vue_vue_type_script_setup_true_lang-37dfd60f.js";import"./TheIconList.vue_vue_type_script_setup_true_lang-f7082d60.js";import"./icon_1-3ff743fe.js";import"./app-55e63c54.js";import"./ThePageMinTitle2.vue_vue_type_script_setup_true_lang-b6e93bbd.js";export{o as default};
