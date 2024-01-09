@@ -7,6 +7,7 @@
       <a
         :href="Href"
         target="_blank"
+        download="rirekisyo.xlsx"
         rel="noopener noreferrer"
         class="w-full flex items-center justify-between decoration-none"
       >
