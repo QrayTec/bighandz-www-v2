@@ -31,8 +31,8 @@
 
         <img
           v-else
-          class="h-full w-full object-cover"
-          src="@/assets/images/pic_banner.png"
+          class="h-full w-full object-cover object-[10%]"
+          src="@/assets/images/video.jpg"
         />
       </div>
     </div>
