@@ -32,7 +32,7 @@
         <img
           v-else
           class="h-full w-full object-cover"
-          src="@/assets/images/video.png"
+          src="@/assets/images/pic_banner.png"
         />
       </div>
     </div>
