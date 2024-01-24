@@ -2,7 +2,7 @@
   <div class="index-page relative">
     <div class="index-bg">
       <div class="h-screen w-screen">
-        <video
+        <!-- <video
           v-if="MAIN_CONTENT_WIDTH == 1200"
           ref="video"
           class="h-screen w-screen object-cover"
@@ -12,25 +12,9 @@
           playsinline
         >
           <source src="https://myweb-aboutme.vercel.app/main_video.mp4" />
-          <!-- <source src="/main_video.mp4" /> -->
-        </video>
-        <!-- <div
-          v-if="MAIN_CONTENT_WIDTH == 1200"
-          class="video-container"
-        >
-          <div class="video-foreground">
-            <iframe
-              class="h-screen w-screen object-cover"
-              src="https://www.youtube.com/embed/7yTtd981dZI?autoplay=1&mute=1&controls=0&playsinline=0&version=3&loop=1&playlist=7yTtd981dZI&rel=0"
-              frameborder="0"
-              allowfullscreen
-              allow="autoplay"
-            ></iframe>
-          </div>
-        </div> -->
+        </video> -->
 
         <img
-          v-else
           class="h-full w-full object-cover object-[10%]"
           src="@/assets/images/video.jpg"
         />

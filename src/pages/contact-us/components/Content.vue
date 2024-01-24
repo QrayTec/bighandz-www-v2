@@ -171,6 +171,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { MAIN_CONTENT_WIDTH } from '@/config/UI'
+import { QueryInfo } from '@/axios/methods'
 
 const agreed = ref(false)
 const name = ref('')
@@ -178,9 +179,8 @@ const EmailTitle = ref('')
 const Email = ref('')
 const PhoneNumber = ref('')
 const Content = ref('')
-const MainEmail = ref<string>('info@bighandz.co.jp')
 
-const generateMailtoLink = () => {
+const generateMailtoLink = async () => {
   if (name.value === '') {
     alert('名前が入力されていません')
     return
@@ -208,16 +208,21 @@ const generateMailtoLink = () => {
     alert('お問合わせ内容が入力されていません')
     return
   }
-  const subject = encodeURIComponent(EmailTitle.value)
-  const body = encodeURIComponent(
-    `日        期:${new Date().toLocaleDateString()}\n
-    氏         名: ${name.value}\n
-    メールアドレス: ${Email.value}\n
-    電 話 番 号: ${PhoneNumber.value}\n
-    お問合わせ内容: ${Content.value}\n
-    -----------------------Copyright © BigHandz Co.Ltd. All Rights Reserved.-----------------------`
-  )
-  window.location.href = `mailto:${MainEmail.value}?subject=${subject}&body=${body}`
+  const subject = EmailTitle.value
+  const body = `日        期:${new Date().toLocaleDateString()}\n氏         名: ${
+    name.value
+  }\nメールアドレス: ${Email.value}\n電 話 番 号: ${
+    PhoneNumber.value
+  }\nお問合わせ内容: ${
+    Content.value
+  }\n-----------------------Copyright © BigHandz Co.Ltd. All Rights Reserved.-----------------------`
+
+  const config = {
+    subject,
+    text: body
+  }
+  const data = await QueryInfo('/send-email', config)
+  alert(data.message)
 }
 </script>
 <style lang=""></style>

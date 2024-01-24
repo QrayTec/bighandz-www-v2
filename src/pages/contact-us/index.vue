@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <SubPageTitleBg :data="SubPageTitleData" />
-    <div class="my-[120px] w-full flex items-center justify-center">
+    <div class="my-[120px] w-full flex flex-col items-center justify-center">
       <Content />
     </div>
   </div>
