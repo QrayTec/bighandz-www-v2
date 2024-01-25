@@ -209,16 +209,14 @@ const generateMailtoLink = async () => {
     return
   }
   const subject = EmailTitle.value
-  const body = `日        期:${new Date().toLocaleDateString()}\n氏         名: ${
+  const body = `日 付：${new Date().toLocaleDateString()}\n氏 名: ${
     name.value
-  }\nメールアドレス: ${Email.value}\n電 話 番 号: ${
+  }\n件 名:${subject}\nメールアドレス: ${Email.value}\n電 話 番 号: ${
     PhoneNumber.value
-  }\nお問合わせ内容: ${
-    Content.value
-  }\n-----------------------Copyright © BigHandz Co.Ltd. All Rights Reserved.-----------------------`
+  }\nお問合わせ内容: ${Content.value}\n`
 
   const config = {
-    subject,
+    subject: '【お問い合わせ】',
     text: body
   }
   const data = await QueryInfo('/send-email', config)
