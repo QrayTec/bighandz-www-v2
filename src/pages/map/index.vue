@@ -33,12 +33,12 @@ const PageNavData = ref<PageNavType[]>([
   { id: 1, anchor: '#Access-Map', anchor_title: 'アクセスマップ' },
 
   { id: 2, anchor: '#TrainTravel', anchor_title: '電車で行く' },
-  { id: 3, anchor: '#BusTravel', anchor_title: 'バスで行く' },
-  {
-    id: 4,
-    anchor: '#free-shuttle-bus',
-    anchor_title: '無料シャトルバス'
-  }
+  { id: 3, anchor: '#BusTravel', anchor_title: 'バスで行く' }
+  // {
+  //   id: 4,
+  //   anchor: '#free-shuttle-bus',
+  //   anchor_title: '無料シャトルバス'
+  // }
 ])
 
 // 检测是否吸顶 修改高度

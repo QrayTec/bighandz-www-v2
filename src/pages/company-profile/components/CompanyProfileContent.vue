@@ -84,7 +84,7 @@ const CompanyProfile = ref<CompanyProfileType[]>([
     title: '住所',
     content: [
       {
-        list: '〒104-0033 東京都中央区新川1丁目28番25号 東京ダイヤビルディング3号館2F',
+        list: '〒102-0083 東京都千代田区麹町４－４－４ ACN麹町ビル６F ',
         list_icon: ''
       },
       {

@@ -69,9 +69,10 @@
           <div v-else>アクセスマップ</div>
         </div>
       </div>
+
       <div class="h-[240px] w-full lg:h-auto lg:w-[1000px] md:h-[400px]">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.0805594878275!2d139.78212521150812!3d35.6750183302007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188968200fffff%3A0x1b535c2dd2c70bfd!2sTokyo%20Dia%20Building!5e0!3m2!1szh-CN!2sus!4v1702195019670!5m2!1szh-CN!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1145.763568046491!2d139.7353320093263!3d35.68417270345427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c6316c817e3%3A0x644a9eb6de817c33!2z5pel5pys44CSMTAyLTAwODMgVG9reW8sIENoaXlvZGEgQ2l0eSwgS8WNamltYWNoaSwgNC1jaMWNbWXiiJI04oiSNCDpurnnlLrjg5Hjgrfjg5XjgqPjg4Pjgq_jg5Pjg6sgNmY!5e0!3m2!1szh-CN!2shk!4v1710836409726!5m2!1szh-CN!2shk"
           class="h-full w-full"
           style="border: 0"
           loading="lazy"
@@ -94,8 +95,8 @@ const Data = ref<industryType[]>([
     title: '住所 〒104-0033',
     Image: Address,
     content: [
-      { list: '東京都中央区新川1丁目28番25号' },
-      { list: '東京ダイヤビルディング3号館2F' }
+      { list: '東京都千代田区麹町４－４－４' },
+      { list: 'ACN麹町ビル６F' }
     ]
   },
   {

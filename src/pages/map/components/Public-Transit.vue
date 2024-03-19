@@ -15,6 +15,9 @@
     >
       <div class="order-1 w-full lg:order-0 lg:w-[calc(50%-30px)]">
         <TheIconList class="mt-[30px]"
+          >東京メトロ「東西線」麹町駅出口徒歩3分</TheIconList
+        >
+        <!-- <TheIconList class="mt-[30px]"
           >東京メトロ「東西線」茅場町駅3番出口徒歩10分</TheIconList
         >
         <TheIconList class="mt-[30px]"
@@ -22,21 +25,21 @@
         >
         <TheIconList class="mt-[30px]"
           >東京メトロ「日比谷線」八丁堀駅A4番出口徒歩7分</TheIconList
-        >
+        > -->
       </div>
       <div
         class="order-0 mt-[30px] h-[215px] w-full lg:order-1 lg:mt-0 lg:h-[380px] lg:w-[calc(50%-30px)] md:h-[360px]"
       >
         <iframe
           class="h-full w-full"
-          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3240.9869171682044!2d139.77945566150805!3d35.67732413007397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x6018895bae6c2a8d%3A0x7c332c5bb0c2cd92!2z6IyF5Zy655S6IOaXpeacrOOAkjEwMy0wMDI1IFRva3lvLCBDaHVvIENpdHksIE5paG9uYmFzaGlrYXlhYmFjaMWNLCAxLWNoxY1tZeKIkjEx!3m2!1d35.6799355!2d139.78016309999998!4m5!1s0x60188968200fffff%3A0x1b535c2dd2c70bfd!2zVG9reW8gRGlhIEJ1aWxkaW5nLCDmnbHkuqzjg4DjgqTjg6Tjg5Pjg6s05Y-36aSoIDEgQ2hvbWUtMjgg5paw5bed5Lit5aSu5Yy65Lic5Lqs6YO95pel5pys!3m2!1d35.6749931!2d139.78468569999998!5e0!3m2!1szh-CN!2sus!4v1702195374646!5m2!1szh-CN!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1620.3529010152038!2d139.7355119776595!3d35.68424538708252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x60188c7ad8b67b87%3A0x4c9861eac48e98cf!2z5pel5pys5Lic5Lqs6YO95Y2D5Luj55Sw5Yy66bq555S6IDMgQ2hvbWUsIOm6ueeUuumnhQ!3m2!1d35.6847194!2d139.7373252!4m5!1s0x60188c6316c817e3%3A0x644a9eb6de817c33!2z5pel5pys44CSMTAyLTAwODMgVG9reW8sIENoaXlvZGEgQ2l0eSwgS8WNamltYWNoaSwgNC1jaMWNbWXiiJI04oiSNCDpurnnlLrjg5Hjgrfjg5XjgqPjg4Pjgq_jg5Pjg6sgNmY!3m2!1d35.6842793!2d139.7354129!5e0!3m2!1szh-CN!2shk!4v1710836460242!5m2!1szh-CN!2shk"
           style="border: 0"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
     </div>
-    <ThePageMinIconTitle
+    <!-- <ThePageMinIconTitle
       id="BusTravel"
       class="mt-[120px]"
       :img="bus"
@@ -84,9 +87,9 @@
       >
         <img src="@/assets/images/map/bus_2.png" />
       </div>
-    </div>
+    </div> -->
 
-    <ThePageMinTitle
+    <!-- <ThePageMinTitle
       id="free-shuttle-bus"
       class="mt-[60px]"
       >無料シャトルバス
@@ -349,7 +352,7 @@
     >
       <p>※土曜・日曜・祝日は、運休といたします。</p>
       <p class="mt-[30px]">※運行ダイヤは、予告なく変更することがございます。</p>
-    </div>
+    </div> -->
   </div>
 </template>
 <script setup lang="ts">
