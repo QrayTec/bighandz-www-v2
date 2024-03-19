@@ -92,7 +92,7 @@ import Fax from '@/assets/images/associated-company/fax.svg'
 
 const Data = ref<industryType[]>([
   {
-    title: '住所 〒104-0033',
+    title: '住所 〒102-0083',
     Image: Address,
     content: [
       { list: '東京都千代田区麹町４－４－４' },
