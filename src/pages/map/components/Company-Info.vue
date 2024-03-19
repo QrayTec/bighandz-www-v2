@@ -7,10 +7,10 @@
   >
     <ThePageMinTitle>アクセスマップ </ThePageMinTitle>
     <div
-      class="lgLjustify-between mt-[60px] w-full flex flex-col lg:flex-row lg:justify-between"
+      class="mt-[60px] w-full flex flex-col lg:flex-row lg:items-center lg:justify-between"
     >
-      <div class="flex justify-center lg:w-[550px]">
-        <img src="@/assets/images/map/JP-CompanyInfo.png" />
+      <div class="flex justify-center lg:w-[550px] lg:justify-start">
+        <img src="@/assets/images/map/JP-CompanyInfo.jpg" />
       </div>
       <div class="mt-[30px] lg:mt-0 lg:w-[calc(100%-580px)]">
         <div class="text-cobalt_blue w-full text-[1rem] font-[400]">
